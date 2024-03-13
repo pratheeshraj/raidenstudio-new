@@ -14,6 +14,8 @@ import BlogSectionThree from "../components/BlogSectionThree";
 import NewsSectionTwo from "../components/NewsSectionTwo";
 import FooterSectionThree from "../components/FooterSectionThree";
 import HelmetReact from "../elements/HelmetReact";
+import HeaderTwo from "../components/HeaderTwo";
+import NewsSectionOne from "../components/NewsSectionOne";
 
 const HomeThree = () => {
   let [active, setActive] = useState(true);
@@ -30,7 +32,7 @@ const HomeThree = () => {
         {/* Helmet */}
         <HelmetReact title={"Home"} />
         {/* Header Three */}
-        <HeaderThree />
+        <HeaderTwo />
         {/* Slider Three */}
         <SliderThree />
         {/* About Section Three */}
@@ -46,13 +48,13 @@ const HomeThree = () => {
         {/* Testimonial Section Three */}
         <TestimonialSectionThree />
         {/* Price Section Two */}
-        <PriceSectionTwo />
+        {/* <PriceSectionTwo /> */}
         {/* Team Section Two */}
         <TeamSectionTwo />
         {/* Blog Section Three */}
         <BlogSectionThree />
         {/* News Section Two */}
-        <NewsSectionTwo />
+        <NewsSectionOne />
         {/* Footer Section Three */}
         <FooterSectionThree />
       </Suspense>

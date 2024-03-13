@@ -1,11 +1,33 @@
 import React, { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+import "./HeaderTwo.css"
 
 const HeaderTwo = () => {
   const [active, setActive] = useState(false);
   const [scroll, setScroll] = useState(false);
   const [rightSidebar, setRightSidebar] = useState(false);
   const [search, setSearch] = useState(false);
+
+
+  const [activeMenu, setActiveMenu] = useState("Blockchain");
+
+  const [activeMenu1, setActiveMenu1] = useState("Product");
+
+  const [activeMenu2, setActiveMenu2] = useState("Company");
+
+
+  const handleMenuHover2 = (menu2) => {
+    setActiveMenu2(menu2);
+  };
+
+  const handleMenuHover = (menu) => {
+    setActiveMenu(menu);
+  };
+
+
+  const handleMenuHover1 = (menu1) => {
+    setActiveMenu1(menu1);
+  };
 
   useEffect(() => {
     var offCanvasNav = document.getElementById("offcanvas-navigation");
@@ -35,6 +57,7 @@ const HeaderTwo = () => {
     for (let i = 0; i < numMenuExpand; i++) {
       menuExpand[i].addEventListener("click", sideMenuExpand);
     }
+
     window.onscroll = () => {
       if (window.pageYOffset < 150) {
         setScroll(false);
@@ -45,6 +68,7 @@ const HeaderTwo = () => {
     };
   }, []);
 
+
   const mobileMenu = () => {
     setActive(!active);
   };
@@ -54,6 +78,16 @@ const HeaderTwo = () => {
   const searchFun = () => {
     setSearch(!search);
   };
+
+
+
+  // const [activeSubMenu, setActiveSubMenu] = useState(null);
+
+  // const handleSubMenuHover = (submenu) => {
+  //   setActiveSubMenu(submenu);
+  // }
+
+
   return (
     <>
       <>
@@ -120,10 +154,10 @@ const HeaderTwo = () => {
                 <div className=" col-lg-3 col-md-6 col-6">
                   <div className="logo-area">
                     <div className="logo">
-                      <NavLink to="/index">
+                      <NavLink to="/index-3">
                         <img
                           className="img-fluid"
-                          src="assets/img/common/logo-white.png"
+                          src="assets/img/common/xedhb p.png"
                           alt=""
                         />
                       </NavLink>
@@ -135,9 +169,10 @@ const HeaderTwo = () => {
                     <div className="main-menu">
                       <nav>
                         <ul>
+
                           <li className="has-dropdown">
                             <Link to="#">Home</Link>
-                            <ul className="sub-menu">
+                            {/* <ul className="sub-menu">
                               <li>
                                 <NavLink
                                   to="/index"
@@ -168,167 +203,256 @@ const HeaderTwo = () => {
                                   Home Three
                                 </NavLink>
                               </li>
-                            </ul>
-                          </li>
-                          <li>
-                            <NavLink
-                              to="/about"
-                              className={(navData) =>
-                                navData.isActive ? "active" : ""
-                              }
-                            >
-                              About Us
-                            </NavLink>
+                            </ul> */}
                           </li>
                           <li className="has-dropdown">
-                            <Link to="#">Pages</Link>
+                            <Link className="nav_link" to="#">Product<i class="fa-solid fa-caret-down"></i></Link>
                             <ul className="sub-menu">
-                              <li>
-                                <NavLink
-                                  to="/team"
-                                  className={(navData) =>
-                                    navData.isActive ? "active" : ""
-                                  }
+                              <div className="sub-menu-div">
+                                <li
+                                  className={`has-dropdown ${activeMenu1 === 'Product' ? 'active' : ''}`}
+                                  onMouseEnter={() => handleMenuHover1('Product')}
+                                // onClick={() => handleMenuClick('team')}
                                 >
-                                  Team
-                                </NavLink>
-                              </li>
-                              <li>
-                                <NavLink
-                                  to="/project"
-                                  className={(navData) =>
-                                    navData.isActive ? "active" : ""
-                                  }
-                                >
-                                  Project
-                                </NavLink>
-                              </li>
-                              <li>
-                                <NavLink
-                                  to="/project-details"
-                                  className={(navData) =>
-                                    navData.isActive ? "active" : ""
-                                  }
-                                >
-                                  Project Details
-                                </NavLink>
-                              </li>
-                              <li>
-                                <NavLink
-                                  to="/service"
-                                  className={(navData) =>
-                                    navData.isActive ? "active" : ""
-                                  }
-                                >
-                                  Service
-                                </NavLink>
-                              </li>
-                              <li>
-                                <NavLink
-                                  to="/service-details"
-                                  className={(navData) =>
-                                    navData.isActive ? "active" : ""
-                                  }
-                                >
-                                  Service Details
-                                </NavLink>
-                              </li>
-                              <li>
-                                <NavLink
-                                  to="/pricing"
-                                  className={(navData) =>
-                                    navData.isActive ? "active" : ""
-                                  }
-                                >
-                                  Pricing
-                                </NavLink>
-                              </li>
-                              <li>
-                                <NavLink
-                                  to="/review"
-                                  className={(navData) =>
-                                    navData.isActive ? "active" : ""
-                                  }
-                                >
-                                  Review
-                                </NavLink>
-                              </li>
-                              <li>
-                                <NavLink
-                                  to="/faq"
-                                  className={(navData) =>
-                                    navData.isActive ? "active" : ""
-                                  }
-                                >
-                                  FAQ
-                                </NavLink>
-                              </li>
-                              <li>
-                                <NavLink
-                                  to="/404"
-                                  className={(navData) =>
-                                    navData.isActive ? "active" : ""
-                                  }
-                                >
-                                  404 Page
-                                </NavLink>
-                              </li>
+                                  <Link style={{ marginTop: "20px" }} to="#">Product</Link>
+                                </li>
+                              </div>
+                              <div className="menupar-right">
+                                {activeMenu1 === 'Product' && (
+                                  <div className="menupar-right-div">
+                                    <div className="menubar_inside_main_div">
+                                      <div className="menubar_inside_div">
+                                        <div className="menubar_inside_main_heading">Product</div>
+                                        <div className="menubar_inside_main_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsum magni, molestiae porro architecto delectus explicabo nesciunt di</div>
+
+                                        <div className="manubar_content_main_div">
+                                          <Link>
+                                            <div className="manubar_content_name">Raiden Verse</div>
+                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
+                                          </Link>
+                                          <Link>
+                                            <div className="manubar_content_name">Raiden SimX
+                                            </div>
+                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
+                                          </Link>
+                                          <Link>
+                                            <div className="manubar_content_name">Raiden GOGNI+</div>
+                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
+                                          </Link>
+                                          <Link>
+                                            <div className="manubar_content_name"> Raiden ARCVIZ</div>
+                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
+                                          </Link>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                )}
+                              </div>
                             </ul>
                           </li>
                           <li className="has-dropdown">
-                            <NavLink to="/blog-grid">Blog</NavLink>
+                            <Link className="nav_link" to="#">Service<i class="fa-solid fa-caret-down"></i></Link>
                             <ul className="sub-menu">
-                              <li>
-                                <NavLink
-                                  to="/blog-grid"
-                                  className={(navData) =>
-                                    navData.isActive ? "active" : ""
-                                  }
+                              <div className="sub-menu-div">
+                                <li
+                                  className={`has-dropdown ${activeMenu === 'Blockchain' ? 'active' : ''}`}
+                                  onMouseEnter={() => handleMenuHover('Blockchain')}
+                                // onClick={() => handleMenuClick('team')}
                                 >
-                                  Blog-Grid
-                                </NavLink>
-                              </li>
-                              <li>
-                                <NavLink
-                                  to="/blog-grid-sidebar"
-                                  className={(navData) =>
-                                    navData.isActive ? "active" : ""
-                                  }
+                                  <Link style={{ marginTop: "20px" }} to="#">Blockchain</Link>
+                                </li>
+                                <li
+                                  className={`has-dropdown ${activeMenu === 'AI' ? 'active' : ''}`}
+                                  onMouseEnter={() => handleMenuHover('AI')}
+                                // onClick={() => handleMenuClick('project1')}
                                 >
-                                  Blog-Grid Sidebar
-                                </NavLink>
-                              </li>
-                              <li>
-                                <NavLink
-                                  to="/blog-list"
-                                  className={(navData) =>
-                                    navData.isActive ? "active" : ""
-                                  }
+                                  <Link to="#">AI</Link>
+                                </li>
+                                <li
+                                  className={`has-dropdown ${activeMenu === 'XR' ? 'active' : ''}`}
+                                  onMouseEnter={() => handleMenuHover('XR')}
                                 >
-                                  Blog-List
-                                </NavLink>
-                              </li>
-                              <li>
-                                <NavLink
-                                  to="/blog-details"
-                                  className={(navData) =>
-                                    navData.isActive ? "active" : ""
-                                  }
+                                  <Link to="#">XR</Link>
+                                </li>
+                                <li
+                                  className={`has-dropdown ${activeMenu === 'Game' ? 'active' : ''}`}
+                                  onMouseEnter={() => handleMenuHover('Game')}
                                 >
-                                  Blog Details
-                                </NavLink>
-                              </li>
+                                  <Link style={{ marginBottom: "20px" }} to="#">Game</Link>
+                                </li>
+                              </div>
+                              <div className="menupar-right">
+                                {activeMenu === 'Blockchain' && (
+                                  <div className="menupar-right-div">
+                                    <div className="menubar_inside_main_div">
+                                      <div className="menubar_inside_div">
+                                        <div className="menubar_inside_main_heading">Block Chain</div>
+                                        <div className="menubar_inside_main_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsum magni, molestiae porro architecto delectus explicabo nesciunt di</div>
+                                        <div className="manubar_content_main_div">
+                                          <Link>
+                                            <div className="manubar_content_name">NFT</div>
+                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
+                                          </Link>
+                                          <Link>
+                                            <div className="manubar_content_name">NFT MARKETPLACE
+                                            </div>
+                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
+                                          </Link>
+                                          <Link>
+                                            <div className="manubar_content_name">LAYER1 and Layer 2 Solutions</div>
+                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
+                                          </Link>
+                                          <Link>
+                                            <div className="manubar_content_name">DEFI</div>
+                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
+                                          </Link>
+                                          <Link>
+                                            <div className="manubar_content_name">Metaverse</div>
+                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
+                                          </Link>
+                                          <Link>
+                                            <div className="manubar_content_name">Blockchain Games</div>
+                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
+                                          </Link>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                )}
+                                {activeMenu === 'AI' && (
+                                  <div className="menupar-right-div">
+                                    <div className="menubar_inside_main_div">
+                                      <div className="menubar_inside_div">
+                                        <div className="menubar_inside_main_heading">AI</div>
+                                        <div className="menubar_inside_main_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsum magni, molestiae porro architecto delectus explicabo nesciunt di</div>
+
+                                        <div style={{ justifyContent: "normal" }} className="manubar_content_main_div">
+                                          <Link>
+                                            <div className="manubar_content_name">Generative AI Consulting</div>
+                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
+                                          </Link>
+                                          <Link>
+                                            <div className="manubar_content_name">Generative AI Development</div>
+                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
+                                          </Link>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                )}
+                                {activeMenu === 'XR' && (
+                                  <div className="menupar-right-div">
+                                    <div className="menubar_inside_main_div">
+                                      <div className="menubar_inside_div">
+                                        <div className="menubar_inside_main_heading">XR</div>
+                                        <div className="menubar_inside_main_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsum magni, molestiae porro architecto delectus explicabo nesciunt di</div>
+
+                                        <div className="manubar_content_main_div">
+                                          <Link>
+                                            <div className="manubar_content_name">AR Solutions</div>
+                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
+                                          </Link>
+                                          <Link>
+                                            <div className="manubar_content_name">VR Solutions</div>
+                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
+                                          </Link>
+                                          <Link>
+                                            <div className="manubar_content_name">Training Simulator
+                                            </div>
+                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
+                                          </Link>
+                                          <Link>
+                                            <div className="manubar_content_name">Digital Twin</div>
+                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
+                                          </Link>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                )}
+                                {activeMenu === 'Game' && (
+                                  <div className="menupar-right-div">
+                                    <div className="menubar_inside_main_div">
+                                      <div className="menubar_inside_div">
+                                        <div className="menubar_inside_main_heading">Game</div>
+                                        <div className="menubar_inside_main_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsum magni, molestiae porro architecto delectus explicabo nesciunt di</div>
+                                        <div className="manubar_content_main_div">
+                                          <Link>
+                                            <div className="manubar_content_name">NFT</div>
+                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
+                                          </Link>
+                                          <Link>
+                                            <div className="manubar_content_name">NFT MARKETPLACE
+                                            </div>
+                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
+                                          </Link>
+                                          <Link>
+                                            <div className="manubar_content_name">LAYER1 and Layer 2 Solutions</div>
+                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
+                                          </Link>
+                                          <Link>
+                                            <div className="manubar_content_name">DEFI</div>
+                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
+                                          </Link>
+                                          <Link>
+                                            <div className="manubar_content_name">Metaverse</div>
+                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
+                                          </Link>
+                                          <Link>
+                                            <div className="manubar_content_name">Blockchain Games</div>
+                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
+                                          </Link>
+                                        </div>
+                                      </div>
+                                    </div>                                  </div>
+                                )}
+                              </div>
                             </ul>
                           </li>
-                          <li>
-                            <NavLink
-                              to="/contact"
-                              className={(navData) =>
-                                navData.isActive ? "active" : ""
-                              }
-                            >
-                              Contact
-                            </NavLink>
+                          <li className="has-dropdown">
+                            <NavLink to="/blog-grid-sidebar">Insights</NavLink>
+                          </li>
+                          <li className="has-dropdown">
+                            <Link className="nav_link" to="#">Company<i class="fa-solid fa-caret-down"></i></Link>
+                            <ul className="sub-menu">
+                              <div className="sub-menu-div">
+                                <li
+                                  className={`has-dropdown ${activeMenu2 === 'Company' ? 'active' : ''}`}
+                                  onMouseEnter={() => handleMenuHover2('Company')}
+                                // onClick={() => handleMenuClick('team')}
+                                >
+                                  <Link style={{ marginTop: "20px" }} to="#">Company</Link>
+                                </li>
+                              </div>
+                              <div className="menupar-right">
+                                {activeMenu2 === 'Company' && (
+                                  <div className="menupar-right-div">
+                                    <div className="menubar_inside_main_div">
+                                      <div className="menubar_inside_div">
+                                        <div className="menubar_inside_main_heading">Company</div>
+                                        <div className="menubar_inside_main_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsum magni, molestiae porro architecto delectus explicabo nesciunt di</div>
+                                        <div className="manubar_content_main_div">
+                                          <Link to={"/about"}>
+                                            <div className="manubar_content_name">About us
+                                            </div>
+                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
+                                          </Link>
+                                          <Link>
+                                            <div className="manubar_content_name">Carrer</div>
+                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
+                                          </Link>
+                                          <Link to={"/contact"}>
+                                            <div className="manubar_content_name">Contact us</div>
+                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
+                                          </Link>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                )}
+                              </div>
+                            </ul>
                           </li>
                         </ul>
                       </nav>
@@ -407,206 +531,282 @@ const HeaderTwo = () => {
                 <img src="assets/img/common/logo-white.png" alt="logo" />
               </NavLink>
             </div>
-            <div className="sidebar__search mb-25">
+            {/* <div className="sidebar__search mb-25">
               <form action="#">
                 <input type="text" placeholder="What are you searching for?" />
                 <button type="submit">
                   <i className="far fa-search" />
                 </button>
               </form>
-            </div>
+            </div> */}
             <nav className="offcanvas-navigation" id="offcanvas-navigation">
               <ul>
                 <li className="menu-item-has-children">
-                  <NavLink to="/index">Home</NavLink>
-                  <ul className="sub-menu">
-                    <li className="active">
-                      <NavLink
-                        to="/index"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
-                      >
-                        Home One
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink
-                        to="/index-2"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
-                      >
-                        Home Two
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink
-                        to="/index-3"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
-                      >
-                        Home Three
-                      </NavLink>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <NavLink
-                    to="/about"
-                    className={(navData) => (navData.isActive ? "active" : "")}
-                  >
-                    About Us
-                  </NavLink>
+                  <NavLink to="/">Home</NavLink>
                 </li>
                 <li className="menu-item-has-children">
-                  <Link to="#">Pages</Link>
+                  <Link to="#">Product</Link>
                   <ul className="sub-menu">
                     <li>
                       <NavLink
-                        to="/team"
+                        to="#"
                         className={(navData) =>
                           navData.isActive ? "active" : ""
                         }
                       >
-                        Team
+                        Raiden Verse
                       </NavLink>
                     </li>
                     <li>
                       <NavLink
-                        to="/project"
+                        to="#"
                         className={(navData) =>
                           navData.isActive ? "active" : ""
                         }
                       >
-                        Project
+                        Raiden SimX
                       </NavLink>
                     </li>
                     <li>
                       <NavLink
-                        to="/project-details"
+                        to="#"
                         className={(navData) =>
                           navData.isActive ? "active" : ""
                         }
                       >
-                        Project Details
+                        Raiden GOGNI+
                       </NavLink>
                     </li>
                     <li>
                       <NavLink
-                        to="/service"
+                        to="#"
                         className={(navData) =>
                           navData.isActive ? "active" : ""
                         }
                       >
-                        Service
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink
-                        to="/service-details"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
-                      >
-                        Service Details
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink
-                        to="/pricing"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
-                      >
-                        Pricing
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink
-                        to="/review"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
-                      >
-                        Review
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink
-                        to="/faq"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
-                      >
-                        FAQ
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink
-                        to="/error"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
-                      >
-                        404 Page
+                        Raiden ARCVIZ
                       </NavLink>
                     </li>
                   </ul>
                 </li>
-                <li className="has-dropdown">
-                  <Link to="/blog-grid">Blog</Link>
+                <li className="menu-item-has-children">
+                  <Link to="#">Service</Link>
                   <ul className="sub-menu">
-                    <li>
-                      <NavLink
-                        to="/blog-grid"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
-                      >
-                        Blog-Grid
-                      </NavLink>
+                    <li className="menu-item-has-children">
+                      <Link className="sub_heading_color" to="#">Blockchain</Link>
+                      <ul className="sub-menu">
+                        <li>
+                          <NavLink
+                            to="#"
+                            className={(navData) =>
+                              navData.isActive ? "active" : ""
+                            }
+                          >
+                            NFT
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink
+                            to="#"
+                            className={(navData) =>
+                              navData.isActive ? "active" : ""
+                            }
+                          >
+                            NFT MARKETPLACE
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink
+                            to="#"
+                            className={(navData) =>
+                              navData.isActive ? "active" : ""
+                            }
+                          >
+                            LAYER1 and Layer 2 Solutions
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink
+                            to="#"
+                            className={(navData) =>
+                              navData.isActive ? "active" : ""
+                            }
+                          >
+                            DEFI
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink
+                            to="#"
+                            className={(navData) =>
+                              navData.isActive ? "active" : ""
+                            }
+                          >
+                            Metaverse
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink
+                            to="#"
+                            className={(navData) =>
+                              navData.isActive ? "active" : ""
+                            }
+                          >
+                            Blockchain Games
+                          </NavLink>
+                        </li>
+                      </ul>
                     </li>
-                    <li>
-                      <NavLink
-                        to="/blog-grid-sidebar"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
-                      >
-                        Blog-Grid Sidebar
-                      </NavLink>
+                  </ul>
+                  <ul className="sub-menu">
+                    <li className="menu-item-has-children">
+                      <Link className="sub_heading_color" to="#">AI</Link>
+                      <ul className="sub-menu">
+                        <li>
+                          <NavLink
+                            to="#"
+                            className={(navData) =>
+                              navData.isActive ? "active" : ""
+                            }
+                          >
+                            Generative AI Consulting
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink
+                            to="#"
+                            className={(navData) =>
+                              navData.isActive ? "active" : ""
+                            }
+                          >
+                            Generative AI Development
+                          </NavLink>
+                        </li>
+                      </ul>
                     </li>
-                    <li>
-                      <NavLink
-                        to="/blog-list"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
-                      >
-                        Blog-List
-                      </NavLink>
+                  </ul>
+                  <ul className="sub-menu">
+                    <li className="menu-item-has-children">
+                      <Link className="sub_heading_color" to="#">XR</Link>
+                      <ul className="sub-menu">
+                        <li>
+                          <NavLink
+                            to="#"
+                            className={(navData) =>
+                              navData.isActive ? "active" : ""
+                            }
+                          >
+                            AR Solutions
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink
+                            to="#"
+                            className={(navData) =>
+                              navData.isActive ? "active" : ""
+                            }
+                          >
+                            VR Solutions
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink
+                            to="#"
+                            className={(navData) =>
+                              navData.isActive ? "active" : ""
+                            }
+                          >
+                            Training Simulato
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink
+                            to="#"
+                            className={(navData) =>
+                              navData.isActive ? "active" : ""
+                            }
+                          >
+                            Digital Twin
+                          </NavLink>
+                        </li>
+                      </ul>
                     </li>
-                    <li>
-                      <NavLink
-                        to="/blog-details"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
-                      >
-                        Blog Details
-                      </NavLink>
+                  </ul>
+                  <ul className="sub-menu">
+                    <li className="menu-item-has-children">
+                      <Link className="sub_heading_color" to="#">Game</Link>
+                      <ul className="sub-menu">
+                        <li>
+                          <NavLink
+                            to="#"
+                            className={(navData) =>
+                              navData.isActive ? "active" : ""
+                            }
+                          >
+                            (league of legends) LOL CLONE
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink
+                            to="#"
+                            className={(navData) =>
+                              navData.isActive ? "active" : ""
+                            }
+                          >
+                            (clash of clans) COC CLONE
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink
+                            to="#"
+                            className={(navData) =>
+                              navData.isActive ? "active" : ""
+                            }
+                          >
+                            Metaverse CASINO
+                          </NavLink>
+                        </li>
+                      </ul>
                     </li>
                   </ul>
                 </li>
-                <li>
-                  <NavLink
-                    to="/contact"
-                    className={(navData) => (navData.isActive ? "active" : "")}
-                  >
-                    Contact
-                  </NavLink>
+                <li className="menu-item-has-children">
+                  <NavLink to="/">Insights</NavLink>
+                </li>
+                <li className="menu-item-has-children">
+                  <Link to="#">Product</Link>
+                  <ul className="sub-menu">
+                    <li>
+                      <NavLink
+                        to="#"
+                        className={(navData) =>
+                          navData.isActive ? "active" : ""
+                        }
+                      >
+                        About us
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        to="#"
+                        className={(navData) =>
+                          navData.isActive ? "active" : ""
+                        }
+                      >
+                        Carrer                      
+                        </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        to="#"
+                        className={(navData) =>
+                          navData.isActive ? "active" : ""
+                        }
+                      >
+                        Contact us                      
+                        </NavLink>
+                    </li>
+                  </ul>
                 </li>
               </ul>
             </nav>

@@ -38,10 +38,10 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route exact path="/" element={<Demo />} />
-        <Route exact path="/index" element={<HomeOne />} />
-        <Route exact path="/index-2" element={<HomeTwo />} />
-        <Route exact path="/index-3" element={<HomeThree />} />
+        {/* <Route exact path="/" element={<Demo />} /> */}
+        {/* <Route exact path="/index" element={<HomeOne />} /> */}
+        {/* <Route exact path="/index-2" element={<HomeTwo />} /> */}
+        <Route exact path="/" element={<HomeThree />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path="/blog-list" element={<BlogList />} />

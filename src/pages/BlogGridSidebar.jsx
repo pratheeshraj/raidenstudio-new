@@ -6,6 +6,7 @@ import BlogGridSidebarSection from "../components/BlogGridSidebarSection";
 import NewsSectionOne from "../components/NewsSectionOne";
 import FooterSectionOne from "../components/FooterSectionOne";
 import HelmetReact from "../elements/HelmetReact";
+import HeaderTwo from "../components/HeaderTwo";
 
 const BlogGridSidebar = () => {
   let [active, setActive] = useState(true);
@@ -22,7 +23,7 @@ const BlogGridSidebar = () => {
         {/* Helmet */}
         <HelmetReact title={"Blog Grid Sidebar"} />
         {/* Header one */}
-        <HeaderOne />
+        <HeaderTwo />
         {/* Breadcrumb */}
         <Breadcrumb data={"Blog Grid Sidebar"} />
         {/* Blog Grid Sidebar*/}

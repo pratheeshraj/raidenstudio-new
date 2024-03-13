@@ -1,0 +1,67 @@
+.menupar-right {
+    width: 100% !important;
+    margin: 40px 20px !important;
+}
+
+/* Define styles for the menu content divs */
+.menupar-right-team,
+.menupar-right-project {
+    display: none;
+    /* Initially hide the content divs */
+}
+
+/* Show the content div when its corresponding menu item is hovered over */
+.has-dropdown:hover .menupar-right-team {
+    display: block;
+}
+
+.has-dropdown:hover .menupar-right-project {
+    display: block;
+}
+
+.sub-menu-div {
+    border-right: 3px solid #13C4A1 !important;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menubar_inside_main_div {
+    width: 100% !important;
+}
+
+.manubar_content_main_div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+}
+
+.menubar_inside_main_heading {
+    font-size: 26px;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.menubar_inside_main_paragraph {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.manubar_content_name {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.manubar_content_para {
+    font-size: 16px;
+    font-weight: 400;
+    width: 350px;
+}
+
+.sub_heading_color {
+    color: #13C4A1 !important;
+}

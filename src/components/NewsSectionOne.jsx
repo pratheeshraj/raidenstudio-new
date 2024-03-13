@@ -1,7 +1,16 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
 
 const NewsSectionOne = () => {
+
+const [newsLetter,setNewsLetter] = useState("")
+
+const handleSubmit = async (e) => {
+  e.preventDefault();  
+  console.log(newsLetter);
+}
+
+
+
   return (
     <>
       {/* News Letter One start */}
@@ -31,12 +40,18 @@ const NewsSectionOne = () => {
                 data-aos="fade-left"
                 data-aos-delay="300"
               >
-                <form action="#">
+                <form
+                 action="#"
+                 onSubmit={handleSubmit}
+                 >
                   <div className="input-box">
-                    <input type="text" placeholder="Enter Your Email Address" />
-                    <Link className="submit" to="#">
-                      Sign Up Free
-                    </Link>
+                    <input type="text" placeholder="Enter Your Email Address"
+                    value={newsLetter}
+                    onChange={(e)=>setNewsLetter(e.target.value)}
+                    />
+            
+                    <input style={{color:"white"}} className="submit" value={"submit"}  type="submit" placeholder="Submit" />
+              
                   </div>
                 </form>
               </div>

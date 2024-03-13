@@ -6,6 +6,7 @@ import FooterSectionOne from "../components/FooterSectionOne";
 import NewsSectionOne from "../components/NewsSectionOne";
 import ContactSection from "../components/ContactSection";
 import HelmetReact from "../elements/HelmetReact";
+import HeaderTwo from "../components/HeaderTwo";
 
 const Contact = () => {
   let [active, setActive] = useState(true);
@@ -22,7 +23,7 @@ const Contact = () => {
         {/* Helmet */}
         <HelmetReact title={"Contact"} />
         {/* Header one */}
-        <HeaderOne />
+        <HeaderTwo />
         {/* Breadcrumb */}
         <Breadcrumb data={"Contact"} />
         {/* Contact Section */}

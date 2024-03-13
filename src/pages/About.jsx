@@ -8,6 +8,7 @@ import CounterSectionOne from "../components/CounterSectionOne";
 import TestimonialSectionOne from "../components/TestimonialSectionOne";
 import NewsSectionOne from "../components/NewsSectionOne";
 import HelmetReact from "../elements/HelmetReact";
+import HeaderTwo from "../components/HeaderTwo";
 
 const About = () => {
   let [active, setActive] = useState(true);
@@ -24,7 +25,7 @@ const About = () => {
         {/* Helmet */}
         <HelmetReact title={"About"} />
         {/* Header one */}
-        <HeaderOne />
+        <HeaderTwo />
         {/* Breadcrumb */}
         <Breadcrumb data={"About us"} />
         {/* About Section One */}
