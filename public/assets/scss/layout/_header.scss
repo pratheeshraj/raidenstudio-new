@@ -10,15 +10,19 @@
   width: 100%;
   display: flex;
   align-items: center;
+
   @media #{$lg, $md, $sm, $xs} {
     padding: 0 30px;
   }
+
   @media #{$md, $sm, $xs} {
     padding: 0;
   }
+
   .logo-area {
     .logo {
       width: 250px;
+
       img {
         width: 100%;
         height: 100%;
@@ -26,6 +30,7 @@
       }
     }
   }
+
   // .menu-area {
   //   .main-menu {
   //     display: flex;
@@ -136,29 +141,36 @@
 
 .header-area-2 {
   background: var(--common-body-1);
+
   .header-top {
     width: 100%;
     padding: 10px 0;
     border-bottom: 1px solid var(--border-3);
+
     .left-wrapper,
     .right-wrapper {
       display: flex;
       gap: 25px;
       align-items: center;
       height: 100%;
+
       .item {
         display: flex;
         gap: 6px;
         align-items: center;
+
         span {
           font-size: 14px;
           line-height: initial;
         }
+
         &.social {
           gap: 16px;
+
           a {
             font-size: 18px;
             @include transition(0.2s);
+
             &:hover {
               color: var(--theme-1);
             }
@@ -166,6 +178,7 @@
         }
       }
     }
+
     .right-wrapper {
       justify-content: flex-end;
     }
@@ -178,6 +191,7 @@
     display: flex;
     align-items: center;
     position: relative;
+
     @media #{$md, $sm, $xs, $xss} {
       height: 80px;
       display: flex;
@@ -187,6 +201,7 @@
     .logo-area {
       .logo {
         width: 200px;
+
         img {
           width: 100%;
           height: 100%;
@@ -194,18 +209,22 @@
         }
       }
     }
+
     .menu-area {
       .main-menu {
         display: flex;
         justify-content: center;
+
         nav {
           display: block;
+
           ul {
             list-style: none;
 
             li {
               display: inline-block;
               margin-right: 25px;
+
               // position: relative;
               a {
                 // color: var(--common-white);
@@ -216,23 +235,27 @@
                 padding: 30px 0;
                 // display: inline-block;
                 @include transition(0.3s);
+
                 &:hover {
                   color: var(--theme-1);
                 }
               }
+
               &.active {
                 a {
                   color: var(--theme-1);
                 }
               }
+
               &.has-dropdown {
 
-                .nav_link{
+                .nav_link {
                   display: flex;
                   justify-content: center;
                   align-items: center;
                   gap: 5px;
                 }
+
                 a {
                   padding-right: 14px;
                   &::after {
@@ -244,13 +267,16 @@
                     color: var(--common-white);
                     font-family: "Font Awesome 6 Pro";
                   }
+
                   &:hover {
                     color: var(--theme-1);
+
                     &::after {
                       color: var(--theme-1);
                     }
                   }
                 }
+
                 ul.sub-menu {
                   position: absolute;
                   left: 0;
@@ -265,6 +291,7 @@
                   border-top: 4px solid var(--theme-1);
                   @include transition(0.2s);
                   display: flex;
+
                   .menupar-right {
                     width: 100% !important;
                     // margin: 20px;
@@ -272,7 +299,8 @@
                     display: flex;
                     flex-direction: column;
                     gap: 15px;
-                }
+                  }
+
                   li {
                     margin: 0;
                     padding: 0;
@@ -280,27 +308,38 @@
                     width: 100%;
                     display: block;
                     @include transition(0.2s);
+
                     a {
                       padding-right: 16px;
                       position: relative;
                       display: block;
-                      padding: 6px 25px;
+                      padding: 15px 25px;
+                      font-size: 16px;
                       @include transition(0.2s);
                       color: var(--text-h);
                       text-transform: capitalize;
+
                       &::after {
                         display: none;
                       }
                     }
+
                     &:hover,
                     &.active {
                       a {
-                        color: var(--theme-1);
+                        color: black;
+                        background: white;
+
+                        // border: 1px solid black;
+                        .icon_rightarrow {
+                          color: var(--theme-1)
+                        }
                       }
                     }
                   }
                 }
               }
+
               &:hover {
                 ul.sub-menu {
                   opacity: 1;
@@ -313,6 +352,7 @@
         }
       }
     }
+
     .trigger {
       display: flex;
       justify-content: flex-end;
@@ -322,6 +362,7 @@
         padding: 5px;
         line-height: initial;
         cursor: pointer;
+
         i {
           font-size: 16px;
         }
@@ -329,6 +370,7 @@
         &:first-child {
           padding-left: 15px;
           border-left: 1px solid var(--border-3);
+
           i {
             font-size: 16px;
           }
@@ -346,9 +388,11 @@
   align-items: center;
   height: 80px;
   width: 100%;
+
   .logo-area {
     .logo {
       width: 200px;
+
       img {
         width: 100%;
         height: 100%;
@@ -356,12 +400,14 @@
       }
     }
   }
+
   .menu-area {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     z-index: 99;
+
     &::after {
       position: absolute;
       content: "";
@@ -373,6 +419,7 @@
       height: 100%;
       background-repeat: no-repeat;
       background-position: center;
+
       @media #{$lg, $md, $sm, $xs, $xss} {
         right: -74px;
       }
@@ -595,10 +642,11 @@
 
 .offcanvas-navigation {
   margin-bottom: 20px;
-  & > ul {
-    & > li {
+
+  &>ul {
+    &>li {
       &.menu-item-has-children {
-        & > .sub-menu {
+        &>.sub-menu {
           height: 0;
           visibility: hidden;
           opacity: 0;
@@ -606,7 +654,7 @@
         }
 
         &.active {
-          & > .sub-menu {
+          &>.sub-menu {
             height: 100%;
             visibility: visible;
             opacity: 1;
@@ -633,16 +681,18 @@
     &.sub-menu {
       transition: 0.3s;
     }
+
     li {
       &.menu-item-has-children {
         position: relative;
         display: block;
+
         a {
           display: block;
         }
 
         &.active {
-          & > .menu-expand {
+          &>.menu-expand {
             svg {
               &:before {
                 transform: rotate(0);
@@ -661,6 +711,7 @@
           line-height: 50px;
           cursor: pointer;
           text-align: center;
+
           @media #{$xs} {
             right: 0;
           }
@@ -672,6 +723,7 @@
             position: relative;
             width: 10px;
             transition: all 250ms ease-out;
+
             &:before {
               width: 100%;
               content: "";
@@ -684,6 +736,7 @@
           }
         }
       }
+
       a {
         display: block;
         width: 100%;
