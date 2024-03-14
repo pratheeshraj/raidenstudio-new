@@ -24,6 +24,7 @@ import Service from "./pages/Service";
 import Team from "./pages/Team";
 import RouteScrollToTop from "./elements/RouteScrollToTop";
 import ScrollToTop from "react-scroll-to-top";
+import toast, { Toaster } from 'react-hot-toast';
 function App() {
   useEffect(() => {
     AOS.init({
@@ -37,6 +38,7 @@ function App() {
 
   return (
     <BrowserRouter>
+    <Toaster/>
       <Routes>
         {/* <Route exact path="/" element={<Demo />} /> */}
         {/* <Route exact path="/index" element={<HomeOne />} /> */}

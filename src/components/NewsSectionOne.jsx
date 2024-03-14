@@ -1,16 +1,20 @@
 import React, { useState } from "react";
+import { useDispatch } from "react-redux";
+import { NewsLetterGetEmail } from "../action/newsLetter";
 
 const NewsSectionOne = () => {
 
-const [newsLetter,setNewsLetter] = useState("")
+const [email,setEmail] = useState("")
+const dispatch = useDispatch()
 
 const handleSubmit = async (e) => {
+try {
   e.preventDefault();  
-  console.log(newsLetter);
+ await dispatch(NewsLetterGetEmail(email))
+} catch (error) {
+  console.log(error);
 }
-
-
-
+}
   return (
     <>
       {/* News Letter One start */}
@@ -46,8 +50,8 @@ const handleSubmit = async (e) => {
                  >
                   <div className="input-box">
                     <input type="text" placeholder="Enter Your Email Address"
-                    value={newsLetter}
-                    onChange={(e)=>setNewsLetter(e.target.value)}
+                    value={email}
+                    onChange={(e)=>setEmail(e.target.value)}
                     />
             
                     <input style={{color:"white"}} className="submit" value={"submit"}  type="submit" placeholder="Submit" />
