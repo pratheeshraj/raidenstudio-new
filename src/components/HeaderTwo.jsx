@@ -9,10 +9,48 @@ const HeaderTwo = () => {
   const [search, setSearch] = useState(false);
 
 
+  const [hoveredIndex, setHoveredIndex] = useState(null);
+
+  // product progress bar
+
+  const progressValues = [0.5, 0.5, 0.5, 0.5];
+  const productName = ["Raiden Verse", "Raiden SimX", "Raiden GOGNI+", "Raiden ARCVIZ"]
+
+
+  // service 
+
+  // block chain 
+
+  const blockchainValues = [0.5, 0.5, 0.5, 0.5, 0.5, 0.5];
+  const blockchainnames = ["NFT", "NFT MARKETPLACE", "LAYER1 and Layer 2 Solutions", "DEFI", "Metaverse", "Blockchain Games"];
+
+  // Ai
+
+  const generativeAIValues = [0.5, 0.5];
+  const generativeAINames = ["Generative AI Consulting", "Generative AI Development"];
+
+  // xr
+
+  const xrValues = [0.5, 0.5, 0.5, 0.5];
+  const xrNames = ["AR Solutions", "VR Solutions", "Training Simulator", "Digital Twin"];
+
+  // game 
+
+  const gameValues = [0.5, 0.5, 0.5];
+  const gameNames = [
+    "(league of legends) LOL CLONE",
+    "(clash of clans) COC CLONE",
+    "Metaverse CASINO"
+  ];
+
+  //  compony
+
+  const companyprogressValues = [0.5, 0.5, 0.5];
+  const CompanyNames = ["About us", "Carrer", "Contact us"];
+
+
   const [activeMenu, setActiveMenu] = useState("Blockchain");
-
   const [activeMenu1, setActiveMenu1] = useState("Product");
-
   const [activeMenu2, setActiveMenu2] = useState("Company");
 
 
@@ -154,7 +192,7 @@ const HeaderTwo = () => {
                 <div className=" col-lg-3 col-md-6 col-6">
                   <div className="logo-area">
                     <div className="logo">
-                      <NavLink to="/index-3">
+                      <NavLink to="/">
                         <img
                           className="img-fluid"
                           src="assets/img/common/xedhb p.png"
@@ -214,7 +252,7 @@ const HeaderTwo = () => {
                                   onMouseEnter={() => handleMenuHover1('Product')}
                                 // onClick={() => handleMenuClick('team')}
                                 >
-                                  <Link style={{ marginTop: "20px" }} to="#">Product</Link>
+                                  <Link className="left_content_arrow" style={{ marginTop: "20px" }} to="#">Product <i class="fa-solid fa-right-long icon_rightarrow"></i></Link>
                                 </li>
                               </div>
                               <div className="menupar-right">
@@ -223,26 +261,34 @@ const HeaderTwo = () => {
                                     <div className="menubar_inside_main_div">
                                       <div className="menubar_inside_div">
                                         <div className="menubar_inside_main_heading">Product</div>
-                                        <div className="menubar_inside_main_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsum magni, molestiae porro architecto delectus explicabo nesciunt di</div>
 
                                         <div className="manubar_content_main_div">
-                                          <Link>
-                                            <div className="manubar_content_name">Raiden Verse</div>
-                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
-                                          </Link>
-                                          <Link>
-                                            <div className="manubar_content_name">Raiden SimX
-                                            </div>
-                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
-                                          </Link>
-                                          <Link>
-                                            <div className="manubar_content_name">Raiden GOGNI+</div>
-                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
-                                          </Link>
-                                          <Link>
-                                            <div className="manubar_content_name"> Raiden ARCVIZ</div>
-                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
-                                          </Link>
+                                          {progressValues.map((value, index) => (
+                                            <Link
+                                              key={index}
+                                              // to={`/link${index}`}
+                                              onMouseEnter={() => setHoveredIndex(index)}
+                                              onMouseLeave={() => setHoveredIndex(null)}
+                                              style={{ position: 'relative', display: 'block' }}
+                                            >
+                                              <div className="manubar_content_item">
+                                                <div className="manubar_content_name">{productName[index]}</div>
+                                                <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
+                                                <div
+                                                  className="progress-bar"
+                                                  style={{
+                                                    width: hoveredIndex === index ? '100%' : `${value * 100}%`,
+                                                    position: 'absolute',
+                                                    top: '15px', // Adjust the value to position the progress bar above the link name
+                                                    left: 0,
+                                                    height: '4px',
+                                                    backgroundColor: '#13C4A1', // Change color as needed
+                                                    transition: 'width 0.3s ease-in-out',
+                                                  }}
+                                                />
+                                              </div>
+                                            </Link>
+                                          ))}
                                         </div>
                                       </div>
                                     </div>
@@ -260,26 +306,26 @@ const HeaderTwo = () => {
                                   onMouseEnter={() => handleMenuHover('Blockchain')}
                                 // onClick={() => handleMenuClick('team')}
                                 >
-                                  <Link style={{ marginTop: "20px" }} to="#">Blockchain</Link>
+                                  <Link className="left_content_arrow" style={{ marginTop: "20px" }} to="#">Blockchain <i class="fa-solid fa-right-long icon_rightarrow"></i></Link>
                                 </li>
                                 <li
                                   className={`has-dropdown ${activeMenu === 'AI' ? 'active' : ''}`}
                                   onMouseEnter={() => handleMenuHover('AI')}
                                 // onClick={() => handleMenuClick('project1')}
                                 >
-                                  <Link to="#">AI</Link>
+                                  <Link className="left_content_arrow" to="#">AI <i class="fa-solid fa-right-long icon_rightarrow"></i></Link>
                                 </li>
                                 <li
                                   className={`has-dropdown ${activeMenu === 'XR' ? 'active' : ''}`}
                                   onMouseEnter={() => handleMenuHover('XR')}
                                 >
-                                  <Link to="#">XR</Link>
+                                  <Link className="left_content_arrow" to="#">XR <i class="fa-solid fa-right-long icon_rightarrow"></i></Link>
                                 </li>
                                 <li
                                   className={`has-dropdown ${activeMenu === 'Game' ? 'active' : ''}`}
                                   onMouseEnter={() => handleMenuHover('Game')}
                                 >
-                                  <Link style={{ marginBottom: "20px" }} to="#">Game</Link>
+                                  <Link className="left_content_arrow" style={{ marginBottom: "20px" }} to="#">Game <i class="fa-solid fa-right-long icon_rightarrow"></i></Link>
                                 </li>
                               </div>
                               <div className="menupar-right">
@@ -288,33 +334,33 @@ const HeaderTwo = () => {
                                     <div className="menubar_inside_main_div">
                                       <div className="menubar_inside_div">
                                         <div className="menubar_inside_main_heading">Block Chain</div>
-                                        <div className="menubar_inside_main_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsum magni, molestiae porro architecto delectus explicabo nesciunt di</div>
                                         <div className="manubar_content_main_div">
-                                          <Link>
-                                            <div className="manubar_content_name">NFT</div>
-                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
-                                          </Link>
-                                          <Link>
-                                            <div className="manubar_content_name">NFT MARKETPLACE
-                                            </div>
-                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
-                                          </Link>
-                                          <Link>
-                                            <div className="manubar_content_name">LAYER1 and Layer 2 Solutions</div>
-                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
-                                          </Link>
-                                          <Link>
-                                            <div className="manubar_content_name">DEFI</div>
-                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
-                                          </Link>
-                                          <Link>
-                                            <div className="manubar_content_name">Metaverse</div>
-                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
-                                          </Link>
-                                          <Link>
-                                            <div className="manubar_content_name">Blockchain Games</div>
-                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
-                                          </Link>
+                                          {blockchainValues.map((value, index) => (
+                                            <Link
+                                              key={index}
+                                              // to={`/link${index}`}
+                                              onMouseEnter={() => setHoveredIndex(index)}
+                                              onMouseLeave={() => setHoveredIndex(null)}
+                                              style={{ position: 'relative', display: 'block' }}
+                                            >
+                                              <div className="manubar_content_item">
+                                                <div className="manubar_content_name">{blockchainnames[index]}</div>
+                                                <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
+                                                <div
+                                                  className="progress-bar"
+                                                  style={{
+                                                    width: hoveredIndex === index ? '100%' : `${value * 100}%`,
+                                                    position: 'absolute',
+                                                    top: '15px', // Adjust the value to position the progress bar above the link name
+                                                    left: 0,
+                                                    height: '4px',
+                                                    backgroundColor: '#13C4A1', // Change color as needed
+                                                    transition: 'width 0.3s ease-in-out',
+                                                  }}
+                                                />
+                                              </div>
+                                            </Link>
+                                          ))}
                                         </div>
                                       </div>
                                     </div>
@@ -325,17 +371,34 @@ const HeaderTwo = () => {
                                     <div className="menubar_inside_main_div">
                                       <div className="menubar_inside_div">
                                         <div className="menubar_inside_main_heading">AI</div>
-                                        <div className="menubar_inside_main_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsum magni, molestiae porro architecto delectus explicabo nesciunt di</div>
 
                                         <div style={{ justifyContent: "normal" }} className="manubar_content_main_div">
-                                          <Link>
-                                            <div className="manubar_content_name">Generative AI Consulting</div>
-                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
-                                          </Link>
-                                          <Link>
-                                            <div className="manubar_content_name">Generative AI Development</div>
-                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
-                                          </Link>
+                                          {generativeAIValues.map((value, index) => (
+                                            <Link
+                                              key={index}
+                                              // to={`/link${index}`}
+                                              onMouseEnter={() => setHoveredIndex(index)}
+                                              onMouseLeave={() => setHoveredIndex(null)}
+                                              style={{ position: 'relative', display: 'block' }}
+                                            >
+                                              <div className="manubar_content_item">
+                                                <div className="manubar_content_name">{generativeAINames[index]}</div>
+                                                <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
+                                                <div
+                                                  className="progress-bar"
+                                                  style={{
+                                                    width: hoveredIndex === index ? '100%' : `${value * 100}%`,
+                                                    position: 'absolute',
+                                                    top: '15px', // Adjust the value to position the progress bar above the link name
+                                                    left: 0,
+                                                    height: '4px',
+                                                    backgroundColor: '#13C4A1', // Change color as needed
+                                                    transition: 'width 0.3s ease-in-out',
+                                                  }}
+                                                />
+                                              </div>
+                                            </Link>
+                                          ))}
                                         </div>
                                       </div>
                                     </div>
@@ -346,26 +409,34 @@ const HeaderTwo = () => {
                                     <div className="menubar_inside_main_div">
                                       <div className="menubar_inside_div">
                                         <div className="menubar_inside_main_heading">XR</div>
-                                        <div className="menubar_inside_main_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsum magni, molestiae porro architecto delectus explicabo nesciunt di</div>
 
                                         <div className="manubar_content_main_div">
-                                          <Link>
-                                            <div className="manubar_content_name">AR Solutions</div>
-                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
-                                          </Link>
-                                          <Link>
-                                            <div className="manubar_content_name">VR Solutions</div>
-                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
-                                          </Link>
-                                          <Link>
-                                            <div className="manubar_content_name">Training Simulator
-                                            </div>
-                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
-                                          </Link>
-                                          <Link>
-                                            <div className="manubar_content_name">Digital Twin</div>
-                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
-                                          </Link>
+                                          {xrValues.map((value, index) => (
+                                            <Link
+                                              key={index}
+                                              // to={`/link${index}`}
+                                              onMouseEnter={() => setHoveredIndex(index)}
+                                              onMouseLeave={() => setHoveredIndex(null)}
+                                              style={{ position: 'relative', display: 'block' }}
+                                            >
+                                              <div className="manubar_content_item">
+                                                <div className="manubar_content_name">{xrNames[index]}</div>
+                                                <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
+                                                <div
+                                                  className="progress-bar"
+                                                  style={{
+                                                    width: hoveredIndex === index ? '100%' : `${value * 100}%`,
+                                                    position: 'absolute',
+                                                    top: '15px', // Adjust the value to position the progress bar above the link name
+                                                    left: 0,
+                                                    height: '4px',
+                                                    backgroundColor: '#13C4A1', // Change color as needed
+                                                    transition: 'width 0.3s ease-in-out',
+                                                  }}
+                                                />
+                                              </div>
+                                            </Link>
+                                          ))}
                                         </div>
                                       </div>
                                     </div>
@@ -376,36 +447,37 @@ const HeaderTwo = () => {
                                     <div className="menubar_inside_main_div">
                                       <div className="menubar_inside_div">
                                         <div className="menubar_inside_main_heading">Game</div>
-                                        <div className="menubar_inside_main_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsum magni, molestiae porro architecto delectus explicabo nesciunt di</div>
                                         <div className="manubar_content_main_div">
-                                          <Link>
-                                            <div className="manubar_content_name">NFT</div>
-                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
-                                          </Link>
-                                          <Link>
-                                            <div className="manubar_content_name">NFT MARKETPLACE
-                                            </div>
-                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
-                                          </Link>
-                                          <Link>
-                                            <div className="manubar_content_name">LAYER1 and Layer 2 Solutions</div>
-                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
-                                          </Link>
-                                          <Link>
-                                            <div className="manubar_content_name">DEFI</div>
-                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
-                                          </Link>
-                                          <Link>
-                                            <div className="manubar_content_name">Metaverse</div>
-                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
-                                          </Link>
-                                          <Link>
-                                            <div className="manubar_content_name">Blockchain Games</div>
-                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
-                                          </Link>
+                                          {gameValues.map((value, index) => (
+                                            <Link
+                                              key={index}
+                                              // to={`/link${index}`}
+                                              onMouseEnter={() => setHoveredIndex(index)}
+                                              onMouseLeave={() => setHoveredIndex(null)}
+                                              style={{ position: 'relative', display: 'block' }}
+                                            >
+                                              <div className="manubar_content_item">
+                                                <div className="manubar_content_name">{gameNames[index]}</div>
+                                                <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
+                                                <div
+                                                  className="progress-bar"
+                                                  style={{
+                                                    width: hoveredIndex === index ? '100%' : `${value * 100}%`,
+                                                    position: 'absolute',
+                                                    top: '15px', // Adjust the value to position the progress bar above the link name
+                                                    left: 0,
+                                                    height: '4px',
+                                                    backgroundColor: '#13C4A1', // Change color as needed
+                                                    transition: 'width 0.3s ease-in-out',
+                                                  }}
+                                                />
+                                              </div>
+                                            </Link>
+                                          ))}
                                         </div>
                                       </div>
-                                    </div>                                  </div>
+                                    </div>
+                                  </div>
                                 )}
                               </div>
                             </ul>
@@ -414,7 +486,7 @@ const HeaderTwo = () => {
                             <NavLink to="/blog-grid-sidebar">Insights</NavLink>
                           </li>
                           <li className="has-dropdown">
-                            <Link className="nav_link" to="#">Company<i class="fa-solid fa-caret-down"></i></Link>
+                            <Link className="nav_link" to="#">Company <i class="fa-solid fa-caret-down"></i></Link>
                             <ul className="sub-menu">
                               <div className="sub-menu-div">
                                 <li
@@ -422,7 +494,7 @@ const HeaderTwo = () => {
                                   onMouseEnter={() => handleMenuHover2('Company')}
                                 // onClick={() => handleMenuClick('team')}
                                 >
-                                  <Link style={{ marginTop: "20px" }} to="#">Company</Link>
+                                  <Link className="left_content_arrow" style={{ marginTop: "20px" }} to="#">Company <i class="fa-solid fa-right-long icon_rightarrow"></i></Link>
                                 </li>
                               </div>
                               <div className="menupar-right">
@@ -431,21 +503,33 @@ const HeaderTwo = () => {
                                     <div className="menubar_inside_main_div">
                                       <div className="menubar_inside_div">
                                         <div className="menubar_inside_main_heading">Company</div>
-                                        <div className="menubar_inside_main_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsum magni, molestiae porro architecto delectus explicabo nesciunt di</div>
                                         <div className="manubar_content_main_div">
-                                          <Link to={"/about"}>
-                                            <div className="manubar_content_name">About us
-                                            </div>
-                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
-                                          </Link>
-                                          <Link>
-                                            <div className="manubar_content_name">Carrer</div>
-                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
-                                          </Link>
-                                          <Link to={"/contact"}>
-                                            <div className="manubar_content_name">Contact us</div>
-                                            <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
-                                          </Link>
+                                          {companyprogressValues.map((value, index) => (
+                                            <Link
+                                              key={index}
+                                              to={index === 0 ? "/about" : index === 2 ? "/contact" : "#"} // Assuming index 0 is for "About us" and index 2 is for "Contact us"
+                                              onMouseEnter={() => setHoveredIndex(index)}
+                                              onMouseLeave={() => setHoveredIndex(null)}
+                                              style={{ position: 'relative', display: 'block' }}
+                                            >
+                                              <div className="manubar_content_item">
+                                                <div className="manubar_content_name">{CompanyNames[index]}</div>
+                                                <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
+                                                <div
+                                                  className="progress-bar"
+                                                  style={{
+                                                    width: hoveredIndex === index ? '100%' : `${value * 100}%`,
+                                                    position: 'absolute',
+                                                    top: '15px', // Adjust the value to position the progress bar above the link name
+                                                    left: 0,
+                                                    height: '4px',
+                                                    backgroundColor: '#13C4A1', // Change color as needed
+                                                    transition: 'width 0.3s ease-in-out',
+                                                  }}
+                                                />
+                                              </div>
+                                            </Link>
+                                          ))}
                                         </div>
                                       </div>
                                     </div>
@@ -793,8 +877,8 @@ const HeaderTwo = () => {
                           navData.isActive ? "active" : ""
                         }
                       >
-                        Carrer                      
-                        </NavLink>
+                        Carrer
+                      </NavLink>
                     </li>
                     <li>
                       <NavLink
@@ -803,8 +887,8 @@ const HeaderTwo = () => {
                           navData.isActive ? "active" : ""
                         }
                       >
-                        Contact us                      
-                        </NavLink>
+                        Contact us
+                      </NavLink>
                     </li>
                   </ul>
                 </li>
