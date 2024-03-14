@@ -4,11 +4,11 @@ const HelmetReact = ({ title }) => {
   return (
     <Helmet>
       <title>
-        {title} || FaconTech - IT Technology and IT Solutions React Template
+        {title} || raidenStudio
       </title>
       <meta
         name="description"
-        content="FaconTech - IT Technology and IT Solutions React Template"
+        content="raidenStudio"
       />
     </Helmet>
   );
