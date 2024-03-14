@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { NewsLetterGetEmail } from "../action/newsLetter";
+import NewsletterPopup from "./NewsletterPopup";
 
 const NewsSectionOne = () => {
 
@@ -17,6 +18,8 @@ try {
 }
   return (
     <>
+     {/* newsletter popuop */}
+     <NewsletterPopup/>
       {/* News Letter One start */}
       <section
         className="news-letter one"

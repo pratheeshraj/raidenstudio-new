@@ -25,6 +25,7 @@ import Team from "./pages/Team";
 import RouteScrollToTop from "./elements/RouteScrollToTop";
 import ScrollToTop from "react-scroll-to-top";
 import toast, { Toaster } from 'react-hot-toast';
+import NewsletterPopup from "./components/NewsletterPopup";
 function App() {
   useEffect(() => {
     AOS.init({

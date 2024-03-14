@@ -16,6 +16,7 @@ import FooterSectionThree from "../components/FooterSectionThree";
 import HelmetReact from "../elements/HelmetReact";
 import HeaderTwo from "../components/HeaderTwo";
 import NewsSectionOne from "../components/NewsSectionOne";
+import NewsletterPopup from "../components/NewsletterPopup";
 
 const HomeThree = () => {
   let [active, setActive] = useState(true);
