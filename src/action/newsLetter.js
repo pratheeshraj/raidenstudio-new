@@ -1,5 +1,6 @@
 import axios from "axios";
 import {
+  clearError,
   newLetterEmailFail,
   newLetterEmailRequest,
   newLetterEmailSuccess,
@@ -22,4 +23,8 @@ export const NewsLetterGetEmail = (email) => async (dispatch) => {
   } catch (error) {
     dispatch(newLetterEmailFail(error.response.data.message));
   }
+};
+
+export const clearAuthError = (dispatch) => {
+  dispatch(clearError());
 };

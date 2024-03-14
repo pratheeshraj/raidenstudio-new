@@ -26,12 +26,19 @@ import { createSlice } from "@reduxjs/toolkit";
                 error:action.payload
             }
         },
+        clearError(state, action) {
+            return {
+              ...state,
+              error: null,
+              success:null
+            };
+          },
     }
  })
 
 
  const {actions,reducer}=newsLetterSclice
 
-export const {newLetterEmailRequest,newLetterEmailSuccess,newLetterEmailFail}=actions
+export const {newLetterEmailRequest,newLetterEmailSuccess,newLetterEmailFail,clearError}=actions
 
 export default reducer

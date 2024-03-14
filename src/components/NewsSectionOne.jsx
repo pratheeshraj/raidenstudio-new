@@ -1,25 +1,36 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import { NewsLetterGetEmail } from "../action/newsLetter";
 import NewsletterPopup from "./NewsletterPopup";
+import { useSelector } from "react-redux";
 
 const NewsSectionOne = () => {
+  const { loading, error,success } = useSelector((state) => state.newsLetterState);
+  const [openPopup,setOpenPopup]=useState(false)
+  const [email, setEmail] = useState("");
+  const dispatch = useDispatch();
 
-const [email,setEmail] = useState("")
-const dispatch = useDispatch()
+  const handleSubmit = async (e) => {
+    try {
+      e.preventDefault();
+      await dispatch(NewsLetterGetEmail(email));
+    } catch (error) {
+      console.log(error);
+    }
+  };
 
-const handleSubmit = async (e) => {
-try {
-  e.preventDefault();  
- await dispatch(NewsLetterGetEmail(email))
-} catch (error) {
-  console.log(error);
-}
-}
+  useEffect(()=>{
+    if(error){
+      setOpenPopup(true)
+    }
+    if(success){
+      setOpenPopup(true)
+    }
+  },[error,success])
   return (
     <>
-     {/* newsletter popuop */}
-     <NewsletterPopup/>
+      {/* newsletter popuop */}
+      {(openPopup) && <NewsletterPopup error={error} setOpenPopup={setOpenPopup} success={success}/>}
       {/* News Letter One start */}
       <section
         className="news-letter one"
@@ -47,18 +58,22 @@ try {
                 data-aos="fade-left"
                 data-aos-delay="300"
               >
-                <form
-                 action="#"
-                 onSubmit={handleSubmit}
-                 >
+                <form action="#" onSubmit={handleSubmit}>
                   <div className="input-box">
-                    <input type="text" placeholder="Enter Your Email Address"
-                    value={email}
-                    onChange={(e)=>setEmail(e.target.value)}
+                    <input
+                      type="text"
+                      placeholder="Enter Your Email Address"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
                     />
-            
-                    <input style={{color:"white"}} className="submit" value={"submit"}  type="submit" placeholder="Submit" />
-              
+
+                    <input
+                      style={{ color: "white" }}
+                      className="submit"
+                      value={"submit"}
+                      type="submit"
+                      placeholder="Submit"
+                    />
                   </div>
                 </form>
               </div>

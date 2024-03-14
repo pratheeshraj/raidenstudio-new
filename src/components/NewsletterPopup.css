@@ -11,14 +11,31 @@
 .Newsletter_popup_div {
     position: fixed !important;
     width: 300px;
-    height: 300px;
+    height: 200px;
     background: white;
     display: flex !important;
     justify-content: center;
     align-items: center;
     z-index: 100;
     top: 50%;
+    padding: 10px;
     left: 50%;
+    flex-direction: column;
     transform: translate(-50%, -50%) !important;
     border-radius: 8px;
+}
+
+
+.Newsletter_popup_text{
+    color: red
+}
+.Newsletter_popup_text_s{
+    color: rgb(7, 146, 7);
+}
+
+.Newsletter_popup_btn{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
