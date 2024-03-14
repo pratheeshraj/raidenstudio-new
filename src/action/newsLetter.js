@@ -7,7 +7,7 @@ import {
 
 import toast, { Toaster } from "react-hot-toast";
 
-const BASE_URL = "http://localhost:4000/api";
+const BASE_URL = "https://vraiden-backend.onrender.com/api";
 
 export const NewsLetterGetEmail = (email) => async (dispatch) => {
   console.log(email);
