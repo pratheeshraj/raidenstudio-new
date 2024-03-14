@@ -73,7 +73,7 @@ const NewsSectionOne = () => {
                       value={"submit"}
                       type="submit"
                       placeholder="Submit"
-                    />
+                    /> 
                   </div>
                 </form>
               </div>
