@@ -18,45 +18,48 @@ const SliderThree = () => {
                                 prevEl: ".swiper-button-prev",
                             }}
                         >
-                            <SwiperSlide>
-                                {" "}
+                             <SwiperSlide>
                                 <div className="item-slider sliderm-height p-relative swiper-slide">
                                     <div
                                         className="slide-bg"
                                         style={{
                                             backgroundImage:
-                                                "url('assets/img/bg-image/Gaming.png')",
+                                                "url('assets/img/bg-image/Artificial Inteliigence.png')",
                                         }}
                                     />
                                     <div className="auto-container">
                                         <div className="row ">
-                                            <div className="col-lg-6">
+                                            <div className="col-lg-7">
                                                 <div className="slider-content-inner ">
-                                                    <h4 className="sub-title">The Most Personalized</h4>
-                                                    <h2 className="slider-title">
-                                                        AI Development Company &amp; Services in The World
-                                                    </h2>
-                                                    <p className="description">
-                                                        To take a trivial example, which of us ever
-                                                        undertakes laborious physical exercise, except to
-                                                        obtain some advantage from it.
-                                                    </p>
-                                                    <div className="inner-btn">
-                                                        <div>
-                                                            <Link className="default-btn" to="/contact">
-                                                                Learn More About AI
-                                                            </Link>
+                                                    <div>
+                                                        <h4 className="sub-title">The Most Personalized</h4>
+                                                        <h2 className="slider-title">
+                                                            Avenga AI services help companies create AI and
+                                                            <span className="theme-color"> ML solutions</span>
+                                                        </h2>
+                                                        <p className="description">
+                                                            To take a trivial example, which of us ever
+                                                            undertakes laborious physical exercise, except to
+                                                            obtain some advantage from it but right to find
+                                                            fault with a man who chooses enjoy. for your
+                                                            business work.
+                                                        </p>
+                                                        <div className="inner-btn">
+                                                            <div>
+                                                                <Link className="default-btn" to="/contact">
+                                                                    Explore Now
+                                                                </Link>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="col-lg-6">
+                                            <div className="col-lg-5">
                                                 <div className="slider-content-inner-right">
-                                                    <div className="img-wrapper" style={{position:"relative",top:"25px"}}>
+                                                <div className="img-wrapper" style={{position:"relative",top:"-25px"}}>
                                                         <img
-                                                            src="assets/img/bg-image/barberian.png"
+                                                            src="assets/img/bg-image/ai raiden@4x 2.png"
                                                             alt=""
-                                                            style={{height:"100%"}}
                                                         />
                                                     </div>
                                                 </div>
@@ -109,6 +112,53 @@ const SliderThree = () => {
                             </SwiperSlide>
                             <SwiperSlide>
                                 {" "}
+                                <div className="item-slider sliderm-height p-relative swiper-slide">
+                                    <div
+                                        className="slide-bg"
+                                        style={{
+                                            backgroundImage:
+                                                "url('assets/img/bg-image/Gaming.png')",
+                                        }}
+                                    />
+                                    <div className="auto-container">
+                                        <div className="row ">
+                                            <div className="col-lg-6">
+                                                <div className="slider-content-inner ">
+                                                    <h4 className="sub-title">The Most Personalized</h4>
+                                                    <h2 className="slider-title">
+                                                        AI Development Company &amp; Services in The World
+                                                    </h2>
+                                                    <p className="description">
+                                                        To take a trivial example, which of us ever
+                                                        undertakes laborious physical exercise, except to
+                                                        obtain some advantage from it.
+                                                    </p>
+                                                    <div className="inner-btn">
+                                                        <div>
+                                                            <Link className="default-btn" to="/contact">
+                                                                Learn More About AI
+                                                            </Link>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-6">
+                                                <div className="slider-content-inner-right">
+                                                    <div className="img-wrapper" style={{position:"relative",top:"25px"}}>
+                                                        <img
+                                                            src="assets/img/bg-image/barberian.png"
+                                                            alt=""
+                                                            style={{height:"100%"}}
+                                                        />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                {" "}
                                 <ParticlesComponent id="particles" />
                                 <div className="item-slider sliderm-height p-relative swiper-slide">
                                     <div
@@ -145,56 +195,7 @@ const SliderThree = () => {
                                     </div>
                                 </div>
                             </SwiperSlide>
-                            <SwiperSlide>
-                                <div className="item-slider sliderm-height p-relative swiper-slide">
-                                    <div
-                                        className="slide-bg"
-                                        style={{
-                                            backgroundImage:
-                                                "url('assets/img/bg-image/Artificial Inteliigence.png')",
-                                        }}
-                                    />
-                                    <div className="auto-container">
-                                        <div className="row ">
-                                            <div className="col-lg-7">
-                                                <div className="slider-content-inner ">
-                                                    <div>
-                                                        <h4 className="sub-title">The Most Personalized</h4>
-                                                        <h2 className="slider-title">
-                                                            Avenga AI services help companies create AI and
-                                                            <span className="theme-color"> ML solutions</span>
-                                                        </h2>
-                                                        <p className="description">
-                                                            To take a trivial example, which of us ever
-                                                            undertakes laborious physical exercise, except to
-                                                            obtain some advantage from it but right to find
-                                                            fault with a man who chooses enjoy. for your
-                                                            business work.
-                                                        </p>
-                                                        <div className="inner-btn">
-                                                            <div>
-                                                                <Link className="default-btn" to="/contact">
-                                                                    Explore Now
-                                                                </Link>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-5">
-                                                <div className="slider-content-inner-right">
-                                                <div className="img-wrapper" style={{position:"relative",top:"-25px"}}>
-                                                        <img
-                                                            src="assets/img/bg-image/ai raiden@4x 2.png"
-                                                            alt=""
-                                                        />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </SwiperSlide>
+
                         </Swiper>
                     </div>
                     {/* If we need navigation buttons */}
