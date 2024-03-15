@@ -8,19 +8,19 @@ import FooterSectionOne from "../components/FooterSectionOne";
 import HelmetReact from "../elements/HelmetReact";
 import HeaderTwo from "../components/HeaderTwo";
 import { useDispatch } from "react-redux";
-import { GetAllBlogs, GetBlogsCategory, GetRecentBlogs } from "../action/BlogAction";
+import { GetAllBlogs, GetBlogByCategory, GetBlogsCategory, GetRecentBlogs } from "../action/BlogAction";
+import BlogCategorySection from "../components/BlogCategorySection";
+import { useParams } from "react-router-dom";
 
-const BlogGridSidebar = () => {
+const BlogByCategory = () => {
   const dispatch =useDispatch()
-  
+  const { id} =useParams()
   let [active, setActive] = useState(true);
   useEffect(() => {
     setTimeout(function () {
       setActive(false);
     }, 2000);
-    dispatch(GetAllBlogs)
-    dispatch(GetRecentBlogs)
-    dispatch(GetBlogsCategory)
+    dispatch(GetBlogByCategory(id))
   }, []);
 
   return (
@@ -34,7 +34,7 @@ const BlogGridSidebar = () => {
         {/* Breadcrumb */}
         <Breadcrumb data={"Blog Grid Sidebar"} />
         {/* Blog Grid Sidebar*/}
-        <BlogGridSidebarSection />
+        <BlogCategorySection />
         {/* News Section One */}
         <NewsSectionOne />
         {/* Footer Section */}
@@ -44,4 +44,4 @@ const BlogGridSidebar = () => {
   );
 };
 
-export default BlogGridSidebar;
+export default BlogByCategory;

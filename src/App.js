@@ -26,6 +26,7 @@ import RouteScrollToTop from "./elements/RouteScrollToTop";
 import ScrollToTop from "react-scroll-to-top";
 import toast, { Toaster } from 'react-hot-toast';
 import NewsletterPopup from "./components/NewsletterPopup";
+import BlogByCategory from "./pages/BlogByCategory";
 function App() {
   useEffect(() => {
     AOS.init({
@@ -49,8 +50,9 @@ function App() {
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path="/blog-list" element={<BlogList />} />
         <Route exact path="/blog-grid" element={<BlogGrid />} />
-        <Route exact path="/blog-grid-sidebar" element={<BlogGridSidebar />} />
-        <Route exact path="/blog-details" element={<BlogDetails />} />
+        <Route exact path="/blog" element={<BlogGridSidebar />} />
+        <Route exact path="/blog/category/:id" element={<BlogByCategory />} />
+        <Route exact path="/blogdetails/:id" element={<BlogDetails />} />
         <Route exact path="/faq" element={<FAQ />} />
         <Route exact path="/pricing" element={<Pricing />} />
         <Route exact path="/project" element={<Project />} />

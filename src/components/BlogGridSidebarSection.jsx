@@ -1,14 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
+import ReactPaginate from "react-paginate";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
 const BlogGridSidebarSection = () => {
+  const [itemOffset, setItemOffset] = useState(0); 
   const { allBlogs, recentBlogs, Blogcategory } = useSelector(
     (state) => state.blogState
   );
+  const itemsPerPage = 6;
   const formatDate = (dateString) => {
     const options = { year: "numeric", month: "long", day: "numeric" };
     return new Date(dateString).toLocaleDateString("en-US", options);
+  };
+
+  const endOffset = itemOffset + itemsPerPage;
+  const currentItems = allBlogs?.slice(itemOffset, endOffset);
+  const pageCount = Math.ceil(allBlogs?.length / itemsPerPage);
+  const handlePageClick = (event) => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+    const newOffset = (event.selected * itemsPerPage) % allBlogs?.length;
+    console.log(
+      `User requested page number ${event.selected}, which is offset ${newOffset}`
+    );
+    setItemOffset(newOffset);
   };
   return (
     <>
@@ -18,7 +36,7 @@ const BlogGridSidebarSection = () => {
           <div className="row">
             <div className="col-lg-8">
               <div className="row">
-                {allBlogs?.map((data) => {
+                {currentItems?.map((data) => {
                   return (
                     <div className="col-lg-6 col-md-6 col-12">
                       <div
@@ -76,32 +94,17 @@ const BlogGridSidebarSection = () => {
                     data-aos="fade-up"
                     data-aos-delay="300"
                   >
-                    <ul>
-                      <li>
-                        <Link to="#">
-                          <i className="fa-regular fa-chevrons-left" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link className="active" to="#">
-                          1
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="#">2</Link>
-                      </li>
-                      <li>
-                        <Link to="#">3</Link>
-                      </li>
-                      <li>
-                        <Link to="#">4</Link>
-                      </li>
-                      <li>
-                        <Link to="#">
-                          <i className="fa-regular fa-chevrons-right" />
-                        </Link>
-                      </li>
-                    </ul>
+                   
+                   <ReactPaginate
+                      breakLabel="..."
+                      nextLabel=">>"
+                      onPageChange={handlePageClick}
+                      pageRangeDisplayed={5}
+                      pageCount={pageCount}
+                      previousLabel="<<"
+                      renderOnZeroPageCount={null}
+                      className="pagination"
+                    />
                   </div>
                 </div>
               </div>
