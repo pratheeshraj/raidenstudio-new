@@ -16,7 +16,7 @@ const AboutSectionThree = () => {
                 <div className="img-file">
                   <img
                     className="img-fluid "
-                    src="/assets/img/about/03_about.png"
+                    src="/assets/img/about/_e17fb051-856f-4968-a2c0-150430fd0b61 2.png"
                     alt=""
                   />
                 </div>

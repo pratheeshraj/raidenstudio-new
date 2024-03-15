@@ -2,17 +2,17 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, FreeMode, Thumbs, EffectFade } from "swiper";
 import { Link } from "react-router-dom";
+import ParticlesComponent from '../ParticlesComponent/particles';
 const SliderThree = () => {
     return (
         <>
             {/* slider-area-three-start  */}
-            <section className="hero-slider two">
+            <section className="hero-slider two" style={{marginTop:"-50px"}}>
                 <div className="swiper hero-slider-init-one swiper-container swiper-container-fade">
                     <div className="swiper-wrapper p-relative">
                         <Swiper
                             loop={true}
                             modules={[FreeMode, Navigation, Thumbs, EffectFade]}
-                            effect="fade"
                             navigation={{
                                 nextEl: ".swiper-button-next",
                                 prevEl: ".swiper-button-prev",
@@ -25,7 +25,7 @@ const SliderThree = () => {
                                         className="slide-bg"
                                         style={{
                                             backgroundImage:
-                                                "url('assets/img/bg-image/07_bg-image.jpg')",
+                                                "url('assets/img/bg-image/Gaming.png')",
                                         }}
                                     />
                                     <div className="auto-container">
@@ -52,10 +52,11 @@ const SliderThree = () => {
                                             </div>
                                             <div className="col-lg-6">
                                                 <div className="slider-content-inner-right">
-                                                    <div className="img-wrapper">
+                                                    <div className="img-wrapper" style={{position:"relative",top:"25px"}}>
                                                         <img
-                                                            src="assets/img/hero/06_hero-image.png"
+                                                            src="assets/img/bg-image/barberian.png"
                                                             alt=""
+                                                            style={{height:"100%"}}
                                                         />
                                                     </div>
                                                 </div>
@@ -71,8 +72,47 @@ const SliderThree = () => {
                                         className="slide-bg"
                                         style={{
                                             backgroundImage:
-                                                "url('assets/img/bg-image/08_bg-image.jpg')",
+                                                "url('assets/img/bg-image/metaverse.png')",
+                                                height:"135%"
                                         }}
+
+                                    />
+                                    <div className="auto-container">
+                                        <div className="row ">
+                                            <div className="col-12">
+                                                <div className="slider-content-inner middle">
+                                                    <div>
+                                                        <h4 className="sub-title">The Most Personalized</h4>
+                                                        <h2 className="slider-title">
+                                                            MetaVerse
+                                                        </h2>
+                                                        <p className="description">
+                                                            AI for customer engagement, improving customer
+                                                            service for companies with tools like AI chatbots.
+                                                            We offer AI consulting services and solutions that
+                                                            will help you achieve your business objectives
+                                                            faster.
+                                                        </p>
+                                                        <div className="inner-btn">
+                                                            <div>
+                                                                <Link className="default-btn" to="/contact">
+                                                                    Contact Us Now
+                                                                </Link>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                {" "}
+                                <ParticlesComponent id="particles" />
+                                <div className="item-slider sliderm-height p-relative swiper-slide">
+                                    <div
+                                        className="slide-bg"
                                     />
                                     <div className="auto-container">
                                         <div className="row ">
@@ -111,7 +151,7 @@ const SliderThree = () => {
                                         className="slide-bg"
                                         style={{
                                             backgroundImage:
-                                                "url('assets/img/bg-image/09_bg-image.jpg')",
+                                                "url('assets/img/bg-image/Artificial Inteliigence.png')",
                                         }}
                                     />
                                     <div className="auto-container">
@@ -143,9 +183,9 @@ const SliderThree = () => {
                                             </div>
                                             <div className="col-lg-5">
                                                 <div className="slider-content-inner-right">
-                                                    <div className="img-wrapper">
+                                                <div className="img-wrapper" style={{position:"relative",top:"-25px"}}>
                                                         <img
-                                                            src="assets/img/hero/07_hero-image.png"
+                                                            src="assets/img/bg-image/ai raiden@4x 2.png"
                                                             alt=""
                                                         />
                                                     </div>
