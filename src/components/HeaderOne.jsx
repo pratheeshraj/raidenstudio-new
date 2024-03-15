@@ -242,7 +242,7 @@ const HeaderOne = () => {
                           </li>
                           <li>
                             <NavLink
-                              to="/blog-grid-sidebar"
+                              to="/blog"
                               className={(navData) =>
                                 navData.isActive ? "active" : ""
                               }
@@ -495,7 +495,7 @@ const HeaderOne = () => {
                     </li>
                     <li>
                       <NavLink
-                        to="/blog-grid-sidebar"
+                        to="/blog"
                         className={(navData) =>
                           navData.isActive ? "active" : ""
                         }

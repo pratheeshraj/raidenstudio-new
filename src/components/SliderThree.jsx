@@ -12,7 +12,6 @@ const SliderThree = () => {
                         <Swiper
                             loop={true}
                             modules={[FreeMode, Navigation, Thumbs, EffectFade]}
-                            effect="fade"
                             navigation={{
                                 nextEl: ".swiper-button-next",
                                 prevEl: ".swiper-button-prev",

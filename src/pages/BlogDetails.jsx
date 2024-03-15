@@ -6,6 +6,7 @@ import Breadcrumb from "../components/Breadcrumb";
 import BlogDetailsSection from "../components/BlogDetailsSection";
 import NewsSectionOne from "../components/NewsSectionOne";
 import HelmetReact from "../elements/HelmetReact";
+import HeaderTwo from "../components/HeaderTwo";
 const BlogDetails = () => {
   let [active, setActive] = useState(true);
   useEffect(() => {
@@ -21,7 +22,7 @@ const BlogDetails = () => {
         {/* Helmet */}
         <HelmetReact title={"Blog Details"} />
         {/* Header one */}
-        <HeaderOne />
+        <HeaderTwo />
         {/* Breadcrumb */}
         <Breadcrumb data={"Blog Details"} />
         {/* Blog Details */}

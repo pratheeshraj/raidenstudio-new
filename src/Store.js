@@ -1,8 +1,10 @@
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
 import { thunk } from "redux-thunk";
 import newsLetterReducer from "./Slices/newsletterSclice"
+import blogReducer from "./Slices/blogSlice"
 const reducer = combineReducers({
-    newsLetterState: newsLetterReducer
+    newsLetterState: newsLetterReducer,
+    blogState: blogReducer
 })
 
 

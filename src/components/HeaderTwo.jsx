@@ -483,7 +483,7 @@ const HeaderTwo = () => {
                             </ul>
                           </li>
                           <li className="has-dropdown">
-                            <NavLink to="/blog-grid-sidebar">Insights</NavLink>
+                            <NavLink to="/blog">Insights</NavLink>
                           </li>
                           <li className="has-dropdown">
                             <Link className="nav_link" to="#">Company <i class="fa-solid fa-caret-down"></i></Link>

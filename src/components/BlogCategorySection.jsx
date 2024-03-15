@@ -3,9 +3,9 @@ import ReactPaginate from "react-paginate";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
-const BlogGridSidebarSection = () => {
+const BlogCategorySection = () => {
   const [itemOffset, setItemOffset] = useState(0); 
-  const { allBlogs, recentBlogs, Blogcategory } = useSelector(
+  const { BlogByCategory, recentBlogs, Blogcategory } = useSelector(
     (state) => state.blogState
   );
   const itemsPerPage = 6;
@@ -15,14 +15,10 @@ const BlogGridSidebarSection = () => {
   };
 
   const endOffset = itemOffset + itemsPerPage;
-  const currentItems = allBlogs?.slice(itemOffset, endOffset);
-  const pageCount = Math.ceil(allBlogs?.length / itemsPerPage);
+  const currentItems = BlogByCategory?.slice(itemOffset, endOffset);
+  const pageCount = Math.ceil(BlogByCategory?.length / itemsPerPage);
   const handlePageClick = (event) => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    });
-    const newOffset = (event.selected * itemsPerPage) % allBlogs?.length;
+    const newOffset = (event.selected * itemsPerPage) % BlogByCategory?.length;
     console.log(
       `User requested page number ${event.selected}, which is offset ${newOffset}`
     );
@@ -94,8 +90,8 @@ const BlogGridSidebarSection = () => {
                     data-aos="fade-up"
                     data-aos-delay="300"
                   >
-                   
-                   <ReactPaginate
+
+                    <ReactPaginate
                       breakLabel="..."
                       nextLabel=">>"
                       onPageChange={handlePageClick}
@@ -219,14 +215,14 @@ const BlogGridSidebarSection = () => {
                     <div className="list-inner">
                       <ul>
                         {Blogcategory?.map((value, index) => {
-                        return(
-                          <li key={index}>
-                          <Link to={`/blog/category/${value?._id}`}>
-                            <span>{value?._id}</span>
-                            <span>{value?.count}</span>
-                          </Link>
-                        </li>
-                        )
+                          return (
+                            <li key={index}>
+                              <Link to={`/blog/category/${value?._id}`}>
+                                <span>{value?._id}</span>
+                                <span>{value?.count}</span>
+                              </Link>
+                            </li>
+                          );
                         })}
                       </ul>
                     </div>
@@ -285,4 +281,4 @@ const BlogGridSidebarSection = () => {
   );
 };
 
-export default BlogGridSidebarSection;
+export default BlogCategorySection;
