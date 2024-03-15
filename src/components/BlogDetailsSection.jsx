@@ -1,8 +1,10 @@
 import React, { useEffect } from "react";
-<<<<<<< HEAD
+
 import { useDispatch, useSelector } from "react-redux";
 import { Link, useParams } from "react-router-dom";
 import { GetBlogDetails } from "../action/BlogAction";
+// import { useDispatch, useSelector } from "react-redux";
+// import { GetBlogDetails } from "../action/BlogAction";
 
 const BlogDetailsSection = () => {
   const { id } = useParams();
@@ -14,26 +16,10 @@ const BlogDetailsSection = () => {
     return <div dangerouslySetInnerHTML={{ __html: data }} />;
   };
   const { BlogDetails } = useSelector((state) => state.blogState);
-=======
-// import { useDispatch, useSelector } from "react-redux";
-import { Link, useParams } from "react-router-dom";
-// import { GetBlogDetails } from "../action/BlogAction";
-
-const BlogDetailsSection = () => {
-  // const { id } = useParams();
-  // const dispatch = useDispatch();
-  // useEffect(() => {
-  //   dispatch(GetBlogDetails(id));
-  // }, []);
-  // const getContent = (data) => {
-  //   return <div dangerouslySetInnerHTML={{ __html: data }} />;
-  // };
-  // const { BlogDetails } = useSelector((state) => state.blogState);
->>>>>>> dd80101908b06ceeb523bbb49b2eaba7af986fac
-  return (
+ return (
     <>
       {/* Blog Details Section one start */}
-      {/* <section className="blog-section details">
+      <section className="blog-section details">
         <div className="auto-container">
           <div className="row">
             <div className="col-lg-8">
@@ -310,7 +296,7 @@ const BlogDetailsSection = () => {
             <img src="/assets/img/icon/71_icon.png" alt="" />
           </div>
         </div>
-      </section> */}
+      </section>
       {/* Blog Details Section one end */}
     </>
   );
