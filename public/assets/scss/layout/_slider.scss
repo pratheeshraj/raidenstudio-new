@@ -310,7 +310,7 @@
               top: 0;
               width: 100%;
               height: 100%;
-              background: rgb(0 0 0 / 48%);
+              // background: rgb(0 0 0 / 48%);
               z-index: 9;
             }
           }
@@ -362,7 +362,7 @@
               }
               img {
                 width: 100%;
-                height: auto;
+                height: 100%;
                 object-fit: cover;
                 @media #{$lg, $md, $sm, $xs, $xss} {
                   height: auto;

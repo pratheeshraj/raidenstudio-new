@@ -141,6 +141,8 @@
 
 .header-area-2 {
   background: var(--common-body-1);
+  position: relative;
+  z-index: 999999999999999;
 
   .header-top {
     width: 100%;
