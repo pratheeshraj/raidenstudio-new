@@ -31,42 +31,34 @@ const AboutSectionThree = () => {
                 <div className="section-title-shape-one black">
                   <h3>ABOUT COMPANY</h3>
                   <h2>
-                    AI services and solutions help your internal sales teams
+                    Code and Creativity: The Dual Forces Driving World-class Blockchain Solutions
                   </h2>
                   <p>
-                    Artificial intelligence is the simulation of human
-                    intelligence processes by machines, especially computer
-                    systems. Specific applications of AI include expert systems,
-                    natural language processing.
+                    Our pool of tech innovators is turning world-class tech ideas into reality. Our cutting-edge blockchain solutions help our clients achieve previously unheard-of levels of achievement by using the power of tech.
                   </p>
                 </div>
                 <div className="inner-list">
                   <ul>
                     <li>
-                      <span className="img-file">
-                        <img src="/assets/img/icon/33_icon.png" alt="" />
+                      <span className="img-file" style={{width:"220px"}}>
+                        <img src="/assets/img/about/strategic.webp" alt="" />
                       </span>
                       <div>
-                        <h4>Machine Learning</h4>
+                        <h4>Strategize</h4>
                         <p>
-                          Task Us AI services team is ready to support its
-                          client-partners with innovative consulting &amp; tech
-                          solutions. Read more about our machine learning
-                          services.
+                        Enabling exclusive blockchain technology will allow us to realize the full potential
+                        of digital businesses. With the top priority of adding value to the projects.
                         </p>
                       </div>
                     </li>
                     <li>
                       <span className="img-file">
-                        <img src="/assets/img/icon/34_icon.png" alt="" />
+                        <img src="/assets/img/about/computer-science (1)@0 1.webp" alt="" />
                       </span>
                       <div>
-                        <h4>AI Smart Solutions</h4>
+                        <h4>Pioneering Unique Digital Solutions</h4>
                         <p>
-                          Customer satisfaction is a term frequently used in
-                          marketing. It is a measure of how products and
-                          services Decorate Your Lawn for the Holidays supplied
-                          expectation.
+                        An unparalleled commitment to delivering maximum satisfaction to clients, combined with truthfulness and enthusiasm.
                         </p>
                       </div>
                     </li>

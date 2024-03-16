@@ -41,17 +41,17 @@ const HomeThree = () => {
         {/* Service Section Three */}
         <ServiceSectionThree />
         {/* FAQ Section Three */}
-        <FAQSectionThree />
+        {/* <FAQSectionThree /> */}
         {/* Project Section Three */}
         <ProjectSectionThree />
         {/* Counter Section Three */}
         <CounterSectionThree />
         {/* Testimonial Section Three */}
-        <TestimonialSectionThree />
+        {/* <TestimonialSectionThree /> */}
         {/* Price Section Two */}
         {/* <PriceSectionTwo /> */}
         {/* Team Section Two */}
-        <TeamSectionTwo />
+        {/* <TeamSectionTwo /> */}
         {/* Blog Section Three */}
         <BlogSectionThree />
         {/* News Section Two */}
