@@ -153,7 +153,7 @@ const BlogCategorySection = () => {
                               {formatDate(data?.createdAt)}
                             </time>
                             <h4 className="title">
-                              <Link to="/blog-details">
+                              <Link to={`/blogdetails/${data?.url}`}>
                                 {`${data?.mainheading.substring(0, 40)}...`}
                               </Link>
                             </h4>
