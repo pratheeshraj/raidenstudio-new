@@ -7,7 +7,7 @@ const SliderThree = () => {
     return (
         <>
             {/* slider-area-three-start  */}
-            <section className="hero-slider two" style={{marginTop:"-50px"}}>
+            <section className="hero-slider two" style={{ marginTop: "-50px" }}>
                 <div className="swiper hero-slider-init-one swiper-container swiper-container-fade">
                     <div className="swiper-wrapper p-relative">
                         <Swiper
@@ -18,7 +18,7 @@ const SliderThree = () => {
                                 prevEl: ".swiper-button-prev",
                             }}
                         >
-                             <SwiperSlide>
+                            <SwiperSlide>
                                 <div className="item-slider sliderm-height p-relative swiper-slide">
                                     <div
                                         className="slide-bg"
@@ -34,15 +34,12 @@ const SliderThree = () => {
                                                     <div>
                                                         <h4 className="sub-title">The Most Personalized</h4>
                                                         <h2 className="slider-title">
-                                                            Avenga AI services help companies create AI and
-                                                            <span className="theme-color"> ML solutions</span>
+                                                            Your New Age Generative AI
+                                                            <span className="theme-color"> Development Partner</span>
                                                         </h2>
                                                         <p className="description">
-                                                            To take a trivial example, which of us ever
-                                                            undertakes laborious physical exercise, except to
-                                                            obtain some advantage from it but right to find
-                                                            fault with a man who chooses enjoy. for your
-                                                            business work.
+                                                            Utilize our expertise to fast-track your AI projects with our end-to-end development services.
+                                                             From tailored AI strategies for business growth to NLP and adaptable solutions, we're your dedicated AI partner.
                                                         </p>
                                                         <div className="inner-btn">
                                                             <div>
@@ -56,7 +53,7 @@ const SliderThree = () => {
                                             </div>
                                             <div className="col-lg-5">
                                                 <div className="slider-content-inner-right">
-                                                <div className="img-wrapper" style={{position:"relative",top:"-25px"}}>
+                                                    <div className="img-wrapper" style={{ position: "relative", top: "-25px" }}>
                                                         <img
                                                             src="assets/img/bg-image/ai raiden@4x 2.png"
                                                             alt=""
@@ -70,15 +67,10 @@ const SliderThree = () => {
                             </SwiperSlide>
                             <SwiperSlide>
                                 {" "}
+                                <ParticlesComponent id="particles" />
                                 <div className="item-slider sliderm-height p-relative swiper-slide">
                                     <div
                                         className="slide-bg"
-                                        style={{
-                                            backgroundImage:
-                                                "url('assets/img/bg-image/metaverse.png')",
-                                                height:"135%"
-                                        }}
-
                                     />
                                     <div className="auto-container">
                                         <div className="row ">
@@ -87,14 +79,11 @@ const SliderThree = () => {
                                                     <div>
                                                         <h4 className="sub-title">The Most Personalized</h4>
                                                         <h2 className="slider-title">
-                                                            MetaVerse
+                                                        Best-in-Class Blockchain Development
                                                         </h2>
                                                         <p className="description">
-                                                            AI for customer engagement, improving customer
-                                                            service for companies with tools like AI chatbots.
-                                                            We offer AI consulting services and solutions that
-                                                            will help you achieve your business objectives
-                                                            faster.
+                                                        RAIDEN offers top-tier blockchain game development services tailored to gaming businesses of any size.
+                                                        Our team excels in NFT, Metaverse, and Sports Betting design and development, delivering exceptional and engaging gaming experiences.
                                                         </p>
                                                         <div className="inner-btn">
                                                             <div>
@@ -144,11 +133,11 @@ const SliderThree = () => {
                                             </div>
                                             <div className="col-lg-6">
                                                 <div className="slider-content-inner-right">
-                                                    <div className="img-wrapper" style={{position:"relative",top:"25px"}}>
+                                                    <div className="img-wrapper" style={{ position: "relative", top: "25px" }}>
                                                         <img
                                                             src="assets/img/bg-image/barberian.png"
                                                             alt=""
-                                                            style={{height:"100%"}}
+                                                            style={{ height: "100%" }}
                                                         />
                                                     </div>
                                                 </div>
@@ -159,10 +148,15 @@ const SliderThree = () => {
                             </SwiperSlide>
                             <SwiperSlide>
                                 {" "}
-                                <ParticlesComponent id="particles" />
                                 <div className="item-slider sliderm-height p-relative swiper-slide">
                                     <div
                                         className="slide-bg"
+                                        style={{
+                                            backgroundImage:
+                                                "url('assets/img/bg-image/metaverse.png')",
+                                            height: "135%"
+                                        }}
+
                                     />
                                     <div className="auto-container">
                                         <div className="row ">
@@ -171,15 +165,11 @@ const SliderThree = () => {
                                                     <div>
                                                         <h4 className="sub-title">The Most Personalized</h4>
                                                         <h2 className="slider-title">
-                                                            helping companies process information or data more
-                                                            Efficiently
+                                                        Top AR,VR Metaverse Development Company
                                                         </h2>
                                                         <p className="description">
-                                                            AI for customer engagement, improving customer
-                                                            service for companies with tools like AI chatbots.
-                                                            We offer AI consulting services and solutions that
-                                                            will help you achieve your business objectives
-                                                            faster.
+                                                        Transform your business with our innovative 3D Metaverse solution, merging virtual and augmented technologies.
+                                                        Partner with VRAIDEN, a top AR and VR development firm, for tailored solutions to propel your VR/AR business forward.
                                                         </p>
                                                         <div className="inner-btn">
                                                             <div>
@@ -195,7 +185,6 @@ const SliderThree = () => {
                                     </div>
                                 </div>
                             </SwiperSlide>
-
                         </Swiper>
                     </div>
                     {/* If we need navigation buttons */}
@@ -206,7 +195,7 @@ const SliderThree = () => {
                         <i className="fa-regular fa-angles-right" />
                     </div>
                     {/* Shape Image */}
-                    <div className="shape-image">
+                    {/* <div className="shape-image">
                         <div className="inner-shape-1 poa">
                             <img
                                 className="img-fluid"
@@ -270,7 +259,7 @@ const SliderThree = () => {
                                 alt=""
                             />
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </section>
             {/* slider-area-three-end */}

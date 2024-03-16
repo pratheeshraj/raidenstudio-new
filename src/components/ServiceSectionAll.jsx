@@ -23,7 +23,7 @@ const ServiceSectionAll = () => {
                   </div>
                   <div className="text-file">
                     <h3>
-                      <Link to="#">Robotics &amp; Drones</Link>
+                      <Link to="#">Custom Blockchain Development</Link>
                     </h3>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -45,7 +45,7 @@ const ServiceSectionAll = () => {
                   </div>
                   <div className="text-file">
                     <h3>
-                      <Link to="#">Analyze videos</Link>
+                      <Link to="#">NFT Development</Link>
                     </h3>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -67,7 +67,7 @@ const ServiceSectionAll = () => {
                   </div>
                   <div className="text-file">
                     <h3>
-                      <Link to="#">Acquire insights</Link>
+                      <Link to="#">Generative AI Development</Link>
                     </h3>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -89,7 +89,7 @@ const ServiceSectionAll = () => {
                   </div>
                   <div className="text-file">
                     <h3>
-                      <Link to="#">Extract text &amp; data</Link>
+                      <Link to="#">Metaverse Development</Link>
                     </h3>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -111,7 +111,7 @@ const ServiceSectionAll = () => {
                   </div>
                   <div className="text-file">
                     <h3>
-                      <Link to="#">Online experiences</Link>
+                      <Link to="#">AR/VR App Development</Link>
                     </h3>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -133,7 +133,7 @@ const ServiceSectionAll = () => {
                   </div>
                   <div className="text-file">
                     <h3>
-                      <Link to="#">Control quality</Link>
+                      <Link to="#">DeFi Development</Link>
                     </h3>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -155,7 +155,7 @@ const ServiceSectionAll = () => {
                   </div>
                   <div className="text-file">
                     <h3>
-                      <Link to="#">Facing Challenges</Link>
+                      <Link to="#">Blockchain Game Development</Link>
                     </h3>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -177,7 +177,7 @@ const ServiceSectionAll = () => {
                   </div>
                   <div className="text-file">
                     <h3>
-                      <Link to="#">Heavy Industry</Link>
+                      <Link to="#">Dapp Development</Link>
                     </h3>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -199,7 +199,7 @@ const ServiceSectionAll = () => {
                   </div>
                   <div className="text-file">
                     <h3>
-                      <Link to="#">Transportation</Link>
+                      <Link to="#">Smart Contract Development</Link>
                     </h3>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.

@@ -6,6 +6,7 @@ import NewsSectionOne from "../components/NewsSectionOne";
 import FooterSectionOne from "../components/FooterSectionOne";
 import ServiceSectionAll from "../components/ServiceSectionAll";
 import HelmetReact from "../elements/HelmetReact";
+import HeaderTwo from "../components/HeaderTwo";
 
 const Service = () => {
   let [active, setActive] = useState(true);
@@ -22,7 +23,7 @@ const Service = () => {
         {/* Helmet */}
         <HelmetReact title={"Services"} />
         {/* Header one */}
-        <HeaderOne />
+        <HeaderTwo />
         {/* Breadcrumb */}
         <Breadcrumb data={"Services"} />
         {/* Service Section All */}

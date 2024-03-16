@@ -16,8 +16,8 @@ const ServiceSectionThree = () => {
               >
                 <h3>ADVANCED SERVICES</h3>
                 <h2>
-                  Our Top Featured Solutions <br /> Transforming{" "}
-                  <span className="theme-color">AI Enterprises</span>
+                We provide a range of all-inclusive <br />
+                  <span className="theme-color">services & solutions</span>
                 </h2>
               </div>
             </div>
@@ -80,9 +80,6 @@ const ServiceSectionThree = () => {
                             Ensure your IT infrastructure remains resilient when
                             adopting trans formative technologies.
                           </p>
-                          <div className="link">
-                            <Link to="/service-details">Read More</Link>
-                          </div>
                           <div className="shape-overlay">
                             <img src="/assets/img/shape/15_shape.svg" alt="" />
                           </div>
@@ -110,9 +107,6 @@ const ServiceSectionThree = () => {
                             Ensure your IT infrastructure remains resilient when
                             adopting trans formative technologies.
                           </p>
-                          <div className="link">
-                            <Link to="/service-details">Read More</Link>
-                          </div>
                           <div className="shape-overlay">
                             <img src="/assets/img/shape/15_shape.svg" alt="" />
                           </div>
@@ -140,9 +134,6 @@ const ServiceSectionThree = () => {
                             Ensure your IT infrastructure remains resilient when
                             adopting trans formative technologies.
                           </p>
-                          <div className="link">
-                            <Link to="/service-details">Read More</Link>
-                          </div>
                           <div className="shape-overlay">
                             <img src="/assets/img/shape/15_shape.svg" alt="" />
                           </div>

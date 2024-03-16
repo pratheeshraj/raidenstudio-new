@@ -24,7 +24,7 @@ const CounterSectionThree = () => {
                   </h2>
                   <h3>+</h3>
                 </div>
-                <h4>Team member</h4>
+                <h4>PROJECTS</h4>
               </div>
             </div>
             <div className="col-lg-3 col-md-6">
@@ -37,13 +37,13 @@ const CounterSectionThree = () => {
                   <h2 className="counter">
                     <ReactVisibilitySensor>
                       {({ isVisible }) => (
-                        <div> {isVisible ? <CountUp end={720} /> : 0}</div>
+                        <div> {isVisible ? <CountUp end={100} /> : 0}</div>
                       )}
                     </ReactVisibilitySensor>
                   </h2>
                   <h3>+</h3>
                 </div>
-                <h4>Solutions Delivered</h4>
+                <h4>CLIENTS</h4>
               </div>
             </div>
             <div className="col-lg-3 col-md-6">
@@ -56,13 +56,13 @@ const CounterSectionThree = () => {
                   <h2 className="counter">
                     <ReactVisibilitySensor>
                       {({ isVisible }) => (
-                        <div> {isVisible ? <CountUp end={450} /> : 0}</div>
+                        <div> {isVisible ? <CountUp end={40} /> : 0}</div>
                       )}
                     </ReactVisibilitySensor>
                   </h2>
                   <h3>+</h3>
                 </div>
-                <h4>Business Covered</h4>
+                <h4>TEAM</h4>
               </div>
             </div>
             <div className="col-lg-3 col-md-6">
@@ -75,13 +75,13 @@ const CounterSectionThree = () => {
                   <h2 className="counter">
                     <ReactVisibilitySensor>
                       {({ isVisible }) => (
-                        <div> {isVisible ? <CountUp end={830} /> : 0}</div>
+                        <div> {isVisible ? <CountUp end={5} /> : 0}</div>
                       )}
                     </ReactVisibilitySensor>
                   </h2>
                   <h3>+</h3>
                 </div>
-                <h4>Happy Customers</h4>
+                <h4>YEARS</h4>
               </div>
             </div>
           </div>

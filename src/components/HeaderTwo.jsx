@@ -17,6 +17,17 @@ const HeaderTwo = () => {
   const productName = ["Raiden Verse", "Raiden SimX", "Raiden GOGNI+", "Raiden ARCVIZ"]
 
 
+  const gameValues2 = [0.5, 0.5, 0.5,0.5, 0.5, 0.5];
+  const gameNames2 = [
+    "Clashes Of Clans",
+    "Metaverse CASINO",
+    "PUBG ",
+    "Fortnite ",
+    "Metafoot ball",
+    "League of legends "
+  ];
+
+
   // service 
 
   // block chain 
@@ -36,12 +47,16 @@ const HeaderTwo = () => {
 
   // game 
 
-  const gameValues = [0.5, 0.5, 0.5];
+  const gameValues = [0.5, 0.5, 0.5 ,0.5, 0.5, 0.5];
   const gameNames = [
-    "(league of legends) LOL CLONE",
-    "(clash of clans) COC CLONE",
-    "Metaverse CASINO"
+    "Mobile Game Development",
+    "Unity Development",
+    "Unreal Development",
+    "mmorpg game development ",
+    "P2E Game Development",
+    "Web3 Game Development"
   ];
+
 
   //  compony
 
@@ -50,7 +65,7 @@ const HeaderTwo = () => {
 
 
   const [activeMenu, setActiveMenu] = useState("Blockchain");
-  const [activeMenu1, setActiveMenu1] = useState("Product");
+  const [activeMenu1, setActiveMenu1] = useState("virtual");
   const [activeMenu2, setActiveMenu2] = useState("Company");
 
 
@@ -243,7 +258,7 @@ const HeaderTwo = () => {
                               </li>
                             </ul> */}
                           </li>
-                          <li className="has-dropdown">
+                          {/* <li className="has-dropdown">
                             <Link className="nav_link" to="#">Product<i class="fa-solid fa-caret-down"></i></Link>
                             <ul className="sub-menu">
                               <div className="sub-menu-div">
@@ -273,6 +288,102 @@ const HeaderTwo = () => {
                                             >
                                               <div className="manubar_content_item">
                                                 <div className="manubar_content_name">{productName[index]}</div>
+                                                <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
+                                                <div
+                                                  className="progress-bar"
+                                                  style={{
+                                                    width: hoveredIndex === index ? '100%' : `${value * 100}%`,
+                                                    position: 'absolute',
+                                                    top: '15px', // Adjust the value to position the progress bar above the link name
+                                                    left: 0,
+                                                    height: '4px',
+                                                    backgroundColor: '#13C4A1', // Change color as needed
+                                                    transition: 'width 0.3s ease-in-out',
+                                                  }}
+                                                />
+                                              </div>
+                                            </Link>
+                                          ))}
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                )}
+                              </div>
+                            </ul>
+                          </li> */}
+                         <li className="has-dropdown">
+                            <Link className="nav_link" to="#">Products<i class="fa-solid fa-caret-down"></i></Link>
+                            <ul className="sub-menu">
+                              <div className="sub-menu-div">
+                                <li
+                                  className={`has-dropdown ${activeMenu1 === 'virtual' ? 'active' : ''}`}
+                                  onMouseEnter={() => handleMenuHover1('virtual')}
+                                >
+                                  <Link className="left_content_arrow" to="#">Virtual Reality<i class="fa-solid fa-right-long icon_rightarrow"></i></Link>
+                                </li>
+                                <li
+                                  className={`has-dropdown ${activeMenu1 === 'Game2' ? 'active' : ''}`}
+                                  onMouseEnter={() => handleMenuHover1('Game2')}
+                                >
+                                  <Link className="left_content_arrow" style={{ marginBottom: "20px" }} to="#">Game <i class="fa-solid fa-right-long icon_rightarrow"></i></Link>
+                                </li>
+                              </div>
+                              <div className="menupar-right">
+                                {activeMenu1 === 'virtual' && (
+                                  <div className="menupar-right-div">
+                                    <div className="menubar_inside_main_div">
+                                      <div className="menubar_inside_div">
+                                        <div className="menubar_inside_main_heading">Virtual Reality</div>
+
+                                        <div className="manubar_content_main_div">
+                                          {progressValues.map((value, index) => (
+                                            <Link
+                                              key={index}
+                                              // to={`/link${index}`}
+                                              onMouseEnter={() => setHoveredIndex(index)}
+                                              onMouseLeave={() => setHoveredIndex(null)}
+                                              style={{ position: 'relative', display: 'block' }}
+                                            >
+                                              <div className="manubar_content_item">
+                                                <div className="manubar_content_name">{productName[index]}</div>
+                                                <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
+                                                <div
+                                                  className="progress-bar"
+                                                  style={{
+                                                    width: hoveredIndex === index ? '100%' : `${value * 100}%`,
+                                                    position: 'absolute',
+                                                    top: '15px', // Adjust the value to position the progress bar above the link name
+                                                    left: 0,
+                                                    height: '4px',
+                                                    backgroundColor: '#13C4A1', // Change color as needed
+                                                    transition: 'width 0.3s ease-in-out',
+                                                  }}
+                                                />
+                                              </div>
+                                            </Link>
+                                          ))}
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                )}
+                                {activeMenu1 === 'Game2' && (
+                                  <div className="menupar-right-div">
+                                    <div className="menubar_inside_main_div">
+                                      <div className="menubar_inside_div">
+                                        <div className="menubar_inside_main_heading">Game</div>
+                                        <div className="manubar_content_main_div">
+                                          {gameValues2.map((value, index) => (
+                                            <Link
+                                              key={index}
+                                              // to={`/link${index}`}
+                                              onMouseEnter={() => setHoveredIndex(index)}
+                                              onMouseLeave={() => setHoveredIndex(null)}
+                                              style={{ position: 'relative', display: 'block' }}
+                                            >
+                                              <div className="manubar_content_item">
+                                                <div className="manubar_content_name">{gameNames2[index]}</div>
                                                 <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
                                                 <div
                                                   className="progress-bar"
