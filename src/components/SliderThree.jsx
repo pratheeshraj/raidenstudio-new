@@ -70,15 +70,10 @@ const SliderThree = () => {
                             </SwiperSlide>
                             <SwiperSlide>
                                 {" "}
+                                <ParticlesComponent id="particles" />
                                 <div className="item-slider sliderm-height p-relative swiper-slide">
                                     <div
                                         className="slide-bg"
-                                        style={{
-                                            backgroundImage:
-                                                "url('assets/img/bg-image/metaverse.png')",
-                                                height:"135%"
-                                        }}
-
                                     />
                                     <div className="auto-container">
                                         <div className="row ">
@@ -87,7 +82,8 @@ const SliderThree = () => {
                                                     <div>
                                                         <h4 className="sub-title">The Most Personalized</h4>
                                                         <h2 className="slider-title">
-                                                            MetaVerse
+                                                            helping companies process information or data more
+                                                            Efficiently
                                                         </h2>
                                                         <p className="description">
                                                             AI for customer engagement, improving customer
@@ -159,13 +155,15 @@ const SliderThree = () => {
                             </SwiperSlide>
                             <SwiperSlide>
                                 {" "}
-                                <ParticlesComponent id="particles" />
                                 <div className="item-slider sliderm-height p-relative swiper-slide">
                                     <div
                                         className="slide-bg"
                                         style={{
-                                            backgroundColor:"#070419"
+                                            backgroundImage:
+                                                "url('assets/img/bg-image/metaverse.png')",
+                                                height:"135%"
                                         }}
+
                                     />
                                     <div className="auto-container">
                                         <div className="row ">
@@ -174,8 +172,7 @@ const SliderThree = () => {
                                                     <div>
                                                         <h4 className="sub-title">The Most Personalized</h4>
                                                         <h2 className="slider-title">
-                                                            helping companies process information or data more
-                                                            Efficiently
+                                                            MetaVerse
                                                         </h2>
                                                         <p className="description">
                                                             AI for customer engagement, improving customer
@@ -198,7 +195,6 @@ const SliderThree = () => {
                                     </div>
                                 </div>
                             </SwiperSlide>
-
                         </Swiper>
                     </div>
                     {/* If we need navigation buttons */}
@@ -209,7 +205,7 @@ const SliderThree = () => {
                         <i className="fa-regular fa-angles-right" />
                     </div>
                     {/* Shape Image */}
-                    <div className="shape-image">
+                    {/* <div className="shape-image">
                         <div className="inner-shape-1 poa">
                             <img
                                 className="img-fluid"
@@ -273,7 +269,7 @@ const SliderThree = () => {
                                 alt=""
                             />
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </section>
             {/* slider-area-three-end */}
