@@ -163,6 +163,9 @@ const SliderThree = () => {
                                 <div className="item-slider sliderm-height p-relative swiper-slide">
                                     <div
                                         className="slide-bg"
+                                        style={{
+                                            backgroundColor:"#070419"
+                                        }}
                                     />
                                     <div className="auto-container">
                                         <div className="row ">
