@@ -442,7 +442,7 @@
       }
       .shape-img-6 {
         top: 74px;
-        right: 42%;
+        right: 20%;
         z-index: -1;
         animation: animationFramesOne 45s linear infinite reverse;
         -webkit-animation: animationFramesOne 45s linear infinite reverse;
@@ -452,11 +452,11 @@
         }
       }
       .shape-img-7 {
-        top: 74px;
-        right: 42%;
-        z-index: -1;
-        animation: animationFramesOne 55s linear infinite;
-        -webkit-animation: animationFramesOne 55s linear infinite;
+          bottom: 160px;
+          left: 20%;
+          z-index: -1;
+          animation: animationFramesOne 55s linear infinite;
+          -webkit-animation: animationFramesOne 55s linear infinite;
         img {
           width: 25px;
         }

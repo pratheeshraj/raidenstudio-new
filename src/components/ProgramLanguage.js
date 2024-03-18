@@ -145,7 +145,7 @@ const ProgramLanguage = () => {
                                         <div className="Card_name">Augumented Reality</div>
                                     </div>
                                     <div className="card3">
-                                        <img src="/assets/img/Language/virtualReality.png" alt="" />
+                                        <img src="/assets/img/Language/apple-vision-pro-labs-256x256_2x.png" alt="" />
                                         <div className="Card_name">Virtual Reality</div>
                                     </div>
                                 </div> : blockchain ? <div className="col-lg-8 right_Language_div">
@@ -158,7 +158,7 @@ const ProgramLanguage = () => {
                 </div>
                 <div className="shape-image">
                     <div className="shape-img-1 poa">
-                        <img src="/assets/img/icon/21_icon.png" alt="" />
+                        <img src="/assets/img/Language/apple-vision-pro-labs-256x256_2x.png" alt="" />
                     </div>
                     <div className="shape-img-2 poa">
                         <img src="/assets/img/shape/01_shape.svg" alt="" />
@@ -167,13 +167,10 @@ const ProgramLanguage = () => {
                         <img src="/assets/img/icon/26_icon.png" alt="" />
                     </div>
                     <div className="shape-img-6 poa">
-                        <img src="/assets/img/icon/43_icon.png" alt="" />
+                        <img src="/assets/img/Language/react-2.svg" alt="" />
                     </div>
                     <div className="shape-img-7 poa">
-                        <img src="/assets/img/icon/68_icon.png" alt="" />
-                    </div>
-                    <div className="shape-img-8 poa">
-                        <img src="/assets/img/icon/71_icon.png" alt="" />
+                        <img src="/assets/img/Language/nodejs-icon.svg" alt="" />
                     </div>
                 </div>
             </section>
