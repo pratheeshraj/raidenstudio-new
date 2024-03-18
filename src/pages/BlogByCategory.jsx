@@ -12,6 +12,7 @@ import {
   GetAllBlogs,
   GetBlogByCategory,
   GetBlogsCategory,
+  GetBlogsTags,
   GetRecentBlogs,
 } from "../action/BlogAction";
 import BlogCategorySection from "../components/BlogCategorySection";
@@ -24,12 +25,18 @@ const BlogByCategory = () => {
 
   let [active, setActive] = useState(true);
   useEffect(() => {
-    setTimeout(function () {
-      setActive(false);
-    }, 2000);
     dispatch(GetBlogByCategory(id));
   }, [id]);
 
+  useEffect(() => {
+    try {
+      dispatch(GetRecentBlogs);
+      dispatch(GetBlogsCategory);
+      dispatch(GetBlogsTags);
+    } catch (error) {
+      console.log(error);
+    }
+  }, []);
   return (
     <Fragment>
       {loading ? (

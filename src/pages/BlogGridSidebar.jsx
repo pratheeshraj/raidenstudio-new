@@ -20,10 +20,14 @@ const BlogGridSidebar = () => {
   const { loading } = useSelector((state) => state.blogState);
   let [active, setActive] = useState(true);
   useEffect(() => {
-    dispatch(GetAllBlogs);
-    dispatch(GetRecentBlogs);
-    dispatch(GetBlogsCategory);
-    dispatch(GetBlogsTags);
+    try {
+      dispatch(GetRecentBlogs);
+      dispatch(GetBlogsCategory);
+      dispatch(GetBlogsTags);
+      dispatch(GetAllBlogs);
+    } catch (error) {
+      console.log(error);
+    }
   }, []);
 
   return (

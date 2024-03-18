@@ -25,6 +25,7 @@ const BlogByTag = () => {
   const { loading } = useSelector((state) => state.blogState);
   const { id } = useParams();
   let [active, setActive] = useState(true);
+  
   useEffect(() => {
     dispatch(GetRecentBlogs);
     dispatch(GetBlogsCategory);

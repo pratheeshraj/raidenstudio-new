@@ -7,7 +7,7 @@ import BlogDetailsSection from "../components/BlogDetailsSection";
 import NewsSectionOne from "../components/NewsSectionOne";
 import HelmetReact from "../elements/HelmetReact";
 import HeaderTwo from "../components/HeaderTwo";
-import { GetBlogDetails } from "../action/BlogAction";
+import { GetBlogDetails, GetBlogsCategory, GetBlogsTags, GetRecentBlogs } from "../action/BlogAction";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 const BlogDetails = () => {
@@ -16,6 +16,9 @@ const BlogDetails = () => {
   const dispatch = useDispatch();
   const { loading } = useSelector((state) => state.blogState);
   useEffect(() => {
+    dispatch(GetRecentBlogs);
+    dispatch(GetBlogsCategory);
+    dispatch(GetBlogsTags);
     dispatch(GetBlogDetails(id));
   }, [id]);
   return (

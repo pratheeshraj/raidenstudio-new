@@ -1,7 +1,13 @@
 import React from "react";
+import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
 const BlogSectionTwo = () => {
+  const { allBlogs } = useSelector((state) => state.blogState);
+  const formatDate = (dateString) => {
+    const options = { year: "numeric", month: "long", day: "numeric" };
+    return new Date(dateString).toLocaleDateString("en-US", options);
+  };
   return (
     <>
       {/* Blog Section two start */}
@@ -25,147 +31,44 @@ const BlogSectionTwo = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-4 col-md-6 col-12">
-              <div
-                className="blog-items "
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
-                <div className="img-file">
-                  <img
-                    className="img-fluid"
-                    src="/assets/img/blog/01_blog.png"
-                    alt=""
-                  />
-                </div>
-                <div className="text-file">
-                  <div className="intro">
-                    <div>
-                      <div className="date">
-                        <i className="fa-sharp fa-solid fa-calendar-days pe-1" />
-                        April 24, 2023
+            {allBlogs?.slice(0, 3).map((data, index) => {
+              return (
+                <div className="col-lg-4 col-md-6 col-12" key={index}>
+                  <div
+                    className="blog-items "
+                    data-aos="fade-up"
+                    data-aos-delay="200"
+                  >
+                    <div className="img-file">
+                      <img className="img-fluid" src={data.imageurl} alt="" />
+                    </div>
+                    <div className="text-file">
+                      <div className="intro">
+                        <div>
+                          <div className="date">
+                            <i className="fa-sharp fa-solid fa-calendar-days pe-1" />
+                            {formatDate(data?.createdAt)}
+                          </div>
+                        </div>
                       </div>
-                      <div className="admin">
-                        <i className="fa-solid fa-user pe-1" />
-                        admin
-                      </div>
-                      <div className="comment">
-                        <i className="fa-sharp fa-solid fa-comment pe-1" />4
-                        Comments
+                      <div className="title">
+                        <h2>
+                          <Link to={`/blogdetails/${data?.url}`}>
+                            {`${data?.mainheading.substring(0, 40)}...`}
+                          </Link>
+                        </h2>
+                        <p>
+                        {`${data?.maincontent.substring(0, 60)}...`}
+                        </p>
+                        <Link className="link" to={`/blogdetails/${data?.url}`}>
+                          Read More
+                        </Link>
                       </div>
                     </div>
                   </div>
-                  <div className="title">
-                    <h2>
-                      <Link to="#">
-                        Professional Technology information &amp; Solutions...
-                      </Link>
-                    </h2>
-                    <p>
-                      Lorem ipsum dolor sit amet, coned sectetur notte elit sed
-                      do.
-                    </p>
-                    <Link className="link" to="/blog-details">
-                      Read More
-                    </Link>
-                  </div>
                 </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-12">
-              <div
-                className="blog-items "
-                data-aos="fade-up"
-                data-aos-delay="300"
-              >
-                <div className="img-file">
-                  <img
-                    className="img-fluid"
-                    src="/assets/img/blog/02_blog.png"
-                    alt=""
-                  />
-                </div>
-                <div className="text-file">
-                  <div className="intro">
-                    <div>
-                      <div className="date">
-                        <i className="fa-sharp fa-solid fa-calendar-days pe-1" />
-                        April 24, 2023
-                      </div>
-                      <div className="admin">
-                        <i className="fa-solid fa-user pe-1" />
-                        admin
-                      </div>
-                      <div className="comment">
-                        <i className="fa-sharp fa-solid fa-comment pe-1" />4
-                        Comments
-                      </div>
-                    </div>
-                  </div>
-                  <div className="title">
-                    <h2>
-                      <Link to="#">
-                        We offer AI consulting services and solutions...
-                      </Link>
-                    </h2>
-                    <p>
-                      Lorem ipsum dolor sit amet, coned sectetur notte elit sed
-                      do.
-                    </p>
-                    <Link className="link" to="/blog-details">
-                      Read More
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-12">
-              <div
-                className="blog-items "
-                data-aos="fade-up"
-                data-aos-delay="300"
-              >
-                <div className="img-file">
-                  <img
-                    className="img-fluid"
-                    src="/assets/img/blog/03_blog.png"
-                    alt=""
-                  />
-                </div>
-                <div className="text-file">
-                  <div className="intro">
-                    <div>
-                      <div className="date">
-                        <i className="fa-sharp fa-solid fa-calendar-days pe-1" />
-                        April 24, 2023
-                      </div>
-                      <div className="admin">
-                        <i className="fa-solid fa-user pe-1" />
-                        admin
-                      </div>
-                      <div className="comment">
-                        <i className="fa-sharp fa-solid fa-comment pe-1" />4
-                        Comments
-                      </div>
-                    </div>
-                  </div>
-                  <div className="title">
-                    <h2>
-                      <Link to="#">
-                        AI Services is a collection services with prebuilt...
-                      </Link>
-                    </h2>
-                    <p>
-                      Lorem ipsum dolor sit amet, coned sectetur notte elit sed
-                      do.
-                    </p>
-                    <Link className="link" to="/blog-details">
-                      Read More
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
+              );
+            })}
           </div>
           <div className="inner-btn d-adjust">
             <div>
