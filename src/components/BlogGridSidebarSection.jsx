@@ -4,8 +4,8 @@ import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
 const BlogGridSidebarSection = () => {
-  const [itemOffset, setItemOffset] = useState(0); 
-  const { allBlogs, recentBlogs, Blogcategory } = useSelector(
+  const [itemOffset, setItemOffset] = useState(0);
+  const { allBlogs, recentBlogs, Blogcategory, tags } = useSelector(
     (state) => state.blogState
   );
   const itemsPerPage = 6;
@@ -20,7 +20,7 @@ const BlogGridSidebarSection = () => {
   const handlePageClick = (event) => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth'
+      behavior: "smooth",
     });
     const newOffset = (event.selected * itemsPerPage) % allBlogs?.length;
     console.log(
@@ -94,8 +94,7 @@ const BlogGridSidebarSection = () => {
                     data-aos="fade-up"
                     data-aos-delay="300"
                   >
-                   
-                   <ReactPaginate
+                    <ReactPaginate
                       breakLabel="..."
                       nextLabel=">>"
                       onPageChange={handlePageClick}
@@ -157,7 +156,7 @@ const BlogGridSidebarSection = () => {
                               {formatDate(data?.createdAt)}
                             </time>
                             <h4 className="title">
-                              <Link to="/blog-details">
+                              <Link to={`/blogdetails/${data?.url}`}>
                                 {`${data?.mainheading.substring(0, 40)}...`}
                               </Link>
                             </h4>
@@ -219,14 +218,14 @@ const BlogGridSidebarSection = () => {
                     <div className="list-inner">
                       <ul>
                         {Blogcategory?.map((value, index) => {
-                        return(
-                          <li key={index}>
-                          <Link to={`/blog/category/${value?._id}`}>
-                            <span>{value?._id}</span>
-                            <span>{value?.count}</span>
-                          </Link>
-                        </li>
-                        )
+                          return (
+                            <li key={index}>
+                              <Link to={`/blog/category/${value?._id}`}>
+                                <span>{value?._id}</span>
+                                <span>{value?.count}</span>
+                              </Link>
+                            </li>
+                          );
                         })}
                       </ul>
                     </div>
@@ -242,13 +241,13 @@ const BlogGridSidebarSection = () => {
                       <h2>Tags</h2>
                     </div>
                     <div className="list-grid">
-                      <Link to="#">Machine Learning (4)</Link>
-                      <Link to="#">ICT Book (6)</Link>
-                      <Link to="#">Technology (2)</Link>
-                      <Link to="#">Robot (3)</Link>
-                      <Link to="#">AI Tech (11)</Link>
-                      <Link to="#">Intelligence (6)</Link>
-                      <Link to="#">Artificial (3)</Link>
+                      {tags?.map((data, index) => {
+                        return (
+                          <Link to={`/blog/tag/${data?.tag}`} key={index}>
+                            {data?.tag} ({data?.count})
+                          </Link>
+                        );
+                      })}
                     </div>
                   </div>
                 </div>

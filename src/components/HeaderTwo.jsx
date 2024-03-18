@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./HeaderTwo.css"
-
+import  logo_img from "../images/xedhb p.png"
 const HeaderTwo = () => {
   const [active, setActive] = useState(false);
   const [scroll, setScroll] = useState(false);
@@ -210,7 +210,7 @@ const HeaderTwo = () => {
                       <NavLink to="/">
                         <img
                           className="img-fluid"
-                          src="assets/img/common/xedhb p.png"
+                          src={logo_img}
                           alt=""
                         />
                       </NavLink>

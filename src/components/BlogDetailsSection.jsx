@@ -7,16 +7,17 @@ import { GetBlogDetails } from "../action/BlogAction";
 // import { GetBlogDetails } from "../action/BlogAction";
 
 const BlogDetailsSection = () => {
-  const { id } = useParams();
-  const dispatch = useDispatch();
-  useEffect(() => {
-    dispatch(GetBlogDetails(id));
-  }, []);
   const getContent = (data) => {
     return <div dangerouslySetInnerHTML={{ __html: data }} />;
   };
-  const { BlogDetails } = useSelector((state) => state.blogState);
- return (
+  const { BlogDetails, BlogByCategory, recentBlogs, Blogcategory, tags } =
+    useSelector((state) => state.blogState);
+  const formatDate = (dateString) => {
+    const options = { year: "numeric", month: "long", day: "numeric" };
+    return new Date(dateString).toLocaleDateString("en-US", options);
+  };
+
+  return (
     <>
       {/* Blog Details Section one start */}
       <section className="blog-section details">
@@ -47,17 +48,26 @@ const BlogDetailsSection = () => {
                         <span>
                           <i className="fa-solid fa-folder" />
                         </span>
-                        <Link to="#">Artificial</Link>
-                      </li>
-                      <li>
-                        <span>
-                          <i className="fa-solid fa-comment" />
-                        </span>
-                        <Link to="#">3 Comments</Link>
+                        {BlogDetails?.tags.map((tagsString, index) => {
+                          const tagsArray = tagsString
+                            .replace(/\s/g, "")
+                            .split(",");
+                          return (
+                            <React.Fragment key={index}>
+                              {tagsArray.map((tag, tagIndex) => (
+                                <Link to={`/blog/tag/${tag}`} key={tagIndex}>
+                                  {tag},
+                                </Link>
+                              ))}
+                            </React.Fragment>
+                          );
+                        })}
                       </li>
                     </ul>
                   </div>
-                  <div className="inner-text">{getContent(BlogDetails?.content)}</div>
+                  <div className="inner-text">
+                    {getContent(BlogDetails?.content)}
+                  </div>
                 </div>
               </div>
             </div>
@@ -95,67 +105,28 @@ const BlogDetailsSection = () => {
                     <div className="title">
                       <h2>Recent Posts</h2>
                     </div>
-                    <article className="post-item">
-                      <Link to="/blog-details">
-                        <div className="img-file">
-                          <img src="/assets/img/blog/01_blog.png" alt="" />
-                        </div>
-                      </Link>
-                      <div className="info">
-                        <time dateTime="2023-06-19">May 26, 2023</time>
-                        <h4 className="title">
-                          <Link to="/blog-details">
-                            AI consulting services and solutions that will help.
-                          </Link>
-                        </h4>
-                      </div>
-                    </article>
-                    <article className="post-item">
-                      <Link to="/blog-details">
-                        <div className="img-file">
-                          <img src="/assets/img/blog/02_blog.png" alt="" />
-                        </div>
-                      </Link>
-                      <div className="info">
-                        <time dateTime="2023-06-19">May 26, 2023</time>
-                        <h4 className="title">
-                          <Link to="/blog-details">
-                            We will respond within one working day and arrange.
-                          </Link>
-                        </h4>
-                      </div>
-                    </article>
-                    <article className="post-item">
-                      <Link to="/blog-details">
-                        <div className="img-file">
-                          <img src="/assets/img/blog/03_blog.png" alt="" />
-                        </div>
-                      </Link>
-                      <div className="info">
-                        <time dateTime="2023-06-19">May 26, 2023</time>
-                        <h4 className="title">
-                          <Link to="/blog-details">
-                            An expert matching your market niche and industry.
-                          </Link>
-                        </h4>
-                      </div>
-                    </article>
-                    <article className="post-item">
-                      <Link to="/blog-details">
-                        <div className="img-file">
-                          <img src="/assets/img/blog/04_blog.png" alt="" />
-                        </div>
-                      </Link>
-                      <div className="info">
-                        <time dateTime="2023-06-19">May 26, 2023</time>
-                        <h4 className="title">
-                          <Link to="/blog-details">
-                            You will get a service suite offering, including
-                            time.
-                          </Link>
-                        </h4>
-                      </div>
-                    </article>
+
+                    {recentBlogs?.map((data, index) => {
+                      return (
+                        <article className="post-item" key={index}>
+                          <div>
+                            <div className="img-file">
+                              <img src={data?.imageurl} alt="" />
+                            </div>
+                          </div>
+                          <div className="info">
+                            <time dateTime="2023-06-19">
+                              {formatDate(data?.createdAt)}
+                            </time>
+                            <h4 className="title">
+                              <Link to={`/blogdetails/${data?.url}`}>
+                                {`${data?.mainheading.substring(0, 40)}...`}
+                              </Link>
+                            </h4>
+                          </div>
+                        </article>
+                      );
+                    })}
                   </div>
                 </div>
                 <div
@@ -209,42 +180,16 @@ const BlogDetailsSection = () => {
                     </div>
                     <div className="list-inner">
                       <ul>
-                        <li>
-                          <Link to="#">
-                            <span>Business</span>
-                            <span>(8)</span>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to="#">
-                            <span>Finance</span>
-                            <span>(10)</span>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to="#">
-                            <span>Web Design</span>
-                            <span>(3)</span>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to="#">
-                            <span>Counseling</span>
-                            <span>(5)</span>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to="#">
-                            <span>IT Service</span>
-                            <span>(11)</span>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to="#">
-                            <span>AI software</span>
-                            <span>(12)</span>
-                          </Link>
-                        </li>
+                        {Blogcategory?.map((value, index) => {
+                          return (
+                            <li key={index}>
+                              <Link to={`/blog/category/${value?._id}`}>
+                                <span>{value?._id}</span>
+                                <span>{value?.count}</span>
+                              </Link>
+                            </li>
+                          );
+                        })}
                       </ul>
                     </div>
                   </div>
@@ -259,13 +204,13 @@ const BlogDetailsSection = () => {
                       <h2>Tags</h2>
                     </div>
                     <div className="list-grid">
-                      <Link to="#">Machine Learning (4)</Link>
-                      <Link to="#">ICT Book (6)</Link>
-                      <Link to="#">Technology (2)</Link>
-                      <Link to="#">Robot (3)</Link>
-                      <Link to="#">AI Tech (11)</Link>
-                      <Link to="#">Intelligence (6)</Link>
-                      <Link to="#">Artificial (3)</Link>
+                      {tags?.map((data, index) => {
+                        return (
+                          <Link to={`/blog/tag/${data?.tag}`} key={index}>
+                            {data?.tag} ({data?.count})
+                          </Link>
+                        );
+                      })}
                     </div>
                   </div>
                 </div>
