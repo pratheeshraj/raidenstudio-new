@@ -12,7 +12,7 @@ const ParticlesComponent = ({id,upadte}) => {
     }).then(() => {
       setInit(true);
     });
-  }, [upadte]);
+  }, []);
 
   const particlesLoaded = (container) => {
     console.log(container);
@@ -89,7 +89,11 @@ const ParticlesComponent = ({id,upadte}) => {
     []
   );
 
-  return <Particles id={id} init={particlesLoaded} options={options} />;
+  return (
+    <div>
+      <Particles init={particlesLoaded} options={options} />
+    </div>
+  );
 };
 
 export default ParticlesComponent;

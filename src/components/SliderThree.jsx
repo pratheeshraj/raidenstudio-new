@@ -4,8 +4,8 @@ import { Navigation, FreeMode, Thumbs, EffectFade } from "swiper";
 import { Link } from "react-router-dom";
 import ParticlesComponent from "../ParticlesComponent/particles";
 const SliderThree = () => {
-    const [upadte,setupadte]=useState(0)
-    console.log(upadte);
+  const [upadte, setupadte] = useState(0);
+  console.log(upadte);
   return (
     <>
       {/* slider-area-three-start  */}
@@ -19,9 +19,8 @@ const SliderThree = () => {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
               }}
-              
             >
-              <SwiperSlide >
+              <SwiperSlide>
                 <ParticlesComponent id="particles" upadte={upadte} />
                 {/* Unique id for this slide */}
                 <div className="item-slider sliderm-height p-relative swiper-slide">
