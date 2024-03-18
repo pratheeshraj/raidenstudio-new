@@ -11,13 +11,48 @@ const SliderThree = () => {
                 <div className="swiper hero-slider-init-one swiper-container swiper-container-fade">
                     <div className="swiper-wrapper p-relative">
                         <Swiper
-                            loop={true}
+                            loop={false}
                             modules={[FreeMode, Navigation, Thumbs, EffectFade]}
                             navigation={{
                                 nextEl: ".swiper-button-next",
                                 prevEl: ".swiper-button-prev",
                             }}
                         >
+                            <SwiperSlide>
+                                <div>
+                                    <ParticlesComponent id="particles" />
+                                    <div className="item-slider sliderm-height p-relative swiper-slide">
+                                        <div
+                                            className="slide-bg"
+                                        />
+                                        <div className="auto-container">
+                                            <div className="row ">
+                                                <div className="col-12">
+                                                    <div className="slider-content-inner middle">
+                                                        <div>
+                                                            <h4 className="sub-title">The Most Personalized</h4>
+                                                            <h2 className="slider-title">
+                                                                Best-in-Class Blockchain Development
+                                                            </h2>
+                                                            <p className="description">
+                                                                RAIDEN offers top-tier blockchain game development services tailored to gaming businesses of any size.
+                                                                Our team excels in NFT, Metaverse, and Sports Betting design and development, delivering exceptional and engaging gaming experiences.
+                                                            </p>
+                                                            <div className="inner-btn">
+                                                                <div>
+                                                                    <Link className="default-btn" to="/contact">
+                                                                        Contact Us Now
+                                                                    </Link>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
                             <SwiperSlide>
                                 <div className="item-slider sliderm-height p-relative swiper-slide">
                                     <div
@@ -58,41 +93,6 @@ const SliderThree = () => {
                                                             src="assets/img/bg-image/ai raiden@4x 2.png"
                                                             alt=""
                                                         />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div>
-                                    <ParticlesComponent id="particles" />
-                                    <div className="item-slider sliderm-height p-relative swiper-slide">
-                                        <div
-                                            className="slide-bg"
-                                        />
-                                        <div className="auto-container">
-                                            <div className="row ">
-                                                <div className="col-12">
-                                                    <div className="slider-content-inner middle">
-                                                        <div>
-                                                            <h4 className="sub-title">The Most Personalized</h4>
-                                                            <h2 className="slider-title">
-                                                                Best-in-Class Blockchain Development
-                                                            </h2>
-                                                            <p className="description">
-                                                                RAIDEN offers top-tier blockchain game development services tailored to gaming businesses of any size.
-                                                                Our team excels in NFT, Metaverse, and Sports Betting design and development, delivering exceptional and engaging gaming experiences.
-                                                            </p>
-                                                            <div className="inner-btn">
-                                                                <div>
-                                                                    <Link className="default-btn" to="/contact">
-                                                                        Contact Us Now
-                                                                    </Link>
-                                                                </div>
-                                                            </div>
-                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
