@@ -66,6 +66,46 @@ const blogSlices = createSlice({
         error: action.payload,
       };
     },
+    BlogTagRequest(state, action) {
+      return {
+        ...state,
+        loading: true,
+      };
+    },
+    BlogTagSuccess(state, action) {
+      return {
+        ...state,
+        loading: false,
+        tags: action.payload.tags,
+      };
+    },
+    BlogTagFail(state, action) {
+      return {
+        ...state,
+        loading: false,
+        error: action.payload,
+      };
+    },
+    getBlogByTagRequest(state, action) {
+      return {
+        ...state,
+        loading: true,
+      };
+    },
+    getBlogByTagSuccess(state, action) {
+      return {
+        ...state,
+        loading: false,
+        blogByTag: action.payload.BlogByTag,
+      };
+    },
+    getBlogByTagFail(state, action) {
+      return {
+        ...state,
+        loading: false,
+        error: action.payload,
+      };
+    },
     GetBlogDetailsRequest(state, action) {
       return {
         ...state,
@@ -87,25 +127,25 @@ const blogSlices = createSlice({
       };
     },
     GetBlogByCategoryRequest(state, action) {
-        return {
-          ...state,
-          loading: true,
-        };
-      },
-      GetBlogByCategorSuccess(state, action) {
-        return {
-          ...state,
-          loading: false,
-          BlogByCategory: action.payload.BlogByCategory,
-        };
-      },
-      GetBlogByCategorFail(state, action) {
-        return {
-          ...state,
-          loading: false,
-          error: action.payload,
-        };
-      },
+      return {
+        ...state,
+        loading: true,
+      };
+    },
+    GetBlogByCategorSuccess(state, action) {
+      return {
+        ...state,
+        loading: false,
+        BlogByCategory: action.payload.BlogByCategory,
+      };
+    },
+    GetBlogByCategorFail(state, action) {
+      return {
+        ...state,
+        loading: false,
+        error: action.payload,
+      };
+    },
   },
 });
 
@@ -122,10 +162,14 @@ export const {
   BlogcategorySuccess,
   GetBlogDetailsFail,
   GetBlogDetailsRequest,
-  GetBlogDetailsSuccess,
+  GetBlogDetailsSuccess, 
   GetBlogByCategorFail,
   GetBlogByCategoryRequest,
   GetBlogByCategorSuccess,
+  BlogTagSuccess,
+  BlogTagFail,
+  BlogTagRequest,
+  getBlogByTagFail,getBlogByTagRequest,getBlogByTagSuccess
 } = actions;
 
 export default reducer;

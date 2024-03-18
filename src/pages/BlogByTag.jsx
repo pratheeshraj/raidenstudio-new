@@ -11,47 +11,50 @@ import { useDispatch, useSelector } from "react-redux";
 import {
   GetAllBlogs,
   GetBlogByCategory,
+  GetBlogByTag,
   GetBlogsCategory,
+  GetBlogsTags,
   GetRecentBlogs,
 } from "../action/BlogAction";
 import BlogCategorySection from "../components/BlogCategorySection";
 import { useParams } from "react-router-dom";
+import BlogTagSection from "../components/BlogTagSection";
 
-const BlogByCategory = () => {
+const BlogByTag = () => {
   const dispatch = useDispatch();
-  const { id } = useParams();
   const { loading } = useSelector((state) => state.blogState);
-
+  const { id } = useParams();
   let [active, setActive] = useState(true);
   useEffect(() => {
-    setTimeout(function () {
-      setActive(false);
-    }, 2000);
-    dispatch(GetBlogByCategory(id));
+    dispatch(GetRecentBlogs);
+    dispatch(GetBlogsCategory);
+    dispatch(GetBlogsTags);
+    dispatch(GetBlogByTag(id));
   }, [id]);
-
   return (
-    <Fragment>
-      {loading ? (
-        <Preloader />
-      ) : (
-        <Suspense>
-          {/* Helmet */}
-          <HelmetReact title={"Blog Grid Sidebar"} />
-          {/* Header one */}
-          <HeaderTwo />
-          {/* Breadcrumb */}
-          <Breadcrumb data={"Blog Grid Sidebar"} />
-          {/* Blog Grid Sidebar*/}
-          <BlogCategorySection />
-          {/* News Section One */}
-          <NewsSectionOne />
-          {/* Footer Section */}
-          <FooterSectionOne />
-        </Suspense>
-      )}
-    </Fragment>
+    <div>
+      <Fragment>
+        {loading ? (
+          <Preloader />
+        ) : (
+          <Suspense>
+            {/* Helmet */}
+            <HelmetReact title={"Blog Details"} />
+            {/* Header one */}
+            <HeaderTwo />
+            {/* Breadcrumb */}
+            <Breadcrumb data={"Blog tag"} />
+            {/* Blog Details */}
+            <BlogTagSection />
+            {/* News Section One */}
+            <NewsSectionOne />
+            {/* Footer Section */}
+            <FooterSectionOne />
+          </Suspense>
+        )}
+      </Fragment>
+    </div>
   );
 };
 
-export default BlogByCategory;
+export default BlogByTag;

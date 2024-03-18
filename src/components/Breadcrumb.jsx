@@ -23,7 +23,7 @@ const Breadcrumb = ({ data }) => {
                   data-aos="fade-up"
                   data-aos-delay="400"
                 >
-                  <Link to="/index">Home</Link> / <span>{data}</span>
+                  <Link to="/">Home</Link> / <span>{data}</span>
                 </div>
               </div>
             </div>

@@ -15,6 +15,12 @@ import {
   GetBlogByCategoryRequest,
   GetBlogByCategorSuccess,
   GetBlogByCategorFail,
+  BlogTagRequest,
+  BlogTagSuccess,
+  BlogTagFail,
+  getBlogByTagRequest,
+  getBlogByTagSuccess,
+  getBlogByTagFail,
 } from "../Slices/blogSlice";
 
 export const GetAllBlogs = async (dispatch) => {
@@ -54,7 +60,18 @@ export const GetBlogsCategory = async (dispatch) => {
     dispatch(BlogcategoryFail(error.response.data.message));
   }
 };
-
+export const GetBlogsTags = async (dispatch) => {
+  try {
+    dispatch(BlogTagRequest());
+    const { data } = await axios.get(
+      `http://localhost:4000/api/blog/all-tags`,
+      { withCredentials: true }
+    );
+    dispatch(BlogTagSuccess(data));
+  } catch (error) {
+    dispatch(BlogTagFail(error.response.data.message));
+  }
+};
 export const GetBlogDetails = (url) => async (dispatch) => {
   try {
     dispatch(GetBlogDetailsRequest());
@@ -80,5 +97,19 @@ export const GetBlogByCategory = (category) => async (dispatch) => {
       dispatch(GetBlogByCategorSuccess(data));
     } catch (error) {
       dispatch(GetBlogByCategorFail(error.response.data.message));
+    }
+  };
+
+  export const GetBlogByTag = (tag) => async (dispatch) => {
+    try {
+      dispatch(getBlogByTagRequest());
+      const { data } = await axios.get(
+        `http://localhost:4000/api/blog/get-blogby-tags/${tag}`,
+        { withCredentials: true }
+      );
+      console.log(data);
+      dispatch(getBlogByTagSuccess(data));
+    } catch (error) {
+      dispatch(getBlogByTagFail(error.response.data.message));
     }
   };

@@ -7,38 +7,41 @@ import NewsSectionOne from "../components/NewsSectionOne";
 import FooterSectionOne from "../components/FooterSectionOne";
 import HelmetReact from "../elements/HelmetReact";
 import HeaderTwo from "../components/HeaderTwo";
-import { useDispatch } from "react-redux";
-import { GetAllBlogs, GetBlogsCategory, GetRecentBlogs } from "../action/BlogAction";
+import { useDispatch, useSelector } from "react-redux";
+import {
+  GetAllBlogs,
+  GetBlogsCategory,
+  GetBlogsTags,
+  GetRecentBlogs,
+} from "../action/BlogAction";
 
 const BlogGridSidebar = () => {
-  const dispatch =useDispatch()
-  
+  const dispatch = useDispatch();
+  const { loading } = useSelector((state) => state.blogState);
   let [active, setActive] = useState(true);
   useEffect(() => {
-    setTimeout(function () {
-      setActive(false);
-    }, 2000);
-    dispatch(GetAllBlogs)
-    dispatch(GetRecentBlogs)
-    dispatch(GetBlogsCategory)
+    dispatch(GetAllBlogs);
+    dispatch(GetRecentBlogs);
+    dispatch(GetBlogsCategory);
+    dispatch(GetBlogsTags);
   }, []);
 
   return (
     <Fragment>
       <Suspense>
-        {active === true && <Preloader />}
         {/* Helmet */}
-        <HelmetReact title={"Blog Grid Sidebar"} />
-        {/* Header one */}
-        <HeaderTwo />
-        {/* Breadcrumb */}
-        <Breadcrumb data={"Blog Grid Sidebar"} />
-        {/* Blog Grid Sidebar*/}
-        <BlogGridSidebarSection />
-        {/* News Section One */}
-        <NewsSectionOne />
-        {/* Footer Section */}
-        <FooterSectionOne />
+        {loading ? (
+          <Preloader />
+        ) : (
+          <Suspense>
+            <HelmetReact title={"Blog Grid Sidebar"} />
+            <HeaderTwo />
+            <Breadcrumb data={"Blog Grid Sidebar"} />
+            <BlogGridSidebarSection />
+            <NewsSectionOne />
+            <FooterSectionOne />
+          </Suspense>
+        )}
       </Suspense>
     </Fragment>
   );

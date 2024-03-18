@@ -3,9 +3,9 @@ import ReactPaginate from "react-paginate";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
-const BlogCategorySection = () => {
+const BlogTagSection = () => {
   const [itemOffset, setItemOffset] = useState(0); 
-  const { BlogByCategory, recentBlogs, Blogcategory,tags } = useSelector(
+  const { blogByTag, recentBlogs, Blogcategory,tags } = useSelector(
     (state) => state.blogState
   );
   const itemsPerPage = 6;
@@ -15,10 +15,10 @@ const BlogCategorySection = () => {
   };
 
   const endOffset = itemOffset + itemsPerPage;
-  const currentItems = BlogByCategory?.slice(itemOffset, endOffset);
-  const pageCount = Math.ceil(BlogByCategory?.length / itemsPerPage);
+  const currentItems = blogByTag?.slice(itemOffset, endOffset);
+  const pageCount = Math.ceil(blogByTag?.length / itemsPerPage);
   const handlePageClick = (event) => {
-    const newOffset = (event.selected * itemsPerPage) % BlogByCategory?.length;
+    const newOffset = (event.selected * itemsPerPage) % blogByTag?.length;
     console.log(
       `User requested page number ${event.selected}, which is offset ${newOffset}`
     );
@@ -238,7 +238,7 @@ const BlogCategorySection = () => {
                       <h2>Tags</h2>
                     </div>
                     <div className="list-grid">
-                    {tags?.map((data, index) => {
+                      {tags?.map((data, index) => {
                         return (
                           <Link to={`/blog/tag/${data?.tag}`} key={index}>
                             {data?.tag} ({data?.count})
@@ -281,4 +281,4 @@ const BlogCategorySection = () => {
   );
 };
 
-export default BlogCategorySection;
+export default BlogTagSection;
