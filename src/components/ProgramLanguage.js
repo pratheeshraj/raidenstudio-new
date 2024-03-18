@@ -135,7 +135,7 @@ const ProgramLanguage = () => {
                                         <div className="Card_name">SQL Server</div>
                                     </div>
                                     <div className="card4">
-                                        <img src="/assets/img/Language/NEST JS.svg" alt="" />
+                                        <img src="/assets/img/Language/mysql-icon.svg" alt="" />
                                         <div className="Card_name">MySQL</div>
                                     </div>
                                 </div> : mobile ? <div className="col-lg-8 right_Language_div2">
