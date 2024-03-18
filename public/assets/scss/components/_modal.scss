@@ -96,7 +96,7 @@
   top: 0;
   width: 100%;
   height: 100%;
-  z-index: 99;
+  z-index: 99999999999;
   transform: translateX(100%);
   @include transition(0.5s);
   @media #{$lg, $md, $sm, $xs, $xss} {

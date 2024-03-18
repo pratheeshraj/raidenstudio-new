@@ -17,6 +17,7 @@ import HelmetReact from "../elements/HelmetReact";
 import HeaderTwo from "../components/HeaderTwo";
 import NewsSectionOne from "../components/NewsSectionOne";
 import NewsletterPopup from "../components/NewsletterPopup";
+
 import {
   GetAllBlogs,
   GetBlogsCategory,
@@ -24,6 +25,9 @@ import {
   GetRecentBlogs,
 } from "../action/BlogAction";
 import { useDispatch } from "react-redux";
+
+import ProgramLanguage from "../components/ProgramLanguage";
+
 
 const HomeThree = () => {
   let [active, setActive] = useState(true);
@@ -55,6 +59,8 @@ const HomeThree = () => {
         {/* FAQ Section Three */}
         {/* <FAQSectionThree /> */}
         {/* Project Section Three */}
+        {/* Project Section Three */}
+        <ProgramLanguage/>
         <ProjectSectionThree />
         {/* Counter Section Three */}
         <CounterSectionThree />

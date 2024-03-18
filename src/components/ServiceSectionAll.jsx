@@ -11,7 +11,7 @@ const ServiceSectionAll = () => {
       >
         <div className="auto-container">
           <div className="row">
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-4 col-md-6 serviceallmargin">
               <div className="section-wrapper">
                 <div
                   className="wrapper-inner one "
@@ -26,14 +26,14 @@ const ServiceSectionAll = () => {
                       <Link to="#">Custom Blockchain Development</Link>
                     </h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Obcaecati iste inventore molestiae? Assumenda facilis.
+                      Offering scalable, secure business solutions through immutable blockchain tech.
+                      Specializing in custom decentralized apps for Ethereum, BSC, Solana, Polygon, and more
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-4 col-md-6 serviceallmargin">
               <div className="section-wrapper">
                 <div
                   className="wrapper-inner one "
@@ -48,14 +48,14 @@ const ServiceSectionAll = () => {
                       <Link to="#">NFT Development</Link>
                     </h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Obcaecati iste inventore molestiae? Assumenda facilis.
+                      Top NFT development company offering custom marketplace solutions with integrated
+                      wallet support and seamless asset trading options for your website
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-4 col-md-6 serviceallmargin">
               <div className="section-wrapper">
                 <div
                   className="wrapper-inner one "
@@ -70,14 +70,14 @@ const ServiceSectionAll = () => {
                       <Link to="#">Generative AI Development</Link>
                     </h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Obcaecati iste inventore molestiae? Assumenda facilis.
+                      Unlock innovation with our expert Generative AI team, crafting bespoke
+                      solutions like chatbots and robo-advisors to streamline business processes and enhance efficiency
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-4 col-md-6 serviceallmargin">
               <div className="section-wrapper">
                 <div
                   className="wrapper-inner one "
@@ -92,14 +92,14 @@ const ServiceSectionAll = () => {
                       <Link to="#">Metaverse Development</Link>
                     </h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Obcaecati iste inventore molestiae? Assumenda facilis.
+                      Pioneering Metaverse solutions merging gaming, governance,
+                      and innovation. Experts in 3D animation for immersive virtual platforms
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-4 col-md-6 serviceallmargin">
               <div className="section-wrapper">
                 <div
                   className="wrapper-inner one "
@@ -114,14 +114,14 @@ const ServiceSectionAll = () => {
                       <Link to="#">AR/VR App Development</Link>
                     </h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Obcaecati iste inventore molestiae? Assumenda facilis.
+                      Tailored AR/VR app development for modern businesses.
+                      Immersive experiences crafted by experienced developers, catering to diverse industries and business sizes.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-4 col-md-6 serviceallmargin">
               <div className="section-wrapper">
                 <div
                   className="wrapper-inner one "
@@ -136,14 +136,14 @@ const ServiceSectionAll = () => {
                       <Link to="#">DeFi Development</Link>
                     </h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Obcaecati iste inventore molestiae? Assumenda facilis.
+                      VR, a leading DeFi Development Company, empowers
+                      businesses with cutting-edge services to monetize assets through decentralized finance solutions
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-4 col-md-6 serviceallmargin">
               <div className="section-wrapper">
                 <div
                   className="wrapper-inner one "
@@ -158,14 +158,14 @@ const ServiceSectionAll = () => {
                       <Link to="#">Blockchain Game Development</Link>
                     </h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Obcaecati iste inventore molestiae? Assumenda facilis.
+                      Unleash tailored blockchain games: P2E, RPGs, MMORPGs, casinos, and beyond.
+                      Immersive designs meet market trends seamlesslyis.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-4 col-md-6 serviceallmargin">
               <div className="section-wrapper">
                 <div
                   className="wrapper-inner one "
@@ -180,14 +180,14 @@ const ServiceSectionAll = () => {
                       <Link to="#">Dapp Development</Link>
                     </h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Obcaecati iste inventore molestiae? Assumenda facilis.
+                      VR's expert developers leverage advanced blockchain tech to
+                      craft top-tier dApps for clients, excelling in the decentralized app arena
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-4 col-md-6 serviceallmargin">
               <div className="section-wrapper">
                 <div
                   className="wrapper-inner one "
@@ -202,8 +202,7 @@ const ServiceSectionAll = () => {
                       <Link to="#">Smart Contract Development</Link>
                     </h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Obcaecati iste inventore molestiae? Assumenda facilis.
+                      Transform your business with our smart contract development services, expertly crafted for seamless workflow resolution across major programming languages and frameworks.
                     </p>
                   </div>
                 </div>

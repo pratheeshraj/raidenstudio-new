@@ -224,7 +224,7 @@ const HeaderTwo = () => {
                         <ul>
 
                           <li className="has-dropdown">
-                            <Link to="#">Home</Link>
+                            <Link to="/">Home</Link>
                             {/* <ul className="sub-menu">
                               <li>
                                 <NavLink
@@ -316,7 +316,7 @@ const HeaderTwo = () => {
                             <Link className="nav_link" to="#">Products<i class="fa-solid fa-caret-down"></i></Link>
                             <ul className="sub-menu">
                               <div className="sub-menu-div">
-                                <li
+                                <li style={{marginTop:"20px"}}
                                   className={`has-dropdown ${activeMenu1 === 'virtual' ? 'active' : ''}`}
                                   onMouseEnter={() => handleMenuHover1('virtual')}
                                 >

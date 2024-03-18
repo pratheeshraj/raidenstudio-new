@@ -16,7 +16,7 @@ const ServiceSectionThree = () => {
               >
                 <h3>ADVANCED SERVICES</h3>
                 <h2>
-                We provide a range of all-inclusive <br />
+                  We provide a range of all-inclusive <br />
                   <span className="theme-color">services & solutions</span>
                 </h2>
               </div>
@@ -73,13 +73,15 @@ const ServiceSectionThree = () => {
                         <div className="text-file">
                           <h2 className="title">
                             <Link to="/service-details">
-                              Transform Data Insights
+                              Custom Blockchain Development
                             </Link>
                           </h2>
                           <p>
-                            Ensure your IT infrastructure remains resilient when
-                            adopting trans formative technologies.
+                            Offering scalable, secure business solutions through immutable blockchain tech. Specializing in custom decentralized apps for Ethereum, BSC, Solana, Polygon, and more
                           </p>
+                          {/* <div className="link">
+                            <Link to="/service-details">Read More</Link>
+                          </div> */}
                           <div className="shape-overlay">
                             <img src="/assets/img/shape/15_shape.svg" alt="" />
                           </div>
@@ -100,13 +102,15 @@ const ServiceSectionThree = () => {
                         <div className="text-file">
                           <h2 className="title">
                             <Link to="/service-details">
-                              Shine a light on dark Light
+                              NFT Development
                             </Link>
                           </h2>
                           <p>
-                            Ensure your IT infrastructure remains resilient when
-                            adopting trans formative technologies.
+                            Top NFT development company offering custom marketplace solutions with integrated wallet support and seamless asset trading options for your website
                           </p>
+                          {/* <div className="link">
+                            <Link to="/service-details">Read More</Link>
+                          </div> */}
                           <div className="shape-overlay">
                             <img src="/assets/img/shape/15_shape.svg" alt="" />
                           </div>
@@ -127,13 +131,15 @@ const ServiceSectionThree = () => {
                         <div className="text-file">
                           <h2 className="title">
                             <Link to="/service-details">
-                              Achieve Faster Objectives
+                              Generative AI Development
                             </Link>
                           </h2>
                           <p>
-                            Ensure your IT infrastructure remains resilient when
-                            adopting trans formative technologies.
+                            Unlock innovation with our expert Generative AI team, crafting bespoke solutions like chatbots and robo-advisors to streamline business processes and enhance efficiency
                           </p>
+                          {/* <div className="link">
+                            <Link to="/service-details">Read More</Link>
+                          </div> */}
                           <div className="shape-overlay">
                             <img src="/assets/img/shape/15_shape.svg" alt="" />
                           </div>
