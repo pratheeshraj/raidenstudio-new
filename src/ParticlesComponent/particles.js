@@ -3,7 +3,7 @@ import { useEffect, useMemo, useState } from "react";
 import { loadSlim } from "@tsparticles/slim";
 
 
-const ParticlesComponent = (props) => {
+const ParticlesComponent = ({id,upadte}) => {
   const [init, setInit] = useState(false);
 
   useEffect(() => {
@@ -12,7 +12,7 @@ const ParticlesComponent = (props) => {
     }).then(() => {
       setInit(true);
     });
-  }, []);
+  }, [upadte]);
 
   const particlesLoaded = (container) => {
     console.log(container);
@@ -89,7 +89,7 @@ const ParticlesComponent = (props) => {
     []
   );
 
-  return <Particles id={props.id} init={particlesLoaded} options={options} />;
+  return <Particles id={id} init={particlesLoaded} options={options} />;
 };
 
 export default ParticlesComponent;

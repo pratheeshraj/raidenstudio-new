@@ -496,6 +496,8 @@
         overflow: hidden;
         img {
           @include transition(0.3s);
+          height: 270px;
+          object-fit: cover;
           width: 100%;
         }
       }

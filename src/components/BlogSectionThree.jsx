@@ -1,7 +1,11 @@
 import React from "react";
+import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
 const BlogSectionThree = () => {
+  const { allBlogs } = useSelector(
+    (state) => state.blogState
+  );
   return (
     <>
       {/* Blog Section three start */}
@@ -27,108 +31,47 @@ const BlogSectionThree = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-4 col-md-6 col-12">
-              <div
-                className="blog-items "
-                data-aos="fade-up"
-                data-aos-delay="300"
-              >
-                <div className="img-file">
-                  <img
-                    className="img-fluid"
-                    src="/assets/img/blog/15_blog.png"
-                    alt=""
-                  />
-                </div>
-                <div className="text-file">
-                  <div className="title">
-                    <div className="date">
-                      <span>
-                        <i className="fa-regular fa-clock" /> April 26, 2023
-                      </span>
+          {
+          allBlogs?.slice(0, 3).map((data,index)=>{
+              return(
+                <div className="col-lg-4 col-md-6 col-12" key={index}>
+                <div
+                  className="blog-items "
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                >
+                  <div className="img-file">
+                    <img
+                      className="img-fluid"
+                      src="/assets/img/blog/15_blog.png"
+                      alt=""
+                    />
+                  </div>
+                  <div className="text-file">
+                    <div className="title">
+                      <div className="date">
+                        <span>
+                          <i className="fa-regular fa-clock" /> April 26, 2023
+                        </span>
+                      </div>
+                      <h2>
+                        <Link to="#">Professional Technology information.</Link>
+                      </h2>
+                      <p>
+                        Ensure your IT infrastructure remains resilient when
+                        adopting trans formative technologies.
+                      </p>
+                      <Link className="link" to="/blog-details">
+                        Read More
+                      </Link>
                     </div>
-                    <h2>
-                      <Link to="#">Professional Technology information.</Link>
-                    </h2>
-                    <p>
-                      Ensure your IT infrastructure remains resilient when
-                      adopting trans formative technologies.
-                    </p>
-                    <Link className="link" to="/blog-details">
-                      Read More
-                    </Link>
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-12">
-              <div
-                className="blog-items "
-                data-aos="fade-up"
-                data-aos-delay="300"
-              >
-                <div className="img-file">
-                  <img
-                    className="img-fluid"
-                    src="/assets/img/blog/16_blog.png"
-                    alt=""
-                  />
-                </div>
-                <div className="text-file">
-                  <div className="title">
-                    <div className="date">
-                      <span>
-                        <i className="fa-regular fa-clock" /> April 26, 2023
-                      </span>
-                    </div>
-                    <h2>
-                      <Link to="#">AI consulting solutions you achieve.</Link>
-                    </h2>
-                    <p>
-                      Ensure your IT infrastructure remains resilient when
-                      adopting trans formative technologies.
-                    </p>
-                    <Link className="link" to="/blog-details">
-                      Read More
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-12">
-              <div
-                className="blog-items "
-                data-aos="fade-up"
-                data-aos-delay="400"
-              >
-                <div className="img-file">
-                  <img
-                    className="img-fluid"
-                    src="/assets/img/blog/17_blog.png"
-                    alt=""
-                  />
-                </div>
-                <div className="text-file">
-                  <div className="title">
-                    <div className="date">
-                      <span>
-                        <i className="fa-regular fa-clock" /> April 26, 2023
-                      </span>
-                    </div>
-                    <h2>
-                      <Link to="#">We offer AI consulting services.</Link>
-                    </h2>
-                    <p>
-                      Ensure your IT infrastructure remains resilient when
-                      adopting trans formative technologies.
-                    </p>
-                    <Link className="link" to="/blog-details">
-                      Read More
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
+              )
+            })
+          }
+           
           </div>
           <div className="inner-btn d-adjust">
             <div>

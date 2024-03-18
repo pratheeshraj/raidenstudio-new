@@ -10,26 +10,38 @@ import CounterSectionThree from "../components/CounterSectionThree";
 import TestimonialSectionThree from "../components/TestimonialSectionThree";
 import PriceSectionTwo from "../components/PriceSectionTwo";
 import TeamSectionTwo from "../components/TeamSectionTwo";
-import BlogSectionThree from "../components/BlogSectionThree";
+import BlogSectionTwo from "../components/BlogSectionTwo";
 import NewsSectionTwo from "../components/NewsSectionTwo";
 import FooterSectionThree from "../components/FooterSectionThree";
 import HelmetReact from "../elements/HelmetReact";
 import HeaderTwo from "../components/HeaderTwo";
 import NewsSectionOne from "../components/NewsSectionOne";
 import NewsletterPopup from "../components/NewsletterPopup";
+import {
+  GetAllBlogs,
+  GetBlogsCategory,
+  GetBlogsTags,
+  GetRecentBlogs,
+} from "../action/BlogAction";
+import { useDispatch } from "react-redux";
 
 const HomeThree = () => {
   let [active, setActive] = useState(true);
-  useEffect(() => {
-    setTimeout(function () {
-      setActive(false);
-    }, 2000);
-  }, []);
+  const dispatch = useDispatch();
 
+  useEffect(() => {
+    try {
+      dispatch(GetRecentBlogs);
+      dispatch(GetBlogsCategory);
+      dispatch(GetBlogsTags);
+      dispatch(GetAllBlogs);
+    } catch (error) {
+      console.log(error);
+    }
+  }, []);
   return (
     <Fragment>
       <Suspense>
-        {active === true && <Preloader />}
         {/* Helmet */}
         <HelmetReact title={"Home"} />
         {/* Header Three */}
@@ -53,7 +65,7 @@ const HomeThree = () => {
         {/* Team Section Two */}
         {/* <TeamSectionTwo /> */}
         {/* Blog Section Three */}
-        <BlogSectionThree />
+        <BlogSectionTwo />
         {/* News Section Two */}
         <NewsSectionOne />
         {/* Footer Section Three */}
