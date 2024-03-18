@@ -43,7 +43,7 @@ const ProjectSectionThree = () => {
                   />
                   <div className="shape-overlay poa">
                     <div className="inner">
-                      <h2>Robotic Technology</h2>
+                      <h2>Raiden Verse</h2>
                       <p>
                         In this space, we will explore the most innovative and
                         impactful Artificial Intelligence projects, real-world
@@ -71,7 +71,7 @@ const ProjectSectionThree = () => {
                   />
                   <div className="shape-overlay poa">
                     <div className="inner">
-                      <h2>Machine Learning</h2>
+                      <h2>Raiden SimX</h2>
                       <p>
                         In this space, we will explore the most innovative and
                         impactful Artificial Intelligence projects, real-world
@@ -99,7 +99,7 @@ const ProjectSectionThree = () => {
                   />
                   <div className="shape-overlay poa">
                     <div className="inner">
-                      <h2>Native Engagement</h2>
+                      <h2>Raiden GOGNI+</h2>
                       <p>
                         In this space, we will explore the most innovative and
                         impactful Artificial Intelligence projects, real-world
@@ -127,7 +127,7 @@ const ProjectSectionThree = () => {
                   />
                   <div className="shape-overlay poa">
                     <div className="inner">
-                      <h2>Robotic Process</h2>
+                      <h2>Raiden ARCVIZ</h2>
                       <p>
                         In this space, we will explore the most innovative and
                         impactful Artificial Intelligence projects, real-world

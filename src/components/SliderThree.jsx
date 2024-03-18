@@ -39,7 +39,7 @@ const SliderThree = () => {
                                                         </h2>
                                                         <p className="description">
                                                             Utilize our expertise to fast-track your AI projects with our end-to-end development services.
-                                                             From tailored AI strategies for business growth to NLP and adaptable solutions, we're your dedicated AI partner.
+                                                            From tailored AI strategies for business growth to NLP and adaptable solutions, we're your dedicated AI partner.
                                                         </p>
                                                         <div className="inner-btn">
                                                             <div>
@@ -66,30 +66,32 @@ const SliderThree = () => {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                {" "}
-                                <ParticlesComponent id="particles" />
-                                <div className="item-slider sliderm-height p-relative swiper-slide">
-                                    <div
-                                        className="slide-bg"
-                                    />
-                                    <div className="auto-container">
-                                        <div className="row ">
-                                            <div className="col-12">
-                                                <div className="slider-content-inner middle">
-                                                    <div>
-                                                        <h4 className="sub-title">The Most Personalized</h4>
-                                                        <h2 className="slider-title">
-                                                        Best-in-Class Blockchain Development
-                                                        </h2>
-                                                        <p className="description">
-                                                        RAIDEN offers top-tier blockchain game development services tailored to gaming businesses of any size.
-                                                        Our team excels in NFT, Metaverse, and Sports Betting design and development, delivering exceptional and engaging gaming experiences.
-                                                        </p>
-                                                        <div className="inner-btn">
-                                                            <div>
-                                                                <Link className="default-btn" to="/contact">
-                                                                    Contact Us Now
-                                                                </Link>
+                                <div>
+                                    <ParticlesComponent id="particles" />
+                                    <div className="item-slider sliderm-height p-relative swiper-slide">
+
+                                        <div
+                                            className="slide-bg"
+                                        />
+                                        <div className="auto-container">
+                                            <div className="row ">
+                                                <div className="col-12">
+                                                    <div className="slider-content-inner middle">
+                                                        <div>
+                                                            <h4 className="sub-title">The Most Personalized</h4>
+                                                            <h2 className="slider-title">
+                                                                Best-in-Class Blockchain Development
+                                                            </h2>
+                                                            <p className="description">
+                                                                RAIDEN offers top-tier blockchain game development services tailored to gaming businesses of any size.
+                                                                Our team excels in NFT, Metaverse, and Sports Betting design and development, delivering exceptional and engaging gaming experiences.
+                                                            </p>
+                                                            <div className="inner-btn">
+                                                                <div>
+                                                                    <Link className="default-btn" to="/contact">
+                                                                        Contact Us Now
+                                                                    </Link>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -165,11 +167,11 @@ const SliderThree = () => {
                                                     <div>
                                                         <h4 className="sub-title">The Most Personalized</h4>
                                                         <h2 className="slider-title">
-                                                        Top AR,VR Metaverse Development Company
+                                                            Top AR,VR Metaverse Development Company
                                                         </h2>
                                                         <p className="description">
-                                                        Transform your business with our innovative 3D Metaverse solution, merging virtual and augmented technologies.
-                                                        Partner with VRAIDEN, a top AR and VR development firm, for tailored solutions to propel your VR/AR business forward.
+                                                            Transform your business with our innovative 3D Metaverse solution, merging virtual and augmented technologies.
+                                                            Partner with VRAIDEN, a top AR and VR development firm, for tailored solutions to propel your VR/AR business forward.
                                                         </p>
                                                         <div className="inner-btn">
                                                             <div>

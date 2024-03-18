@@ -108,5 +108,8 @@
     z-index: -1;
     object-fit: cover;
     background: center; */
+}
 
+.serviceallmargin {
+    margin-bottom: 25px;
 }

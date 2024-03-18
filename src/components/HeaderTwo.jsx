@@ -224,7 +224,7 @@ const HeaderTwo = () => {
                         <ul>
 
                           <li className="has-dropdown">
-                            <Link to="#">Home</Link>
+                            <Link to="/">Home</Link>
                             {/* <ul className="sub-menu">
                               <li>
                                 <NavLink
