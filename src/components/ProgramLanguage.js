@@ -122,7 +122,7 @@ const ProgramLanguage = () => {
                                         <div className="Card_name">Nest Js</div>
                                     </div>
                                 </div> : database ? <div className="col-lg-9 right_Language_div">
-                                <div className="card4">
+                                    <div className="card4">
                                         <img src="/assets/img/Language/postgresq.svg" alt="" />
                                         <div className="Card_name">Postgres</div>
                                     </div>
@@ -155,35 +155,27 @@ const ProgramLanguage = () => {
                                         <img src="/assets/img/Language/KATLIN.svg" alt="" />
                                         <div className="Card_name">Kotlin</div>
                                     </div>
-                                    <div className="card3">
-                                        <img src="/assets/img/Language/augmented-reality (1)-min.png" alt="" />
-                                        <div className="Card_name">Augumented Reality</div>
-                                    </div>
-                                    <div className="card3">
-                                        <img src="/assets/img/Language/apple-vision-pro-labs-256x256_2x.png" alt="" />
-                                        <div className="Card_name">Virtual Reality</div>
-                                    </div>
                                 </div> : blockchain ? <div className="col-lg-9 right_Language_div">
-                                <div className="card5">
+                                    <div className="card5">
                                         <img src="/assets/img/Language/ethereum-eth-logo.svg" alt="" />
                                         <div className="Card_name">Ethereum</div>
                                     </div>
-                                <div className="card5">
+                                    <div className="card5">
                                         <img src="/assets/img/Language/solana-sol-logo.svg" alt="" />
                                         <div className="Card_name">Solana</div>
                                     </div>
                                     <div className="card5">
                                         <img src="/assets/img/Language/polygon-matic-logo (1).svg" alt="" />
                                         <div className="Card_name">Polygon</div>
-                                    </div>                                
+                                    </div>
                                     <div className="card5">
                                         <img src="/assets/img/Language/bnb-bnb-logo.svg" alt="" />
                                         <div className="Card_name">Binance Smart Chain</div>
-                                    </div>                                
+                                    </div>
                                     <div className="card5">
                                         <img src="/assets/img/Language/cardano-ada-logo.svg" alt="" />
                                         <div className="Card_name">Cardano</div>
-                                    </div>                                                              
+                                    </div>
                                     <div className="card5">
                                         <img src="/assets/img/Language/fantom-ftm-logo.svg" alt="" />
                                         <div className="Card_name">Fantom</div>
@@ -193,13 +185,21 @@ const ProgramLanguage = () => {
                                         <div className="Card_name">PolkaDot</div>
                                     </div>
                                 </div> : game ? <div className="col-lg-9 right_Language_div">
-                                <div className="card6">
+                                    <div className="card6">
                                         <img src="/assets/img/Language/UNITY.svg" alt="" />
                                         <div className="Card_name">Unity</div>
-                                    </div>                                    
+                                    </div>
                                     <div className="card6">
-                                        <img style={{fill:"red"}} src="/assets/img/Language/unreal-engine 1.svg" alt="" />
+                                        <img style={{ fill: "red" }} src="/assets/img/Language/unreal-engine 1.svg" alt="" />
                                         <div className="Card_name">UnReal</div>
+                                    </div>
+                                    <div className="card6">
+                                        <img src="/assets/img/Language/augmented-reality (1)-min.png" alt="" />
+                                        <div className="Card_name">Augumented Reality</div>
+                                    </div>
+                                    <div className="card6">
+                                        <img src="/assets/img/Language/apple-vision-pro-labs-256x256_2x.png" alt="" />
+                                        <div className="Card_name">Virtual Reality</div>
                                     </div>
                                 </div> : ""
                         }

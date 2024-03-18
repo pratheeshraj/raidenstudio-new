@@ -66,7 +66,7 @@ const ServiceSectionThree = () => {
                         <div className="img-file">
                           <img
                             className="img-fluid"
-                            src="/assets/img/service/04_service.png"
+                            src="/assets/img/service/yyrd 1.webp"
                             alt=""
                           />
                         </div>
@@ -124,7 +124,7 @@ const ServiceSectionThree = () => {
                         <div className="img-file">
                           <img
                             className="img-fluid"
-                            src="/assets/img/service/06_service.png"
+                            src="/assets/img/service/ai.webp"
                             alt=""
                           />
                         </div>

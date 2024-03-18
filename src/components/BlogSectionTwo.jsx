@@ -20,9 +20,6 @@ const BlogSectionTwo = () => {
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
-                <h3 style={{color:"black"}}> 
-                  {"{"} RECENT BLOG {"}"}
-                </h3>
                 <h2 style={{color:"black"}}>
                   Latest thinking in AI &amp; our <br />{" "}
                   <span className="theme-color">company news</span>
