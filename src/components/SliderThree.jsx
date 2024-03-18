@@ -11,7 +11,7 @@ const SliderThree = () => {
                 <div className="swiper hero-slider-init-one swiper-container swiper-container-fade">
                     <div className="swiper-wrapper p-relative">
                         <Swiper
-                            loop={true}
+                            loop={false}
                             modules={[FreeMode, Navigation, Thumbs, EffectFade]}
                             navigation={{
                                 nextEl: ".swiper-button-next",
