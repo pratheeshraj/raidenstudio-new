@@ -173,12 +173,6 @@ const HeaderTwo = () => {
                 </div>
                 <div className="col-lg-5">
                   <div className="right-wrapper">
-                    <div className="item">
-                      <span className="theme-color">
-                        <i className="fa-solid fa-timer" />
-                      </span>
-                      <span>Office Hours: 09:00am-6:00pm</span>
-                    </div>
                     <div className="item social">
                       <Link to="#">
                         <i className="fa-brands fa-facebook" />
