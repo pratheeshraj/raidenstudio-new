@@ -95,7 +95,7 @@ const ServiceSectionThree = () => {
                         <div className="img-file">
                           <img
                             className="img-fluid"
-                            src="/assets/img/service/05_service.png"
+                            src="/assets/img/service/DALL·E 2024-03-18 17.49 1.webp"
                             alt=""
                           />
                         </div>
