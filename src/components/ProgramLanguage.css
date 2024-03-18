@@ -106,12 +106,7 @@
     height: 60px;
     border-radius: 5px;
     object-fit: contain;
-    filter: grayscale(0);
     cursor: pointer;
-}
-
-.card img:hover {
-    filter: grayscale(100%);
 }
 
 .Card_name {

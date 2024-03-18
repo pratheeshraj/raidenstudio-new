@@ -81,37 +81,41 @@ const ProgramLanguage = () => {
                         </div>
                         {
                             frontend ? <div className="col-lg-9 right_Language_div">
-                                <div className="card">
+                                <div className="card card1">
                                     <img src="/assets/img/Language/react-2.svg" alt="" />
                                     <div className="Card_name">React</div>
-                                </div>                                <div className="card">
+                                </div>                               
+                                 <div className="card card2">
                                     <img src="/assets/img/Language/ANGULAR.svg" alt="" />
                                     <div className="Card_name">Angular</div>
-                                </div>                                <div className="card">
+                                </div>                               
+                                 <div className="card card3">
                                     <img src="/assets/img/Language/Vue.js_Logo_2.svg" alt="" />
                                     <div className="Card_name">Vue</div>
-                                </div>                                <div className="card">
+                                </div>                                
+                                <div className="card card4">
                                     <img src="/assets/img/Language/javascript-1.svg" alt="" />
                                     <div className="Card_name">JavaScript</div>
-                                </div>                                <div className="card">
+                                </div>                               
+                                 <div className="card card5">
                                     <img src="/assets/img/Language/JQUERY.svg" alt="" />
                                     <div className="Card_name">jQuery</div>
                                 </div>
 
                             </div> : backend ? <div className="col-lg-8 right_Language_div">
-                                <div className="card">
+                                <div className="card card6">
                                     <img src="/assets/img/Language/nodejs-icon.svg" alt="" />
                                     <div className="Card_name">Node Js</div>
                                 </div>
-                                <div className="card">
+                                <div className="card card7">
                                     <img src="/assets/img/Language/PYTHON.svg" alt="" />
                                     <div className="Card_name">Python</div>
                                 </div>
-                                <div className="card">
+                                <div className="card card8">
                                     <img src="/assets/img/Language/JAVA.svg" alt="" />
                                     <div className="Card_name">Java</div>
                                 </div>
-                                <div className="card">
+                                <div className="card card9"> 
                                     <img src="/assets/img/Language/NEST JS.svg" alt="" />
                                     <div className="Card_name">Nest Js</div>
                                 </div>
