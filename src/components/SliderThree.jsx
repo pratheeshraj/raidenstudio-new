@@ -69,7 +69,6 @@ const SliderThree = () => {
                                 <div>
                                     <ParticlesComponent id="particles" />
                                     <div className="item-slider sliderm-height p-relative swiper-slide">
-
                                         <div
                                             className="slide-bg"
                                         />
