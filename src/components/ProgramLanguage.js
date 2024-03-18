@@ -104,7 +104,7 @@ const ProgramLanguage = () => {
                                 </div>
 
                             </div> : backend ?
-                                <div className="col-lg-8 right_Language_div2">
+                                <div className="col-lg-9 right_Language_div">
                                     <div className="card2">
                                         <img src="/assets/img/Language/nodejs-icon.svg" alt="" />
                                         <div className="Card_name">Node Js</div>
@@ -121,7 +121,7 @@ const ProgramLanguage = () => {
                                         <img src="/assets/img/Language/NEST JS.svg" alt="" />
                                         <div className="Card_name">Nest Js</div>
                                     </div>
-                                </div> : database ? <div className="col-lg-8 right_Language_div4">
+                                </div> : database ? <div className="col-lg-9 right_Language_div">
                                 <div className="card4">
                                         <img src="/assets/img/Language/postgresq.svg" alt="" />
                                         <div className="Card_name">Postgres</div>
@@ -138,7 +138,7 @@ const ProgramLanguage = () => {
                                         <img src="/assets/img/Language/mysql-icon.svg" alt="" />
                                         <div className="Card_name">MySQL</div>
                                     </div>
-                                </div> : mobile ? <div className="col-lg-8 right_Language_div2">
+                                </div> : mobile ? <div className="col-lg-9 right_Language_div">
                                     <div className="card3">
                                         <img src="/assets/img/Language/REACT NATIVE.svg" alt="" />
                                         <div className="Card_name">React Native</div>
@@ -163,7 +163,7 @@ const ProgramLanguage = () => {
                                         <img src="/assets/img/Language/apple-vision-pro-labs-256x256_2x.png" alt="" />
                                         <div className="Card_name">Virtual Reality</div>
                                     </div>
-                                </div> : blockchain ? <div className="col-lg-8 right_Language_div5">
+                                </div> : blockchain ? <div className="col-lg-9 right_Language_div">
                                 <div className="card5">
                                         <img src="/assets/img/Language/ethereum-eth-logo.svg" alt="" />
                                         <div className="Card_name">Ethereum</div>
@@ -192,7 +192,7 @@ const ProgramLanguage = () => {
                                         <img src="/assets/img/Language/polkadot-new-dot-logo.svg" alt="" />
                                         <div className="Card_name">PolkaDot</div>
                                     </div>
-                                </div> : game ? <div className="col-lg-8 right_Language_div6">
+                                </div> : game ? <div className="col-lg-9 right_Language_div">
                                 <div className="card6">
                                         <img src="/assets/img/Language/UNITY.svg" alt="" />
                                         <div className="Card_name">Unity</div>

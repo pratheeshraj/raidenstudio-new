@@ -26,7 +26,7 @@ const ServiceSectionThree = () => {
             <div className="swiper swiper-container service-one">
               <div className="swiper-wrapper">
                 <Swiper
-                  loop={true}
+                  loop={false}
                   spaceBetween={20}
                   slidesPerView={3}
                   speed={1000}
@@ -142,71 +142,6 @@ const ServiceSectionThree = () => {
                           </div> */}
                           <div className="shape-overlay">
                             <img src="/assets/img/shape/15_shape.svg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <div className="swiper-slide">
-                      <div className="inner-wrapper ">
-                        <div className="img-file">
-                          <img
-                            className="img-fluid"
-                            src="/assets/img/service/07_service.png"
-                            alt=""
-                          />
-                        </div>
-                        <div className="text-file">
-                          <h2 className="title">
-                            <Link to="/service-details">
-                              Benefits Of Implementing
-                            </Link>
-                          </h2>
-                          <p>
-                            Ensure your IT infrastructure remains resilient when
-                            adopting trans formative technologies.
-                          </p>
-                          <div className="link">
-                            <Link to="/service-details">Read More</Link>
-                          </div>
-                          <div className="shape-overlay">
-                            <img src="/assets/img/shape/15_shape.svg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    {" "}
-                    <div className="swiper-slide">
-                      <div className="inner-wrapper ">
-                        <div className="img-file">
-                          <img
-                            className="img-fluid"
-                            src="/assets/img/service/08_service.png"
-                            alt=""
-                          />
-                        </div>
-                        <div className="text-file">
-                          <h2 className="title">
-                            <Link to="/service-details">
-                              Efficiency &amp; Productivity
-                            </Link>
-                          </h2>
-                          <p>
-                            Ensure your IT infrastructure remains resilient when
-                            adopting trans formative technologies.
-                          </p>
-                          <div className="link">
-                            <Link to="/service-details">Read More</Link>
-                          </div>
-                          <div className="shape-overlay">
-                            <img
-                              className="img-fluid"
-                              src="/assets/img/shape/15_shape.svg"
-                              alt=""
-                            />
                           </div>
                         </div>
                       </div>

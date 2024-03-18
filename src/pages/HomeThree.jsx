@@ -34,6 +34,12 @@ import ContactSection2 from "../components/ContactSection2";
 const HomeThree = () => {
   let [active, setActive] = useState(true);
   const dispatch = useDispatch();
+  
+  useEffect(() => {
+    setTimeout(function () {
+      setActive(false);
+    }, 2000);
+  }, []);
 
   useEffect(() => {
     try {
@@ -48,6 +54,7 @@ const HomeThree = () => {
   return (
     <Fragment>
       <Suspense>
+      {active === true && <Preloader />}
         {/* Helmet */}
         <HelmetReact title={"Home"} />
         {/* Header Three */}
