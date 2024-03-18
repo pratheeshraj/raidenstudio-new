@@ -121,8 +121,23 @@ const ProgramLanguage = () => {
                                         <img src="/assets/img/Language/NEST JS.svg" alt="" />
                                         <div className="Card_name">Nest Js</div>
                                     </div>
-                                </div> : database ? <div className="col-lg-8 right_Language_div">
-                                    database
+                                </div> : database ? <div className="col-lg-8 right_Language_div4">
+                                <div className="card4">
+                                        <img src="/assets/img/Language/postgresq.svg" alt="" />
+                                        <div className="Card_name">Postgres</div>
+                                    </div>
+                                    <div className="card4">
+                                        <img src="/assets/img/Language/mongo.svg" alt="" />
+                                        <div className="Card_name">MongoDB</div>
+                                    </div>
+                                    <div className="card4">
+                                        <img src="/assets/img/Language/sql server.svg" alt="" />
+                                        <div className="Card_name">SQL Server</div>
+                                    </div>
+                                    <div className="card4">
+                                        <img src="/assets/img/Language/NEST JS.svg" alt="" />
+                                        <div className="Card_name">MySQL</div>
+                                    </div>
                                 </div> : mobile ? <div className="col-lg-8 right_Language_div2">
                                     <div className="card3">
                                         <img src="/assets/img/Language/REACT NATIVE.svg" alt="" />
@@ -172,6 +187,7 @@ const ProgramLanguage = () => {
                     <div className="shape-img-7 poa">
                         <img src="/assets/img/Language/nodejs-icon.svg" alt="" />
                     </div>
+
                 </div>
             </section>
             {/* FAQ Section three end */}

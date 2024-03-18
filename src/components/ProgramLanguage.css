@@ -315,3 +315,103 @@
     object-fit: contain;
     cursor: pointer;
 }
+
+
+/* card-4 */
+
+.right_Language_div4 {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+@keyframes card-slide-in-4 {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card4 {
+    width: 150px;
+    height: 130px;
+    display: flex !important;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+    margin-left: 20px;
+    padding: 0;
+    flex-direction: column;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    opacity: 0;
+    background: #1c292e !important;
+    border: none;
+    gap: 10px;
+    border-radius: 5px !important;
+}
+
+.card4 {
+    animation: card-slide-in-4 0.5s ease-out forwards;
+}
+
+.card4:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.card4:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.card4:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.card4:nth-child(4) {
+    animation-delay: 0.4s;
+}
+
+.card4:nth-child(5) {
+    animation-delay: 0.5s;
+}
+
+.card4:nth-child(6) {
+    animation-delay: 0.6s;
+}
+
+.card4:nth-child(7) {
+    animation-delay: 0.7s;
+}
+
+.card4:nth-child(8) {
+    animation-delay: 0.8s;
+}
+
+.card4::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+    transition: opacity 0.7s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.card4:hover::before {
+    opacity: 0;
+}
+
+.card4 img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    cursor: pointer;
+}
