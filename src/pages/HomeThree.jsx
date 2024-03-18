@@ -27,6 +27,7 @@ import {
 import { useDispatch } from "react-redux";
 
 import ProgramLanguage from "../components/ProgramLanguage";
+import ContactSection from "../components/ContactSection";
 
 
 const HomeThree = () => {
@@ -72,6 +73,8 @@ const HomeThree = () => {
         {/* <TeamSectionTwo /> */}
         {/* Blog Section Three */}
         <BlogSectionTwo />
+        <ContactSection />
+
         {/* News Section Two */}
         <NewsSectionOne />
         {/* Footer Section Three */}
