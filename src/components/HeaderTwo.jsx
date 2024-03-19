@@ -334,7 +334,7 @@ const HeaderTwo = () => {
                                           {progressValues.map((value, index) => (
                                             <Link
                                               key={index}
-                                              // to={`/link${index}`}
+                                              to={`/project-details`}
                                               onMouseEnter={() => setHoveredIndex(index)}
                                               onMouseLeave={() => setHoveredIndex(null)}
                                               style={{ position: 'relative', display: 'block' }}
@@ -738,7 +738,7 @@ const HeaderTwo = () => {
                   <ul className="sub-menu">
                     <li>
                       <NavLink
-                        to="#"
+                        to="/project-details"
                         className={(navData) =>
                           navData.isActive ? "active" : ""
                         }
