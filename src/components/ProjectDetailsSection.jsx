@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import demo from "../images/viedio.mp4";
+import demo from "../images/Metaverse.mp4";
 import ProductDetailCard from "./ProductDetailCard";
 const ProjectDetailsSection = () => {
   return (
