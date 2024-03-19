@@ -1,8 +1,17 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, FreeMode, Thumbs, EffectFade } from "swiper";
+import SwiperCore, { Autoplay, Navigation, FreeMode, Thumbs, EffectFade } from 'swiper';
 import { Link } from "react-router-dom";
 import ParticlesComponent from "../ParticlesComponent/particles";
+
+// Import Swiper styles
+import 'swiper/css'; // Import core styles
+import 'swiper/css/navigation'; // Import navigation styles
+import 'swiper/css/effect-fade'; // Import fade effect styles
+
+// Install Swiper modules
+SwiperCore.use([Autoplay, Navigation, FreeMode, Thumbs, EffectFade]);
+
 const SliderThree = () => {
     return (
         <>
@@ -11,12 +20,13 @@ const SliderThree = () => {
                 <div className="swiper hero-slider-init-one swiper-container swiper-container-fade">
                     <div className="swiper-wrapper p-relative">
                         <Swiper
-                            loop={false}
-                            modules={[FreeMode, Navigation, Thumbs, EffectFade]}
+                            loop={true}
+                            modules={[Navigation, FreeMode, Thumbs, EffectFade]}
                             navigation={{
                                 nextEl: ".swiper-button-next",
                                 prevEl: ".swiper-button-prev",
                             }}
+                            autoplay={{ delay: 4000 }}
                         >
                             <SwiperSlide>
                                 <div>
