@@ -9,7 +9,9 @@ const ProjectDetailsSection = () => {
       <section className="project-details">
         <div className="container-fulid">
           <div className="col-12 project_hero_section">
-            <video src={demo} loop autoplay="autoplay"></video>
+            <video autoPlay muted loop >
+              <source src={demo} type="video/mp4" />
+            </video>
           </div>
           <div className="container-fulid project_hero_content">
             <div className="container pb-4 ">
@@ -41,20 +43,18 @@ const ProjectDetailsSection = () => {
                     data-aos="fade-up"
                     data-aos-delay="300"
                   >
-                    <div
-                      className="project_left"
-                    >
+                    <div className="project_left">
                       <h2>
                         <span>Who</span> we are
                       </h2>
-                    <div>
-                    <h3>
-                        <span>Rocking since</span> 2016
-                      </h3>
-                      <h3>
-                        <span>Solutions</span> VR and XR for enterprise
-                      </h3>
-                    </div>
+                      <div>
+                        <h3>
+                          <span>Rocking since</span> 2016
+                        </h3>
+                        <h3>
+                          <span>Solutions</span> VR and XR for enterprise
+                        </h3>
+                      </div>
                     </div>
                     <div className="inner-des2">
                       <p>
@@ -73,7 +73,7 @@ const ProjectDetailsSection = () => {
         </div>
       </section>
       <section>
-        <ProductDetailCard/>
+        <ProductDetailCard />
       </section>
       {/* Project Details Section End */}
     </>
