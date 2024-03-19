@@ -50,7 +50,7 @@ const ProjectSectionThree = () => {
                         applications.
                       </p>
                       <div className="link d-inline-block">
-                        <Link to="#">View More</Link>
+                        <Link to="/project-details">View More</Link>
                       </div>
                     </div>
                   </div>

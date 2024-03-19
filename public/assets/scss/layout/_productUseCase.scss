@@ -1,0 +1,47 @@
+@use "../utils" as *;
+
+
+.UseCase{
+    padding: 60px 0;
+    position: relative;
+    z-index: 9;
+    background-color:var(--common-body-2);
+
+}
+
+.UseCase_content{
+    h2{
+        
+        text-align: center;
+        margin: 0;
+        font-size: 35px;
+        color: var(--theme-1);
+    }
+}
+
+.UseCase_content_row{
+    margin-top: 80px;
+}
+
+.left-wrappers{
+    div{
+        img{
+            width: 100%;
+        }
+    }
+}
+
+.UseCase_content_row{
+    margin-top: 60px; 
+    div{
+        h2{
+            text-align: start;
+            margin-bottom: 30px;
+        }
+        ul{
+            li{
+                font-size: 16px;
+            }
+        }
+    }
+}

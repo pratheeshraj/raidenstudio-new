@@ -578,19 +578,35 @@
 // Service Details Section
 
 .service-details-section {
-    background: var(--common-body-1);
-    padding: 120px 0 40px 0;
-    position: relative;
-    overflow: hidden;
-    z-index: 9;
+  background: var(--common-body-1);
+  padding: 120px 0 40px 0;
+  position: relative;
+  overflow: hidden;
+  z-index: 9;
+  h2 {
+    text-align: center;
+    margin-bottom: 60px;
+    color: var(--theme-1);
+  }
   .right-wrapper {
     @media #{$lg, $md, $sm, $xs, $xss} {
       margin-top: 30px;
       padding-left: 0 !important;
     }
-
+    h2 {
+      color: white;
+      span {
+        color: var(--theme-1);
+      }
+    }
     .title {
+      text-align: start;
       font-size: 26px;
+    }
+    ul{
+      list-style-type: disc;
+      font-size: 16px;
+      padding-left: 20px;
     }
   }
   .left-wrapper {
