@@ -578,11 +578,11 @@
 // Service Details Section
 
 .service-details-section {
-  background: var(--common-body-1);
-  padding: 120px 0;
-  position: relative;
-  overflow: hidden;
-  z-index: 9;
+    background: var(--common-body-1);
+    padding: 120px 0 40px 0;
+    position: relative;
+    overflow: hidden;
+    z-index: 9;
   .right-wrapper {
     @media #{$lg, $md, $sm, $xs, $xss} {
       margin-top: 30px;

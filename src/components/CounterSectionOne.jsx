@@ -59,7 +59,7 @@ const CounterSectionOne = () => {
               />
             </div>
           </div>
-          <div className="inner-wrapper">
+          {/* <div className="inner-wrapper">
             <div className="row">
               <div className="col-lg-6">
                 <div
@@ -218,7 +218,7 @@ const CounterSectionOne = () => {
               src="./assets/img/icon/54_icon.png"
               alt=""
             />
-          </div>
+          </div> */}
         </div>
       </section>
       {/* Counter-section one end */}

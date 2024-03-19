@@ -157,14 +157,80 @@ const ServiceSectionTwo = () => {
                 </div>
               </div>
             </div>
+            <div className="col-lg-4 col-md-6 col-12">
+              <div
+                className="section-wrapper "
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                <div className="wrapper-inner one">
+                  <div className="img-file">
+                    <img src="/assets/img/icon/34_icon.png" alt="" />
+                  </div>
+                  <div className="text-file">
+                    <h3>
+                      <Link to="#">Extract text &amp; data</Link>
+                    </h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Obcaecati iste inventore molestiae? Assumenda facilis.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-12">
+              <div
+                className="section-wrapper "
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <div className="wrapper-inner one">
+                  <div className="img-file">
+                    <img src="/assets/img/icon/35_icon.png" alt="" />
+                  </div>
+                  <div className="text-file">
+                    <h3>
+                      <Link to="#">Online experiences</Link>
+                    </h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Obcaecati iste inventore molestiae? Assumenda facilis.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-12">
+              <div
+                className="section-wrapper "
+                data-aos="fade-up"
+                data-aos-delay="500"
+              >
+                <div className="wrapper-inner one">
+                  <div className="img-file">
+                    <img src="/assets/img/icon/40_icon.png" alt="" />
+                  </div>
+                  <div className="text-file">
+                    <h3>
+                      <Link to="#">Control quality</Link>
+                    </h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Obcaecati iste inventore molestiae? Assumenda facilis.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="inner-btn d-adjust">
+          {/* <div className="inner-btn d-adjust">
             <div>
               <Link className="default-btn" to="/service">
                 View All Services
               </Link>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="shape-img">
           <img

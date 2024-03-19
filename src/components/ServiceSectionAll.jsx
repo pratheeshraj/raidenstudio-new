@@ -107,7 +107,7 @@ const ServiceSectionAll = () => {
                   data-aos-delay="300"
                 >
                   <div className="img-file">
-                    <img src="/assets/img/icon/35_icon.png" alt="" />
+                    <img src="/assets/img/service/72c3e094e5-removebg-preview 1.png" alt="" />
                   </div>
                   <div className="text-file">
                     <h3>
@@ -129,7 +129,7 @@ const ServiceSectionAll = () => {
                   data-aos-delay="400"
                 >
                   <div className="img-file">
-                    <img src="/assets/img/icon/40_icon.png" alt="" />
+                    <img src="/assets/img/service/_https___freepicdownloader-removebg-preview 1.png" alt="" />
                   </div>
                   <div className="text-file">
                     <h3>

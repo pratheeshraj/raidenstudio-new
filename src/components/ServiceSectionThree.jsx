@@ -66,7 +66,7 @@ const ServiceSectionThree = () => {
                         <div className="img-file">
                           <img
                             className="img-fluid"
-                            src="/assets/img/service/yyrd 1.webp"
+                            src="/assets/img/service/network-structure-technology-concept-blockchain-technology-technological-abstract-cube-with-dat(1).webp"
                             alt=""
                           />
                         </div>
@@ -95,7 +95,7 @@ const ServiceSectionThree = () => {
                         <div className="img-file">
                           <img
                             className="img-fluid"
-                            src="/assets/img/service/DALL·E 2024-03-18 17.49 1.webp"
+                            src="/assets/img/service/nft-digital-art-non-fungible-token-blockchain-technology-cryptographic-data-block-collecting-un(1).webp"
                             alt=""
                           />
                         </div>
@@ -124,7 +124,7 @@ const ServiceSectionThree = () => {
                         <div className="img-file">
                           <img
                             className="img-fluid"
-                            src="/assets/img/service/ai.webp"
+                            src="/assets/img/service/big-data-ai-analysis-generative-ai(1).webp"
                             alt=""
                           />
                         </div>

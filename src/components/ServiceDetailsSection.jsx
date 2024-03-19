@@ -98,7 +98,7 @@ const ServiceDetailsSection = () => {
           </div>
           <br />
           <br />
-          <div className="row">
+          {/* <div className="row">
             <div className="col-lg-7">
               <div className="question-field">
                 <h2 className="title">
@@ -228,7 +228,7 @@ const ServiceDetailsSection = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="shape-image-file">
           <div className="shape-img-1 poa">

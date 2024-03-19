@@ -9,7 +9,7 @@ const SliderOne = () => {
       <section className="hero-slider one">
         <div className="swiper hero-slider-init-one swiper-container swiper-container-fade">
           <Swiper
-            loop={true}
+            loop={false}
             modules={[FreeMode, Navigation, Thumbs, EffectFade]}
             effect="fade"
             navigation={{
@@ -33,7 +33,7 @@ const SliderOne = () => {
                         <div>
                           <h2 className="slider-title">
                             AI Machine consulting services and solutions With
-                            <span className="theme-color">IT Support</span>
+                            <span className="theme-color"> IT Support</span>
                           </h2>
                           <p className="description">
                             To take a trivial example, which of us ever
@@ -63,7 +63,7 @@ const SliderOne = () => {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide>
+            {/* <SwiperSlide>
               <div className="item-slider sliderm-height p-relative swiper-slide">
                 <div
                   className="slide-bg"
@@ -154,11 +154,11 @@ const SliderOne = () => {
                   </div>
                 </div>
               </div>
-            </SwiperSlide>
+            </SwiperSlide> */}
           </Swiper>
 
           {/* If we need navigation buttons */}
-          <div
+          {/* <div
             id="swiper-button-prev"
             className="swiper-button-prev hero-button"
           >
@@ -169,9 +169,9 @@ const SliderOne = () => {
             className="swiper-button-next hero-button"
           >
             <i className="fa-regular fa-angles-right" />
-          </div>
+          </div> */}
           {/* Shape Image */}
-          <div className="shape-image">
+          {/* <div className="shape-image">
             <div className="inner-shape-1 poa">
               <img
                 className="img-fluid"
@@ -235,7 +235,7 @@ const SliderOne = () => {
                 alt=""
               />
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
       {/* slider-area-one-end */}
