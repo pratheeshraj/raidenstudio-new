@@ -14,12 +14,8 @@ const ProjectSectionTwo = () => {
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
-                <h3 className="white">
-                  {"{"} CASE STUDIES {"}"}
-                </h3>
                 <h2>
-                  Our successful Latest and <br /> Unique{" "}
-                  <span className="theme-color">project</span>
+                Industries We<span className="theme-color"> Serve</span><br />
                 </h2>
               </div>
             </div>
@@ -40,15 +36,6 @@ const ProjectSectionTwo = () => {
                   <h3>
                     <Link to="/project-details">Robotic Automation</Link>
                   </h3>
-                  <p>
-                    Oracle Cloud Infrastructure (OCI) AI Services is a
-                    collection{" "}
-                  </p>
-                  <div className="d-flex justify-content-center">
-                    <Link className="default-btn" to="/project-details">
-                      Learn More
-                    </Link>
-                  </div>
                 </div>
               </div>
             </div>
@@ -60,52 +47,34 @@ const ProjectSectionTwo = () => {
               >
                 <img
                   className="img-fluid"
-                  src="/assets/img/project/02_project.png"
+                  src="/assets/img/project/01_project.png"
                   alt=""
                 />
                 <div className="shape-overlay">
                   <h3>
-                    <Link to="/project-details">Machine Learning</Link>
+                    <Link to="/project-details">Robotic Automation</Link>
                   </h3>
-                  <p>
-                    Oracle Cloud Infrastructure (OCI) AI Services is a
-                    collection{" "}
-                  </p>
-                  <div className="d-flex justify-content-center">
-                    <Link className="default-btn" to="/project-details">
-                      Learn More
-                    </Link>
-                  </div>
                 </div>
               </div>
-            </div>
-            <div className="col-xl-4 col-md-6">
+            </div>           
+             <div className="col-xl-4 col-md-6">
               <div
                 className="project-wrapper "
                 data-aos="fade-up"
-                data-aos-delay="400"
+                data-aos-delay="200"
               >
                 <img
                   className="img-fluid"
-                  src="/assets/img/project/03_project.png"
+                  src="/assets/img/project/01_project.png"
                   alt=""
                 />
                 <div className="shape-overlay">
                   <h3>
-                    <Link to="/project-details">Native Engagement</Link>
+                    <Link to="/project-details">Robotic Automation</Link>
                   </h3>
-                  <p>
-                    Oracle Cloud Infrastructure (OCI) AI Services is a
-                    collection{" "}
-                  </p>
-                  <div className="d-flex justify-content-center">
-                    <Link className="default-btn" to="/project-details">
-                      Learn More
-                    </Link>
-                  </div>
                 </div>
               </div>
-            </div>
+            </div>           
             <div className="col-xl-4 col-md-6">
               <div
                 className="project-wrapper "
@@ -114,87 +83,114 @@ const ProjectSectionTwo = () => {
               >
                 <img
                   className="img-fluid"
-                  src="/assets/img/project/04_project.png"
+                  src="/assets/img/project/01_project.png"
                   alt=""
                 />
                 <div className="shape-overlay">
                   <h3>
-                    <Link to="/project-details">Robotic Process</Link>
+                    <Link to="/project-details">Robotic Automation</Link>
                   </h3>
-                  <p>
-                    Oracle Cloud Infrastructure (OCI) AI Services is a
-                    collection{" "}
-                  </p>
-                  <div className="d-flex justify-content-center">
-                    <Link className="default-btn" to="/project-details">
-                      Learn More
-                    </Link>
-                  </div>
                 </div>
               </div>
-            </div>
+            </div>            
             <div className="col-xl-4 col-md-6">
               <div
                 className="project-wrapper "
                 data-aos="fade-up"
-                data-aos-delay="300"
+                data-aos-delay="200"
               >
                 <img
                   className="img-fluid"
-                  src="/assets/img/project/05_project.png"
+                  src="/assets/img/project/01_project.png"
                   alt=""
                 />
                 <div className="shape-overlay">
                   <h3>
-                    <Link to="/project-details">Digital Money</Link>
+                    <Link to="/project-details">Robotic Automation</Link>
                   </h3>
-                  <p>
-                    Oracle Cloud Infrastructure (OCI) AI Services is a
-                    collection{" "}
-                  </p>
-                  <div className="d-flex justify-content-center">
-                    <Link className="default-btn" to="/project-details">
-                      Learn More
-                    </Link>
-                  </div>
                 </div>
               </div>
-            </div>
+            </div>            
             <div className="col-xl-4 col-md-6">
               <div
                 className="project-wrapper "
                 data-aos="fade-up"
-                data-aos-delay="500"
+                data-aos-delay="200"
               >
                 <img
                   className="img-fluid"
-                  src="/assets/img/project/06_project.png"
+                  src="/assets/img/project/01_project.png"
                   alt=""
                 />
                 <div className="shape-overlay">
                   <h3>
-                    <Link to="/project-details">Native Engagement</Link>
+                    <Link to="/project-details">Robotic Automation</Link>
                   </h3>
-                  <p>
-                    Oracle Cloud Infrastructure (OCI) AI Services is a
-                    collection{" "}
-                  </p>
-                  <div className="d-flex justify-content-center">
-                    <Link className="default-btn" to="/project-details">
-                      Learn More
-                    </Link>
-                  </div>
+                </div>
+              </div>
+            </div>          
+             <div className="col-xl-4 col-md-6">
+              <div
+                className="project-wrapper "
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <img
+                  className="img-fluid"
+                  src="/assets/img/project/01_project.png"
+                  alt=""
+                />
+                <div className="shape-overlay">
+                  <h3>
+                    <Link to="/project-details">Robotic Automation</Link>
+                  </h3>
+                </div>
+              </div>
+            </div>           
+             <div className="col-xl-4 col-md-6">
+              <div
+                className="project-wrapper "
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <img
+                  className="img-fluid"
+                  src="/assets/img/project/01_project.png"
+                  alt=""
+                />
+                <div className="shape-overlay">
+                  <h3>
+                    <Link to="/project-details">Robotic Automation</Link>
+                  </h3>
+                </div>
+              </div>
+            </div>            
+            <div className="col-xl-4 col-md-6">
+              <div
+                className="project-wrapper "
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <img
+                  className="img-fluid"
+                  src="/assets/img/project/01_project.png"
+                  alt=""
+                />
+                <div className="shape-overlay">
+                  <h3>
+                    <Link to="/project-details">Robotic Automation</Link>
+                  </h3>
                 </div>
               </div>
             </div>
           </div>
-          <div className="inner-btn d-adjust">
+          {/* <div className="inner-btn d-adjust">
             <div>
               <Link className="default-btn" to="/contact">
                 View All Projects
               </Link>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="shape-image">
           <img

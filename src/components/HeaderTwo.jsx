@@ -17,13 +17,12 @@ const HeaderTwo = () => {
   const productName = ["Raiden Verse", "Raiden SimX", "Raiden GOGNI+", "Raiden ARCVIZ"]
 
 
-  const gameValues2 = [0.5, 0.5, 0.5,0.5, 0.5, 0.5];
+  const gameValues2 = [0.5, 0.5, 0.5,0.5, 0.5];
   const gameNames2 = [
     "Clashes Of Clans",
     "Metaverse CASINO",
-    "PUBG ",
-    "Fortnite ",
-    "Metafoot ball",
+    "Battle Royale Games ",
+    "Meta football",
     "League of legends "
   ];
 

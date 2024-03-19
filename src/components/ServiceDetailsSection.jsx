@@ -13,7 +13,7 @@ const ServiceDetailsSection = () => {
           <div className="row">
             <div className="col-lg-6  order-2 order-lg-1">
               <div className="right-wrapper pe-2">
-                <h2 className="title">Explore AWS AI services</h2>
+                <h2 className="title">Intro</h2>
                 <p>
                   Oracle Cloud Infrastructure (OCI) AI Services is a collection
                   of services with prebuilt machine learning models that make it
@@ -29,14 +29,6 @@ const ServiceDetailsSection = () => {
                   you can create, maintain and scale up your Artificial
                   Intelligence (AI) and Machine Learning (ML) solutions while
                   augmenting human capacity and increasing business value.
-                </p>
-                <p>
-                  Avenga AI services help companies create AI and ML solutions
-                  at all stages, from pilot to production. We strategize,
-                  consult, and engineer so you can cast your ideas into the
-                  future with innovative AI technologies. Stay at the forefront
-                  of business competition by leveraging accelerated, AI-powered
-                  digital transformation.
                 </p>
               </div>
             </div>
@@ -68,7 +60,7 @@ const ServiceDetailsSection = () => {
             </div>
             <div className="col-lg-6">
               <div className="right-wrapper ps-2">
-                <h2 className="title">Explore AWS AI services</h2>
+                <h2 className="title">About Company</h2>
                 <p>
                   Oracle Cloud Infrastructure (OCI) AI Services is a collection
                   of services with prebuilt machine learning models that make it
@@ -86,12 +78,6 @@ const ServiceDetailsSection = () => {
                   create, maintain, and scale up your Artificial Intelligence
                   (AI) and Machine Learning (ML) solutions while augmenting
                   human capacity and increasing business value.
-                </p>
-                <p>
-                  Avenga AI services help companies create AI and ML solutions
-                  at all stages, from pilot to production. We strategize,
-                  consult, and engineer so you can cast your ideas into the
-                  future with innovative AI technologies.
                 </p>
               </div>
             </div>

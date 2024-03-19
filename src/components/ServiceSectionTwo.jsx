@@ -14,12 +14,9 @@ const ServiceSectionTwo = () => {
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
-                <h3>
-                  {"{"} ADVANCED SERVICES {"}"}
-                </h3>
                 <h2>
-                  Our Top Featured Solutions <br /> Transforming{" "}
-                  <span className="theme-color">AI Enterprises</span>
+                Our Blockchain Development <br /> 
+                  <span className="theme-color">Services</span>
                 </h2>
               </div>
             </div>
