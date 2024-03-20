@@ -20,6 +20,7 @@ const HeaderTwo = () => {
     "Raiden ARCVIZ",
   ];
 
+<<<<<<< HEAD
   const gameValues2 = [0.5, 0.5, 0.5, 0.5, 0.5, 0.5];
   const gameNames2 = [
     "Clashes Of Clans",
@@ -28,6 +29,16 @@ const HeaderTwo = () => {
     "Fortnite ",
     "Metafoot ball",
     "League of legends ",
+=======
+
+  const gameValues2 = [0.5, 0.5, 0.5,0.5, 0.5];
+  const gameNames2 = [
+    "Clashes Of Clans",
+    "Metaverse CASINO",
+    "Battle Royale Games ",
+    "Meta football",
+    "League of legends "
+>>>>>>> 53791719febcc8f89be0864a32bc1fcb37ee281a
   ];
 
   // service

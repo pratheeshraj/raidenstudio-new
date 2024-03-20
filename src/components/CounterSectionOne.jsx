@@ -19,7 +19,7 @@ const CounterSectionOne = () => {
               <div className="col-lg-6">
                 <div className="title">
                   <h2>
-                    To be coworkers with <br /> someone?
+                  call to action row <br /> someone?
                   </h2>
                 </div>
               </div>

@@ -12,6 +12,13 @@ import SliderTwo from "../components/SliderTwo";
 import ServiceSectionTwo from "../components/ServiceSectionTwo";
 import CounterSectionOne from "../components/CounterSectionOne";
 import ProgramLanguage from "../components/ProgramLanguage";
+import ProjectSectionTwo from "../components/ProjectSectionTwo";
+import FAQSectionTwo from './../components/FAQSectionTwo';
+import WhyChoose from "../components/WhyChoose";
+import ContactSection2 from './../components/ContactSection2';
+import FAQSectionOne from './../components/FAQSectionOne';
+import FAQSectionThree from './../components/FAQSectionThree';
+import DevelopmentProcess from './../components/DevelopmentProcess';
 
 const ServicesDetails = () => {
   let [active, setActive] = useState(true);
@@ -42,7 +49,17 @@ const ServicesDetails = () => {
         {/*6.tech-stack*/}
         <ProgramLanguage />
         {/* News Section One */}
-        <NewsSectionOne />
+        {/* we serve */}
+        <ProjectSectionTwo />
+        {/* <NewsSectionOne /> */}
+        {/* Development Process*/}
+        <DevelopmentProcess/>
+        {/* why choose field  */}
+        <WhyChoose />
+        {/* faq */}
+        <FAQSectionOne />
+        {/* contact */}
+        <ContactSection2 />
         {/* Footer Section */}
         <FooterSectionOne />
       </Suspense>

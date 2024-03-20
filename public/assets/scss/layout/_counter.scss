@@ -6,7 +6,7 @@
 
 .counter-section {
   &.one {
-      padding: 0  0 120px 0;
+      padding:80px 0;
       position: relative;
       background-position: center center;
       background-repeat: no-repeat;
@@ -19,12 +19,12 @@
       width: 100%;
       height: 100%;
       content: "";
-      background: #00151E;
+      background: #000C14;
       z-index: -1;
     }
     .award-part {
       position: relative;
-      background: var(--common-body-1);
+      background:#00151e;
       padding: 40px 30px;
       z-index: 9;
       border-radius: 5px;
