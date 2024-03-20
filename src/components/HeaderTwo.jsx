@@ -1,73 +1,87 @@
 import React, { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import "./HeaderTwo.css"
-import  logo_img from "../images/xedhb p.png"
+import "./HeaderTwo.css";
+import logo_img from "../images/xedhb p.png";
 const HeaderTwo = () => {
   const [active, setActive] = useState(false);
   const [scroll, setScroll] = useState(false);
   const [rightSidebar, setRightSidebar] = useState(false);
   const [search, setSearch] = useState(false);
 
-
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   // product progress bar
 
   const progressValues = [0.5, 0.5, 0.5, 0.5];
-  const productName = ["Raiden Verse", "Raiden SimX", "Raiden GOGNI+", "Raiden ARCVIZ"]
+  const productName = [
+    "Raiden Verse",
+    "Raiden SimX",
+    "Raiden GOGNI+",
+    "Raiden ARCVIZ",
+  ];
 
-
-  const gameValues2 = [0.5, 0.5, 0.5,0.5, 0.5, 0.5];
+  const gameValues2 = [0.5, 0.5, 0.5, 0.5, 0.5, 0.5];
   const gameNames2 = [
     "Clashes Of Clans",
     "Metaverse CASINO",
     "PUBG ",
     "Fortnite ",
     "Metafoot ball",
-    "League of legends "
+    "League of legends ",
   ];
 
+  // service
 
-  // service 
-
-  // block chain 
+  // block chain
 
   const blockchainValues = [0.5, 0.5, 0.5, 0.5, 0.5, 0.5];
-  const blockchainnames = ["NFT", "NFT MARKETPLACE", "LAYER1 and Layer 2 Solutions", "DEFI", "Metaverse", "Blockchain Games"];
+  const blockchainnames = [
+    "NFT",
+    "NFT MARKETPLACE",
+    "LAYER1 and Layer 2 Solutions",
+    "DEFI",
+    "Metaverse",
+    "Blockchain Games",
+  ];
 
   // Ai
 
   const generativeAIValues = [0.5, 0.5];
-  const generativeAINames = ["Generative AI Consulting", "Generative AI Development"];
+  const generativeAINames = [
+    "Generative AI Consulting",
+    "Generative AI Development",
+  ];
 
   // xr
 
   const xrValues = [0.5, 0.5, 0.5, 0.5];
-  const xrNames = ["AR Solutions", "VR Solutions", "Training Simulator", "Digital Twin"];
+  const xrNames = [
+    "AR Solutions",
+    "VR Solutions",
+    "Training Simulator",
+    "Digital Twin",
+  ];
 
-  // game 
+  // game
 
-  const gameValues = [0.5, 0.5, 0.5 ,0.5, 0.5, 0.5];
+  const gameValues = [0.5, 0.5, 0.5, 0.5, 0.5, 0.5];
   const gameNames = [
     "Mobile Game Development",
     "Unity Development",
     "Unreal Development",
     "mmorpg game development ",
     "P2E Game Development",
-    "Web3 Game Development"
+    "Web3 Game Development",
   ];
-
 
   //  compony
 
   const companyprogressValues = [0.5, 0.5, 0.5];
   const CompanyNames = ["About us", "Carrer", "Contact us"];
 
-
   const [activeMenu, setActiveMenu] = useState("Blockchain");
   const [activeMenu1, setActiveMenu1] = useState("virtual");
   const [activeMenu2, setActiveMenu2] = useState("Company");
-
 
   const handleMenuHover2 = (menu2) => {
     setActiveMenu2(menu2);
@@ -76,7 +90,6 @@ const HeaderTwo = () => {
   const handleMenuHover = (menu) => {
     setActiveMenu(menu);
   };
-
 
   const handleMenuHover1 = (menu1) => {
     setActiveMenu1(menu1);
@@ -121,7 +134,6 @@ const HeaderTwo = () => {
     };
   }, []);
 
-
   const mobileMenu = () => {
     setActive(!active);
   };
@@ -132,14 +144,11 @@ const HeaderTwo = () => {
     setSearch(!search);
   };
 
-
-
   // const [activeSubMenu, setActiveSubMenu] = useState(null);
 
   // const handleSubMenuHover = (submenu) => {
   //   setActiveSubMenu(submenu);
   // }
-
 
   return (
     <>
@@ -202,11 +211,7 @@ const HeaderTwo = () => {
                   <div className="logo-area">
                     <div className="logo">
                       <NavLink to="/">
-                        <img
-                          className="img-fluid"
-                          src={logo_img}
-                          alt=""
-                        />
+                        <img className="img-fluid" src={logo_img} alt="" />
                       </NavLink>
                     </div>
                   </div>
@@ -216,7 +221,6 @@ const HeaderTwo = () => {
                     <div className="main-menu">
                       <nav>
                         <ul>
-
                           <li className="has-dropdown">
                             <Link to="/">Home</Link>
                             {/* <ul className="sub-menu">
@@ -306,89 +310,150 @@ const HeaderTwo = () => {
                               </div>
                             </ul>
                           </li> */}
-                         <li className="has-dropdown">
-                            <Link className="nav_link" to="#">Products<i class="fa-solid fa-caret-down"></i></Link>
+                          <li className="has-dropdown">
+                            <Link className="nav_link" to="#">
+                              Products<i class="fa-solid fa-caret-down"></i>
+                            </Link>
                             <ul className="sub-menu">
                               <div className="sub-menu-div">
-                                <li style={{marginTop:"20px"}}
-                                  className={`has-dropdown ${activeMenu1 === 'virtual' ? 'active' : ''}`}
-                                  onMouseEnter={() => handleMenuHover1('virtual')}
+                                <li
+                                  style={{ marginTop: "20px" }}
+                                  className={`has-dropdown ${
+                                    activeMenu1 === "virtual" ? "active" : ""
+                                  }`}
+                                  onMouseEnter={() =>
+                                    handleMenuHover1("virtual")
+                                  }
                                 >
-                                  <Link className="left_content_arrow" to="#">Virtual Reality<i class="fa-solid fa-right-long icon_rightarrow"></i></Link>
+                                  <Link className="left_content_arrow" to="#">
+                                    Virtual Reality
+                                    <i class="fa-solid fa-right-long icon_rightarrow"></i>
+                                  </Link>
                                 </li>
                                 <li
-                                  className={`has-dropdown ${activeMenu1 === 'Game2' ? 'active' : ''}`}
-                                  onMouseEnter={() => handleMenuHover1('Game2')}
+                                  className={`has-dropdown ${
+                                    activeMenu1 === "Game2" ? "active" : ""
+                                  }`}
+                                  onMouseEnter={() => handleMenuHover1("Game2")}
                                 >
-                                  <Link className="left_content_arrow" style={{ marginBottom: "20px" }} to="#">Game <i class="fa-solid fa-right-long icon_rightarrow"></i></Link>
+                                  <Link
+                                    className="left_content_arrow"
+                                    style={{ marginBottom: "20px" }}
+                                    to="#"
+                                  >
+                                    Game{" "}
+                                    <i class="fa-solid fa-right-long icon_rightarrow"></i>
+                                  </Link>
                                 </li>
                               </div>
                               <div className="menupar-right">
-                                {activeMenu1 === 'virtual' && (
+                                {activeMenu1 === "virtual" && (
                                   <div className="menupar-right-div">
                                     <div className="menubar_inside_main_div">
                                       <div className="menubar_inside_div">
-                                        <div className="menubar_inside_main_heading">Virtual Reality</div>
+                                        <div className="menubar_inside_main_heading">
+                                          Virtual Reality
+                                        </div>
 
                                         <div className="manubar_content_main_div">
-                                          {progressValues.map((value, index) => (
-                                            <Link
-                                              key={index}
-                                              to={`/project-details`}
-                                              onMouseEnter={() => setHoveredIndex(index)}
-                                              onMouseLeave={() => setHoveredIndex(null)}
-                                              style={{ position: 'relative', display: 'block' }}
-                                            >
-                                              <div className="manubar_content_item">
-                                                <div className="manubar_content_name">{productName[index]}</div>
-                                                <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
-                                                <div
-                                                  className="progress-bar"
-                                                  style={{
-                                                    width: hoveredIndex === index ? '100%' : `${value * 100}%`,
-                                                    position: 'absolute',
-                                                    top: '15px', // Adjust the value to position the progress bar above the link name
-                                                    left: 0,
-                                                    height: '4px',
-                                                    backgroundColor: '#13C4A1', // Change color as needed
-                                                    transition: 'width 0.3s ease-in-out',
-                                                  }}
-                                                />
-                                              </div>
-                                            </Link>
-                                          ))}
+                                          {progressValues.map(
+                                            (value, index) => (
+                                              <Link
+                                                key={index}
+                                                to={`/project-details`}
+                                                onMouseEnter={() =>
+                                                  setHoveredIndex(index)
+                                                }
+                                                onMouseLeave={() =>
+                                                  setHoveredIndex(null)
+                                                }
+                                                style={{
+                                                  position: "relative",
+                                                  display: "block",
+                                                }}
+                                              >
+                                                <div className="manubar_content_item">
+                                                  <div className="manubar_content_name">
+                                                    {productName[index]}
+                                                  </div>
+                                                  <div className="manubar_content_para">
+                                                    Lorem ipsum dolor sit amet
+                                                    consectetur adipisicing
+                                                    elit. Fugit, culpa voluptas
+                                                    et.
+                                                  </div>
+                                                  <div
+                                                    className="progress-bar"
+                                                    style={{
+                                                      width:
+                                                        hoveredIndex === index
+                                                          ? "100%"
+                                                          : `${value * 100}%`,
+                                                      position: "absolute",
+                                                      top: "15px", // Adjust the value to position the progress bar above the link name
+                                                      left: 0,
+                                                      height: "4px",
+                                                      backgroundColor:
+                                                        "#13C4A1", // Change color as needed
+                                                      transition:
+                                                        "width 0.3s ease-in-out",
+                                                    }}
+                                                  />
+                                                </div>
+                                              </Link>
+                                            )
+                                          )}
                                         </div>
                                       </div>
                                     </div>
                                   </div>
                                 )}
-                                {activeMenu1 === 'Game2' && (
+                                {activeMenu1 === "Game2" && (
                                   <div className="menupar-right-div">
                                     <div className="menubar_inside_main_div">
                                       <div className="menubar_inside_div">
-                                        <div className="menubar_inside_main_heading">Game</div>
+                                        <div className="menubar_inside_main_heading">
+                                          Game
+                                        </div>
                                         <div className="manubar_content_main_div">
                                           {gameValues2.map((value, index) => (
                                             <Link
                                               key={index}
                                               // to={`/link${index}`}
-                                              onMouseEnter={() => setHoveredIndex(index)}
-                                              onMouseLeave={() => setHoveredIndex(null)}
-                                              style={{ position: 'relative', display: 'block' }}
+                                              onMouseEnter={() =>
+                                                setHoveredIndex(index)
+                                              }
+                                              onMouseLeave={() =>
+                                                setHoveredIndex(null)
+                                              }
+                                              style={{
+                                                position: "relative",
+                                                display: "block",
+                                              }}
                                             >
                                               <div className="manubar_content_item">
-                                                <div className="manubar_content_name">{gameNames2[index]}</div>
-                                                <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
+                                                <div className="manubar_content_name">
+                                                  {gameNames2[index]}
+                                                </div>
+                                                <div className="manubar_content_para">
+                                                  Lorem ipsum dolor sit amet
+                                                  consectetur adipisicing elit.
+                                                  Fugit, culpa voluptas et.
+                                                </div>
                                                 <div
                                                   className="progress-bar"
                                                   style={{
-                                                    width: hoveredIndex === index ? '100%' : `${value * 100}%`,
-                                                    position: 'absolute',
-                                                    top: '15px', // Adjust the value to position the progress bar above the link name
+                                                    width:
+                                                      hoveredIndex === index
+                                                        ? "100%"
+                                                        : `${value * 100}%`,
+                                                    position: "absolute",
+                                                    top: "15px", // Adjust the value to position the progress bar above the link name
                                                     left: 0,
-                                                    height: '4px',
-                                                    backgroundColor: '#13C4A1', // Change color as needed
-                                                    transition: 'width 0.3s ease-in-out',
+                                                    height: "4px",
+                                                    backgroundColor: "#13C4A1", // Change color as needed
+                                                    transition:
+                                                      "width 0.3s ease-in-out",
                                                   }}
                                                 />
                                               </div>
@@ -403,140 +468,240 @@ const HeaderTwo = () => {
                             </ul>
                           </li>
                           <li className="has-dropdown">
-                            <Link className="nav_link" to="#">Service<i class="fa-solid fa-caret-down"></i></Link>
+                            <Link className="nav_link" to="#">
+                              Service<i class="fa-solid fa-caret-down"></i>
+                            </Link>
                             <ul className="sub-menu">
                               <div className="sub-menu-div">
                                 <li
-                                  className={`has-dropdown ${activeMenu === 'Blockchain' ? 'active' : ''}`}
-                                  onMouseEnter={() => handleMenuHover('Blockchain')}
-                                // onClick={() => handleMenuClick('team')}
+                                  className={`has-dropdown ${
+                                    activeMenu === "Blockchain" ? "active" : ""
+                                  }`}
+                                  onMouseEnter={() =>
+                                    handleMenuHover("Blockchain")
+                                  }
+                                  // onClick={() => handleMenuClick('team')}
                                 >
-                                  <Link className="left_content_arrow" style={{ marginTop: "20px" }} to="#">Blockchain <i class="fa-solid fa-right-long icon_rightarrow"></i></Link>
+                                  <Link
+                                    className="left_content_arrow"
+                                    style={{ marginTop: "20px" }}
+                                    to="#"
+                                  >
+                                    Blockchain{" "}
+                                    <i class="fa-solid fa-right-long icon_rightarrow"></i>
+                                  </Link>
                                 </li>
                                 <li
-                                  className={`has-dropdown ${activeMenu === 'AI' ? 'active' : ''}`}
-                                  onMouseEnter={() => handleMenuHover('AI')}
-                                // onClick={() => handleMenuClick('project1')}
+                                  className={`has-dropdown ${
+                                    activeMenu === "AI" ? "active" : ""
+                                  }`}
+                                  onMouseEnter={() => handleMenuHover("AI")}
+                                  // onClick={() => handleMenuClick('project1')}
                                 >
-                                  <Link className="left_content_arrow" to="#">AI <i class="fa-solid fa-right-long icon_rightarrow"></i></Link>
+                                  <Link className="left_content_arrow" to="#">
+                                    AI{" "}
+                                    <i class="fa-solid fa-right-long icon_rightarrow"></i>
+                                  </Link>
                                 </li>
                                 <li
-                                  className={`has-dropdown ${activeMenu === 'XR' ? 'active' : ''}`}
-                                  onMouseEnter={() => handleMenuHover('XR')}
+                                  className={`has-dropdown ${
+                                    activeMenu === "XR" ? "active" : ""
+                                  }`}
+                                  onMouseEnter={() => handleMenuHover("XR")}
                                 >
-                                  <Link className="left_content_arrow" to="#">XR <i class="fa-solid fa-right-long icon_rightarrow"></i></Link>
+                                  <Link className="left_content_arrow" to="#">
+                                    XR{" "}
+                                    <i class="fa-solid fa-right-long icon_rightarrow"></i>
+                                  </Link>
                                 </li>
                                 <li
-                                  className={`has-dropdown ${activeMenu === 'Game' ? 'active' : ''}`}
-                                  onMouseEnter={() => handleMenuHover('Game')}
+                                  className={`has-dropdown ${
+                                    activeMenu === "Game" ? "active" : ""
+                                  }`}
+                                  onMouseEnter={() => handleMenuHover("Game")}
                                 >
-                                  <Link className="left_content_arrow" style={{ marginBottom: "20px" }} to="#">Game <i class="fa-solid fa-right-long icon_rightarrow"></i></Link>
+                                  <Link
+                                    className="left_content_arrow"
+                                    style={{ marginBottom: "20px" }}
+                                    to="#"
+                                  >
+                                    Game{" "}
+                                    <i class="fa-solid fa-right-long icon_rightarrow"></i>
+                                  </Link>
                                 </li>
                               </div>
                               <div className="menupar-right">
-                                {activeMenu === 'Blockchain' && (
+                                {activeMenu === "Blockchain" && (
                                   <div className="menupar-right-div">
                                     <div className="menubar_inside_main_div">
                                       <div className="menubar_inside_div">
-                                        <div className="menubar_inside_main_heading">Block Chain</div>
+                                        <div className="menubar_inside_main_heading">
+                                          Block Chain
+                                        </div>
                                         <div className="manubar_content_main_div">
-                                          {blockchainValues.map((value, index) => (
-                                            <Link
-                                              key={index}
-                                              // to={`/link${index}`}
-                                              onMouseEnter={() => setHoveredIndex(index)}
-                                              onMouseLeave={() => setHoveredIndex(null)}
-                                              style={{ position: 'relative', display: 'block' }}
-                                            >
-                                              <div className="manubar_content_item">
-                                                <div className="manubar_content_name">{blockchainnames[index]}</div>
-                                                <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
-                                                <div
-                                                  className="progress-bar"
-                                                  style={{
-                                                    width: hoveredIndex === index ? '100%' : `${value * 100}%`,
-                                                    position: 'absolute',
-                                                    top: '15px', // Adjust the value to position the progress bar above the link name
-                                                    left: 0,
-                                                    height: '4px',
-                                                    backgroundColor: '#13C4A1', // Change color as needed
-                                                    transition: 'width 0.3s ease-in-out',
-                                                  }}
-                                                />
-                                              </div>
-                                            </Link>
-                                          ))}
+                                          {blockchainValues.map(
+                                            (value, index) => (
+                                              <Link
+                                                key={index}
+                                                // to={`/link${index}`}
+                                                onMouseEnter={() =>
+                                                  setHoveredIndex(index)
+                                                }
+                                                onMouseLeave={() =>
+                                                  setHoveredIndex(null)
+                                                }
+                                                style={{
+                                                  position: "relative",
+                                                  display: "block",
+                                                }}
+                                              >
+                                                <div className="manubar_content_item">
+                                                  <div className="manubar_content_name">
+                                                    {blockchainnames[index]}
+                                                  </div>
+                                                  <div className="manubar_content_para">
+                                                    Lorem ipsum dolor sit amet
+                                                    consectetur adipisicing
+                                                    elit. Fugit, culpa voluptas
+                                                    et.
+                                                  </div>
+                                                  <div
+                                                    className="progress-bar"
+                                                    style={{
+                                                      width:
+                                                        hoveredIndex === index
+                                                          ? "100%"
+                                                          : `${value * 100}%`,
+                                                      position: "absolute",
+                                                      top: "15px", // Adjust the value to position the progress bar above the link name
+                                                      left: 0,
+                                                      height: "4px",
+                                                      backgroundColor:
+                                                        "#13C4A1", // Change color as needed
+                                                      transition:
+                                                        "width 0.3s ease-in-out",
+                                                    }}
+                                                  />
+                                                </div>
+                                              </Link>
+                                            )
+                                          )}
                                         </div>
                                       </div>
                                     </div>
                                   </div>
                                 )}
-                                {activeMenu === 'AI' && (
+                                {activeMenu === "AI" && (
                                   <div className="menupar-right-div">
                                     <div className="menubar_inside_main_div">
                                       <div className="menubar_inside_div">
-                                        <div className="menubar_inside_main_heading">AI</div>
+                                        <div className="menubar_inside_main_heading">
+                                          AI
+                                        </div>
 
-                                        <div style={{ justifyContent: "normal" }} className="manubar_content_main_div">
-                                          {generativeAIValues.map((value, index) => (
-                                            <Link
-                                              key={index}
-                                              // to={`/link${index}`}
-                                              onMouseEnter={() => setHoveredIndex(index)}
-                                              onMouseLeave={() => setHoveredIndex(null)}
-                                              style={{ position: 'relative', display: 'block' }}
-                                            >
-                                              <div className="manubar_content_item">
-                                                <div className="manubar_content_name">{generativeAINames[index]}</div>
-                                                <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
-                                                <div
-                                                  className="progress-bar"
-                                                  style={{
-                                                    width: hoveredIndex === index ? '100%' : `${value * 100}%`,
-                                                    position: 'absolute',
-                                                    top: '15px', // Adjust the value to position the progress bar above the link name
-                                                    left: 0,
-                                                    height: '4px',
-                                                    backgroundColor: '#13C4A1', // Change color as needed
-                                                    transition: 'width 0.3s ease-in-out',
-                                                  }}
-                                                />
-                                              </div>
-                                            </Link>
-                                          ))}
+                                        <div
+                                          style={{ justifyContent: "normal" }}
+                                          className="manubar_content_main_div"
+                                        >
+                                          {generativeAIValues.map(
+                                            (value, index) => (
+                                              <Link
+                                                key={index}
+                                                // to={`/link${index}`}
+                                                onMouseEnter={() =>
+                                                  setHoveredIndex(index)
+                                                }
+                                                onMouseLeave={() =>
+                                                  setHoveredIndex(null)
+                                                }
+                                                style={{
+                                                  position: "relative",
+                                                  display: "block",
+                                                }}
+                                              >
+                                                <div className="manubar_content_item">
+                                                  <div className="manubar_content_name">
+                                                    {generativeAINames[index]}
+                                                  </div>
+                                                  <div className="manubar_content_para">
+                                                    Lorem ipsum dolor sit amet
+                                                    consectetur adipisicing
+                                                    elit. Fugit, culpa voluptas
+                                                    et.
+                                                  </div>
+                                                  <div
+                                                    className="progress-bar"
+                                                    style={{
+                                                      width:
+                                                        hoveredIndex === index
+                                                          ? "100%"
+                                                          : `${value * 100}%`,
+                                                      position: "absolute",
+                                                      top: "15px", // Adjust the value to position the progress bar above the link name
+                                                      left: 0,
+                                                      height: "4px",
+                                                      backgroundColor:
+                                                        "#13C4A1", // Change color as needed
+                                                      transition:
+                                                        "width 0.3s ease-in-out",
+                                                    }}
+                                                  />
+                                                </div>
+                                              </Link>
+                                            )
+                                          )}
                                         </div>
                                       </div>
                                     </div>
                                   </div>
                                 )}
-                                {activeMenu === 'XR' && (
+                                {activeMenu === "XR" && (
                                   <div className="menupar-right-div">
                                     <div className="menubar_inside_main_div">
                                       <div className="menubar_inside_div">
-                                        <div className="menubar_inside_main_heading">XR</div>
+                                        <div className="menubar_inside_main_heading">
+                                          XR
+                                        </div>
 
                                         <div className="manubar_content_main_div">
                                           {xrValues.map((value, index) => (
                                             <Link
                                               key={index}
                                               // to={`/link${index}`}
-                                              onMouseEnter={() => setHoveredIndex(index)}
-                                              onMouseLeave={() => setHoveredIndex(null)}
-                                              style={{ position: 'relative', display: 'block' }}
+                                              onMouseEnter={() =>
+                                                setHoveredIndex(index)
+                                              }
+                                              onMouseLeave={() =>
+                                                setHoveredIndex(null)
+                                              }
+                                              style={{
+                                                position: "relative",
+                                                display: "block",
+                                              }}
                                             >
                                               <div className="manubar_content_item">
-                                                <div className="manubar_content_name">{xrNames[index]}</div>
-                                                <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
+                                                <div className="manubar_content_name">
+                                                  {xrNames[index]}
+                                                </div>
+                                                <div className="manubar_content_para">
+                                                  Lorem ipsum dolor sit amet
+                                                  consectetur adipisicing elit.
+                                                  Fugit, culpa voluptas et.
+                                                </div>
                                                 <div
                                                   className="progress-bar"
                                                   style={{
-                                                    width: hoveredIndex === index ? '100%' : `${value * 100}%`,
-                                                    position: 'absolute',
-                                                    top: '15px', // Adjust the value to position the progress bar above the link name
+                                                    width:
+                                                      hoveredIndex === index
+                                                        ? "100%"
+                                                        : `${value * 100}%`,
+                                                    position: "absolute",
+                                                    top: "15px", // Adjust the value to position the progress bar above the link name
                                                     left: 0,
-                                                    height: '4px',
-                                                    backgroundColor: '#13C4A1', // Change color as needed
-                                                    transition: 'width 0.3s ease-in-out',
+                                                    height: "4px",
+                                                    backgroundColor: "#13C4A1", // Change color as needed
+                                                    transition:
+                                                      "width 0.3s ease-in-out",
                                                   }}
                                                 />
                                               </div>
@@ -547,33 +712,52 @@ const HeaderTwo = () => {
                                     </div>
                                   </div>
                                 )}
-                                {activeMenu === 'Game' && (
+                                {activeMenu === "Game" && (
                                   <div className="menupar-right-div">
                                     <div className="menubar_inside_main_div">
                                       <div className="menubar_inside_div">
-                                        <div className="menubar_inside_main_heading">Game</div>
+                                        <div className="menubar_inside_main_heading">
+                                          Game
+                                        </div>
                                         <div className="manubar_content_main_div">
                                           {gameValues.map((value, index) => (
                                             <Link
                                               key={index}
                                               // to={`/link${index}`}
-                                              onMouseEnter={() => setHoveredIndex(index)}
-                                              onMouseLeave={() => setHoveredIndex(null)}
-                                              style={{ position: 'relative', display: 'block' }}
+                                              onMouseEnter={() =>
+                                                setHoveredIndex(index)
+                                              }
+                                              onMouseLeave={() =>
+                                                setHoveredIndex(null)
+                                              }
+                                              style={{
+                                                position: "relative",
+                                                display: "block",
+                                              }}
                                             >
                                               <div className="manubar_content_item">
-                                                <div className="manubar_content_name">{gameNames[index]}</div>
-                                                <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
+                                                <div className="manubar_content_name">
+                                                  {gameNames[index]}
+                                                </div>
+                                                <div className="manubar_content_para">
+                                                  Lorem ipsum dolor sit amet
+                                                  consectetur adipisicing elit.
+                                                  Fugit, culpa voluptas et.
+                                                </div>
                                                 <div
                                                   className="progress-bar"
                                                   style={{
-                                                    width: hoveredIndex === index ? '100%' : `${value * 100}%`,
-                                                    position: 'absolute',
-                                                    top: '15px', // Adjust the value to position the progress bar above the link name
+                                                    width:
+                                                      hoveredIndex === index
+                                                        ? "100%"
+                                                        : `${value * 100}%`,
+                                                    position: "absolute",
+                                                    top: "15px", // Adjust the value to position the progress bar above the link name
                                                     left: 0,
-                                                    height: '4px',
-                                                    backgroundColor: '#13C4A1', // Change color as needed
-                                                    transition: 'width 0.3s ease-in-out',
+                                                    height: "4px",
+                                                    backgroundColor: "#13C4A1", // Change color as needed
+                                                    transition:
+                                                      "width 0.3s ease-in-out",
                                                   }}
                                                 />
                                               </div>
@@ -591,50 +775,94 @@ const HeaderTwo = () => {
                             <NavLink to="/blog">Insights</NavLink>
                           </li>
                           <li className="has-dropdown">
-                            <Link className="nav_link" to="#">Company <i class="fa-solid fa-caret-down"></i></Link>
+                            <Link className="nav_link" to="#">
+                              Company <i class="fa-solid fa-caret-down"></i>
+                            </Link>
                             <ul className="sub-menu">
                               <div className="sub-menu-div">
                                 <li
-                                  className={`has-dropdown ${activeMenu2 === 'Company' ? 'active' : ''}`}
-                                  onMouseEnter={() => handleMenuHover2('Company')}
-                                // onClick={() => handleMenuClick('team')}
+                                  className={`has-dropdown ${
+                                    activeMenu2 === "Company" ? "active" : ""
+                                  }`}
+                                  onMouseEnter={() =>
+                                    handleMenuHover2("Company")
+                                  }
+                                  // onClick={() => handleMenuClick('team')}
                                 >
-                                  <Link className="left_content_arrow" style={{ marginTop: "20px" }} to="#">Company <i class="fa-solid fa-right-long icon_rightarrow"></i></Link>
+                                  <Link
+                                    className="left_content_arrow"
+                                    style={{ marginTop: "20px" }}
+                                    to="#"
+                                  >
+                                    Company{" "}
+                                    <i class="fa-solid fa-right-long icon_rightarrow"></i>
+                                  </Link>
                                 </li>
                               </div>
                               <div className="menupar-right">
-                                {activeMenu2 === 'Company' && (
+                                {activeMenu2 === "Company" && (
                                   <div className="menupar-right-div">
                                     <div className="menubar_inside_main_div">
                                       <div className="menubar_inside_div">
-                                        <div className="menubar_inside_main_heading">Company</div>
+                                        <div className="menubar_inside_main_heading">
+                                          Company
+                                        </div>
                                         <div className="manubar_content_main_div">
-                                          {companyprogressValues.map((value, index) => (
-                                            <Link
-                                              key={index}
-                                              to={index === 0 ? "/about" : index === 2 ? "/contact" : "#"} // Assuming index 0 is for "About us" and index 2 is for "Contact us"
-                                              onMouseEnter={() => setHoveredIndex(index)}
-                                              onMouseLeave={() => setHoveredIndex(null)}
-                                              style={{ position: 'relative', display: 'block' }}
-                                            >
-                                              <div className="manubar_content_item">
-                                                <div className="manubar_content_name">{CompanyNames[index]}</div>
-                                                <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
-                                                <div
-                                                  className="progress-bar"
-                                                  style={{
-                                                    width: hoveredIndex === index ? '100%' : `${value * 100}%`,
-                                                    position: 'absolute',
-                                                    top: '15px', // Adjust the value to position the progress bar above the link name
-                                                    left: 0,
-                                                    height: '4px',
-                                                    backgroundColor: '#13C4A1', // Change color as needed
-                                                    transition: 'width 0.3s ease-in-out',
-                                                  }}
-                                                />
-                                              </div>
-                                            </Link>
-                                          ))}
+                                          {companyprogressValues.map(
+                                            (value, index) => (
+                                              <Link
+                                                key={index}
+                                                to={
+                                                  index === 0
+                                                    ? "/about"
+                                                    : index === 2
+                                                    ? "/contact"
+                                                    : index === 1
+                                                    ? "/career"
+                                                    : ""
+                                                } // Assuming index 0 is for "About us" and index 2 is for "Contact us"
+                                                onMouseEnter={() =>
+                                                  setHoveredIndex(index)
+                                                }
+                                                onMouseLeave={() =>
+                                                  setHoveredIndex(null)
+                                                }
+                                                style={{
+                                                  position: "relative",
+                                                  display: "block",
+                                                }}
+                                              >
+                                                <div className="manubar_content_item">
+                                                  <div className="manubar_content_name">
+                                                    {CompanyNames[index]}
+                                                  </div>
+                                                  <div className="manubar_content_para">
+                                                    Lorem ipsum dolor sit amet
+                                                    consectetur adipisicing
+                                                    elit. Fugit, culpa voluptas
+                                                    et.
+                                                  </div>
+                                                  <div
+                                                    className="progress-bar"
+                                                    style={{
+                                                      width:
+                                                        hoveredIndex === index
+                                                          ? "100%"
+                                                          : `${value * 100}%`,
+                                                      position: "absolute",
+                                                      top: "15px", // Adjust the value to position the progress bar above the link name
+                                                      left: 0,
+                                                      height: "4px",
+                                                      backgroundColor:
+                                                        "#13C4A1", // Change color as needed
+                                                      transition:
+                                                        "width 0.3s ease-in-out",
+                                                    }}
+                                                  />
+                                                </div>
+                                              </Link>
+                                            )
+                                          )}
                                         </div>
                                       </div>
                                     </div>
@@ -782,7 +1010,9 @@ const HeaderTwo = () => {
                   <Link to="#">Service</Link>
                   <ul className="sub-menu">
                     <li className="menu-item-has-children">
-                      <Link className="sub_heading_color" to="#">Blockchain</Link>
+                      <Link className="sub_heading_color" to="#">
+                        Blockchain
+                      </Link>
                       <ul className="sub-menu">
                         <li>
                           <NavLink
@@ -849,7 +1079,9 @@ const HeaderTwo = () => {
                   </ul>
                   <ul className="sub-menu">
                     <li className="menu-item-has-children">
-                      <Link className="sub_heading_color" to="#">AI</Link>
+                      <Link className="sub_heading_color" to="#">
+                        AI
+                      </Link>
                       <ul className="sub-menu">
                         <li>
                           <NavLink
@@ -876,7 +1108,9 @@ const HeaderTwo = () => {
                   </ul>
                   <ul className="sub-menu">
                     <li className="menu-item-has-children">
-                      <Link className="sub_heading_color" to="#">XR</Link>
+                      <Link className="sub_heading_color" to="#">
+                        XR
+                      </Link>
                       <ul className="sub-menu">
                         <li>
                           <NavLink
@@ -923,7 +1157,9 @@ const HeaderTwo = () => {
                   </ul>
                   <ul className="sub-menu">
                     <li className="menu-item-has-children">
-                      <Link className="sub_heading_color" to="#">Game</Link>
+                      <Link className="sub_heading_color" to="#">
+                        Game
+                      </Link>
                       <ul className="sub-menu">
                         <li>
                           <NavLink

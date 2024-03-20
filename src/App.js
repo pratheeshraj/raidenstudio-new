@@ -28,6 +28,7 @@ import toast, { Toaster } from 'react-hot-toast';
 import NewsletterPopup from "./components/NewsletterPopup";
 import BlogByCategory from "./pages/BlogByCategory";
 import BlogByTag from "./pages/BlogByTag";
+import Career from "./pages/Career";
 function App() {
   useEffect(() => {
     AOS.init({
@@ -63,6 +64,7 @@ function App() {
         <Route exact path="/service" element={<Service />} />
         <Route exact path="/service-details" element={<ServicesDetails />} />
         <Route exact path="/team" element={<Team />} />
+        <Route exact path="/career" element={<Career />} />
         <Route exact path="*" element={<Error />} />
       </Routes>
       <RouteScrollToTop />

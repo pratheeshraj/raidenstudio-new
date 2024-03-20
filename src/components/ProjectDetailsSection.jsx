@@ -9,7 +9,7 @@ const ProjectDetailsSection = () => {
       <section className="project-details">
         <div className="container-fulid">
           <div className="col-12 project_hero_section">
-            <video autoPlay muted loop >
+            <video autoPlay muted loop>
               <source src={demo} type="video/mp4" />
             </video>
           </div>
