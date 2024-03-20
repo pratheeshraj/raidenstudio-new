@@ -19,6 +19,7 @@ import ContactSection2 from './../components/ContactSection2';
 import FAQSectionOne from './../components/FAQSectionOne';
 import FAQSectionThree from './../components/FAQSectionThree';
 import DevelopmentProcess from './../components/DevelopmentProcess';
+import Features from "../components/Features";
 
 const ServicesDetails = () => {
   let [active, setActive] = useState(true);
@@ -46,6 +47,8 @@ const ServicesDetails = () => {
         <ServiceSectionTwo />
         {/*5.call to us*/}
         <CounterSectionOne />
+        {/* { features} */}
+           <Features/>
         {/*6.tech-stack*/}
         <ProgramLanguage />
         {/* News Section One */}

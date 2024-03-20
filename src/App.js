@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.scss";
+import "./App.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Demo from "./pages/Demo";

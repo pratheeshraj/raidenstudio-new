@@ -4,7 +4,8 @@ const ServiceDetailsSection = () => {
   return (
     <>
       {/* Service Details Section Start */}
-      <section
+      <section 
+        style={{background:"white"}}
         className="service-details-section"
         data-aos="fade-up"
         data-aos-delay="300"
@@ -13,14 +14,14 @@ const ServiceDetailsSection = () => {
           <div className="row">
             <div className="col-lg-6  order-2 order-lg-1">
               <div className="right-wrapper pe-2">
-                <h2 className="title">Intro</h2>
-                <p>
+                <h2 style={{color:"black"}} className="title">Intro</h2>
+                <p style={{color:"black"}}>
                   Oracle Cloud Infrastructure (OCI) AI Services is a collection
                   of services with prebuilt machine learning models that make it
                   easier for developers to apply AI to applications and business
                   operations.
                 </p>
-                <p>
+                <p style={{color:"black"}}>
                   Commit to new vectors of growth as well as supporting
                   long-term digital transformation with Avenga AI services.
                   Tapping into our extensive tech expertise, you can create,
@@ -60,25 +61,25 @@ const ServiceDetailsSection = () => {
             </div>
             <div className="col-lg-6">
               <div className="right-wrapper ps-2">
-                <h2 className="title">About Company</h2>
-                <p>
-                  Oracle Cloud Infrastructure (OCI) AI Services is a collection
-                  of services with prebuilt machine learning models that make it
-                  easier for developers to apply AI to applications and business
-                  operations.
+                <h2 style={{color:"black"}} className="title">AI Development Company</h2>
+                <p style={{color:"black"}}>
+                  We’re an international custom AI development company that helps to simplify your business workflows and boost operational productivity. Combining our creativity, AI expertise, and AI applications development approach, we deliver a complete AI spectrum that matters to users' and businesses' success.
                 </p>
-                <p>
-                  Commit to new vectors of growth as well as supporting
-                  long-term digital transformation with Avenga AI services.
-                  Tapping into our extensive vectors of growth as well as
-                  supporting long-term digital transformation with Avenga AI
-                  services. Tapping into our extensive vectors of growth as well
-                  as supporting long-term digital transformation with Avenga AI
-                  services. Tapping into our extensivetech expertise, you can
-                  create, maintain, and scale up your Artificial Intelligence
-                  (AI) and Machine Learning (ML) solutions while augmenting
-                  human capacity and increasing business value.
-                </p>
+                <ul style={{color:"black"}}>
+                  <li>We Create Proof of Concepts Driven AI Projects in 1 Month
+                  </li>
+                  <li>We upgrade your product using AI features.
+                  </li>
+                  <li>We take care of your AI business requirements.
+                  </li>
+                </ul>
+                <ul style={{marginTop:"20px",color:"black"}}>
+                  <li>50+ AI Developers</li>
+                  <li>100+ Software Products Launched
+                  </li>
+                  <li>20+ AI Solutions</li>
+                  <li>5+ Year of Experience</li>
+                </ul>
               </div>
             </div>
           </div>

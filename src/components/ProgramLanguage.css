@@ -1,8 +1,8 @@
 .left_Language_div {
     margin-top: 20px;
     display: flex;
-    flex-direction: column;
-    gap: 20px;
+    flex-direction: row;
+    gap: 61px;
     margin-bottom: 45px;
 }
 
@@ -20,7 +20,6 @@
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
-    padding: 0;
 }
 
 @keyframes card-slide-in {
@@ -42,14 +41,14 @@
     align-items: center;
     margin-bottom: 20px;
     justify-content: center;
-    margin-left: 20px;
-    padding: 0;
+    margin-right: 20px;
     flex-direction: column;
     box-sizing: border-box;
     overflow: hidden;
     position: relative;
     opacity: 0;
-    background: #1c292e !important;
+    background: white !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     border: none;
     gap: 10px;
     border-radius: 5px !important;
@@ -114,17 +113,12 @@
 }
 
 .Card_name {
-    color: white;
+    color: black;
 }
 
 /* card-2  */
 
-.right_Language_div2 {
-    margin-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0;
-}
+
 
 @keyframes card-slide-in-2 {
     from {
@@ -146,14 +140,15 @@
     align-items: center;
     margin-bottom: 20px;
     justify-content: center;
-    margin-left: 20px;
+    margin-right: 20px;
     padding: 0;
     flex-direction: column;
     box-sizing: border-box;
     overflow: hidden;
     position: relative;
     opacity: 0;
-    background: #1c292e !important;
+    background: white !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     border: none;
     gap: 10px;
     border-radius: 5px !important;
@@ -220,13 +215,6 @@
 
 /* card3 */
 
-.right_Language_div3 {
-    margin-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0;
-}
-
 @keyframes card-slide-in-3 {
     from {
         opacity: 0;
@@ -246,14 +234,15 @@
     align-items: center;
     margin-bottom: 20px;
     justify-content: center;
-    margin-left: 20px;
+    margin-right: 20px;
     padding: 0;
     flex-direction: column;
     box-sizing: border-box;
     overflow: hidden;
     position: relative;
     opacity: 0;
-    background: #1c292e !important;
+    background: white !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     border: none;
     gap: 10px;
     border-radius: 5px !important;
@@ -320,13 +309,6 @@
 
 /* card-4 */
 
-.right_Language_div4 {
-    margin-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0;
-}
-
 @keyframes card-slide-in-4 {
     from {
         opacity: 0;
@@ -346,14 +328,15 @@
     align-items: center;
     margin-bottom: 20px;
     justify-content: center;
-    margin-left: 20px;
+    margin-right: 20px;
     padding: 0;
     flex-direction: column;
     box-sizing: border-box;
     overflow: hidden;
     position: relative;
     opacity: 0;
-    background: #1c292e !important;
+    background: white !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     border: none;
     gap: 10px;
     border-radius: 5px !important;
@@ -419,13 +402,6 @@
 
 /* card5 */
 
-.right_Language_div5 {
-    margin-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0;
-}
-
 @keyframes card-slide-in-5 {
     from {
         opacity: 0;
@@ -445,14 +421,15 @@
     align-items: center;
     margin-bottom: 20px;
     justify-content: center;
-    margin-left: 20px;
+    margin-right: 20px;
     padding: 0;
     flex-direction: column;
     box-sizing: border-box;
     overflow: hidden;
     position: relative;
     opacity: 0;
-    background: #1c292e !important;
+    background: white !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     border: none;
     gap: 10px;
     border-radius: 5px !important;
@@ -519,13 +496,6 @@
 
 /* card6  */
 
-.right_Language_div6 {
-    margin-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0;
-}
-
 @keyframes card-slide-in-6 {
     from {
         opacity: 0;
@@ -545,14 +515,15 @@
     align-items: center;
     margin-bottom: 20px;
     justify-content: center;
-    margin-left: 20px;
+    margin-right: 20px;
     padding: 0;
     flex-direction: column;
     box-sizing: border-box;
     overflow: hidden;
     position: relative;
     opacity: 0;
-    background: #1c292e !important;
+    background: white !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     border: none;
     gap: 10px;
     border-radius: 5px !important;

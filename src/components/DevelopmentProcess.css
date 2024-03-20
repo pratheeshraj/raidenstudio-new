@@ -1,259 +1,68 @@
-.devo_process_main_div {
+.Deve_process_fulldiv {
     width: 100%;
-    height: 700px !important;
-    display: flex;
-    justify-content: center;
-    overflow-y: scroll;
+    background: white !important;
 }
 
-/* Hide the default scrollbar */
-.devo_process_main_div::-webkit-scrollbar {
-    width: 5px;
-    border-radius: 5px !important;
-}
-
-/* Track */
-.devo_process_main_div::-webkit-scrollbar-track {
-    background: #888;
-    border-radius: 5px !important;
-
-}
-
-/* Handle */
-.devo_process_main_div::-webkit-scrollbar-thumb {
-    background: #13C4A1;
-    border-radius: 5px !important;
-}
-
-/* Handle on hover */
-.devo_process_main_div::-webkit-scrollbar-thumb:hover {
-    background: white;
+.right_devo_card_div {
+    width: 100%;
+    margin-top: 80px;
 }
 
 
+.devo_round_div {
+    height: 200px;
+}
 
-.devo_process_div {
-    width: 5px !important;
-    background: white;
-    padding: 0;
-    height: 2200px;
+.devo_process_content_div {
+    position: absolute !important;
+    transform: translate(-50%, -50%) !important;
+    top: 50%;
+    left: 380px;
+}
+
+.devo_process_content_div2 {
+    position: absolute !important;
+    transform: translate(-50%, -50%) !important;
+    top: 50%;
+    right: 8%;
+}
+
+.realtive_devo_div {
     position: relative;
 }
 
-.Card_devo_process {
-    width: 376px;
-    position: absolute;
-    left: -520px;
-    display: flex;
-    background: #000C14;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    padding: 30px;
+.realtive_devo_div2 {
     position: relative;
+    display: flex;
+    justify-content: end;
 }
 
-.Card_devo_process::after {
-    content: "";
+
+.devo_conten_h {
+    font-family: var(--ff-heading);
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+
+.devo_conten_p {
+    width: 300px;
+}
+
+.devo_img_icon {
     position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 95px;
     top: 50%;
-    right: -204px;
-    /* Adjust this value to change the position of the arrow */
-    transform: translateY(-50%);
-    border-width: 103px;
-    border-style: solid;
-    border-color: transparent transparent transparent #000C14;
+    transform: translate(-50%, -50%);
 }
 
-
-.Card_devo_process3 {
-    width: 376px;
+.devo_img_icon2 {
     position: absolute;
-    left: -520px;
-    display: flex;
-    background: #000C14;
-    border-radius: 5px;
-    padding: 30px;
-    top: 350px;
-}
-
-
-.Card_devo_process3::after {
-    content: "";
-    position: absolute;
+    width: 100px;
+    height: 100px;
     top: 50%;
-    right: -204px;
-    transform: translateY(-50%);
-    border-width: 103px;
-    border-style: solid;
-    border-color: transparent transparent transparent #000C14;
-}
-
-
-.Card_devo_process5 {
-    width: 376px;
-    position: absolute;
-    left: -520px;
-    display: flex;
-    background: #000C14;
-    border-radius: 5px;
-    padding: 30px;
-    top: 900px;
-}
-
-.Card_devo_process5::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    right: -204px;
-    transform: translateY(-50%);
-    border-width: 103px;
-    border-style: solid;
-    border-color: transparent transparent transparent #000C14;
-}
-
-
-
-.Card_devo_process7 {
-    width: 376px;
-    position: absolute;
-    left: -520px;
-    display: flex;
-    background: #000C14;
-    border-radius: 5px;
-    padding: 30px;
-    top: 1400px;
-}
-
-.Card_devo_process7::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    right: -204px;
-    transform: translateY(-50%);
-    border-width: 103px;
-    border-style: solid;
-    border-color: transparent transparent transparent #000C14;
-}
-
-
-.Card_devo_process2 {
-    width: 356px;
-    position: absolute;
-    top: 100px;
-    left: 150px;
-    display: flex;
-    background: #000C14;
-    padding: 20px;
-    border-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-
-.Card_devo_process2::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 355px;
-    transform: translateY(-50%);
-    transform: rotate(180deg);
-    border-width: 92px;
-    border-style: solid;
-    border-color: transparent transparent transparent #000C14;
-}
-
-.Card_devo_process4 {
-    width: 356px;
-    position: absolute;
-    left: 150px;
-    display: flex;
-    background: #000C14;
-    padding: 20px;
-    border-radius: 5px;
-    top: 650px;
-}
-
-.Card_devo_process4::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 355px;
-    transform: translateY(-50%);
-    transform: rotate(180deg);
-    border-width: 92px;
-    border-style: solid;
-    border-color: transparent transparent transparent #000C14;
-}
-
-
-.Card_devo_process6 {
-    width: 356px;
-    position: absolute;
-    left: 150px;
-    display: flex;
-    background: #000C14;
-    padding: 20px;
-    border-radius: 5px;
-    top: 1150px;
-}
-
-.Card_devo_process6::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 355px;
-    transform: translateY(-50%);
-    transform: rotate(180deg);
-    border-width: 92px;
-    border-style: solid;
-    border-color: transparent transparent transparent #000C14;
-}
-
-
-.Card_devo_process8 {
-    width: 356px;
-    position: absolute;
-    left: 150px;
-    display: flex;
-    background: #000C14;
-    padding: 20px;
-    border-radius: 5px;
-    top: 1650px;
-}
-
-.Card_devo_process8::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 355px;
-    transform: translateY(-50%);
-    transform: rotate(180deg);
-    border-width: 92px;
-    border-style: solid;
-    border-color: transparent transparent transparent #000C14;
-}
-
-
-.logo_devo_process {
-    font-size: 80px;
-    position: sticky;
-    top: 20px;
-    margin-left: -29px;
-}
-
-.line_devo_process {
-    width: 50px;
-    height: 50px;
-    background: #13C4A1;
-    border-radius: 50%;
-    position: relative !important;
-    top: -80px;
-    left: -22px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 99 !important;
-}
-
-.devo_heading {
-    font-size: 26px;
+    transform: translate(-50%, -50%);
 }

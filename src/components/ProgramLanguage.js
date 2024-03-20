@@ -66,22 +66,22 @@ const ProgramLanguage = () => {
     return (
         <>
             {/* FAQ Section three start */}
-            <section className="faq-section three">
+            <section className="faq-section three" style={{background:"#F8F9FA"}}>
                 <div className="auto-container">
                     <div className="row">
-                        <h2>High-End Technologies We Use</h2>
-                        <p>Helping startups and enterprises with the right blend of experience and technology.</p>
-                        <div className="col-lg-3 left_Language_div">
-                            <div onClick={handleFrontEnd} style={{ color: frontend ? '#13C4A1' : 'inherit' }}>Frontend {frontend && <i class="fa-solid fa-right-long"></i>}</div>
-                            <div onClick={handleBackend} style={{ color: backend ? '#13C4A1' : 'inherit' }}>Backend {backend && <i class="fa-solid fa-right-long"></i>}</div>
-                            <div onClick={handleMobile} style={{ color: mobile ? '#13C4A1' : 'inherit' }}>Mobile {mobile && <i class="fa-solid fa-right-long"></i>}</div>
-                            <div onClick={handleDatabase} style={{ color: database ? '#13C4A1' : 'inherit' }}>Database {database && <i class="fa-solid fa-right-long"></i>}</div>
-                            <div onClick={handleBlockchain} style={{ color: blockchain ? '#13C4A1' : 'inherit' }}>Blockchain {blockchain && <i class="fa-solid fa-right-long"></i>}</div>
-                            <div onClick={handleGame} style={{ color: game ? '#13C4A1' : 'inherit' }}>Game {game && <i class="fa-solid fa-right-long"></i>}</div>
+                        <h2 style={{color:"black"}}>High-End Technologies We Use</h2>
+                        <p style={{color:"black"}}>Helping startups and enterprises with the right blend of experience and technology.</p>
+                        <div className="left_Language_div">
+                            <div onClick={handleFrontEnd} style={{ color: frontend ? '#13C4A1' : 'black' }}>Frontend {frontend && <i class="fa-solid fa-right-long"></i>}</div>
+                            <div onClick={handleBackend} style={{ color: backend ? '#13C4A1' : 'black' }}>Backend {backend && <i class="fa-solid fa-right-long"></i>}</div>
+                            <div onClick={handleMobile} style={{ color: mobile ? '#13C4A1' : 'black' }}>Mobile {mobile && <i class="fa-solid fa-right-long"></i>}</div>
+                            <div onClick={handleDatabase} style={{ color: database ? '#13C4A1' : 'black' }}>Database {database && <i class="fa-solid fa-right-long"></i>}</div>
+                            <div onClick={handleBlockchain} style={{ color: blockchain ? '#13C4A1' : 'black' }}>Blockchain {blockchain && <i class="fa-solid fa-right-long"></i>}</div>
+                            <div onClick={handleGame} style={{ color: game ? '#13C4A1' : 'black' }}>Game {game && <i class="fa-solid fa-right-long"></i>}</div>
 
                         </div>
                         {
-                            frontend ? <div className="col-lg-9 right_Language_div">
+                            frontend ? <div className="right_Language_div">
                                 <div className="card">
                                     <img src="/assets/img/Language/react-2.svg" alt="" />
                                     <div className="Card_name">React</div>
@@ -104,7 +104,7 @@ const ProgramLanguage = () => {
                                 </div>
 
                             </div> : backend ?
-                                <div className="col-lg-9 right_Language_div">
+                                <div className="right_Language_div">
                                     <div className="card2">
                                         <img src="/assets/img/Language/nodejs-icon.svg" alt="" />
                                         <div className="Card_name">Node Js</div>
@@ -121,7 +121,7 @@ const ProgramLanguage = () => {
                                         <img src="/assets/img/Language/NEST JS.svg" alt="" />
                                         <div className="Card_name">Nest Js</div>
                                     </div>
-                                </div> : database ? <div className="col-lg-9 right_Language_div">
+                                </div> : database ? <div className="right_Language_div">
                                     <div className="card4">
                                         <img src="/assets/img/Language/postgresq.svg" alt="" />
                                         <div className="Card_name">Postgres</div>
@@ -138,7 +138,7 @@ const ProgramLanguage = () => {
                                         <img src="/assets/img/Language/mysql-icon.svg" alt="" />
                                         <div className="Card_name">MySQL</div>
                                     </div>
-                                </div> : mobile ? <div className="col-lg-9 right_Language_div">
+                                </div> : mobile ? <div className="right_Language_div">
                                     <div className="card3">
                                         <img src="/assets/img/Language/REACT NATIVE.svg" alt="" />
                                         <div className="Card_name">React Native</div>
@@ -155,7 +155,7 @@ const ProgramLanguage = () => {
                                         <img src="/assets/img/Language/KATLIN.svg" alt="" />
                                         <div className="Card_name">Kotlin</div>
                                     </div>
-                                </div> : blockchain ? <div className="col-lg-9 right_Language_div">
+                                </div> : blockchain ? <div className="right_Language_div">
                                     <div className="card5">
                                         <img src="/assets/img/Language/ethereum-eth-logo.svg" alt="" />
                                         <div className="Card_name">Ethereum</div>
@@ -184,7 +184,7 @@ const ProgramLanguage = () => {
                                         <img src="/assets/img/Language/polkadot-new-dot-logo.svg" alt="" />
                                         <div className="Card_name">PolkaDot</div>
                                     </div>
-                                </div> : game ? <div className="col-lg-9 right_Language_div">
+                                </div> : game ? <div className="right_Language_div">
                                     <div className="card6">
                                         <img src="/assets/img/Language/UNITY.svg" alt="" />
                                         <div className="Card_name">Unity</div>
