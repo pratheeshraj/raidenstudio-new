@@ -7,7 +7,11 @@ const CareerSection = () => {
         FIND YOUR DREAM JOB AT <span>RAIDEN GAMES</span>
       </h2>
       <div className="container-fluid career_section">
-        <div className="career_section_formdata">
+        <div
+          className="career_section_formdata "
+          data-aos="fade-left"
+          data-aos-delay="300"
+        >
           <div className="top">
             <div className="top_heading">
               <h2>BE A PART OF OUR TEAM</h2>
@@ -50,6 +54,7 @@ const CareerSection = () => {
         </div>
       </div>
     </section>
+   
   );
 };
 

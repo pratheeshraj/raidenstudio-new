@@ -4,6 +4,7 @@ import HeaderTwo from "../components/HeaderTwo";
 import FooterSectionOne from "../components/FooterSectionOne";
 import NewsSectionOne from "../components/NewsSectionOne";
 import CareerSection from "../components/CareerSection";
+import CareerJobSection from "../components/CareerJobSection";
 
 const Career = () => {
   return (
@@ -16,6 +17,7 @@ const Career = () => {
         {/* Breadcrumb */}
         {/* Footer Section */}
         <CareerSection/>
+        <CareerJobSection/>
         <NewsSectionOne />
         <FooterSectionOne />
       </Suspense>
