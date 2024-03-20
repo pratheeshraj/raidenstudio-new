@@ -1,0 +1,252 @@
+@use "../utils" as *;
+
+.careerSection_heading {
+  margin: 50px 0;
+  text-align: center;
+  color: black;
+  span {
+    color: var(--theme-1);
+  }
+  @media #{ $xs, $xss} {
+    font-size: 28px;
+  }
+}
+.career_section {
+  height: 100%;
+  background-color: white;
+  background-image: url(../../../../src/images/full-shot-ninja-wearing-equipment.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  @media #{$md,$sm,} {
+    background-position: -211px 50px;
+    margin: none;
+    justify-content: center;
+  }
+  @media #{  $xs, $xss} {
+    background-position: -354px -109px;
+  }
+  .career_section_formdata {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 200px 0;
+    width: 600px;
+    height: 600px;
+    margin-right: 100px;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(25.1px);
+    -webkit-backdrop-filter: blur(7.1px);
+    padding: 50px 20px;
+    @media #{$sm, $xs, $xss,$md} {
+      margin-right: 0;
+    }
+    @media #{ $xss,$xs} {
+      margin: 32px 0;
+      width: 100%;
+      height: 500px;
+    }
+    .top {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      .top_heading {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h2 {
+          text-align: center;
+          margin: 0;
+          @media #{  $xs,$xss} {
+            font-size: 20px;
+          }
+        }
+        p {
+          font-size: 18px;
+          text-align: center;
+          @media #{  $xs,$xss} {
+            font-size: 16px;
+          }
+        }
+      }
+      form {
+        width: 100%;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        .two_input {
+          width: 100%;
+          gap: 10px;
+          display: flex;
+          input {
+            width: 100%;
+            height: 50px;
+            border: none;
+            background: transparent;
+            border-bottom: 2px solid #bcbcbc;
+            font-size: 16px;
+            padding-left: 10px;
+            color: white;
+            &::placeholder {
+              font-size: 16px;
+              color: #a1a1a1;
+            }
+          }
+        }
+        textarea {
+          width: 100%;
+          height: 50px;
+          border: none;
+          background: transparent;
+          border-bottom: 2px solid #bcbcbc;
+          font-size: 16px;
+          padding-left: 10px;
+          outline: none;
+          color: white;
+          &::placeholder {
+            font-size: 14px;
+            color: #a1a1a1;
+          }
+        }
+        .getpdf {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          p {
+            font-size: 12px;
+            margin: 0;
+            @media #{  $xss} {
+              font-size: 10px;
+            }
+          }
+          label {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            cursor: pointer;
+            @media #{  $xs,$xss} {
+              font-size: 12px;
+            }
+            i {
+              font-size: 24px;
+              color: var(--theme-1);
+              @media #{  $xs,$xss} {
+                font-size: 18px;
+              }
+            }
+          }
+          input {
+            display: none;
+          }
+        }
+      }
+    }
+    .center {
+      .career_btn {
+        width: 220px;
+        height: 60px;
+      }
+    }
+    .bottom {
+      display: flex;
+      gap: 10px;
+      input[type="checkbox"] {
+        width: 20px;
+      }
+      p {
+        margin: 0;
+        @media #{  $xs,$xss} {
+          font-size: 14px;
+        }
+        a {
+          color: var(--theme-1);
+        }
+      }
+    }
+  }
+}
+
+.careersection {
+  background-color: white;
+  padding: 50px 0;
+
+  h2 {
+    color: var(--theme-1);
+    text-align: center;
+    @media #{$md,$sm, $xs, $xss} {
+      font-size: 28px;
+    }
+  }
+}
+.careersection_container { 
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.careersection_card {
+  display: flex;
+  align-items: center;
+  padding: 22px;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 4px;
+  }
+  color: black;
+  @media #{$md,$sm, $xs, $xss} {
+    padding: 10px;
+  }
+  h6 {
+    color: black;
+    font-size: 20px;
+    @media #{$md,$sm, $xs, $xss} {
+      font-size: 18px;
+    }
+    @media #{ $xs, $xss} {
+      font-size: 16px;
+    }
+  }
+
+  p {
+    display: none;
+    @media #{$md,$sm, $xs, $xss} {
+      display: flex;
+    }
+  }
+
+  .right {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    @media #{$md,$sm, $xs, $xss} {
+      gap: 50px;
+    }
+    p {
+      font-size: 18px;
+      margin: 0;
+      color: black;
+      @media #{$md,$sm, $xs, $xss} {
+        display: none;
+      }
+    }
+    button {
+      @media #{$sm, $xs, $xss} {
+        font-size: 12px;
+        width: 100px;
+      }
+    }
+  }
+}
