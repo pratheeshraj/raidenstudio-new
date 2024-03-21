@@ -48,8 +48,8 @@ const ContactSection2 = () => {
               </div>
             </div>
           </div>
-          <div className="row">
-            <div className="">
+          <div className="row" style={{ display: "flex", justifyContent: "center", alignContent: "center" }}>
+            <div className="" style={{ width: "70%" }}>
               <form
                 ref={form}
                 onSubmit={sendEmail}

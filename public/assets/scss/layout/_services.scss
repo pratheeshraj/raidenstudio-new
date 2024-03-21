@@ -245,6 +245,11 @@
     .section-wrapper {
       margin-bottom: 30px;
       overflow: hidden;
+      &:hover a{
+        color: #13C4A1;
+      }&:hover{
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      }
       .wrapper-inner {
         background: white;
         padding: 30px 25px;
@@ -252,7 +257,6 @@
         text-align: center;
         position: relative;
         height: 450px;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         @include transition(0.3s);
 
         .img-file {
@@ -288,9 +292,7 @@
         }
 
         &:hover {
-          transform: translateY(-10px);
-          background: rgb(218, 218, 218);
-
+          // transform: translateY(-10px);
           .img-file {
             img {
               transform: rotateY(180deg);
