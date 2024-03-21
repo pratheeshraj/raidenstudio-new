@@ -31,7 +31,7 @@ function Features() {
                         </div>
                         <div className='feature_card'>
                             <img src='/assets/img/icon/34_icon.png' />
-                            <div>NLP Solutions</div>
+                            <div>NLP <br/>Solutions</div>
                         </div>
                         <div className='feature_card'>
                             <img src='/assets/img/icon/34_icon.png' />

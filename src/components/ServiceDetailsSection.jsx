@@ -12,42 +12,6 @@ const ServiceDetailsSection = () => {
       >
         <div className="auto-container">
           <div className="row">
-            <div className="col-lg-6  order-2 order-lg-1">
-              <div className="right-wrapper pe-2">
-                <h2 style={{color:"black"}} className="title">Intro</h2>
-                <p style={{color:"black"}}>
-                  Oracle Cloud Infrastructure (OCI) AI Services is a collection
-                  of services with prebuilt machine learning models that make it
-                  easier for developers to apply AI to applications and business
-                  operations.
-                </p>
-                <p style={{color:"black"}}>
-                  Commit to new vectors of growth as well as supporting
-                  long-term digital transformation with Avenga AI services.
-                  Tapping into our extensive tech expertise, you can create,
-                  maintain, Tapping into our extensive tech expertise, you can
-                  create, maintain Tapping into our extensive tech expertise,
-                  you can create, maintain and scale up your Artificial
-                  Intelligence (AI) and Machine Learning (ML) solutions while
-                  augmenting human capacity and increasing business value.
-                </p>
-              </div>
-            </div>
-            <div className="col-lg-6 order-1">
-              <div className="left-wrapper ps-2">
-                <div className="img-file">
-                  <img
-                    className="img-fluid"
-                    src="/assets/img/service/02_service.png"
-                    alt=""
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <br />
-          <br />
-          <div className="row">
             <div className="col-lg-6">
               <div className="left-wrapper pe-2">
                 <div className="img-file">

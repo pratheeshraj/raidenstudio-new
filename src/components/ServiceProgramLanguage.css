@@ -25,7 +25,7 @@
     flex-wrap: wrap;
 }
 
-@keyframes card-slide-in {
+@keyframes Card_service-slide-in {
     from {
         opacity: 0;
         transform: translateY(150px);
@@ -37,7 +37,7 @@
     }
 }
 
-.card {
+.Card_service {
     width: 150px;
     height: 130px;
     display: flex !important;
@@ -50,50 +50,50 @@
     overflow: hidden;
     position: relative;
     opacity: 0;
-    background: #1C292E !important;
+    background: white !important;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     border: none;
     gap: 10px;
     border-radius: 5px !important;
 }
 
-.card {
-    animation: card-slide-in 0.5s ease-out forwards;
+.Card_service {
+    animation: Card_service-slide-in 0.5s ease-out forwards;
 }
 
-.card:nth-child(1) {
+.Card_service:nth-child(1) {
     animation-delay: 0.1s;
 }
 
-.card:nth-child(2) {
+.Card_service:nth-child(2) {
     animation-delay: 0.2s;
 }
 
-.card:nth-child(3) {
+.Card_service:nth-child(3) {
     animation-delay: 0.3s;
 }
 
-.card:nth-child(4) {
+.Card_service:nth-child(4) {
     animation-delay: 0.4s;
 }
 
-.card:nth-child(5) {
+.Card_service:nth-child(5) {
     animation-delay: 0.5s;
 }
 
-.card:nth-child(6) {
+.Card_service:nth-child(6) {
     animation-delay: 0.6s;
 }
 
-.card:nth-child(7) {
+.Card_service:nth-child(7) {
     animation-delay: 0.7s;
 }
 
-.card:nth-child(8) {
+.Card_service:nth-child(8) {
     animation-delay: 0.8s;
 }
 
-.card::before {
+.Card_service::before {
     content: '';
     position: absolute;
     top: 100%;
@@ -104,11 +104,11 @@
     transition: opacity 0.7s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-.card:hover::before {
+.Card_service:hover::before {
     opacity: 0;
 }
 
-.card img {
+.Card_service img {
     width: 60px;
     height: 60px;
     object-fit: contain;
@@ -120,14 +120,14 @@
 }
 
 .Card_name_sevice {
-    color: white;
+    color: black;
 }
 
-/* card-2  */
+/* Card_service-2  */
 
 
 
-@keyframes card-slide-in-2 {
+@keyframes Card_service-slide-in-2 {
     from {
         opacity: 0;
         transform: translateY(150px);
@@ -140,7 +140,7 @@
 }
 
 
-.card2 {
+.Card2_service {
     width: 150px;
     height: 130px;
     display: flex !important;
@@ -154,50 +154,50 @@
     overflow: hidden;
     position: relative;
     opacity: 0;
-    background: #1C292E !important;
+    background: white !important;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     border: none;
     gap: 10px;
     border-radius: 5px !important;
 }
 
-.card2 {
-    animation: card-slide-in-2 0.5s ease-out forwards;
+.Card2_service {
+    animation: Card_service-slide-in-2 0.5s ease-out forwards;
 }
 
-.card2:nth-child(1) {
+.Card2_service:nth-child(1) {
     animation-delay: 0.1s;
 }
 
-.card2:nth-child(2) {
+.Card2_service:nth-child(2) {
     animation-delay: 0.2s;
 }
 
-.card2:nth-child(3) {
+.Card2_service:nth-child(3) {
     animation-delay: 0.3s;
 }
 
-.card2:nth-child(4) {
+.Card2_service:nth-child(4) {
     animation-delay: 0.4s;
 }
 
-.card2:nth-child(5) {
+.Card2_service:nth-child(5) {
     animation-delay: 0.5s;
 }
 
-.card2:nth-child(6) {
+.Card2_service:nth-child(6) {
     animation-delay: 0.6s;
 }
 
-.card2:nth-child(7) {
+.Card2_service:nth-child(7) {
     animation-delay: 0.7s;
 }
 
-.card2:nth-child(8) {
+.Card2_service:nth-child(8) {
     animation-delay: 0.8s;
 }
 
-.card2::before {
+.Card2_service::before {
     content: '';
     position: absolute;
     top: 100%;
@@ -208,11 +208,11 @@
     transition: opacity 0.7s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-.card2:hover::before {
+.Card2_service:hover::before {
     opacity: 0;
 }
 
-.card2 img {
+.Card2_service img {
     width: 60px;
     height: 60px;
     object-fit: contain;
@@ -220,9 +220,9 @@
 }
 
 
-/* card3 */
+/* Card3_service */
 
-@keyframes card-slide-in-3 {
+@keyframes Card_service-slide-in-3 {
     from {
         opacity: 0;
         transform: translateY(150px);
@@ -234,7 +234,7 @@
     }
 }
 
-.card3 {
+.Card3_service {
     width: 150px;
     height: 130px;
     display: flex !important;
@@ -248,50 +248,50 @@
     overflow: hidden;
     position: relative;
     opacity: 0;
-    background: #1C292E !important;
+    background: white !important;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     border: none;
     gap: 10px;
     border-radius: 5px !important;
 }
 
-.card3 {
-    animation: card-slide-in-3 0.5s ease-out forwards;
+.Card3_service {
+    animation: Card_service-slide-in-3 0.5s ease-out forwards;
 }
 
-.card3:nth-child(1) {
+.Card3_service:nth-child(1) {
     animation-delay: 0.1s;
 }
 
-.card3:nth-child(2) {
+.Card3_service:nth-child(2) {
     animation-delay: 0.2s;
 }
 
-.card3:nth-child(3) {
+.Card3_service:nth-child(3) {
     animation-delay: 0.3s;
 }
 
-.card3:nth-child(4) {
+.Card3_service:nth-child(4) {
     animation-delay: 0.4s;
 }
 
-.card3:nth-child(5) {
+.Card3_service:nth-child(5) {
     animation-delay: 0.5s;
 }
 
-.card3:nth-child(6) {
+.Card3_service:nth-child(6) {
     animation-delay: 0.6s;
 }
 
-.card3:nth-child(7) {
+.Card3_service:nth-child(7) {
     animation-delay: 0.7s;
 }
 
-.card3:nth-child(8) {
+.Card3_service:nth-child(8) {
     animation-delay: 0.8s;
 }
 
-.card3::before {
+.Card3_service::before {
     content: '';
     position: absolute;
     top: 100%;
@@ -302,11 +302,11 @@
     transition: opacity 0.7s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-.card3:hover::before {
+.Card3_service:hover::before {
     opacity: 0;
 }
 
-.card3 img {
+.Card3_service img {
     width: 60px;
     height: 60px;
     object-fit: contain;
@@ -314,9 +314,9 @@
 }
 
 
-/* card-4 */
+/* Card_service-4 */
 
-@keyframes card-slide-in-4 {
+@keyframes Card_service-slide-in-4 {
     from {
         opacity: 0;
         transform: translateY(150px);
@@ -328,7 +328,7 @@
     }
 }
 
-.card4 {
+.Card4_service {
     width: 150px;
     height: 130px;
     display: flex !important;
@@ -342,50 +342,50 @@
     overflow: hidden;
     position: relative;
     opacity: 0;
-    background: #1C292E !important;
+    background: white !important;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     border: none;
     gap: 10px;
     border-radius: 5px !important;
 }
 
-.card4 {
-    animation: card-slide-in-4 0.5s ease-out forwards;
+.Card4_service {
+    animation: Card_service-slide-in-4 0.5s ease-out forwards;
 }
 
-.card4:nth-child(1) {
+.Card4_service:nth-child(1) {
     animation-delay: 0.1s;
 }
 
-.card4:nth-child(2) {
+.Card4_service:nth-child(2) {
     animation-delay: 0.2s;
 }
 
-.card4:nth-child(3) {
+.Card4_service:nth-child(3) {
     animation-delay: 0.3s;
 }
 
-.card4:nth-child(4) {
+.Card4_service:nth-child(4) {
     animation-delay: 0.4s;
 }
 
-.card4:nth-child(5) {
+.Card4_service:nth-child(5) {
     animation-delay: 0.5s;
 }
 
-.card4:nth-child(6) {
+.Card4_service:nth-child(6) {
     animation-delay: 0.6s;
 }
 
-.card4:nth-child(7) {
+.Card4_service:nth-child(7) {
     animation-delay: 0.7s;
 }
 
-.card4:nth-child(8) {
+.Card4_service:nth-child(8) {
     animation-delay: 0.8s;
 }
 
-.card4::before {
+.Card4_service::before {
     content: '';
     position: absolute;
     top: 100%;
@@ -396,20 +396,20 @@
     transition: opacity 0.7s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-.card4:hover::before {
+.Card4_service:hover::before {
     opacity: 0;
 }
 
-.card4 img {
+.Card4_service img {
     width: 60px;
     height: 60px;
     object-fit: contain;
     cursor: pointer;
 }
 
-/* card5 */
+/* Card5_service */
 
-@keyframes card-slide-in-5 {
+@keyframes Card_service-slide-in-5 {
     from {
         opacity: 0;
         transform: translateY(150px);
@@ -421,7 +421,7 @@
     }
 }
 
-.card5 {
+.Card5_service {
     width: 150px;
     height: 130px;
     display: flex !important;
@@ -435,50 +435,50 @@
     overflow: hidden;
     position: relative;
     opacity: 0;
-    background: #1C292E !important;
+    background: white !important;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     border: none;
     gap: 10px;
     border-radius: 5px !important;
 }
 
-.card5 {
-    animation: card-slide-in-5 0.5s ease-out forwards;
+.Card5_service {
+    animation: Card_service-slide-in-5 0.5s ease-out forwards;
 }
 
-.card5:nth-child(1) {
+.Card5_service:nth-child(1) {
     animation-delay: 0.1s;
 }
 
-.card5:nth-child(2) {
+.Card5_service:nth-child(2) {
     animation-delay: 0.2s;
 }
 
-.card5:nth-child(3) {
+.Card5_service:nth-child(3) {
     animation-delay: 0.3s;
 }
 
-.card5:nth-child(4) {
+.Card5_service:nth-child(4) {
     animation-delay: 0.4s;
 }
 
-.card5:nth-child(5) {
+.Card5_service:nth-child(5) {
     animation-delay: 0.5s;
 }
 
-.card5:nth-child(6) {
+.Card5_service:nth-child(6) {
     animation-delay: 0.6s;
 }
 
-.card5:nth-child(7) {
+.Card5_service:nth-child(7) {
     animation-delay: 0.7s;
 }
 
-.card5:nth-child(8) {
+.Card5_service:nth-child(8) {
     animation-delay: 0.8s;
 }
 
-.card5::before {
+.Card5_service::before {
     content: '';
     position: absolute;
     top: 100%;
@@ -489,11 +489,11 @@
     transition: opacity 0.7s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-.card5:hover::before {
+.Card5_service:hover::before {
     opacity: 0;
 }
 
-.card5 img {
+.Card5_service img {
     width: 60px;
     height: 60px;
     object-fit: contain;
@@ -501,9 +501,9 @@
 }
 
 
-/* card6  */
+/* Card6_service  */
 
-@keyframes card-slide-in-6 {
+@keyframes Card_service-slide-in-6 {
     from {
         opacity: 0;
         transform: translateY(150px);
@@ -515,7 +515,7 @@
     }
 }
 
-.card6 {
+.Card6_service {
     width: 150px;
     height: 130px;
     display: flex !important;
@@ -529,50 +529,50 @@
     overflow: hidden;
     position: relative;
     opacity: 0;
-    background: #1C292E !important;
+    background: white !important;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     border: none;
     gap: 10px;
     border-radius: 5px !important;
 }
 
-.card6 {
-    animation: card-slide-in-6 0.5s ease-out forwards;
+.Card6_service {
+    animation: Card_service-slide-in-6 0.5s ease-out forwards;
 }
 
-.card6:nth-child(1) {
+.Card6_service:nth-child(1) {
     animation-delay: 0.1s;
 }
 
-.card6:nth-child(2) {
+.Card6_service:nth-child(2) {
     animation-delay: 0.2s;
 }
 
-.card6:nth-child(3) {
+.Card6_service:nth-child(3) {
     animation-delay: 0.3s;
 }
 
-.card6:nth-child(4) {
+.Card6_service:nth-child(4) {
     animation-delay: 0.4s;
 }
 
-.card6:nth-child(5) {
+.Card6_service:nth-child(5) {
     animation-delay: 0.5s;
 }
 
-.card6:nth-child(6) {
+.Card6_service:nth-child(6) {
     animation-delay: 0.6s;
 }
 
-.card6:nth-child(7) {
+.Card6_service:nth-child(7) {
     animation-delay: 0.7s;
 }
 
-.card6:nth-child(8) {
+.Card6_service:nth-child(8) {
     animation-delay: 0.8s;
 }
 
-.card6::before {
+.Card6_service::before {
     content: '';
     position: absolute;
     top: 100%;
@@ -583,11 +583,11 @@
     transition: opacity 0.7s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-.card6:hover::before {
+.Card6_service:hover::before {
     opacity: 0;
 }
 
-.card6 img {
+.Card6_service img {
     width: 60px;
     height: 60px;
     object-fit: contain;
@@ -610,12 +610,12 @@
         gap: 30px;
     }
 
-    .card,
-    .card2,
-    .card3,
-    .card4,
-    .card5,
-    .card6 {
+    .Card_service,
+    .Card2_service,
+    .Card3_service,
+    .Card4_service,
+    .Card5_service,
+    .Card6_service {
         width: 150px;
         height: 130px;
         margin-bottom: 5px;

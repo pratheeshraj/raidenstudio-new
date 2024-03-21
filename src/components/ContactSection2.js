@@ -41,7 +41,7 @@ const ContactSection2 = () => {
           <div className="row">
             <div className="col-12">
               <div className="section-title-shape-one">
-                <h2>Contact With Us</h2>
+                <h2 style={{textAlign:"center"}}>Contact With Us</h2>
               </div>
             </div>
           </div>

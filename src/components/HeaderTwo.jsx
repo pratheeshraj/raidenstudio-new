@@ -608,8 +608,8 @@ const HeaderTwo = () => {
                                           {generativeAIValues.map(
                                             (value, index) => (
                                               <Link
-                                                key={index}
-                                                // to={`/link${index}`}
+                                              key={index}
+                                              to={index === 0 ? "#" : "/ai-development"}
                                                 onMouseEnter={() =>
                                                   setHoveredIndex(index)
                                                 }
@@ -1097,7 +1097,7 @@ const HeaderTwo = () => {
                         </li>
                         <li>
                           <NavLink
-                            to="#"
+                            to="/service-details"
                             className={(navData) =>
                               navData.isActive ? "active" : ""
                             }

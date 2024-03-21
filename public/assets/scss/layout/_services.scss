@@ -236,7 +236,7 @@
       background: #f8f9fa;
       z-index: 9;
       overflow: hidden;
-      padding: 120px 0;
+      padding: 100px 0;
       min-height: auto;
       position: relative;
     .section-title-shape-one {
@@ -578,11 +578,11 @@
 // Service Details Section
 
 .service-details-section {
-  background: var(--common-body-1);
-  padding: 120px 0 40px 0;
-  position: relative;
-  overflow: hidden;
-  z-index: 9;
+    background: var(--common-body-1);
+    padding: 100px 0 50px 0;
+    position: relative;
+    overflow: hidden;
+    z-index: 9;
   h2 {
     text-align: center;
     margin-bottom: 25px;
