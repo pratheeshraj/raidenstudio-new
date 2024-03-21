@@ -18,7 +18,7 @@ const SliderOne = () => {
             }}
           >
             <SwiperSlide>
-              <div className="item-slider sliderm-height p-relative swiper-slide" style={{height:"100vh"}}>
+              <div className="item-slider sliderm-height p-relative swiper-slide">
                 <div
                   className="slide-bg"
                   style={{
