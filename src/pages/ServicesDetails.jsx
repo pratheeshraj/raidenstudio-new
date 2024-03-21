@@ -22,6 +22,7 @@ import DevelopmentProcess from './../components/DevelopmentProcess';
 import Features from "../components/Features";
 import CounterService1 from "../components/CounterService1";
 import ServiceProgramLanguage from "../components/ServiceProgramLanguage";
+import Industries from "../components/Industries";
 
 const ServicesDetails = () => {
   let [active, setActive] = useState(true);
@@ -57,7 +58,8 @@ const ServicesDetails = () => {
         <ServiceProgramLanguage />
         {/* News Section One */}
         {/* we serve */}
-        <ProjectSectionTwo />
+        {/* <ProjectSectionTwo /> */}
+        <Industries />
         {/* <NewsSectionOne /> */}
         {/* Development Process*/}
         <DevelopmentProcess />
@@ -68,6 +70,8 @@ const ServicesDetails = () => {
         {/* contact */}
         <ContactSection2 />
         {/* Footer Section */}
+        {/* News Section Two */}
+        <NewsSectionOne />
         <FooterSectionOne />
       </Suspense>
     </Fragment>

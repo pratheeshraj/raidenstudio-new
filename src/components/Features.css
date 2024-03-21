@@ -39,3 +39,22 @@
     font-size: 16px;
     line-height: 22px;
 }
+
+.idustry>div {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.idustry>img {
+    width: 58px;
+    height: 58px;
+}
+
+.idustry {
+    background: transparent;
+    box-shadow: none;
+    gap: 20px;
+    justify-content: normal;
+}

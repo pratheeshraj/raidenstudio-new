@@ -40,7 +40,7 @@
           img {
             width: 100%;
             height: 100%;
-            object-fit: cover;
+            object-fit: contain;
           }
         }
         .text-file {
@@ -252,6 +252,7 @@
         text-align: center;
         position: relative;
         height: 450px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         @include transition(0.3s);
 
         .img-file {
@@ -288,6 +289,7 @@
 
         &:hover {
           transform: translateY(-10px);
+          background: rgb(218, 218, 218);
 
           .img-file {
             img {

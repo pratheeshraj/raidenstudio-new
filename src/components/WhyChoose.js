@@ -11,10 +11,10 @@ function WhyChoose() {
                 <div className="auto-container">
                     <div className="row wwhychoose_maindiv">
                         <div className="whychoose_left_div">
-                            <h6 style={{ marginBottom: "25px", color:"black",textAlign:"center" }}>VRaiden: Your Ideal AI Software Development Company ?</h6>
-                            <p style={{color:"black",textAlign:"center" }}>As one of the dedicated AI service providers, we use our significant domain expertise to continually expand the boundaries of what is achievable for your business. We have a fantastic group of AI specialists who thrive on challenges and are always looking for new AI possibilities to help our clients meet their goals. As the best artificial intelligence development company, we define ourselves by:</p>
+                            <h2 style={{ marginBottom: "25px", color: "black", textAlign: "center" }}>VRaiden: Your Ideal AI Software <span className='theme-color'>Development Company ?</span></h2>
+                            <p style={{ color: "black", textAlign: "center" }}>As one of the dedicated AI service providers, we use our significant domain expertise to continually expand the boundaries of what is achievable for your business. We have a fantastic group of AI specialists who thrive on challenges and are always looking for new AI possibilities to help our clients meet their goals. As the best artificial intelligence development company, we define ourselves by:</p>
                             <div className="inner-btn">
-                                <div style={{display:"flex",justifyContent:"center",flexDirection:"column",alignItems:"center"}} >
+                                <div style={{ display: "flex", justifyContent: "center", flexDirection: "column", alignItems: "center" }} >
                                     <Link className="default-btn" to="/contact">
                                         Talk To Us
                                     </Link>

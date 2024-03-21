@@ -70,7 +70,7 @@ const ServiceProgramLanguage = () => {
             <section className="faq-section three" style={{ background: "#F8F9FA" }}>
                 <div className="auto-container">
                     <div className="row">
-                        <h2 style={{ color: "black", textAlign: "center" }}>High-End Technologies We Use</h2>
+                        <h2 style={{ color: "black", textAlign: "center" }}>High-End Technologies<span className="theme-color"> We Use</span></h2>
                         <p style={{ color: "black", textAlign: "center" }}>Helping startups and enterprises with the right blend of experience and technology.</p>
                         <div className="left_Language_div">
                             <div onClick={handleFrontEnd} style={{ color: frontend ? '#13C4A1' : 'black' }}>Frontend</div>
