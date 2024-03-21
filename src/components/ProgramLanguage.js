@@ -65,13 +65,13 @@ const ProgramLanguage = () => {
 
     return (
         <>
-        {/* style={{background:"#F8F9FA"}} */}
+            {/* style={{background:"#F8F9FA"}} */}
             {/* FAQ Section three start */}
             <section className="faq-section three">
                 <div className="auto-container">
                     <div className="row">
-                        <h2 style={{textAlign:"center"}}>High-End Technologies We Use</h2>
-                        <p style={{textAlign:"center"}}>Helping startups and enterprises with the right blend of experience and technology.</p>
+                        <h2 style={{ textAlign: "center" }}>High-End Technologies <span className="theme-color">We Use</span></h2>
+                        <p style={{ textAlign: "center" }}>Helping startups and enterprises with the right blend of experience and technology.</p>
                         <div className="left_Language_div">
                             <div onClick={handleFrontEnd} style={{ color: frontend ? '#13C4A1' : '' }}>Frontend</div>
                             <div onClick={handleBackend} style={{ color: backend ? '#13C4A1' : '' }}>Backend </div>
