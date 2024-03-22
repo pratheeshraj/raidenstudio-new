@@ -32,7 +32,7 @@ const FAQSectionOne = () => {
               >
                 <img
                   className="img-fluid"
-                  src="/assets/img/bg-image/humanoid-robot-working-with-machine-factory-ai-generative.jpg"
+                  src="/assets/img/service/02_service.png"
                   alt=""
                 />
               </div>
