@@ -30,16 +30,10 @@ import NewsletterPopup from "./components/NewsletterPopup";
 import BlogByCategory from "./pages/BlogByCategory";
 import BlogByTag from "./pages/BlogByTag";
 import Career from "./pages/Career";
-<<<<<<< HEAD
 import SocialIcons from './components/SocialIcons';
-=======
-<<<<<<< HEAD
 import CareerDetails from "./pages/CareerDetails";
 import GameProductDetails from "./pages/GameProductDetails";
 import RaidenSimx from "./pages/RaidenSimx";
-=======
->>>>>>> d14bdba34db6ee99fca86158733387f1c31e81c2
->>>>>>> 0767b9d13b8e8c02f308b086b8689454c1e201d1
 function App() {
   useEffect(() => {
     AOS.init({
@@ -77,12 +71,9 @@ function App() {
         <Route exact path="/ai-development" element={<ServicesDetails />} />
         <Route exact path="/team" element={<Team />} />
         <Route exact path="/career" element={<Career />} />
-<<<<<<< HEAD
         <Route exact path="/career-details" element={<CareerDetails />} />
         <Route exact path="/gameproduct-details" element={<GameProductDetails />} />
         <Route exact path="/raidensimx" element={<RaidenSimx />} />
-=======
->>>>>>> d14bdba34db6ee99fca86158733387f1c31e81c2
         <Route exact path="*" element={<Error />} />
       </Routes>
       <RouteScrollToTop />
