@@ -29,7 +29,7 @@ function DevelopmentProcess() {
                     <div className='devo_round_div'><img src='/assets/img/icon/34_icon.png' alt='' />
                     </div>
                     <div className='text-box'>
-                      <h2>Nowsath</h2>
+                      <h2>Tittle</h2>
                       <p>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, enim.
                         Dolore natus
@@ -43,7 +43,7 @@ function DevelopmentProcess() {
                     <div className='devo_round_div'><img src='/assets/img/icon/34_icon.png' alt='' />
                     </div>
                     <div className='text-box'>
-                      <h2>Nowsath</h2>
+                      <h2>Tittle</h2>
                       <p>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, enim.
                         Dolore natus
@@ -56,7 +56,7 @@ function DevelopmentProcess() {
                   <div className={`container_devo left-container ${isVisible ? 'visible' : ''}`}>
                     <div className='devo_round_div'><img src='/assets/img/icon/34_icon.png' alt='' />
                     </div>                    <div className='text-box'>
-                      <h2>Nowsath</h2>
+                      <h2>Tittle</h2>
                       <p>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, enim.
                         Dolore natus
@@ -69,7 +69,7 @@ function DevelopmentProcess() {
                   <div className={`container_devo right-container ${isVisible ? 'visible' : ''}`}>
                     <div className='devo_round_div'><img src='/assets/img/icon/34_icon.png' alt='' />
                     </div>                    <div className='text-box'>
-                      <h2>Nowsath</h2>
+                      <h2>Tittle</h2>
                       <p>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, enim.
                         Dolore natus
@@ -82,7 +82,7 @@ function DevelopmentProcess() {
                   <div className={`container_devo left-container ${isVisible ? 'visible' : ''}`}>
                     <div className='devo_round_div'><img src='/assets/img/icon/34_icon.png' alt='' />
                     </div>                    <div className='text-box'>
-                      <h2>Nowsath</h2>
+                      <h2>Tittle</h2>
                       <p>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, enim.
                         Dolore natus
