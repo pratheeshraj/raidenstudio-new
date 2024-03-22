@@ -141,6 +141,11 @@ const GameProductDetailsHero = () => {
                 <h2>Features of NFT Gaming Development</h2>
                 <div className="Gamefeature_all_card">
                     <GameFeaturesCards/>
+                    <GameFeaturesCards/>
+                    <GameFeaturesCards/>
+                    <GameFeaturesCards/>
+                    <GameFeaturesCards/>
+                    <GameFeaturesCards/>
                 </div>
             </div>
         </div>

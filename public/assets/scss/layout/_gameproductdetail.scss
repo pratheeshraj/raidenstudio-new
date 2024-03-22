@@ -65,6 +65,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  column-gap: 10px;
   row-gap: 50px;
   .animation_card {
     width: 320px;
@@ -96,7 +97,7 @@
 .section_4 {
   background-color: white;
   padding: 100px 0;
-  .game_feature_all_card {
+  .game_features {
     h2 {
       color: var(--theme-1);
       text-align: center;
@@ -111,6 +112,11 @@
 }
 
 .Gamefeature_all_card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: space-between;
+  column-gap: 10px;
   margin-top: 60px;
   .gamefeature_card {
     width: 320px;
@@ -133,12 +139,13 @@
         #5fe86c 100%
       );
     }
-    &:hover .box_card1 p, h6 {
+    &:hover .box_card1 p,
+    h6 {
       color: white;
     }
     &:hover .box_card1 h6 {
-        color: white;
-      }
+      color: white;
+    }
     .box_card1 {
       top: 20px;
       bottom: 20px;
@@ -169,7 +176,6 @@
       p {
         transition: 0.5s;
         color: black;
-
       }
       h6 {
         color: black;
