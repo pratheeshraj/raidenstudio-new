@@ -23,7 +23,7 @@ const SliderOne = () => {
                   className="slide-bg"
                   style={{
                     backgroundImage:
-                      "url('assets/img/Test/brain-made-circuits-center-motherboard-artificial-intelligence-concept-brain_706554-134.avif')",
+                      "url('assets/img/Test/brain.avif')",
                     backgroundSize: "cover",
                   }}
                 />

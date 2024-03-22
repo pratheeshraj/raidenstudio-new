@@ -36,7 +36,7 @@ const ProjectSectionThree = () => {
                 <div className="img-file por">
                   <img
                     className="img-fluid"
-                    src="/assets/img/project/10_project.png"
+                    src="/assets/img/product/raiden verse.jpg"
                     alt=""
                   />
                   <div className="shape-overlay poa">
@@ -64,7 +64,7 @@ const ProjectSectionThree = () => {
                 <div className="img-file por">
                   <img
                     className="img-fluid"
-                    src="/assets/img/project/11_project.png"
+                    src="/assets/img/product/simx.jpg"
                     alt=""
                   />
                   <div className="shape-overlay poa">
@@ -120,7 +120,7 @@ const ProjectSectionThree = () => {
                 <div className="img-file por">
                   <img
                     className="img-fluid"
-                    src="/assets/img/project/13_project.png"
+                    src="/assets/img/product/arcviz.jpg"
                     alt=""
                   />
                   <div className="shape-overlay poa">

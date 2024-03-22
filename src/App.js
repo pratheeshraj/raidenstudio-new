@@ -30,6 +30,7 @@ import NewsletterPopup from "./components/NewsletterPopup";
 import BlogByCategory from "./pages/BlogByCategory";
 import BlogByTag from "./pages/BlogByTag";
 import Career from "./pages/Career";
+import SocialIcons from './components/SocialIcons';
 function App() {
   useEffect(() => {
     AOS.init({
@@ -43,7 +44,8 @@ function App() {
 
   return (
     <BrowserRouter>
-    <Toaster/>
+      <SocialIcons />
+      <Toaster />
       <Routes>
         {/* <Route exact path="/" element={<Demo />} /> */}
         {/* <Route exact path="/index" element={<HomeOne />} /> */}
