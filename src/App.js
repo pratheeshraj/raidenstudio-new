@@ -30,6 +30,7 @@ import NewsletterPopup from "./components/NewsletterPopup";
 import BlogByCategory from "./pages/BlogByCategory";
 import BlogByTag from "./pages/BlogByTag";
 import Career from "./pages/Career";
+import SocialIcons from "./components/SocialIcons";
 function App() {
   useEffect(() => {
     AOS.init({
@@ -42,35 +43,38 @@ function App() {
   }, []);
 
   return (
-    <BrowserRouter>
-    <Toaster/>
-      <Routes>
-        {/* <Route exact path="/" element={<Demo />} /> */}
-        {/* <Route exact path="/index" element={<HomeOne />} /> */}
-        {/* <Route exact path="/index-2" element={<HomeTwo />} /> */}
-        <Route exact path="/" element={<HomeThree />} />
-        <Route exact path="/about" element={<About />} />
-        <Route exact path="/contact" element={<Contact />} />
-        <Route exact path="/blog-list" element={<BlogList />} />
-        <Route exact path="/blog-grid" element={<BlogGrid />} />
-        <Route exact path="/blog" element={<BlogGridSidebar />} />
-        <Route exact path="/blog/category/:id" element={<BlogByCategory />} />
-        <Route exact path="/blog/tag/:id" element={<BlogByTag />} />
-        <Route exact path="/blogdetails/:id" element={<BlogDetails />} />
-        <Route exact path="/faq" element={<FAQ />} />
-        <Route exact path="/pricing" element={<Pricing />} />
-        <Route exact path="/project" element={<Project />} />
-        <Route exact path="/project-details" element={<ProjectDetails />} />
-        <Route exact path="/review" element={<Review />} />
-        <Route exact path="/service" element={<Service />} />
-        <Route exact path="/ai-development" element={<ServicesDetails />} />
-        <Route exact path="/team" element={<Team />} />
-        <Route exact path="/career" element={<Career />} />
-        <Route exact path="*" element={<Error />} />
-      </Routes>
-      <RouteScrollToTop />
-      <ScrollToTop smooth color="#fff" />
-    </BrowserRouter>
+    <>
+      <BrowserRouter>
+      <SocialIcons />
+        <Toaster />
+        <Routes>
+          {/* <Route exact path="/" element={<Demo />} /> */}
+          {/* <Route exact path="/index" element={<HomeOne />} /> */}
+          {/* <Route exact path="/index-2" element={<HomeTwo />} /> */}
+          <Route exact path="/" element={<HomeThree />} />
+          <Route exact path="/about" element={<About />} />
+          <Route exact path="/contact" element={<Contact />} />
+          <Route exact path="/blog-list" element={<BlogList />} />
+          <Route exact path="/blog-grid" element={<BlogGrid />} />
+          <Route exact path="/blog" element={<BlogGridSidebar />} />
+          <Route exact path="/blog/category/:id" element={<BlogByCategory />} />
+          <Route exact path="/blog/tag/:id" element={<BlogByTag />} />
+          <Route exact path="/blogdetails/:id" element={<BlogDetails />} />
+          <Route exact path="/faq" element={<FAQ />} />
+          <Route exact path="/pricing" element={<Pricing />} />
+          <Route exact path="/project" element={<Project />} />
+          <Route exact path="/project-details" element={<ProjectDetails />} />
+          <Route exact path="/review" element={<Review />} />
+          <Route exact path="/service" element={<Service />} />
+          <Route exact path="/ai-development" element={<ServicesDetails />} />
+          <Route exact path="/team" element={<Team />} />
+          <Route exact path="/career" element={<Career />} />
+          <Route exact path="*" element={<Error />} />
+        </Routes>
+        <RouteScrollToTop />
+        <ScrollToTop smooth color="#fff" />
+      </BrowserRouter>
+    </>
   );
 }
 

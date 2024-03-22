@@ -41,7 +41,7 @@ const ContactSection2 = () => {
     <>
       <Toaster position="bottom-center" reverseOrder={false} />
       {/* Contact Section start */}
-      <section className="contact-section" style={{ background: 'url(assets/img/bg-image/cyborg-robot-hand-uniform_110893-1208.avif)', paddingBottom: "80px", backgroundSize: "cover", backgroundPosition: "-20px" }}>
+      <section className="contact-section" style={{ background: 'url(assets/img/bg-image/cyborg-robot-hand.avif)', paddingBottom: "80px", backgroundSize: "cover", backgroundPosition: "-20px" }}>
         <div className="auto-container">
           <div className="row">
             <div className="col-12">
