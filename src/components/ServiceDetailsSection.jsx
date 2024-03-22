@@ -4,8 +4,8 @@ const ServiceDetailsSection = () => {
   return (
     <>
       {/* Service Details Section Start */}
-      <section 
-        style={{background:"white"}}
+      <section
+        style={{ background: "white" }}
         className="service-details-section"
         data-aos="fade-up"
         data-aos-delay="300"
@@ -17,7 +17,7 @@ const ServiceDetailsSection = () => {
                 <div className="img-file">
                   <img
                     className="img-fluid"
-                    src="/assets/img/service/03_service.png"
+                    src="/assets/img/Test/human-brain-with-ai-circuity-digital_553012-74940.jpg"
                     alt=""
                   />
                 </div>
@@ -25,11 +25,11 @@ const ServiceDetailsSection = () => {
             </div>
             <div className="col-lg-6">
               <div className="right-wrapper ps-2">
-                <h2 style={{color:"black"}} className="title">AI Development Company</h2>
-                <p style={{color:"black"}}>
+                <h2 style={{ color: "black" }} className="title">AI Development Company</h2>
+                <p style={{ color: "black" }}>
                   We’re an international custom AI development company that helps to simplify your business workflows and boost operational productivity. Combining our creativity, AI expertise, and AI applications development approach, we deliver a complete AI spectrum that matters to users' and businesses' success.
                 </p>
-                <ul style={{color:"black"}}>
+                <ul style={{ color: "black" }}>
                   <li>We Create Proof of Concepts Driven AI Projects in 1 Month
                   </li>
                   <li>We upgrade your product using AI features.
@@ -37,7 +37,7 @@ const ServiceDetailsSection = () => {
                   <li>We take care of your AI business requirements.
                   </li>
                 </ul>
-                <ul style={{marginTop:"20px",color:"black"}}>
+                <ul style={{ marginTop: "20px", color: "black" }}>
                   <li>50+ AI Developers</li>
                   <li>100+ Software Products Launched
                   </li>

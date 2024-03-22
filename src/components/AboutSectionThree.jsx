@@ -30,7 +30,7 @@ const AboutSectionThree = () => {
               >
                 <div className="section-title-shape-one black">
                   <h3>ABOUT COMPANY</h3>
-                  <h2>
+                  <h2 style={{ fontSize: "30px" }}>
                     Code and Creativity: The Dual Forces Driving World-class Blockchain Solutions
                   </h2>
                   <p>
@@ -40,14 +40,14 @@ const AboutSectionThree = () => {
                 <div className="inner-list">
                   <ul>
                     <li>
-                      <span className="img-file" style={{width:"220px"}}>
-                        <img src="/assets/img/about/strategic.webp" alt="" />
+                      <span className="img-file" style={{ width: "220px" }}>
+                        <img style={{ borderRadius: "5px" }} src="/assets/img/about/strategic.webp" alt="" />
                       </span>
                       <div>
                         <h4>Strategize</h4>
                         <p>
-                        Enabling exclusive blockchain technology will allow us to realize the full potential
-                        of digital businesses. With the top priority of adding value to the projects.
+                          Enabling exclusive blockchain technology will allow us to realize the full potential
+                          of digital businesses. With the top priority of adding value to the projects.
                         </p>
                       </div>
                     </li>
@@ -58,7 +58,7 @@ const AboutSectionThree = () => {
                       <div>
                         <h4>Pioneering Unique Digital Solutions</h4>
                         <p>
-                        An unparalleled commitment to delivering maximum satisfaction to clients, combined with truthfulness and enthusiasm.
+                          An unparalleled commitment to delivering maximum satisfaction to clients, combined with truthfulness and enthusiasm.
                         </p>
                       </div>
                     </li>

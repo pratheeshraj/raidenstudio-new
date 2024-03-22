@@ -8,8 +8,8 @@
 }
 
 .left_Language_div>div {
-    font-size: 18px;
-    font-family: var(--ff-heading);
+    font-size: 22px;
+    font-weight: 600;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -42,9 +42,7 @@
     height: 130px;
     display: flex !important;
     align-items: center;
-    margin-bottom: 20px;
     justify-content: center;
-    margin-right: 20px;
     flex-direction: column;
     box-sizing: border-box;
     overflow: hidden;
@@ -145,9 +143,7 @@
     height: 130px;
     display: flex !important;
     align-items: center;
-    margin-bottom: 20px;
     justify-content: center;
-    margin-right: 20px;
     padding: 0;
     flex-direction: column;
     box-sizing: border-box;
@@ -239,9 +235,7 @@
     height: 130px;
     display: flex !important;
     align-items: center;
-    margin-bottom: 20px;
     justify-content: center;
-    margin-right: 20px;
     padding: 0;
     flex-direction: column;
     box-sizing: border-box;
@@ -333,9 +327,7 @@
     height: 130px;
     display: flex !important;
     align-items: center;
-    margin-bottom: 20px;
     justify-content: center;
-    margin-right: 20px;
     padding: 0;
     flex-direction: column;
     box-sizing: border-box;
@@ -426,9 +418,7 @@
     height: 130px;
     display: flex !important;
     align-items: center;
-    margin-bottom: 20px;
     justify-content: center;
-    margin-right: 20px;
     padding: 0;
     flex-direction: column;
     box-sizing: border-box;
@@ -520,9 +510,7 @@
     height: 130px;
     display: flex !important;
     align-items: center;
-    margin-bottom: 20px;
     justify-content: center;
-    margin-right: 20px;
     padding: 0;
     flex-direction: column;
     box-sizing: border-box;
@@ -618,8 +606,6 @@
     .card6 {
         width: 150px;
         height: 130px;
-        margin-bottom: 5px;
-        margin-left: 0px;
     }
 }
 
