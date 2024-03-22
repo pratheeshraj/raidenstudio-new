@@ -23,7 +23,8 @@ const SliderOne = () => {
                   className="slide-bg"
                   style={{
                     backgroundImage:
-                      "url('assets/img/bg-image/01_bg-image.png')",
+                      "url('assets/img/Test/brain-made-circuits-center-motherboard-artificial-intelligence-concept-brain_706554-134.avif')",
+                    backgroundSize: "cover",
                   }}
                 />
                 <div className="auto-container">
@@ -51,7 +52,7 @@ const SliderOne = () => {
                     <div className="col-xl-5">
                       <div className="slider-content-inner-right">
                         <div className="img-wrapper">
-                          <img src="assets/img/hero/01_hero-image.png" alt="" />
+                          {/* <img src="assets/img/hero/01_hero-image.png" alt="" /> */}
                         </div>
                       </div>
                     </div>

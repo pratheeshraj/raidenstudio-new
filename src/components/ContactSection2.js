@@ -36,10 +36,12 @@ const ContactSection2 = () => {
       );
   };
   return (
+    // cosmic-quest-enchanting-pixel-art-adventures-forests-wonders-outer-space_931866-24957.avif
+    // cyborg-robot-hand-uniform_110893-1208.avif
     <>
       <Toaster position="bottom-center" reverseOrder={false} />
       {/* Contact Section start */}
-      <section className="contact-section" style={{ background: "white", paddingBottom: "80px" }}>
+      <section className="contact-section" style={{ background: 'url(assets/img/bg-image/cyborg-robot-hand-uniform_110893-1208.avif)', paddingBottom: "80px", backgroundSize: "cover", backgroundPosition: "-20px" }}>
         <div className="auto-container">
           <div className="row">
             <div className="col-12">
@@ -56,7 +58,7 @@ const ContactSection2 = () => {
                 id="contact-form"
                 className="contact-form"
               >
-                <div className="d-block d-md-flex gap-0">
+                <div className="d-block d-md-flex gap-3">
                   <div
                     className="form-author"
                     data-aos="fade-up"
@@ -90,7 +92,7 @@ const ContactSection2 = () => {
                     />
                   </div>
                 </div>
-                <div className="d-block d-md-flex gap-0 mt-2">
+                <div className="d-block d-md-flex gap-3 mt-2">
                   <div
                     className="form-author"
                     data-aos="fade-up"

@@ -1,8 +1,16 @@
 .imput_contact {
     border: 1px solid black !important;
+    padding: 0 !important;
 }
 
 .contact_input_name {
     color: black !important;
-    ;
+
+}
+
+.form-author,
+.form-email,
+.form-web,
+.form-comment {
+    padding: 0 !important;
 }
