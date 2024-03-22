@@ -17,7 +17,7 @@ const ServiceDetailsSection = () => {
                 <div className="img-file">
                   <img
                     className="img-fluid"
-                    src="/assets/img/Test/human-brain-with-ai-circuity-digital_553012-74940.jpg"
+                    src="/assets/img/service/02_service.png"
                     alt=""
                   />
                 </div>

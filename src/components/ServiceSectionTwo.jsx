@@ -33,7 +33,7 @@ const ServiceSectionTwo = () => {
               >
                 <div className="wrapper-inner one">
                   <div className="img-file">
-                    <img src="/assets/img/icon/31_icon.png" alt="" />
+                    <img src="/assets/img/Services_Enterprises/1 AI technology consulting@0.png" alt="" />
                   </div>
                   <div className="text-file">
                     <h3>
@@ -54,7 +54,7 @@ const ServiceSectionTwo = () => {
               >
                 <div className="wrapper-inner one">
                   <div className="img-file">
-                    <img src="/assets/img/icon/32_icon.png" alt="" />
+                    <img src="/assets/img/Services_Enterprises/2ai models@0.3x.png" alt="" />
                   </div>
                   <div className="text-file">
                     <h3>
@@ -75,7 +75,7 @@ const ServiceSectionTwo = () => {
               >
                 <div className="wrapper-inner one">
                   <div className="img-file">
-                    <img src="/assets/img/icon/33_icon.png" alt="" />
+                    <img style={{ scale: "0.9" }} src="/assets/img/Services_Enterprises/3 ai (1)@0.3x.png" alt="" />
                   </div>
                   <div className="text-file">
                     <h3>
@@ -96,7 +96,7 @@ const ServiceSectionTwo = () => {
               >
                 <div className="wrapper-inner one">
                   <div className="img-file">
-                    <img src="/assets/img/icon/34_icon.png" alt="" />
+                    <img style={{ scale: "1.1" }} src="/assets/img/Services_Enterprises/4 mobile-app@0.3x.png" alt="" />
                   </div>
                   <div className="text-file">
                     <h3>
@@ -117,11 +117,11 @@ const ServiceSectionTwo = () => {
               >
                 <div className="wrapper-inner one">
                   <div className="img-file">
-                    <img src="/assets/img/icon/35_icon.png" alt="" />
+                    <img src="/assets/img/Services_Enterprises/5 integrations@0.3x.png" alt="" />
                   </div>
                   <div className="text-file">
                     <h3>
-                      <Link to="#">Generative AI Model Integration & Deploymen</Link>
+                      <Link to="#">Generative AI Model Integration & Deployment</Link>
                     </h3>
                     <p>
                       With the help of generative artificial intelligence, our pool of experts who develop smart apps that bring up endless possibilities. We assist you in enhancing productivity, streamlining procedures, and taking your business to new heights by effectively incorporating generative AI into your digital products.
@@ -138,7 +138,7 @@ const ServiceSectionTwo = () => {
               >
                 <div className="wrapper-inner one">
                   <div className="img-file">
-                    <img src="/assets/img/icon/40_icon.png" alt="" />
+                    <img src="/assets/img/Services_Enterprises/6 ai atrib@0.3x.png" alt="" />
                   </div>
                   <div className="text-file">
                     <h3>
@@ -158,8 +158,8 @@ const ServiceSectionTwo = () => {
                 data-aos-delay="300"
               >
                 <div className="wrapper-inner one">
-                  <div className="img-file">
-                    <img src="/assets/img/icon/34_icon.png" alt="" />
+                  <div style={{ scale: "1.1", width: "90px", height: "90px" }} className="img-file">
+                    <img style={{ scale: "1.1" }} src="/assets/img/Services_Enterprises/7 chatbot@0.png" alt="" />
                   </div>
                   <div className="text-file">
                     <h3>
@@ -180,7 +180,7 @@ const ServiceSectionTwo = () => {
               >
                 <div className="wrapper-inner one">
                   <div className="img-file">
-                    <img src="/assets/img/icon/35_icon.png" alt="" />
+                    <img src="/assets/img/Services_Enterprises/8 deep-learning@0.3x.png" alt="" />
                   </div>
                   <div className="text-file">
                     <h3>
