@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import demo from "../images/Metaverse.mp4";
 import ProductDetailCard from "./ProductDetailCard";
-const ProjectDetailsSection = () => {
+const ProjectDetailsSection = ({ vidio }) => {
   return (
     <>
       {/* Project Details Section Start */}
@@ -10,7 +10,7 @@ const ProjectDetailsSection = () => {
         <div className="container-fulid">
           <div className="col-12 project_hero_section">
             <video autoPlay muted loop>
-              <source src={demo} type="video/mp4" />
+              <source src={vidio ? vidio : demo} type="video/mp4" />
             </video>
           </div>
           <div className="container-fulid project_hero_content">

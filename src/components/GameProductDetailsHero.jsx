@@ -6,6 +6,7 @@ import VanillaTilt from "vanilla-tilt";
 import icon1 from "../images/gameproduct-detailimg/icon1.png";
 import TiltCard from "./TiltCard";
 import GameFeaturesCards from "./GameFeaturesCards";
+import section4 from "../images/gameproduct-detailimg/section4.png"
 const GameProductDetailsHero = () => {
   const heroImageRef = useRef(null);
 
@@ -149,6 +150,59 @@ const GameProductDetailsHero = () => {
                 </div>
             </div>
         </div>
+      </section>
+      <section>
+        <div className="container-fluid game_product_section2">
+          <div className="container">
+            <div className="row game_product_content">
+              <h2>
+              Our Popular NFT Game Clone Scripts
+              </h2>
+              <div className="col-md-12 detail">
+                <div className=" gameproduct_about " style={{flexDirection:"row-reverse",alignItems:"flex-start "}}>
+                  <div className="col-5 left" style={{textAlign:"end"}}>
+                    <img src={section4} alt="" />
+                  </div>
+                  <div className="right d-flex flex-column align-items-start  " style={{marginTop:"50px"}} >
+                    <p >
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Dolorem quaerat perferendis illum sapiente magnam illo,
+                      quas ad corporis. Maxime obcaecati corrupti amet possimus
+                      alias porro labore odio ullam ad tenetur! Temporibus
+                      obcaecati soluta itaque, magnam, minus rem exercitationem
+                      aliquam explicabo, suscipit ea nemo at. Exercitationem
+                      odio commodi vel id! Aut.
+                    </p>
+                 
+                    <ul>
+                      <li>
+                        <i class="fa-regular fa-circle-dot"></i> Lorem ipsum
+                        dolor, sit amet{" "}
+                      </li>
+                      <li>
+                        <i class="fa-regular fa-circle-dot"></i> Lorem ipsum
+                        dolor, sit amet{" "}
+                      </li>
+                      <li>
+                        <i class="fa-regular fa-circle-dot"></i> Lorem ipsum
+                        dolor, sit amet{" "}
+                      </li>
+                      <li>
+                        <i class="fa-regular fa-circle-dot"></i> Lorem ipsum
+                        dolor, sit amet{" "}
+                      </li>
+                    </ul>
+                    <Link className="default-btn mt-4">Get Free Consulation</Link>
+                  </div>
+                </div>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className=""></div>
       </section>
     </Fragment>
   );
