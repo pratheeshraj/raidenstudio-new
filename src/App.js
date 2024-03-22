@@ -29,6 +29,8 @@ import NewsletterPopup from "./components/NewsletterPopup";
 import BlogByCategory from "./pages/BlogByCategory";
 import BlogByTag from "./pages/BlogByTag";
 import Career from "./pages/Career";
+import CareerDetails from "./pages/CareerDetails";
+import GameProductDetails from "./pages/GameProductDetails";
 function App() {
   useEffect(() => {
     AOS.init({
@@ -65,6 +67,8 @@ function App() {
         <Route exact path="/service-details" element={<ServicesDetails />} />
         <Route exact path="/team" element={<Team />} />
         <Route exact path="/career" element={<Career />} />
+        <Route exact path="/career-details" element={<CareerDetails />} />
+        <Route exact path="/gameproduct-details" element={<GameProductDetails />} />
         <Route exact path="*" element={<Error />} />
       </Routes>
       <RouteScrollToTop />
