@@ -20,7 +20,7 @@ const HeaderTwo = () => {
     "Raiden ARCVIZ",
   ];
 
-  const productTo=["/project-details","/raidensimx",]
+  const productTo = ["/project-details", "/raidensimx",]
 
 
   const gameValues2 = [0.5, 0.5, 0.5, 0.5];
