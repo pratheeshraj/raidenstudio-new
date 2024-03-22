@@ -159,9 +159,6 @@ const FAQSectionOne = () => {
           </div>
         </div>
         <div className="shape-image">
-          <div className="shape-img-1 poa">
-            <img src="/assets/img/icon/21_icon.png" alt="" />
-          </div>
           <div className="shape-img-2 poa">
             <img src="/assets/img/icon/64_icon.png" alt="" />
           </div>

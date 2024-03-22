@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.scss";
+import "./App.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Demo from "./pages/Demo";
@@ -64,7 +65,7 @@ function App() {
         <Route exact path="/project-details" element={<ProjectDetails />} />
         <Route exact path="/review" element={<Review />} />
         <Route exact path="/service" element={<Service />} />
-        <Route exact path="/service-details" element={<ServicesDetails />} />
+        <Route exact path="/ai-development" element={<ServicesDetails />} />
         <Route exact path="/team" element={<Team />} />
         <Route exact path="/career" element={<Career />} />
         <Route exact path="/career-details" element={<CareerDetails />} />

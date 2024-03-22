@@ -16,8 +16,8 @@ const ServiceSectionThree = () => {
               >
                 <h3>ADVANCED SERVICES</h3>
                 <h2>
-                  We provide a range of all-inclusive <br />
-                  <span className="theme-color">services & solutions</span>
+                  We provide a range of all-inclusive
+                  <span className="theme-color"> services & solutions</span>
                 </h2>
               </div>
             </div>

@@ -32,15 +32,11 @@ const SliderOne = () => {
                       <div className="slider-content-inner ">
                         <div>
                           <h2 className="slider-title">
-                            AI Machine consulting services and solutions With
-                            <span className="theme-color"> IT Support</span>
+                            AI Development
+                            <span className="theme-color"> Company</span>
                           </h2>
                           <p className="description">
-                            To take a trivial example, which of us ever
-                            undertakes laborious physical exercise, except to
-                            obtain some advantage from it but right to find
-                            fault with a man who chooses enjoy. for your
-                            business work.
+                            We’re an international custom AI development company that helps to simplify your business workflows and boost operational productivity. Combining our creativity, AI expertise, and AI applications development approach, we deliver a complete AI spectrum that matters to users' and businesses' success.
                           </p>
                           <div className="inner-btn">
                             <div>

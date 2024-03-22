@@ -19,8 +19,11 @@ const CounterSectionOne = () => {
               <div className="col-lg-6">
                 <div className="title">
                   <h2>
-                  call to action row <br /> someone?
+                  Are you ready to adopt AI innovation for your business?
                   </h2>
+                  <p>
+                  VR can be your ideal artificial intelligence development firm, helping you determine how AI may transform your operations, increase efficiency, and elevate productivity.
+                  </p>
                 </div>
               </div>
               <div className="col-lg-6">

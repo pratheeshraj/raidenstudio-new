@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const ServiceSectionTwo = () => {
+
   return (
     <>
       {/* Service Section Two Start */}
@@ -10,14 +11,16 @@ const ServiceSectionTwo = () => {
           <div className="row">
             <div className="col-12">
               <div
+                style={{ padding: "0 100px" }}
                 className="section-title-shape-one middle "
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
-                <h2>
-                Our Blockchain Development <br /> 
-                  <span className="theme-color">Services</span>
+                <h2 style={{ color: "black" }}>
+                  Drive Digital Transformation: Top-tier AI
+                  <span className="theme-color"> Services for Enterprises</span>
                 </h2>
+                <p style={{ color: "black" }}>As a top-notch AI software development company, we empower you by utilizing Generative AI technology to enhance your product.</p>
               </div>
             </div>
           </div>
@@ -34,11 +37,10 @@ const ServiceSectionTwo = () => {
                   </div>
                   <div className="text-file">
                     <h3>
-                      <Link to="#">Robotics &amp; Drones</Link>
+                      <Link to="#">AI Technology Consulting</Link>
                     </h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Obcaecati iste inventore molestiae? Assumenda facilis.
+                      We provide AI technology consulting services to help businesses handle the ever-changing AI ecosystem. We evaluate the requirements of your product, offer guidance on the potential of emerging AI technologies, and determine the best strategy for approach.
                     </p>
                   </div>
                 </div>
@@ -56,11 +58,10 @@ const ServiceSectionTwo = () => {
                   </div>
                   <div className="text-file">
                     <h3>
-                      <Link to="#">Analyze videos</Link>
+                      <Link to="#">Fine-tune Generative AI Models</Link>
                     </h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Obcaecati iste inventore molestiae? Assumenda facilis.
+                      We employ advanced AI algorithms to Fine-tune Generative AI models to specific styles and user requirements. We interact closely with you to understand your goals and adapt our fine-tuning procedure in a way that maximizes productivity and quality.
                     </p>
                   </div>
                 </div>
@@ -78,11 +79,10 @@ const ServiceSectionTwo = () => {
                   </div>
                   <div className="text-file">
                     <h3>
-                      <Link to="#">Acquire insights</Link>
+                      <Link to="#">AI proof-of-concept (POC) development</Link>
                     </h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Obcaecati iste inventore molestiae? Assumenda facilis.
+                      Establish your AI feature concepts with rapid research, which takes 2-3 weeks. During this period, we will evaluate your requirements, and available data, define a performance baseline, and prepare and test feasible solutions to your problem.
                     </p>
                   </div>
                 </div>
@@ -100,11 +100,10 @@ const ServiceSectionTwo = () => {
                   </div>
                   <div className="text-file">
                     <h3>
-                      <Link to="#">Extract text &amp; data</Link>
+                      <Link to="#">Custom AI App Development</Link>
                     </h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Obcaecati iste inventore molestiae? Assumenda facilis.
+                      As a top-notch custom AI app development company, we work with you to develop AI-powered applications that are perfectly tailored to your specific business requirements. To ensure peak performance, we carefully design all facets, from the user interface to the algorithm.
                     </p>
                   </div>
                 </div>
@@ -122,11 +121,10 @@ const ServiceSectionTwo = () => {
                   </div>
                   <div className="text-file">
                     <h3>
-                      <Link to="#">Online experiences</Link>
+                      <Link to="#">Generative AI Model Integration & Deploymen</Link>
                     </h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Obcaecati iste inventore molestiae? Assumenda facilis.
+                      With the help of generative artificial intelligence, our pool of experts who develop smart apps that bring up endless possibilities. We assist you in enhancing productivity, streamlining procedures, and taking your business to new heights by effectively incorporating generative AI into your digital products.
                     </p>
                   </div>
                 </div>
@@ -144,11 +142,10 @@ const ServiceSectionTwo = () => {
                   </div>
                   <div className="text-file">
                     <h3>
-                      <Link to="#">Control quality</Link>
+                      <Link to="#">Using AI models To Create AI-enhanced Attributes</Link>
                     </h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Obcaecati iste inventore molestiae? Assumenda facilis.
+                      To develop AI-enhanced features for your product, we make use of the Large Language Models (LLMs) that are currently in use, such as GPT , DALL-E, Whisper, Midjourney, Alpaca, and so on, as well as their adaptations.
                     </p>
                   </div>
                 </div>
@@ -166,11 +163,10 @@ const ServiceSectionTwo = () => {
                   </div>
                   <div className="text-file">
                     <h3>
-                      <Link to="#">Extract text &amp; data</Link>
+                      <Link to="#">AI Chatbot development</Link>
                     </h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Obcaecati iste inventore molestiae? Assumenda facilis.
+                      Our AI/ML development services can help you create intuitive, brilliant, and robust chatbot applications that better understand conversation content and provide users with human-like experiences.
                     </p>
                   </div>
                 </div>
@@ -188,33 +184,10 @@ const ServiceSectionTwo = () => {
                   </div>
                   <div className="text-file">
                     <h3>
-                      <Link to="#">Online experiences</Link>
+                      <Link to="#">MLOps</Link>
                     </h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Obcaecati iste inventore molestiae? Assumenda facilis.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-12">
-              <div
-                className="section-wrapper "
-                data-aos="fade-up"
-                data-aos-delay="500"
-              >
-                <div className="wrapper-inner one">
-                  <div className="img-file">
-                    <img src="/assets/img/icon/40_icon.png" alt="" />
-                  </div>
-                  <div className="text-file">
-                    <h3>
-                      <Link to="#">Control quality</Link>
-                    </h3>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Obcaecati iste inventore molestiae? Assumenda facilis.
+                      Leverage our MLOps solutions to streamline your machine learning cycle. Automate and standardize ML operations within your business to safely and quickly deploy and maintain your machine learning models in reality.
                     </p>
                   </div>
                 </div>
@@ -236,26 +209,6 @@ const ServiceSectionTwo = () => {
             alt=""
           />
           <img
-            className="shape-2 poa"
-            src="/assets/img/icon/28_icon.png"
-            alt=""
-          />
-          <img
-            className="shape-3 poa"
-            src="/assets/img/icon/66_icon.png"
-            alt=""
-          />
-          <img
-            className="shape-5 poa"
-            src="/assets/img/icon/43_icon.png"
-            alt=""
-          />
-          <img
-            className="shape-6 poa"
-            src="/assets/img/icon/27_icon.png"
-            alt=""
-          />
-          <img
             className="shape-7 poa"
             src="/assets/img/icon/71_icon.png"
             alt=""
@@ -263,11 +216,6 @@ const ServiceSectionTwo = () => {
           <img
             className="shape-8 poa"
             src="/assets/img/icon/74_icon.png"
-            alt=""
-          />
-          <img
-            className="shape-10 poa"
-            src="/assets/img/icon/66_icon.png"
             alt=""
           />
         </div>

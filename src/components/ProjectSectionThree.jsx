@@ -8,22 +8,20 @@ const ProjectSectionThree = () => {
       <section className="project-section three">
         <div className="auto-container">
           <div className="row">
-            <div className="col-lg-6 col-12">
+            <div className="">
               <div
                 className="section-title-shape-one left black "
                 data-aos="fade-right"
                 data-aos-delay="300"
               >
-                <h3>Our Completed Projects</h3>
-                <h2>
-                  Start off AI project to your <br />{" "}
-                  <span className="theme-color">Strengths</span>
+                <h3 style={{ textAlign: "center" }}>Our Completed Projects</h3>
+                <h2 style={{ textAlign: "center", width: "100%" }}>
+                  Start off AI project to your
+                  <span className="theme-color"> Strengths</span>
                 </h2>
-                <p>
+                <p style={{ textAlign: "center" }}>
                   Repellendus autem ruibusdam et aut officiis debitis aut re
-                  necessitatibus saepe eveniet ut et voluptates repudianda sint
-                  et molestiae non recusandae. Itaque earum rerum hic tenetur a
-                  sapiente delectus.
+                  necessitatibus saepe eveniet.
                 </p>
               </div>
             </div>

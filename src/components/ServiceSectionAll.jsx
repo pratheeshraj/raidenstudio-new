@@ -19,7 +19,7 @@ const ServiceSectionAll = () => {
                   data-aos-delay="200"
                 >
                   <div className="img-file">
-                    <img src="/assets/img/icon/31_icon.png" alt="" />
+                    <img src="/assets/img/icon/1 blockchain (7)@0.3x-min.png" alt="" />
                   </div>
                   <div className="text-file">
                     <h3>
@@ -41,7 +41,7 @@ const ServiceSectionAll = () => {
                   data-aos-delay="300"
                 >
                   <div className="img-file">
-                    <img src="/assets/img/icon/32_icon.png" alt="" />
+                    <img src="/assets/img/icon/nft (1)@0.3x-min.png" alt="" />
                   </div>
                   <div className="text-file">
                     <h3>
@@ -63,7 +63,7 @@ const ServiceSectionAll = () => {
                   data-aos-delay="400"
                 >
                   <div className="img-file">
-                    <img src="/assets/img/icon/33_icon.png" alt="" />
+                    <img src="/assets/img/icon/ai@0.3x-min.png" alt="" />
                   </div>
                   <div className="text-file">
                     <h3>
@@ -85,7 +85,7 @@ const ServiceSectionAll = () => {
                   data-aos-delay="200"
                 >
                   <div className="img-file">
-                    <img src="/assets/img/icon/34_icon.png" alt="" />
+                    <img src="/assets/img/icon/virtual-reality (2)@0.3x-min.png" alt="" />
                   </div>
                   <div className="text-file">
                     <h3>
@@ -107,7 +107,7 @@ const ServiceSectionAll = () => {
                   data-aos-delay="300"
                 >
                   <div className="img-file">
-                    <img src="/assets/img/service/72c3e094e5-removebg-preview 1.png" alt="" />
+                    <img src="/assets/img/icon/camera@0.3x-min.png" alt="" />
                   </div>
                   <div className="text-file">
                     <h3>
@@ -129,7 +129,7 @@ const ServiceSectionAll = () => {
                   data-aos-delay="400"
                 >
                   <div className="img-file">
-                    <img src="/assets/img/service/_https___freepicdownloader-removebg-preview 1.png" alt="" />
+                    <img src="/assets/img/icon/decentralized (2)@0.3x-min.png" alt="" />
                   </div>
                   <div className="text-file">
                     <h3>
@@ -151,7 +151,7 @@ const ServiceSectionAll = () => {
                   data-aos-delay="200"
                 >
                   <div className="img-file">
-                    <img src="/assets/img/icon/85_icon.png" alt="" />
+                    <img src="/assets/img/icon/vecteezy_blockchain-game-icon_11440817 [Converted]@0.3x-min.png" alt="" />
                   </div>
                   <div className="text-file">
                     <h3>
@@ -173,7 +173,7 @@ const ServiceSectionAll = () => {
                   data-aos-delay="300"
                 >
                   <div className="img-file">
-                    <img src="/assets/img/icon/86_icon.png" alt="" />
+                    <img src="/assets/img/icon/decentralized (1)@0.3x-min.png" alt="" />
                   </div>
                   <div className="text-file">
                     <h3>
@@ -195,7 +195,7 @@ const ServiceSectionAll = () => {
                   data-aos-delay="400"
                 >
                   <div className="img-file">
-                    <img src="/assets/img/icon/87_icon.png" alt="" />
+                    <img src="/assets/img/icon/smart-contract@0.3x-min.png" alt="" />
                   </div>
                   <div className="text-file">
                     <h3>

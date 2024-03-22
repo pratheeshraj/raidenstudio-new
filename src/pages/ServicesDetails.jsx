@@ -19,6 +19,10 @@ import ContactSection2 from './../components/ContactSection2';
 import FAQSectionOne from './../components/FAQSectionOne';
 import FAQSectionThree from './../components/FAQSectionThree';
 import DevelopmentProcess from './../components/DevelopmentProcess';
+import Features from "../components/Features";
+import CounterService1 from "../components/CounterService1";
+import ServiceProgramLanguage from "../components/ServiceProgramLanguage";
+import Industries from "../components/Industries";
 
 const ServicesDetails = () => {
   let [active, setActive] = useState(true);
@@ -42,18 +46,23 @@ const ServicesDetails = () => {
         <SliderOne />
         {/*2 , 3 Service Details Section */}
         <ServiceDetailsSection />
+        {/*countbar*/}
+        <CounterService1 />
         {/*4.sercvices*/}
         <ServiceSectionTwo />
         {/*5.call to us*/}
         <CounterSectionOne />
+        {/* { features} */}
+        <Features />
         {/*6.tech-stack*/}
-        <ProgramLanguage />
+        <ServiceProgramLanguage />
         {/* News Section One */}
         {/* we serve */}
-        <ProjectSectionTwo />
+        {/* <ProjectSectionTwo /> */}
+        <Industries />
         {/* <NewsSectionOne /> */}
         {/* Development Process*/}
-        <DevelopmentProcess/>
+        <DevelopmentProcess />
         {/* why choose field  */}
         <WhyChoose />
         {/* faq */}
@@ -61,6 +70,8 @@ const ServicesDetails = () => {
         {/* contact */}
         <ContactSection2 />
         {/* Footer Section */}
+        {/* News Section Two */}
+        <NewsSectionOne />
         <FooterSectionOne />
       </Suspense>
     </Fragment>
