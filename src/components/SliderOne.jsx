@@ -1,4 +1,5 @@
 
+
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, FreeMode, Thumbs, EffectFade } from "swiper";
@@ -242,3 +243,4 @@ const SliderOne = () => {
 };
 
 export default SliderOne;
+

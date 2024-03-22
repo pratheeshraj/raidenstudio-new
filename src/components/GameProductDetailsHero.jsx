@@ -6,7 +6,7 @@ import VanillaTilt from "vanilla-tilt";
 import icon1 from "../images/gameproduct-detailimg/icon1.png";
 import TiltCard from "./TiltCard";
 import GameFeaturesCards from "./GameFeaturesCards";
-import section4 from "../images/gameproduct-detailimg/section4.png"
+import section4 from "../images/gameproduct-detailimg/section4.png";
 const GameProductDetailsHero = () => {
   const heroImageRef = useRef(null);
 
@@ -128,9 +128,7 @@ const GameProductDetailsHero = () => {
             <h2>Our NFT Game Development Services</h2>
             <div className="all_card">
               {data.map(() => {
-                return (
-               <TiltCard/>
-                );
+                return <TiltCard />;
               })}
             </div>
           </div>
@@ -138,33 +136,40 @@ const GameProductDetailsHero = () => {
       </section>
       <section>
         <div className="container-fluid section_4">
-            <div className="container game_features">
-                <h2>Features of NFT Gaming Development</h2>
-                <div className="Gamefeature_all_card">
-                    <GameFeaturesCards/>
-                    <GameFeaturesCards/>
-                    <GameFeaturesCards/>
-                    <GameFeaturesCards/>
-                    <GameFeaturesCards/>
-                    <GameFeaturesCards/>
-                </div>
+          <div className="container game_features">
+            <h2>Features of NFT Gaming Development</h2>
+            <div className="Gamefeature_all_card">
+              <GameFeaturesCards />
+              <GameFeaturesCards />
+              <GameFeaturesCards />
+              <GameFeaturesCards />
+              <GameFeaturesCards />
+              <GameFeaturesCards />
             </div>
+          </div>
         </div>
       </section>
       <section>
         <div className="container-fluid game_product_section2">
           <div className="container">
             <div className="row game_product_content">
-              <h2>
-              Our Popular NFT Game Clone Scripts
-              </h2>
+              <h2>Our Popular NFT Game Clone Scripts</h2>
               <div className="col-md-12 detail">
-                <div className=" gameproduct_about " style={{flexDirection:"row-reverse",alignItems:"flex-start "}}>
-                  <div className="col-5 left" style={{textAlign:"end"}}>
+                <div
+                  className=" gameproduct_about "
+                  style={{
+                    flexDirection: "row-reverse",
+                    alignItems: "flex-start ",
+                  }}
+                >
+                  <div className="col-5 left" style={{ textAlign: "end" }}>
                     <img src={section4} alt="" />
                   </div>
-                  <div className="right d-flex flex-column align-items-start  " style={{marginTop:"50px"}} >
-                    <p >
+                  <div
+                    className="right d-flex flex-column align-items-start  "
+                    style={{ marginTop: "50px" }}
+                  >
+                    <p>
                       Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                       Dolorem quaerat perferendis illum sapiente magnam illo,
                       quas ad corporis. Maxime obcaecati corrupti amet possimus
@@ -173,7 +178,7 @@ const GameProductDetailsHero = () => {
                       aliquam explicabo, suscipit ea nemo at. Exercitationem
                       odio commodi vel id! Aut.
                     </p>
-                 
+
                     <ul>
                       <li>
                         <i class="fa-regular fa-circle-dot"></i> Lorem ipsum
@@ -192,17 +197,85 @@ const GameProductDetailsHero = () => {
                         dolor, sit amet{" "}
                       </li>
                     </ul>
-                    <Link className="default-btn mt-4">Get Free Consulation</Link>
+                    <Link className="default-btn mt-4">
+                      Get Free Consulation
+                    </Link>
                   </div>
                 </div>
-              
               </div>
             </div>
           </div>
         </div>
       </section>
       <section>
-        <div className=""></div>
+        <div className="container-fluid section-6">
+          <div className="container development_process">
+            <h2>Our NFT Gaming Platform Development Process</h2>
+            <ul className="time_line">
+              <li>
+                <div>
+                  <div className="number">01</div>
+                  <h6>Research & Concept creation</h6>
+                  <p>
+                    To expand the basic game concept with additional ideas and
+                    features, our team conducts extensive research on concept
+                    creation, user flow, wireframes, value creation, and other
+                    requirements.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div className="number">01</div>
+                  <h6>Research & Concept creation</h6>
+                  <p>
+                    To expand the basic game concept with additional ideas and
+                    features, our team conducts extensive research on concept
+                    creation, user flow, wireframes, value creation, and other
+                    requirements.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div className="number">01</div>
+                  <h6>Research & Concept creation</h6>
+                  <p>
+                    To expand the basic game concept with additional ideas and
+                    features, our team conducts extensive research on concept
+                    creation, user flow, wireframes, value creation, and other
+                    requirements.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div>
+                  <div className="number">01</div>
+                  <h6>Research & Concept creation</h6>
+                  <p>
+                    To expand the basic game concept with additional ideas and
+                    features, our team conducts extensive research on concept
+                    creation, user flow, wireframes, value creation, and other
+                    requirements.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div className="number">01</div>
+                  <h6>Research & Concept creation</h6>
+                  <p>
+                    To expand the basic game concept with additional ideas and
+                    features, our team conducts extensive research on concept
+                    creation, user flow, wireframes, value creation, and other
+                    requirements.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
       </section>
     </Fragment>
   );
