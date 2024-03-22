@@ -51,6 +51,8 @@ function DevelopmentProcess() {
                       <span className='right-container-arrow'></span>
                     </div>
                   </div>
+
+
                 </VisibilitySensor>
                 <VisibilitySensor onChange={onAnimationVisible}>
                   <div className={`container_devo left-container ${isVisible ? 'visible' : ''}`}>
