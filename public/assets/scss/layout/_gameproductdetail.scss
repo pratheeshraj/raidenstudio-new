@@ -4,7 +4,7 @@
   background-image: url(../../../../src/images/gameproducthero.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 90vh;
+  height: 100%;
 }
 
 .gameproduct_hero_container {
@@ -96,7 +96,7 @@
 .section_4 {
   background-color: white;
   padding: 100px 0;
-  .game_features {
+  .game_feature_all_card {
     h2 {
       color: var(--theme-1);
       text-align: center;
@@ -110,9 +110,9 @@
   }
 }
 
-.feature_all_card {
+.Gamefeature_all_card {
   margin-top: 60px;
-  .feature_card {
+  .gamefeature_card {
     width: 320px;
     height: 360px;
     position: relative;
@@ -121,10 +121,10 @@
       5px 5px 5px rgba(0, 0, 0, 0.05), -5px -5px 5px rgba(255, 255, 255, 0.5);
     border-radius: 8px;
 
-    &:hover .box .bg_number {
-      color: rgba(0, 0, 0, 0.05);
+    &:hover .box_card1 .bg_number {
+      color: rgba(0, 0, 0, 0.06);
     }
-    &:hover .box {
+    &:hover .box_card1 {
       transform: translateY(-50px);
       background: linear-gradient(
         119.66deg,
@@ -133,13 +133,13 @@
         #5fe86c 100%
       );
     }
-    &:hover .box p, h6 {
+    &:hover .box_card1 p, h6 {
       color: white;
     }
-    &:hover .box h6 {
+    &:hover .box_card1 h6 {
         color: white;
       }
-    .box {
+    .box_card1 {
       top: 20px;
       bottom: 20px;
       left: 20px;
@@ -159,7 +159,7 @@
         top: -10px;
         right: 30px;
         font-size: 8em;
-        color: rgba(0, 0, 0, 0.02);
+        color: rgba(0, 0, 0, 0.03);
         transition: 0.5s;
 
         &.feature_card {
@@ -168,6 +168,8 @@
       }
       p {
         transition: 0.5s;
+        color: black;
+
       }
       h6 {
         color: black;

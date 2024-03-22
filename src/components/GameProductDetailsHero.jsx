@@ -139,7 +139,7 @@ const GameProductDetailsHero = () => {
         <div className="container-fluid section_4">
             <div className="container game_features">
                 <h2>Features of NFT Gaming Development</h2>
-                <div className="feature_all_card">
+                <div className="Gamefeature_all_card">
                     <GameFeaturesCards/>
                 </div>
             </div>

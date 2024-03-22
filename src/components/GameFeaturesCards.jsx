@@ -3,8 +3,8 @@ import icon1 from "../images/gameproduct-detailimg/icon2.png";
 
 const GameFeaturesCards = () => {
   return (
-    <div className="feature_card">
-      <div className="box">
+    <div className="gamefeature_card">
+      <div className="box_card1">
         <h2 className="bg_number">01</h2>
         <h6>Security</h6>
         <p>
