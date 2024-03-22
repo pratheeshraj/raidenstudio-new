@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const CareerJobSection = () => {
   return (
@@ -18,7 +19,7 @@ const CareerJobSection = () => {
             <p> Sales & marketing</p>
             <div className="right">
              <p> Sales & marketing</p>
-              <button className="default-btn">Read More</button>
+              <Link to={"/career-details"} className="default-btn">Read More</Link>
             </div>
           </div>
         </div>
