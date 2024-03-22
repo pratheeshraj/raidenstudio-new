@@ -9,7 +9,7 @@ const HeaderTwo = () => {
   const [search, setSearch] = useState(false);
 
   const [hoveredIndex, setHoveredIndex] = useState(null);
-
+  // /gameproduct-details
   // product progress bar
 
   const progressValues = [0.5, 0.5, 0.5, 0.5];
@@ -20,7 +20,7 @@ const HeaderTwo = () => {
     "Raiden ARCVIZ",
   ];
 
-
+  const productTo=["/project-details","/raidensimx",]
 
 
   const gameValues2 = [0.5, 0.5, 0.5, 0.5];
@@ -359,7 +359,7 @@ const HeaderTwo = () => {
                                             (value, index) => (
                                               <Link
                                                 key={index}
-                                                to={`/project-details`}
+                                                to={productTo[index]}
                                                 onMouseEnter={() =>
                                                   setHoveredIndex(index)
                                                 }
@@ -418,7 +418,7 @@ const HeaderTwo = () => {
                                           {gameValues2.map((value, index) => (
                                             <Link
                                               key={index}
-                                              // to={`/link${index}`}
+                                              to={`/gameproduct-details`}
                                               onMouseEnter={() =>
                                                 setHoveredIndex(index)
                                               }

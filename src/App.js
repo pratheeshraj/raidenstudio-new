@@ -32,6 +32,7 @@ import BlogByTag from "./pages/BlogByTag";
 import Career from "./pages/Career";
 import CareerDetails from "./pages/CareerDetails";
 import GameProductDetails from "./pages/GameProductDetails";
+import RaidenSimx from "./pages/RaidenSimx";
 function App() {
   useEffect(() => {
     AOS.init({
@@ -70,6 +71,7 @@ function App() {
         <Route exact path="/career" element={<Career />} />
         <Route exact path="/career-details" element={<CareerDetails />} />
         <Route exact path="/gameproduct-details" element={<GameProductDetails />} />
+        <Route exact path="/raidensimx" element={<RaidenSimx />} />
         <Route exact path="*" element={<Error />} />
       </Routes>
       <RouteScrollToTop />
