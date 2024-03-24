@@ -16,6 +16,7 @@
 .game_product_section2 {
   background-color: black;
   padding: 100px 0;
+
   h2 {
     color: var(--theme-1);
     text-align: center;
@@ -29,17 +30,21 @@
     align-items: center;
   }
 }
+
 .gameproduct_about {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
   .right {
     ul {
       display: flex;
       flex-direction: column;
       gap: 10px;
+
       li {
         font-size: 20px;
+
         i {
           color: var(--theme-1);
           margin-right: 10px;
@@ -52,6 +57,7 @@
 .section-3 {
   padding: 100px 0;
   background-color: var(--common-black-2);
+
   .game-details-Services {
     h2 {
       color: var(--theme-1);
@@ -67,6 +73,7 @@
   justify-content: space-between;
   column-gap: 10px;
   row-gap: 50px;
+
   .animation_card {
     width: 320px;
     height: 400px;
@@ -77,17 +84,21 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
+
     &:hover {
       scale: 1.02;
     }
+
     img {
       width: 150px;
       height: 150px;
     }
+
     h6 {
       color: var(--theme-1);
       font-size: 16px;
     }
+
     p {
       color: white;
     }
@@ -97,14 +108,17 @@
 .section_4 {
   background-color: white;
   padding: 100px 0;
+
   .game_features {
     h2 {
       color: var(--theme-1);
       text-align: center;
     }
+
     p {
       color: black;
     }
+
     h6 {
       color: black;
     }
@@ -118,6 +132,7 @@
   justify-content: space-between;
   column-gap: 10px;
   margin-top: 60px;
+
   .gamefeature_card {
     width: 320px;
     height: 360px;
@@ -130,22 +145,24 @@
     &:hover .box_card1 .bg_number {
       color: rgba(0, 0, 0, 0.06);
     }
+
     &:hover .box_card1 {
       transform: translateY(-50px);
-      background: linear-gradient(
-        119.66deg,
-        #16d9b2 0%,
-        #1be1ba 0.01%,
-        #5fe86c 100%
-      );
+      background: linear-gradient(119.66deg,
+          #16d9b2 0%,
+          #1be1ba 0.01%,
+          #5fe86c 100%);
     }
+
     &:hover .box_card1 p,
     h6 {
       color: white;
     }
+
     &:hover .box_card1 h6 {
       color: white;
     }
+
     .box_card1 {
       top: 20px;
       bottom: 20px;
@@ -173,10 +190,12 @@
           color: var(--theme-1);
         }
       }
+
       p {
         transition: 0.5s;
         color: black;
       }
+
       h6 {
         color: black;
         transition: 0.5s;
@@ -186,15 +205,239 @@
 }
 
 
-.section-6{
-    background-color: white;
-    padding: 100px 0;
+.section-6 {
+  background-color: var(--common-black-2);
+
+  padding: 100px 0;
 }
 
-.development_process{
-    bac
-    h2{
-        color: var(--theme-1);
-        text-align: center;
+.development_process {
+  border: 2px solid rgba(255, 255, 255, 0.09);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  padding: 50px 0;
+  border-radius: 10px;
+  position: relative;
+
+  @media #{$lg,$md, $sm, $xs, $xss} {
+    border: none;
+    box-shadow: none;
+  }
+
+  @keyframes zoomInOut {
+
+    0%,
+    100% {
+      transform: scale(0.5);
     }
+
+    50% {
+      transform: scale(1.2);
+    }
+  }
+
+  h2 {
+    color: var(--theme-1);
+    text-align: center;
+
+    @media #{$sm, $xs, $xss} {
+      font-size: 24px;
+
+    }
+  }
+
+  ul {
+
+    li {
+      position: relative;
+      width: 6px;
+      margin: 0 auto;
+      padding-top: 50px;
+      background-color: rgba(255, 255, 255, 0.09);
+      border: 2px solid rgba(255, 255, 255, 0.1);
+      box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(20px);
+      border-radius: 10px;
+
+      @media #{$sm, $xs, $xss} {
+        margin-left: 70px;
+
+      }
+
+      @media #{$md} {
+        margin-left: 100px;
+      }
+
+      @media (max-width: 500px) {
+        margin-left: 32px;
+      }
+
+      @media (max-width: 400px) {
+        margin-left: 20px;
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%);
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: inherit;
+        z-index: 1;
+        @media #{ $xss} {
+          width: 30px;
+          height: 30px;
+          bottom: -16px;
+        }
+      }
+
+      .proccess_box {
+        position: relative;
+        bottom: 0;
+        width: 450px;
+        height: auto;
+        padding: 20px;
+        background-color: var(--common-black-2);
+        box-shadow: 0px 0px 0px 6px rgb(255 255 255/40%);
+        backdrop-filter: blur(5px);
+        border-radius: 10px;
+        color: #9f3434;
+        margin: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+
+        @media #{$sm,$lg } {
+          width: 350px;
+        }
+
+        @media #{$xs, $xss} {
+          width: 280px
+        }
+
+        @media #{$xss} {
+          width: 250px;
+        padding: 15px;
+
+          
+        }
+        @media (max-width: 320px) {
+          width: 200px;
+
+        }
+        &::before {
+          content: "";
+          position: absolute;
+          bottom: 7px;
+          width: 0;
+          height: 0;
+          border-style: solid;
+        }
+
+        .number {
+          position: absolute;
+          top: 0;
+          width: 50px;
+          height: 50px;
+          background-color: #58a760;
+          border-radius: 50%;
+          padding: 10px;
+          box-shadow: 0px 0px 0px 6px rgb(255 255 255/40%);
+        }
+
+        h6 {
+          color: black;
+          font-size: 20px;
+
+          @media #{$xs, $xss} {
+            font-size: 16px;
+          }
+          @media #{ $xss} {
+            font-size: 14px;
+          }
+        }
+
+        p {
+          color: black;
+          margin: 0;
+
+          @media #{$xs, $xss} {
+            font-size: 14px;
+line-height: 15px;
+
+          }
+          @media #{ $xss} {
+            font-size: 12px;
+          }
+
+        }
+      }
+
+
+      &:nth-child(odd) {
+        .proccess_box {
+          left: 55px;
+          background-color: #ffffff;
+          @media #{ $xss} {
+            left: 20px;
+          }
+          .number {
+            top: -30px;
+            left: 20px;
+          }
+
+          &::before {
+            left: -24px;
+            border-width: 8px 16px 8px 0px;
+
+            border-color: transparent #000 transparent transparent;
+          }
+        }
+      }
+
+      &:nth-child(even) {
+        .proccess_box {
+          left: -524px;
+          background-color: #ffffff;
+
+          @media #{$lg} {
+            left: -420px;
+          }
+
+          @media #{$md, $sm, $xs, $xss} {
+            left: 55px;
+          }
+          @media #{ $xss} {
+            left: 20px;
+          }
+
+          .number {
+            top: -30px;
+            right: 20px;
+
+            @media #{$md, $sm, $xs, $xss} {
+              left: 20px;
+            }
+          }
+
+          &::before {
+            right: -24px;
+            border-width: 8px 0px 8px 16px;
+            border-color: transparent transparent transparent #000;
+
+            @media #{$md, $sm, $xs, $xss} {
+              left: -24px;
+              border-width: 8px 16px 8px 0px;
+
+              border-color: transparent #000 transparent transparent;
+            }
+          }
+        }
+      }
+    }
+  }
 }

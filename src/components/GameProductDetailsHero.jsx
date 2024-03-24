@@ -7,6 +7,7 @@ import icon1 from "../images/gameproduct-detailimg/icon1.png";
 import TiltCard from "./TiltCard";
 import GameFeaturesCards from "./GameFeaturesCards";
 import section4 from "../images/gameproduct-detailimg/section4.png";
+import AnimationCardScroll from "./AnimationCardScroll";
 const GameProductDetailsHero = () => {
   const heroImageRef = useRef(null);
 
@@ -43,7 +44,14 @@ const GameProductDetailsHero = () => {
     // Cleanup on component unmount
     return () => tiltRef.current && tiltRef.current.vanillaTilt.destroy();
   }, []);
-
+  const processSteps = [
+    "Research & Concept Creation",
+    "Design",
+    "Development",
+    "Testing",
+    "Launch"
+    // Add your actual steps or content here
+  ];
   const data = [1, 2, 2, 3, 4, 5];
   return (
     <Fragment>
@@ -162,7 +170,7 @@ const GameProductDetailsHero = () => {
                     alignItems: "flex-start ",
                   }}
                 >
-                  <div className="col-5 left" style={{ textAlign: "end" }}>
+                  <div className=" left" style={{ textAlign: "end" }}>
                     <img src={section4} alt="" />
                   </div>
                   <div
@@ -207,76 +215,27 @@ const GameProductDetailsHero = () => {
           </div>
         </div>
       </section>
-      <section>
-        <div className="container-fluid section-6">
-          <div className="container development_process">
-            <h2>Our NFT Gaming Platform Development Process</h2>
-            <ul className="time_line">
-              <li>
-                <div>
-                  <div className="number">01</div>
-                  <h6>Research & Concept creation</h6>
-                  <p>
-                    To expand the basic game concept with additional ideas and
-                    features, our team conducts extensive research on concept
-                    creation, user flow, wireframes, value creation, and other
-                    requirements.
-                  </p>
-                </div>
+        <section>
+      <div className="container-fluid section-6">
+        <div className="container development_process">
+          <h2>Our NFT Gaming Platform Development Process</h2>
+          <ul className="time_line">
+            {processSteps.map((step, index) => (
+              <li key={index}>
+                <AnimationCardScroll animateIn={index % 2 === 0 ? "fadeInLeft" : "fadeInRight"}  animateOut={index % 2 === 0 ? "fadeInLeft" : "fadeInRight"} >
+                  <div className="proccess_box">
+                    <div className="number"><p>{index + 1}</p></div>
+                    <h6>{step}</h6>
+                    <p>To expand the basic game concept with additional ideas and features, our team conducts extensive research on concept.</p>
+                  </div>
+                </AnimationCardScroll>
               </li>
-              <li>
-                <div>
-                  <div className="number">01</div>
-                  <h6>Research & Concept creation</h6>
-                  <p>
-                    To expand the basic game concept with additional ideas and
-                    features, our team conducts extensive research on concept
-                    creation, user flow, wireframes, value creation, and other
-                    requirements.
-                  </p>
-                </div>
-              </li>
-              <li>
-                <div>
-                  <div className="number">01</div>
-                  <h6>Research & Concept creation</h6>
-                  <p>
-                    To expand the basic game concept with additional ideas and
-                    features, our team conducts extensive research on concept
-                    creation, user flow, wireframes, value creation, and other
-                    requirements.
-                  </p>
-                </div>
-              </li>
-
-              <li>
-                <div>
-                  <div className="number">01</div>
-                  <h6>Research & Concept creation</h6>
-                  <p>
-                    To expand the basic game concept with additional ideas and
-                    features, our team conducts extensive research on concept
-                    creation, user flow, wireframes, value creation, and other
-                    requirements.
-                  </p>
-                </div>
-              </li>
-              <li>
-                <div>
-                  <div className="number">01</div>
-                  <h6>Research & Concept creation</h6>
-                  <p>
-                    To expand the basic game concept with additional ideas and
-                    features, our team conducts extensive research on concept
-                    creation, user flow, wireframes, value creation, and other
-                    requirements.
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </div>
+            ))}
+          </ul>
         </div>
-      </section>
+      </div>
+    </section>
+
     </Fragment>
   );
 };
