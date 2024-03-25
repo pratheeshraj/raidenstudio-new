@@ -5,12 +5,48 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
+  padding-bottom: 50px;
 }
 
 .gameproduct_hero_container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media #{$md ,$sm, $xs,$xss} {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .left {
+    @media #{$md ,$sm, $xs,$xss} {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    p {
+      text-align: center;
+      @media #{ $xs,$xss} {
+        font-size: 14px;
+      }
+    }
+    h2 {
+      text-align: center;
+      @media #{$sm, $xs,$xss} {
+        font-size: 26px;
+      }
+    }
+  }
+  .right {
+    display: flex;
+    align-items: center;
+    img {
+      @media #{ $xs,$xss} {
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 100%;
+      }
+    }
+  }
 }
 
 .game_product_section2 {
@@ -24,6 +60,12 @@
 }
 
 .game_product_content {
+  h2 {
+    text-align: center;
+    @media #{$sm, $xs,$xss} {
+      font-size: 26px;
+    }
+  }
   .detail {
     display: flex;
     flex-direction: column;
@@ -35,8 +77,24 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-
+  gap: 50px;
+  @media #{$md ,$sm, $xs,$xss} {
+    flex-direction: column;
+    justify-content: center;
+  }
   .right {
+    p {
+      text-align: center;
+      @media #{ $xs,$xss} {
+        font-size: 14px;
+      }
+    }
+
+    @media #{$md ,$sm, $xs,$xss} {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
     ul {
       display: flex;
       flex-direction: column;
@@ -44,11 +102,24 @@
 
       li {
         font-size: 20px;
-
+        @media #{ $xs,$xss} {
+          font-size: 14px;
+        }
         i {
           color: var(--theme-1);
           margin-right: 10px;
         }
+      }
+    }
+  }
+  .left {
+    img {
+      display: flex;
+      align-items: center;
+      @media #{ $xs,$xss} {
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 100%;
       }
     }
   }
@@ -62,6 +133,10 @@
     h2 {
       color: var(--theme-1);
       text-align: center;
+      text-align: center;
+      @media #{$sm, $xs,$xss} {
+        font-size: 26px;
+      }
     }
   }
 }
@@ -73,7 +148,10 @@
   justify-content: space-between;
   column-gap: 10px;
   row-gap: 50px;
-
+  @media #{$md,$sm, $xs,$xss} {
+    justify-content: center;
+    gap: 30px;
+  }
   .animation_card {
     width: 320px;
     height: 400px;
@@ -84,7 +162,16 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
-
+    justify-content: center;
+    h6 {
+      text-align: center;
+    }
+    p {
+      text-align: center;
+      @media #{ $xs,$xss} {
+        font-size: 14px;
+      }
+    }
     &:hover {
       scale: 1.02;
     }
@@ -113,6 +200,9 @@
     h2 {
       color: var(--theme-1);
       text-align: center;
+      @media #{$sm, $xs,$xss} {
+        font-size: 26px;
+      }
     }
 
     p {
@@ -132,7 +222,10 @@
   justify-content: space-between;
   column-gap: 10px;
   margin-top: 60px;
-
+  @media #{$md,$sm, $xs,$xss} {
+    justify-content: center;
+    gap: 30px;
+  }
   .gamefeature_card {
     width: 320px;
     height: 360px;
@@ -148,10 +241,12 @@
 
     &:hover .box_card1 {
       transform: translateY(-50px);
-      background: linear-gradient(119.66deg,
-          #16d9b2 0%,
-          #1be1ba 0.01%,
-          #5fe86c 100%);
+      background: linear-gradient(
+        119.66deg,
+        #16d9b2 0%,
+        #1be1ba 0.01%,
+        #5fe86c 100%
+      );
     }
 
     &:hover .box_card1 p,
@@ -194,16 +289,20 @@
       p {
         transition: 0.5s;
         color: black;
+        text-align: center;
+        @media #{ $xs,$xss} {
+          font-size: 14px;
+        }
       }
 
       h6 {
         color: black;
         transition: 0.5s;
+        text-align: center;
       }
     }
   }
 }
-
 
 .section-6 {
   background-color: var(--common-black-2);
@@ -225,7 +324,6 @@
   }
 
   @keyframes zoomInOut {
-
     0%,
     100% {
       transform: scale(0.5);
@@ -242,12 +340,10 @@
 
     @media #{$sm, $xs, $xss} {
       font-size: 24px;
-
     }
   }
 
   ul {
-
     li {
       position: relative;
       width: 6px;
@@ -261,7 +357,6 @@
 
       @media #{$sm, $xs, $xss} {
         margin-left: 70px;
-
       }
 
       @media #{$md} {
@@ -301,7 +396,7 @@
         height: auto;
         padding: 20px;
         background-color: var(--common-black-2);
-        box-shadow: 0px 0px 0px 6px rgb(255 255 255/40%);
+        box-shadow: 0px 0px 0px 6px var(--theme-1);
         backdrop-filter: blur(5px);
         border-radius: 10px;
         color: #9f3434;
@@ -316,18 +411,15 @@
         }
 
         @media #{$xs, $xss} {
-          width: 280px
+          width: 280px;
         }
 
         @media #{$xss} {
           width: 250px;
-        padding: 15px;
-
-          
+          padding: 15px;
         }
         @media (max-width: 320px) {
           width: 200px;
-
         }
         &::before {
           content: "";
@@ -341,16 +433,17 @@
         .number {
           position: absolute;
           top: 0;
+          background-color: var(--common-black-2);
           width: 50px;
           height: 50px;
-          background-color: #58a760;
           border-radius: 50%;
           padding: 10px;
-          box-shadow: 0px 0px 0px 6px rgb(255 255 255/40%);
+          display: flex;
+
+          box-shadow: 0px 0px 0px 6px var(--theme-1);
         }
 
         h6 {
-          color: black;
           font-size: 20px;
 
           @media #{$xs, $xss} {
@@ -362,26 +455,22 @@
         }
 
         p {
-          color: black;
           margin: 0;
 
           @media #{$xs, $xss} {
             font-size: 14px;
-line-height: 15px;
-
+            line-height: 15px;
           }
           @media #{ $xss} {
             font-size: 12px;
           }
-
         }
       }
-
 
       &:nth-child(odd) {
         .proccess_box {
           left: 55px;
-          background-color: #ffffff;
+
           @media #{ $xss} {
             left: 20px;
           }
@@ -393,8 +482,7 @@ line-height: 15px;
           &::before {
             left: -24px;
             border-width: 8px 16px 8px 0px;
-
-            border-color: transparent #000 transparent transparent;
+            border-color: transparent var(--theme-1) transparent;
           }
         }
       }
@@ -402,8 +490,6 @@ line-height: 15px;
       &:nth-child(even) {
         .proccess_box {
           left: -524px;
-          background-color: #ffffff;
-
           @media #{$lg} {
             left: -420px;
           }
@@ -427,17 +513,34 @@ line-height: 15px;
           &::before {
             right: -24px;
             border-width: 8px 0px 8px 16px;
-            border-color: transparent transparent transparent #000;
+            border-color: transparent transparent transparent var(--theme-1);
 
             @media #{$md, $sm, $xs, $xss} {
               left: -24px;
               border-width: 8px 16px 8px 0px;
 
-              border-color: transparent #000 transparent transparent;
+              border-color: transparent var(--theme-1) transparent transparent;
             }
           }
         }
       }
     }
   }
+}
+
+.section_5 {
+  @media #{$md, $sm, $xs, $xss} {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .right {
+    @media #{$md, $sm, $xs, $xss} {
+      margin-top: 0;
+    }
+  }
+}
+
+.section_5_ul{
+  width: 100%;
+ align-items: center !important;
 }
