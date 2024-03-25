@@ -25,6 +25,7 @@
     }
     p {
       text-align: center;
+      
       @media #{ $xs,$xss} {
         font-size: 14px;
       }
@@ -84,7 +85,9 @@
   }
   .right {
     p {
-      text-align: center;
+      @media #{$md, $sm, $xs, $xss} {
+        text-align: center;
+      }
       @media #{ $xs,$xss} {
         font-size: 14px;
       }
@@ -534,13 +537,14 @@
     flex-wrap: wrap;
   }
   .right {
+
     @media #{$md, $sm, $xs, $xss} {
-      margin-top: 0;
+      align-items: center !important;
     }
   }
 }
 
 .section_5_ul{
   width: 100%;
- align-items: center !important;
+
 }

@@ -58,14 +58,18 @@ const GameProductDetailsHero = () => {
       <section>
         <div className="container-fluid gameproduct_hero">
           <div className="auto-container gameproduct_hero_container">
-            <div className="left">
+            <AnimationCardScroll
+              animateIn="fadeInLeft"
+              className="left"
+              duration={1.5}
+            >
               <h2>Game Product Details</h2>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Recusandae doloremque, ipsa eligendi rerum, distinctio, nisi
                 cupiditate{" "}
               </p>
-            </div>
+            </AnimationCardScroll>
             <div className="right">
               <img src={hero} alt="" className="hero" ref={heroImageRef} />
             </div>
@@ -82,10 +86,18 @@ const GameProductDetailsHero = () => {
               </h2>
               <div className="col-md-12 detail">
                 <div className=" gameproduct_about">
-                  <div className=" left">
+                  <AnimationCardScroll
+                    animateIn="fadeInLeft"
+                    duration={1.5}
+                    className=" left"
+                  >
                     <img src={section2img} alt="" />
-                  </div>
-                  <div className="right">
+                  </AnimationCardScroll>
+                  <AnimationCardScroll
+                    animateIn="fadeInRight"
+                    duration={1.5}
+                    className="right"
+                  >
                     <p>
                       Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                       Dolorem quaerat perferendis illum sapiente magnam illo,
@@ -122,7 +134,7 @@ const GameProductDetailsHero = () => {
                         dolor, sit amet{" "}
                       </li>
                     </ul>
-                  </div>
+                  </AnimationCardScroll>
                 </div>
                 <Link className="default-btn">Get Free Consulation</Link>
               </div>
@@ -136,7 +148,12 @@ const GameProductDetailsHero = () => {
             <h2>Our NFT Game Development Services</h2>
             <div className="all_card">
               {data.map(() => {
-                return <TiltCard />;
+                return (
+                  <AnimationCardScroll animateIn="fadeInUp" duration={1.5}>
+                    {" "}
+                    <TiltCard />
+                  </AnimationCardScroll>
+                );
               })}
             </div>
           </div>
@@ -147,12 +164,13 @@ const GameProductDetailsHero = () => {
           <div className="auto-container game_features">
             <h2>Features of NFT Gaming Development</h2>
             <div className="Gamefeature_all_card">
-              <GameFeaturesCards />
-              <GameFeaturesCards />
-              <GameFeaturesCards />
-              <GameFeaturesCards />
-              <GameFeaturesCards />
-              <GameFeaturesCards />
+              {data.map(() => {
+                return (
+                  <AnimationCardScroll animateIn="fadeInUp" duration={1.5}>
+                    <GameFeaturesCards />
+                  </AnimationCardScroll>
+                );
+              })}
             </div>
           </div>
         </div>
@@ -170,11 +188,18 @@ const GameProductDetailsHero = () => {
                     alignItems: "flex-start ",
                   }}
                 >
-                  <div className=" left" style={{ textAlign: "end" }}>
+                  <AnimationCardScroll
+                    className=" left"
+                    animateIn="fadeInRight"
+                    duration={1.5}
+                    style={{ textAlign: "end" }}
+                  >
                     <img src={section4} alt="" />
-                  </div>
-                  <div
-                    className="right d-flex flex-column align-items-start  "
+                  </AnimationCardScroll>
+                  <AnimationCardScroll
+                    animateIn="fadeInLeft"
+                    duration={1.5}
+                    className="right d-flex flex-column align-items-start "
                     style={{ marginTop: "50px" }}
                   >
                     <p>
@@ -208,7 +233,7 @@ const GameProductDetailsHero = () => {
                     <Link className="default-btn mt-4">
                       Get Free Consulation
                     </Link>
-                  </div>
+                  </AnimationCardScroll>
                 </div>
               </div>
             </div>
@@ -256,11 +281,19 @@ const GameProductDetailsHero = () => {
                 Company
               </h2>
               <div className="col-md-12 detail">
-                <div className=" gameproduct_about">
-                  <div className="col-5 left">
+                <div className="gameproduct_about">
+                  <AnimationCardScroll
+                    className="col-5 left"
+                    animateIn="fadeInLeft"
+                    duration={1.5}
+                  >
                     <img src={section2img} alt="" />
-                  </div>
-                  <div className="right">
+                  </AnimationCardScroll>
+                  <AnimationCardScroll
+                    className="right"
+                    animateIn="fadeInRight"
+                    duration={1.5}
+                  >
                     <p style={{ color: "black" }}>
                       Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                       Dolorem quaerat perferendis illum sapiente magnam illo,
@@ -288,7 +321,7 @@ const GameProductDetailsHero = () => {
                         dolor, sit amet{" "}
                       </li>
                     </ul>
-                  </div>
+                  </AnimationCardScroll>
                 </div>
                 <Link className="default-btn">Get Free Consulation</Link>
               </div>
@@ -296,7 +329,7 @@ const GameProductDetailsHero = () => {
           </div>
         </div>
       </section>
-      <section className="faq-section one" style={{backgroundColor:"black"}}>
+      <section className="faq-section one" style={{ backgroundColor: "black" }}>
         <div className="auto-container">
           <div className="row">
             <div className="col-lg-6 pe-4">
