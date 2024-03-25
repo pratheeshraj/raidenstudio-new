@@ -36,3 +36,10 @@
     margin-left: 15px;
     font-size: 22px;
 }
+
+
+@media screen and (max-width: 1000px) {
+    .social_icon_div {
+        display: none;
+    }
+}

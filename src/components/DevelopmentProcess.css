@@ -179,7 +179,7 @@
     }
 
     .right-container {
-        left: 0;
+        left: 0 !important;
     }
 
     .left-container img,
@@ -189,8 +189,18 @@
 
     .left-container-arrow,
     .right-container-arrow {
-        border-right: 15px solid red;
+        border-right: 15px solid #13C4A1;
         border-left: 0;
         left: -15px;
+    }
+
+    .left-container .devo_round_div {
+        left: -5px;
+        top: 25px;
+    }
+
+    .right-container .devo_round_div {
+        left: -5px;
+        top: 25px;
     }
 }
