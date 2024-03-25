@@ -8,6 +8,8 @@ import TiltCard from "./TiltCard";
 import GameFeaturesCards from "./GameFeaturesCards";
 import section4 from "../images/gameproduct-detailimg/section4.png";
 import AnimationCardScroll from "./AnimationCardScroll";
+import ScrollAnimation from 'react-animate-on-scroll'
+
 const GameProductDetailsHero = () => {
   const heroImageRef = useRef(null);
 
@@ -58,7 +60,7 @@ const GameProductDetailsHero = () => {
       <section>
         <div className="container-fluid gameproduct_hero">
           <div className="auto-container gameproduct_hero_container">
-            <AnimationCardScroll
+            <ScrollAnimation
               animateIn="fadeInLeft"
               className="left"
               duration={1.5}
@@ -69,7 +71,7 @@ const GameProductDetailsHero = () => {
                 Recusandae doloremque, ipsa eligendi rerum, distinctio, nisi
                 cupiditate{" "}
               </p>
-            </AnimationCardScroll>
+            </ScrollAnimation>
             <div className="right">
               <img src={hero} alt="" className="hero" ref={heroImageRef} />
             </div>
@@ -86,14 +88,14 @@ const GameProductDetailsHero = () => {
               </h2>
               <div className="col-md-12 detail">
                 <div className=" gameproduct_about">
-                  <AnimationCardScroll
+                  <ScrollAnimation
                     animateIn="fadeInLeft"
                     duration={1.5}
                     className=" left"
                   >
                     <img src={section2img} alt="" />
-                  </AnimationCardScroll>
-                  <AnimationCardScroll
+                  </ScrollAnimation>
+                  <ScrollAnimation
                     animateIn="fadeInRight"
                     duration={1.5}
                     className="right"
@@ -134,7 +136,7 @@ const GameProductDetailsHero = () => {
                         dolor, sit amet{" "}
                       </li>
                     </ul>
-                  </AnimationCardScroll>
+                  </ScrollAnimation>
                 </div>
                 <Link className="default-btn">Get Free Consulation</Link>
               </div>
@@ -188,15 +190,15 @@ const GameProductDetailsHero = () => {
                     alignItems: "flex-start ",
                   }}
                 >
-                  <AnimationCardScroll
-                    className=" left"
+                  <ScrollAnimation
+                    className="left"
                     animateIn="fadeInRight"
                     duration={1.5}
                     style={{ textAlign: "end" }}
                   >
                     <img src={section4} alt="" />
-                  </AnimationCardScroll>
-                  <AnimationCardScroll
+                  </ScrollAnimation>
+                  <ScrollAnimation
                     animateIn="fadeInLeft"
                     duration={1.5}
                     className="right d-flex flex-column align-items-start "
@@ -233,7 +235,7 @@ const GameProductDetailsHero = () => {
                     <Link className="default-btn mt-4">
                       Get Free Consulation
                     </Link>
-                  </AnimationCardScroll>
+                  </ScrollAnimation>
                 </div>
               </div>
             </div>
@@ -247,7 +249,7 @@ const GameProductDetailsHero = () => {
             <ul className="time_line">
               {processSteps.map((step, index) => (
                 <li key={index}>
-                  <AnimationCardScroll
+                  <ScrollAnimation
                     animateIn={index % 2 === 0 ? "fadeInLeft" : "fadeInRight"}
                     animateOut={index % 2 === 0 ? "fadeInLeft" : "fadeInRight"}
                   >
@@ -262,7 +264,7 @@ const GameProductDetailsHero = () => {
                         concept.
                       </p>
                     </div>
-                  </AnimationCardScroll>
+                  </ScrollAnimation>
                 </li>
               ))}
             </ul>
@@ -282,14 +284,14 @@ const GameProductDetailsHero = () => {
               </h2>
               <div className="col-md-12 detail">
                 <div className="gameproduct_about">
-                  <AnimationCardScroll
+                  <ScrollAnimation
                     className="col-5 left"
                     animateIn="fadeInLeft"
                     duration={1.5}
                   >
                     <img src={section2img} alt="" />
-                  </AnimationCardScroll>
-                  <AnimationCardScroll
+                  </ScrollAnimation>
+                  <ScrollAnimation
                     className="right"
                     animateIn="fadeInRight"
                     duration={1.5}
@@ -321,7 +323,7 @@ const GameProductDetailsHero = () => {
                         dolor, sit amet{" "}
                       </li>
                     </ul>
-                  </AnimationCardScroll>
+                  </ScrollAnimation>
                 </div>
                 <Link className="default-btn">Get Free Consulation</Link>
               </div>
