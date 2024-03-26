@@ -1,7 +1,6 @@
 import React from "react";
 import CountUp from "react-countup";
 import { Link } from "react-router-dom";
-import ReactVisibilitySensor from "react-visibility-sensor";
 
 const CounterSectionOne = () => {
   return (

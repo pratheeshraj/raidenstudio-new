@@ -36,6 +36,7 @@ import GameProductDetails from "./pages/GameProductDetails";
 import RaidenSimx from "./pages/RaidenSimx";
 
 import SocialIcons from './components/SocialIcons';
+import NftDevlopment from "./pages/NftDevlopment";
 
 
 function App() {
@@ -75,7 +76,7 @@ function App() {
         <Route exact path="/ai-development" element={<ServicesDetails />} />
         <Route exact path="/team" element={<Team />} />
         <Route exact path="/career" element={<Career />} />
-
+        <Route exact path="/nft-development" element={<NftDevlopment />} />
         <Route exact path="/career-details/:id" element={<CareerDetails />} />
         <Route exact path="/gameproduct-details" element={<GameProductDetails />} />
         <Route exact path="/raidensimx" element={<RaidenSimx />} />

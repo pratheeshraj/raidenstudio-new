@@ -34,7 +34,7 @@ const HeaderTwo = () => {
   // service
 
   // block chain
-
+  const blockChainTo = ["/nft-development"]
   const blockchainValues = [0.5, 0.5, 0.5, 0.5, 0.5, 0.5];
   const blockchainnames = [
     "NFT",
@@ -156,7 +156,7 @@ const HeaderTwo = () => {
       <>
         {/* header-area-start */}
         <header className="header-intro-version-one-area header-area-2">
-          <div className="header-top d-none d-lg-block">
+          {/* <div className="header-top d-none d-lg-block">
             <div className="auto-container">
               <div className="row">
                 <div className="col-lg-7">
@@ -201,7 +201,7 @@ const HeaderTwo = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div
             className={scroll ? "header-inner header__sticky" : "header-inner"}
             id="header-sticky-2"
@@ -538,7 +538,7 @@ const HeaderTwo = () => {
                                             (value, index) => (
                                               <Link
                                                 key={index}
-                                                // to={`/link${index}`}
+                                                to={blockChainTo[index]}
                                                 onMouseEnter={() =>
                                                   setHoveredIndex(index)
                                                 }
