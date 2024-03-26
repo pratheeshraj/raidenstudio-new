@@ -117,7 +117,7 @@ const SliderThree = () => {
                                         className="slide-bg"
                                         style={{
                                             backgroundImage:
-                                                "url('assets/img/bg-image/Gaming.png')",
+                                                "url('assets/img/bg-image/raiden new gaming.jpg')",
                                         }}
                                     />
                                     <div className="auto-container">
@@ -164,7 +164,7 @@ const SliderThree = () => {
                                         className="slide-bg"
                                         style={{
                                             backgroundImage:
-                                                "url('assets/img/bg-image/metaverse.png')",
+                                                "url('assets/img/bg-image/metaverse new raiden.jpg')",
                                             height: "135%"
                                         }}
 

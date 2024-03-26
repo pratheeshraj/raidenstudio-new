@@ -18,7 +18,7 @@
 }
 
 .container_devo.visible {
-    animation: movedown 1s linear forwards;
+    animation: movedown 0.5s linear forwards;
 }
 
 .container_devo:nth-child(1).visible {
@@ -39,6 +39,14 @@
 
 .container_devo:nth-child(5).visible {
     animation-delay: 2s;
+}
+
+.container_devo:nth-child(6).visible {
+    animation-delay: 2.5s;
+}
+
+.container_devo:nth-child(7).visible {
+    animation-delay: 3s;
 }
 
 @keyframes movedown {

@@ -34,7 +34,7 @@ const HeaderTwo = () => {
   // service
 
   // block chain
-
+  const blockChainTo = ["/nft-development"]
   const blockchainValues = [0.5, 0.5, 0.5, 0.5, 0.5, 0.5];
   const blockchainnames = [
     "NFT",
@@ -538,7 +538,7 @@ const HeaderTwo = () => {
                                             (value, index) => (
                                               <Link
                                                 key={index}
-                                                // to={`/link${index}`}
+                                                to={blockChainTo[index]}
                                                 onMouseEnter={() =>
                                                   setHoveredIndex(index)
                                                 }
