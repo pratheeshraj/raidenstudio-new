@@ -43,13 +43,13 @@ const NftServices = () => {
                                         alt=""
                                     />
                                 </div>
-                                <div className="text-file" style={{bottom:"0"}}>
+                                <div className="text-file" style={{ bottom: "0" }}>
                                     <div className="title">
                                         <h2>
                                             <Link to="#">Non-Fungible Token Development</Link>
                                         </h2>
                                         <p>
-                                        Our reputable NFT Development services enable you to convert your digital and tangible assets into tokens that you can trade on the NFT Marketplace, allowing you to tap into a world of more lucrative prospects.
+                                            Our reputable NFT Development services enable you to convert your digital and tangible assets into tokens that you can trade on the NFT Marketplace, allowing you to tap into a world of more lucrative prospects.
                                         </p>
                                     </div>
                                 </div>
@@ -74,7 +74,7 @@ const NftServices = () => {
                                             <Link to="#">NFT Marketplace Development</Link>
                                         </h2>
                                         <p>
-                                        We design your NFT marketplace interface and back-end development solution to enable NFT trading. Moreover, our team of professionals makes sure that leading-edge design and development are used to give you a seamless trading experience.
+                                            We design your NFT marketplace interface and back-end development solution to enable NFT trading. Moreover, our team of professionals makes sure that leading-edge design and development are used to give you a seamless trading experience.
                                         </p>
                                     </div>
                                 </div>
@@ -93,23 +93,14 @@ const NftServices = () => {
                                         alt=""
                                     />
                                 </div>
-<div className="text-file" style={{bottom:"0"}}>
+                                <div className="text-file" style={{ bottom: "0" }}>
                                     <div className="title">
-                                        <div className="date">
-                                            <span>
-                                                <i className="fa-regular fa-clock" /> April 26, 2023
-                                            </span>
-                                        </div>
                                         <h2>
-                                            <Link to="#">Professional Technology information.</Link>
+                                            <Link to="#">Web3 Wallet Integration</Link>
                                         </h2>
                                         <p>
-                                            Ensure your IT infrastructure remains resilient when
-                                            adopting trans formative technologies.
+                                            VRaiden can assist you in designing and integrating crypto wallets for Web3 Dapps and NFT marketplaces. We collaborate with many blockchain networks to incorporate the most widely used cryptocurrency wallets.
                                         </p>
-                                        <Link className="link" to="/blog-details">
-                                            Read More
-                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -127,23 +118,14 @@ const NftServices = () => {
                                         alt=""
                                     />
                                 </div>
-<div className="text-file" style={{bottom:"0"}}>
+                                <div className="text-file" style={{ bottom: "0" }}>
                                     <div className="title">
-                                        <div className="date">
-                                            <span>
-                                                <i className="fa-regular fa-clock" /> April 26, 2023
-                                            </span>
-                                        </div>
                                         <h2>
-                                            <Link to="#">Professional Technology information.</Link>
+                                            <Link to="#">Smart Contract Development</Link>
                                         </h2>
                                         <p>
-                                            Ensure your IT infrastructure remains resilient when
-                                            adopting trans formative technologies.
+                                            Utilize our experience in developing smart contracts to create your own NFT marketplace. Our custom service assures reliable and efficient NFT trading on your platform.
                                         </p>
-                                        <Link className="link" to="/blog-details">
-                                            Read More
-                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -161,23 +143,14 @@ const NftServices = () => {
                                         alt=""
                                     />
                                 </div>
-<div className="text-file" style={{bottom:"0"}}>
+                                <div className="text-file" style={{ bottom: "0" }}>
                                     <div className="title">
-                                        <div className="date">
-                                            <span>
-                                                <i className="fa-regular fa-clock" /> April 26, 2023
-                                            </span>
-                                        </div>
                                         <h2>
-                                            <Link to="#">Professional Technology information.</Link>
+                                            <Link to="#">Cross-chain NFT platform development</Link>
                                         </h2>
                                         <p>
-                                            Ensure your IT infrastructure remains resilient when
-                                            adopting trans formative technologies.
+                                            At VRaiden, we create an NFT marketplace with cross-chain features like multi-token wallet systems, cross-chain transactions, and blockchain network interoperability.
                                         </p>
-                                        <Link className="link" to="/blog-details">
-                                            Read More
-                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -195,23 +168,17 @@ const NftServices = () => {
                                         alt=""
                                     />
                                 </div>
-<div className="text-file" style={{bottom:"0"}}>
+                                <div className="text-file" style={{ bottom: "0" }}>
                                     <div className="title">
-                                        <div className="date">
-                                            <span>
-                                                <i className="fa-regular fa-clock" /> April 26, 2023
-                                            </span>
-                                        </div>
                                         <h2>
-                                            <Link to="#">Professional Technology information.</Link>
+                                            <Link to="#">NFT games development</Link>
                                         </h2>
                                         <p>
-                                            Ensure your IT infrastructure remains resilient when
-                                            adopting trans formative technologies.
+                                            VRaiden has the abilities of handling the entire process for creating a fully functional NFT game.
+                                            We develop gaming platforms and include the feature that allows users to collect non-fungible tokens
+                                            that can be exchanged eventually.
+                                            Our technology experts can create the NFT-based game on any popular platform, including Web, Android, and iOS.
                                         </p>
-                                        <Link className="link" to="/blog-details">
-                                            Read More
-                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -229,23 +196,14 @@ const NftServices = () => {
                                         alt=""
                                     />
                                 </div>
-<div className="text-file" style={{bottom:"0"}}>
+                                <div className="text-file" style={{ bottom: "0" }}>
                                     <div className="title">
-                                        <div className="date">
-                                            <span>
-                                                <i className="fa-regular fa-clock" /> April 26, 2023
-                                            </span>
-                                        </div>
                                         <h2>
-                                            <Link to="#">Professional Technology information.</Link>
+                                            <Link to="#">NFT Art gallery development</Link>
                                         </h2>
                                         <p>
-                                            Ensure your IT infrastructure remains resilient when
-                                            adopting trans formative technologies.
+                                            With our extensive experience in design and NFT art gallery development, we can create an art gallery with a design that complements your collection of tokenized digital art and help it attract attention.
                                         </p>
-                                        <Link className="link" to="/blog-details">
-                                            Read More
-                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -263,23 +221,16 @@ const NftServices = () => {
                                         alt=""
                                     />
                                 </div>
-<div className="text-file" style={{bottom:"0"}}>
+                                <div className="text-file" style={{ bottom: "0" }}>
                                     <div className="title">
-                                        <div className="date">
-                                            <span>
-                                                <i className="fa-regular fa-clock" /> April 26, 2023
-                                            </span>
-                                        </div>
+
                                         <h2>
-                                            <Link to="#">Professional Technology information.</Link>
+                                            <Link to="#">NFT streaming platform</Link>
                                         </h2>
                                         <p>
-                                            Ensure your IT infrastructure remains resilient when
-                                            adopting trans formative technologies.
+                                            We are able to create an NFT-based multimedia streaming platform. We enable you and your users to tokenize and directly generate essentials such as audio podcasts, music, videos, and even live concerts in a whole new way with this kind of service.
+
                                         </p>
-                                        <Link className="link" to="/blog-details">
-                                            Read More
-                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -297,33 +248,17 @@ const NftServices = () => {
                                         alt=""
                                     />
                                 </div>
-<div className="text-file" style={{bottom:"0"}}>
+                                <div className="text-file" style={{ bottom: "0" }}>
                                     <div className="title">
-                                        <div className="date">
-                                            <span>
-                                                <i className="fa-regular fa-clock" /> April 26, 2023
-                                            </span>
-                                        </div>
                                         <h2>
-                                            <Link to="#">Professional Technology information.</Link>
+                                            <Link to="#">NFT Aggregator Development</Link>
                                         </h2>
                                         <p>
-                                            Ensure your IT infrastructure remains resilient when
-                                            adopting trans formative technologies.
+                                            Our pool of knowledgeable and talented blockchain experts is well-versed in NFT standards as well as various blockchain technologies. Our team uses a flexible technique to deliver frequently evaluated NFTs on time.
                                         </p>
-                                        <Link className="link" to="/blog-details">
-                                            Read More
-                                        </Link>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div className="inner-btn d-adjust">
-                        <div>
-                            <Link className="default-btn" to="/blog">
-                                View More Blogs
-                            </Link>
                         </div>
                     </div>
                 </div>

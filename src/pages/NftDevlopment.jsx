@@ -12,6 +12,9 @@ import Preloader from '../elements/Preloader';
 import NftHero from '../components/Nftdevelopment/NftHero';
 import NftAboutSection from '../components/Nftdevelopment/NftAboutSection';
 import NftServices from '../components/Nftdevelopment/NftServices';
+import NftCounter from '../components/Nftdevelopment/NftCounter';
+import NftBanner from '../components/Nftdevelopment/NftBanner';
+import NftFeatures from '../components/Nftdevelopment/NftFeatures';
 
 function NftDevlopment() {
     let [active, setActive] = useState(true);
@@ -34,9 +37,13 @@ function NftDevlopment() {
                 {/*2 , 3 about Details Section */}
                 <NftAboutSection />
                 {/*countbar*/}
-                <CounterService1 />
+                <NftCounter />
                 {/*service*/}
                 <NftServices />
+                {/*banner*/}
+                <NftBanner />
+                {/* { features} */}
+                <NftFeatures />
                 {/* faq */}
                 <FAQSectionOne />
                 {/* contact */}
