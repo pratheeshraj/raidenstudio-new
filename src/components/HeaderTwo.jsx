@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./HeaderTwo.css";
-import logo_img from "../images/xedhb p.png";
+import logo_img from "../images/raiden rewamp logo.png";
 const HeaderTwo = () => {
   const [active, setActive] = useState(false);
   const [scroll, setScroll] = useState(false);

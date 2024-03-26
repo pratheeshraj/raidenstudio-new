@@ -15,6 +15,7 @@ import NftServices from '../components/Nftdevelopment/NftServices';
 import NftCounter from '../components/Nftdevelopment/NftCounter';
 import NftBanner from '../components/Nftdevelopment/NftBanner';
 import NftFeatures from '../components/Nftdevelopment/NftFeatures';
+import NftProgramming from '../components/Nftdevelopment/NftProgramming';
 
 function NftDevlopment() {
     let [active, setActive] = useState(true);
@@ -44,6 +45,8 @@ function NftDevlopment() {
                 <NftBanner />
                 {/* { features} */}
                 <NftFeatures />
+                {/* nft programming */}
+                <NftProgramming />
                 {/* faq */}
                 <FAQSectionOne />
                 {/* contact */}
