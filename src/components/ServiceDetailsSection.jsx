@@ -25,25 +25,9 @@ const ServiceDetailsSection = () => {
             </div>
             <div className="col-lg-6">
               <div className="right-wrapper ps-2">
-                <h2 style={{ color: "black" }} className="title">AI Development Company</h2>
+                <h2 style={{ color: "black" }} className="title">Custom AI Software & App Development Company</h2>
                 <p style={{ color: "black" }}>
-                  We’re an international custom AI development company that helps to simplify your business workflows and boost operational productivity. Combining our creativity, AI expertise, and AI applications development approach, we deliver a complete AI spectrum that matters to users' and businesses' success.
-                </p>
-                <ul style={{ color: "black" }}>
-                  <li>We Create Proof of Concepts Driven AI Projects in 1 Month
-                  </li>
-                  <li>We upgrade your product using AI features.
-                  </li>
-                  <li>We take care of your AI business requirements.
-                  </li>
-                </ul>
-                <ul style={{ marginTop: "20px", color: "black" }}>
-                  <li>50+ AI Developers</li>
-                  <li>100+ Software Products Launched
-                  </li>
-                  <li>20+ AI Solutions</li>
-                  <li>5+ Year of Experience</li>
-                </ul>
+                  With our experience in creating AI apps, we, as a reputable artificial intelligence development company provide businesses with cutting-edge AI development solutions. Our skilled team of artificial intelligence developers creates tailored solutions, such as machine learning algorithms, analytical models, and interactive chatbots, to meet the particular needs of various sectors. Our state-of-the-art products and services are made to empower your business and generate prominent results as it embarks on a digital transformation.                </p>
               </div>
             </div>
           </div>

@@ -193,6 +193,26 @@ const ServiceSectionTwo = () => {
                 </div>
               </div>
             </div>
+            <div className="col-lg-4 col-md-6 col-12">
+              <div
+                className="section-wrapper "
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <div className="wrapper-inner one">
+                  <div className="img-file">
+                    <img src="/assets/img/Services_Enterprises/8 deep-learning@0.3x.png" alt="" />
+                  </div>
+                  <div className="text-file">
+                    <h3>
+                      <Link to="#">AI app development</Link>
+                    </h3>
+                    <p>
+                      Our AI development team creates excellent AI-powered applications to maximize technology utilization for business advantages. We provide customisable engagement models that meet your specific demands.                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           {/* <div className="inner-btn d-adjust">
             <div>

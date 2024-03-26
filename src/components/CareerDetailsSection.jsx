@@ -1,11 +1,33 @@
-import React, { Fragment, useRef } from "react";
-import { Link } from "react-router-dom";
+import React, { Fragment, useEffect, useRef } from "react";
+import { Link, useParams } from "react-router-dom";
+import { useDispatch, useSelector } from 'react-redux';
+import { GetSingleJobs } from "../action/JobActions";
 
 const CareerDetailsSection = () => {
   const targetRef = useRef(null);
   const scrollToComponent = () => {
     targetRef.current.scrollIntoView({ behavior: "smooth" });
   };
+
+  const { singlejobpost, loading } = useSelector((state) => state.jobState)
+
+  const params = useParams()
+  const dispatch = useDispatch()
+
+  useEffect(() => {
+    dispatch(GetSingleJobs(params.id))
+  }, [])
+
+
+  console.log(singlejobpost);
+
+  const getContent = (data) => {
+    return <div dangerouslySetInnerHTML={{ __html: data }} />;
+  };
+
+  const skills = singlejobpost?.requiredSkill.split(',');
+
+
   return (
     <Fragment>
       <section>
@@ -28,37 +50,24 @@ const CareerDetailsSection = () => {
               Techies. all we look at is excellence rather than experience.
             </p>
             <div className="content">
-              <h6>MIDDLE+ IT COPYWRITER</h6>
-              <p>Position : 4</p>
-              <p>Location : Madurai</p>
-              <p>Experience : 1-3 Years</p>
+              <h6>{singlejobpost?.category}</h6>
+              <p>Position : {singlejobpost?.postion}</p>
+              <p>Location : {singlejobpost?.location}</p>
+              <p>Experience : {singlejobpost?.experience}</p>
               <h6>Required Skills</h6>
               <ul>
-                <li>Nodejs</li>
-                <li>MongoDb</li>
+                {
+                  skills && skills.map((skill, index) => {
+                    return (
+                      <li>{skill.trim()}</li>
+                    )
+                  })
+
+                }
               </ul>
               <h6>Key Responsibilities</h6>
               <ul>
-                <li>
-                  Must have strong exposure in End to End development skill
-                  using Node js
-                </li>
-                <li>
-                  Proficiency in using React JS/ Angular Js/ Angular 2/ Vue js
-                  is good to have
-                </li>
-                <li>
-                  Proficiency in using React JS/ Angular Js/ Angular 2/ Vue js
-                  is good to have
-                </li>
-                <li>
-                  Proficiency in using React JS/ Angular Js/ Angular 2/ Vue js
-                  is good to have
-                </li>
-                <li>
-                  Proficiency in using React JS/ Angular Js/ Angular 2/ Vue js
-                  is good to have
-                </li>
+                {getContent(singlejobpost?.keyresponse)}
               </ul>
             </div>
             <div className="button">
