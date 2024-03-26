@@ -69,7 +69,7 @@ const SliderThree = () => {
                                         className="slide-bg"
                                         style={{
                                             backgroundImage:
-                                                "url('assets/img/bg-image/Artificial Inteliigence.png')",
+                                                "url('assets/img/bg-image/ai new home.jpg')",
                                         }}
                                     />
                                     <div className="auto-container">
@@ -77,10 +77,10 @@ const SliderThree = () => {
                                             <div className="col-lg-7">
                                                 <div className="slider-content-inner ">
                                                     <div>
-                                                        <h4 className="sub-title">The Most Personalized</h4>
+                                                        <h4 style={{ color: "#2ac8fd" }} className="sub-title">The Most Personalized</h4>
                                                         <h2 className="slider-title">
                                                             Your New Age Generative AI
-                                                            <span className="theme-color"> Development Partner</span>
+                                                            <span style={{ color: "#2ac8fd" }} className="theme-color"> Development Partner</span>
                                                         </h2>
                                                         <p className="description">
                                                             Utilize our expertise to fast-track your AI projects with our end-to-end development services.
@@ -88,7 +88,7 @@ const SliderThree = () => {
                                                         </p>
                                                         <div className="inner-btn">
                                                             <div>
-                                                                <Link className="default-btn" to="/contact">
+                                                                <Link style={{ background: "#2ac8fd" }} className="default-btn" to="/contact">
                                                                     Explore Now
                                                                 </Link>
                                                             </div>
@@ -96,7 +96,7 @@ const SliderThree = () => {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="col-lg-5">
+                                            {/* <div className="col-lg-5">
                                                 <div className="slider-content-inner-right">
                                                     <div className="img-wrapper" style={{ position: "relative", top: "-25px" }}>
                                                         <img
@@ -105,7 +105,7 @@ const SliderThree = () => {
                                                         />
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>
