@@ -561,6 +561,11 @@
     animation-delay: 0.8s;
 }
 
+.Card6_service:nth-child(9) {
+    animation-delay: 0.9s;
+}
+
+
 .Card6_service::before {
     content: '';
     position: absolute;

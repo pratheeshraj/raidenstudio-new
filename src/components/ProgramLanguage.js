@@ -64,15 +64,15 @@ const ProgramLanguage = () => {
                         {
                             frontend ? <div className="right_Language_div">
                                 <div className="card">
-                                    <img src="/assets/img/Language/react-2.svg" alt="" />
-                                    <div className="Card_name">MEAN</div>
-                                </div>
-                                <div className="card">
-                                    <img src="/assets/img/Language/ANGULAR.svg" alt="" />
+                                    <img src="/assets/img/Language/becomeamernstackdeveloper-mobile-min.png" alt="" />
                                     <div className="Card_name">MERN</div>
                                 </div>
+                                <div className="card">
+                                    <img src="/assets/img/Language/Screenshot_2024-03-27_112007-removebg-preview-min.png" alt="" />
+                                    <div className="Card_name">MEAN</div>
+                                </div>
                                 <div className="card ">
-                                    <img src="/assets/img/Language/Vue.js_Logo_2.svg" alt="" />
+                                    <img style={{ scale: "1.3" }} src="/assets/img/Language/WebGL-Logo.wine.svg" alt="" />
                                     <div className="Card_name">WebGL</div>
                                 </div>
                             </div> : mobile ? <div className="right_Language_div">
@@ -110,7 +110,7 @@ const ProgramLanguage = () => {
                                     <div className="Card_name">PolkaDot</div>
                                 </div>
                                 <div className="card5">
-                                    <img src="/assets/img/Language/polkadot-new-dot-logo.svg" alt="" />
+                                    <img src="/assets/img/Language/ipfs-logo.svg" alt="" />
                                     <div className="Card_name">IPFS</div>
                                 </div>
                             </div> : game ? <div className="right_Language_div">
@@ -119,35 +119,35 @@ const ProgramLanguage = () => {
                                     <div className="Card_name">Unity 3D</div>
                                 </div>
                                 <div className="card6">
-                                    <img style={{ fill: "red" }} src="/assets/img/Language/unreal-engine 1.svg" alt="" />
+                                    <img style={{ fill: "red" }} src="/assets/img/Language/unreal.svg" alt="" />
                                     <div className="Card_name">UnReal Engine</div>
                                 </div>
                                 <div className="card6">
-                                    <img src="/assets/img/Language/augmented-reality (1)-min.png" alt="" />
+                                    <img src="/assets/img/Language/arkit-removebg-preview 1.png" alt="" />
                                     <div className="Card_name">ARKit</div>
                                 </div>
                                 <div className="card6">
-                                    <img src="/assets/img/Language/apple-vision-pro-labs-256x256_2x.png" alt="" />
+                                    <img src="/assets/img/Language/google-arcore.svg" alt="" />
                                     <div className="Card_name">ARCore</div>
                                 </div>
                                 <div className="card6">
-                                    <img src="/assets/img/Language/apple-vision-pro-labs-256x256_2x.png" alt="" />
+                                    <img src="/assets/img/Language/csharp.svg.svg" alt="" />
                                     <div className="Card_name">C#</div>
                                 </div>
                                 <div className="card6">
-                                    <img src="/assets/img/Language/apple-vision-pro-labs-256x256_2x.png" alt="" />
+                                    <img src="/assets/img/Language/c++.svg" alt="" />
                                     <div className="Card_name"> C++</div>
                                 </div>
                                 <div className="card6">
-                                    <img src="/assets/img/Language/apple-vision-pro-labs-256x256_2x.png" alt="" />
+                                    <img src="/assets/img/Language/blender-icon.svg" alt="" />
                                     <div className="Card_name">Blender</div>
                                 </div>
                                 <div className="card6">
-                                    <img src="/assets/img/Language/apple-vision-pro-labs-256x256_2x.png" alt="" />
+                                    <img src="/assets/img/Language/aframe-logo.png" alt="" />
                                     <div className="Card_name">A-Frame</div>
                                 </div>
                                 <div className="card6">
-                                    <img src="/assets/img/Language/apple-vision-pro-labs-256x256_2x.png" alt="" />
+                                    <img src="/assets/img/Language/three js.png" alt="" />
                                     <div className="Card_name">Three.js</div>
                                 </div>
                             </div> : ""

@@ -560,6 +560,10 @@
     animation-delay: 0.8s;
 }
 
+.card6:nth-child(9) {
+    animation-delay: 0.9s;
+}
+
 .card6::before {
     content: '';
     position: absolute;

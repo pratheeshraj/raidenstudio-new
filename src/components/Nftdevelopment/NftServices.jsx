@@ -44,9 +44,9 @@ const NftServices = () => {
                                     />
                                 </div>
                                 <div className="text-file" style={{ bottom: "0" }}>
-                                    <div className="title">
+                                    <div className="title" style={{ textAlign: "center" }}>
                                         <h2>
-                                            <Link to="#">Non-Fungible Token Development</Link>
+                                            <Link style={{ lineHeight: "30px" }} to="#">Non-Fungible Token Development</Link>
                                         </h2>
                                         <p>
                                             Our reputable NFT Development services enable you to convert your digital and tangible assets into tokens that you can trade on the NFT Marketplace, allowing you to tap into a world of more lucrative prospects.
@@ -69,9 +69,9 @@ const NftServices = () => {
                                     />
                                 </div>
                                 <div className="text-file" style={{ bottom: "0" }}>
-                                    <div className="title">
+                                    <div className="title" style={{ textAlign: "center" }}>
                                         <h2>
-                                            <Link to="#">NFT Marketplace Development</Link>
+                                            <Link style={{ lineHeight: "30px" }} to="#">NFT Marketplace Development</Link>
                                         </h2>
                                         <p>
                                             We design your NFT marketplace interface and back-end development solution to enable NFT trading. Moreover, our team of professionals makes sure that leading-edge design and development are used to give you a seamless trading experience.
@@ -94,9 +94,9 @@ const NftServices = () => {
                                     />
                                 </div>
                                 <div className="text-file" style={{ bottom: "0" }}>
-                                    <div className="title">
+                                    <div className="title" style={{ textAlign: "center" }}>
                                         <h2>
-                                            <Link to="#">Web3 Wallet Integration</Link>
+                                            <Link style={{ lineHeight: "30px" }} to="#">Web3 Wallet Integration</Link>
                                         </h2>
                                         <p>
                                             VRaiden can assist you in designing and integrating crypto wallets for Web3 Dapps and NFT marketplaces. We collaborate with many blockchain networks to incorporate the most widely used cryptocurrency wallets.
@@ -119,9 +119,9 @@ const NftServices = () => {
                                     />
                                 </div>
                                 <div className="text-file" style={{ bottom: "0" }}>
-                                    <div className="title">
+                                    <div className="title" style={{ textAlign: "center" }}>
                                         <h2>
-                                            <Link to="#">Smart Contract Development</Link>
+                                            <Link style={{ lineHeight: "30px" }} to="#">Smart Contract Development</Link>
                                         </h2>
                                         <p>
                                             Utilize our experience in developing smart contracts to create your own NFT marketplace. Our custom service assures reliable and efficient NFT trading on your platform.
@@ -144,9 +144,9 @@ const NftServices = () => {
                                     />
                                 </div>
                                 <div className="text-file" style={{ bottom: "0" }}>
-                                    <div className="title">
+                                    <div className="title" style={{ textAlign: "center" }}>
                                         <h2>
-                                            <Link to="#">Cross-chain NFT platform development</Link>
+                                            <Link style={{ lineHeight: "30px" }} to="#">Cross-chain NFT platform development</Link>
                                         </h2>
                                         <p>
                                             At VRaiden, we create an NFT marketplace with cross-chain features like multi-token wallet systems, cross-chain transactions, and blockchain network interoperability.
@@ -169,9 +169,9 @@ const NftServices = () => {
                                     />
                                 </div>
                                 <div className="text-file" style={{ bottom: "0" }}>
-                                    <div className="title">
+                                    <div className="title" style={{ textAlign: "center" }}>
                                         <h2>
-                                            <Link to="#">NFT games development</Link>
+                                            <Link style={{ lineHeight: "30px" }} to="#">NFT games development</Link>
                                         </h2>
                                         <p>
                                             VRaiden has the abilities of handling the entire process for creating a fully functional NFT game.
@@ -197,9 +197,9 @@ const NftServices = () => {
                                     />
                                 </div>
                                 <div className="text-file" style={{ bottom: "0" }}>
-                                    <div className="title">
+                                    <div className="title" style={{ textAlign: "center" }}>
                                         <h2>
-                                            <Link to="#">NFT Art gallery development</Link>
+                                            <Link style={{ lineHeight: "30px" }} to="#">NFT Art gallery development</Link>
                                         </h2>
                                         <p>
                                             With our extensive experience in design and NFT art gallery development, we can create an art gallery with a design that complements your collection of tokenized digital art and help it attract attention.
@@ -222,10 +222,10 @@ const NftServices = () => {
                                     />
                                 </div>
                                 <div className="text-file" style={{ bottom: "0" }}>
-                                    <div className="title">
+                                    <div className="title" style={{ textAlign: "center" }}>
 
                                         <h2>
-                                            <Link to="#">NFT streaming platform</Link>
+                                            <Link style={{ lineHeight: "30px" }} to="#">NFT streaming platform</Link>
                                         </h2>
                                         <p>
                                             We are able to create an NFT-based multimedia streaming platform. We enable you and your users to tokenize and directly generate essentials such as audio podcasts, music, videos, and even live concerts in a whole new way with this kind of service.
@@ -249,9 +249,9 @@ const NftServices = () => {
                                     />
                                 </div>
                                 <div className="text-file" style={{ bottom: "0" }}>
-                                    <div className="title">
+                                    <div className="title" style={{ textAlign: "center" }}>
                                         <h2>
-                                            <Link to="#">NFT Aggregator Development</Link>
+                                            <Link style={{ lineHeight: "30px" }} to="#">NFT Aggregator Development</Link>
                                         </h2>
                                         <p>
                                             Our pool of knowledgeable and talented blockchain experts is well-versed in NFT standards as well as various blockchain technologies. Our team uses a flexible technique to deliver frequently evaluated NFTs on time.
