@@ -114,6 +114,8 @@ const ServiceProgramLanguage = () => {
                                     <img src="/assets/img/Language/ethereum-eth-logo.svg" alt="" />
                                     <div className="Card_name_sevice">Ethereum</div>
                                 </div>
+
+
                                 <div className="Card5_service">
                                     <img src="/assets/img/Language/solana-sol-logo.svg" alt="" />
                                     <div className="Card_name_sevice">Solana</div>
