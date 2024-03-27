@@ -17,15 +17,7 @@ const ProgramLanguage = () => {
         setBlockchain(false)
         setGame(false)
     }
-    const handleBackend = () => {
-        setFrontend(false)
-        setBackend(true)
-        setMobile(false)
-        setDatabase(false)
-        setBlockchain(false)
-        setGame(false)
 
-    }
     const handleMobile = () => {
         setFrontend(false)
         setBackend(false)
@@ -33,16 +25,6 @@ const ProgramLanguage = () => {
         setDatabase(false)
         setBlockchain(false)
         setGame(false)
-
-    }
-    const handleDatabase = () => {
-        setFrontend(false)
-        setBackend(false)
-        setMobile(false)
-        setDatabase(true)
-        setBlockchain(false)
-        setGame(false)
-
     }
     const handleBlockchain = () => {
         setFrontend(false)
@@ -73,10 +55,8 @@ const ProgramLanguage = () => {
                         <h2 style={{ textAlign: "center" }}>High-End Technologies <span className="theme-color">We Use</span></h2>
                         <p style={{ textAlign: "center" }}>Helping startups and enterprises with the right blend of experience and technology.</p>
                         <div className="left_Language_div">
-                            <div onClick={handleFrontEnd} style={{ color: frontend ? '#13C4A1' : '' }}>Frontend</div>
-                            <div onClick={handleBackend} style={{ color: backend ? '#13C4A1' : '' }}>Backend </div>
+                            <div onClick={handleFrontEnd} style={{ color: frontend ? '#13C4A1' : '' }}>Web</div>
                             <div onClick={handleMobile} style={{ color: mobile ? '#13C4A1' : '' }}>Mobile </div>
-                            <div onClick={handleDatabase} style={{ color: database ? '#13C4A1' : '' }}>Database</div>
                             <div onClick={handleBlockchain} style={{ color: blockchain ? '#13C4A1' : '' }}>Blockchain</div>
                             <div onClick={handleGame} style={{ color: game ? '#13C4A1' : '' }}>Game</div>
 
@@ -85,124 +65,92 @@ const ProgramLanguage = () => {
                             frontend ? <div className="right_Language_div">
                                 <div className="card">
                                     <img src="/assets/img/Language/react-2.svg" alt="" />
-                                    <div className="Card_name">React</div>
+                                    <div className="Card_name">MEAN</div>
                                 </div>
                                 <div className="card">
                                     <img src="/assets/img/Language/ANGULAR.svg" alt="" />
-                                    <div className="Card_name">Angular</div>
+                                    <div className="Card_name">MERN</div>
                                 </div>
                                 <div className="card ">
                                     <img src="/assets/img/Language/Vue.js_Logo_2.svg" alt="" />
-                                    <div className="Card_name">Vue</div>
+                                    <div className="Card_name">WebGL</div>
                                 </div>
-                                <div className="card">
-                                    <img src="/assets/img/Language/javascript-1.svg" alt="" />
-                                    <div className="Card_name">JavaScript</div>
+                            </div> : mobile ? <div className="right_Language_div">
+                                <div className="card3">
+                                    <img src="/assets/img/Language/REACT NATIVE.svg" alt="" />
+                                    <div className="Card_name">React Native</div>
                                 </div>
-                                <div className="card">
-                                    <img src="/assets/img/Language/JQUERY.svg" alt="" />
-                                    <div className="Card_name">jQuery</div>
+                                <div className="card3">
+                                    <img src="/assets/img/Language/FLUTTER.svg" alt="" />
+                                    <div className="Card_name">Flutter</div>
                                 </div>
-
-                            </div> : backend ?
-                                <div className="right_Language_div">
-                                    <div className="card2">
-                                        <img src="/assets/img/Language/nodejs-icon.svg" alt="" />
-                                        <div className="Card_name">Node Js</div>
-                                    </div>
-                                    <div className="card2">
-                                        <img src="/assets/img/Language/PYTHON.svg" alt="" />
-                                        <div className="Card_name">Python</div>
-                                    </div>
-                                    <div className="card2 ">
-                                        <img src="/assets/img/Language/JAVA.svg" alt="" />
-                                        <div className="Card_name">Java</div>
-                                    </div>
-                                    <div className="card2">
-                                        <img src="/assets/img/Language/NEST JS.svg" alt="" />
-                                        <div className="Card_name">Nest Js</div>
-                                    </div>
-                                </div> : database ? <div className="right_Language_div">
-                                    <div className="card4">
-                                        <img src="/assets/img/Language/postgresq.svg" alt="" />
-                                        <div className="Card_name">Postgres</div>
-                                    </div>
-                                    <div className="card4">
-                                        <img src="/assets/img/Language/mongo.svg" alt="" />
-                                        <div className="Card_name">MongoDB</div>
-                                    </div>
-                                    <div className="card4">
-                                        <img src="/assets/img/Language/sql server.svg" alt="" />
-                                        <div className="Card_name">SQL Server</div>
-                                    </div>
-                                    <div className="card4">
-                                        <img src="/assets/img/Language/mysql-icon.svg" alt="" />
-                                        <div className="Card_name">MySQL</div>
-                                    </div>
-                                </div> : mobile ? <div className="right_Language_div">
-                                    <div className="card3">
-                                        <img src="/assets/img/Language/REACT NATIVE.svg" alt="" />
-                                        <div className="Card_name">React Native</div>
-                                    </div>
-                                    <div className="card3">
-                                        <img src="/assets/img/Language/FLUTTER.svg" alt="" />
-                                        <div className="Card_name">Flutter</div>
-                                    </div>
-                                    <div className="card3">
-                                        <img src="/assets/img/Language/SWIFT.svg" alt="" />
-                                        <div className="Card_name">Swift</div>
-                                    </div>
-                                    <div className="card3">
-                                        <img src="/assets/img/Language/KATLIN.svg" alt="" />
-                                        <div className="Card_name">Kotlin</div>
-                                    </div>
-                                </div> : blockchain ? <div className="right_Language_div">
-                                    <div className="card5">
-                                        <img src="/assets/img/Language/ethereum-eth-logo.svg" alt="" />
-                                        <div className="Card_name">Ethereum</div>
-                                    </div>
-                                    <div className="card5">
-                                        <img src="/assets/img/Language/solana-sol-logo.svg" alt="" />
-                                        <div className="Card_name">Solana</div>
-                                    </div>
-                                    <div className="card5">
-                                        <img src="/assets/img/Language/polygon-matic-logo (1).svg" alt="" />
-                                        <div className="Card_name">Polygon</div>
-                                    </div>
-                                    <div className="card5">
-                                        <img src="/assets/img/Language/bnb-bnb-logo.svg" alt="" />
-                                        <div className="Card_name">Binance Smart Chain</div>
-                                    </div>
-                                    <div className="card5">
-                                        <img src="/assets/img/Language/cardano-ada-logo.svg" alt="" />
-                                        <div className="Card_name">Cardano</div>
-                                    </div>
-                                    <div className="card5">
-                                        <img src="/assets/img/Language/fantom-ftm-logo.svg" alt="" />
-                                        <div className="Card_name">Fantom</div>
-                                    </div>
-                                    <div className="card5">
-                                        <img src="/assets/img/Language/polkadot-new-dot-logo.svg" alt="" />
-                                        <div className="Card_name">PolkaDot</div>
-                                    </div>
-                                </div> : game ? <div className="right_Language_div">
-                                    <div className="card6">
-                                        <img src="/assets/img/Language/UNITY.svg" alt="" />
-                                        <div className="Card_name">Unity</div>
-                                    </div>
-                                    <div className="card6">
-                                        <img style={{ fill: "red" }} src="/assets/img/Language/unreal-engine 1.svg" alt="" />
-                                        <div className="Card_name">UnReal</div>
-                                    </div>
-                                    <div className="card6">
-                                        <img src="/assets/img/Language/augmented-reality (1)-min.png" alt="" />
-                                        <div className="Card_name">Augumented Reality</div>
-                                    </div>
-                                    <div className="card6">
-                                        <img src="/assets/img/Language/apple-vision-pro-labs-256x256_2x.png" alt="" />
-                                        <div className="Card_name">Virtual Reality</div>
-                                    </div>
-                                </div> : ""
+                                <div className="card3">
+                                    <img src="/assets/img/Language/SWIFT.svg" alt="" />
+                                    <div className="Card_name">Swift</div>
+                                </div>
+                                <div className="card3">
+                                    <img src="/assets/img/Language/KATLIN.svg" alt="" />
+                                    <div className="Card_name">Kotlin</div>
+                                </div>
+                            </div> : blockchain ? <div className="right_Language_div">
+                                <div className="card5">
+                                    <img src="/assets/img/Language/ethereum-eth-logo.svg" alt="" />
+                                    <div className="Card_name">Ethereum</div>
+                                </div>
+                                <div className="card5">
+                                    <img src="/assets/img/Language/solana-sol-logo.svg" alt="" />
+                                    <div className="Card_name">Solana</div>
+                                </div>
+                                <div className="card5">
+                                    <img src="/assets/img/Language/cardano-ada-logo.svg" alt="" />
+                                    <div className="Card_name">Cardano</div>
+                                </div>
+                                <div className="card5">
+                                    <img src="/assets/img/Language/polkadot-new-dot-logo.svg" alt="" />
+                                    <div className="Card_name">PolkaDot</div>
+                                </div>
+                                <div className="card5">
+                                    <img src="/assets/img/Language/polkadot-new-dot-logo.svg" alt="" />
+                                    <div className="Card_name">IPFS</div>
+                                </div>
+                            </div> : game ? <div className="right_Language_div">
+                                <div className="card6">
+                                    <img src="/assets/img/Language/UNITY.svg" alt="" />
+                                    <div className="Card_name">Unity 3D</div>
+                                </div>
+                                <div className="card6">
+                                    <img style={{ fill: "red" }} src="/assets/img/Language/unreal-engine 1.svg" alt="" />
+                                    <div className="Card_name">UnReal Engine</div>
+                                </div>
+                                <div className="card6">
+                                    <img src="/assets/img/Language/augmented-reality (1)-min.png" alt="" />
+                                    <div className="Card_name">ARKit</div>
+                                </div>
+                                <div className="card6">
+                                    <img src="/assets/img/Language/apple-vision-pro-labs-256x256_2x.png" alt="" />
+                                    <div className="Card_name">ARCore</div>
+                                </div>
+                                <div className="card6">
+                                    <img src="/assets/img/Language/apple-vision-pro-labs-256x256_2x.png" alt="" />
+                                    <div className="Card_name">C#</div>
+                                </div>
+                                <div className="card6">
+                                    <img src="/assets/img/Language/apple-vision-pro-labs-256x256_2x.png" alt="" />
+                                    <div className="Card_name"> C++</div>
+                                </div>
+                                <div className="card6">
+                                    <img src="/assets/img/Language/apple-vision-pro-labs-256x256_2x.png" alt="" />
+                                    <div className="Card_name">Blender</div>
+                                </div>
+                                <div className="card6">
+                                    <img src="/assets/img/Language/apple-vision-pro-labs-256x256_2x.png" alt="" />
+                                    <div className="Card_name">A-Frame</div>
+                                </div>
+                                <div className="card6">
+                                    <img src="/assets/img/Language/apple-vision-pro-labs-256x256_2x.png" alt="" />
+                                    <div className="Card_name">Three.js</div>
+                                </div>
+                            </div> : ""
                         }
                     </div>
                 </div>

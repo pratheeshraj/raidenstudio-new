@@ -233,7 +233,73 @@ const NftProgramming = () => {
                                         <img src="/assets/img/Language/react-2.svg" alt="" />
                                         <div>dGoods</div>
                                     </div>
-
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div className="Nft_program_name">Smart Contracts</div>
+                            <div className="Nft_slider">
+                                <div className="Nft_slide-track">
+                                    <div className="Nft_slide">
+                                        <img src="/assets/img/Language/react-2.svg" alt="" />
+                                        <div>Solidity</div>
+                                    </div>
+                                    <div className="Nft_slide">
+                                        <img src="/assets/img/Language/react-2.svg" alt="" />
+                                        <div>Vyper</div>
+                                    </div>
+                                    <div className="Nft_slide">
+                                        <img src="/assets/img/Language/react-2.svg" alt="" />
+                                        <div>Yul</div>
+                                    </div>
+                                    <div className="Nft_slide">
+                                        <img src="/assets/img/Language/react-2.svg" alt="" />
+                                        <div>Cairo</div>
+                                    </div>
+                                    <div className="Nft_slide">
+                                        <img src="/assets/img/Language/react-2.svg" alt="" />
+                                        <div>Rust</div>
+                                    </div>
+                                    <div className="Nft_slide">
+                                        <img src="/assets/img/Language/react-2.svg" alt="" />
+                                        <div>Move</div>
+                                    </div>
+                                    <div className="Nft_slide">
+                                        <img src="/assets/img/Language/react-2.svg" alt="" />
+                                        <div>DeVops</div>
+                                    </div>
+                                    <div className="Nft_slide">
+                                        <img src="/assets/img/Language/react-2.svg" alt="" />
+                                        <div>Docker</div>
+                                    </div>
+                                    <div className="Nft_slide">
+                                        <img src="/assets/img/Language/react-2.svg" alt="" />
+                                        <div>Ansible</div>
+                                    </div>
+                                    <div className="Nft_slide">
+                                        <img src="/assets/img/Language/react-2.svg" alt="" />
+                                        <div>AWS</div>
+                                    </div>
+                                    <div className="Nft_slide">
+                                        <img src="/assets/img/Language/react-2.svg" alt="" />
+                                        <div>Azure</div>
+                                    </div>
+                                    <div className="Nft_slide">
+                                        <img src="/assets/img/Language/react-2.svg" alt="" />
+                                        <div>Solidity</div>
+                                    </div>
+                                    <div className="Nft_slide">
+                                        <img src="/assets/img/Language/react-2.svg" alt="" />
+                                        <div>Vyper</div>
+                                    </div>
+                                    <div className="Nft_slide">
+                                        <img src="/assets/img/Language/react-2.svg" alt="" />
+                                        <div>Yul</div>
+                                    </div>
+                                    <div className="Nft_slide">
+                                        <img src="/assets/img/Language/react-2.svg" alt="" />
+                                        <div>Cairo</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

@@ -657,9 +657,9 @@
 .Nft_slide {
     /* background: white; */
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
-    width: 260px;
+    width: 220px;
     /* padding: 10px; */
     height: 70px;
     gap: 10px;
