@@ -5,7 +5,7 @@ const ProjectDetailUseCase = () => {
     <section>
       <div className="container-fluid UseCase">
         <div className="auto-container UseCase_content">
-          <h2>Industry Wide Use Cases</h2>
+          <h2>Services</h2>
           <div className="row UseCase_content_row">
             <div className="col-lg-6  order-2 order-lg-1">
               <div
@@ -14,22 +14,17 @@ const ProjectDetailUseCase = () => {
                 data-aos-delay="300"
               >
                 <h2 className="title">
-                  <span>Automotive</span>
+                  <span> Metaverse Game</span>
                 </h2>
                 <p>
-                  Train employees swiftly on assembly processes to improve
-                  quality and workplace safety. Enhance design and prototyping
-                  processes through immersive virtual simulations. Overlay
-                  real-time diagnostics onto physical vehicles aiding
-                  maintenance and repair.
+                  Game development expertise across multiple platforms including
+                  PC, console, and VR/AR devices.○ Integration of AI algorithms
+                  for procedural generation, NPC behavior, and dynamic content
+                  adaptation.○ Implementation of multiplayer networking features
+                  and social interaction mechanics within virtual game
+                  environments.
                 </p>
-                <ul>
-                  <li>Assembly Training </li>
-                  <li>Quality Control Training.</li>
-                  <li>Tracking, Report Generation and Certification.</li>
-                  <li>Quality Control Training.</li>
-                  <li>Tracking, Report Generation and Certification.</li>
-                </ul>
+                <h6>Business Use Cases</h6>
               </div>
             </div>
             <div

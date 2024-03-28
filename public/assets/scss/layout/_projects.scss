@@ -210,7 +210,7 @@
   }
 
   &.two {
-    background: #000C14;
+    background: #000c14;
     padding: 100px 0 80px 0;
     position: relative;
     z-index: 9;
@@ -609,17 +609,15 @@
       }
       font-size: 35px;
       line-height: 36px;
-      margin-bottom: 40px;
+      margin-bottom: 20px;
     }
   }
   .inner-des {
     p {
-      font-size: 26px;
+      font-size: 16px;
       font-weight: bold;
-      line-height: 42px;
       span {
         color: var(--theme-1);
-       
       }
     }
     margin-top: 20px;
@@ -635,25 +633,22 @@
     background: var(--common-body-2);
     @media #{$md, $sm, $xs, $xss} {
       margin-left: 0;
-    }
+    } 
     .project_left {
-     
       h2 {
         font-size: 35px;
         span {
           color: var(--theme-1);
         }
       }
-    div{
-      margin-top: 40px;
-      h3 {
-     
-        font-size: 16px;
-        span {
-          color: var(--theme-1);
+      div {
+        h3 {
+          font-size: 16px;
+          span {
+            color: var(--theme-1);
+          }
         }
       }
-    }
     }
     .inner-des2 {
       p {

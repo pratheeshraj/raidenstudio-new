@@ -14,17 +14,22 @@ const ProductDetailCard = () => {
                 data-aos-delay="300"
               >
                 <h2 className="title">
-                  Are you in <span>Safety Training?</span>
+                  <span> Retail Revolution</span>
                 </h2>
                 <p>
-                  Enable safety layer around your processes and machines with an
-                  understanding of the Do's and Don'ts of working.
+                  Retail Revolution: Partnering with leading retail brands,
+                  Raidenverse has transformed the shopping experience through
+                  immersive virtual stores. By integrating AI-powered
+                  personalization and interactive features, we've boosted
+                  customer engagement, streamlined purchasing processes, and
+                  unlocked new revenue streams for our partners. Educational
+                  Empowerment: In the realm of education, Raidenverse has
+                  facilitated immersive learning environments that transcend
+                  physical limitations. Through virtual classrooms, simulations,
+                  and interactive content, we've empowered educators to deliver
+                  dynamic and engaging lessons, fostering deeper understanding
+                  and retention among students.
                 </p>
-                <ul>
-                  <li>Consequence-based learning.</li>
-                  <li>Past incidents integrated.</li>
-                  <li>Tracking, Report Generation and Certification.</li>
-                </ul>
               </div>
             </div>
             <div
@@ -64,17 +69,17 @@ const ProductDetailCard = () => {
             <div className="col-lg-6" data-aos="fade-left" data-aos-delay="300">
               <div className="right-wrapper ps-2">
                 <h2 className="title">
-                  Are you in <span>Safety Manufacturing?</span>
+                  <span> Corporate Collaboration</span>
                 </h2>
                 <p>
-                  Enable safety layer around your processes and machines with an
-                  understanding of the Do's and Don'ts of working.
+                  For enterprise clients, Raidenverse serves as a catalyst for
+                  collaboration and innovation. Our platform enables distributed
+                  teams to collaborate seamlessly in virtual workspaces,
+                  facilitating real-time communication, project management, and
+                  ideation. By leveraging AI-driven analytics and productivity
+                  tools, we've optimized workflows and accelerated
+                  decision-making processes.
                 </p>
-                <ul>
-                  <li>Consequence-based learning.</li>
-                  <li>Past incidents integrated.</li>
-                  <li>Tracking, Report Generation and Certification.</li>
-                </ul>
               </div>
             </div>
           </div>
@@ -88,17 +93,17 @@ const ProductDetailCard = () => {
                 data-aos-delay="300"
               >
                 <h2 className="title">
-                  Are you in <span> IT and Security?</span>
+                  <span> Healthcare Revolution</span>
                 </h2>
                 <p>
-                  Enable safety layer around your processes and machines with an
-                  understanding of the Do's and Don'ts of working.
+                  In healthcare, Raidenverse has revolutionized patient care and
+                  medical training. By creating lifelike simulations and virtual
+                  environments, we've provided medical professionals with
+                  realistic scenarios for training and skills development.
+                  Additionally, our telemedicine capabilities have expanded
+                  access to healthcare services, allowing patients to receive
+                  remote consultations and treatment from anywhere in the world.
                 </p>
-                <ul>
-                  <li>Consequence-based learning.</li>
-                  <li>Past incidents integrated.</li>
-                  <li>Tracking, Report Generation and Certification.</li>
-                </ul>
               </div>
             </div>
             <div
@@ -119,39 +124,7 @@ const ProductDetailCard = () => {
           </div>
           <br />
           <br />
-          <div className="row">
-            <div
-              className="col-lg-6"
-              data-aos="fade-right"
-              data-aos-delay="300"
-            >
-              <div className="left-wrapper pe-2">
-                <div className="img-file">
-                  <img
-                    className="img-fluid"
-                    src="/assets/img/service/03_service.png"
-                    alt=""
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6" data-aos="fade-left" data-aos-delay="300">
-              <div className="right-wrapper ps-2">
-                <h2 className="title">
-                  Are you in <span>Digital Transformation?</span>
-                </h2>
-                <p>
-                  Enable safety layer around your processes and machines with an
-                  understanding of the Do's and Don'ts of working.
-                </p>
-                <ul>
-                  <li>Consequence-based learning.</li>
-                  <li>Past incidents integrated.</li>
-                  <li>Tracking, Report Generation and Certification.</li>
-                </ul>
-              </div>
-            </div>
-          </div>
+    
           <br />
           <br />
         </div>

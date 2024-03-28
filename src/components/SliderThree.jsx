@@ -26,33 +26,52 @@ const SliderThree = () => {
 
     gsap.registerPlugin(ScrollTrigger);
 
+    // useEffect(() => {
+    //     const pin = gsap.fromTo(
+    //         sectionRef.current,
+    //         {
+    //             translateX: 0,
+    //         },
+    //         {
+    //             translateX: "-300vw",
+    //             ease: "none",
+    //             duration: 1,
+    //             scrollTrigger: {
+    //                 trigger: triggerRef.current,
+    //                 start: "top top",
+    //                 end: "2000 top",
+    //                 scrub: 0.6,
+    //                 pin: true,
+    //             },
+    //         }
+    //     );
+    //     return () => {
+    //         {
+    //             // / A return function for killing the animation on component unmount /
+    //         }
+    //         pin.kill();
+    //     };
+    // }, []);
     useEffect(() => {
-        const pin = gsap.fromTo(
-            sectionRef.current,
-            {
-                translateX: 0,
-            },
-            {
-                translateX: "-300vw",
-                ease: "none",
-                duration: 1,
-                scrollTrigger: {
-                    trigger: triggerRef.current,
-                    start: "top top",
-                    end: "2000 top",
-                    scrub: 0.6,
-                    pin: true,
-                },
-            }
-        );
-        return () => {
-            {
-                // / A return function for killing the animation on component unmount /
-            }
-            pin.kill();
-        };
-    }, []);
+        gsap.registerPlugin(ScrollTrigger);
+        
+        const sections = gsap.utils.toArray('.scroll-section');
 
+        gsap.to(sections, {
+            xPercent: -100 * (sections.length - 1),
+            ease: "none",
+            scrollTrigger: {
+                trigger: triggerRef.current,
+                pin: true,
+                scrub: 1,
+                snap: {
+                    snapTo: 1 / (sections.length - 1),
+                    duration: 0.5
+                },
+                end: () => `+=${triggerRef.current.offsetWidth}`
+            }
+        });
+    }, []);
     return (
         <>
             <section className="scroll-section-outer">
