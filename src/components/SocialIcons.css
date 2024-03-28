@@ -63,6 +63,35 @@
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
+.tooltip-container::after,
+.tooltip-container::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #03a9f4;
+    border-radius: 50%;
+    z-index: -1;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+}
+
+.tooltip-container::before {
+    animation: pulse 2s ease-out infinite;
+}
+
+.tooltip-container::after {
+    animation: pulse 2s 1s ease-out infinite;
+}
+
+@keyframes pulse {
+    100% {
+        transform: scale(1.8);
+        opacity: 0;
+    }
+}
+
 .tooltip-container:hover {
     background: #fff;
     transition: all 0.6s;
@@ -372,12 +401,12 @@
 /* Inicio do tooltip fixo */
 .tooltip9 {
     position: absolute;
-    top: 0;
-    left: -115%;
+    top: -35px;
+    left: -12%;
     opacity: 0;
     visibility: hidden;
     width: 150px;
-    height: 150px;
+    height: 250px;
     z-index: -1;
 }
 
