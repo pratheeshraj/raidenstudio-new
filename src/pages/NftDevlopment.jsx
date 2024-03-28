@@ -18,6 +18,7 @@ import NftFeatures from '../components/Nftdevelopment/NftFeatures';
 import NftProgramming from '../components/Nftdevelopment/NftProgramming';
 import NftIndustries from '../components/Nftdevelopment/NftIndustries';
 import NftProcess from '../components/Nftdevelopment/NftProcess';
+import NftWhyChoose from './../components/Nftdevelopment/NftWhyChoose';
 
 function NftDevlopment() {
     let [active, setActive] = useState(true);
@@ -53,6 +54,8 @@ function NftDevlopment() {
                 <NftIndustries />
                 {/* Nft process */}
                 <NftProcess />
+                {/* whyChoose */}
+                <NftWhyChoose />
                 {/* faq */}
                 <FAQSectionOne />
                 {/* contact */}

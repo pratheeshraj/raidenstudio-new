@@ -150,3 +150,273 @@
     }
   }
 }
+.scroll-section-outer {
+  overflow: hidden;
+}
+
+.scroll-section-inner {
+  height: 100vh;
+  width: 400vw;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.scroll-section {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section1 {
+  background-image: url(../../img/bg-image/technonogy.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  @media #{ $md, $sm, $xs, $xss} {
+    background-position: left;
+  }
+  .section1_container {
+    width: 100%;
+    height: 100%;
+    .left {
+      h4 {
+        color: var(--theme-1);
+
+        @media #{ $md, $sm, $xs, $xss} {
+          width: 100%;
+          text-align: center;
+          font-size: 22px;
+        }
+        @media #{  $xss} {
+          font-size: 18px;
+        }
+      }
+      h2 {
+        @media #{ $md, $sm, $xs, $xss} {
+          width: 100%;
+          font-size: 26px;
+          text-align: center;
+        }
+        @media #{  $xss} {
+          font-size: 22px;
+        }
+        span {
+          color: var(--theme-1);
+        }
+      }
+      p {
+        @media #{ $md, $sm, $xs, $xss} {
+          text-align: center;
+        }
+
+        @media #{  $xss} {
+          font-size: 14px;
+        }
+      }
+
+      width: 55%;
+      height: 100%;
+      display: flex;
+      align-items: start;
+      flex-direction: column;
+      justify-content: center;
+      @media #{ $md, $sm, $xs, $xss} {
+        width: 100%;
+        align-items: center;
+      }
+    }
+  }
+}
+
+.section2 {
+  background-image: url(../../img/bg-image/ai-new-home.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  @media #{ $md, $sm, $xs, $xss} {
+    background-position: left;
+  }
+  .section2_container {
+    width: 100%;
+    height: 100%;
+    .left {
+      h4 {
+        color: var(--theme-1);
+        @media #{ $md, $sm, $xs, $xss} {
+          width: 100%;
+          text-align: center;
+          font-size: 22px;
+        }
+        @media #{  $xss} {
+          font-size: 18px;
+        }
+      }
+      h2 {
+        span {
+          color: var(--theme-1);
+        }
+        @media #{ $md, $sm, $xs, $xss} {
+          width: 100%;
+          font-size: 26px;
+          text-align: center;
+        }
+        @media #{  $xss} {
+          font-size: 22px;
+        }
+      }
+      p {
+        @media #{ $md, $sm, $xs, $xss} {
+          text-align: center;
+        }
+
+        @media #{  $xss} {
+          font-size: 14px;
+        }
+      }
+      width: 55%;
+      height: 100%;
+      display: flex;
+      align-items: start;
+      flex-direction: column;
+      justify-content: center;
+      @media #{ $md, $sm, $xs, $xss} {
+        width: 100%;
+        align-items: center;
+      }
+    }
+  }
+}
+
+.section3 {
+  background-image: url(../../img/bg-image/raiden-new-gaming.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  .section3_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media #{ $md, $sm, $xs, $xss} {
+      flex-direction: column-reverse;
+      justify-content: center;
+    }
+
+    .left {
+      @media #{ $md, $sm, $xs, $xss} {
+        display: flex;
+        align-items: center;
+      }
+      h4 {
+        color: var(--theme-1);
+        @media #{ $md, $sm, $xs, $xss} {
+          width: 100%;
+          text-align: center;
+          font-size: 22px;
+        }
+        @media #{  $xss} {
+          font-size: 18px;
+        }
+      }
+      h2 {
+        span {
+          color: var(--theme-1);
+        }
+        @media #{ $md, $sm, $xs, $xss} {
+          width: 100%;
+          font-size: 26px;
+          text-align: center;
+        }
+        @media #{  $xss} {
+          font-size: 22px;
+        }
+      }
+      p {
+        @media #{ $md, $sm, $xs, $xss} {
+          text-align: center;
+        }
+
+        @media #{  $xss} {
+          font-size: 14px;
+        }
+      }
+      width: 55%;
+      height: 100%;
+      display: flex;
+      align-items: start;
+      flex-direction: column;
+      justify-content: center;
+      @media #{$md,$sm, $xs, $xss} {
+        width: 100%;
+      }
+    }
+    .right {
+      img {
+        width: 430px !important;
+      }
+      @media #{$md,$sm, $xs, $xss} {
+        display: none;
+      }
+    }
+  }
+}
+.section4 {
+  background-image: url(../../img/bg-image/metaverse-new-raiden.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .section4_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .left {
+      @media #{ $md, $sm, $xs, $xss} {
+        display: flex;
+        align-items: center;
+      }
+      h4 {
+        color: var(--theme-1);
+        @media #{ $md, $sm, $xs, $xss} {
+          width: 100%;
+          text-align: center;
+          font-size: 22px;
+        }
+        @media #{  $xss} {
+          font-size: 18px;
+        }
+      }
+      h2 {
+        span {
+          color: var(--theme-1);
+        }
+        @media #{ $md, $sm, $xs, $xss} {
+          width: 100%;
+          font-size: 26px;
+          text-align: center;
+        }
+        @media #{  $xss} {
+          font-size: 22px;
+        }
+      }
+      p {
+        text-align: center;
+      }
+      width: 55%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      @media #{$md,$sm, $xs, $xss} {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -203,7 +203,7 @@ const HeaderTwo = () => {
             </div>
           </div> */}
           <div
-            className={scroll ? "header-inner header__sticky" : "header-inner"}
+            className="header-inner"
             id="header-sticky-2"
           >
             <div className="auto-container">

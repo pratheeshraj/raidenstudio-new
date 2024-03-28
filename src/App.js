@@ -52,7 +52,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      {/* <SocialIcons /> */}
+      <SocialIcons />
       <Toaster />
       <Routes>
         {/* <Route exact path="/" element={<Demo />} /> */}

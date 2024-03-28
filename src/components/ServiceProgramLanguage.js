@@ -152,10 +152,6 @@ const ServiceProgramLanguage = () => {
                                     <div className="Card_name_sevice">C#</div>
                                 </div>
                                 <div className="Card6_service">
-                                    <img src="/assets/img/Language/c++.svg" alt="" />
-                                    <div className="Card_name_sevice"> C++</div>
-                                </div>
-                                <div className="Card6_service">
                                     <img src="/assets/img/Language/blender-icon.svg" alt="" />
                                     <div className="Card_name_sevice">Blender</div>
                                 </div>

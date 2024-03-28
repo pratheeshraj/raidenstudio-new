@@ -8,8 +8,9 @@
 }
 
 .left_Language_div>div {
+    font-family: var(--ff-heading);
     font-size: 22px;
-    font-weight: 600;
+    font-weight: 400;
     cursor: pointer;
     display: flex;
     justify-content: center;

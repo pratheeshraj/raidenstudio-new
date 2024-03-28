@@ -1,281 +1,256 @@
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { Autoplay, Navigation, FreeMode, Thumbs, EffectFade } from 'swiper';
+import React, { useEffect, useRef } from "react";
+import SwiperCore, {
+    Autoplay,
+    Navigation,
+    FreeMode,
+    Thumbs,
+    EffectFade,
+} from "swiper";
 import { Link } from "react-router-dom";
 import ParticlesComponent from "../ParticlesComponent/particles";
-
+import section3_img from "../images/barberian.png";
 // Import Swiper styles
-import 'swiper/css'; // Import core styles
-import 'swiper/css/navigation'; // Import navigation styles
-import 'swiper/css/effect-fade'; // Import fade effect styles
+import "swiper/css"; // Import core styles
+import "swiper/css/navigation"; // Import navigation styles
+import "swiper/css/effect-fade"; // Import fade effect styles
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/all";
+import ScrollAnimation from "react-animate-on-scroll";
 
 // Install Swiper modules
 SwiperCore.use([Autoplay, Navigation, FreeMode, Thumbs, EffectFade]);
 
 const SliderThree = () => {
+    const sectionRef = useRef(null);
+    const triggerRef = useRef(null);
+
+    gsap.registerPlugin(ScrollTrigger);
+
+    useEffect(() => {
+        const pin = gsap.fromTo(
+            sectionRef.current,
+            {
+                translateX: 0,
+            },
+            {
+                translateX: "-300vw",
+                ease: "none",
+                duration: 1,
+                scrollTrigger: {
+                    trigger: triggerRef.current,
+                    start: "top top",
+                    end: "2000 top",
+                    scrub: 0.6,
+                    pin: true,
+                },
+            }
+        );
+        return () => {
+            {
+                // / A return function for killing the animation on component unmount /
+            }
+            pin.kill();
+        };
+    }, []);
+
     return (
         <>
-            {/* slider-area-three-start  */}
-            <section className="hero-slider two" style={{ marginTop: "-50px" }}>
-                <div className="swiper hero-slider-init-one swiper-container swiper-container-fade">
-                    <div className="swiper-wrapper p-relative">
-                        <Swiper
-                            loop={true}
-                            modules={[Navigation, FreeMode, Thumbs, EffectFade]}
-                            navigation={{
-                                nextEl: ".swiper-button-next",
-                                prevEl: ".swiper-button-prev",
-                            }}
-                            autoplay={{ delay: 4000 }}
-                        >
-                            <SwiperSlide>
-                                <div>
-                                    <ParticlesComponent id="particles" />
-                                    <div className="item-slider sliderm-height p-relative swiper-slide">
-                                        <div
-                                            className="slide-bg"
-                                        />
-                                        <div className="auto-container">
-                                            <div className="row ">
-                                                <div className="col-12">
-                                                    <div className="slider-content-inner middle">
-                                                        <div>
-                                                            <h4 className="sub-title">The Most Personalized</h4>
-                                                            <h2 className="slider-title">
-                                                                Best-in-Class Blockchain Development
-                                                            </h2>
-                                                            <p className="description">
-                                                                RAIDEN offers top-tier blockchain game development services tailored to gaming businesses of any size.
-                                                                Our team excels in NFT, Metaverse, and Sports Betting design and development, delivering exceptional and engaging gaming experiences.
-                                                            </p>
-                                                            <div className="inner-btn">
-                                                                <div>
-                                                                    <Link className="default-btn" to="/contact">
-                                                                        Contact Us Now
-                                                                    </Link>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div className="item-slider sliderm-height p-relative swiper-slide">
-                                    <div
-                                        className="slide-bg"
-                                        style={{
-                                            backgroundImage:
-                                                "url('assets/img/bg-image/ai new home.jpg')",
-                                        }}
-                                    />
-                                    <div className="auto-container">
-                                        <div className="row ">
-                                            <div className="col-lg-7">
-                                                <div className="slider-content-inner ">
-                                                    <div>
-                                                        <h4 style={{ color: "#2ac8fd" }} className="sub-title">The Most Personalized</h4>
-                                                        <h2 className="slider-title">
-                                                            Your New Age Generative AI
-                                                            <span style={{ color: "#2ac8fd" }} className="theme-color"> Development Partner</span>
-                                                        </h2>
-                                                        <p className="description">
-                                                            Utilize our expertise to fast-track your AI projects with our end-to-end development services.
-                                                            From tailored AI strategies for business growth to NLP and adaptable solutions, we're your dedicated AI partner.
-                                                        </p>
-                                                        <div className="inner-btn">
-                                                            <div>
-                                                                <Link style={{ background: "#2ac8fd" }} className="default-btn" to="/contact">
-                                                                    Explore Now
-                                                                </Link>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            {/* <div className="col-lg-5">
-                                                <div className="slider-content-inner-right">
-                                                    <div className="img-wrapper" style={{ position: "relative", top: "-25px" }}>
-                                                        <img
-                                                            src="assets/img/bg-image/ai raiden@4x 2.png"
-                                                            alt=""
-                                                        />
-                                                    </div>
-                                                </div>
-                                            </div> */}
-                                        </div>
-                                    </div>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
+            <section className="scroll-section-outer">
+                <div ref={triggerRef}>
+                    <div ref={sectionRef} className="scroll-section-inner">
+                        <div className="scroll-section section1">
+                            <div>
                                 {" "}
-                                <div className="item-slider sliderm-height p-relative swiper-slide">
-                                    <div
-                                        className="slide-bg"
-                                        style={{
-                                            backgroundImage:
-                                                "url('assets/img/bg-image/raiden new gaming.jpg')",
-                                        }}
-                                    />
-                                    <div className="auto-container">
-                                        <div className="row ">
-                                            <div className="col-lg-6">
-                                                <div className="slider-content-inner ">
-                                                    <h4 className="sub-title">The Most Personalized</h4>
-                                                    <h2 className="slider-title">
-                                                        AI Development Company &amp; Services in The World
-                                                    </h2>
-                                                    <p className="description">
-                                                        To take a trivial example, which of us ever
-                                                        undertakes laborious physical exercise, except to
-                                                        obtain some advantage from it.
-                                                    </p>
-                                                    <div className="inner-btn">
-                                                        <div>
-                                                            <Link className="default-btn" to="/contact">
-                                                                Learn More About AI
-                                                            </Link>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6">
-                                                <div className="slider-content-inner-right">
-                                                    <div className="img-wrapper" style={{ position: "relative", top: "25px" }}>
-                                                        <img
-                                                            src="assets/img/bg-image/barberian.png"
-                                                            alt=""
-                                                            style={{ height: "100%" }}
-                                                        />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                {" "}
-                                <div className="item-slider sliderm-height p-relative swiper-slide">
-                                    <div
-                                        className="slide-bg"
-                                        style={{
-                                            backgroundImage:
-                                                "url('assets/img/bg-image/metaverse new raiden.jpg')",
-                                            height: "135%"
-                                        }}
+                                <div className="auto-container section1_container">
+                                    <ScrollAnimation
+                                        animateIn="fadeInLeft"
+                                        duration={1.5}
+                                        className="left"
+                                    >
+                                        <h4>The Most Personalized</h4>
+                                        <h2>
+                                            Best-in-Class <span> Blockchain Development</span>
+                                        </h2>
 
-                                    />
-                                    <div className="auto-container">
-                                        <div className="row ">
-                                            <div className="col-12">
-                                                <div className="slider-content-inner middle">
-                                                    <div>
-                                                        <h4 className="sub-title">The Most Personalized</h4>
-                                                        <h2 className="slider-title">
-                                                            Top AR,VR Metaverse Development Company
-                                                        </h2>
-                                                        <p className="description">
-                                                            Transform your business with our innovative 3D Metaverse solution, merging virtual and augmented technologies.
-                                                            Partner with VRAIDEN, a top AR and VR development firm, for tailored solutions to propel your VR/AR business forward.
-                                                        </p>
-                                                        <div className="inner-btn">
-                                                            <div>
-                                                                <Link className="default-btn" to="/contact">
-                                                                    Contact Us Now
-                                                                </Link>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                        <p>
+                                            RAIDEN offers top-tier blockchain game development
+                                            services tailored to gaming businesses of any size. Our
+                                            team excels in NFT, Metaverse, and Sports Betting design
+                                            and development, delivering exceptional and engaging
+                                            gaming experiences.
+                                        </p>
+                                        <Link className="default-btn" to="/contact">
+                                            Contact Us Now
+                                        </Link>
+                                    </ScrollAnimation>
                                 </div>
-                            </SwiperSlide>
-                        </Swiper>
+                            </div>
+                        </div>
+                        <div className="scroll-section section2">
+                            <div className="auto-container section2_container">
+                                <div className="left" data-aos="fade-left" data-aos-delay="300">
+                                    <h4 style={{ color: "#2ac8fd" }} className="sub-title">
+                                        The Most Personalized
+                                    </h4>
+                                    <h2 className="slider-title">
+                                        Your New Age Generative AI
+                                        <span style={{ color: "#2ac8fd" }} className="theme-color">
+                                            {" "}
+                                            Development Partner
+                                        </span>
+                                    </h2>
+                                    <p className="description">
+                                        Utilize our expertise to fast-track your AI projects with
+                                        our end-to-end development services. From tailored AI
+                                        strategies for business growth to NLP and adaptable
+                                        solutions, we're your dedicated AI partner.
+                                    </p>
+                                    <Link
+                                        style={{ backgroundColor: "#2ac8fd" }}
+                                        className="default-btn"
+                                        to="/contact"
+                                    >
+                                        Contact Us Now
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="scroll-section section3">
+                            <div className="auto-container section3_container">
+                                <div className="left">
+                                    <h4 className="sub-title">The Most Personalized</h4>
+                                    <h2 className="slider-title">
+                                        Your New Age Generative AI
+                                        <span className="theme-color"> Development Partner</span>
+                                    </h2>
+                                    <p className="description">
+                                        Utilize our expertise to fast-track your AI projects with
+                                        our end-to-end development services. From tailored AI
+                                        strategies for business growth to NLP and adaptable
+                                        solutions, we're your dedicated AI partner.
+                                    </p>
+                                    <Link className="default-btn" to="/contact">
+                                        Contact Us Now
+                                    </Link>
+                                </div>
+                                <div className="right">
+                                    <img src={section3_img} alt="" />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="scroll-section section4">
+                            <div
+                                className="auto-container section4_container"
+                                data-aos="fade-left"
+                                data-aos-delay="300"
+                            >
+                                <div className="left">
+                                    <h4 className="sub-title">The Most Personalized</h4>
+                                    <h2 className="slider-title">
+                                        Your New Age Generative AI
+                                        <span className="theme-color"> Development Partner</span>
+                                    </h2>
+                                    <p className="description">
+                                        Utilize our expertise to fast-track your AI projects with
+                                        our end-to-end development services. From tailored AI
+                                        strategies for business growth to NLP and adaptable
+                                        solutions, we're your dedicated AI partner.
+                                    </p>
+                                    <Link className="default-btn" to="/contact">
+                                        Contact Us Now
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    {/* If we need navigation buttons */}
-                    <div className="swiper-button-prev hero-button">
-                        <i className="fa-regular fa-angles-left" />
-                    </div>
-                    <div className="swiper-button-next hero-button">
-                        <i className="fa-regular fa-angles-right" />
-                    </div>
-                    {/* Shape Image */}
-                    {/* <div className="shape-image">
-                        <div className="inner-shape-1 poa">
-                            <img
-                                className="img-fluid"
-                                src="/assets/img/icon/48_icon.png"
-                                alt=""
-                            />
-                        </div>
-                        <div className="inner-shape-2 poa">
-                            <img
-                                className="img-fluid"
-                                src="/assets/img/icon/02_icon.png"
-                                alt=""
-                            />
-                        </div>
-                        <div className="inner-shape-3 poa">
-                            <img
-                                className="img-fluid"
-                                src="/assets/img/icon/03_icon.png"
-                                alt=""
-                            />
-                        </div>
-                        <div className="inner-shape-4 poa">
-                            <img
-                                className="img-fluid"
-                                src="/assets/img/icon/71_icon.png"
-                                alt=""
-                            />
-                        </div>
-                        <div className="inner-shape-5 poa">
-                            <img
-                                className="img-fluid"
-                                src="/assets/img/icon/04_icon.png"
-                                alt=""
-                            />
-                        </div>
-                        <div className="inner-shape-6 poa">
-                            <img
-                                className="img-fluid"
-                                src="/assets/img/icon/11_icon.png"
-                                alt=""
-                            />
-                        </div>
-                        <div className="inner-shape-7 poa">
-                            <img
-                                className="img-fluid"
-                                src="/assets/img/icon/28_icon.png"
-                                alt=""
-                            />
-                        </div>
-                        <div className="inner-shape-8 poa">
-                            <img
-                                className="img-fluid"
-                                src="/assets/img/icon/08_icon.png"
-                                alt=""
-                            />
-                        </div>
-                        <div className="inner-shape-9 poa">
-                            <img
-                                className="img-fluid"
-                                src="/assets/img/icon/27_icon.png"
-                                alt=""
-                            />
-                        </div>
-                    </div> */}
                 </div>
             </section>
-            {/* slider-area-three-end */}
         </>
     );
 };
 
 export default SliderThree;
+
+// <div ref={triggerRef}>
+// <section className="hero_section" ref={sectionRef}>
+
+//     <div className="section-2">
+//       <div className="section_2_bg" />
+//       <div className="auto-container">
+//         <div className="slider-content-inner middle">
+//           <div className=" home_hero_section_content">
+//             <h4 className="sub-title">The Most Personalized</h4>
+//             <h2 className="slider-title">
+//               Best-in-Class Blockchain Development
+//             </h2>
+//             <p className="description">
+//               RAIDEN offers top-tier blockchain game development services
+//               tailored to gaming businesses of any size. Our team excels in
+//               NFT, Metaverse, and Sports Betting design and development,
+//               delivering exceptional and engaging gaming experiences.
+//             </p>
+//             <div className="inner-btn">
+//               <div>
+//                 <Link className="default-btn" to="/contact">
+//                   Contact Us Now
+//                 </Link>
+//               </div>
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//     </div>
+//     <div className="section-3">
+//       <div className="section_3_bg" />
+//       <div className="auto-container " style={{height:"100%"}}>
+//           <div className=" home_hero_section_content section_three">
+//             <div className="left">
+//               <h4 className="sub-title">The Most Personalized</h4>
+//               <h2 className="slider-title">
+//                 Best-in-Class Blockchain Development
+//               </h2>
+//               <p className="description">
+//                 RAIDEN offers top-tier blockchain game development services
+//                 tailored to gaming businesses of any size. Our team excels
+//                 in NFT, Metaverse, and Sports Betting design and
+//                 development, delivering exceptional and engaging gaming
+//                 experiences.
+//               </p>
+//               <Link className="default-btn" to="/contact">
+//                 Contact Us Now
+//               </Link>
+//             </div>
+//             <div className="right">
+//               <img src={section3_img} alt="" />
+//             </div>
+//         </div>
+//       </div>
+//     </div>
+//     <div className="section-4">
+//       <div className="section_4_bg" />
+//       <div className="auto-container">
+//         <div className="slider-content-inner middle">
+//           <div className=" home_hero_section_content">
+//             <h4 className="sub-title">The Most Personalized</h4>
+//             <h2 className="slider-title">
+//               Best-in-Class Blockchain Development
+//             </h2>
+//             <p className="description">
+//               RAIDEN offers top-tier blockchain game development services
+//               tailored to gaming businesses of any size. Our team excels in
+//               NFT, Metaverse, and Sports Betting design and development,
+//               delivering exceptional and engaging gaming experiences.
+//             </p>
+//             <div className="inner-btn">
+//               <div>
+//                 <Link className="default-btn" to="/contact">
+//                   Contact Us Now
+//                 </Link>
+//               </div>
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//     </div>
+//   </section>
+// </div>
