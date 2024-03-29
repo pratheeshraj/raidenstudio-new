@@ -179,14 +179,147 @@ const ProjectDetailUseCase = () => {
           </div>
         </div>
       </section>
-      <section>
-        <div
-          className="container-fluid multi_player"
-          style={{ overflow: "hidden" }}
-        >
-          <div className="auto-container multi_player_container">
-            <h2>Engineered for the Metaverse: Advanced Multiplayer, Streaming, and Game Engine Mastery</h2>
+      <section
+        className="service-details-section"
+        style={{ backgroundColor: "#00151e" }}
+      >
+        <h2>
+          Engineered for the Metaverse <br /> Advanced Multiplayer, Streaming,
+          and <br /> Game Engine Mastery
+        </h2>
+        <div className="auto-container">
+          <div className="row">
+            <div className="col-lg-6  order-2 order-lg-1">
+              <div
+                className="right-wrapper pe-2"
+                data-aos="fade-right"
+                data-aos-delay="300"
+              >
+                <h2 className="title">
+                  <span>Multiplayer Integration</span>
+                </h2>
+                <p>
+                  Advanced Networking in Unity/Unreal: Proficiency in
+                  implementing advanced networking features within popular game
+                  engines such as Unity or Unreal Engine, leveraging high-level
+                  networking APIs and low-level socket programming for real-time
+                  communication. Custom Netcode Solutions: Development of custom
+                  networking solutions tailored to specific multiplayer
+                  requirements, including authoritative server architectures,
+                  client-side prediction, and lag compensation techniques.
+                  Cross-Platform Multiplayer: Implementation of cross-platform
+                  multiplayer functionality, enabling seamless gameplay
+                  experiences across different devices and operating systems
+                  while ensuring compatibility with various networking
+                  protocols.
+                </p>
+              </div>
+            </div>
+            <div
+              className="col-lg-6 order-1"
+              data-aos="fade-left"
+              data-aos-delay="300"
+            >
+              <div className="left-wrapper ps-2">
+                <div className="img-file">
+                  <img
+                    className="img-fluid"
+                    src="/assets/img/service/02_service.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
           </div>
+          <br />
+          <br />
+          <div className="row">
+            <div
+              className="col-lg-6"
+              data-aos="fade-right"
+              data-aos-delay="300"
+            >
+              <div className="left-wrapper pe-2">
+                <div className="img-file">
+                  <img
+                    className="img-fluid"
+                    src="/assets/img/service/03_service.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+              <div className="right-wrapper ps-2">
+                <h2 className="title">
+                  <span> Streaming Services</span>
+                </h2>
+                <p>
+                  Video Streaming in Unity/Unreal: Integration of video
+                  streaming capabilities directly into Unity or Unreal Engine
+                  projects, utilizing plugins and APIs for real-time video
+                  playback and rendering within virtual environments.
+                  Interactive Streaming: Implementation of interactive streaming
+                  features such as live chat, viewer interactions, and dynamic
+                  content updates using streaming platforms' APIs and SDKs,
+                  enhancing viewer engagement and immersion. Performance
+                  Optimization: Optimization of streaming performance through
+                  techniques such as video transcoding, adaptive bitrate
+                  streaming, and caching mechanisms to ensure smooth playback
+                  and minimal buffering.
+                </p>
+              </div>
+            </div>
+          </div>
+          <br />
+          <br />
+          <div className="row">
+            <div className="col-lg-6  order-2 order-lg-1">
+              <div
+                className="right-wrapper pe-2"
+                data-aos="fade-right"
+                data-aos-delay="300"
+              >
+                <h2 className="title">
+                  <span> Game Engine Expertise (Unity/Unreal)</span>
+                </h2>
+                <p>
+                  ●Unity Development: Extensive experience in Unity development,
+                  including proficiency in C# scripting, asset management, scene
+                  composition, and optimization techniques to create immersive
+                  and high-performance virtual experiences. Unreal Engine
+                  Development: Proficiency in Unreal Engine development,
+                  encompassing Blueprint scripting, material and particle
+                  effects creation, level design, and optimization strategies
+                  for achieving visually stunning and responsive gameplay
+                  environments. Cross-Platform Development: Ability to develop
+                  games and applications for multiple platforms (PC, console,
+                  mobile, VR/AR) using Unity or Unreal Engine, with expertise in
+                  platform-specific optimizations and deployment workflows.
+                </p>
+              </div>
+            </div>
+            <div
+              className="col-lg-6 order-1"
+              data-aos="fade-left"
+              data-aos-delay="300"
+            >
+              <div className="left-wrapper ps-2">
+                <div className="img-file">
+                  <img
+                    className="img-fluid"
+                    src="/assets/img/service/02_service.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <br />
+          <br />
+
+          <br />
+          <br />
         </div>
       </section>
     </>

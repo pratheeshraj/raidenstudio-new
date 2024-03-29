@@ -170,7 +170,7 @@ const SliderThree = () => {
                   <p className="description">
                     Utilize our expertise to fast-track your AI projects with
                     our end-to-end development services. From tailored AI
-                    strategies for business growth to NLP and adaptable
+                    strategies for business <br /> growth to NLP and adaptable
                     solutions, we're your dedicated AI partner.
                   </p>
                   <Link     style={{ backgroundColor: "#2ac8fd" }} className="default-btn" to="/contact">
