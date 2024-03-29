@@ -47,7 +47,7 @@ const ContactSection2 = () => {
     }
 
     if (message === "") {
-      setMessageError("Phone is required");
+      setMessageError("message is required");
       isValid = false;
     } else {
       setMessageError("");
@@ -92,7 +92,8 @@ const ContactSection2 = () => {
                     <input type="text" placeholder="Name" value={name} onChange={(e) => setName(e.target.value)} />
                     {nameError && <div className="error-message">{nameError}</div>}
                   </div>
-                  <div>                  <input type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
+                  <div>
+                    <input type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
                     {emailError && <div className="error-message">{emailError}</div>}</div>
                   <div>
                     <PhoneInput
@@ -120,11 +121,33 @@ const ContactSection2 = () => {
                     />
                     {messageError && <div className="error-message">{messageError}</div>}
                   </div>
-
-                  <button type="submit">Submit</button>
+                  <button className="Contact2_button" type="submit">
+                    <div class="svg-wrapper-1">
+                      <div class="svg-wrapper">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          height="24"
+                        >
+                          <path fill="none" d="M0 0h24v24H0z"></path>
+                          <path
+                            fill="currentColor"
+                            d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </div>
+                    <span>Submit</span>
+                  </button>
                 </form>
               </div>
               <div className="left_div aos-init aos-animate" data-aos="fade-left" data-aos-delay="300">
+                <div className="left_background_div">
+                  <div className="left_background_div_content">
+                    For Quick Response
+                  </div>
+                </div>
               </div>
             </div>
           </div>

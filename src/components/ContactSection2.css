@@ -27,9 +27,23 @@
     object-fit: contain !important;
     background-position: center;
     border-radius: 30px;
-
     left: 0;
 }
+
+.left_background_div {
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.left_background_div_content {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 30px 10px;
+    text-align: center;
+}
+
 
 .right_div_contact_heading {
     color: black;
@@ -69,7 +83,7 @@
 .phone_no_input {
     width: 100% !important;
     border-bottom: 1px solid black !important;
-    padding-bottom: 21px !important
+    padding-bottom: 15px !important
 }
 
 .flag-dropdown {
@@ -99,13 +113,13 @@
     border-bottom: 1px solid black;
 }
 
-.right_div_input_div button {
+/* .right_div_input_div button {
     width: 193px;
     height: 51px;
     border-radius: 30px;
     background: black;
     color: white;
-}
+} */
 
 .ReactFlagsSelect-module_flagsSelect__2pfa2 {
     width: 48% !important;
@@ -133,9 +147,116 @@
 .error-message {
     /* position: relative; */
     z-index: 2;
-    color: black !important;
+    color: red !important;
+    font-size: 12px;
+    position: absolute;
 }
 
 .text-contat-div {
     width: 100% !important;
+}
+
+
+/* button */
+
+.Contact2_button {
+    font-family: inherit;
+    font-size: 20px;
+    background: #13C4A1;
+    color: white;
+    padding: 0.7em 1em;
+    padding-left: 0.9em;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.Contact2_button span {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
+}
+
+.Contact2_button svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.Contact2_button:hover .svg-wrapper {
+    animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+.Contact2_button:hover svg {
+    transform: translateX(1.2em) rotate(45deg) scale(1.1);
+}
+
+.Contact2_button:hover span {
+    transform: translateX(5em);
+}
+
+.Contact2_button:active {
+    transform: scale(0.95);
+}
+
+@keyframes fly-1 {
+    from {
+        transform: translateY(0.1em);
+    }
+
+    to {
+        transform: translateY(-0.1em);
+    }
+}
+
+
+@media screen and (max-width:1000px) {
+    .left_div {
+        display: none;
+    }
+
+    .right_div {
+        width: 100%;
+        height: 100%;
+        border-radius: 30px;
+        padding: 80px 40px 80px 40px;
+    }
+}
+
+
+@media screen and (max-width:670px) {
+    .right_div_input_div div {
+        width: 100%;
+    }
+
+
+
+    .ReactFlagsSelect-module_flagsSelect__2pfa2 {
+        width: 100% !important;
+        border-bottom: 1px solid black !important;
+    }
+
+    .right_div_contact_heading {
+        font-size: 22px;
+    }
+
+    .right_div p {
+        font-size: 14px;
+    }
+
+    .right_div {
+        width: 100%;
+        height: 100%;
+        border-radius: 30px;
+        padding: 60px 30px 60px 30px;
+    }
+
+    .Contact2_button {
+        font-size: 16px;
+    }
+
 }

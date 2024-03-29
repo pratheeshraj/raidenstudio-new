@@ -92,12 +92,12 @@ const ProjectSectionThree = () => {
                 <div className="img-file por">
                   <img
                     className="img-fluid"
-                    src="/assets/img/project/12_project.png"
+                    src="/assets/img/product/CASINOGAMES.jpg"
                     alt=""
                   />
                   <div className="shape-overlay poa">
                     <div className="inner">
-                      <h2>Raiden GOGNI+</h2>
+                      <h2>Metaverse CASINO</h2>
                       <p>
                         In this space, we will explore the most innovative and
                         impactful Artificial Intelligence projects, real-world

@@ -26,7 +26,7 @@ function DevelopmentProcess() {
               <div className={`timeline  ${isVisible ? 'visible' : ''}`}>
                 <VisibilitySensor onChange={onAnimationVisible}>
                   <div className={`container_devo left-container ${isVisible ? 'visible' : ''}`}>
-                    <div className='devo_round_div'><img src='/assets/img/icon/34_icon.png' alt='' />
+                    <div className='devo_round_div'><img src='/assets/img/aiprocessdevelopment/discovery.svg' alt='' />
                     </div>
                     <div className='text-box'>
                       <h2>Discovery</h2>
@@ -39,7 +39,7 @@ function DevelopmentProcess() {
                 </VisibilitySensor>
                 <VisibilitySensor onChange={onAnimationVisible}>
                   <div className={`container_devo right-container ${isVisible ? 'visible' : ''}`}>
-                    <div className='devo_round_div'><img src='/assets/img/icon/34_icon.png' alt='' />
+                    <div className='devo_round_div'><img src='/assets/img/aiprocessdevelopment/datacollection.svg' alt='' />
                     </div>
                     <div className='text-box'>
                       <h2>Data Collection & Preparation</h2>
@@ -54,7 +54,7 @@ function DevelopmentProcess() {
                 </VisibilitySensor>
                 <VisibilitySensor onChange={onAnimationVisible}>
                   <div className={`container_devo left-container ${isVisible ? 'visible' : ''}`}>
-                    <div className='devo_round_div'><img src='/assets/img/icon/34_icon.png' alt='' />
+                    <div className='devo_round_div'><img src='/assets/img/aiprocessdevelopment/model.svg' alt='' />
                     </div>                    <div className='text-box'>
                       <h2>Model Development</h2>
                       <p>
@@ -66,7 +66,7 @@ function DevelopmentProcess() {
                 </VisibilitySensor>
                 <VisibilitySensor onChange={onAnimationVisible}>
                   <div className={`container_devo right-container ${isVisible ? 'visible' : ''}`}>
-                    <div className='devo_round_div'><img src='/assets/img/icon/34_icon.png' alt='' />
+                    <div className='devo_round_div'><img src='/assets/img/aiprocessdevelopment/testing.svg' alt='' />
                     </div>                    <div className='text-box'>
                       <h2>Testing and evaluation</h2>
                       <p>
@@ -78,7 +78,7 @@ function DevelopmentProcess() {
                 </VisibilitySensor>
                 <VisibilitySensor onChange={onAnimationVisible}>
                   <div className={`container_devo left-container ${isVisible ? 'visible' : ''}`}>
-                    <div className='devo_round_div'><img src='/assets/img/icon/34_icon.png' alt='' />
+                    <div className='devo_round_div'><img src='/assets/img/aiprocessdevelopment/deployment.svg' alt='' />
                     </div>                    <div className='text-box'>
                       <h2>Deployment</h2>
                       <p>
@@ -90,7 +90,7 @@ function DevelopmentProcess() {
                 </VisibilitySensor>
                 <VisibilitySensor onChange={onAnimationVisible}>
                   <div className={`container_devo right-container ${isVisible ? 'visible' : ''}`}>
-                    <div className='devo_round_div'><img src='/assets/img/icon/34_icon.png' alt='' />
+                    <div className='devo_round_div'><img src='/assets/img/aiprocessdevelopment/track.svg' alt='' />
                     </div>                    <div className='text-box'>
                       <h2>Tracking and Tuning</h2>
                       <p>
@@ -102,7 +102,7 @@ function DevelopmentProcess() {
                 </VisibilitySensor>
                 <VisibilitySensor onChange={onAnimationVisible}>
                   <div className={`container_devo left-container ${isVisible ? 'visible' : ''}`}>
-                    <div className='devo_round_div'><img src='/assets/img/icon/34_icon.png' alt='' />
+                    <div className='devo_round_div'><img src='/assets/img/aiprocessdevelopment/34_icon.png' alt='' />
                     </div>                    <div className='text-box'>
                       <h2>Maintenance and Support</h2>
                       <p>

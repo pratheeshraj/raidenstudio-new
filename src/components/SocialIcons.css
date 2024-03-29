@@ -82,10 +82,10 @@
 }
 
 .tooltip-container::after {
-    animation: pulse 2s 1s ease-out infinite;
+    animation: pulse-social-icons 2s 1s ease-out infinite;
 }
 
-@keyframes pulse {
+@keyframes pulse-social-icons {
     100% {
         transform: scale(1.8);
         opacity: 0;
