@@ -28,12 +28,19 @@ const ProjectDetailsSection = ({ vidio }) => {
                   </div>
                   <div className="inner-des">
                     <p>
-                      Bringing Industry <span>4.0</span> and digitization across
-                      industries, we have created & delivered over{" "}
-                      <span>200+ XR projects over</span> the last{" "}
-                      <span>8+ years</span> that seamlessly infuse with existing
-                      training ecosystems to provide a truly unified{" "}
-                      <span>VR Training</span> solution.
+                      At <span>Raidenverse</span> we revolutionize the digital
+                      landscape through our AI-powered Metaverse platform. Our
+                      mission is to redefine virtual experiences, enabling
+                      individuals and businesses to seamlessly navigate through
+                      immersive environments while harnessing the power of
+                      artificial intelligence.
+                    </p>
+                    <p>
+                      Through Raidenverse, users can engage in a multitude of
+                      activities, from social interactions to business
+                      collaborations, gaming, education, and beyond. Our
+                      platform transcends boundaries, offering limitless
+                      possibilities within a unified digital ecosystem.
                     </p>
                   </div>
                 </div>
@@ -47,22 +54,23 @@ const ProjectDetailsSection = ({ vidio }) => {
                       <h2>
                         <span>Who</span> we are
                       </h2>
-                      <div>
-                        <h3>
-                          <span>Rocking since</span> 2016
-                        </h3>
-                        <h3>
-                          <span>Solutions</span> VR and XR for enterprise
-                        </h3>
-                      </div>
                     </div>
                     <div className="inner-des2">
                       <p>
-                        <span>AutoVRse</span> is a young 100+ member team,
-                        building world-class AR/VR applications. We’ve been
-                        pushing the limit of what’s possible in the immersive
-                        media space and consistently delivering ground-breaking
-                        deployments in enterprise AR and VR
+                        <span> Raidenverse</span> is a team of visionaries,
+                        technologists, and innovators dedicated to shaping the
+                        future of virtual reality. With a collective passion for
+                        cutting-edge technology and boundless creativity, we are
+                        committed to pushing the boundaries of what's possible
+                        in the Metaverse.
+                      </p>
+                      <p>
+                        Driven by our core values of innovation, inclusivity,
+                        and integrity, we strive to empower individuals and
+                        businesses to thrive in the digital age. Our diverse
+                        team brings together expertise from various disciplines
+                        to deliver unparalleled solutions and experiences within
+                       <span> Raidenverse.</span>
                       </p>
                     </div>
                   </div>
