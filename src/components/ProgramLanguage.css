@@ -660,12 +660,9 @@
 }
 
 .Nft_slide {
-    /* background: white; */
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     width: 220px;
-    /* padding: 10px; */
     height: 70px;
     gap: 10px;
     border-radius: 5px;
@@ -682,10 +679,6 @@
 .Nft_slide img {
     width: 50px;
     height: 50px;
-}
-
-.Nft_slide div {
-    /* color: black; */
 }
 
 

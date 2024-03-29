@@ -1,16 +1,141 @@
-.imput_contact {
-    border: 1px solid black !important;
-    padding: 0 !important;
+.enqury_main_div {
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
 }
 
-.contact_input_name {
+.right_div {
+    width: 87%;
+    height: 625px;
+    background: white;
+    border-radius: 30px;
+    padding: 30px 30px 30px 200px;
+}
+
+.right_div p {
+    color: black;
+    text-align: center;
+}
+
+.left_div {
+    position: absolute;
+    width: 304px;
+    height: 537px;
+    background: url(../images/2151141658.jpg);
+    object-fit: contain !important;
+    background-position: center;
+    border-radius: 30px;
+
+    left: 0;
+}
+
+.right_div_contact_heading {
+    color: black;
+    text-align: center;
+}
+
+.right_div_input_div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    row-gap: 50px;
+    margin-top: 60px;
+}
+
+.right_div_input_div div {
+    width: 48%;
+}
+
+.right_div_input_div div input {
+    width: 100%;
+    border: none;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.form-control {
+    width: 100% !important;
+    border: none !important;
+    outline: none !important;
+    border-radius: 0 !important;
+    position: relative !important;
+    padding-bottom: 0 !important;
+    top: 9px !important;
+}
+
+.phone_no_input {
+    width: 100% !important;
+    border-bottom: 1px solid black !important;
+    padding-bottom: 21px !important
+}
+
+.flag-dropdown {
+    background: transparent !important;
+    border: none !important;
+}
+
+.country-name {
+    color: black;
+}
+
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: none !important;
+    ;
+}
+
+.right_div_input_div textarea {
+    width: 100%;
+    height: 80px;
+    border: none;
+    padding-bottom: 10px;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+.right_div_input_div button {
+    width: 193px;
+    height: 51px;
+    border-radius: 30px;
+    background: black;
+    color: white;
+}
+
+.ReactFlagsSelect-module_flagsSelect__2pfa2 {
+    width: 48% !important;
+    border-bottom: 1px solid black !important;
+}
+
+.ReactFlagsSelect-module_selectBtn__19wW7 {
+    width: 100 !important;
+    background: transparent !important;
     color: black !important;
-
+    border-radius: 0 !important;
+    border: none !important;
+    font-size: 16px !important;
+    font-family: var(--ff-p) !important;
 }
 
-.form-author,
-.form-email,
-.form-web,
-.form-comment {
-    padding: 0 !important;
+.ReactFlagsSelect-module_label__27pw9 {
+    color: black !important;
+}
+
+.ReactFlagsSelect-module_selectBtn__19wW7 {
+    width: 100% !important;
+}
+
+.error-message {
+    /* position: relative; */
+    z-index: 2;
+    color: black !important;
+}
+
+.text-contat-div {
+    width: 100% !important;
 }

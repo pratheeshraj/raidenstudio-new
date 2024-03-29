@@ -1,156 +1,131 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { toast, Toaster } from "react-hot-toast";
 import "./ContactSection2.css"
-
+import PhoneInput from 'react-phone-input-2'
+import 'react-phone-input-2/lib/style.css'
+import ReactFlagsSelect from "react-flags-select";
+import { useDispatch } from "react-redux";
+import { createContact } from "../action/ContactAction";
 
 const ContactSection2 = () => {
-  const form = useRef();
-  const sendEmail = (e) => {
-    e.preventDefault();
-    // Please See Documentation for more information
-    emailjs
-      .sendForm(
-        "service_ljx76ce", //YOUR_SERVICE_ID
-        "template_71bgc2q", //YOUR_TEMPLATE_ID
-        form.current,
-        "cwf8kROl5o3__96Ti" //YOUR_PUBLIC_KEY
-      )
-      .then(
-        (result) => {
-          if (result.text === "OK") {
-            toast.success("Massage Sent Successfully!");
-            form.current[0].value = "";
-            form.current[1].value = "";
-            form.current[2].value = "";
-            form.current[3].value = "";
-            form.current[4].value = "";
-            form.current[5].value = "";
-          }
-        },
-        (error) => {
-          if (error.text !== "OK") {
-            toast.error("Massage Not Sent!");
-          }
-        }
-      );
+
+  const dispatch = useDispatch();
+  const [selected, setSelected] = useState('IN');
+  const [name, setName] = useState("");
+  const [nameError, setNameError] = useState("");
+  const [email, setEmail] = useState("");
+  const [emailError, setEmailError] = useState("");
+  const [phone, setPhone] = useState("");
+  const [phoneError, setPhoneError] = useState("");
+  const [country, setCountry] = useState("");
+  const [messageError, setMessageError] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault(); // Prevent default form submission
+
+    // Validation
+    let isValid = true;
+    if (name === "") {
+      setNameError("Name is required");
+      isValid = false;
+    } else {
+      setNameError("");
+    }
+    if (email === "") {
+      setEmailError("Email is required");
+      isValid = false;
+    } else {
+      setEmailError("");
+    }
+    if (phone === "") {
+      setPhoneError("Phone is required");
+      isValid = false;
+    } else {
+      setPhoneError("");
+    }
+
+    if (message === "") {
+      setMessageError("Phone is required");
+      isValid = false;
+    } else {
+      setMessageError("");
+    }
+
+    if (!isValid) {
+      return;
+    }
+
+    const ContactData = {
+      "name": name,
+      "email": email,
+      "phone": phone,
+      "country": selected,
+      "message": message
+    }
+
+    dispatch(createContact(ContactData))
+
+    // Reset form fields after submission
+    setName("");
+    setEmail("");
+    setPhone("");
+    setCountry("");
+    setMessage("");
+
   };
+
   return (
-    // cosmic-quest-enchanting-pixel-art-adventures-forests-wonders-outer-space_931866-24957.avif
-    // cyborg-robot-hand-uniform_110893-1208.avif
     <>
       <Toaster position="bottom-center" reverseOrder={false} />
       {/* Contact Section start */}
-      <section className="contact-section" style={{ background: 'url(assets/img/bg-image/cyborg-robot-hand.avif)', paddingBottom: "80px", backgroundSize: "cover", backgroundPosition: "-20px" }}>
+      <section className="contact-section" style={{ background: "black" }}>
         <div className="auto-container">
           <div className="row">
-            <div className="col-12">
-              <div className="section-title-shape-one">
-                <h2 style={{ textAlign: "center", color: "black" }}>Contact With Us</h2>
-              </div>
-            </div>
-          </div>
-          <div className="row" style={{ display: "flex", justifyContent: "center", alignContent: "center" }}>
-            <div className="" style={{ width: "70%" }}>
-              <form
-                ref={form}
-                onSubmit={sendEmail}
-                id="contact-form"
-                className="contact-form"
-              >
-                <div className="d-block d-md-flex gap-3">
-                  <div
-                    className="form-author"
-                    data-aos="fade-up"
-                    data-aos-delay="200"
-                  >
-                    <label className="contact_input_name">
-                      Name <span className="required">*</span>
-                    </label>
-                    <input
-                      className="imput_contact"
-                      type="text"
-                      id="name"
-                      name="user_name"
-                      required="required"
+            <div className="enqury_main_div">
+              <div className="right_div aos-init aos-animate" data-aos="fade-right" data-aos-delay="300">
+                <h2 className="right_div_contact_heading">Contact Us</h2>
+                <p>Please fill out the quick form and we will be in touch with lightening speed.</p>
+                <form className="right_div_input_div" onSubmit={handleSubmit}>
+                  <div>
+                    <input type="text" placeholder="Name" value={name} onChange={(e) => setName(e.target.value)} />
+                    {nameError && <div className="error-message">{nameError}</div>}
+                  </div>
+                  <div>                  <input type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
+                    {emailError && <div className="error-message">{emailError}</div>}</div>
+                  <div>
+                    <PhoneInput
+                      type="tel"
+                      className="phone_no_input"
+                      country={'in'}
+                      value={phone}
+                      onChange={(phoneValue) => setPhone(phoneValue)}
                     />
+                    {phoneError && <div className="error-message">{phoneError}</div>}
                   </div>
-                  <div
-                    className="form-email mt-2 mt-md-0"
-                    data-aos="fade-up"
-                    data-aos-delay="300"
-                  >
-                    <label className="contact_input_name">
-                      Email <span className="required">*</span>
-                    </label>
-                    <input
-                      className="imput_contact"
-                      type="email"
-                      id="email"
-                      name="user_email"
-                      required="required"
-                    />
-                  </div>
-                </div>
-                <div className="d-block d-md-flex gap-3 mt-2">
-                  <div
-                    className="form-author"
-                    data-aos="fade-up"
-                    data-aos-delay="200"
-                  >
-                    <label className="contact_input_name">
-                      Subject <span className="required">*</span>
-                    </label>
-                    <input
-                      className="imput_contact"
-                      type="text"
-                      id="subject"
-                      name="subject"
-                      required="required"
-                    />
-                  </div>
-                  <div
-                    className="form-web mt-2 mt-md-0"
-                    data-aos="fade-up"
-                    data-aos-delay="300"
-                  >
-                    <label className="contact_input_name">
-                      Website</label>
-                    <input className="imput_contact"
-                      type="url" id="url" name="website" />
-                  </div>
-                </div>
-                <div
-                  className="form-comment mt-2"
-                  data-aos="fade-up"
-                  data-aos-delay="300"
-                >
-                  <label className="contact_input_name">
-                    Massage <span className="required">*</span>
-                  </label>
-                  <textarea
-                    className="imput_contact"
-                    name="message"
-                    rows={8}
-                    spellCheck="false"
-                    defaultValue={""}
+                  <ReactFlagsSelect
+                    selected={selected}
+                    onSelect={(countryCode) => setSelected(countryCode)}
+                    searchPlaceholder="Search Country"
+                    searchable
+                    defaultCountry="IN"
                   />
-                </div>
-                <div
-                  className="form-submit"
-                  data-aos="fade-up"
-                  data-aos-delay="300"
-                >
-                  <div className="inner-btn">
-                    <div>
-                      <button className="default-btn" type="submit">
-                        Send Massage
-                      </button>
-                    </div>
+                  <div className="text-contat-div">
+                    <textarea
+                      type="text"
+                      placeholder="Message"
+                      value={message}
+                      onChange={(e) => setMessage(e.target.value)}
+                    />
+                    {messageError && <div className="error-message">{messageError}</div>}
                   </div>
-                </div>
-              </form>
-              <p className="form-Messages mt-3" />
+
+                  <button type="submit">Submit</button>
+                </form>
+              </div>
+              <div className="left_div aos-init aos-animate" data-aos="fade-left" data-aos-delay="300">
+              </div>
             </div>
           </div>
         </div>

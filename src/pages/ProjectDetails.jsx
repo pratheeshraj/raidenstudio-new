@@ -23,7 +23,7 @@ const ProjectDetails = () => {
   return (
     <Fragment>
       <Suspense>
-       
+
         {/* Helmet */}
         <HelmetReact title={"Project Details"} />
         {/* Header one */}

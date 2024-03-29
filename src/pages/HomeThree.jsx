@@ -34,7 +34,7 @@ import ContactSection2 from "../components/ContactSection2";
 const HomeThree = () => {
   let [active, setActive] = useState(true);
   const dispatch = useDispatch();
-  
+
   useEffect(() => {
     setTimeout(function () {
       setActive(false);
@@ -54,7 +54,7 @@ const HomeThree = () => {
   return (
     <Fragment>
       <Suspense>
-      {active === true && <Preloader />}
+        {active === true && <Preloader />}
         {/* Helmet */}
         <HelmetReact title={"Home"} />
         {/* Header Three */}
@@ -69,7 +69,7 @@ const HomeThree = () => {
         {/* <FAQSectionThree /> */}
         {/* Project Section Three */}
         {/* Project Section Three */}
-        <ProgramLanguage/>
+        <ProgramLanguage />
         <ProjectSectionThree />
         {/* Counter Section Three */}
         <CounterSectionThree />
@@ -81,7 +81,7 @@ const HomeThree = () => {
         {/* <TeamSectionTwo /> */}
         {/* Blog Section Three */}
         <BlogSectionTwo />
-        {/* <ContactSection2 /> */}
+        <ContactSection2 />
 
         {/* News Section Two */}
         <NewsSectionOne />

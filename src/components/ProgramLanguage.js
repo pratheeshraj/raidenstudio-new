@@ -59,7 +59,6 @@ const ProgramLanguage = () => {
                             <div onClick={handleMobile} style={{ color: mobile ? '#13C4A1' : '' }}>Mobile </div>
                             <div onClick={handleBlockchain} style={{ color: blockchain ? '#13C4A1' : '' }}>Blockchain</div>
                             <div onClick={handleGame} style={{ color: game ? '#13C4A1' : '' }}>Game</div>
-
                         </div>
                         {
                             frontend ? <div className="right_Language_div">
@@ -76,81 +75,81 @@ const ProgramLanguage = () => {
                                     <div className="Card_name">WebGL</div>
                                 </div>
                             </div>
-                                // : mobile ? <div className="right_Language_div">
-                                //     <div className="card3">
-                                //         <img src="/assets/img/Language/REACT NATIVE.svg" alt="" />
-                                //         <div className="Card_name">React Native</div>
-                                //     </div>
-                                //     <div className="card3">
-                                //         <img src="/assets/img/Language/FLUTTER.svg" alt="" />
-                                //         <div className="Card_name">Flutter</div>
-                                //     </div>
+                                : mobile ? <div className="right_Language_div">
+                                    <div className="card3">
+                                        <img src="/assets/img/Language/REACT NATIVE.svg" alt="" />
+                                        <div className="Card_name">React Native</div>
+                                    </div>
+                                    <div className="card3">
+                                        <img src="/assets/img/Language/FLUTTER.svg" alt="" />
+                                        <div className="Card_name">Flutter</div>
+                                    </div>
 
 
-                                //     <div className="card3">
-                                //         <img src="/assets/img/Language/SWIFT.svg" alt="" />
-                                //         <div className="Card_name">Swift</div>
-                                //     </div>
-                                //     <div className="card3">
-                                //         <img src="/assets/img/Language/KATLIN.svg" alt="" />
-                                //         <div className="Card_name">Kotlin</div>
-                                //     </div>
-                                // </div> : blockchain ? <div className="right_Language_div">
-                                //     <div className="card5">
-                                //         <img src="/assets/img/Language/ethereum-eth-logo.svg" alt="" />
-                                //         <div className="Card_name">Ethereum</div>
-                                //     </div>
-                                //     <div className="card5">
-                                //         <img src="/assets/img/Language/solana-sol-logo.svg" alt="" />
-                                //         <div className="Card_name">Solana</div>
-                                //     </div>
-                                //     <div className="card5">
-                                //         <img src="/assets/img/Language/cardano-ada-logo.svg" alt="" />
-                                //         <div className="Card_name">Cardano</div>
-                                //     </div>
-                                //     <div className="card5">
-                                //         <img src="/assets/img/Language/polkadot-new-dot-logo.svg" alt="" />
-                                //         <div className="Card_name">PolkaDot</div>
-                                //     </div>
-                                //     <div className="card5">
-                                //         <img src="/assets/img/Language/ipfs-logo.svg" alt="" />
-                                //         <div className="Card_name">IPFS</div>
-                                //     </div>
-                                // </div> : game ? <div className="right_Language_div">
-                                //     <div className="card6">
-                                //         <img src="/assets/img/Language/UNITY.svg" alt="" />
-                                //         <div className="Card_name">Unity 3D</div>
-                                //     </div>
-                                //     <div className="card6">
-                                //         <img style={{ fill: "red" }} src="/assets/img/Language/unreal.svg" alt="" />
-                                //         <div className="Card_name">UnReal Engine</div>
-                                //     </div>
-                                //     <div className="card6">
-                                //         <img src="/assets/img/Language/arkit-removebg-preview 1.png" alt="" />
-                                //         <div className="Card_name">ARKit</div>
-                                //     </div>
-                                //     <div className="card6">
-                                //         <img src="/assets/img/Language/google-arcore.svg" alt="" />
-                                //         <div className="Card_name">ARCore</div>
-                                //     </div>
-                                //     <div className="card6">
-                                //         <img src="/assets/img/Language/csharp.svg.svg" alt="" />
-                                //         <div className="Card_name">C#</div>
-                                //     </div>
-                                //     <div className="card6">
-                                //         <img src="/assets/img/Language/blender-icon.svg" alt="" />
-                                //         <div className="Card_name">Blender</div>
-                                //     </div>
-                                //     <div className="card6">
-                                //         <img src="/assets/img/Language/aframe-logo.png" alt="" />
-                                //         <div className="Card_name">A-Frame</div>
-                                //     </div>
-                                //     <div className="card6">
-                                //         <img src="/assets/img/Language/three js.png" alt="" />
-                                //         <div className="Card_name">Three.js</div>
-                                //     </div>
-                                // </div>
-                                : ""
+                                    <div className="card3">
+                                        <img src="/assets/img/Language/SWIFT.svg" alt="" />
+                                        <div className="Card_name">Swift</div>
+                                    </div>
+                                    <div className="card3">
+                                        <img src="/assets/img/Language/KATLIN.svg" alt="" />
+                                        <div className="Card_name">Kotlin</div>
+                                    </div>
+                                </div> : blockchain ? <div className="right_Language_div">
+                                    <div className="card5">
+                                        <img src="/assets/img/Language/ethereum-eth-logo.svg" alt="" />
+                                        <div className="Card_name">Ethereum</div>
+                                    </div>
+                                    <div className="card5">
+                                        <img src="/assets/img/Language/solana-sol-logo.svg" alt="" />
+                                        <div className="Card_name">Solana</div>
+                                    </div>
+                                    <div className="card5">
+                                        <img src="/assets/img/Language/cardano-ada-logo.svg" alt="" />
+                                        <div className="Card_name">Cardano</div>
+                                    </div>
+                                    <div className="card5">
+                                        <img src="/assets/img/Language/polkadot-new-dot-logo.svg" alt="" />
+                                        <div className="Card_name">PolkaDot</div>
+                                    </div>
+                                    <div className="card5">
+                                        <img src="/assets/img/Language/ipfs-logo.svg" alt="" />
+                                        <div className="Card_name">IPFS</div>
+                                    </div>
+                                </div> : game ? <div className="right_Language_div">
+                                    <div className="card6">
+                                        <img src="/assets/img/Language/UNITY.svg" alt="" />
+                                        <div className="Card_name">Unity 3D</div>
+                                    </div>
+                                    <div className="card6">
+                                        <img style={{ fill: "red" }} src="/assets/img/Language/unreal.svg" alt="" />
+                                        <div className="Card_name">UnReal Engine</div>
+                                    </div>
+                                    <div className="card6">
+                                        <img src="/assets/img/Language/arkit-removebg-preview 1.png" alt="" />
+                                        <div className="Card_name">ARKit</div>
+                                    </div>
+                                    <div className="card6">
+                                        <img src="/assets/img/Language/google-arcore.svg" alt="" />
+                                        <div className="Card_name">ARCore</div>
+                                    </div>
+                                    <div className="card6">
+                                        <img src="/assets/img/Language/csharp.svg.svg" alt="" />
+                                        <div className="Card_name">C#</div>
+                                    </div>
+                                    <div className="card6">
+                                        <img src="/assets/img/Language/blender-icon.svg" alt="" />
+                                        <div className="Card_name">Blender</div>
+                                    </div>
+                                    <div className="card6">
+                                        <img src="/assets/img/Language/aframe-logo.png" alt="" />
+                                        <div className="Card_name">A-Frame</div>
+                                    </div>
+                                    <div className="card6">
+                                        <img src="/assets/img/Language/three js.png" alt="" />
+                                        <div className="Card_name">Three.js</div>
+                                    </div>
+                                </div>
+                                    : ""
                         }
                     </div>
                 </div>
