@@ -1,12 +1,21 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { toast, Toaster } from "react-hot-toast";
 import "./ContactSection2.css"
 import PhoneInput from 'react-phone-input-2'
 import 'react-phone-input-2/lib/style.css'
+import ReactFlagsSelect from "react-flags-select";
 
 
 const ContactSection2 = () => {
+
+  const [selected, setSelected] = useState('IN');
+  const [name, setName] = useState("")
+  const [email, setEmail] = useState("")
+  const [Phone, setPhone] = useState("")
+  const [Country, setCountry] = useState("")
+
+
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -53,8 +62,15 @@ const ContactSection2 = () => {
                 <form className="right_div_input_div">
                   <input type="text" placeholder="Name" />
                   <input type="email" placeholder="Email" />
-                  <PhoneInput className="phone_no_input" country={'india'}/>
-                  <input placeholder="Country" />
+                  <PhoneInput className="phone_no_input" country={'in'} />
+                  <ReactFlagsSelect
+                    selected={selected}
+                    onSelect={(code) => setSelected(code)}
+                    searchPlaceholder="Search Country"
+                    searchable
+                    defaultCountry="IN" // Set default country to India
+
+                  />
                   <textarea type="text" placeholder="Message" />
                   <button>Submit</button>
                 </form>
