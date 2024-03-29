@@ -3,7 +3,7 @@ import image from "../images/DALL·E 2024-03-18 17.49 1.webp";
 const ProjectDetailUseCase = () => {
   return (
     <section>
-      <div className="container-fluid UseCase">
+      <div className="container-fluid UseCase" style={{ overflow: "hidden" }}>
         <div className="auto-container UseCase_content">
           <h2>Services</h2>
           <div className="row UseCase_content_row">

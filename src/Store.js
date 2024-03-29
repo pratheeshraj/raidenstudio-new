@@ -4,11 +4,13 @@ import newsLetterReducer from "./Slices/newsletterSclice"
 import blogReducer from "./Slices/blogSlice"
 import jobReducer from "./Slices/JobSlice"
 import careerReducer from "./Slices/CareerSlice"
+import contactReducer from "./Slices/ContactSlice"
 const reducer = combineReducers({
     newsLetterState: newsLetterReducer,
     blogState: blogReducer,
     jobState: jobReducer,
-    careerState: careerReducer
+    careerState: careerReducer,
+    contactState: contactReducer
 })
 
 

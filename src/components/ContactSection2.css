@@ -7,11 +7,11 @@
 }
 
 .right_div {
-    width: 85%;
+    width: 87%;
     height: 625px;
     background: white;
     border-radius: 30px;
-    padding: 30px 30px 30px 250px;
+    padding: 30px 30px 30px 200px;
 }
 
 .right_div p {
@@ -21,7 +21,7 @@
 
 .left_div {
     position: absolute;
-    width: 375px;
+    width: 304px;
     height: 537px;
     background: url(../images/2151141658.jpg);
     object-fit: contain !important;
@@ -41,12 +41,16 @@
     flex-wrap: wrap;
     align-items: center;
     gap: 20px;
-    row-gap: 60px;
+    row-gap: 50px;
     margin-top: 60px;
 }
 
-.right_div_input_div input {
+.right_div_input_div div {
     width: 48%;
+}
+
+.right_div_input_div div input {
+    width: 100%;
     border: none;
     padding-bottom: 10px;
     border-bottom: 1px solid black;
@@ -63,7 +67,7 @@
 }
 
 .phone_no_input {
-    width: 48% !important;
+    width: 100% !important;
     border-bottom: 1px solid black !important;
     padding-bottom: 21px !important
 }
@@ -120,4 +124,18 @@
 
 .ReactFlagsSelect-module_label__27pw9 {
     color: black !important;
+}
+
+.ReactFlagsSelect-module_selectBtn__19wW7 {
+    width: 100% !important;
+}
+
+.error-message {
+    /* position: relative; */
+    z-index: 2;
+    color: black !important;
+}
+
+.text-contat-div {
+    width: 100% !important;
 }

@@ -54,7 +54,7 @@ const SliderThree = () => {
     // }, []);
     useEffect(() => {
         gsap.registerPlugin(ScrollTrigger);
-        
+
         const sections = gsap.utils.toArray('.scroll-section');
 
         gsap.to(sections, {
@@ -68,7 +68,7 @@ const SliderThree = () => {
                     snapTo: 1 / (sections.length - 1),
                     duration: 0.5
                 },
-                end: () => `+=${triggerRef.current.offsetWidth}`
+                end: () => `+=${triggerRef.current?.offsetWidth}`
             }
         });
     }, []);
