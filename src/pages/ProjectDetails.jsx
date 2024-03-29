@@ -33,9 +33,10 @@ const ProjectDetails = () => {
         {/* Project Details Section */}
         <ProjectDetailsSection />
         <ProductDemokit/>
-        <BlogSectionOne />
+       
         <ProjectDetailUseCase/>
-        {/* News Section One */}
+        <BlogSectionOne /> 
+       {/* News Section One */}
         <NewsSectionOne />
         {/* Footer Section */}
         <FooterSectionOne />

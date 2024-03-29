@@ -365,17 +365,24 @@
   }
 }
 .section4 {
-  background-image: url(../../img/bg-image/metaverse-new-raiden.jpg);
+  background-image: url(../../img/bg-image/metaverse.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-
+  @media #{ $md, $sm, $xs, $xss} {
+    background-position: left;
+  }
   .section4_container {
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    @media #{ $md, $sm, $xs, $xss} {
+      flex-direction: column-reverse;
+      justify-content: center;
+    }
+
     .left {
       @media #{ $md, $sm, $xs, $xss} {
         display: flex;
@@ -406,16 +413,30 @@
         }
       }
       p {
-        text-align: center;
+        @media #{ $md, $sm, $xs, $xss} {
+          text-align: center;
+        }
+
+        @media #{  $xss} {
+          font-size: 14px;
+        }
       }
       width: 55%;
       height: 100%;
       display: flex;
-      align-items: center;
+      align-items: start;
       flex-direction: column;
       justify-content: center;
       @media #{$md,$sm, $xs, $xss} {
         width: 100%;
+      }
+    }
+    .right {
+      img {
+        width: 430px !important;
+      }
+      @media #{$md,$sm, $xs, $xss} {
+        display: none;
       }
     }
   }

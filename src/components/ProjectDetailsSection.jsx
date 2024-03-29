@@ -6,8 +6,8 @@ const ProjectDetailsSection = ({ vidio }) => {
   return (
     <>
       {/* Project Details Section Start */}
-      <section className="project-details">
-        <div className="container-fulid">
+      <section className=" project-details">
+        <div className=" auto-containercontainer-fulid">
           <div className="col-12 project_hero_section">
             <video autoPlay muted loop>
               <source src={vidio ? vidio : demo} type="video/mp4" />
