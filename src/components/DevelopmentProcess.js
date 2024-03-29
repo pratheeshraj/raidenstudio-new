@@ -102,7 +102,7 @@ function DevelopmentProcess() {
                 </VisibilitySensor>
                 <VisibilitySensor onChange={onAnimationVisible}>
                   <div className={`container_devo left-container ${isVisible ? 'visible' : ''}`}>
-                    <div className='devo_round_div'><img src='/assets/img/aiprocessdevelopment/34_icon.png' alt='' />
+                    <div className='devo_round_div'><img src='/assets/img/aiprocessdevelopment/maintenance.svg' alt='' />
                     </div>                    <div className='text-box'>
                       <h2>Maintenance and Support</h2>
                       <p>
