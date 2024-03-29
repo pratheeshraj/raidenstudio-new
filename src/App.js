@@ -73,13 +73,13 @@ function App() {
         <Route exact path="/project-details" element={<ProjectDetails />} />
         <Route exact path="/review" element={<Review />} />
         <Route exact path="/service" element={<Service />} />
-        <Route exact path="/ai-development" element={<ServicesDetails />} />
         <Route exact path="/team" element={<Team />} />
         <Route exact path="/career" element={<Career />} />
         <Route exact path="/nft-development" element={<NftDevlopment />} />
         <Route exact path="/career-details/:id" element={<CareerDetails />} />
         <Route exact path="/gameproduct-details" element={<GameProductDetails />} />
         <Route exact path="/raidensimx" element={<RaidenSimx />} />
+        <Route exact path="/ai-development" element={<ServicesDetails />} />
 
         <Route exact path="*" element={<Error />} />
       </Routes>

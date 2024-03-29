@@ -1,16 +1,84 @@
-.imput_contact {
-    border: 1px solid black !important;
-    padding: 0 !important;
+.enqury_main_div {
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
 }
 
-.contact_input_name {
-    color: black !important;
-
+.right_div {
+    width: 85%;
+    height: 625px;
+    background: white;
+    border-radius: 30px;
+    padding: 30px 30px 30px 250px;
 }
 
-.form-author,
-.form-email,
-.form-web,
-.form-comment {
-    padding: 0 !important;
+.right_div p {
+    color: black;
+    text-align: center;
+}
+
+.left_div {
+    position: absolute;
+    width: 375px;
+    height: 537px;
+    background: black;
+    border-radius: 30px;
+    left: 0;
+}
+
+.right_div_contact_heading {
+    color: black;
+    text-align: center;
+}
+
+.right_div_input_div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    row-gap: 60px;
+    margin-top: 60px;
+}
+
+.right_div_input_div input {
+    width: 48%;
+    border: none;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.form-control {
+    width: 48% !important;
+    border: none !important;
+    border-bottom: 1px solid black !important;
+    outline: none !important;
+}
+
+.phone_no_input {
+    width: 98% !important;
+}
+
+.react-tel-input .selected-flag:hover,
+.react-tel-input .selected-flag:focus {
+    background-color: transparent !important;
+}
+
+
+.right_div_input_div textarea {
+    width: 100%;
+    border: none;
+    padding-bottom: 10px;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+.right_div_input_div button {
+    width: 193px;
+    height: 51px;
+    border-radius: 30px;
+    background: black;
+    color: white;
+
 }

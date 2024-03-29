@@ -59,7 +59,6 @@ const ProgramLanguage = () => {
                             <div onClick={handleMobile} style={{ color: mobile ? '#13C4A1' : '' }}>Mobile </div>
                             <div onClick={handleBlockchain} style={{ color: blockchain ? '#13C4A1' : '' }}>Blockchain</div>
                             <div onClick={handleGame} style={{ color: game ? '#13C4A1' : '' }}>Game</div>
-
                         </div>
                         {
                             frontend ? <div className="right_Language_div">

@@ -6,7 +6,6 @@ function WhyChoose() {
 
     return (
         <>
-            {/ FAQ Section three start /}
             <section className="faq-section three whychoose_fulldiv">
                 <div className="auto-container">
                     <div className="row wwhychoose_maindiv">
@@ -59,7 +58,6 @@ function WhyChoose() {
                     </div>
                 </div>
             </section>
-            {/ FAQ Section three end /}
         </>
     );
 };
