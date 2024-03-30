@@ -30,13 +30,12 @@ import NewsletterPopup from "./components/NewsletterPopup";
 import BlogByCategory from "./pages/BlogByCategory";
 import BlogByTag from "./pages/BlogByTag";
 import Career from "./pages/Career";
-
 import CareerDetails from "./pages/CareerDetails";
 import GameProductDetails from "./pages/GameProductDetails";
 import RaidenSimx from "./pages/RaidenSimx";
-
 import SocialIcons from './components/SocialIcons';
 import NftDevlopment from "./pages/NftDevlopment";
+import MetaveseDevelopment from "./pages/MetaveseDevelopment";
 
 
 function App() {
@@ -80,6 +79,7 @@ function App() {
         <Route exact path="/gameproduct-details" element={<GameProductDetails />} />
         <Route exact path="/raidensimx" element={<RaidenSimx />} />
         <Route exact path="/ai-development" element={<ServicesDetails />} />
+        <Route exact path="/metaverse-development" element={<MetaveseDevelopment />} />
 
         <Route exact path="*" element={<Error />} />
       </Routes>

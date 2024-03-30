@@ -34,7 +34,7 @@ const HeaderTwo = () => {
   // service
 
   // block chain
-  const blockChainTo = ["/nft-development"]
+  const blockChainTo = ["/nft-development", "", "", "", "/metaverse-development", ""]
   const blockchainValues = [0.5, 0.5, 0.5, 0.5, 0.5, 0.5];
   const blockchainnames = [
     "NFT",

@@ -65,14 +65,20 @@ const ContactSection2 = () => {
       "message": message
     }
 
-    dispatch(createContact(ContactData))
+    try {
 
-    // Reset form fields after submission
-    setName("");
-    setEmail("");
-    setPhone("");
-    setCountry("");
-    setMessage("");
+      dispatch(createContact(ContactData))
+
+      // Reset form fields after submission
+      setName("");
+      setEmail("");
+      setPhone("");
+      setCountry("");
+      setMessage("");
+
+    } catch (error) {
+      console.error("Error submitting contact form:", error);
+    }
 
   };
 
