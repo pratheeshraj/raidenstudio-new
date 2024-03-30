@@ -11,6 +11,7 @@ import HeaderTwo from "../components/HeaderTwo";
 import ProductDemokit from "../components/ProductDemokit";
 import BlogSectionOne from "../components/BlogSectionOne";
 import ProjectDetailUseCase from "../components/ProjectDetailUseCase";
+import ContactSection2 from "../components/ContactSection2";
 
 const ProjectDetails = () => {
   let [active, setActive] = useState(true);
@@ -38,6 +39,8 @@ const ProjectDetails = () => {
         <BlogSectionOne /> 
        {/* News Section One */}
         <NewsSectionOne />
+        <ContactSection2 />
+
         {/* Footer Section */}
         <FooterSectionOne />
       </Suspense>
