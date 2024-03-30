@@ -9,6 +9,9 @@ import Preloader from '../elements/Preloader';
 import MetaverseHero from '../components/MetaverseDevolopment/MetaverseHero';
 import MetaverseAbout from '../components/MetaverseDevolopment/MetaverseAbout';
 import MetaverseCount from '../components/MetaverseDevolopment/MetaverseCount';
+import MetaverseService from '../components/MetaverseDevolopment/MetaverseService';
+import MetaverseBanner from '../components/MetaverseDevolopment/MetaverseBanner';
+import MetaverseFeature from '../components/MetaverseDevolopment/MetaverseFeature';
 
 function NftDevlopment() {
     let [active, setActive] = useState(true);
@@ -32,6 +35,12 @@ function NftDevlopment() {
                 <MetaverseAbout />
                 {/* metaverse-count */}
                 <MetaverseCount />
+                {/* metaverse-service */}
+                <MetaverseService />
+                {/* metaverse-banner */}
+                <MetaverseBanner />
+                {/* metaverse-features */}
+                <MetaverseFeature />
                 {/* faq */}
                 <FAQSectionOne />
                 {/* contact */}

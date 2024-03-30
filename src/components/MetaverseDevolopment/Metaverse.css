@@ -1,0 +1,180 @@
+/* metaverseservice */
+
+.card_metaverse {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 320px;
+    height: 430px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 32px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.content_metaverse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    color: #e8e8e8;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.content_metaverse .heading_metaverse {
+    font-weight: 700;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    line-height: 30px;
+}
+
+.content_metaverse .para_metaverse {
+    line-height: 1.5;
+    color: black;
+    text-align: center;
+
+}
+
+.content_metaverse .btn_metaverse {
+    color: #e8e8e8;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100%);
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card_metaverse::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 5px;
+    height: 100%;
+    background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100%);
+    z-index: -1;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.card_metaverse:hover::before {
+    width: 100%;
+}
+
+.card_metaverse:hover {
+    box-shadow: none;
+}
+
+.card_metaverse:hover .btn_metaverse {
+    color: #212121;
+    background: #e8e8e8;
+}
+
+.content_metaverse .btn_metaverse:hover {
+    outline: 2px solid #e8e8e8;
+    background: transparent;
+    color: #e8e8e8;
+}
+
+.content_metaverse .btn_metaverse:active {
+    box-shadow: none;
+}
+
+.card_metaverse:hover .content_metaverse .heading_metaverse,
+.card_metaverse:hover .content_metaverse .para_metaverse {
+    color: white;
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .card_metaverse {
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+
+
+/* meta features */
+
+.feature_div_metaverse {
+    width: 100%;
+    margin: 80px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 44px;
+    padding: 0;
+    justify-content: center;
+}
+
+
+.card_feature_metaverse {
+    width: 100%;
+    max-width: 220px;
+    min-width: 200px;
+    height: 200px;
+    background-color: #ffffff;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
+    border: 2px solid rgba(7, 7, 7, 0.12);
+    font-size: 16px;
+    transition: all 0.3s ease;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+.icon_feature_metaverse {
+    margin: 0 auto;
+    width: 100%;
+    height: 80px;
+    max-width: 80px;
+    background: linear-gradient(90deg, #ffffff 0%, #ffffff 40%, rgb(0, 0, 0) 60%);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.8s ease;
+    background-position: 0px;
+    background-size: 200px;  
+}
+
+.icon_feature_metaverse img {
+    fill: white !important;
+    width: 50px;
+    height: 50px;
+}
+
+.card_feature_metaverse .title_feature_metaverse {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px !important;
+}
+
+.card_feature_metaverse:hover .icon_feature_metaverse {
+    background-position: -120px;
+    transition: all 0.3s ease;
+}
+
+.card:hover .icon_feature_metaverse svg path {
+    fill: url('#gradientColor');
+    transition: all 0.3s ease;
+}

@@ -39,7 +39,7 @@ const NftServices = () => {
                                 <div className="img-file">
                                     <img
                                         className="img-fluid"
-                                        src="/assets/img/blog/15_blog.png"
+                                        src="/assets/img/service_nft/nft1.jpg"
                                         alt=""
                                     />
                                 </div>
@@ -64,7 +64,7 @@ const NftServices = () => {
                                 <div className="img-file">
                                     <img
                                         className="img-fluid"
-                                        src="/assets/img/blog/15_blog.png"
+                                        src="/assets/img/service_nft/nft2.jpg"
                                         alt=""
                                     />
                                 </div>
@@ -89,7 +89,7 @@ const NftServices = () => {
                                 <div className="img-file">
                                     <img
                                         className="img-fluid"
-                                        src="/assets/img/blog/15_blog.png"
+                                        src="/assets/img/service_nft/nft3.jpg"
                                         alt=""
                                     />
                                 </div>
@@ -114,7 +114,7 @@ const NftServices = () => {
                                 <div className="img-file">
                                     <img
                                         className="img-fluid"
-                                        src="/assets/img/blog/15_blog.png"
+                                        src="/assets/img/service_nft/nft4.jpg"
                                         alt=""
                                     />
                                 </div>
@@ -139,7 +139,7 @@ const NftServices = () => {
                                 <div className="img-file">
                                     <img
                                         className="img-fluid"
-                                        src="/assets/img/blog/15_blog.png"
+                                        src="/assets/img/service_nft/nft5.jpg"
                                         alt=""
                                     />
                                 </div>
@@ -164,7 +164,7 @@ const NftServices = () => {
                                 <div className="img-file">
                                     <img
                                         className="img-fluid"
-                                        src="/assets/img/blog/15_blog.png"
+                                        src="/assets/img/service_nft/nft6.jpg"
                                         alt=""
                                     />
                                 </div>
@@ -192,7 +192,7 @@ const NftServices = () => {
                                 <div className="img-file">
                                     <img
                                         className="img-fluid"
-                                        src="/assets/img/blog/15_blog.png"
+                                        src="/assets/img/service_nft/nft7.jpg"
                                         alt=""
                                     />
                                 </div>
@@ -217,7 +217,7 @@ const NftServices = () => {
                                 <div className="img-file">
                                     <img
                                         className="img-fluid"
-                                        src="/assets/img/blog/15_blog.png"
+                                        src="/assets/img/service_nft/nft8.jpg"
                                         alt=""
                                     />
                                 </div>
@@ -244,7 +244,7 @@ const NftServices = () => {
                                 <div className="img-file">
                                     <img
                                         className="img-fluid"
-                                        src="/assets/img/blog/15_blog.png"
+                                        src="/assets/img/service_nft/nft9.jpg"
                                         alt=""
                                     />
                                 </div>
