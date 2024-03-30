@@ -1,7 +1,14 @@
 import React from "react";
+import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
 const BlogSectionOne = () => {
+  const { allBlogs } = useSelector((state) => state.blogState);
+  console.log(allBlogs);
+  const formatDate = (dateString) => {
+    const options = { year: "numeric", month: "long", day: "numeric" };
+    return new Date(dateString).toLocaleDateString("en-US", options);
+  };
   return (
     <>
       {/* Blog Section one start */}
@@ -23,147 +30,52 @@ const BlogSectionOne = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-4 col-md-6">
-              <div
-                className="blog-items "
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
-                <div className="img-file">
-                  <img
-                    className="img-fluid"
-                    src="/assets/img/blog/01_blog.png"
-                    alt=""
-                  />
-                </div>
-                <div className="text-file">
-                  <div className="intro">
-                    <div className="d-flex gap-3 align-items-center">
-                      <div className="dp-img">
-                        <img
-                          src="/assets/img/testimonial/01_testimonial-profile.png"
-                          alt=""
-                        />
-                      </div>
-                      <div>
-                        <p className="admin">Admin</p>
-                      </div>
+            {allBlogs?.slice(0, 3).map((data, index) => {
+              return (
+                <div className="col-lg-4 col-md-6">
+                  <div
+                    className="blog-items "
+                    data-aos="fade-up"
+                    data-aos-delay="200"
+                  >
+                    <div className="img-file">
+                      <img className="img-fluid" src={data?.imageurl} alt="" />
                     </div>
-                    <div>
-                      <div className="date d-flex gap-2 align-items-center">
-                        <span>
-                          <i className="fa-solid fa-calendar-days" />
-                        </span>
-                        <span>May 26, 2023</span>
+                    <div className="text-file">
+                      <div className="intro">
+                        <div className="d-flex gap-3 align-items-center">
+                          <div className="dp-img">
+                            <img
+                              src="/assets/img/testimonial/01_testimonial-profile.png"
+                              alt=""
+                            />
+                          </div>
+                          <div>
+                            <p className="admin">Admin</p>
+                          </div>
+                        </div>
+                        <div>
+                          <div className="date d-flex gap-2 align-items-center">
+                            <span>
+                              <i className="fa-solid fa-calendar-days" />
+                            </span>
+                            {formatDate(data?.createdAt)}
+                          </div>
+                        </div>
                       </div>
-                    </div>
-                  </div>
-                  <div className="title">
-                    <h2>
-                      <Link to="#">Professional Technology information.</Link>
-                    </h2>
-                    <p>
-                      Lorem ipsum dolor sit amet, coned sectetur notte elit sed
-                      do.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-              <div
-                className="blog-items "
-                data-aos="fade-up"
-                data-aos-delay="400"
-              >
-                <div className="img-file">
-                  <img
-                    className="img-fluid"
-                    src="/assets/img/blog/02_blog.png"
-                    alt=""
-                  />
-                </div>
-                <div className="text-file">
-                  <div className="intro">
-                    <div className="d-flex gap-3 align-items-center">
-                      <div className="dp-img">
-                        <img
-                          src="/assets/img/testimonial/01_testimonial-profile.png"
-                          alt=""
-                        />
-                      </div>
-                      <div>
-                        <p className="admin">Admin</p>
-                      </div>
-                    </div>
-                    <div>
-                      <div className="date d-flex gap-2 align-items-center">
-                        <span>
-                          <i className="fa-solid fa-calendar-days" />
-                        </span>
-                        <span>May 26, 2023</span>
+                      <div className="title">
+                        <h2>
+                          <Link to={`/blogdetails/${data?.url}`}>
+                            {`${data?.mainheading.substring(0, 40)}...`}
+                          </Link>
+                        </h2>
+                        <p>{`${data?.maincontent.substring(0, 60)}...`}</p>
                       </div>
                     </div>
                   </div>
-                  <div className="title">
-                    <h2>
-                      <Link to="#">We offer AI services and solutions.</Link>
-                    </h2>
-                    <p>
-                      Lorem ipsum dolor sit amet, coned sectetur notte elit sed
-                      do.
-                    </p>
-                  </div>
                 </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-              <div
-                className="blog-items "
-                data-aos="fade-up"
-                data-aos-delay="600"
-              >
-                <div className="img-file">
-                  <img
-                    className="img-fluid"
-                    src="/assets/img/blog/03_blog.png"
-                    alt=""
-                  />
-                </div>
-                <div className="text-file">
-                  <div className="intro">
-                    <div className="d-flex gap-3 align-items-center">
-                      <div className="dp-img">
-                        <img
-                          src="/assets/img/testimonial/01_testimonial-profile.png"
-                          alt=""
-                        />
-                      </div>
-                      <div>
-                        <p className="admin">Admin</p>
-                      </div>
-                    </div>
-                    <div>
-                      <div className="date d-flex gap-2 align-items-center">
-                        <span>
-                          <i className="fa-solid fa-calendar-days" />
-                        </span>
-                        <span>May 26, 2023</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="title">
-                    <h2>
-                      <Link to="#">AI Services is a collection prebuilt.</Link>
-                    </h2>
-                    <p>
-                      Lorem ipsum dolor sit amet, coned sectetur notte elit sed
-                      do.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+              );
+            })}
           </div>
           <div className="inner-btn d-adjust">
             <div>

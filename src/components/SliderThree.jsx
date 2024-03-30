@@ -24,8 +24,6 @@ const SliderThree = () => {
   const sectionRef = useRef(null);
   const triggerRef = useRef(null);
 
-
-
   // useEffect(() => {
   //     const pin = gsap.fromTo(
   //         sectionRef.current,
@@ -69,6 +67,10 @@ const SliderThree = () => {
         end: () => `+=${triggerRef?.current?.offsetWidth}`,
       },
     });
+    return () => {
+      ScrollTrigger.getAll().forEach((instance) => instance.kill());
+      gsap.killTweensOf("*");
+    };
   }, []);
   return (
     <>
@@ -162,10 +164,15 @@ const SliderThree = () => {
                 data-aos-delay="300"
               >
                 <div className="left">
-                  <h4 className="sub-title" style={{ color: "#2ac8fd" }}>Your New Age</h4>
+                  <h4 className="sub-title" style={{ color: "#2ac8fd" }}>
+                    Your New Age
+                  </h4>
                   <h2 className="slider-title">
-                     Generative AI
-                    <span className="theme-color" style={{ color: "#2ac8fd" }}> Development Partner</span>
+                    Generative AI
+                    <span className="theme-color" style={{ color: "#2ac8fd" }}>
+                      {" "}
+                      Development Partner
+                    </span>
                   </h2>
                   <p className="description">
                     Utilize our expertise to fast-track your AI projects with
@@ -173,7 +180,11 @@ const SliderThree = () => {
                     strategies for business <br /> growth to NLP and adaptable
                     solutions, we're your dedicated AI partner.
                   </p>
-                  <Link     style={{ backgroundColor: "#2ac8fd" }} className="default-btn" to="/contact">
+                  <Link
+                    style={{ backgroundColor: "#2ac8fd" }}
+                    className="default-btn"
+                    to="/contact"
+                  >
                     Contact Us Now
                   </Link>
                 </div>
