@@ -5,7 +5,7 @@ const MetaverseAbout = () => {
         <>
             {/* Service Details Section Start */}
             <section
-                style={{ background: "white" }}
+                style={{ background: "white", paddingTop: "0px" }}
                 className="service-details-section"
                 data-aos="fade-up"
                 data-aos-delay="300"

@@ -12,6 +12,10 @@ import MetaverseCount from '../components/MetaverseDevolopment/MetaverseCount';
 import MetaverseService from '../components/MetaverseDevolopment/MetaverseService';
 import MetaverseBanner from '../components/MetaverseDevolopment/MetaverseBanner';
 import MetaverseFeature from '../components/MetaverseDevolopment/MetaverseFeature';
+import MetaverseTeckstack from '../components/MetaverseDevolopment/MetaverseTeckstack';
+import MetaverseProcess from '../components/MetaverseDevolopment/MetaverseProcess';
+import MetaverseWhychoose from '../components/MetaverseDevolopment/MetaverseWhychoose';
+import MetaverseFaq from '../components/MetaverseDevolopment/MetaverseFaq';
 
 function NftDevlopment() {
     let [active, setActive] = useState(true);
@@ -41,8 +45,14 @@ function NftDevlopment() {
                 <MetaverseBanner />
                 {/* metaverse-features */}
                 <MetaverseFeature />
+                {/* metaverse-tech */}
+                <MetaverseTeckstack />
+                {/* metaverse-process */}
+                <MetaverseProcess />
+                {/* metaverse-whychoose */}
+                <MetaverseWhychoose />
                 {/* faq */}
-                <FAQSectionOne />
+                <MetaverseFaq />
                 {/* contact */}
                 <ContactSection2 />
                 {/* Footer Section */}

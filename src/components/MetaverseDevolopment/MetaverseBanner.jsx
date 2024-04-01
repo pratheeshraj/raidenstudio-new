@@ -8,7 +8,7 @@ const MetaverseBanner = () => {
             <section
                 className="counter-section one"
                 style={{
-                    backgroundImage: "url('/assets/img/bg-image/focus-white-robotic.jpg')",
+                    backgroundImage: "url('/assets/img/bg-image/teenager-using-virtual-reality-glasses-play-video-games-metaverse_168310-706-transformed.png')",
                     backgroundSize: "cover"
                 }}
             >
