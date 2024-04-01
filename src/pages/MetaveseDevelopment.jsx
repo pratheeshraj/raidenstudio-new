@@ -43,10 +43,10 @@ function NftDevlopment() {
                 <MetaverseService />
                 {/* metaverse-banner */}
                 <MetaverseBanner />
-                {/* metaverse-features */}
-                <MetaverseFeature />
                 {/* metaverse-tech */}
                 <MetaverseTeckstack />
+                {/* metaverse-features */}
+                <MetaverseFeature />
                 {/* metaverse-process */}
                 <MetaverseProcess />
                 {/* metaverse-whychoose */}

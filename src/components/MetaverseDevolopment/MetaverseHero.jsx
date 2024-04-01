@@ -17,7 +17,6 @@ const MetaverseHero = () => {
                     <Swiper
                         loop={false}
                         modules={[FreeMode, Navigation, Thumbs, EffectFade]}
-                        effect="fade"
                         navigation={{
                             nextEl: ".swiper-button-next",
                             prevEl: ".swiper-button-prev",
@@ -46,7 +45,7 @@ const MetaverseHero = () => {
                                                     <p style={{ width: "500px" }} className="description">
                                                         With our cutting-edge development services, you can explore the metaverse and enter a world without boundaries. VRaiden is a metaverse development company which employs its expertise in the fields of blockchain, augmented reality, virtual reality, and XR to generate innovative metaverse solutions.
                                                     </p>
-                                                    <div className="inner-btn">
+                                                    <div className="inner-btn" >
                                                         <div>
                                                             <Link className="default-btn" to="/contact">
                                                                 Explore Now

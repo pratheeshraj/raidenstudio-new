@@ -9,7 +9,7 @@ const NftBanner = () => {
             <section
                 className="counter-section one"
                 style={{
-                    backgroundImage: "url('/assets/img/bg-image/focus-white-robotic.jpg')",
+                    backgroundImage: "url('/assets/img/bg-image/cool-3d-rendering-young-man-wearing-hat-headphones-sunglasses-hes-wearing-stylish-outfit-has-backpack.jpeg')",
                     backgroundSize: "cover"
                 }}
             >
