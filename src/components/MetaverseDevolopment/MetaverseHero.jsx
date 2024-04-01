@@ -25,7 +25,7 @@ const MetaverseHero = () => {
                     >
                         <SwiperSlide>
                             <div className="item-slider sliderm-height p-relative swiper-slide" style={{
-                                height: "100vh"
+                                height: "90vh"
                             }}>
                                 <div
                                     className="slide-bg"

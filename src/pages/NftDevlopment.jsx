@@ -48,10 +48,10 @@ function NftDevlopment() {
                 <NftBanner />
                 {/* { features} */}
                 <NftFeatures />
-                {/* nft programming */}
-                <NftProgramming />
                 {/* industries */}
                 <NftIndustries />
+                {/* nft programming */}
+                <NftProgramming />
                 {/* Nft process */}
                 <NftProcess />
                 {/* whyChoose */}

@@ -53,3 +53,82 @@
     margin-top: 15px;
     text-align: center !important;
 }
+
+@media screen and (max-width:1180px) {
+    .nft_whychoose_Right_div {
+        margin-top: 50px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+        row-gap: 100px;
+
+    }
+}
+
+@media screen and (max-width:930px) {
+
+    .nft_whychoose_Right_box {
+        width: 48%;
+        height: 111px;
+    }
+
+    .nft_whychoose_Right_div {
+        margin-top: 50px;
+        width: 93.5%;
+        justify-content: space-between;
+        gap: 0;
+        row-gap: 80px;
+
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    .nft_whychoose_name {
+        font-size: 14px;
+        margin-top: 15px;
+        text-align: center !important;
+    }
+
+    .nft_img_round {
+        width: 55px;
+        height: 55px;
+        left: 17px;
+        top: -30px;
+    }
+
+    .nft_whychoose_Right_div {
+        row-gap: 50px;
+        margin-top: 0;
+    }
+}
+
+
+/* nft features */
+
+@media screen and (max-width:500px) {
+    .feature_div {
+        width: 100%;
+        margin: 80px 0 0 0;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 20px;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .feature_card {
+        width: 45%;
+        gap: 20px;
+    }
+
+    .idustry>div {
+        color: white;
+        font-size: 20px;
+    }
+}

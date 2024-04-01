@@ -5,7 +5,7 @@ const MetaverseAbout = () => {
         <>
             {/* Service Details Section Start */}
             <section
-                style={{ background: "white", paddingTop: "0px" }}
+                style={{ background: "white" }}
                 className="service-details-section"
                 data-aos="fade-up"
                 data-aos-delay="300"
@@ -30,7 +30,7 @@ const MetaverseAbout = () => {
                                 <p style={{ color: "black" }}>
                                     Make potential customers stay with your Metaverse project by using services from the top Metaverse app development company VRaiden, which guarantees immersive and engaging experiences for your users. Leverage the power of the most realistic metaverse development company to provide unforgettable virtual experiences to your users.                                </p>
                                 <p style={{ color: "black" }}>
-                                    VRaiden creates and develops metaverse components like 3D virtual spaces, metaverse NFT marketplaces, metaverse applications, and decentralized platforms that are tailored to your specific virtual environment. Employ our skilled Metaverse developers to handle your complex app specifications and features, and you'll have a flawless Metaverse development process to secure your venture's success in the future.                                </p>
+                                    VRaiden creates and develops metaverse components like 3D virtual spaces, metaverse NFT marketplaces, metaverse applications, and decentralized platforms that are tailored to your specific virtual environment. </p>
                             </div>
                         </div>
                     </div>
