@@ -1,6 +1,7 @@
 import React from "react";
 import image from "../images/DALL·E 2024-03-18 17.49 1.webp";
 import Entertainment_icom from "../images/product_detail_img/3d-cinema-film-projector.jpg";
+import card_Streaming_Services1 from "../images/product_detail_img/3d-cinema-film-projector.jpg";
 const ProjectDetailUseCase = () => {
   return (
     <>
@@ -184,143 +185,114 @@ const ProjectDetailUseCase = () => {
         style={{ backgroundColor: "#00151e" }}
       >
         <h2>
-          Engineered for the Metaverse <br /> Advanced Multiplayer, Streaming,
-          and <br /> Game Engine Mastery
+          Engineered for the Metaverse <br /> <span>Advanced Multiplayer</span>,
+          <span> Streaming</span>, and <br />
+          <span> Game Engine Mastery</span>
         </h2>
         <div className="auto-container">
-          <div className="row">
-            <div className="col-lg-6  order-2 order-lg-1">
-              <div
-                className="right-wrapper pe-2"
-                data-aos="fade-right"
-                data-aos-delay="300"
-              >
-                <h2 className="title">
-                  <span>Multiplayer Integration</span>
-                </h2>
-                <p>
-                  Advanced Networking in Unity/Unreal: Proficiency in
-                  implementing advanced networking features within popular game
-                  engines such as Unity or Unreal Engine, leveraging high-level
-                  networking APIs and low-level socket programming for real-time
-                  communication. Custom Netcode Solutions: Development of custom
-                  networking solutions tailored to specific multiplayer
-                  requirements, including authoritative server architectures,
-                  client-side prediction, and lag compensation techniques.
-                  Cross-Platform Multiplayer: Implementation of cross-platform
-                  multiplayer functionality, enabling seamless gameplay
-                  experiences across different devices and operating systems
-                  while ensuring compatibility with various networking
-                  protocols.
-                </p>
-              </div>
-            </div>
+          <div className="row Multiplayer_Integration">
+            <h2 className="title">
+              <span>Multiplayer Integration</span>
+            </h2>
             <div
-              className="col-lg-6 order-1"
-              data-aos="fade-left"
-              data-aos-delay="300"
-            >
-              <div className="left-wrapper ps-2">
-                <div className="img-file">
-                  <img
-                    className="img-fluid"
-                    src="/assets/img/service/02_service.png"
-                    alt=""
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <br />
-          <br />
-          <div className="row">
-            <div
-              className="col-lg-6"
+              className="right-wrappers"
               data-aos="fade-right"
               data-aos-delay="300"
             >
-              <div className="left-wrapper pe-2">
-                <div className="img-file">
-                  <img
-                    className="img-fluid"
-                    src="/assets/img/service/03_service.png"
-                    alt=""
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6" data-aos="fade-left" data-aos-delay="300">
-              <div className="right-wrapper ps-2">
-                <h2 className="title">
-                  <span> Streaming Services</span>
-                </h2>
+              <div class="card_Multiplayer_Integration">
+                <h2>Advanced Networking in Unity/Unreal</h2>
                 <p>
-                  Video Streaming in Unity/Unreal: Integration of video
-                  streaming capabilities directly into Unity or Unreal Engine
-                  projects, utilizing plugins and APIs for real-time video
-                  playback and rendering within virtual environments.
-                  Interactive Streaming: Implementation of interactive streaming
-                  features such as live chat, viewer interactions, and dynamic
-                  content updates using streaming platforms' APIs and SDKs,
-                  enhancing viewer engagement and immersion. Performance
-                  Optimization: Optimization of streaming performance through
-                  techniques such as video transcoding, adaptive bitrate
-                  streaming, and caching mechanisms to ensure smooth playback
-                  and minimal buffering.
+                  Proficiency in implementing advanced networking features
+                  within popular game engines such as Unity or Unreal Engine,
+                  leveraging high-level networking APIs and low-level socket
+                  programming for real-time communication
                 </p>
               </div>
-            </div>
-          </div>
-          <br />
-          <br />
-          <div className="row">
-            <div className="col-lg-6  order-2 order-lg-1">
-              <div
-                className="right-wrapper pe-2"
-                data-aos="fade-right"
-                data-aos-delay="300"
-              >
-                <h2 className="title">
-                  <span> Game Engine Expertise (Unity/Unreal)</span>
-                </h2>
+              <div class="card_Multiplayer_Integration">
+                <h2>Custom Netcode Solutions</h2>
                 <p>
-                  ●Unity Development: Extensive experience in Unity development,
-                  including proficiency in C# scripting, asset management, scene
-                  composition, and optimization techniques to create immersive
-                  and high-performance virtual experiences. Unreal Engine
-                  Development: Proficiency in Unreal Engine development,
-                  encompassing Blueprint scripting, material and particle
-                  effects creation, level design, and optimization strategies
-                  for achieving visually stunning and responsive gameplay
-                  environments. Cross-Platform Development: Ability to develop
-                  games and applications for multiple platforms (PC, console,
-                  mobile, VR/AR) using Unity or Unreal Engine, with expertise in
-                  platform-specific optimizations and deployment workflows.
+                  Development of custom networking solutions tailored to
+                  specific multiplayer requirements, including authoritative
+                  server architectures, client-side prediction, and lag
+                  compensation techniques.
                 </p>
               </div>
             </div>
             <div
-              className="col-lg-6 order-1"
-              data-aos="fade-left"
+              className="right-wrappers mt-4"
+              data-aos="fade-right"
               data-aos-delay="300"
             >
-              <div className="left-wrapper ps-2">
-                <div className="img-file">
-                  <img
-                    className="img-fluid"
-                    src="/assets/img/service/02_service.png"
-                    alt=""
-                  />
-                </div>
+              <div class="card_Multiplayer_Integration">
+                <h2>Cross-Platform Multiplayer</h2>
+                <p>
+                  Implementation of cross-platform multiplayer functionality,
+                  enabling seamless gameplay experiences across different
+                  devices and operating systems while ensuring compatibility
+                  with various networking protocols.
+                </p>
+              </div>
+              <div class="card_Multiplayer_Integration">
+                <h2> Network Optimization</h2>
+                <p>
+                  Optimization of network traffic and bandwidth usage through
+                  techniques such as packet prioritization, data compression,
+                  and efficient state synchronization to minimize latency and
+                  improve overall network performance.
+                </p>
               </div>
             </div>
           </div>
-          <br />
-          <br />
-
-          <br />
-          <br />
         </div>
+        <div className="auto-container">
+          <div className="row	Streaming_Services">
+            <h2 className="title mt-4">
+              <span>Streaming Services</span>
+            </h2>
+            <div className="right" data-aos="fade-right" data-aos-delay="300">
+              <div class="card_Streaming_Services">
+                <img src={card_Streaming_Services1} alt="" />
+                <h5>Video Streaming in Unity/Unreal</h5>
+                <p>
+                  Integration of video streaming capabilities directly into
+                  Unity or Unreal Engine projects, utilizing plugins and APIs
+                  for real-time video playback and rendering within virtual
+                  environments.
+                </p>
+              </div>
+              <div class="card_Streaming_Services">
+                <img src={card_Streaming_Services1} alt="" />
+                <h5>Interactive Streaming</h5>
+                <p>
+                  Implementation of interactive streaming features such as live
+                  chat, viewer interactions, and dynamic content updates using
+                  streaming platforms' APIs and SDKs, enhancing viewer
+                  engagement and immersion.
+                </p>
+              </div>
+              <div class="card_Streaming_Services">
+                <img src={card_Streaming_Services1} alt="" />
+                <h5>Performance Optimization</h5>
+                <p>
+                  Optimization of streaming performance through techniques such
+                  as video transcoding, adaptive bitrate streaming, and caching
+                  mechanisms to ensure smooth playback and minimal buffering.
+                </p>
+              </div>
+              <div class="card_Streaming_Services">
+                <img src={card_Streaming_Services1} alt="" />
+                <h5>	Content Protection</h5>
+                <p>
+                  Implementation of content protection mechanisms within game
+                  engines, including DRM solutions, encryption techniques, and
+                  access control policies to safeguard copyrighted content and
+                  prevent unauthorized access.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
       </section>
     </>
   );
