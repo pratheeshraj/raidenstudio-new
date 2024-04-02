@@ -2,6 +2,7 @@ import React from "react";
 import image from "../images/DALL·E 2024-03-18 17.49 1.webp";
 import Entertainment_icom from "../images/product_detail_img/3d-cinema-film-projector.jpg";
 import card_Streaming_Services1 from "../images/product_detail_img/3d-cinema-film-projector.jpg";
+import NftCounter from "./Nftdevelopment/NftCounter";
 const ProjectDetailUseCase = () => {
   return (
     <>
@@ -180,9 +181,10 @@ const ProjectDetailUseCase = () => {
           </div>
         </div>
       </section>
+         <NftCounter />
       <section
         className="service-details-section"
-        style={{ backgroundColor: "#00151e" }}
+        style={{ backgroundColor: "white" }}
       >
         <h2>
           Engineered for the Metaverse <br /> <span>Advanced Multiplayer</span>,
@@ -338,7 +340,7 @@ const ProjectDetailUseCase = () => {
                     Ability to develop games and applications for multiple
                     platforms (PC, console, mobile, VR/AR) using Unity or Unreal
                     Engine, with expertise in platform-specific optimizations
-                    and deployment workflows.&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    and deployment workflows.&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   </p>
                 </div>
               </div>

@@ -19,7 +19,7 @@ const ProductDetailCard = () => {
                 data-aos-delay="300"
               >
                 <h2 className="title">
-                  <span> Retail Revolution</span>
+                  <spann> Retail Revolution</spann>
                 </h2>
                 <p>
                   Retail Revolution: Partnering with leading retail brands,

@@ -595,8 +595,8 @@ $color-primary-white: rgb(240, 240, 240);
 }
 
 .service-details-section {
-  background: var(--common-body-1);
-  padding: 100px 0 50px 0;
+  background: white;
+  padding: 0px 0 50px 0;
   position: relative;
   overflow: hidden;
   z-index: 9;
@@ -608,6 +608,16 @@ $color-primary-white: rgb(240, 240, 240);
     }
     span {
       color: var(--theme-1);
+    }
+  }
+
+  .right-wrapper {
+    .title {
+      font-size: 26px;
+      color: var(--theme-1);
+    }
+    p {
+      color: black;
     }
   }
   .right-wrappers {
@@ -871,11 +881,10 @@ $color-primary-white: rgb(240, 240, 240);
   z-index: 9;
   display: flex;
   gap: 10px;
-
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  border: 1px solid var(--theme-1);
 
   &:hover img {
     opacity: 0.7;
@@ -898,12 +907,14 @@ $color-primary-white: rgb(240, 240, 240);
     z-index: 9;
     font-size: 18px;
     text-align: center;
+    color: black;
   }
   p {
     position: relative;
     z-index: 9;
     font-size: 16px;
     text-align: center;
+    color: black;
   }
 }
 
@@ -978,17 +989,19 @@ $color-primary-white: rgb(240, 240, 240);
         display: flex;
         align-items: start;
         justify-content: center;
-        background-color: #000c14;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
         flex-direction: column;
         border-radius: 30px;
         padding: 10px;
         h6 {
           font-size: 20px;
+          color: black;
           @media #{ $xss} {
             font-size: 16px;
           }
         }
         p {
+          color: black;
           @media #{ $xss} {
             font-size: 14px;
           }
