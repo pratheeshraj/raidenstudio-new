@@ -30,6 +30,7 @@ import ProgramLanguage from "../components/ProgramLanguage";
 import ContactSection from "../components/ContactSection";
 import ContactSection2 from "../components/ContactSection2";
 import FooterSectionOne from "../components/FooterSectionOne";
+import AboutSectionOne from "../components/AboutSectionOne";
 
 
 const HomeThree = () => {
@@ -63,7 +64,7 @@ const HomeThree = () => {
         {/* Slider Three */}
         <SliderThree />
         {/* About Section Three */}
-        <AboutSectionThree />
+        <AboutSectionOne />
         {/* Service Section Three */}
         <ServiceSectionThree />
         {/* FAQ Section Three */}

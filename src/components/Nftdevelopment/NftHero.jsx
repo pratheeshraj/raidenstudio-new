@@ -29,7 +29,7 @@ const NftHero = () => {
                     height: "100%",
                     backgroundPositionX: "100%",
                     backgroundRepeat: "no-repeat",
-                    backgroundColor: "black",
+                    backgroundColor: "black", 
                   }}
                 />
                 <div className="auto-container" style={{ position: "relative", top: "20%" }}>
