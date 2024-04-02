@@ -1,5 +1,5 @@
 @use "../utils" as *;
-
+$color-primary-white: rgb(240, 240, 240);
 /*----------------------------------------*/
 /* 14. Services
 /*----------------------------------------*/
@@ -233,21 +233,22 @@
     }
   }
   &.two {
-      background: #f8f9fa;
-      z-index: 9;
-      overflow: hidden;
-      padding: 100px 0;
-      min-height: auto;
-      position: relative;
+    background: #f8f9fa;
+    z-index: 9;
+    overflow: hidden;
+    padding: 100px 0;
+    min-height: auto;
+    position: relative;
     .section-title-shape-one {
       margin-bottom: 60px;
     }
     .section-wrapper {
       margin-bottom: 30px;
       overflow: hidden;
-      &:hover a{
-        color: #13C4A1;
-      }&:hover{
+      &:hover a {
+        color: #13c4a1;
+      }
+      &:hover {
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
       }
       .wrapper-inner {
@@ -581,33 +582,78 @@
 
 // Service Details Section
 
+.multiplayer_integration_row {
+  .title {
+    text-align: start;
+    h2 {
+      span {
+        font-size: 24px;
+        text-align: start;
+      }
+    }
+  }
+}
+
 .service-details-section {
-    background: var(--common-body-1);
-    padding: 100px 0 50px 0;
-    position: relative;
-    overflow: hidden;
-    z-index: 9;
+  background: var(--common-body-1);
+  padding: 100px 0 50px 0;
+  position: relative;
+  overflow: hidden;
+  z-index: 9;
   h2 {
     text-align: center;
     margin-bottom: 25px;
-    color: var(--theme-1);
-  }
-  .right-wrapper {
-    @media #{$lg, $md, $sm, $xs, $xss} {
-      margin-top: 30px;
-      padding-left: 0 !important;
+
+    span {
+      color: var(--theme-1);
+      font-size: 24px;
     }
-    h2 {
-      color: white;
-      span {
+  }
+  .right-wrappers {
+    display: flex;
+    gap: 30px;
+    @media #{ $md, $sm, $xs, $xss} {
+      flex-direction: column;
+    }
+    .card_Multiplayer_Integration {
+      background-image: url(../../img/raidenverse/Group_19.jpg);
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: 340px;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: end;
+      padding: 20px;
+
+      h2 {
+        font-size: 20px;
         color: var(--theme-1);
+        transition: color 0.5s ease-in-out; /* Add transition to color property */
+      }
+
+      p {
+        display: none;
+        font-size: 16px;
+        transition: 0.5s ease-in-out; /* Add transition to opacity property */
+      }
+
+      &:hover p {
+        display: flex;
+        transition: 0.5s ease-in-out;
       }
     }
+
+    .material-symbols-outlined {
+      vertical-align: middle;
+    }
+
     .title {
       text-align: start;
       font-size: 26px;
     }
-    ul{
+    ul {
       list-style-type: disc;
       font-size: 16px;
       padding-left: 20px;
@@ -813,3 +859,67 @@
     }
   }
 }
+
+.card_Streaming_Services {
+  height: 340px;
+  width: 256px;
+  position: relative;
+  border-radius: 8px;
+  z-index: 9;
+  display: flex;
+  gap: 10px;
+
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid var(--theme-1);
+
+  &:hover img {
+    opacity: 0.7;
+  }
+  img {
+    position: absolute;
+    height: 340px;
+    width: 256px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 8px;
+    z-index: 8;
+    opacity: 0;
+    transition: all 0.5s;
+  }
+  h5 {
+    position: relative;
+    z-index: 9;
+    font-size: 18px;
+    text-align: center;
+  }
+  p {
+    position: relative;
+    z-index: 9;
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+.Streaming_Services {
+  .right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    @media #{$lg,$md, $sm, $xs, $xss} {
+      justify-content: center;
+      gap: 30px;
+    }
+    @media #{$lg,$md} {
+     padding: 0 140px;
+    }
+    @media #{$md} {
+      padding: 0 90px;
+     }
+  }
+}
+
+

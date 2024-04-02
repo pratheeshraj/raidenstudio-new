@@ -17,7 +17,7 @@
     justify-content: space-between;
     display: flex;
     gap: 10px;
-    row-gap: 20px;
+    row-gap: 50px;
     @media #{ $lg} {
       padding: 0 35px;
       gap: 30px;
@@ -40,8 +40,8 @@
     .product_detail_f_Card_co {
       .flip-card {
         background-color: transparent;
-        width: 215px;
-        height: 260px;
+        width: 240px;
+        height: 245px;
         perspective: 1000px;
         @media #{ $md, $sm, $xs, $xss} {
           width: 225px;
@@ -68,21 +68,25 @@
             height: 100%;
             -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
-            border: 2px solid var(--theme-1);
+            // border: 0.5px solid var(--theme-1);
+            box-shadow: 0 0 3px var(--theme-1);
             border-radius: 1rem;
             padding: 8px;
+            border: none;
           }
           .flip-card-front {
             display: flex;
             align-items: center;
             gap: 20px;
+            padding: 0 30px;
             img {
               width: 60px;
             }
             background-color: black;
             color: coral;
             p {
-              font-size: 14px;
+              font-size: 20px;
+              text-align: center;
             }
           }
 
