@@ -8,16 +8,15 @@
 }
 
 .UseCase_content {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
   h2 {
     text-align: center;
     margin: 0;
     font-size: 35px;
     color: var(--theme-1);
   }
-
 }
 
 .UseCase_content_row {
@@ -54,7 +53,7 @@
         width: 100%;
         border-radius: 8px;
         height: 90px;
-        background-color: #1c2926;
+        background-color: #00151e;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -86,15 +85,14 @@
   }
 }
 
-
-.multi_player{
+.multi_player {
   background-color: #00151e;
   position: relative;
   z-index: 9;
-  .multi_player_container{
-padding: 100px 0;
-h2{
-  text-align: center;
-}
+  .multi_player_container {
+    padding: 100px 0;
+    h2 {
+      text-align: center;
+    }
   }
 }
