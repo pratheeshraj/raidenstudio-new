@@ -1,5 +1,10 @@
 import React from "react";
+import image1 from "../images/raidenverse/RAIDENVERSEPURCHASE.jpg"
+import image2 from "../images/raidenverse/raideneducational.jpg"
+import image3 from "../images/raidenverse/raidenverseclient.jpg"
+import image4 from "../images/raidenverse/raidenversemedical.jpg"
 const ProductDetailCard = () => {
+
   return (
     <>
       {/* Service Details Section Start */}
@@ -14,7 +19,7 @@ const ProductDetailCard = () => {
                 data-aos-delay="300"
               >
                 <h2 className="title">
-                  <span> Retail Revolution</span>
+                  <spann> Retail Revolution</spann>
                 </h2>
                 <p>
                   Retail Revolution: Partnering with leading retail brands,
@@ -35,7 +40,7 @@ const ProductDetailCard = () => {
                 <div className="img-file">
                   <img
                     className="img-fluid"
-                    src="/assets/img/service/02_service.png"
+                    src={image1}
                     alt=""
                   />
                 </div>
@@ -54,7 +59,7 @@ const ProductDetailCard = () => {
                 <div className="img-file">
                   <img
                     className="img-fluid"
-                    src="/assets/img/service/03_service.png"
+                    src={image2}
                     alt=""
                   />
                 </div>
@@ -108,7 +113,7 @@ const ProductDetailCard = () => {
                 <div className="img-file">
                   <img
                     className="img-fluid"
-                    src="/assets/img/service/02_service.png"
+                    src={image4}
                     alt=""
                   />
                 </div>
@@ -127,7 +132,7 @@ const ProductDetailCard = () => {
                 <div className="img-file">
                   <img
                     className="img-fluid"
-                    src="/assets/img/service/03_service.png"
+                    src={image3}
                     alt=""
                   />
                 </div>

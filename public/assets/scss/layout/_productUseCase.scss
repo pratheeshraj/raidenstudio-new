@@ -4,24 +4,33 @@
   padding: 60px 0;
   position: relative;
   z-index: 9;
-  background-color: #000c14;
+  background-color: white;
 }
 
 .UseCase_content {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
   h2 {
     text-align: center;
     margin: 0;
     font-size: 35px;
     color: var(--theme-1);
   }
-
 }
 
 .UseCase_content_row {
   margin-top: 80px;
+  div{
+    .right-wrapper{
+      .title{
+        font-size: 26px !important;
+      }
+      p{
+        color: black;
+      }
+    }
+  }
 }
 
 .left-wrappers {
@@ -54,7 +63,7 @@
         width: 100%;
         border-radius: 8px;
         height: 90px;
-        background-color: #1c2926;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -75,6 +84,7 @@
           margin: 0;
           text-align: center;
           line-height: 20px;
+          color: black;
         }
       }
     }
@@ -86,15 +96,14 @@
   }
 }
 
-
-.multi_player{
+.multi_player {
   background-color: #00151e;
   position: relative;
   z-index: 9;
-  .multi_player_container{
-padding: 100px 0;
-h2{
-  text-align: center;
-}
+  .multi_player_container {
+    padding: 100px 0;
+    h2 {
+      text-align: center;
+    }
   }
 }

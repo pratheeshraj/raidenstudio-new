@@ -2,6 +2,7 @@ import React from "react";
 import image from "../images/DALL·E 2024-03-18 17.49 1.webp";
 import Entertainment_icom from "../images/product_detail_img/3d-cinema-film-projector.jpg";
 import card_Streaming_Services1 from "../images/product_detail_img/3d-cinema-film-projector.jpg";
+import NftCounter from "./Nftdevelopment/NftCounter";
 const ProjectDetailUseCase = () => {
   return (
     <>
@@ -180,9 +181,10 @@ const ProjectDetailUseCase = () => {
           </div>
         </div>
       </section>
+         <NftCounter />
       <section
         className="service-details-section"
-        style={{ backgroundColor: "#00151e" }}
+        style={{ backgroundColor: "white" }}
       >
         <h2>
           Engineered for the Metaverse <br /> <span>Advanced Multiplayer</span>,
@@ -281,7 +283,7 @@ const ProjectDetailUseCase = () => {
               </div>
               <div class="card_Streaming_Services">
                 <img src={card_Streaming_Services1} alt="" />
-                <h5>	Content Protection</h5>
+                <h5> Content Protection</h5>
                 <p>
                   Implementation of content protection mechanisms within game
                   engines, including DRM solutions, encryption techniques, and
@@ -292,7 +294,73 @@ const ProjectDetailUseCase = () => {
             </div>
           </div>
         </div>
-        
+        <div className="auto-container">
+          <div className="row game_engine_expertise ">
+            <h2 className="title mt-4">
+              <span>Game Engine Expertise (Unity/Unreal)</span>
+            </h2>
+            <div className="game_engine_expertise_cards">
+              <div className="game_engine_expertise_card">
+                <div className="left">
+                  <img src={Entertainment_icom} alt="" />
+                </div>
+                <div className="right">
+                  <h6>Unity Development</h6>
+                  <p>
+                    Extensive experience in Unity development, including
+                    proficiency in C# scripting, asset management, scene
+                    composition, and optimization techniques to create immersive
+                    and high-performance virtual experiences.
+                  </p>
+                </div>
+              </div>
+              <div className="game_engine_expertise_card">
+                <div className="left">
+                  <img src={Entertainment_icom} alt="" />
+                </div>
+                <div className="right">
+                  <h6>Unreal Engine Development</h6>
+                  <p>
+                    Proficiency in Unreal Engine development, encompassing
+                    Blueprint scripting, material and particle effects creation,
+                    level design, and optimization strategies for achieving
+                    visually stunning and responsive gameplay environments.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="game_engine_expertise_cards top">
+              <div className="game_engine_expertise_card">
+                <div className="left">
+                  <img src={Entertainment_icom} alt="" />
+                </div>
+                <div className="right">
+                  <h6>Cross-Platform Development</h6>
+                  <p>
+                    Ability to develop games and applications for multiple
+                    platforms (PC, console, mobile, VR/AR) using Unity or Unreal
+                    Engine, with expertise in platform-specific optimizations
+                    and deployment workflows.&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  </p>
+                </div>
+              </div>
+              <div className="game_engine_expertise_card">
+                <div className="left">
+                  <img src={Entertainment_icom} alt="" />
+                </div>
+                <div className="right">
+                  <h6>Integration with External Services</h6>
+                  <p>
+                     Integration of external services and APIs within game
+                    engines for features such as analytics, monetization, social
+                    media, and backend connectivity, enhancing functionality and
+                    extending the capabilities of virtual experiences.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </>
   );
