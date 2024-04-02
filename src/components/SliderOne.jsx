@@ -8,28 +8,30 @@ const SliderOne = () => {
   return (
     <>
       {/* slider-area-one-start  */}
-      <section className="hero-slider one">
+      <section className="hero-slider one" style={{ height: "100vh" }}>
         <div className="swiper hero-slider-init-one swiper-container swiper-container-fade">
           <Swiper
             loop={false}
             modules={[FreeMode, Navigation, Thumbs, EffectFade]}
-            effect="fade"
             navigation={{
               nextEl: ".swiper-button-next",
               prevEl: ".swiper-button-prev",
             }}
           >
             <SwiperSlide>
-              <div className="item-slider sliderm-height p-relative swiper-slide">
+              <div className="item-slider sliderm-height p-relative swiper-slide" style={{
+                height: "90vh"
+              }}>
                 <div
                   className="slide-bg"
                   style={{
                     backgroundImage:
                       "url('assets/img/Test/brain.avif')",
                     backgroundSize: "cover",
+                    height: "100%"
                   }}
                 />
-                <div className="auto-container">
+                <div className="auto-container" style={{ position: "relative", top: "20%" }}>
                   <div className="row ">
                     <div className="col-xl-7 col-12">
                       <div className="slider-content-inner ">
