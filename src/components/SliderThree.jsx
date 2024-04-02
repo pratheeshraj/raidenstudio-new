@@ -92,14 +92,10 @@ const SliderThree = () => {
                     </h2>
 
                     <p>
-                      RAIDEN offers top-tier blockchain game development
-                      services tailored to gaming businesses of any size. Our
-                      team excels in NFT, Metaverse, and Sports Betting design
-                      and development, delivering exceptional and engaging
-                      gaming experiences.
+                      VRAIDEN is a team of blockchain game professionals with varied skill sets who provide bespoke and world-class blockchain game development solutions to gaming businesses of all sizes. From NFT, Metaverse, and Sports Betting design to development, we provide outstanding and interactive gaming experiences.
                     </p>
                     <Link className="default-btn" to="/contact">
-                      Contact Us Now
+                      Talk To Us
                     </Link>
                   </ScrollAnimation>
                 </div>
@@ -119,10 +115,7 @@ const SliderThree = () => {
                     </span>
                   </h2>
                   <p className="description">
-                    Utilize our expertise to fast-track your AI projects with
-                    our end-to-end development services. From tailored AI
-                    strategies for business growth to NLP and adaptable
-                    solutions, we're your dedicated AI partner.
+                    Exploit our vast expertise to accelerate your AI journey by opting for our end-to-end AI development services that are ideal for your specific project needs. Whether you require tailored artificial intelligence tactics for business growth, NLP, and adaptable AI development solutions, we are your dedicated AI talent force.
                   </p>
                   <Link
                     style={{ backgroundColor: "#2ac8fd" }}
@@ -165,20 +158,17 @@ const SliderThree = () => {
               >
                 <div className="left">
                   <h4 className="sub-title" style={{ color: "#2ac8fd" }}>
-                    Your New Age
+                    Top AR, VR
                   </h4>
                   <h2 className="slider-title">
-                    Generative AI
+                    Metaverse
                     <span className="theme-color" style={{ color: "#2ac8fd" }}>
                       {" "}
-                      Development Partner
+                      Development Company
                     </span>
                   </h2>
-                  <p className="description">
-                    Utilize our expertise to fast-track your AI projects with
-                    our end-to-end development services. From tailored AI
-                    strategies for business <br /> growth to NLP and adaptable
-                    solutions, we're your dedicated AI partner.
+                  <p style={{ width: "500px" }} className="description">
+                    With our 3D Metaverse solution, you can redefine the way your business processes by combining virtual and augmented technologies. VRAIDEN, a leading AR and VR development company, aspires to create highly customized solutions that will help your modern VR/AR business prosper.
                   </p>
                   <Link
                     style={{ backgroundColor: "#2ac8fd" }}
