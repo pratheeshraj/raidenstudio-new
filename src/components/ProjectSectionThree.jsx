@@ -14,9 +14,9 @@ const ProjectSectionThree = () => {
                 data-aos="fade-right"
                 data-aos-delay="300"
               >
-                <h3 style={{ textAlign: "center" }}>Our Completed Projects</h3>
+                <h3 style={{ textAlign: "center" }}>Our Completed Products</h3>
                 <h2 style={{ textAlign: "center", width: "100%" }}>
-                  Start off AI project to your
+                  Start off AI Product to your
                   <span className="theme-color"> Strengths</span>
                 </h2>
                 <p style={{ textAlign: "center" }}>
@@ -140,13 +140,13 @@ const ProjectSectionThree = () => {
               </div>
             </div>
           </div>
-          <div className="inner-btn d-adjust">
+          {/* <div className="inner-btn d-adjust">
             <div>
               <Link className="default-btn" to="/contact">
                 View All Projects
               </Link>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="shape-image">
           <img
