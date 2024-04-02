@@ -81,7 +81,7 @@ const NftHero = () => {
                     </div>
                     <div className="col-xl-5">
                       <div className="slider-content-inner-right">
-                        <div className="img-wrapper">
+                        <div className="img-wrapper" style={{ overflow: "none"}}>
                           <img src="assets/img/bg-image/cat-frame-img-transformed-removebg.png" alt="" ref={heroImageRef} />
                         </div>
                       </div>
