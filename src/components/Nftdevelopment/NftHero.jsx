@@ -56,7 +56,7 @@ const NftHero = () => {
                     backgroundColor: "#5E4D84",
                   }}
                 />
-                <div className="auto-container" style={{ position: "relative", top: "10%" }}>
+                <div className="auto-container hero-banner_div">
                   <div className="row ">
                     <div className="col-xl-7 col-12">
                       <div className="slider-content-inner ">
