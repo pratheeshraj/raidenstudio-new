@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../images/raiden-logo.png"
 
 const FooterSectionOne = () => {
   return (
@@ -11,7 +12,7 @@ const FooterSectionOne = () => {
             <div className="col-lg-5 col-md-6 col-12">
               <div className="footer-wrapper one">
                 <div className="logo" data-aos="fade-up" data-aos-delay="200">
-                  <img src="/assets/img/common/logo-white.png" alt="" />
+                  <img src={logo} alt="" />
                 </div>
                 <div className="des" data-aos="fade-up" data-aos-delay="300">
                   <p>
@@ -122,7 +123,7 @@ const FooterSectionOne = () => {
                 data-aos="fade-up"
                 data-aos-delay="300"
               >
-                <p>Copyright © 2023 FaconTech, All Rights Reserved.</p>
+                <p>Copyright © 2024 RaidenStudio, All Rights Reserved.</p>
               </div>
             </div>
           </div>
