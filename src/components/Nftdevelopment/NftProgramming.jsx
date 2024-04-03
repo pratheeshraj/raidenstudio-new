@@ -372,44 +372,32 @@ const NftProgramming = () => {
                             <div onClick={handleFrontEnd} style={{ color: frontend ? '#13C4A1' : 'black' }}>Blockchain Networks</div>
                             <div onClick={handleMobile} style={{ color: mobile ? '#13C4A1' : 'black' }}>Storage Platforms</div>
                             <div onClick={handleBlockchain} style={{ color: blockchain ? '#13C4A1' : 'black' }}>NFT Standards</div>
-                            <div onClick={handleGame} style={{ color: game ? '#13C4A1' : 'black' }}>Smart Contracts</div>
                         </div>
                         {
                             frontend ? <div className="right_Language_div">
                                 <div className="Card_service">
-                                    <img src="/assets/img/Language/becomeamernstackdeveloper-mobile-min.png" alt="" />
+                                    <img src="/assets/img/Language/ethereum-eth-logo.svg" alt="" />
                                     <div className="Card_name_sevice">Ethereum</div>
                                 </div>
                                 <div className="Card_service">
-                                    <img src="/assets/img/Language/Screenshot_2024-03-27_112007-removebg-preview-min.png" alt="" />
+                                    <img src="/assets/img/Language/bnb-bnb-logo.svg" alt="" />
                                     <div className="Card_name_sevice">Binance Smart Chain</div>
                                 </div>
                                 <div className="Card_service ">
-                                    <img style={{ scale: "1.3" }} src="/assets/img/Language/WebGL-Logo.wine.svg" alt="" />
-                                    <div className="Card_name_sevice">EOS</div>
+                                    <img src="/assets/img/Language/solana-sol-logo.svg" alt="" />
+                                    <div className="Card_name_sevice">Solana</div>
                                 </div>
                                 <div className="Card_service ">
-                                    <img style={{ scale: "1.3" }} src="/assets/img/Language/WebGL-Logo.wine.svg" alt="" />
-                                    <div className="Card_name_sevice">Solana</div>
-                                </div>                                <div className="Card_service ">
-                                    <img style={{ scale: "1.3" }} src="/assets/img/Language/WebGL-Logo.wine.svg" alt="" />
+                                    <img src="/assets/img/Language/polygon-matic-logo (1).svg" alt="" />
                                     <div className="Card_name_sevice">Polygon</div>
-                                </div>                                <div className="Card_service ">
-                                    <img style={{ scale: "1.3" }} src="/assets/img/Language/WebGL-Logo.wine.svg" alt="" />
-                                    <div className="Card_name_sevice">Avalanche</div>
-                                </div>                                <div className="Card_service ">
-                                    <img style={{ scale: "1.3" }} src="/assets/img/Language/WebGL-Logo.wine.svg" alt="" />
-                                    <div className="Card_name_sevice">Stellar</div>
-                                </div>                                <div className="Card_service ">
-                                    <img style={{ scale: "1.3" }} src="/assets/img/Language/WebGL-Logo.wine.svg" alt="" />
-                                    <div className="Card_name_sevice">Algorand</div>
-                                </div>                                <div className="Card_service ">
-                                    <img style={{ scale: "1.3" }} src="/assets/img/Language/WebGL-Logo.wine.svg" alt="" />
+                                </div>
+                                <div className="Card_service ">
+                                    <img src="/assets/img/Language/cardano-ada-logo.svg" alt="" />
                                     <div className="Card_name_sevice">Cardano</div>
                                 </div>
                             </div> : mobile ? <div className="right_Language_div">
                                 <div className="Card3_service">
-                                    <img src="/assets/img/Language/REACT NATIVE.svg" alt="" />
+                                    <img src="/assets/img/Language/ipfs-logo.svg" alt="" />
                                     <div className="Card_name_sevice">IPFS</div>
                                 </div>
                                 <div className="Card3_service">

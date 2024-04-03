@@ -28,9 +28,9 @@ const MetaverseAbout = () => {
                                 <h2 style={{ color: "black" }} className="title">Engaging 3D Spaces That Dramatically Increase Customer Engagement
                                 </h2>
                                 <p style={{ color: "black" }}>
-                                    Make potential customers stay with your Metaverse project by using services from the top Metaverse app development company VRaiden, which guarantees immersive and engaging experiences for your users. Leverage the power of the most realistic metaverse development company to provide unforgettable virtual experiences to your users.                                </p>
+                                    Make potential customers stay with your Metaverse project by using services from the top Metaverse app development company Raiden, which guarantees immersive and engaging experiences for your users. Leverage the power of the most realistic metaverse development company to provide unforgettable virtual experiences to your users.                                </p>
                                 <p style={{ color: "black" }}>
-                                    VRaiden creates and develops metaverse components like 3D virtual spaces, metaverse NFT marketplaces, metaverse applications, and decentralized platforms that are tailored to your specific virtual environment. </p>
+                                    Raiden creates and develops metaverse components like 3D virtual spaces, metaverse NFT marketplaces, metaverse applications, and decentralized platforms that are tailored to your specific virtual environment. </p>
                             </div>
                         </div>
                     </div>

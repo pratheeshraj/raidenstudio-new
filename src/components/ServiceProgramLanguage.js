@@ -147,14 +147,14 @@ const ServiceProgramLanguage = () => {
                                     <img src="/assets/img/Language/google-arcore.svg" alt="" />
                                     <div className="Card_name_sevice">ARCore</div>
                                 </div>
-                                <div className="Card6_service">
+                                {/* <div className="Card6_service">
                                     <img src="/assets/img/Language/csharp.svg.svg" alt="" />
                                     <div className="Card_name_sevice">C#</div>
                                 </div>
                                 <div className="Card6_service">
                                     <img src="/assets/img/Language/blender-icon.svg" alt="" />
                                     <div className="Card_name_sevice">Blender</div>
-                                </div>
+                                </div> */}
                                 <div className="Card6_service">
                                     <img src="/assets/img/Language/aframe-logo.png" alt="" />
                                     <div className="Card_name_sevice">A-Frame</div>

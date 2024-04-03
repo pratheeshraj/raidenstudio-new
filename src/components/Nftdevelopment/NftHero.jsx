@@ -1,38 +1,60 @@
 
 
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, FreeMode, Thumbs, EffectFade } from "swiper";
 import { Link } from "react-router-dom";
 const NftHero = () => {
+
+
+  const heroImageRef = useRef(null);
+
+  useEffect(() => {
+    const handleMouseMove = (e) => {
+      const { pageX, pageY } = e;
+
+      const X = pageX;
+      const Y = pageY;
+
+      if (heroImageRef.current) {
+        heroImageRef.current.style.transform = `translate(${X / 30}px, ${Y / 30
+          }px)`;
+      }
+    };
+    document.addEventListener("mousemove", handleMouseMove);
+
+    return () => {
+      document.removeEventListener("mousemove", handleMouseMove);
+    };
+  }, []);
+
+
   return (
     <>
       {/* slider-area-one-start  */}
-      <section className="hero-slider one" style={{ height: "90vh" }}>
+      <section className="hero-slider one" style={{ height: "100vh" }}>
         <div className="swiper hero-slider-init-one swiper-container swiper-container-fade">
           <Swiper
             loop={false}
             modules={[FreeMode, Navigation, Thumbs, EffectFade]}
-            effect="fade"
             navigation={{
               nextEl: ".swiper-button-next",
               prevEl: ".swiper-button-prev",
             }}
           >
+            {/* background: "url('assets/img/bg-image/neon-gypsum-human-statue-head_547296-7777-transformed.jpeg')", */}
             <SwiperSlide>
-              <div className="item-slider sliderm-height p-relative swiper-slide" style={{ height: "100vh" }}>
+              <div className="item-slider sliderm-height p-relative swiper-slide" style={{ height: "90vh" }}>
                 <div
                   className="slide-bg"
                   style={{
-
-                    background: "url('assets/img/bg-image/neon-gypsum-human-statue-head_547296-7777-transformed.jpeg')",
                     height: "100%",
-                    backgroundPositionX: "100%",
                     backgroundRepeat: "no-repeat",
-                    backgroundColor: "black",
+                    objectFit: "cover",
+                    background: "-webkit-linear-gradient(45deg, #5E4D84, #6B5690, #78609C, #856AA9, #9275B5, #9F7FBF, #AC89CB, #B993D7, #C69EE3, #D2A8EF, #DFB2FB)",
                   }}
                 />
-                <div className="auto-container" style={{ position: "relative", top: "20%" }}>
+                <div className="auto-container hero-banner_div">
                   <div className="row ">
                     <div className="col-xl-7 col-12">
                       <div className="slider-content-inner ">
@@ -55,98 +77,18 @@ const NftHero = () => {
                         </div>
                       </div>
                     </div>
-                    {/* <div className="col-xl-5">
+                    <div className="col-xl-5">
                       <div className="slider-content-inner-right">
-                        <div className="img-wrapper">
-                          <img src="assets/img/hero/03_hero-image.png" alt="" />
+                        <div className="img-wrapper" style={{ overflow: "none" }}>
+                          <img src="assets/img/bg-image/cat-frame-img-transformed-removebg.png" alt="" ref={heroImageRef} />
                         </div>
                       </div>
-                    </div> */}
+                    </div>
                   </div>
                 </div>
               </div>
             </SwiperSlide>
           </Swiper>
-
-          {/* If we need navigation buttons */}
-          {/* <div
-            id="swiper-button-prev"
-            className="swiper-button-prev hero-button"
-          >
-            <i className="fa-regular fa-angles-left" />
-          </div>
-          <div
-            id="swiper-button-next"
-            className="swiper-button-next hero-button"
-          >
-            <i className="fa-regular fa-angles-right" />
-          </div> */}
-          {/* Shape Image */}
-          {/* <div className="shape-image">
-            <div className="inner-shape-1 poa">
-              <img
-                className="img-fluid"
-                src="assets/img/icon/01_icon.png"
-                alt=""
-              />
-            </div>
-            <div className="inner-shape-2 poa">
-              <img
-                className="img-fluid"
-                src="assets/img/icon/02_icon.png"
-                alt=""
-              />
-            </div>
-            <div className="inner-shape-3 poa">
-              <img
-                className="img-fluid"
-                src="assets/img/icon/03_icon.png"
-                alt=""
-              />
-            </div>
-            <div className="inner-shape-4 poa">
-              <img
-                className="img-fluid"
-                src="assets/img/icon/04_icon.png"
-                alt=""
-              />
-            </div>
-            <div className="inner-shape-5 poa">
-              <img
-                className="img-fluid"
-                src="assets/img/icon/04_icon.png"
-                alt=""
-              />
-            </div>
-            <div className="inner-shape-6 poa">
-              <img
-                className="img-fluid"
-                src="assets/img/icon/06_icon.png"
-                alt=""
-              />
-            </div>
-            <div className="inner-shape-7 poa">
-              <img
-                className="img-fluid"
-                src="assets/img/icon/07_icon.png"
-                alt=""
-              />
-            </div>
-            <div className="inner-shape-8 poa">
-              <img
-                className="img-fluid"
-                src="assets/img/icon/08_icon.png"
-                alt=""
-              />
-            </div>
-            <div className="inner-shape-9 poa">
-              <img
-                className="img-fluid"
-                src="assets/img/icon/27_icon.png"
-                alt=""
-              />
-            </div>
-          </div> */}
         </div>
       </section>
       {/* slider-area-one-end */}

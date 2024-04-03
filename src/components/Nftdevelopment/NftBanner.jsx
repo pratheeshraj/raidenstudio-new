@@ -1,21 +1,22 @@
 import React from "react";
-import CountUp from "react-countup";
 import { Link } from "react-router-dom";
 
 const NftBanner = () => {
+
+
     return (
         <>
             {/* Counter-section one start */}
             <section
                 className="counter-section one"
                 style={{
-                    backgroundImage: "url('/assets/img/bg-image/cool-3d-rendering-young-man-wearing-hat-headphones-sunglasses-hes-wearing-stylish-outfit-has-backpack.jpeg')",
-                    backgroundSize: "cover"
+                    backgroundSize: "cover",
+                    background: "#5A91AF"
                 }}
             >
                 <div className="auto-container">
-                    <div className="award-part " data-aos="fade-up" data-aos-delay="300">
-                        <div className="row">
+                    <div className="award-part " data-aos="fade-up" data-aos-delay="300" style={{ paddingTop: "0", paddingBottom: "0" }}>
+                        <div className="row" style={{ display: "flex", alignItems: "center" }}>
                             <div className="col-lg-6">
                                 <div className="title">
                                     <h2>
@@ -33,11 +34,15 @@ const NftBanner = () => {
                                     </div>
                                 </div>
                             </div>
+                            <div className="col-lg-6">
+                                <img src="/assets/img/bg-image/painting-water-lillies-orange-flowers-pond-generative-ai_733139-67283-transformed-removebg-preview.png" />
+                            </div>
+
                         </div>
                         {/* <div className="overlay-text">
               <h1>AI</h1>
             </div> */}
-                        <div className="shape-img">
+                        {/* <div className="shape-img">
                             <img
                                 className="shape-1 poa"
                                 src="./assets/img/icon/50_icon.png"
@@ -48,7 +53,7 @@ const NftBanner = () => {
                                 src="./assets/img/icon/51_icon.png"
                                 alt=""
                             />
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>

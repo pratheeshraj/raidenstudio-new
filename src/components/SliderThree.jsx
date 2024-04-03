@@ -92,7 +92,7 @@ const SliderThree = () => {
                     </h2>
 
                     <p>
-                      VRAIDEN is a team of blockchain game professionals with varied skill sets who provide bespoke and world-class blockchain game development solutions to gaming businesses of all sizes. From NFT, Metaverse, and Sports Betting design to development, we provide outstanding and interactive gaming experiences.
+                      RAIDEN is a team of blockchain game professionals with varied skill sets who provide bespoke and world-class blockchain game development solutions to gaming businesses of all sizes. From NFT, Metaverse, and Sports Betting design to development, we provide outstanding and interactive gaming experiences.
                     </p>
                     <Link className="default-btn" to="/contact">
                       Talk To Us
@@ -168,7 +168,7 @@ const SliderThree = () => {
                     </span>
                   </h2>
                   <p style={{ width: "500px" }} className="description">
-                    With our 3D Metaverse solution, you can redefine the way your business processes by combining virtual and augmented technologies. VRAIDEN, a leading AR and VR development company, aspires to create highly customized solutions that will help your modern VR/AR business prosper.
+                    With our 3D Metaverse solution, you can redefine the way your business processes by combining virtual and augmented technologies. RAIDEN, a leading AR and VR development company, aspires to create highly customized solutions that will help your modern VR/AR business prosper.
                   </p>
                   <Link
                     style={{ backgroundColor: "#2ac8fd" }}

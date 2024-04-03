@@ -210,3 +210,10 @@
         height: 170px;
     }
 }
+
+
+@media screen and (max-width:1201px) {
+    .metaverse_hero_para {
+        width: 100% !important;
+    }
+}

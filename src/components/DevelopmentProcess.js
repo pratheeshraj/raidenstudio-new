@@ -18,7 +18,7 @@ function DevelopmentProcess() {
         <div className="auto-container">
           <div className="row">
             <h2 style={{ color: 'black', textAlign: 'center' }}>
-              Development <span className='theme-color'>Cutting-edge AI Development Process for Your Unique Needs</span>
+              Development Cutting-edge AI Development Process for <span className='theme-color'> Your Unique Needs</span>
             </h2>
             <p style={{ color: "black", marginBottom: '80px', textAlign: "center" }}>Experience an unparalleled journey with our complete end-to-end AI development process. From idea to deployment, we deliberately create solutions that are unique to your requirements. </p>
             <VisibilitySensor onChange={onAnimationVisible}>

@@ -16,6 +16,7 @@ import MetaverseTeckstack from '../components/MetaverseDevolopment/MetaverseTeck
 import MetaverseProcess from '../components/MetaverseDevolopment/MetaverseProcess';
 import MetaverseWhychoose from '../components/MetaverseDevolopment/MetaverseWhychoose';
 import MetaverseFaq from '../components/MetaverseDevolopment/MetaverseFaq';
+import MetaverseIndustries from '../components/MetaverseDevolopment/MetaverseIndustries';
 
 function NftDevlopment() {
     let [active, setActive] = useState(true);
@@ -43,10 +44,12 @@ function NftDevlopment() {
                 <MetaverseService />
                 {/* metaverse-banner */}
                 <MetaverseBanner />
-                {/* metaverse-tech */}
-                <MetaverseTeckstack />
                 {/* metaverse-features */}
                 <MetaverseFeature />
+                {/* metaverse-industries */}
+                <MetaverseIndustries />
+                {/* metaverse-tech */}
+                <MetaverseTeckstack />
                 {/* metaverse-process */}
                 <MetaverseProcess />
                 {/* metaverse-whychoose */}

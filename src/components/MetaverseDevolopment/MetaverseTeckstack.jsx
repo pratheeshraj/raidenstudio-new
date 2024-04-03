@@ -1,75 +1,101 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 
-const MetaverseTeckstack = () => {
 
+const NftProgramming = () => {
     const [frontend, setFrontend] = useState(true)
     const [backend, setBackend] = useState(false)
-
+    const [mobile, setMobile] = useState(false)
+    const [database, setDatabase] = useState(false)
+    const [blockchain, setBlockchain] = useState(false)
+    const [game, setGame] = useState(false)
     const handleFrontEnd = () => {
         setFrontend(true)
         setBackend(false)
+        setMobile(false)
+        setDatabase(false)
+        setBlockchain(false)
+        setGame(false)
     }
-
-    const handleBackend = () => {
+    const handleMobile = () => {
         setFrontend(false)
-        setBackend(true)
+        setBackend(false)
+        setMobile(true)
+        setDatabase(false)
+        setBlockchain(false)
+        setGame(false)
+
+    }
+    const handleBlockchain = () => {
+        setFrontend(false)
+        setBackend(false)
+        setMobile(false)
+        setDatabase(false)
+        setBlockchain(true)
+        setGame(false)
+
+    }
+    const handleGame = () => {
+        setFrontend(false)
+        setBackend(false)
+        setMobile(false)
+        setDatabase(false)
+        setBlockchain(false)
+        setGame(true)
+
     }
 
     return (
         <>
-            {/* style={{background:"#F8F9FA"}} */}
             {/* FAQ Section three start */}
-            <section className="faq-section three">
+            <section className="faq-section three" style={{ background: "white" }}>
                 <div className="auto-container">
                     <div className="row">
-                        <h2 style={{ textAlign: "center" }}>High-End Technologies <span className="theme-color">We Use</span></h2>
-                        <p style={{ textAlign: "center" }}>Helping startups and enterprises with the right blend of experience and technology.</p>
+                        <h2 style={{ color: "black", textAlign: "center" }}>High-End Technologies<span className="theme-color"> We Use</span></h2>
+                        <p style={{ color: "black", textAlign: "center" }}>Helping startups and enterprises with the right blend of experience and technology.</p>
                         <div className="left_Language_div">
-                            <div onClick={handleFrontEnd} style={{ color: frontend ? '#13C4A1' : '' }}>Blockchain Front-end</div>
-                            <div onClick={handleBackend} style={{ color: backend ? '#13C4A1' : '' }}>Blockchain Back-end</div>
+                            <div onClick={handleFrontEnd} style={{ color: frontend ? '#13C4A1' : 'black' }}>Blockchain Front-end</div>
+                            <div onClick={handleMobile} style={{ color: mobile ? '#13C4A1' : 'black' }}>Blockchain Back-end</div>
                         </div>
                         {
                             frontend ? <div className="right_Language_div">
-                                <div className="card">
-                                    <img src="/assets/img/Language/becomeamernstackdeveloper-mobile-min.png" alt="" />
-                                    <div className="Card_name">HTML</div>
+                                <div className="Card_service">
+                                    <img src="/assets/img/Language/ethereum-eth-logo.svg" alt="" />
+                                    <div className="Card_name_sevice">HTML</div>
                                 </div>
-                                <div className="card">
-                                    <img src="/assets/img/Language/Screenshot_2024-03-27_112007-removebg-preview-min.png" alt="" />
-                                    <div className="Card_name">CSS</div>
+                                <div className="Card_service">
+                                    <img src="/assets/img/Language/bnb-bnb-logo.svg" alt="" />
+                                    <div className="Card_name_sevice">CSS</div>
                                 </div>
-                                <div className="card ">
+                                <div className="Card_service ">
                                     <img src="/assets/img/Language/WebGL-Logo.wine.svg" alt="" />
-                                    <div className="Card_name">React Native</div>
+                                    <div className="Card_name_sevice">React Native</div>
                                 </div>
-                                <div className="card ">
-                                    <img src="/assets/img/Language/WebGL-Logo.wine.svg" alt="" />
-                                    <div className="Card_name">Web3js</div>
+                                <div className="Card_service ">
+                                    <img src="/assets/img/Language/solana-sol-logo.svg" alt="" />
+                                    <div className="Card_name_sevice">Web3js</div>
                                 </div>
-                                <div className="card ">
-                                    <img src="/assets/img/Language/WebGL-Logo.wine.svg" alt="" />
-                                    <div className="Card_name">Websocket</div>
+                                <div className="Card_service ">
+                                    <img src="/assets/img/Language/polygon-matic-logo (1).svg" alt="" />
+                                    <div className="Card_name_sevice">Websocket</div>
                                 </div>
-                            </div>
-                                : backend ? <div className="right_Language_div">
-                                    <div className="card3">
-                                        <img src="/assets/img/Language/REACT NATIVE.svg" alt="" />
-                                        <div className="Card_name">Rust</div>
-                                    </div>
-                                    <div className="card3">
-                                        <img src="/assets/img/Language/FLUTTER.svg" alt="" />
-                                        <div className="Card_name">Solidity</div>
-                                    </div>
-                                    <div className="card3">
-                                        <img src="/assets/img/Language/SWIFT.svg" alt="" />
-                                        <div className="Card_name">Node.js</div>
-                                    </div>
-                                    <div className="card3">
-                                        <img src="/assets/img/Language/KATLIN.svg" alt="" />
-                                        <div className="Card_name">MongoDB</div>
-                                    </div>
-                                </div> : ""
+                            </div> : mobile ? <div className="right_Language_div">
+                                <div className="Card3_service">
+                                    <img src="/assets/img/Language/ipfs-logo.svg" alt="" />
+                                    <div className="Card_name_sevice">Rust</div>
+                                </div>
+                                <div className="Card3_service">
+                                    <img src="/assets/img/Language/FLUTTER.svg" alt="" />
+                                    <div className="Card_name_sevice">Solidity</div>
+                                </div>
+                                <div className="Card3_service">
+                                    <img src="/assets/img/Language/SWIFT.svg" alt="" />
+                                    <div className="Card_name_sevice">Node.js</div>
+                                </div>
+                                <div className="Card3_service">
+                                    <img src="/assets/img/Language/KATLIN.svg" alt="" />
+                                    <div className="Card_name_sevice">MongoDB</div>
+                                </div>
+                            </div> : ""
                         }
                     </div>
                 </div>
@@ -97,4 +123,5 @@ const MetaverseTeckstack = () => {
     );
 };
 
-export default MetaverseTeckstack;
+export default NftProgramming;
+

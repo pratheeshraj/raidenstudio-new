@@ -9,7 +9,7 @@ function MetaverseWhychoose() {
                 <div className="auto-container">
                     <div className="row nft_whychoose_full_div">
                         <div className='nft_whychoose_left_div'>
-                            <h2 style={{ color: "black", textAlign: "center" }}>Why Choose VRaiden As Your<span className='theme-color'> Metaverse Development Company?</span></h2>
+                            <h2 style={{ color: "black", textAlign: "center" }}>Why Choose Raiden As Your<span className='theme-color'> Metaverse Development Company?</span></h2>
                             <p style={{ color: "black", textAlign: "center", marginBottom: "80px" }}>We are a proactive Metaverse Development Company who is motivated by the idea of creating digital environments that are more than just efficient. Our vision for the future is to create a bridge that connects the virtual and real worlds so that people may engage in significant conversations, fascinating adventures, and fully participate in a world of unlimited opportunities. We aim to build captivating and inspirational digital world that engage the senses and excite the imagination by combining state-of-the-art technology with unbounded creativity.</p>
                         </div>
                         <div className='nft_whychoose_Right_div'>
@@ -51,7 +51,7 @@ function MetaverseWhychoose() {
                             <div className='nft_whychoose_Right_box'>
                                 <div style={{ background: "linear-gradient(136.76deg, #FFCDA5 0%, #EE4D5F 100%)" }} className='nft_img_round'><img className='nft_whychoose_img' src='/assets/img/whychooseusnft/developmenny.svg' />
                                 </div>
-                                <div className='nft_whychoose_name'>Launch Your Metaverse With VRaiden</div>
+                                <div className='nft_whychoose_name'>Launch Your Metaverse With Raiden</div>
                             </div>
                         </div>
                     </div>

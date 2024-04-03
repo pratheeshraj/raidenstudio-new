@@ -132,14 +132,14 @@ const ProgramLanguage = () => {
                                         <img src="/assets/img/Language/google-arcore.svg" alt="" />
                                         <div className="Card_name">ARCore</div>
                                     </div>
-                                    <div className="card6">
+                                    {/* <div className="card6">
                                         <img src="/assets/img/Language/csharp.svg.svg" alt="" />
                                         <div className="Card_name">C#</div>
                                     </div>
                                     <div className="card6">
                                         <img src="/assets/img/Language/blender-icon.svg" alt="" />
                                         <div className="Card_name">Blender</div>
-                                    </div>
+                                    </div> */}
                                     <div className="card6">
                                         <img src="/assets/img/Language/aframe-logo.png" alt="" />
                                         <div className="Card_name">A-Frame</div>
