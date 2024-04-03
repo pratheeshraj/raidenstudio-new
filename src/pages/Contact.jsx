@@ -7,6 +7,7 @@ import NewsSectionOne from "../components/NewsSectionOne";
 import ContactSection from "../components/ContactSection";
 import HelmetReact from "../elements/HelmetReact";
 import HeaderTwo from "../components/HeaderTwo";
+import ContactSection2 from './../components/ContactSection2';
 
 const Contact = () => {
   let [active, setActive] = useState(true);
@@ -27,7 +28,7 @@ const Contact = () => {
         {/* Breadcrumb */}
         <Breadcrumb data={"Contact"} />
         {/* Contact Section */}
-        <ContactSection />
+        <ContactSection2 />
         {/* News Section One */}
         <NewsSectionOne />
         {/* Footer Section */}

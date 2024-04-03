@@ -17,7 +17,7 @@ const HeaderTwo = () => {
     "Raiden Verse",
     "Raiden SimX",
     "Raiden GOGNI+",
-    "Raiden ARCVIZ",
+    "Raiden ARCVIZ"
   ];
   const ProductPara = [
     "Experience limitless exploration, creation, and collaboration in a dynamic universe where the possibilities are endless.",
@@ -61,11 +61,10 @@ const HeaderTwo = () => {
 
   // xr
 
-  const xrValues = [0.5, 0.5, 0.5, 0.5];
+  const xrValues = [0.5, 0.5, 0.5];
   const xrNames = [
-    "AR Solutions",
-    "VR Solutions",
-    "Training Simulator",
+    "AR Services",
+    "VR Services",
     "Digital Twin",
   ];
 
@@ -346,7 +345,7 @@ const HeaderTwo = () => {
                                     style={{ marginBottom: "20px" }}
                                     to="#"
                                   >
-                                    Game{" "}
+                                    GAME
                                     <i class="fa-solid fa-right-long icon_rightarrow"></i>
                                   </Link>
                                 </li>
@@ -488,7 +487,7 @@ const HeaderTwo = () => {
                                     style={{ marginTop: "20px" }}
                                     to="#"
                                   >
-                                    Blockchain{" "}
+                                    BLOCKCHAIN
                                     <i class="fa-solid fa-right-long icon_rightarrow"></i>
                                   </Link>
                                 </li>
@@ -1116,7 +1115,7 @@ const HeaderTwo = () => {
                               navData.isActive ? "active" : ""
                             }
                           >
-                            AR Solutions
+                            AR Services
                           </NavLink>
                         </li>
                         <li>
@@ -1126,17 +1125,7 @@ const HeaderTwo = () => {
                               navData.isActive ? "active" : ""
                             }
                           >
-                            VR Solutions
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink
-                            to="#"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            Training Simulato
+                            VR Services
                           </NavLink>
                         </li>
                         <li>
@@ -1155,7 +1144,7 @@ const HeaderTwo = () => {
                   <ul className="sub-menu">
                     <li className="menu-item-has-children">
                       <Link className="sub_heading_color" to="#">
-                        Game
+                        GAME
                       </Link>
                       <ul className="sub-menu">
                         <li>
