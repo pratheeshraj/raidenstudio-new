@@ -522,7 +522,7 @@ const HeaderTwo = () => {
                                     style={{ marginBottom: "20px" }}
                                     to="#"
                                   >
-                                    Game{" "}
+                                    GAME{" "}
                                     <i class="fa-solid fa-right-long icon_rightarrow"></i>
                                   </Link>
                                 </li>
