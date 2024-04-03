@@ -19,6 +19,12 @@ const HeaderTwo = () => {
     "Raiden GOGNI+",
     "Raiden ARCVIZ",
   ];
+  const ProductPara = [
+    "Experience limitless exploration, creation, and collaboration in a dynamic universe where the possibilities are endless.",
+    " Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.",
+    " Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.",
+    " Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.",
+  ]
 
   const productTo = ["/project-details", "/raidensimx",]
 
@@ -326,7 +332,7 @@ const HeaderTwo = () => {
                                   }
                                 >
                                   <Link className="left_content_arrow" to="#">
-                                    Virtual Reality
+                                    XR
                                     <i class="fa-solid fa-right-long icon_rightarrow"></i>
                                   </Link>
                                 </li>
@@ -351,7 +357,7 @@ const HeaderTwo = () => {
                                     <div className="menubar_inside_main_div">
                                       <div className="menubar_inside_div">
                                         <div className="menubar_inside_main_heading">
-                                          Virtual Reality
+                                          XR
                                         </div>
 
                                         <div className="manubar_content_main_div">
@@ -376,10 +382,7 @@ const HeaderTwo = () => {
                                                     {productName[index]}
                                                   </div>
                                                   <div className="manubar_content_para">
-                                                    Lorem ipsum dolor sit amet
-                                                    consectetur adipisicing
-                                                    elit. Fugit, culpa voluptas
-                                                    et.
+                                                    {ProductPara[index]}
                                                   </div>
                                                   <div
                                                     className="progress-bar"
