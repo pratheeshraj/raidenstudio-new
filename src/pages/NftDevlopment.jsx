@@ -41,12 +41,11 @@ function NftDevlopment() {
                 <NftHero />
                 {/*2 , 3 about Details Section */}
                 <NftAboutSection />
-
                 {/*countbar*/}
                 <NftCounter />
                 {/*service*/}
                 <NftServices />
-                <Process />
+                {/* <Process /> */}
                 {/*banner*/}
                 <NftBanner />
                 {/* { features} */}

@@ -37,7 +37,6 @@ const NftHero = () => {
           <Swiper
             loop={false}
             modules={[FreeMode, Navigation, Thumbs, EffectFade]}
-            effect="fade"
             navigation={{
               nextEl: ".swiper-button-next",
               prevEl: ".swiper-button-prev",
@@ -49,11 +48,10 @@ const NftHero = () => {
                 <div
                   className="slide-bg"
                   style={{
-
                     height: "100%",
-                    backgroundPositionX: "100%",
                     backgroundRepeat: "no-repeat",
-                    backgroundColor: "#5E4D84",
+                    objectFit: "cover",
+                    background: "-webkit-linear-gradient(45deg, #5E4D84, #6B5690, #78609C, #856AA9, #9275B5, #9F7FBF, #AC89CB, #B993D7, #C69EE3, #D2A8EF, #DFB2FB)",
                   }}
                 />
                 <div className="auto-container hero-banner_div">
@@ -81,7 +79,7 @@ const NftHero = () => {
                     </div>
                     <div className="col-xl-5">
                       <div className="slider-content-inner-right">
-                        <div className="img-wrapper" style={{ overflow: "none"}}>
+                        <div className="img-wrapper" style={{ overflow: "none" }}>
                           <img src="assets/img/bg-image/cat-frame-img-transformed-removebg.png" alt="" ref={heroImageRef} />
                         </div>
                       </div>
