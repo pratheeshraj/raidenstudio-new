@@ -596,15 +596,16 @@ $color-primary-white: rgb(240, 240, 240);
 
 .service-details-section {
   background: white;
-  padding: 0px 0 50px 0;
+  padding: 80px 0 50px 0;
   position: relative;
   overflow: hidden;
   z-index: 9;
   h2 {
-    margin-bottom: 25px;
+    margin-bottom: 70px;
     text-align: center;
-    @media #{$sm, $xss} {
-      font-size: 26px;
+    color: black;
+    @media #{$sm, $xs, $xss} {
+     font-size: 26px;
     }
     span {
       color: var(--theme-1);
@@ -615,6 +616,11 @@ $color-primary-white: rgb(240, 240, 240);
     .title {
       font-size: 26px;
       color: var(--theme-1);
+    text-align: start;
+    @media #{ $md, $sm, $xs, $xss} {
+      text-align: center;
+      margin: 20px 0;
+    }
     }
     p {
       color: black;
@@ -627,6 +633,7 @@ $color-primary-white: rgb(240, 240, 240);
       flex-direction: column;
     }
     .card_Multiplayer_Integration {
+      background-color: white;
       background-image: url(../../img/raidenverse/Group_19.jpg);
       background-position: center;
       background-size: cover;
@@ -650,7 +657,10 @@ $color-primary-white: rgb(240, 240, 240);
         transition: 0.2s ease-in;
         opacity: 0; /* Add transition to opacity property */
       }
-
+      &:hover {
+        box-shadow: rgba(0, 0, 0, 0.5) 0px -200px 36px -50px inset;
+        border-radius: 30px;
+      }
       &:hover p {
         display: flex;
         position: relative;
@@ -955,22 +965,35 @@ $color-primary-white: rgb(240, 240, 240);
     color: var(--theme-1);
   }
   .game_engine_expertise_cards {
+    margin-top: 42px;
     display: flex;
-    gap: 20px;
     justify-content: space-between;
+    @media #{$xxxl,$xxl,$xl} {
+      padding: 0;
+    }
+    @media #{$lg} {
+      gap: 42px;
+    }
     @media #{$md, $sm, $xs, $xss} {
       flex-direction: column;
+      row-gap: 42px;
+      align-items: center;
     }
     .game_engine_expertise_card {
-      height: 220px;
+      height: 260px;
+      width: 531px;
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 18px;
+      @media #{$lg,$sm, $xs, $xss} {
+        width: 100%;
+      }
       @media #{ $xss} {
         height: 100%;
       }
       .left {
         height: 100%;
+        width: 64px;
         background: linear-gradient(
           90deg,
           rgba(238, 174, 202, 1) 0%,
@@ -986,18 +1009,22 @@ $color-primary-white: rgb(240, 240, 240);
       }
       .right {
         height: 100%;
+        width: 449px;
         display: flex;
         align-items: start;
-        justify-content: center;
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
         flex-direction: column;
         border-radius: 30px;
-        padding: 10px;
+        padding: 20px;
+        padding-top: 33px;
+        @media #{$lg,$sm, $xs, $xss} {
+          width: 100%;
+        }
         h6 {
           font-size: 20px;
           color: black;
           @media #{ $xss} {
-            font-size: 16px;
+            font-size: 14px;
           }
         }
         p {
@@ -1013,4 +1040,41 @@ $color-primary-white: rgb(240, 240, 240);
 
 .top {
   margin-top: 20px;
+}
+
+.game_engine_expertise_heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  @media #{$sm, $xs, $xss} {
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+  }
+  .title {
+    font-family: var(--ff-heading);
+    padding-bottom: 10px;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    color: black;
+    text-align: center;
+    font-weight: 500;
+
+    font-size: 22px;
+
+    @media #{$xs, $xss} {
+      font-size: 18px;
+      padding-bottom: 20px;
+    }
+    @media #{$lg,$md,$sm,} {
+      font-size: 20px;
+    }
+    @media (max-width: 500px) {
+      font-size: 16px !important;
+    }
+    @media (max-width: 445px) {
+      width: 115px;
+    }
+  }
 }

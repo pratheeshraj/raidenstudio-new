@@ -46,7 +46,7 @@ const ProjectDetails = () => {
         <ProjectDetailUseCase />
         <BlogSectionOne />
         {/* News Section One */}
-        <NewsSectionOne />
+     
         <ContactSection2 />
 
         {/* Footer Section */}

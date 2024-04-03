@@ -396,6 +396,7 @@
         .inner {
           transform: translateY(30px);
           @include transition(0.3s);
+         
           h2 {
             font-size: 26px;
             line-height: 1.2;
@@ -433,7 +434,17 @@
             }
           }
         }
+        .Industry{
+          transform: translateY(100px);
+          @media #{ $md,$sm} {
+            transform: translateY(54px);
 
+          }
+          @media #{ $xss} {
+            transform: translateY(130px);
+
+          }
+          }
         .default-btn {
           margin-top: 20px;
         }
@@ -447,6 +458,10 @@
           .inner {
             transform: translateY(0);
           }
+          .Industry{
+            transform: translateY(0px);
+  
+            }
         }
       }
     }
@@ -615,7 +630,6 @@
   .inner-des {
     p {
       font-size: 16px;
-      font-weight: bold;
       span {
         color: var(--theme-1);
       }
