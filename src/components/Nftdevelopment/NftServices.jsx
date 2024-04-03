@@ -99,7 +99,7 @@ const NftServices = () => {
                                             <Link style={{ lineHeight: "30px" }} to="#">Web3 Wallet Integration</Link>
                                         </h2>
                                         <p>
-                                            VRaiden can assist you in designing and integrating crypto wallets for Web3 Dapps and NFT marketplaces. We collaborate with many blockchain networks to incorporate the most widely used cryptocurrency wallets.
+                                            Raiden can assist you in designing and integrating crypto wallets for Web3 Dapps and NFT marketplaces. We collaborate with many blockchain networks to incorporate the most widely used cryptocurrency wallets.
                                         </p>
                                     </div>
                                 </div>
@@ -149,7 +149,7 @@ const NftServices = () => {
                                             <Link style={{ lineHeight: "30px" }} to="#">Cross-chain NFT platform development</Link>
                                         </h2>
                                         <p>
-                                            At VRaiden, we create an NFT marketplace with cross-chain features like multi-token wallet systems, cross-chain transactions, and blockchain network interoperability.
+                                            At Raiden, we create an NFT marketplace with cross-chain features like multi-token wallet systems, cross-chain transactions, and blockchain network interoperability.
                                         </p>
                                     </div>
                                 </div>
@@ -174,7 +174,7 @@ const NftServices = () => {
                                             <Link style={{ lineHeight: "30px" }} to="#">NFT games development</Link>
                                         </h2>
                                         <p>
-                                            VRaiden has the abilities of handling the entire process for creating a fully functional NFT game.
+                                            Raiden has the abilities of handling the entire process for creating a fully functional NFT game.
                                             We develop gaming platforms and include the feature that allows users to collect non-fungible tokens
                                             that can be exchanged eventually.
                                             Our technology experts can create the NFT-based game on any popular platform, including Web, Android, and iOS.

@@ -46,7 +46,7 @@ const MetaverseService = () => {
                                 <div class="content_metaverse">
                                     <p class="heading_metaverse">Metaverse Integration Services
                                     </p><p class="para_metaverse">
-                                        Our comprehensive integration options make it easy to incorporate the metaverse into your existing systems. Our competent team handles all API integrations, SDKs, DApps, and custom programming. VRaiden's developers incorporate metaverse components like 3D virtual spaces, NFT marketplaces, and virtual avatars to improve the whole system.
+                                        Our comprehensive integration options make it easy to incorporate the metaverse into your existing systems. Our competent team handles all API integrations, SDKs, DApps, and custom programming. Raiden's developers incorporate metaverse components like 3D virtual spaces, NFT marketplaces, and virtual avatars to improve the whole system.
                                     </p>
                                 </div>
                             </div>
@@ -76,7 +76,7 @@ const MetaverseService = () => {
                                 <div class="content_metaverse">
                                     <p class="heading_metaverse">Metaverse Game Development
                                     </p><p class="para_metaverse">
-                                        VRaiden, a well-known metaverse game development company, offers innovative metaverse gaming development solutions to help your gaming business thrive. Our team of experts creates an engaging, dynamic, reliable gaming platform.                                    </p>
+                                        Raiden, a well-known metaverse game development company, offers innovative metaverse gaming development solutions to help your gaming business thrive. Our team of experts creates an engaging, dynamic, reliable gaming platform.                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -94,7 +94,7 @@ const MetaverseService = () => {
                                 <div class="content_metaverse">
                                     <p class="heading_metaverse">Metaverse eCommerce Store Development
                                     </p><p class="para_metaverse">
-                                        VRaiden's experts provide powerful metaverse eCommerce platforms that combine virtual and real-world purchasing experiences. Our expertise in blockchain, augmented reality, and virtual reality technology allows for seamless product visualization, reliable crypto transactions, and immersive virtual stores.                                    </p>
+                                        Raiden's experts provide powerful metaverse eCommerce platforms that combine virtual and real-world purchasing experiences. Our expertise in blockchain, augmented reality, and virtual reality technology allows for seamless product visualization, reliable crypto transactions, and immersive virtual stores.                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -133,7 +133,7 @@ const MetaverseService = () => {
                                 <div class="content_metaverse">
                                     <p class="heading_metaverse">Metaverse Education Platform Development
                                     </p><p class="para_metaverse">
-                                    Join together with VRaiden's expertise to develop a metaverse education platform. Our Metaverse Education platform development services assist you in launching your immersive education platform, which will make learning more accessible, engage more students, and increase learners' interest with integrated AR and VR technologies.
+                                        Join together with Raiden's expertise to develop a metaverse education platform. Our Metaverse Education platform development services assist you in launching your immersive education platform, which will make learning more accessible, engage more students, and increase learners' interest with integrated AR and VR technologies.
                                     </p>
                                 </div>
                             </div>
@@ -143,7 +143,7 @@ const MetaverseService = () => {
                                 <div class="content_metaverse">
                                     <p class="heading_metaverse">Metaverse Consulting
                                     </p><p class="para_metaverse">
-                                    Connect with our metaverse experts to securely transport your business into the metaverse. By integrating our business-oriented metaverse technologies, you may create limitless business prospects and experience unparalleled growth.                                    </p>
+                                        Connect with our metaverse experts to securely transport your business into the metaverse. By integrating our business-oriented metaverse technologies, you may create limitless business prospects and experience unparalleled growth.                                    </p>
                                 </div>
                             </div>
                         </div>
