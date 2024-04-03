@@ -1,75 +1,62 @@
 import React from 'react'
-import "./Metaverse.css"
-function MetaverseFeature() {
+
+function NftFeatures() {
     return (
         <section className="faq-section three" style={{ background: "white" }}>
             <div className="auto-container">
                 <div className="row">
-                    <h2 style={{ textAlign: "center", color: "black" }}>Key Features of Our Metaverse<br /> <span className="theme-color"> App Development</span>
+                    <h2 style={{ textAlign: "center", color: "black" }}>Key Features of Our <br /><span className="theme-color"> Metaverse App Development</span>
                     </h2>
                     <p style={{ textAlign: "center", color: "black" }}>We are a reputable metaverse development company that provides feature-rich metaverse software to help you stay ahead of the competition. Check out what we've got to offer.
                     </p>
-                    <div className='feature_div_metaverse'>
-                        <div class="card_feature_metaverse">
-                            <div class="icon_feature_metaverse">
-                                <img src='/assets/img/nftdevfeatu/nftwallet.svg' />
-                            </div>
-                            <p class="title_feature_metaverse">Blockchain  <br /> Integration</p>
+                    <div className='feature_div'>
+                        <div className='feature_card'>
+                            <img src='/assets/img/nftdevfeatu/nftwallet.svg' />
+                            <div>Blockchain Integration</div>
                         </div>
-                        <div class="card_feature_metaverse">
-                            <div class="icon_feature_metaverse">
-                            </div>
-                            <p class="title_feature_metaverse">Data <br />Encryption</p>
+                        <div className='feature_card'>
+                            <img src='/assets/img/nftdevfeatu/multichain.svg' />
+                            <div>Data Encryption</div>
                         </div>
-                        <div class="card_feature_metaverse">
-                            <div class="icon_feature_metaverse">
-                            </div>
-                            <p class="title_feature_metaverse">Secure <br /> Login</p>
+                        <div className='feature_card'>
+                            <img src='/assets/img/nftdevfeatu/management.svg' />
+                            <div>Secure Login</div>
                         </div>
-                        <div class="card_feature_metaverse">
-                            <div class="icon_feature_metaverse">
-                            </div>
-                            <p class="title_feature_metaverse">Scalable <br /> to Peak</p>
+                        <div className='feature_card'>
+                            <img src='/assets/img/nftdevfeatu/nftstore.svg' />
+                            <div>Scalable to Peak</div>
                         </div>
-                        <div class="card_feature_metaverse">
-                            <div class="icon_feature_metaverse">
-                            </div>
-                            <p class="title_feature_metaverse">Cross-Site <br /> Prevention</p>
+                        <div className='feature_card'>
+                            <img src='/assets/img/nftdevfeatu/ipfs.svg' />
+                            <div>Cross-Site Prevention</div>
                         </div>
-                        <div class="card_feature_metaverse">
-                            <div class="icon_feature_metaverse">
-                            </div>
-                            <p class="title_feature_metaverse">SSRF <br />  Protection</p>
+                        <div className='feature_card'>
+                            <img src='/assets/img/nftdevfeatu/tokanization.svg' />
+                            <div>SSRF Protection</div>
                         </div>
-                        <div class="card_feature_metaverse">
-                            <div class="icon_feature_metaverse">
-                            </div>
-                            <p class="title_feature_metaverse">HTTP Parameter Protection</p>
+                        <div className='feature_card'>
+                            <img src='/assets/img/nftdevfeatu/royalty.svg' />
+                            <div>HTTP Parameter Protection</div>
                         </div>
-                        <div class="card_feature_metaverse">
-                            <div class="icon_feature_metaverse">
-                            </div>
-                            <p class="title_feature_metaverse">DDoS<br />  Protection</p>
+                        <div className='feature_card'>
+                            <img src='/assets/img/nftdevfeatu/transaction.svg' />
+                            <div>DDoS Protection</div>
                         </div>
-                        <div class="card_feature_metaverse">
-                            <div class="icon_feature_metaverse">
-                            </div>
-                            <p class="title_feature_metaverse">Virtual<br />  Events</p>
+                        <div className='feature_card'>
+                            <img src='/assets/img/nftdevfeatu/ech.svg' />
+                            <div>Virtual Events</div>
                         </div>
-                        <div class="card_feature_metaverse">
-                            <div class="icon_feature_metaverse">
-                            </div>
-                            <p class="title_feature_metaverse">No Border <br /> Barriers</p>
+                        <div className='feature_card'>
+                            <img src='/assets/img/nftdevfeatu/exportnft.svg' />
+                            <div>No Border Barriers</div>
                         </div>
-                        <div class="card_feature_metaverse">
-                            <div class="icon_feature_metaverse">
-                            </div>
-                            <p class="title_feature_metaverse">Virtual <br />Environment</p>
+                        <div className='feature_card'>
+                            <img src='/assets/img/nftdevfeatu/PaymentGatewayIntegration.svg' />
+                            <div>Virtual Environment</div>
                         </div>
-                        <div class="card_feature_metaverse">
-                            <div class="icon_feature_metaverse">
-                            </div>
-                            <p class="title_feature_metaverse">Virtual <br />Communication</p>
+                        <div className='feature_card'>
+                            <img src='/assets/img/nftdevfeatu/erc.svg' />
+                            <div>Virtual Communication</div>
                         </div>
                     </div>
                 </div>
@@ -80,4 +67,4 @@ function MetaverseFeature() {
 
     )
 }
-export default MetaverseFeature
+export default NftFeatures

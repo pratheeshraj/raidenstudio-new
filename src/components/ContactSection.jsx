@@ -39,15 +39,14 @@ const ContactSection = () => {
       <section className="contact-section">
         <div className="auto-container">
           <div className="row">
-            <div className="col-8">
+            <div className="col-12">
               <div className="section-title-shape-one">
-                <h2 style={{ textAlign: "center" }}>Contact With Us</h2>
-                <p style={{ textAlign: "center", marginBottom: "40px" }}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, enim vitae dolorum blanditiis nam beatae modi quas alias est, eveniet corrupti pariatur doloremque ipsum asperiores minus nihil tempora excepturi totam.</p>
+                <h2>Contact With Us</h2>
               </div>
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-12">
+            <div className="col-lg-8">
               <form
                 ref={form}
                 onSubmit={sendEmail}
@@ -142,7 +141,7 @@ const ContactSection = () => {
               </form>
               <p className="form-Messages mt-3" />
             </div>
-            {/* <div className="col-lg-4">
+            <div className="col-lg-4">
               <div className="appointment">
                 <div className="title">
                   <h4>Need Appointment</h4>
@@ -178,7 +177,7 @@ const ContactSection = () => {
                   </tbody>
                 </table>
               </div>
-            </div> */}
+            </div>
           </div>
           <div className="row location-tag">
             <div className="col-lg-3 col-md-6 col-12">
@@ -195,11 +194,12 @@ const ContactSection = () => {
             <div className="col-lg-3 col-md-6 col-12">
               <div className="item " data-aos="fade-up" data-aos-delay="400">
                 <div className="icon">
-                  <i className="fa-sharp fa-solid fa-location-dot" />
+                  <i className="fa-solid fa-headset" />
                 </div>
                 <div className="view">
-                  <h3>Office</h3>
-                  <p>2590 Rockford Mountain Lane Four Oaks, NC.</p>
+                  <h3>Need Support?</h3>
+                  <p>Phone: +919-963-4308</p>
+                  <p>Phone: +913-624-2047</p>
                 </div>
               </div>
             </div>
