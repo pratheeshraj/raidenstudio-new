@@ -21,9 +21,9 @@ const HeaderTwo = () => {
   ];
   const ProductPara = [
     "Experience limitless exploration, creation, and collaboration in a dynamic universe where the possibilities are endless.",
-    " Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.",
-    " Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.",
-    " Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.",
+    "Experience immersive learning guided by human-powered AI simulations, where advanced technology converges to empower education.",
+    "Transforming lives with practical skills for real-world success, one lesson at a time.",
+    "Transforming blueprints into immersive, photorealistic environments.Experience architecture like never before, with innovation that redefines visualization",
   ]
 
   const productTo = ["/project-details", "/raidensimx",]
