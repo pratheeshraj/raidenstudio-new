@@ -790,7 +790,7 @@ const HeaderTwo = () => {
                                     style={{ marginTop: "20px" }}
                                     to="#"
                                   >
-                                    Company{" "}
+                                    COMPANY{" "}
                                     <i class="fa-solid fa-right-long icon_rightarrow"></i>
                                   </Link>
                                 </li>
