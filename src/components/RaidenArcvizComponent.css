@@ -1,3 +1,5 @@
+/* experience */
+
 .raidenarcviz_h2 {
     color: white;
     text-align: center;
@@ -8,6 +10,9 @@
     background: #00151E !important;
 }
 
+.arcviz_who_heading {
+    margin-bottom: 30px !important;
+}
 
 .Raidenarcviz p {
     color: white;
@@ -15,6 +20,19 @@
     font-size: 18px !important;
 }
 
+/* what we do  */
+
+.inner-des ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 25px;
+}
+
+.inner-des li {
+    font-size: 16px;
+    list-style-type: square;
+}
 
 
 /* cards- 2 */
@@ -29,7 +47,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 40px;
+    row-gap: 100px;
 }
 
 .arcviz_card {
@@ -41,6 +59,13 @@
     border-radius: 20px;
     padding: 40px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: relative;
+    padding-top: 60px;
+    transition: box-shadow 0.3s ease;
+}
+
+.arcviz_card:hover {
+    box-shadow: rgba(0, 40, 67, 1) 5px 5px;
 }
 
 .arcviz_card div {
@@ -54,37 +79,144 @@
     color: black;
 }
 
-/* .arcviz_card::before {
-    content: '';
+.arcviz_round_img_div {
     position: absolute;
-    width: 100px;
-    background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
-    height: 130%;
-    animation: rotBGimg 3s linear infinite;
-    transition: all 0.2s linear;
-} */
-/* 
-@keyframes rotBGimg {
-    from {
-        transform: rotate(0deg);
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: linear-gradient(136.76deg, #F40076 0%, #DF98FA 100%);
+    top: 0px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 11px solid rgba(245, 245, 245, 1)
+}
+
+.arcviz_round_img_div img {
+    width: 40px;
+    height: 40px;
+}
+
+
+@media screen and (max-width:800px) {
+    .arcviz_card div {
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        color: black;
     }
 
-    to {
-        transform: rotate(360deg);
+    .arcviz_card {
+        width: 49%;
     }
 }
 
-.arcviz_card::after {
+
+@media screen and (max-width:650px) {
+
+    .arcviz_card {
+        width: 100%;
+    }
+}
+
+
+
+/* benifit  */
+
+.arcviz_benifit_div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    padding: 0;
+}
+
+.arcviz_benifit {
+    width: 31%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arcviz_benifit img {
+    width: 50px;
+}
+
+.arcviz_benifit div {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+.arcviz_benifit p {
+    color: #CFCFD2;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/* use case  */
+
+.arcviz_use_card {
+    position: relative;
+    width: 315px;
+    height: 450px;
+    margin: 30px auto;
+    box-shadow: 0 0 100px rgba(0, 0, 0, .3);
+    border-radius: 10px;
+}
+
+.arcviz_use_card-header {
+    position: relative;
+    height: 220px;
+    background-size: cover;
+    background-position: top;
+}
+
+.arcviz_use_card-header:after {
     content: '';
     position: absolute;
-    background: #07182E;
-    ;
-    inset: 5px;
-    border-radius: 15px;
-} */
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgb(5, 85, 134), rgba(181, 181, 181, -0.20));
+    border-radius: 10px;
+}
 
-/* 
-.arcviz_card:hover:before {
-    background-image: linear-gradient(180deg, rgb(81, 255, 0), purple);
-    animation: rotBGimg 3.5s linear infinite;
-} */
+.arcviz_use_card_image {
+    position: absolute;
+    margin-top: 110px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #222;
+    font-size: 20px;
+    font-weight: 400;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.arcviz_use_card-body {
+    text-align: center;
+    padding-left: 10px;
+}
+
+.arcviz_use_card_name {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 auto;
+    color: black;
+}
+
+.arcviz_use_card_bio {
+    font-size: 14px;
+    color: #7B7B7B;
+    font-weight: 300;
+    margin: 10px auto;
+    line-height: 20px;
+}
