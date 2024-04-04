@@ -1,0 +1,90 @@
+.raidenarcviz_h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 40px !important;
+}
+
+.Raidenarcviz_main_div {
+    background: #00151E !important;
+}
+
+
+.Raidenarcviz p {
+    color: white;
+    text-align: center;
+    font-size: 18px !important;
+}
+
+
+
+/* cards- 2 */
+
+.raidenarcviz_card_h2 {
+    color: black;
+    text-align: center;
+    margin-bottom: 80px !important;
+}
+
+.arcviz_card_div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.arcviz_card {
+    width: 48%;
+    background: #ffffff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.arcviz_card div {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.arcviz_card p {
+    color: black;
+}
+
+/* .arcviz_card::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
+    height: 130%;
+    animation: rotBGimg 3s linear infinite;
+    transition: all 0.2s linear;
+} */
+/* 
+@keyframes rotBGimg {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.arcviz_card::after {
+    content: '';
+    position: absolute;
+    background: #07182E;
+    ;
+    inset: 5px;
+    border-radius: 15px;
+} */
+
+/* 
+.arcviz_card:hover:before {
+    background-image: linear-gradient(180deg, rgb(81, 255, 0), purple);
+    animation: rotBGimg 3.5s linear infinite;
+} */

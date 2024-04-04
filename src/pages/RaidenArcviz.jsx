@@ -20,7 +20,7 @@ const RaidenArcviz = () => {
                 {/* Header one */}
                 <HeaderTwo />
                 <RaidenArcvizComponent vidio={vidio} />
-                <BlogSectionOne />
+                {/* <BlogSectionOne /> */}
                 {/* News Section One */}
                 <NewsSectionOne />
                 {/* Footer Section */}
