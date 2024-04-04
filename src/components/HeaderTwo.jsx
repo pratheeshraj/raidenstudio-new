@@ -16,7 +16,7 @@ const HeaderTwo = () => {
   const productName = [
     "Raiden Verse",
     "Raiden SimX",
-    "Raiden GOGNI+",
+    "Raiden COGNI+",
     "Raiden ARCVIZ"
   ];
   const ProductPara = [
@@ -992,7 +992,7 @@ const HeaderTwo = () => {
                           navData.isActive ? "active" : ""
                         }
                       >
-                        Raiden GOGNI+
+                        Raiden COGNI+
                       </NavLink>
                     </li>
                     <li>
