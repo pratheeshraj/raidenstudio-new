@@ -386,7 +386,7 @@
   h2 {
     color: var(--theme-1);
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     @media #{$xss} {
       font-size: 26px;
     }
@@ -396,20 +396,26 @@
   .RaidensimX_commitment_container {
     h5 {
       margin-bottom: 50px;
+      font-size: 18px;
+      font-weight: 400;
       color: black;
       text-align: center;
       font-family: "Nunito Sans", sans-serif;
-      span {
-        color: var(--theme-1);
-      }
     }
     .RaidensimX_commitment_boxs {
-      .first {
+    
         display: flex;
-        justify-content: center;
-        gap: 126px;
-        @media #{$md,$sm,$xs,$xss} {
-          gap: 0px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20px;
+        @media #{$lg }{
+          gap: 10px;
+
+        }
+        @media #{$md,$sm} {
+          gap: 20px;
+          justify-content: center;
+          padding:0 100px ;
         }
         @media #{$xs,$xss} {
           gap: 0px;
@@ -417,13 +423,18 @@
           align-items: center;
         }
         .RaidensimX_commitment_box {
-          width: 342px;
+          width: 242px;
           display: flex;
           flex-direction: column;
           align-items: center;
           justify-content: center;
           padding: 20px;
           gap: 25px;
+          @media #{$lg }{
+            width: 220px;
+            padding: 10px;
+
+          }
           img {
             width: 50px;
           }
@@ -432,11 +443,6 @@
             color: black;
           }
         }
-      }
-      .second {
-        display: flex;
-        justify-content: center;
-        gap: 126px;
         @media #{$md,$sm,$xs,$xss} {
           gap: 0px;
         }
@@ -445,23 +451,8 @@
           flex-direction: column;
           align-items: center;
         }
-        .RaidensimX_commitment_box {
-          width: 342px;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          padding: 20px;
-          gap: 10px;
-          img {
-            width: 50px;
-          }
-          p {
-            text-align: center;
-            color: black;
-          }
-        }
-      }
+     
+      
     }
   }
 }

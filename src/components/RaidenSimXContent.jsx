@@ -530,7 +530,7 @@ const RaidenSimXContent = () => {
               At Raiden we are <span>committed to</span>
             </h5>
             <div className="RaidensimX_commitment_boxs">
-              <div className="first">
+              
                 <div className="RaidensimX_commitment_box">
                   <img src={ico2} alt="" />
                   <p>
@@ -545,8 +545,8 @@ const RaidenSimXContent = () => {
                     solutions.
                   </p>
                 </div>
-              </div>
-              <div className="second">
+           
+              
                 <div className="RaidensimX_commitment_box">
                   <img src={ico2} alt="" />
                   <p>
@@ -561,7 +561,7 @@ const RaidenSimXContent = () => {
                     solutions.
                   </p>
                 </div>
-              </div>
+              
             </div>
           </div>
         </div>
