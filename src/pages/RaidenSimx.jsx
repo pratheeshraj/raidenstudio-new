@@ -38,7 +38,7 @@ const RaidenSimx = () => {
             <div className="auto-containercontainer-fulid">
               <div className="col-12 project_hero_section">
                 <video autoPlay muted loop>
-                  <source src={demo} type="video/mp4" />
+                  <source src={vidio} type="video/mp4" />
                 </video>
               </div>
               <div className="container-fulid project_hero_content">
