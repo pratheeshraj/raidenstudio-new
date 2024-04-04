@@ -79,19 +79,19 @@ const RaidenSimXContent = () => {
                       </div>
                     </li>
                     <li style={{ color: "black" }}>
-                      ● Accelerate employee training and development.
+                      <p> ● Accelerate employee training and development.</p>
                     </li>
                     <li style={{ color: "black" }}>
-                      ● Foster innovation and problem-solving skills.
+                      <p> ● Foster innovation and problem-solving skills.</p>
                     </li>
                     <li style={{ color: "black" }}>
-                      ● Improve operational efficiency and performance.
+                      <p> ● Improve operational efficiency and performance.</p>
                     </li>
                     <li style={{ color: "black" }}>
-                      ● Enhance customer experience and satisfaction.
+                      <p>● Enhance customer experience and satisfaction.</p>
                     </li>
                     <li style={{ color: "black" }}>
-                      ● Stay ahead of emerging trends and technologies.
+                      <p> ● Stay ahead of emerging trends and technologies.</p>
                     </li>
                   </ul>
                 </div>
@@ -530,38 +530,35 @@ const RaidenSimXContent = () => {
               At Raiden we are <span>committed to</span>
             </h5>
             <div className="RaidensimX_commitment_boxs">
-              
-                <div className="RaidensimX_commitment_box">
-                  <img src={ico2} alt="" />
-                  <p>
-                    Upholding the highest standards of integrity, ethics, and
-                    professionalism.
-                  </p>
-                </div>
-                <div className="RaidensimX_commitment_box">
-                  <img src={ico2} alt="" />
-                  <p>
-                    Continuously innovating to deliver cutting-edge learning
-                    solutions.
-                  </p>
-                </div>
-           
-              
-                <div className="RaidensimX_commitment_box">
-                  <img src={ico2} alt="" />
-                  <p>
-                    Continuously innovating to deliver cutting-edge learning
-                    solutions.
-                  </p>
-                </div>
-                <div className="RaidensimX_commitment_box">
-                  <img src={ico2} alt="" />
-                  <p>
-                    Continuously innovating to deliver cutting-edge learning
-                    solutions.
-                  </p>
-                </div>
-              
+              <div className="RaidensimX_commitment_box">
+                <img src={ico2} alt="" />
+                <p>
+                  Upholding the highest standards of integrity, ethics, and
+                  professionalism.
+                </p>
+              </div>
+              <div className="RaidensimX_commitment_box">
+                <img src={ico2} alt="" />
+                <p>
+                  Continuously innovating to deliver cutting-edge learning
+                  solutions.
+                </p>
+              </div>
+
+              <div className="RaidensimX_commitment_box">
+                <img src={ico2} alt="" />
+                <p>
+                  Continuously innovating to deliver cutting-edge learning
+                  solutions.
+                </p>
+              </div>
+              <div className="RaidensimX_commitment_box">
+                <img src={ico2} alt="" />
+                <p>
+                  Continuously innovating to deliver cutting-edge learning
+                  solutions.
+                </p>
+              </div>
             </div>
           </div>
         </div>
