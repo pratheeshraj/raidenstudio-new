@@ -1,6 +1,9 @@
 import React from "react";
 import demo from "../images/Metaverse.mp4";
 import "./RaidenArcvizComponent.css"
+import { Swiper } from 'swiper/react';
+import { SwiperSlide } from 'swiper/react';
+import { Link } from 'react-router-dom';
 
 const RaidenArcvizComponent = ({ vidio }) => {
     return (
@@ -180,17 +183,195 @@ const RaidenArcvizComponent = ({ vidio }) => {
                 </div>
             </section>
             {/* Raiden arcviz - use Case */}
-            <section className="project-section three Raidenarcviz_card_main_div" style={{ padding: "80px 0" }}>
+            <section className="service-section three">
                 <div className="auto-container">
-                    <div className="row Raidenarcviz_card">
-                        <h2 className="raidenarcviz_card_h2"><span className="theme-color">Use Cases of VR in Real Estate</span></h2>
-                        <div className="arcviz_use_card_div">
-                            <div class="arcviz_use_card">
-                                <div class="arcviz_use_card-header">
-                                    <img class="arcviz_use_card_image" src="/assets/img/about/_e17fb051-856f-4968-a2c0-150430fd0b61 2.png" />
-
-                                </div>
+                    <div className="row">
+                        <div className="col-12">
+                            <div
+                                className="section-title-shape-one middle black "
+                                data-aos="fade-up"
+                                data-aos-delay="300"
+                            >
+                                <h2>
+                                    Use Cases of VR in Real Estate
+                                    <span className="theme-color"> Real Estate</span>
+                                </h2>
+                                <p>At VR, we're experts at providing innovative solutions that use cutting-edge technology to boost creativity and revolutionize industries. Our skilled professionals have extensive experience in a variety of domains, allowing us to provide comprehensive services in:</p>
                             </div>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="swiper swiper-container service-one">
+                            <div className="swiper-wrapper">
+                                <Swiper
+                                    loop={false}
+                                    spaceBetween={20}
+                                    slidesPerView={3}
+                                    speed={1000}
+                                    pagination={{ clickable: true }}
+                                    autoplay={{ delay: 6000 }}
+                                    className="mySwiper"
+                                    navigation={{
+                                        nextEl: '.swiper-button-next',
+                                        prevEl: '.swiper-button-prev',
+                                    }} breakpoints={{
+                                        0: {
+                                            slidesPerView: 1,
+                                            pagination: false,
+                                            spaceBetween: 20,
+                                            slidesPerGroup: 1,
+                                        },
+                                        500: {
+                                            slidesPerView: 1,
+                                            pagination: false,
+                                            spaceBetween: 20,
+                                            slidesPerGroup: 1,
+                                        },
+                                        768: {
+                                            slidesPerView: 2,
+                                        },
+                                        992: {
+                                            slidesPerView: 3,
+                                        },
+                                        1200: {
+                                            slidesPerView: 3,
+                                        },
+                                        1400: {
+                                            slidesPerView: 3,
+                                        },
+                                    }}
+                                >
+                                    <SwiperSlide>
+                                        <div className="swiper-slide">
+                                            <div className="inner-wrapper ">
+                                                <div className="img-file">
+                                                    <img
+                                                        className="img-fluid"
+                                                        src="/assets/img/service/network-structure-technology-concept-blockchain-technology-technological-abstract-cube-with-dat(1).webp"
+                                                        alt=""
+                                                    />
+                                                </div>
+                                                <div className="text-file">
+                                                    <h2 className="title">
+                                                        <Link to="#">
+                                                            Virtual Property Presentations
+                                                        </Link>
+                                                    </h2>
+                                                    <p>
+                                                        Real estate agents and developers can use VR to create immersive property presentations for potential buyers. Prospective clients can explore properties virtually, walking through rooms, inspecting details, and getting a feel for the space without needing to physically visit the property.                                                     </p>
+                                                    <div className="shape-overlay">
+                                                        <img src="/assets/img/shape/15_shape.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <div className="swiper-slide">
+                                            <div className="inner-wrapper ">
+                                                <div className="img-file">
+                                                    <img
+                                                        className="img-fluid"
+                                                        src="/assets/img/service/nft-digital-art-non-fungible-token-blockchain-technology-cryptographic-data-block-collecting-un(1).webp"
+                                                        alt=""
+                                                    />
+                                                </div>
+                                                <div className="text-file">
+                                                    <h2 className="title">
+                                                        <Link to="#">
+                                                            Staging and Virtual Visualization
+                                                        </Link>
+                                                    </h2>
+                                                    <p>
+                                                        VR allows real estate professionals to virtually stage properties, presenting them in different styles and configurations to suit various preferences. Virtual staging eliminates the need for physical furniture and decor, enabling agents to showcase the potential of empty spaces with minimal cost and effort.                                                     </p>
+                                                    <div className="shape-overlay">
+                                                        <img src="/assets/img/shape/15_shape.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <div className="swiper-slide">
+                                            <div className="inner-wrapper ">
+                                                <div className="img-file">
+                                                    <img
+                                                        className="img-fluid"
+                                                        src="/assets/img/service/big-data-ai-analysis-generative-ai(1).webp"
+                                                        alt=""
+                                                    />
+                                                </div>
+                                                <div className="text-file">
+                                                    <h2 className="title">
+                                                        <Link to="#">
+                                                            V-Commerce
+                                                        </Link>
+                                                    </h2>
+                                                    <p>
+                                                        V-Commerce, or virtual commerce, revolutionizes the way real estate transactions are conducted. With VR technology, buyers can explore properties, review contracts, and even complete transactions entirely within a virtual environment.                                                     </p>
+                                                    <div className="shape-overlay">
+                                                        <img src="/assets/img/shape/15_shape.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <div className="swiper-slide">
+                                            <div className="inner-wrapper ">
+                                                <div className="img-file">
+                                                    <img
+                                                        className="img-fluid"
+                                                        src="/assets/img/service/big-data-ai-analysis-generative-ai(1).webp"
+                                                        alt=""
+                                                    />
+                                                </div>
+                                                <div className="text-file">
+                                                    <h2 className="title">
+                                                        <Link to="#">
+                                                            Virtual Instructions for Tenants
+                                                        </Link>
+                                                    </h2>
+                                                    <p>
+                                                        Landlords and property managers can use VR to provide virtual instructions and tours for tenants. Instead of traditional paper guides or in-person orientations, tenants can navigate through virtual replicas of their rental units and common areas.                                                     </p>
+                                                    <div className="shape-overlay">
+                                                        <img src="/assets/img/shape/15_shape.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <div className="swiper-slide">
+                                            <div className="inner-wrapper ">
+                                                <div className="img-file">
+                                                    <img
+                                                        className="img-fluid"
+                                                        src="/assets/img/service/big-data-ai-analysis-generative-ai(1).webp"
+                                                        alt=""
+                                                    />
+                                                </div>
+                                                <div className="text-file">
+                                                    <h2 className="title">
+                                                        <Link to="#">
+                                                            Architectural Visualization
+                                                        </Link>
+                                                    </h2>
+                                                    <p>
+                                                        VR is indispensable for architectural visualization, allowing architects, designers, and developers to showcase their projects in an immersive and interactive manner. Clients can explore architectural designs before construction begins, providing valuable feedback and insights.
+                                                    </p>                                                    <div className="shape-overlay">
+                                                        <img src="/assets/img/shape/15_shape.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </SwiperSlide>
+                                </Swiper>
+                            </div>
+                        </div>
+                        <div className="swiper-button-next">
+                        </div>
+                        <div className="swiper-button-prev">
                         </div>
                     </div>
                 </div>
