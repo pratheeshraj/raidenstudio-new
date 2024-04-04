@@ -26,7 +26,7 @@ const HeaderTwo = () => {
     "Transforming blueprints into immersive, photorealistic environments.Experience architecture like never before, with innovation that redefines visualization",
   ]
 
-  const productTo = ["/project-details", "/raidensimx", "", "/raiden-arcviz"]
+  const productTo = ["/project-details", "/raidensimx", "/raiden-cogni", "/raiden-arcviz"]
 
 
   const gameValues2 = [0.5, 0.5, 0.5, 0.5];

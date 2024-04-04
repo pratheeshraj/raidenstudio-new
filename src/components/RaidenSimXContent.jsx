@@ -578,11 +578,10 @@ const RaidenSimXContent = () => {
                   <span className="theme-color">intelligence</span>
                 </h2>
                 <p>
-                  Artificial intelligence is the simulation of human
-                  intelligence processes by machines, especially computer
-                  systems. Specific applications of AI include expert systems,
-                  natural language processing, speech recognition and machine
-                  vision.
+                  Explore commonly asked questions about RaidensimX's immersive
+                  Training solutions. Get quick answers to your queries and
+                  learn more about how our technology is revolutionizing
+                  education.
                 </p>
               </div>
               <div
