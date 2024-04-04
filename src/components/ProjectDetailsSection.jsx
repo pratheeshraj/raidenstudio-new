@@ -70,7 +70,7 @@ const ProjectDetailsSection = ({ vidio }) => {
                         businesses to thrive in the digital age. Our diverse
                         team brings together expertise from various disciplines
                         to deliver unparalleled solutions and experiences within
-                       <span> Raidenverse.</span>
+                        <span> Raidenverse.</span>
                       </p>
                     </div>
                   </div>

@@ -26,16 +26,23 @@ const HeaderTwo = () => {
     "Transforming blueprints into immersive, photorealistic environments.Experience architecture like never before, with innovation that redefines visualization",
   ]
 
-  const productTo = ["/project-details", "/raidensimx",]
+  const productTo = ["/project-details", "/raidensimx", "", "/raiden-arcviz"]
 
 
   const gameValues2 = [0.5, 0.5, 0.5, 0.5];
   const gameNames2 = [
-    "Clashes Of Clans",
+    "Realm Wars: Clash of Empires",
     "Metaverse CASINO",
     "Battle Royale Games ",
     "Meta football",
   ];
+
+  const gamePara = [
+    "Forge your empire, rule the realm with Realm Wars: Clash of Empires.",
+    "Forge your empire, rule the realm with Realm Wars: Clash of Empires.",
+    "Forge your empire, rule the realm with Realm Wars: Clash of Empires.",
+    "Forge your empire, rule the realm with Realm Wars: Clash of Empires."
+  ]
 
   // service
 
@@ -437,9 +444,7 @@ const HeaderTwo = () => {
                                                   {gameNames2[index]}
                                                 </div>
                                                 <div className="manubar_content_para">
-                                                  Lorem ipsum dolor sit amet
-                                                  consectetur adipisicing elit.
-                                                  Fugit, culpa voluptas et.
+                                                  {gamePara[index]}
                                                 </div>
                                                 <div
                                                   className="progress-bar"

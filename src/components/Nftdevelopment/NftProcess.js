@@ -75,7 +75,8 @@ function NftProcess() {
                     <div className="nft_timeline">
                         <div className="nft_line"></div>
                         <div className="nft_section">
-                            <div className="bead">1</div>
+                            <div className="bead"><img src='/assets/img/nftprocess/planningg.svg' />
+                            </div>
                             <div className="nft_content">
                                 <h6>Planning</h6>
                                 <p>
@@ -84,7 +85,9 @@ function NftProcess() {
                             </div>
                         </div>
                         <div className="nft_section">
-                            <div className="bead">2</div>
+                            <div className="bead">
+                                <img src='/assets/img/nftprocess/wire.svg' />
+                            </div>
                             <div className="nft_content">
                                 <h6>Wireframing</h6>
                                 <p>
@@ -93,7 +96,7 @@ function NftProcess() {
                             </div>
                         </div>
                         <div className="nft_section">
-                            <div className="bead">3</div>
+                            <div className="bead"><img src='/assets/img/nftprocess/uiux.svg' /></div>
                             <div className="nft_content">
                                 <h6>UI/UX</h6>
                                 <p>
@@ -102,8 +105,9 @@ function NftProcess() {
                             </div>
                         </div>
                         <div className="nft_section">
-                            <div className="bead">4</div>
+                            <div className="bead"><img src='/assets/img/nftprocess/code.svg' /></div>
                             <div className="nft_content">
+
                                 <h6>Development</h6>
                                 <p>
                                     By working with the technical team, we can speed up the NFT project's development and assure the best outcomes.
@@ -111,8 +115,9 @@ function NftProcess() {
                             </div>
                         </div>
                         <div className="nft_section">
-                            <div className="bead">5</div>
+                            <div className="bead"><img src='/assets/img/nftprocess/qa.svg' /></div>
                             <div className="nft_content">
+
                                 <h6>QA</h6>
                                 <p>
                                     We guarantee an in-depth quality analysis and testing of a bug-free NFT application with no coding errors.
@@ -120,8 +125,9 @@ function NftProcess() {
                             </div>
                         </div>
                         <div className="nft_section">
-                            <div className="bead">6</div>
+                            <div className="bead"><img src='/assets/img/nftprocess/launch.svg' /></div>
                             <div className="nft_content">
+
                                 <h6>Launch</h6>
                                 <p>
                                     We launch your brand-new NFT project on all platforms, making it available to users and allowing your business to start generating revenue.

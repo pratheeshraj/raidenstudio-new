@@ -36,6 +36,7 @@ import RaidenSimx from "./pages/RaidenSimx";
 import SocialIcons from './components/SocialIcons';
 import NftDevlopment from "./pages/NftDevlopment";
 import MetaveseDevelopment from "./pages/MetaveseDevelopment";
+import RaidenArcviz from "./pages/RaidenArcviz";
 
 
 function App() {
@@ -80,6 +81,7 @@ function App() {
         <Route exact path="/raidensimx" element={<RaidenSimx />} />
         <Route exact path="/ai-development" element={<ServicesDetails />} />
         <Route exact path="/metaverse-development" element={<MetaveseDevelopment />} />
+        <Route exact path="/raiden-arcviz" element={<RaidenArcviz />} />
 
         <Route exact path="*" element={<Error />} />
       </Routes>
