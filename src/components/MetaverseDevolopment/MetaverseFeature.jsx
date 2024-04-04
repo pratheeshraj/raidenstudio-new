@@ -27,35 +27,35 @@ function NftFeatures() {
                             <div>Scalable to Peak</div>
                         </div>
                         <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/ipfs.svg' />
+                            <img src='/assets/img/featue-metaverse/cross site preven.svg' />
                             <div>Cross-Site Prevention</div>
                         </div>
                         <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/tokanization.svg' />
+                            <img src='/assets/img/featue-metaverse/ssrf.svg' />
                             <div>SSRF Protection</div>
                         </div>
                         <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/royalty.svg' />
+                            <img src='/assets/img/featue-metaverse/http.svg' />
                             <div>HTTP Parameter Protection</div>
                         </div>
                         <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/transaction.svg' />
+                            <img src='/assets/img/featue-metaverse/ddos.svg' />
                             <div>DDoS Protection</div>
                         </div>
                         <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/ech.svg' />
+                            <img src='/assets/img/featue-metaverse/virtual events.svg' />
                             <div>Virtual Events</div>
                         </div>
                         <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/exportnft.svg' />
+                            <img src='/assets/img/featue-metaverse/no border.svg' />
                             <div>No Border Barriers</div>
                         </div>
                         <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/PaymentGatewayIntegration.svg' />
+                            <img src='/assets/img/featue-metaverse/virtual envir.svg' />
                             <div>Virtual Environment</div>
                         </div>
                         <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/erc.svg' />
+                            <img src='/assets/img/featue-metaverse/virtual events.svg' />
                             <div>Virtual Communication</div>
                         </div>
                     </div>
