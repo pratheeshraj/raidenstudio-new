@@ -631,7 +631,7 @@ const RaidenSimXContent = () => {
                           aria-expanded="false"
                           aria-controls="flush-collapseOne"
                         >
-                          Can i have multiple activities in single feature?
+                          What technology powers RaidensimX?
                         </button>
                       </h2>
                       <div
@@ -640,15 +640,9 @@ const RaidenSimXContent = () => {
                         data-bs-parent="#accordionFlushExample"
                       >
                         <div className="accordion-body">
-                          As you may have read in our AI, ML, and deep learning
-                          post, ML is a subset of AI. Not all AI systems learn
-                          from experience but ML-enabled devices do. Very simply
-                          put, all ML systems are AI but not all AI machines are
-                          ML-capable. As you may have read in our AI, ML, and
-                          deep learning post, ML is a subset of AI. Not all AI
-                          systems learn from experience but ML-enabled devices
-                          do. Very simply put, all ML systems are AI but not all
-                          AI machines are ML-capable.
+                          RaidensimX utilizes a blend of advanced simulation
+                          technology and human-guided artificial intelligence to
+                          create immersive learning experiences.
                         </div>
                       </div>
                     </div>
@@ -662,7 +656,8 @@ const RaidenSimXContent = () => {
                           aria-expanded="false"
                           aria-controls="flush-collapseTwo"
                         >
-                          What is the difference between Data Analyst?{"{"}" "
+                          Can RaidensimX be customized for specific industry
+                          needs?
                           {"}"}
                         </button>
                       </h2>
@@ -672,15 +667,9 @@ const RaidenSimXContent = () => {
                         data-bs-parent="#accordionFlushExample"
                       >
                         <div className="accordion-body">
-                          As you may have read in our AI, ML, and deep learning
-                          post, ML is a subset of AI. Not all AI systems learn
-                          from experience but ML-enabled devices do. Very simply
-                          put, all ML systems are AI but not all AI machines are
-                          ML-capable. As you may have read in our AI, ML, and
-                          deep learning post, ML is a subset of AI. Not all AI
-                          systems learn from experience but ML-enabled devices
-                          do. Very simply put, all ML systems are AI but not all
-                          AI machines are ML-capable.
+                          Yes, RaidensimX can be tailored to address the unique
+                          challenges and requirements of various industries
+                          through customizable simulations and learning modules.
                         </div>
                       </div>
                     </div>
@@ -694,7 +683,7 @@ const RaidenSimXContent = () => {
                           aria-expanded="false"
                           aria-controls="flush-collapseThree"
                         >
-                          What are 3 good things about artificial intelligence?
+                          Is training provided for users new to RaidensimX?
                         </button>
                       </h2>
                       <div
@@ -703,15 +692,34 @@ const RaidenSimXContent = () => {
                         data-bs-parent="#accordionFlushExample"
                       >
                         <div className="accordion-body">
-                          As you may have read in our AI, ML, and deep learning
-                          post, ML is a subset of AI. Not all AI systems learn
-                          from experience but ML-enabled devices do. Very simply
-                          put, all ML systems are AI but not all AI machines are
-                          ML-capable. As you may have read in our AI, ML, and
-                          deep learning post, ML is a subset of AI. Not all AI
-                          systems learn from experience but ML-enabled devices
-                          do. Very simply put, all ML systems are AI but not all
-                          AI machines are ML-capable.
+                          Yes, we offer comprehensive training and support for
+                          users to maximize their experience with RaidensimX.
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseFour"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseFour"
+                        >
+                          How can I request a demo or learn more about
+                          RaidensimX?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapseFour"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          You can request a demo or contact our team through our
+                          wb ebsite to learn more about RaidensimX and its
+                          capabilities.
                         </div>
                       </div>
                     </div>
