@@ -55,7 +55,7 @@ function NftFeatures() {
                             <div>Virtual Environment</div>
                         </div>
                         <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/virtual events.svg' />
+                            <img src='/assets/img/featue-metaverse/metaverse communication.svg' />
                             <div>Virtual Communication</div>
                         </div>
                     </div>
