@@ -74,7 +74,7 @@ function MetaverseProcess() {
                     <div className="nft_timeline">
                         <div className="nft_line"></div>
                         <div className="nft_section">
-                            <div className="bead">1</div>
+                            <div className="bead"><img src=''/></div>
                             <div className="nft_content">
                                 <h6>Discovery</h6>
                                 <p>
