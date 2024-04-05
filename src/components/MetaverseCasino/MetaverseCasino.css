@@ -1,0 +1,76 @@
+.casino_card_div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 80px;
+}
+
+.casino_card {
+    width: 48%;
+    background: black m;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: relative;
+    padding-top: 60px;
+    transition: box-shadow 0.3s ease;
+}
+
+
+.casino_card div {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;
+}
+
+.casino_card p {
+    color: black;
+    text-align: center;
+}
+
+.arcviz_round_img_div {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: linear-gradient(136.76deg, #F40076 0%, #DF98FA 100%);
+    top: 0px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 11px solid rgba(245, 245, 245, 1)
+}
+
+.casino_card img {
+    width: 40px;
+    height: 40px;
+}
+
+
+@media screen and (max-width:800px) {
+    .casino_card div {
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        color: black;
+    }
+
+    .casino_card {
+        width: 49%;
+    }
+}
+
+
+@media screen and (max-width:650px) {
+
+    .casino_card {
+        width: 100%;
+    }
+}

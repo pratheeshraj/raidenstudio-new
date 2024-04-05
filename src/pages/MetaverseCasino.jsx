@@ -3,7 +3,8 @@ import HelmetReact from "../elements/HelmetReact";
 import HeaderTwo from "../components/HeaderTwo";
 import NewsSectionOne from "../components/NewsSectionOne";
 import FooterSectionOne from "../components/FooterSectionOne";
-import GameProductDetailsHero from "../components/GameProductDetailsHero";
+import MetaverseCasionoHero from "../components/MetaverseCasino/MetaverseCasionoHero";
+import MetaverseCasinoContent from "../components/MetaverseCasino/MetaverseCasinoContent";
 
 const MetaverseCasino = () => {
     return (
@@ -11,7 +12,8 @@ const MetaverseCasino = () => {
             <Suspense>
                 <HelmetReact title={"career"} />
                 <HeaderTwo />
-                <GameProductDetailsHero />
+                <MetaverseCasionoHero />
+                <MetaverseCasinoContent />
                 <NewsSectionOne />
                 <FooterSectionOne />
             </Suspense>
