@@ -548,15 +548,15 @@ const RaidenSimXContent = () => {
               <div className="RaidensimX_commitment_box">
                 <img src={ico2} alt="" />
                 <p>
-                  Continuously innovating to deliver cutting-edge learning
-                  solutions.
+                  Fostering a culture of inclusion, diversity, and
+                  collaboration.
                 </p>
               </div>
               <div className="RaidensimX_commitment_box">
                 <img src={ico2} alt="" />
                 <p>
-                  Continuously innovating to deliver cutting-edge learning
-                  solutions.
+                  Upholding the highest standards of integrity, ethics, and
+                  professionalism.
                 </p>
               </div>
             </div>
@@ -749,7 +749,6 @@ const RaidenSimXContent = () => {
           </div>
         </div>
       </section>
-      
     </>
   );
 };
