@@ -38,6 +38,7 @@ import NftDevlopment from "./pages/NftDevlopment";
 import MetaveseDevelopment from "./pages/MetaveseDevelopment";
 import RaidenArcviz from "./pages/RaidenArcviz";
 import RaidenCogni from "./pages/RaidenCogni";
+import MetaverseCasino from './pages/MetaverseCasino';
 
 
 function App() {
@@ -84,6 +85,8 @@ function App() {
         <Route exact path="/metaverse-development" element={<MetaveseDevelopment />} />
         <Route exact path="/raiden-arcviz" element={<RaidenArcviz />} />
         <Route exact path="/raiden-cogni" element={<RaidenCogni />} />
+        <Route exact path="/metaverse-casino" element={<MetaverseCasino />} />
+
 
         <Route exact path="*" element={<Error />} />
       </Routes>

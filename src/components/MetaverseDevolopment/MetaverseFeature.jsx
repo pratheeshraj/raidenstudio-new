@@ -27,7 +27,7 @@ function NftFeatures() {
                             <div>Scalable to Peak</div>
                         </div>
                         <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/cross site preven.svg' />
+                            <img src='/assets/img/featue-metaverse/crosssite.svg' />
                             <div>Cross-Site Prevention</div>
                         </div>
                         <div className='feature_card'>
