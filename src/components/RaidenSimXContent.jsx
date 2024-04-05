@@ -749,6 +749,7 @@ const RaidenSimXContent = () => {
           </div>
         </div>
       </section>
+      
     </>
   );
 };

@@ -1,7 +1,50 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
+import Slider from "react-slick";
+import bg_image1 from "../images/raidenSimx/2150697460-transformed.jpeg";
+import ico2 from "../images/raidenSimx/healthcare.svg";
+import icon from "../images/raidenverse/game_engine/interactive.svg";
+import { useDispatch } from "react-redux";
+import { GetAllBlogs } from "../action/BlogAction";
 
 const RaidenCogniContent = () => {
+  const dispatch = useDispatch();
+  useEffect(() => {
+    try {
+      dispatch(GetAllBlogs);
+    } catch (error) {
+      console.log(error);
+    }
+  }, []);
+  const sliderRef = useRef();
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    pauseOnHover: true,
+    responsive: [
+      {
+        breakpoint: 576, // Screen width up to 600px
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 480, // Screen width up to 480px
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+      // You can add more breakpoints here
+    ],
+  };
   return (
     <>
       <section className="about-section three">
@@ -280,6 +323,304 @@ const RaidenCogniContent = () => {
             src="/assets/img/icon/74_icon.png"
             alt=""
           />
+        </div>
+      </section>
+      {/* <section
+        className="project-section three Raidenarcviz_card_main_div"
+        style={{ padding: "80px 0", background: "black" }}
+      >
+        <div className="auto-container">
+          <div className="row">
+            <h2 className="raidenarcviz_card_h2">
+              <span className="theme-color">Benefits</span>
+            </h2>
+            <div className="arcviz_benifit_div" style={{justifyContent:"center" ,gap:"20px"}}>
+              <div className="arcviz_benifit">
+                <img src="/assets/img/nftdevfeatu/nftwallet.svg" alt="" />
+                <div>Enhanced Visualization</div>
+                <p>
+                  Gain a clearer understanding of architectural designs with
+                  immersive, photorealistic visualizations.
+                </p>
+              </div>
+              <div className="arcviz_benifit">
+                <img src="/assets/img/nftdevfeatu/nftwallet.svg" alt="" />
+                <div>Improved Decision-Making</div>
+                <p>
+                  Make informed decisions with real-time insights and
+                  customizable design options.
+                </p>
+              </div>
+              <div className="arcviz_benifit">
+                <img src="/assets/img/nftdevfeatu/nftwallet.svg" alt="" />
+                <div>Cost and Time Savings</div>
+                <p>
+                  Reduce costs and save time by eliminating the need for
+                  physical staging and in-person property viewings.
+                </p>
+              </div>
+              <div className="arcviz_benifit">
+                <img src="/assets/img/nftdevfeatu/nftwallet.svg" alt="" />
+                <div>Wider Reach</div>
+                <p>
+                  Reach a wider audience of potential buyers and clients by
+                  offering immersive virtual experiences.
+                </p>
+              </div>
+              <div className="arcviz_benifit">
+                <img src="/assets/img/nftdevfeatu/nftwallet.svg" alt="" />
+                <div>Streamlined Transactions</div>
+                <p>
+                  Simplify real estate transactions with virtual commerce,
+                  making buying and selling properties more convenient.
+                </p>
+              </div>
+       
+            </div>
+          </div>
+        </div>
+      </section> */}
+      <section>
+        <div className="cogni_benefits_section">
+          <h2 className="auto-container">Benefits</h2>
+          <div className="auto-container cogini_slider">
+            <img src={bg_image1} alt="" className="sideimage" />
+            <Slider
+              {...settings}
+              className="cogini_slider_main"
+              ref={sliderRef}
+            >
+              <div className="new">
+                <img src={ico2} alt="" />
+                <h6> Enhanced Social Skills</h6>
+                <p>
+                  Develop confidence and proficiency in social interactions
+                  through repeated exposure and practice in a controlled
+                  environment.
+                </p>
+              </div>
+              <div className="new">
+                <img src={ico2} alt="" />
+                <h6> Improved Communication</h6>
+                <p>
+                  Refine verbal and nonverbal communication skills, including
+                  tone of voice, body language, and active listening techniques.
+                </p>
+              </div>
+              <div className="new">
+                <img src={ico2} alt="" />
+                <h6> Reduced Anxiety</h6>
+                <p>
+                  Alleviate anxiety associated with unfamiliar social situations
+                  through gradual exposure and desensitization techniques.
+                </p>
+              </div>
+              <div className="new">
+                <img src={ico2} alt="" />
+                <h6> Increased Independence</h6>
+                <p>
+                  Build independence by mastering essential life skills, such as
+                  navigating public spaces, following routines, and handling
+                  unexpected situations.
+                </p>
+              </div>{" "}
+              <div className="new">
+                <img src={ico2} alt="" />
+                <h6> Empowerment</h6>
+                <p>
+                  Foster a sense of empowerment and self-efficacy as users gain
+                  mastery over challenging social scenarios and tasks.
+                </p>
+              </div>
+            </Slider>
+            <div className="cogini_slider_arrow">
+              <i
+                class="fa-regular fa-circle-left"
+                onClick={() => sliderRef.current.slickNext()}
+              ></i>
+              <i
+                class="fa-regular fa-circle-right"
+                onClick={() => sliderRef.current.slickPrev()}
+              ></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        className="counter-section one"
+        style={{
+          backgroundSize: "cover",
+          background: "white",
+          padding: "50px 0",
+        }}
+      >
+        <div className="auto-container">
+          <div
+            className="award-part "
+            data-aos="fade-up"
+            data-aos-delay="300"
+            style={{ paddingTop: "0", paddingBottom: "0" }}
+          >
+            <div
+              className="row"
+              style={{ display: "flex", alignItems: "center" }}
+            >
+              <div className="col-lg-6">
+                <div className="title">
+                  <h2 style={{ color: "black" }}>
+                    Who Can <span className="theme-color">Benefit</span> ?
+                  </h2>
+                  <p style={{ color: "black" }}>
+                    Raiden GOGNI+ is suitable for individuals of all ages and
+                    abilities on the autism spectrum. Whether you're a parent
+                    seeking supplementary support for your child, a therapist
+                    looking to enhance intervention strategies, or an individual
+                    seeking to improve social skills independently, Raiden
+                    GOGNI+ offers a transformative learning experience.
+                  </p>
+                  <div className="inner-btn d-adjust">
+                    <div>
+                      <Link className="default-btn" to="/contact">
+                        Let’s Work To Do{" "}
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6">
+                <img src="/assets/img/bg-image/painting-water-lillies-orange-flowers-pond-generative-ai_733139-67283-transformed-removebg-preview.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="cogni_lesson">
+        <div className="auto-container cogni_lesson_container">
+          <h2>
+            LESSONS FOR <span>DEVELOPING</span> PRACTICAL{" "}
+            <span>
+              {" "}
+              <br /> LIFE SKILLS
+            </span>
+          </h2>
+          <p>
+            Our platform continually expands its content, drawing from proven
+            social and communication strategies aimed at empowering individuals
+            with tangible real-world abilities. Our focus lies in crafting
+            lessons that target specific social behaviors, adeptly handling both
+            anticipated and unexpected situations, and refining sensory and
+            emotional management techniques.
+          </p>
+          <div className="cogni_card_container">
+            <div className="cogni_card">
+              <div>
+                <img src={icon} alt="" />
+              </div>
+              <h6>Joint Attention</h6>
+              <p>
+                Learn the fundamentals of joint attention, a crucial skill for
+                successful social interactions. Practice techniques to focus
+                attention on shared objects or activities, fostering meaningful
+                connections with others.
+              </p>
+            </div>
+            <div className="cogni_card">
+              <div>
+                <img src={icon} alt="" />
+              </div>
+              <h6>Joint Attention</h6>
+              <p>
+                Learn the fundamentals of joint attention, a crucial skill for
+                successful social interactions. Practice techniques to focus
+                attention on shared objects or activities, fostering meaningful
+                connections with others.
+              </p>
+            </div>
+            <div className="cogni_card">
+              <div>
+                <img src={icon} alt="" />
+              </div>
+              <h6>Joint Attention</h6>
+              <p>
+                Learn the fundamentals of joint attention, a crucial skill for
+                successful social interactions. Practice techniques to focus
+                attention on shared objects or activities, fostering meaningful
+                connections with others.
+              </p>
+            </div>
+            <div className="cogni_card">
+              <div>
+                <img src={icon} alt="" />
+              </div>
+              <h6>Joint Attention</h6>
+              <p>
+                Learn the fundamentals of joint attention, a crucial skill for
+                successful social interactions. Practice techniques to focus
+                attention on shared objects or activities, fostering meaningful
+                connections with others.
+              </p>
+            </div>
+            <div className="cogni_card">
+              <div>
+                <img src={icon} alt="" />
+              </div>
+              <h6>Joint Attention</h6>
+              <p>
+                Learn the fundamentals of joint attention, a crucial skill for
+                successful social interactions. Practice techniques to focus
+                attention on shared objects or activities, fostering meaningful
+                connections with others.
+              </p>
+            </div>
+            <div className="cogni_card">
+              <div>
+                <img src={icon} alt="" />
+              </div>
+              <h6>Joint Attention</h6>
+              <p>
+                Learn the fundamentals of joint attention, a crucial skill for
+                successful social interactions. Practice techniques to focus
+                attention on shared objects or activities, fostering meaningful
+                connections with others.
+              </p>
+            </div>
+            <div className="cogni_card">
+              <div>
+                <img src={icon} alt="" />
+              </div>
+              <h6>Joint Attention</h6>
+              <p>
+                Learn the fundamentals of joint attention, a crucial skill for
+                successful social interactions. Practice techniques to focus
+                attention on shared objects or activities, fostering meaningful
+                connections with others.
+              </p>
+            </div>
+            <div className="cogni_card">
+              <div>
+                <img src={icon} alt="" />
+              </div>
+              <h6>Joint Attention</h6>
+              <p>
+                Learn the fundamentals of joint attention, a crucial skill for
+                successful social interactions. Practice techniques to focus
+                attention on shared objects or activities, fostering meaningful
+                connections with others.
+              </p>
+            </div>
+            <div className="cogni_card">
+              <div>
+                <img src={icon} alt="" />
+              </div>
+              <h6>Joint Attention</h6>
+              <p>
+                Learn the fundamentals of joint attention, a crucial skill for
+                successful social interactions. Practice techniques to focus
+                attention on shared objects or activities, fostering meaningful
+                connections with others.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </>

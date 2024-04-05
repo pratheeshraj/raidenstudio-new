@@ -38,7 +38,8 @@ import NftDevlopment from "./pages/NftDevlopment";
 import MetaveseDevelopment from "./pages/MetaveseDevelopment";
 import RaidenArcviz from "./pages/RaidenArcviz";
 import RaidenCogni from "./pages/RaidenCogni";
-
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function App() {
   useEffect(() => {
