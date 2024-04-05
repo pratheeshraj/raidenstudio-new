@@ -74,7 +74,7 @@ function MetaverseProcess() {
                     <div className="nft_timeline">
                         <div className="nft_line"></div>
                         <div className="nft_section">
-                            <div className="bead"><img src=''/></div>
+                            <div className="bead"><img className='nft_whychoose_img' src='/assets/img/metaverse-process/discovery.svg' /></div>
                             <div className="nft_content">
                                 <h6>Discovery</h6>
                                 <p>
@@ -82,7 +82,7 @@ function MetaverseProcess() {
                             </div>
                         </div>
                         <div className="nft_section">
-                            <div className="bead">2</div>
+                            <div className="bead"><img className='nft_whychoose_img' src='/assets/img/metaverse-process/uiux.svg' /></div>
                             <div className="nft_content">
                                 <h6>Design of UI/UX</h6>
                                 <p>
@@ -91,7 +91,7 @@ function MetaverseProcess() {
 
                         </div>
                         <div className="nft_section">
-                            <div className="bead">3</div>
+                            <div className="bead"><img className='nft_whychoose_img' src='/assets/img/metaverse-process/prototype.svg' /></div>
                             <div className="nft_content">
                                 <h6>Prototype</h6>
                                 <p>
@@ -99,7 +99,7 @@ function MetaverseProcess() {
                             </div>
                         </div>
                         <div className="nft_section">
-                            <div className="bead">4</div>
+                            <div className="bead"><img className='nft_whychoose_img' src='/assets/img/metaverse-process/ecosystem.svg' /></div>
                             <div className="nft_content">
                                 <h6>Develop Ecosystem</h6>
                                 <p>
@@ -107,7 +107,7 @@ function MetaverseProcess() {
                             </div>
                         </div>
                         <div className="nft_section">
-                            <div className="bead">5</div>
+                            <div className="bead"><img className='nft_whychoose_img' src='/assets/img/metaverse-process/development.svg' /></div>
                             <div className="nft_content">
                                 <h6>Development</h6>
                                 <p>
@@ -115,7 +115,7 @@ function MetaverseProcess() {
                             </div>
                         </div>
                         <div className="nft_section">
-                            <div className="bead">6</div>
+                            <div className="bead"><img className='nft_whychoose_img' src='/assets/img/metaverse-process/testing.svg' /></div>
                             <div className="nft_content">
                                 <h6>Testing and Deployment</h6>
                                 <p>
