@@ -528,96 +528,95 @@ const RaidenCogniContent = () => {
               <div>
                 <img src={icon} alt="" />
               </div>
-              <h6>Joint Attention</h6>
+              <h6>Imitation</h6>
               <p>
-                Learn the fundamentals of joint attention, a crucial skill for
-                successful social interactions. Practice techniques to focus
-                attention on shared objects or activities, fostering meaningful
-                connections with others.
+                Develop imitation skills through interactive exercises designed
+                to mimic and replicate actions, gestures, and expressions.
+                Strengthen your ability to observe and emulate behavior,
+                facilitating social learning and communication.
               </p>
             </div>
             <div className="cogni_card">
               <div>
                 <img src={icon} alt="" />
               </div>
-              <h6>Joint Attention</h6>
+              <h6>Gestures</h6>
               <p>
-                Learn the fundamentals of joint attention, a crucial skill for
-                successful social interactions. Practice techniques to focus
-                attention on shared objects or activities, fostering meaningful
-                connections with others.
+                Explore the power of gestures in communication and expression.
+                Master a diverse range of gestures and their meanings, enhancing
+                your ability to convey thoughts, feelings, and intentions
+                nonverbally.
               </p>
             </div>
             <div className="cogni_card">
               <div>
                 <img src={icon} alt="" />
               </div>
-              <h6>Joint Attention</h6>
+              <h6>Street Crossing</h6>
               <p>
-                Learn the fundamentals of joint attention, a crucial skill for
-                successful social interactions. Practice techniques to focus
-                attention on shared objects or activities, fostering meaningful
-                connections with others.
+                Navigate the complexities of street crossing with confidence and
+                safety. Engage in simulated scenarios to learn proper pedestrian
+                techniques, including traffic awareness, crosswalk navigation,
+                and pedestrian signals interpretation.
               </p>
             </div>
             <div className="cogni_card">
               <div>
                 <img src={icon} alt="" />
               </div>
-              <h6>Joint Attention</h6>
+              <h6>School Hallway</h6>
               <p>
-                Learn the fundamentals of joint attention, a crucial skill for
-                successful social interactions. Practice techniques to focus
-                attention on shared objects or activities, fostering meaningful
-                connections with others.
+                Navigate the bustling school hallway with ease and poise.
+                Practice spatial awareness, navigation etiquette, and social
+                interaction skills to navigate crowded hallways and transitions
+                between classes smoothly.
               </p>
             </div>
             <div className="cogni_card">
               <div>
                 <img src={icon} alt="" />
               </div>
-              <h6>Joint Attention</h6>
+              <h6>Hallway Small Talk</h6>
               <p>
-                Learn the fundamentals of joint attention, a crucial skill for
-                successful social interactions. Practice techniques to focus
-                attention on shared objects or activities, fostering meaningful
-                connections with others.
+                Refine your small talk skills for hallway interactions. Learn
+                conversational techniques and topics suitable for brief
+                encounters, fostering connections and building rapport with
+                peers and teachers.
               </p>
             </div>
             <div className="cogni_card">
               <div>
                 <img src={icon} alt="" />
               </div>
-              <h6>Joint Attention</h6>
+              <h6>Cafeteria Social Skills</h6>
               <p>
-                Learn the fundamentals of joint attention, a crucial skill for
-                successful social interactions. Practice techniques to focus
-                attention on shared objects or activities, fostering meaningful
-                connections with others.
+                Master the art of socializing in the cafeteria setting. Practice
+                table manners, conversation starters, and inclusive behaviors to
+                navigate mealtime social interactions with confidence and grace.
               </p>
             </div>
             <div className="cogni_card">
               <div>
                 <img src={icon} alt="" />
               </div>
-              <h6>Joint Attention</h6>
+              <h6>Mindful Thinking</h6>
               <p>
-                Learn the fundamentals of joint attention, a crucial skill for
-                successful social interactions. Practice techniques to focus
-                attention on shared objects or activities, fostering meaningful
-                connections with others.
+                Cultivate mindful thinking habits to enhance self-awareness and
+                emotional regulation. Explore mindfulness exercises and
+                techniques to promote calmness, focus, and resilience in daily
+                life.
               </p>
             </div>
             <div className="cogni_card">
               <div>
                 <img src={icon} alt="" />
               </div>
-              <h6>Joint Attention</h6>
+              <h6>Classroom Social Skills</h6>
               <p>
-                Learn the fundamentals of joint attention, a crucial skill for
-                successful social interactions. Practice techniques to focus
-                attention on shared objects or activities, fostering meaningful
-                connections with others.
+                Develop essential social skills for the classroom environment.
+                Practice active listening, group participation, and
+                collaboration to foster a positive learning environment and
+                academic success.
               </p>
             </div>
           </div>

@@ -4,6 +4,7 @@ import ico2 from "../images/raidenSimx/healthcare.svg";
 import bg_image from "../images/raidenSimx/Group 20.png";
 import bg_image1 from "../images/raidenSimx/2150697460-transformed.jpeg";
 import { Link } from "react-router-dom";
+import key from "../images/raidenSimx/immersive (3).svg"
 const RaidenSimXContent = () => {
   const [choose, setChoose] = useState(true);
   const [learn, setLearn] = useState(false);
@@ -120,7 +121,7 @@ const RaidenSimXContent = () => {
           <h2 className="auto-container">Key Features</h2>
           <div className="auto-container row key_features_section_container">
             <div className="key_features_card">
-              <img src={icon} alt="" />
+              <img src={key} alt="" />
               <h6> Immersive Simulations</h6>
               <p>
                 Dive into realistic scenarios crafted to mimic real-world
@@ -548,15 +549,15 @@ const RaidenSimXContent = () => {
               <div className="RaidensimX_commitment_box">
                 <img src={ico2} alt="" />
                 <p>
-                  Continuously innovating to deliver cutting-edge learning
-                  solutions.
+                  Fostering a culture of inclusion, diversity, and
+                  collaboration.
                 </p>
               </div>
               <div className="RaidensimX_commitment_box">
                 <img src={ico2} alt="" />
                 <p>
-                  Continuously innovating to deliver cutting-edge learning
-                  solutions.
+                  Upholding the highest standards of integrity, ethics, and
+                  professionalism.
                 </p>
               </div>
             </div>
@@ -749,7 +750,6 @@ const RaidenSimXContent = () => {
           </div>
         </div>
       </section>
-      
     </>
   );
 };
