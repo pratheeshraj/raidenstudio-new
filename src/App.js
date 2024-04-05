@@ -40,6 +40,8 @@ import RaidenArcviz from "./pages/RaidenArcviz";
 import RaidenCogni from "./pages/RaidenCogni";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import MetaverseCasino from './pages/MetaverseCasino';
+
 
 function App() {
   useEffect(() => {
@@ -85,6 +87,8 @@ function App() {
         <Route exact path="/metaverse-development" element={<MetaveseDevelopment />} />
         <Route exact path="/raiden-arcviz" element={<RaidenArcviz />} />
         <Route exact path="/raiden-cogni" element={<RaidenCogni />} />
+        <Route exact path="/metaverse-casino" element={<MetaverseCasino />} />
+
 
         <Route exact path="*" element={<Error />} />
       </Routes>

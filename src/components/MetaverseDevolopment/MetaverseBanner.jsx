@@ -36,7 +36,7 @@ const MetaverseBanner = () => {
                         {/* <div className="overlay-text">
               <h1>AI</h1>
             </div> */}
-                        <div className="shape-img">
+                        {/* <div className="shape-img">
                             <img
                                 className="shape-1 poa"
                                 src="./assets/img/icon/50_icon.png"
@@ -47,7 +47,7 @@ const MetaverseBanner = () => {
                                 src="./assets/img/icon/51_icon.png"
                                 alt=""
                             />
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>

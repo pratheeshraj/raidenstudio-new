@@ -15,19 +15,19 @@ function MetaverseIndustries() {
                             </div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/nftindustries/art.sv' />
+                            <img src='/assets/img/meta-indust/new auro.svg' />
                             <div>Aerospace</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/nftindustries/music.sv' />
-                            <div>Aviation</div>
+                            <img src='/assets/img/meta-indust/hospita.svg' />
+                            <div>Hospitality</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/nftindustries/music.sv' />
+                            <img src='/assets/img/meta-indust/consumergoods.svg' />
                             <div>Consumer Goods</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/nftindustries/DIGITAL.SV' />
+                            <img src='/assets/img/meta-indust/defence.svg' />
                             <div>Defence
                             </div>
                         </div>
@@ -44,8 +44,8 @@ function MetaverseIndustries() {
                             <div>Healthcare</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/industries/healthcare@0.3x.pn' />
-                            <div>Hospitality</div>
+                            <img src='/assets/img/meta-indust/aviation.svg' />
+                            <div>Aviation</div>
                         </div>
                         <div className='feature_card idustry'>
                             <img src='/assets/img/nftindustries/manufacturing.svg' />
@@ -57,7 +57,7 @@ function MetaverseIndustries() {
                             </div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/nftindustries/fashion.sv' />
+                            <img src='/assets/img/meta-indust/electricity.svg' />
                             <div>Power
                             </div>
                         </div>
@@ -66,12 +66,12 @@ function MetaverseIndustries() {
                             <div>Real Estate</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/nftindustries/metaverse.sv' />
+                            <img src='/assets/img/meta-indust/retail.svg' />
                             <div>Retail
                             </div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/industries/destination@0.3x.pn' />
+                            <img src='/assets/img/meta-indust/tourism.svg' />
                             <div>Tourism</div>
                         </div>
                     </div>

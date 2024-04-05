@@ -36,6 +36,7 @@ const HeaderTwo = () => {
     "Battle Royale Games ",
     "Meta football",
   ];
+  const gamelink = [`/gameproduct-details`, "/metaverse-casino", "", ""]
 
   const gamePara = [
     "Forge your empire, rule the realm with Realm Wars: Clash of Empires.",
@@ -427,7 +428,7 @@ const HeaderTwo = () => {
                                           {gameValues2.map((value, index) => (
                                             <Link
                                               key={index}
-                                              to={`/gameproduct-details`}
+                                              to={gamelink[index]}
                                               onMouseEnter={() =>
                                                 setHoveredIndex(index)
                                               }
