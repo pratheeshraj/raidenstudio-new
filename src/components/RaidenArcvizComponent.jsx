@@ -94,6 +94,7 @@ const RaidenArcvizComponent = ({ vidio }) => {
                 <div className="auto-container">
                     <div className="row Raidenarcviz_card">
                         <h2 className="raidenarcviz_card_h2"><span className="theme-color">Solutions</span></h2>
+                        <p className='raidenarcviz_card_p'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eveniet maiores ipsa, error totam non rerum, placeat fugit repellendus vitae optio sit? Ducimus, optio! Iste ipsum aliquid molestiae vitae nemo.</p>
                         <div className="arcviz_card_div">
                             <div class="arcviz_card">
                                 <div className="arcviz_round_img_div"><img src="/assets/img/whychooseusnft/experiencedteam.svg" alt="" /></div>
@@ -132,6 +133,7 @@ const RaidenArcvizComponent = ({ vidio }) => {
                 <div className="auto-container">
                     <div className="row">
                         <h2 className="raidenarcviz_card_h2"><span className="theme-color">Benefits</span></h2>
+                        <p className='raidenarcviz_card_p'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eveniet maiores ipsa, error totam non rerum, placeat fugit repellendus vitae optio sit? Ducimus, optio! Iste ipsum aliquid molestiae vitae nemo.</p>
                         <div className="arcviz_benifit_div">
                             <div className="arcviz_benifit">
                                 <img src="/assets/img/nftdevfeatu/nftwallet.svg" alt="" />
