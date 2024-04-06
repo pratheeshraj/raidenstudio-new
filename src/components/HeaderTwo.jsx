@@ -69,6 +69,8 @@ const HeaderTwo = () => {
 
   // xr
 
+
+  const xrlink = ["", "/vr-development", ""]
   const xrValues = [0.5, 0.5, 0.5];
   const xrNames = [
     "AR Services",
@@ -670,7 +672,7 @@ const HeaderTwo = () => {
                                           {xrValues.map((value, index) => (
                                             <Link
                                               key={index}
-                                              // to={`/link${index}`}
+                                              to={xrlink[index]}
                                               onMouseEnter={() =>
                                                 setHoveredIndex(index)
                                               }

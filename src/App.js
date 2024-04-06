@@ -41,6 +41,7 @@ import RaidenCogni from "./pages/RaidenCogni";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import MetaverseCasino from './pages/MetaverseCasino';
+import VRdevelopment from "./pages/VRdevelopment";
 
 
 function App() {
@@ -88,6 +89,8 @@ function App() {
         <Route exact path="/raiden-arcviz" element={<RaidenArcviz />} />
         <Route exact path="/raiden-cogni" element={<RaidenCogni />} />
         <Route exact path="/metaverse-casino" element={<MetaverseCasino />} />
+        <Route exact path="/vr-development" element={<VRdevelopment />} />
+
 
 
         <Route exact path="*" element={<Error />} />
