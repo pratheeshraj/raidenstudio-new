@@ -51,7 +51,7 @@
 
 .game_product_section2 {
   background-color: black;
-  padding: 100px 0;
+  padding: 80px 0;
 
   h2 {
     color: var(--theme-1);
@@ -60,12 +60,6 @@
 }
 
 .game_product_content {
-  h2 {
-    text-align: center;
-    @media #{$sm, $xs,$xss} {
-      font-size: 26px;
-    }
-  }
   .detail {
     display: flex;
     flex-direction: column;
@@ -83,6 +77,18 @@
     justify-content: center;
   }
   .right {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+
+    width: 50%;
+    h2 {
+      text-align: start;
+      @media #{$sm, $xs,$xss} {
+        font-size: 26px;
+      }
+    }
     p {
       @media #{$md, $sm, $xs, $xss} {
         text-align: center;
@@ -118,6 +124,10 @@
     }
   }
   .left {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    width: 50%;
     img {
       display: flex;
       align-items: center;
@@ -532,21 +542,84 @@
     }
   }
 }
+.game_product_section5 {
+  background-color: black;
+  padding: 80px 0;
+}
+.game_product_section5 {
+  h2 {
+    margin-bottom: 50px;
+  }
+}
 
 .section_5 {
-  @media #{$md, $sm, $xs, $xss} {
+  display: flex;
+  @media (max-width: 768px) {
+    display: none;
+  }
+  .left {
+    .first {
+      width: 320px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 4px;
+      h6 {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        font-size: 18px;
+        width: 99%;
+        height: 97%;
+        text-align: start;
+        padding-left: 20px;
+        margin: 0;
+        background-color: black;
+        margin: 0;
+        font-weight: 600px;
+        font-family: "'Nunito Sans'", sans-serif;
+        border-radius: 4px;
+      }
+    }
+
+    width: 50%;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: start;
+    gap: 5px;
   }
   .right {
-
-    @media #{$md, $sm, $xs, $xss} {
-      align-items: center !important;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+    .right_img {
+      width: 100%;
+      img {
+        width: 100%;
+      }
     }
   }
 }
 
-.section_5_ul{
+.mobile_section5 {
+  gap: 20px;
+  flex-direction: column;
+  display: flex;
   width: 100%;
-
+  @media (max-width: 768px) {
+    display: flex;
+  }
+  @media (min-width: 768px) {
+    display: none;
+  }
+  img {
+    width: 100%;
+  }
+  h6 {
+    margin-top: 10px;
+    font-size: 16px;
+  }
 }
