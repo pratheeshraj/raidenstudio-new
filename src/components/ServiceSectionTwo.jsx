@@ -201,7 +201,7 @@ const ServiceSectionTwo = () => {
               >
                 <div className="wrapper-inner one">
                   <div className="img-file">
-                    <img src="/assets/img/Services_Enterprises/8 deep-learning@0.3x.png" alt="" />
+                    <img src="/assets/img/Services_Enterprises/ai app.svg" alt="" />
                   </div>
                   <div className="text-file">
                     <h3>
