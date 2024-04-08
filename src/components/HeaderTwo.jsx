@@ -23,7 +23,7 @@ const HeaderTwo = () => {
     "Experience limitless exploration, creation, and collaboration in a dynamic universe where the possibilities are endless.",
     "Experience immersive learning guided by human-powered AI simulations, where advanced technology converges to empower education.",
     "Transforming lives with practical skills for real-world success, one lesson at a time.",
-    "Transforming blueprints into immersive, photorealistic environments.Experience architecture like never before, with innovation that redefines visualization",
+    "Transforming blueprints into immersive, photorealistic environments.",
   ]
 
   const productTo = ["/project-details", "/raidensimx", "/raiden-cogni", "/raiden-arcviz"]
