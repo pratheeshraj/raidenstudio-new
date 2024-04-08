@@ -4,6 +4,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import section4 from "../../images/gameproduct-detailimg/section4.png";
 import { Link } from 'react-router-dom';
 import Slider from "react-slick";
+import img from "../../images/2150926863.jpg"
 
 function MetaverseCasinoContent() {
 
@@ -14,22 +15,29 @@ function MetaverseCasinoContent() {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 4,
+        slidesToShow: 3,
         slidesToScroll: 2,
         arrows: false,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 3000,
         pauseOnHover: true,
         responsive: [
             {
-                breakpoint: 576, // Screen width up to 600px
+                breakpoint: 1050, // Screen width up to 600px
                 settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
+                    slidesToShow: 3,
+                    slidesToScroll: 2,
                 },
             },
             {
-                breakpoint: 480, // Screen width up to 480px
+                breakpoint: 850, // Screen width up to 480px
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                },
+            },
+            {
+                breakpoint: 550, // Screen width up to 480px
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
@@ -155,20 +163,20 @@ function MetaverseCasinoContent() {
                                     >
                                         <ul className="section_5_ul">
                                             <li>
-                                                <i class="fa-regular fa-circle-dot"></i><span className='theme-color'>Unity :</span>As the primary game engine for developing casino games, including slots, blackjack, roulette, and more.
+                                                <i class="fa-regular fa-circle-dot"></i><span className='theme-color'>Unity : </span>As the primary game engine for developing casino games, including slots, blackjack, roulette, and more.
                                             </li>
                                             <li>
-                                                <i class="fa-regular fa-circle-dot"></i><span className='theme-color'>Photon Unity Networking (PUN) :</span> For implementing multiplayer functionality in Unity games, allowing players to interact with each other in real-time.
+                                                <i class="fa-regular fa-circle-dot"></i><span className='theme-color'>Photon Unity Networking (PUN) : </span> For implementing multiplayer functionality in Unity games, allowing players to interact with each other in real-time.
                                             </li>
                                             <li>
                                                 <i class="fa-regular fa-circle-dot"></i>
-                                                <span className='theme-color'>Three.js :</span> For implementing multiplayer functionality in Unity games, allowing players to interact with each other in real-time.
+                                                <span className='theme-color'>Three.js : </span> For implementing multiplayer functionality in Unity games, allowing players to interact with each other in real-time.
                                             </li>
                                             <li>
-                                                <i class="fa-regular fa-circle-dot"></i><span className='theme-color'>A-Frame :</span>For building virtual reality experiences using HTML and JavaScript, providing a simple and accessible way to create immersive environments.
+                                                <i class="fa-regular fa-circle-dot"></i><span className='theme-color'>A-Frame : </span>For building virtual reality experiences using HTML and JavaScript, providing a simple and accessible way to create immersive environments.
                                             </li>
                                             <li>
-                                                <i class="fa-regular fa-circle-dot"></i><span className='theme-color'>Blender :</span>For 3D modeling and animation, allowing developers to create custom assets and visual effects for casino games and virtual environments.
+                                                <i class="fa-regular fa-circle-dot"></i><span className='theme-color'>Blender : </span>For 3D modeling and animation, allowing developers to create custom assets and visual effects for casino games and virtual environments.
                                             </li>
                                         </ul>
                                     </ScrollAnimation>
@@ -179,43 +187,79 @@ function MetaverseCasinoContent() {
                 </div>
             </section>
             {/* {casino - coice of enviro} */}
-            {/* {casino - key features} */}
             <section className="project-section three Raidenarcviz_card_main_div" style={{ padding: "100px 0", background: "black" }}>
                 <div className="auto-container">
                     <div className="row Raidenarcviz_card">
-                        <h2 className="raidenarcviz_card_h2"><span className="theme-color">Key Features</span></h2>
+                        <h2 className="raidenarcviz_card_h2"><span className="theme-color">Choice of Environments and Themes</span></h2>
 
-                        <p className='raidenarcviz_card_p'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eveniet maiores ipsa, error totam non rerum, placeat fugit repellendus vitae optio sit? Ducimus, optio! Iste ipsum aliquid molestiae vitae nemo.</p>
-
+                        <p className='raidenarcviz_card_p'>Explore a variety of immersive environments and captivating themes to enhance your gaming experience on VirtualVegas. From the glitz and glamor of a bustling Las Vegas casino floor to exotic locales and fantastical worlds, our platform offers a diverse selection of settings to suit every player's preferences. </p>
+                        <div className="choice_slider_arrow">
+                            <i
+                                class="fa-regular fa-circle-left"
+                                onClick={() => sliderRef.current.slickNext()}
+                            ></i>
+                            <i
+                                class="fa-regular fa-circle-right"
+                                onClick={() => sliderRef.current.slickPrev()}
+                            ></i>
+                        </div>
                         <Slider class="gradient-cards-casino-choice"
                             {...settings}
                             ref={sliderRef}>
                             <div class="card-casino-choice">
                                 <div class="container-card-casino_choice bg-green-box-casino-choice">
-                                    <img src='https://picsum.photos/id/237/200/300' />
-                                    <p style={{ textAlign: "center", margin: "0", fontSize: "20px", marginTop: "10px" }} class="card-title-casino">	Wild West Saloon</p>
-                                    <p style={{ textAlign: "center", lineHeight: "25px", margin: "0" }} class="card-description-casino">Journey to a bustling metropolis of the future, where neon lights illuminate towering skyscrapers, flying cars zip through the air, and cutting-edge technology is at your fingertips</p>
+                                    <img src={img} alt='' />
+                                    <p style={{ textAlign: "center", margin: "0", fontSize: "20px", marginTop: "10px" }} class="card-title-casino">	Las Vegas Strip</p>
+                                    <p style={{ textAlign: "center", lineHeight: "25px", margin: "0" }} class="card-description-casino">Experience the electrifying atmosphere of the iconic Las Vegas Strip, complete with dazzling lights, bustling crowds, and the sound of slot machines ringing in the background.</p>
+                                </div>
+                            </div>
+                            <div class="card-casino-choice">
+                                <div class="container-card-casino_choice bg-white-box-casino-choice">
+                                    <img src={img} alt='' />
+                                    <p style={{ textAlign: "center", margin: "0", fontSize: "20px", marginTop: "10px" }} class="card-title-casino">	Tropical Paradise</p>
+                                    <p style={{ textAlign: "center", lineHeight: "25px", margin: "0" }} class="card-description-casino">Escape to a serene tropical paradise, where palm trees sway in the breeze, crystal-clear waters beckon, and colorful cocktails await at the beachside bar.</p>
+                                </div>
+                            </div>
+                            <div class="card-casino-choice">
+                                <div class="container-card-casino_choice bg-yellow-box-casino-choice">
+                                    <img src={img} alt='' />
+                                    <p style={{ textAlign: "center", margin: "0", fontSize: "20px", marginTop: "10px" }} class="card-title-casino">		Ancient Egypt</p>
+                                    <p style={{ textAlign: "center", lineHeight: "25px", margin: "0" }} class="card-description-casino">Embark on an archaeological adventure to Ancient Egypt, where pyramids rise against the desert sands, and mysterious hieroglyphics adorn the walls of ancient temples.</p>
+                                </div>
+                            </div>
+                            <div class="card-casino-choice">
+                                <div class="container-card-casino_choice bg-blue-box-casino-choice">
+                                    <img src={img} alt='' />
+                                    <p style={{ textAlign: "center", margin: "0", fontSize: "20px", marginTop: "10px" }} class="card-title-casino">	Space Odyssey</p>
+                                    <p style={{ textAlign: "center", lineHeight: "25px", margin: "0" }} class="card-description-casino">Blast off into outer space and explore the cosmos aboard a futuristic spaceship, where you'll encounter alien worlds, cosmic phenomena, and the infinite expanse of the universe.</p>
                                 </div>
                             </div>
                             <div class="card-casino-choice">
                                 <div class="container-card-casino_choice bg-green-box-casino-choice">
-                                    <img src='https://picsum.photos/id/237/200/300' />
-                                    <p style={{ textAlign: "center", margin: "0", fontSize: "20px", marginTop: "10px" }} class="card-title-casino">	Wild West Saloon</p>
-                                    <p style={{ textAlign: "center", lineHeight: "25px", margin: "0" }} class="card-description-casino">Journey to a bustling metropolis of the future, where neon lights illuminate towering skyscrapers, flying cars zip through the air, and cutting-edge technology is at your fingertips</p>
+                                    <img src={img} alt='' />
+                                    <p style={{ textAlign: "center", margin: "0", fontSize: "20px", marginTop: "10px" }} class="card-title-casino">	Underwater Kingdom</p>
+                                    <p style={{ textAlign: "center", lineHeight: "25px", margin: "0" }} class="card-description-casino"> Dive into the depths of the ocean and discover a vibrant underwater kingdom teeming with exotic marine life, hidden treasures, and ancient shipwrecks.</p>
                                 </div>
                             </div>
                             <div class="card-casino-choice">
-                                <div class="container-card-casino_choice bg-green-box-casino-choice">
-                                    <img src='https://picsum.photos/id/237/200/300' />
-                                    <p style={{ textAlign: "center", margin: "0", fontSize: "20px", marginTop: "10px" }} class="card-title-casino">	Wild West Saloon</p>
-                                    <p style={{ textAlign: "center", lineHeight: "25px", margin: "0" }} class="card-description-casino">Journey to a bustling metropolis of the future, where neon lights illuminate towering skyscrapers, flying cars zip through the air, and cutting-edge technology is at your fingertips</p>
+                                <div class="container-card-casino_choice bg-white-box-casino-choice">
+                                    <img src={img} alt='' />
+                                    <p style={{ textAlign: "center", margin: "0", fontSize: "20px", marginTop: "10px" }} class="card-title-casino">Wild West Saloon</p>
+                                    <p style={{ textAlign: "center", lineHeight: "25px", margin: "0" }} class="card-description-casino">Step back in time to the Wild West era and saddle up for a showdown at the local saloon, where card games, whiskey shots, and cowboy hats are the order of the day.</p>
                                 </div>
                             </div>
                             <div class="card-casino-choice">
-                                <div class="container-card-casino_choice bg-green-box-casino-choice">
-                                    <img src='https://picsum.photos/id/237/200/300' />
-                                    <p style={{ textAlign: "center", margin: "0", fontSize: "20px", marginTop: "10px" }} class="card-title-casino">	Wild West Saloon</p>
-                                    <p style={{ textAlign: "center", lineHeight: "25px", margin: "0" }} class="card-description-casino">Journey to a bustling metropolis of the future, where neon lights illuminate towering skyscrapers, flying cars zip through the air, and cutting-edge technology is at your fingertips</p>
+                                <div class="container-card-casino_choice bg-yellow-box-casino-choice">
+                                    <img src={img} alt='' />
+                                    <p style={{ textAlign: "center", margin: "0", fontSize: "20px", marginTop: "10px" }} class="card-title-casino">	Futuristic Cityscape</p>
+                                    <p style={{ textAlign: "center", lineHeight: "25px", margin: "0" }} class="card-description-casino">Journey to a bustling metropolis of the future, where neon lights illuminate towering skyscrapers, flying cars zip through the air, and cutting-edge technology is at your fingertips.</p>
+                                </div>
+                            </div>
+                            <div class="card-casino-choice">
+                                <div class="container-card-casino_choice bg-blue-box-casino-choice">
+                                    <img src={img} alt='' />
+                                    <p style={{ textAlign: "center", margin: "0", fontSize: "20px", marginTop: "10px" }} class="card-title-casino">	Medieval Castle</p>
+                                    <p style={{ textAlign: "center", lineHeight: "25px", margin: "0" }} class="card-description-casino">Enter the realm of knights and kings as you explore a majestic medieval castle, complete with towering turrets, stone walls, and a grand banquet hall fit for royalty.</p>
                                 </div>
                             </div>
                         </Slider>
@@ -223,6 +267,7 @@ function MetaverseCasinoContent() {
 
                 </div>
             </section >
+            
 
         </>
 

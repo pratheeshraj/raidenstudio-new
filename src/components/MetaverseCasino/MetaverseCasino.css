@@ -155,7 +155,8 @@
 }
 
 .container-card-casino_choice {
-    width: 256px;
+    width: 100%;
+    height: 450px;
     position: relative;
     border: 2px solid transparent;
     background: linear-gradient(71deg, #080509, #1a171c, #080509);
@@ -212,4 +213,73 @@
 
 .bg-blue-box-casino-choice::after {
     background: linear-gradient(71deg, #0c0a0e, #5f6fad, #0c0a0e);
+}
+
+.choice_slider_arrow {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    margin-bottom: 20px;
+    margin-left: -10px !important;
+}
+
+.choice_slider_arrow i {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.choice_slider_arrow i:hover {
+    color: #13C4A1;
+}
+
+/* Choice of Games: */
+.choicegame_main_div {
+    background: #24292D;
+}
+
+.choicegame_main_div h2 {
+    margin-bottom: 10px;
+}
+
+.choicegame_main_p {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.coice-link-div {
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Choice_active_div {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.Choice_active {
+    color: #13C4A1;
+    border-bottom: 5px solid #13C4A1;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.choice_sideimage {
+    object-fit: cover;
+}
+
+
+@media screen and (max-width: 991px) {
+    .faq-section.one .faq-inner {
+        margin-top: 50px !important;
+        z-index: 9;
+        position: relative;
+    }
 }
