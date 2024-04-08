@@ -21,42 +21,43 @@ const HeaderTwo = () => {
   ];
   const ProductPara = [
     "Experience limitless exploration, creation, and collaboration in a dynamic universe where the possibilities are endless.",
-    "Experience immersive learning guided by human-powered AI simulations, where advanced technology converges to empower education.",
+    "Utilize advanced technology and human guidance to enhance Simulation Training through immersive learning.",
     "Transforming lives with practical skills for real-world success, one lesson at a time.",
-    "Transforming blueprints into immersive, photorealistic environments.Experience architecture like never before, with innovation that redefines visualization",
+    "Transforming blueprints into immersive, photorealistic environments.",
   ]
 
   const productTo = ["/project-details", "/raidensimx", "/raiden-cogni", "/raiden-arcviz"]
 
 
-  const gameValues2 = [0.5, 0.5, 0.5, 0.5];
+  const gameValues2 = [0.5, 0.5, 0.5];
   const gameNames2 = [
     "Realm Wars: Clash of Empires",
-    "Metaverse CASINO",
-    "Battle Royale Games ",
-    "Meta football",
+    "Virtual Vegas",
+    "MetaVerse Royale",
   ];
   const gamelink = [`/gameproduct-details`, "/metaverse-casino", "", ""]
 
   const gamePara = [
     "Forge your empire, rule the realm with Realm Wars: Clash of Empires.",
     "Forge your empire, rule the realm with Realm Wars: Clash of Empires.",
-    "Forge your empire, rule the realm with Realm Wars: Clash of Empires.",
+    "Gateway to immersive Battle Royale experiences in the Metaverse.",
     "Forge your empire, rule the realm with Realm Wars: Clash of Empires."
   ]
 
   // service
 
   // block chain
-  const blockChainTo = ["/nft-development", "", "", "", "/metaverse-development", ""]
+  const blockChainTo = ["", "/nft-development", "", "", "/metaverse-development", "", "", ""]
   const blockchainValues = [0.5, 0.5, 0.5, 0.5, 0.5, 0.5];
   const blockchainnames = [
+    "Custom Blockchain",
     "NFT",
-    "NFT MARKETPLACE",
-    "LAYER1 and Layer 2 Solutions",
-    "DEFI",
+    "Web3",
+    "DeFi",
     "Metaverse",
-    "Blockchain Games",
+    "Blockchain Game",
+    "Layer 1 & Layer 2",
+    "Smart Contract"
   ];
 
   // Ai
