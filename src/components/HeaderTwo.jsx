@@ -32,7 +32,7 @@ const HeaderTwo = () => {
   const gameValues2 = [0.5, 0.5, 0.5, 0.5];
   const gameNames2 = [
     "Realm Wars: Clash of Empires",
-    "Metaverse CASINO",
+    "Virtual Vegas",
     "Battle Royale Games ",
     "Meta football",
   ];
