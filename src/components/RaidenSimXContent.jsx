@@ -4,7 +4,7 @@ import ico2 from "../images/raidenSimx/healthcare.svg";
 import bg_image from "../images/raidenSimx/Group 20.png";
 import bg_image1 from "../images/raidenSimx/2150697460-transformed.jpeg";
 import { Link } from "react-router-dom";
-import key from "../images/raidenSimx/immersive (3).svg"
+import key from "../images/raidenSimx/immersive (3).svg";
 const RaidenSimXContent = () => {
   const [choose, setChoose] = useState(true);
   const [learn, setLearn] = useState(false);
@@ -534,16 +534,13 @@ const RaidenSimXContent = () => {
               <div className="RaidensimX_commitment_box">
                 <img src={ico2} alt="" />
                 <p>
-                  Upholding the highest standards of integrity, ethics, and
-                  professionalism.
+                  Continuously innovating to deliver cutting-edge learning
+                  solutions.
                 </p>
               </div>
               <div className="RaidensimX_commitment_box">
                 <img src={ico2} alt="" />
-                <p>
-                  Continuously innovating to deliver cutting-edge learning
-                  solutions.
-                </p>
+                <p>Providing exceptional customer support and service.</p>
               </div>
 
               <div className="RaidensimX_commitment_box">

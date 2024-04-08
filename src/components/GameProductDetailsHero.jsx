@@ -224,6 +224,45 @@ const GameProductDetailsHero = () => {
         "Customize every aspect of your game with our flexible customization and extensibility options. From game mechanics and user interface design to content creation and feature development, our platform empowers you to tailor your game to suit your vision and differentiate your brand in the market.",
     },
   ];
+  const development = [
+    {
+      title: "Conceptualization and Planning",
+      content_1: "Define the vision and goals for your game.",
+      content_2: "Conduct market research and identify target audience",
+    },
+    {
+      title: "	Design and Prototyping",
+      content_1: "Develop game concept, storyline, and characters",
+      content_2: "Design game mechanics, levels, and user interface.",
+    },
+    {
+      title: "Development",
+      content_1: "Implement game logic, graphics, and audio assets",
+      content_2:
+        "Build core features such as city-building, resource management, and battle mechanics",
+    },
+    {
+      title: "Integration and Testing",
+      content_1:
+        "Integrate third-party services and APIs for analytics, monetization, and social features",
+      content_2:
+        "Address any bugs or issues identified during testing and optimize game performance.",
+    },
+    {
+      title: "	Deployment",
+      content_1:
+        "Release the game to app stores and distribute promotional codes to early adopters.",
+      content_2:
+        "Prepare for launch by creating promotional materials, app store listings",
+    },
+    {
+      title: "	Support and Maintenance",
+      content_1:
+        "Provide ongoing support to address user inquiries, technical issues, and feedback.",
+      content_2:
+        "Release regular updates and patches to introduce new features, content",
+    },
+  ];
   return (
     <Fragment>
       <section>
@@ -533,9 +572,9 @@ const GameProductDetailsHero = () => {
       <section>
         <div className="container-fluid section-6">
           <div className="auto-container development_process">
-            <h2>Our NFT Gaming Platform Development Process</h2>
+            <h2>Development and Implementation Lifecycle</h2>
             <ul className="time_line">
-              {processSteps.map((step, index) => (
+              {development.map((step, index) => (
                 <li key={index}>
                   <ScrollAnimation
                     animateIn={index % 2 === 0 ? "fadeInLeft" : "fadeInRight"}
@@ -545,12 +584,9 @@ const GameProductDetailsHero = () => {
                       <div className="number">
                         <p>{index + 1}</p>
                       </div>
-                      <h6>{step}</h6>
-                      <p>
-                        To expand the basic game concept with additional ideas
-                        and features, our team conducts extensive research on
-                        concept.
-                      </p>
+                      <h6>{step.title}</h6>
+                      <p>{step.content_1}</p>
+                      <p>{step.content_2}</p>
                     </div>
                   </ScrollAnimation>
                 </li>
@@ -559,7 +595,74 @@ const GameProductDetailsHero = () => {
           </div>
         </div>
       </section>
-      <section>
+      <section
+        className="counter-section one"
+        style={{
+          backgroundSize: "cover",
+          background: "white",
+        }}
+      >
+        <div className="auto-container">
+          <div
+            className="award-part "
+            data-aos="fade-up"
+            data-aos-delay="300"
+            style={{ paddingTop: "0", paddingBottom: "0" }}
+          >
+            <div
+              className="row"
+              style={{ display: "flex", alignItems: "center" }}
+            >
+              <div className="col-lg-6">
+                <div className="title">
+                  <h2 style={{ color: "black" }}>
+                    Are you ready to revolutionize
+                    <span className="theme-color">
+                      mobile gaming industry with
+                    </span>{" "}
+                    the your innovative ideas?
+                  </h2>
+                  <p style={{ color: "black" }}>
+                    <strong>
+                      {" "}
+                      Take the first step towards success with Realm Wars
+                    </strong>{" "}
+                    : Clash of Empires. Contact us now to learn more about our
+                    B2B solutions and discover how we can help turn your vision
+                    into reality.
+                  </p>
+                  <div className="inner-btn d-adjust">
+                    <div>
+                      <Link className="default-btn" to="/contact">
+                        Let’s Work To Do{" "}
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6">
+                <img src="/assets/img/bg-image/painting-water-lillies-orange-flowers-pond-generative-ai_733139-67283-transformed-removebg-preview.png" />
+              </div>
+            </div>
+            {/* <div className="overlay-text">
+              <h1>AI</h1>
+            </div> */}
+            {/* <div className="shape-img">
+                            <img
+                                className="shape-1 poa"
+                                src="./assets/img/icon/50_icon.png"
+                                alt=""
+                            />
+                            <img
+                                className="shape-2 poa"
+                                src="./assets/img/icon/51_icon.png"
+                                alt=""
+                            />
+                        </div> */}
+          </div>
+        </div>
+      </section>
+      {/* <section>
         <div
           className="container-fluid game_product_section2"
           style={{ backgroundColor: "white" }}
@@ -618,7 +721,7 @@ const GameProductDetailsHero = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <section className="faq-section one" style={{ backgroundColor: "black" }}>
         <div className="auto-container">
           <div className="row">
@@ -684,7 +787,7 @@ const GameProductDetailsHero = () => {
                           aria-expanded="false"
                           aria-controls="flush-collapseOne"
                         >
-                          Can i have multiple activities in single feature?
+                          What is Realm Wars: Clash of Empires?
                         </button>
                       </h2>
                       <div
@@ -693,15 +796,9 @@ const GameProductDetailsHero = () => {
                         data-bs-parent="#accordionFlushExample"
                       >
                         <div className="accordion-body">
-                          As you may have read in our AI, ML, and deep learning
-                          post, ML is a subset of AI. Not all AI systems learn
-                          from experience but ML-enabled devices do. Very simply
-                          put, all ML systems are AI but not all AI machines are
-                          ML-capable. As you may have read in our AI, ML, and
-                          deep learning post, ML is a subset of AI. Not all AI
-                          systems learn from experience but ML-enabled devices
-                          do. Very simply put, all ML systems are AI but not all
-                          AI machines are ML-capable.
+                          Clash of Empires is a strategic mobile game that
+                          combines city-building, resource management, and
+                          tactical warfare in a vibrant fantasy world.
                         </div>
                       </div>
                     </div>
@@ -715,7 +812,7 @@ const GameProductDetailsHero = () => {
                           aria-expanded="false"
                           aria-controls="flush-collapseTwo"
                         >
-                          What is the difference between Data Analyst?{"{"}" "
+                          Who is Realm Wars: Clash of Empires designed for?
                           {"}"}
                         </button>
                       </h2>
@@ -725,15 +822,10 @@ const GameProductDetailsHero = () => {
                         data-bs-parent="#accordionFlushExample"
                       >
                         <div className="accordion-body">
-                          As you may have read in our AI, ML, and deep learning
-                          post, ML is a subset of AI. Not all AI systems learn
-                          from experience but ML-enabled devices do. Very simply
-                          put, all ML systems are AI but not all AI machines are
-                          ML-capable. As you may have read in our AI, ML, and
-                          deep learning post, ML is a subset of AI. Not all AI
-                          systems learn from experience but ML-enabled devices
-                          do. Very simply put, all ML systems are AI but not all
-                          AI machines are ML-capable.
+                          Clash of Empires is designed for startup entrepreneurs
+                          and businesses in the mobile gaming industry who are
+                          looking for a customizable white-label solution to
+                          launch their own mobile game.
                         </div>
                       </div>
                     </div>
@@ -747,7 +839,8 @@ const GameProductDetailsHero = () => {
                           aria-expanded="false"
                           aria-controls="flush-collapseThree"
                         >
-                          What are 3 good things about artificial intelligence?
+                          What platforms is Realm Wars: Clash of Empires
+                          available on?
                         </button>
                       </h2>
                       <div
@@ -756,15 +849,62 @@ const GameProductDetailsHero = () => {
                         data-bs-parent="#accordionFlushExample"
                       >
                         <div className="accordion-body">
-                          As you may have read in our AI, ML, and deep learning
-                          post, ML is a subset of AI. Not all AI systems learn
-                          from experience but ML-enabled devices do. Very simply
-                          put, all ML systems are AI but not all AI machines are
-                          ML-capable. As you may have read in our AI, ML, and
-                          deep learning post, ML is a subset of AI. Not all AI
-                          systems learn from experience but ML-enabled devices
-                          do. Very simply put, all ML systems are AI but not all
-                          AI machines are ML-capable.
+                          Clash of Empires is available on both iOS and Android
+                          platforms, offering cross-platform compatibility for a
+                          wide range of devices.
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseFour"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseFour"
+                        >
+                          What licensing options are available for Realm Wars:
+                          Clash of Empires?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapseFour"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          We offer flexible licensing options tailored to meet
+                          your specific needs and budget requirements, whether
+                          you're a solo entrepreneur or a budding startup
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseFive"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseFive"
+                        >
+                          How can I customize Realm Wars: Clash of Empires for
+                          my brand?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapseFive"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          With our white-label solution, you can customize and
+                          brand Realm Wars: Clash of Empires as your own unique
+                          product, with full control over branding and
+                          customization options.
                         </div>
                       </div>
                     </div>
