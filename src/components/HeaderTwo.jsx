@@ -21,7 +21,7 @@ const HeaderTwo = () => {
   ];
   const ProductPara = [
     "Experience limitless exploration, creation, and collaboration in a dynamic universe where the possibilities are endless.",
-    "Experience immersive learning guided by human-powered AI simulations, where advanced technology converges to empower education.",
+    "Utilize advanced technology and human guidance to enhance Simulation Training through immersive learning.",
     "Transforming lives with practical skills for real-world success, one lesson at a time.",
     "Transforming blueprints into immersive, photorealistic environments.",
   ]
