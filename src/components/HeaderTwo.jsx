@@ -33,7 +33,7 @@ const HeaderTwo = () => {
   const gameNames2 = [
     "Realm Wars: Clash of Empires",
     "Virtual Vegas",
-    "Battle Royale Games ",
+    "MetaVerse Royale",
     "Meta football",
   ];
   const gamelink = [`/gameproduct-details`, "/metaverse-casino", "", ""]
@@ -41,7 +41,7 @@ const HeaderTwo = () => {
   const gamePara = [
     "Forge your empire, rule the realm with Realm Wars: Clash of Empires.",
     "Forge your empire, rule the realm with Realm Wars: Clash of Empires.",
-    "Forge your empire, rule the realm with Realm Wars: Clash of Empires.",
+    "Gateway to immersive Battle Royale experiences in the Metaverse, offering cutting-edge technology, diverse gameplay options, and endless adventures",
     "Forge your empire, rule the realm with Realm Wars: Clash of Empires."
   ]
 
