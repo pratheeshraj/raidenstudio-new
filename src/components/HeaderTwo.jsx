@@ -40,22 +40,24 @@ const HeaderTwo = () => {
   const gamePara = [
     "Forge your empire, rule the realm with Realm Wars: Clash of Empires.",
     "Forge your empire, rule the realm with Realm Wars: Clash of Empires.",
-    "Gateway to immersive Battle Royale experiences in the Metaverse, offering cutting-edge technology, diverse gameplay options, and endless adventures",
+    "Gateway to immersive Battle Royale experiences in the Metaverse.",
     "Forge your empire, rule the realm with Realm Wars: Clash of Empires."
   ]
 
   // service
 
   // block chain
-  const blockChainTo = ["/nft-development", "", "", "", "/metaverse-development", ""]
+  const blockChainTo = ["", "/nft-development", "", "", "/metaverse-development", "", "", ""]
   const blockchainValues = [0.5, 0.5, 0.5, 0.5, 0.5, 0.5];
   const blockchainnames = [
+    "Custom Blockchain",
     "NFT",
-    "NFT MARKETPLACE",
-    "LAYER1 and Layer 2 Solutions",
-    "DEFI",
+    "Web3",
+    "DeFi",
     "Metaverse",
-    "Blockchain Games",
+    "Blockchain Game",
+    "Layer 1 & Layer 2",
+    "Smart Contract"
   ];
 
   // Ai
