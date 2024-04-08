@@ -29,12 +29,11 @@ const HeaderTwo = () => {
   const productTo = ["/project-details", "/raidensimx", "/raiden-cogni", "/raiden-arcviz"]
 
 
-  const gameValues2 = [0.5, 0.5, 0.5, 0.5];
+  const gameValues2 = [0.5, 0.5, 0.5];
   const gameNames2 = [
     "Realm Wars: Clash of Empires",
     "Virtual Vegas",
     "MetaVerse Royale",
-    "Meta football",
   ];
   const gamelink = [`/gameproduct-details`, "/metaverse-casino", "", ""]
 
