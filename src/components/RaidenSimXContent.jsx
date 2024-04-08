@@ -4,7 +4,7 @@ import ico2 from "../images/raidenSimx/healthcare.svg";
 import bg_image from "../images/raidenSimx/Group 20.png";
 import bg_image1 from "../images/raidenSimx/2150697460-transformed.jpeg";
 import { Link } from "react-router-dom";
-import key from "../images/raidenSimx/immersive (3).svg";
+
 const RaidenSimXContent = () => {
   const [choose, setChoose] = useState(true);
   const [learn, setLearn] = useState(false);
@@ -35,6 +35,7 @@ const RaidenSimXContent = () => {
     setProgress(false);
     setGuidance(false);
   };
+  
   return (
     <>
       <section className="about-section three">
@@ -121,7 +122,7 @@ const RaidenSimXContent = () => {
           <h2 className="auto-container">Key Features</h2>
           <div className="auto-container row key_features_section_container">
             <div className="key_features_card">
-              <img src={key} alt="" />
+              <img src="/assets/img/raidensimx/key features/immersive.svg" alt="" />
               <h6> Immersive Simulations</h6>
               <p>
                 Dive into realistic scenarios crafted to mimic real-world
@@ -130,7 +131,7 @@ const RaidenSimXContent = () => {
               </p>
             </div>
             <div className="key_features_card">
-              <img src={icon} alt="" />
+              <img src="/assets/img/raidensimx/key features/human.svg"  alt="" />
               <h6> Human-Powered AI</h6>
               <p>
                 Our unique blend of human expertise and artificial intelligence
@@ -139,7 +140,7 @@ const RaidenSimXContent = () => {
               </p>
             </div>
             <div className="key_features_card">
-              <img src={icon} alt="" />
+              <img src="/assets/img/raidensimx/key features/interactive.svg" alt="" />
               <h6> Interactive Learning</h6>
               <p>
                 Interact with the environment, make decisions, and witness the
@@ -148,7 +149,7 @@ const RaidenSimXContent = () => {
               </p>
             </div>
             <div className="key_features_card">
-              <img src={icon} alt="" />
+              <img src="/assets/img/raidensimx/key features/feedback.svg" alt="" />
               <h6> Adaptive Feedback</h6>
               <p>
                 Receive immediate feedback and insights to track your progress
@@ -156,7 +157,7 @@ const RaidenSimXContent = () => {
               </p>
             </div>
             <div className="key_features_card">
-              <img src={icon} alt="" />
+              <img src="/assets/img/raidensimx/key features/community.svg" alt="" />
               <h6> Community Engagement</h6>
               <p>
                 Connect with fellow learners, experts, and mentors in our
@@ -165,7 +166,7 @@ const RaidenSimXContent = () => {
               </p>
             </div>
             <div className="key_features_card">
-              <img src={icon} alt="" />
+              <img src="/assets/img/raidensimx/key features/multi.svg" alt="" />
               <h6> Multi-disciplinary Approach</h6>
               <p>
                 Explore a wide range of subjects and industries, from healthcare
@@ -295,7 +296,7 @@ const RaidenSimXContent = () => {
           style={{ backgroundColor: "white" }}
         >
           <h2 className="auto-container">How It Works</h2>
-
+        
           <div className="auto-container row How_it_works_section_container">
             <div className="How_it_works_main">
               <div className="How_it_works_left">
@@ -305,7 +306,7 @@ const RaidenSimXContent = () => {
                     style={{ backgroundColor: choose ? "#00151e" : "" }}
                     onClick={handleChoose}
                   >
-                    <img src={ico2} alt="" />
+                    <img src="/assets/img/raidensimx/sim x - how it works/choose.svg" alt="" />
                     <p style={{ color: choose ? "white" : "" }}>
                       {" "}
                       Choose Your Path
@@ -316,7 +317,7 @@ const RaidenSimXContent = () => {
                     style={{ backgroundColor: learn ? "#00151e" : "" }}
                     onClick={handleLearn}
                   >
-                    <img src={ico2} alt="" />
+                    <img src="/assets/img/raidensimx/sim x - how it works/engage.svg" alt="" />
                     <p style={{ color: learn ? "white" : "" }}>
                       {" "}
                       Engage and Learn
@@ -329,7 +330,7 @@ const RaidenSimXContent = () => {
                     style={{ backgroundColor: progress ? "#00151e" : "" }}
                     onClick={handleProgress}
                   >
-                    <img src={ico2} alt="" />
+                    <img src="/assets/img/raidensimx/sim x - how it works/track.svg" alt="" />
                     <p style={{ color: progress ? "white" : "" }}>
                       Track Your Progress
                     </p>
@@ -339,7 +340,7 @@ const RaidenSimXContent = () => {
                     style={{ backgroundColor: guidance ? "#00151e" : "" }}
                     onClick={handleGuidance}
                   >
-                    <img src={ico2} alt="" />
+                    <img src="/assets/img/raidensimx/sim x - how it works/receive.svg"  alt="" />
                     <p style={{ color: guidance ? "white" : "" }}>
                       {" "}
                       Receive Personalized Guidance
