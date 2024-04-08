@@ -156,7 +156,7 @@
 
 .container-card-casino_choice {
     width: 100%;
-    height: 450px;
+    height: 400px;
     position: relative;
     border: 2px solid transparent;
     background: linear-gradient(71deg, #080509, #1a171c, #080509);
@@ -281,5 +281,29 @@
         margin-top: 50px !important;
         z-index: 9;
         position: relative;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .container-card-casino_choice {
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .container-card-casino_choice {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .container-card-casino_choice {
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .container-card-casino_choice {
+        height: 400px;
     }
 }
