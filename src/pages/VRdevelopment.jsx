@@ -19,6 +19,13 @@ import MetaverseFaq from '../components/MetaverseDevolopment/MetaverseFaq';
 import MetaverseIndustries from '../components/MetaverseDevolopment/MetaverseIndustries';
 import VrHero from '../components/Vrdevelopment/VrHero';
 import VrAbout from '../components/Vrdevelopment/VrAbout';
+import VrCount from '../components/Vrdevelopment/VrCount';
+import Vrsevice from '../components/Vrdevelopment/Vrsevice';
+import Vrfeatures from '../components/Vrdevelopment/Vrfeatures';
+import VrIndustries from '../components/Vrdevelopment/VrIndustries';
+import VrTech from '../components/Vrdevelopment/VrTech';
+import VrWhyChoose from '../components/Vrdevelopment/VrWhyChoose';
+import VrFaq from '../components/Vrdevelopment/VrFaq';
 
 function VRdevelopment() {
     let [active, setActive] = useState(true);
@@ -36,28 +43,28 @@ function VRdevelopment() {
                 <HelmetReact title={"Services Details"} />
                 {/* Header two */}
                 <HeaderTwo />
-                {/* metaverse-hero */}
+                {/* vr-hero */}
                 <VrHero />
-                {/* metaverse-about */}
+                {/* vr-about */}
                 <VrAbout />
-                {/* metaverse-count */}
-                <MetaverseCount />
-                {/* metaverse-service */}
-                <MetaverseService />
+                {/* vr-count */}
+                <VrCount />
+                {/* vr-service */}
+                <Vrsevice />
                 {/* metaverse-banner */}
                 <MetaverseBanner />
                 {/* metaverse-features */}
-                <MetaverseFeature />
+                <Vrfeatures />
                 {/* metaverse-industries */}
-                <MetaverseIndustries />
+                <VrIndustries />
                 {/* metaverse-tech */}
-                <MetaverseTeckstack />
+                <VrTech />
                 {/* metaverse-process */}
-                <MetaverseProcess />
+                {/* <MetaverseProcess /> */}
                 {/* metaverse-whychoose */}
-                <MetaverseWhychoose />
+                <VrWhyChoose />
                 {/* faq */}
-                <MetaverseFaq />
+                <VrFaq />
                 {/* contact */}
                 <ContactSection2 />
                 {/* Footer Section */}
