@@ -10,7 +10,7 @@ import section4 from "../images/gameproduct-detailimg/section4.png";
 import AnimationCardScroll from "./AnimationCardScroll";
 import ScrollAnimation from "react-animate-on-scroll";
 import technical_img from "../images/clashof/2151004297.jpg";
-
+import section2 from "../images/clashof/clash.png"
 const GameProductDetailsHero = () => {
   const heroImageRef = useRef(null);
   const [Compatibility, setCompatibility] = useState(true);
@@ -153,33 +153,33 @@ const GameProductDetailsHero = () => {
   const data = [1, 2, 2, 3, 4, 5];
   const KeyFeatures = [
     {
-      title: "White Label Solution",
+      title: "Guild Halls",
       content:
-        "Utilize our white-label solution to customize and brand Realm Wars: Clash of Empires as your own unique product. With full control over branding and customization options, you can create a compelling gaming experience that reflects your vision and values.",
+        "Build and upgrade guild halls as a focal point for alliance members, providing bonuses, buffs, and special features to enhance collaboration and camaraderie.",
     },
     {
-      title: "	Flexible Licensing Options",
+      title: "Recruit Powerful Heroes",
       content:
-        "Choose from a range of flexible licensing options tailored to meet your specific needs and budget requirements. Whether you're a solo entrepreneur or a budding startup, we offer scalable solutions designed to grow with your business.",
+        "From valiant knights to cunning sorcerers, strategically deploy your heroes to lead your armies into battle and turn the tide of war in your favor.",
     },
     {
-      title: "	Comprehensive Support",
+      title: "Forge Alliances",
       content:
-        "From game development and design to marketing and monetization strategies, our team of experts is here to support you every step of the way. Benefit from personalized guidance, industry insights, and best practices to maximize your success in the competitive mobile gaming market.",
+        "Coordinate attacks, share resources, and strategize together to conquer rival kingdoms and claim ultimate victory.",
     },
     {
-      title: "Access to Resources",
+      title: "Epic Battles",
       content:
-        "Gain access to a wealth of resources, including game assets, source code, documentation, and developer tools, to accelerate your development process and streamline your operations. Leverage our proven framework to build a high-quality game that captivates players and drives revenue",
+        "Command your armies with precision, unleash devastating spells, and watch as your forces clash in glorious combat on the battlefield.",
     },
     {
-      title: "	Community Engagement",
+      title: "Progressive Gameplay",
       content:
-        "Join our thriving community of entrepreneurs, developers, and industry professionals to network, collaborate, and share insights. Exchange ideas, seek advice, and forge valuable partnerships that can help propel your business to new heights.",
+        " Unlock new technologies, upgrade your buildings, and research powerful spells to strengthen your kingdom and gain an edge over your adversaries. ",
     },
     {
-      title: "Easy to use",
-      content: "Easy to use and intuitive",
+      title: "Global Competition",
+      content: "Compete in epic tournaments and global events to prove your dominance and earn prestigious rewards. ",
     },
   ];
   const section5 = [
@@ -263,6 +263,7 @@ const GameProductDetailsHero = () => {
         "Release regular updates and patches to introduce new features, content",
     },
   ];
+  
   return (
     <Fragment>
       <section>
@@ -297,7 +298,7 @@ const GameProductDetailsHero = () => {
                     duration={1.5}
                     className=" left"
                   >
-                    <img src={section2img} alt="" />
+                    <img src={section2} alt="" />
                   </ScrollAnimation>
                   <ScrollAnimation
                     animateIn="fadeInRight"
@@ -324,7 +325,8 @@ const GameProductDetailsHero = () => {
       <section>
         <div className="container-fluid section-3">
           <div className="auto-container game-details-Services">
-            <h2>Our NFT Game Development Services</h2>
+            <h2>Feature Highlights</h2>
+            <p style={{textAlign:"center"}}>Discover the core functionalities and standout attributes that set our game apart from the competition</p>
             <div className="all_card">
               {KeyFeatures.map((KeyFeatures, i) => {
                 return (
@@ -341,7 +343,8 @@ const GameProductDetailsHero = () => {
       <section>
         <div className="container-fluid section_4">
           <div className="auto-container game_features">
-            <h2>Features of NFT Gaming Development</h2>
+            <h2>In-Game Experiences</h2>
+            <p style={{textAlign:"center"}}>Delve into the immersive gameplay elements and interactive features that make our game truly captivating</p>
             <div className="Gamefeature_all_card">
               {data.map(() => {
                 return (
