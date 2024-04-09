@@ -94,7 +94,7 @@ const RaidenArcvizComponent = ({ vidio }) => {
                 </section>
             </section> */}
             {/* Raiden arcviz - cards */}
-            <section className="project-section three Raidenarcviz_card_main_div" style={{ padding: "80px 0" }}>
+            {/* <section className="project-section three Raidenarcviz_card_main_div" style={{ padding: "80px 0" }}>
                 <div className="auto-container">
                     <div className="row Raidenarcviz_card">
                         <h2 className="raidenarcviz_card_h2"><span className="theme-color">Solutions</span></h2>
@@ -131,7 +131,7 @@ const RaidenArcvizComponent = ({ vidio }) => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
             <section className="project-section three">
                 <div className="auto-container">
                     <div className="row">
@@ -142,8 +142,7 @@ const RaidenArcvizComponent = ({ vidio }) => {
                                 data-aos-delay="300"
                             >
                                 <h2 style={{ textAlign: "center", width: "100%" }}>
-                                    How we help industry
-                                    <span className="theme-color"> leaders</span>
+                                    <span className="theme-color"> Solutions</span>
                                 </h2>
                             </div>
                         </div>
