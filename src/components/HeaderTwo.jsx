@@ -35,7 +35,7 @@ const HeaderTwo = () => {
     "Virtual Vegas",
     "MetaVerse Royale",
   ];
-  const gamelink = [`/gameproduct-details`, "/metaverse-casino", "", ""]
+  const gamelink = [`/gameproduct-details`, "/metaverse-casino", "/metaverse-royal", ""]
 
   const gamePara = [
     "Forge your empire, rule the realm with Realm Wars: Clash of Empires.",

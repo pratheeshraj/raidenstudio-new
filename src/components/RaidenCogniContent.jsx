@@ -391,7 +391,7 @@ const RaidenCogniContent = () => {
               ref={sliderRef}
             >
               <div className="new">
-                <img src={ico2} alt="" />
+                <img src={"/assets/img/raidenCogni/cogni  benefits/social.svg"} alt="" />
                 <h6> Enhanced Social Skills</h6>
                 <p>
                   Develop confidence and proficiency in social interactions
@@ -400,7 +400,8 @@ const RaidenCogniContent = () => {
                 </p>
               </div>
               <div className="new">
-                <img src={ico2} alt="" />
+              <img src={"/assets/img/raidenCogni/cogni  benefits/immprovedcommu.svg"} alt="" />
+
                 <h6> Improved Communication</h6>
                 <p>
                   Refine verbal and nonverbal communication skills, including
@@ -408,7 +409,8 @@ const RaidenCogniContent = () => {
                 </p>
               </div>
               <div className="new">
-                <img src={ico2} alt="" />
+              <img src={"/assets/img/raidenCogni/cogni  benefits/reducedanxi.svg"} alt="" />
+
                 <h6> Reduced Anxiety</h6>
                 <p>
                   Alleviate anxiety associated with unfamiliar social situations
@@ -416,7 +418,8 @@ const RaidenCogniContent = () => {
                 </p>
               </div>
               <div className="new">
-                <img src={ico2} alt="" />
+              <img src={"/assets/img/raidenCogni/cogni  benefits/increasedinde.svg"} alt="" />
+
                 <h6> Increased Independence</h6>
                 <p>
                   Build independence by mastering essential life skills, such as
@@ -425,7 +428,8 @@ const RaidenCogniContent = () => {
                 </p>
               </div>{" "}
               <div className="new">
-                <img src={ico2} alt="" />
+              <img src={"/assets/img/raidenCogni/cogni  benefits/empowern.svg"} alt="" />
+
                 <h6> Empowerment</h6>
                 <p>
                   Foster a sense of empowerment and self-efficacy as users gain
