@@ -1,7 +1,14 @@
 import React, { useState } from "react";
 import icon from "../images/raidenverse/game_engine/interactive.svg";
 import ico2 from "../images/raidenSimx/healthcare.svg";
-import bg_image from "../images/raidenSimx/Group 20.png";
+import bg_image from "../images/raidenSimx/w1.jpg";
+import bg_image2 from "../images/raidenSimx/w2.jpg";
+import bg_image3 from "../images/raidenSimx/w3.jpg";
+import bg_image4 from "../images/raidenSimx/w4.jpg";
+import bg_image5 from "../images/raidenSimx/w5.jpg";
+import bg_image6 from "../images/raidenSimx/w6.jpg";
+import bg_image7 from "../images/raidenSimx/w7.jpg";
+import bg_image8 from "../images/raidenSimx/w8.jpg";
 import bg_image1 from "../images/raidenSimx/2150697460-transformed.jpeg";
 import { Link } from "react-router-dom";
 import about from "../images/simx_about.jpg"
@@ -36,7 +43,7 @@ const RaidenSimXContent = () => {
     setProgress(false);
     setGuidance(false);
   };
-  
+
   return (
     <>
       <section className="about-section three">
@@ -132,7 +139,7 @@ const RaidenSimXContent = () => {
               </p>
             </div>
             <div className="key_features_card">
-              <img src="/assets/img/raidensimx/key features/human.svg"  alt="" />
+              <img src="/assets/img/raidensimx/key features/human.svg" alt="" />
               <h6> Human-Powered AI</h6>
               <p>
                 Our unique blend of human expertise and artificial intelligence
@@ -186,42 +193,50 @@ const RaidenSimXContent = () => {
           <h2 className="auto-container">Industry-Wide Use Cases</h2>
           <div className="auto-container row industry_wide_section_container ">
             <div className="industry_wide_card">
+              <div className="classy_simx_bg"></div>
               <img src={bg_image} alt="" />
               <p>Medical simulations for healthcare professionals.</p>
             </div>
             <div className="industry_wide_card">
-              <img src={bg_image} alt="" />
+              <div className="classy_simx_bg"></div>
+              <img src={bg_image2} alt="" />
               <p>Virtual labs for STEM education.</p>
             </div>
             <div className="industry_wide_card">
-              <img src={bg_image} alt="" />
+              <div className="classy_simx_bg"></div>
+              <img src={bg_image3} alt="" />
               <p>Safety training for manufacturing and construction workers.</p>
             </div>
             <div className="industry_wide_card">
-              <img src={bg_image} alt="" />
+              <div className="classy_simx_bg"></div>
+              <img src={bg_image4} alt="" />
               <p>Cybersecurity simulations for IT professionals</p>
             </div>
             <div className="industry_wide_card">
-              <img src={bg_image} alt="" />
+              <div className="classy_simx_bg"></div>
+              <img src={bg_image5} alt="" />
               <p>
                 Financial modeling and risk management simulations for finance
                 professionals.
               </p>
             </div>
             <div className="industry_wide_card">
-              <img src={bg_image} alt="" />
+              <div className="classy_simx_bg"></div>
+              <img src={bg_image6} alt="" />
               <p>
                 Customer service simulations for retail and hospitality staff.
               </p>
             </div>
             <div className="industry_wide_card">
-              <img src={bg_image} alt="" />
+              <div className="classy_simx_bg"></div>
+              <img src={bg_image7} alt="" />
               <p>
                 Supply chain management simulations for logistics professionals.
               </p>
             </div>
             <div className="industry_wide_card">
-              <img src={bg_image} alt="" />
+              <div className="classy_simx_bg"></div>
+              <img src={bg_image8} alt="" />
               <p>Crisis management simulations for emergency responders.</p>
             </div>
           </div>
@@ -297,7 +312,7 @@ const RaidenSimXContent = () => {
           style={{ backgroundColor: "white" }}
         >
           <h2 className="auto-container">How It Works</h2>
-        
+
           <div className="auto-container row How_it_works_section_container">
             <div className="How_it_works_main">
               <div className="How_it_works_left">
@@ -341,7 +356,7 @@ const RaidenSimXContent = () => {
                     style={{ backgroundColor: guidance ? "#00151e" : "" }}
                     onClick={handleGuidance}
                   >
-                    <img src="/assets/img/raidensimx/sim x - how it works/receive.svg"  alt="" />
+                    <img src="/assets/img/raidensimx/sim x - how it works/receive.svg" alt="" />
                     <p style={{ color: guidance ? "white" : "" }}>
                       {" "}
                       Receive Personalized Guidance

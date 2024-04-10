@@ -5,41 +5,50 @@
   position: relative;
   z-index: 9;
   padding: 100px 0;
+
   h2 {
     color: var(--theme-1);
     text-align: center;
     margin-bottom: 50px;
+
     @media #{$md} {
       font-size: 32px;
     }
+
     @media #{$sm,$xs,$xss} {
       font-size: 26px;
     }
   }
+
   .industry_wide_section_container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     row-gap: 30px;
+
     @media #{$lg,} {
       padding: 0 200px;
       justify-content: center;
       gap: 30px;
     }
+
     @media #{$md,} {
       padding: 0 100px;
       justify-content: center;
       gap: 30px;
     }
+
     @media #{$md,} {
       padding: 0 100px;
       justify-content: center;
       gap: 30px;
     }
+
     @media #{$sm,$xs,$xss} {
       justify-content: center;
       gap: 30px;
     }
+
     .industry_wide_card {
       position: relative;
       background-repeat: no-repeat;
@@ -49,13 +58,22 @@
       padding: 10px;
       padding-top: 220px;
       display: flex;
-      z-index: 10;
+      z-index: 20;
       border-radius: 6px;
       align-items: start;
       overflow: hidden;
       justify-content: center;
       @media (max-width: 500px) {
         width: 100%;
+      }
+      .classy_simx_bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        z-index: 11;
       }
       img {
         position: absolute;
@@ -67,12 +85,14 @@
         z-index: 9;
         height: 100%;
         transition: ease-in-out 0.5s;
+
         &:hover {
           scale: 1.1;
         }
       }
+
       p {
-        z-index: 9;
+        z-index: 20;
         font-size: 18px;
         text-align: center;
         margin-bottom: 35px;
@@ -85,25 +105,31 @@
   padding: 100px 0;
   position: relative;
   z-index: 9;
+
   h2 {
     color: var(--theme-1);
     text-align: center;
     margin-bottom: 50px;
+
     @media #{$md} {
       font-size: 32px;
     }
+
     @media #{$sm,$xs,$xss} {
       font-size: 26px;
     }
   }
+
   .key_features_section_container {
     display: flex;
     justify-content: space-between;
     row-gap: 21px;
+
     @media #{$lg,$md,$sm,$xs,$xss} {
       justify-content: center;
       gap: 28px;
     }
+
     .key_features_card {
       width: 349px;
       height: 349px;
@@ -112,14 +138,17 @@
       display: flex;
       flex-direction: column;
       gap: 21px;
+
       @media #{$xss} {
         padding: 30px 20px;
         gap: 15px;
       }
+
       img {
         width: 50px;
         height: 50px;
       }
+
       h6 {
         font-size: 16px;
       }
@@ -131,35 +160,42 @@
   padding: 100px 0;
   position: relative;
   z-index: 9;
+
   h2 {
     margin-bottom: 50px;
     text-align: center;
     color: var(--theme-1);
+
     @media #{$sm,$xs,$xss} {
       font-size: 26px;
     }
   }
+
   .How_it_works_section_container {
     .How_it_works_main {
       width: 100%;
       display: flex;
       justify-content: space-between;
       gap: 30px;
+
       @media #{$sm,$xs,$xss} {
         display: none;
       }
+
       .How_it_works_left {
         width: 50%;
         display: flex;
         gap: 20px;
         flex-direction: column;
         height: 400px;
+
         .card_section1 {
           display: flex;
           width: 100%;
           height: 200px;
           justify-content: space-between;
           gap: 30px;
+
           .How_it_works_card {
             width: 100%;
             height: 100%;
@@ -172,28 +208,34 @@
             pad: 10px;
             border-radius: 6px;
             transition: 0.5s all;
+
             img {
               width: 50px;
             }
+
             p {
               color: black;
               text-align: center;
             }
+
             &:hover p {
               color: white;
               font-weight: 500;
             }
+
             &:hover {
               background-color: #00151e;
             }
           }
         }
+
         .card_section2 {
           display: flex;
           width: 100%;
           justify-content: space-between;
           gap: 30px;
           height: 200px;
+
           .How_it_works_card {
             width: 100%;
             height: 100%;
@@ -205,23 +247,28 @@
             justify-content: center;
             pad: 10px;
             border-radius: 6px;
+
             img {
               width: 50px;
             }
+
             p {
               color: black;
               text-align: center;
               font-weight: 500;
             }
+
             &:hover {
               background-color: #00151e;
             }
+
             &:hover p {
               color: white;
             }
           }
         }
       }
+
       .How_it_works_right {
         width: 50%;
         height: 400px;
@@ -232,9 +279,11 @@
         justify-content: center;
         flex-direction: column;
         gap: 20px;
+
         @media #{$xss} {
           gap: 10px;
         }
+
         .bg_black {
           position: absolute;
           top: 0;
@@ -246,6 +295,7 @@
           background-color: rgba(0, 0, 0, 0.438);
           z-index: 10px;
         }
+
         img {
           position: absolute;
           top: 0;
@@ -255,15 +305,18 @@
           width: 100%;
           height: 100%;
         }
+
         h6 {
           color: white;
           position: relative;
           z-index: 11;
           text-align: center;
+
           @media #{$xss} {
             font-size: 18px;
           }
         }
+
         p {
           color: white;
           position: relative;
@@ -272,13 +325,16 @@
         }
       }
     }
+
     .How_it_works_main_responsive {
       display: flex;
       flex-direction: column;
       gap: 30px;
+
       @media (min-width: 769px) {
         display: none;
       }
+
       .How_it_works_right {
         width: 100%;
         height: 320px;
@@ -289,6 +345,7 @@
         justify-content: center;
         flex-direction: column;
         gap: 20px;
+
         .bg_black {
           position: absolute;
           top: 0;
@@ -300,6 +357,7 @@
           background-color: rgba(0, 0, 0, 0.438);
           z-index: 10px;
         }
+
         img {
           position: absolute;
           top: 0;
@@ -310,12 +368,14 @@
           height: 100%;
           object-fit: cover;
         }
+
         h6 {
           color: white;
           position: relative;
           z-index: 11;
           text-align: center;
         }
+
         p {
           color: white;
           position: relative;
@@ -331,23 +391,28 @@
   position: relative;
   z-index: 9;
   padding: 100px 0;
+
   h2 {
     color: var(--theme-1);
     text-align: center;
     margin-bottom: 50px;
   }
+
   .RaidensimX_benefit_container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
     @media #{$md,$sm,$xs,$xss} {
       justify-content: center;
       row-gap: 30px;
       gap: 30px;
     }
+
     @media #{$md} {
       padding: 0 90px;
     }
+
     .RaidensimX_benefit_card {
       border-radius: 8px;
       padding: 10px;
@@ -356,23 +421,28 @@
       gap: 10px;
       width: 250px;
       box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
       @media #{$lg} {
         width: 220px;
       }
+
       @media #{$xs,$xss} {
         width: 100%;
       }
+
       img {
         border-radius: 8px 8px 0 0;
         height: 190px;
         width: 100%;
         object-fit: cover;
       }
+
       h6 {
         color: black;
         margin: 0;
         font-size: 16px;
       }
+
       p {
         color: black;
         line-height: 20px;
@@ -383,16 +453,20 @@
 
 .RaidensimX_commitment {
   padding: 100px 0;
+
   h2 {
     color: var(--theme-1);
     text-align: center;
     margin-bottom: 10px;
+
     @media #{$xss} {
       font-size: 26px;
     }
   }
+
   position: relative;
   z-index: 9;
+
   .RaidensimX_commitment_container {
     h5 {
       margin-bottom: 50px;
@@ -402,57 +476,67 @@
       text-align: center;
       font-family: "Nunito Sans", sans-serif;
     }
+
     .RaidensimX_commitment_boxs {
-    
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
+
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 20px;
+
+      @media #{$lg } {
+        gap: 10px;
+
+      }
+
+      @media #{$md,$sm} {
         gap: 20px;
-        @media #{$lg }{
-          gap: 10px;
+        justify-content: center;
+        padding: 0 100px;
+      }
+
+      @media #{$xs,$xss} {
+        gap: 0px;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .RaidensimX_commitment_box {
+        width: 242px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        gap: 25px;
+
+        @media #{$lg } {
+          width: 220px;
+          padding: 10px;
 
         }
-        @media #{$md,$sm} {
-          gap: 20px;
-          justify-content: center;
-          padding:0 100px ;
-        }
-        @media #{$xs,$xss} {
-          gap: 0px;
-          flex-direction: column;
-          align-items: center;
-        }
-        .RaidensimX_commitment_box {
-          width: 242px;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          padding: 20px;
-          gap: 25px;
-          @media #{$lg }{
-            width: 220px;
-            padding: 10px;
 
-          }
-          img {
-            width: 50px;
-          }
-          p {
-            text-align: center;
-            color: black;
-          }
+        img {
+          width: 50px;
         }
-        @media #{$md,$sm,$xs,$xss} {
-          gap: 0px;
+
+        p {
+          text-align: center;
+          color: black;
         }
-        @media #{$xs,$xss} {
-          gap: 0px;
-          flex-direction: column;
-          align-items: center;
-        }
-     
-      
+      }
+
+      @media #{$md,$sm,$xs,$xss} {
+        gap: 0px;
+      }
+
+      @media #{$xs,$xss} {
+        gap: 0px;
+        flex-direction: column;
+        align-items: center;
+      }
+
+
     }
   }
 }
