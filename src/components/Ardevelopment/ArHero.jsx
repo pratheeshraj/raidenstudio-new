@@ -6,7 +6,7 @@ import { Navigation, FreeMode, Thumbs, EffectFade } from "swiper";
 import { Link } from "react-router-dom";
 
 
-const MetaverseHero = () => {
+const ArHero = () => {
     return (
         <>
             <section className="hero-slider one"
@@ -30,7 +30,7 @@ const MetaverseHero = () => {
                                     className="slide-bg"
                                     style={{
                                         backgroundImage:
-                                            "url('assets/img/bg-image/mockup.avif')",
+                                            "url('assets/img/bg-image/user-engages-with-futuristic-vr-technology-digital-cyberspace_1151092-683-transformed.jpeg')",
                                         height: "100%"
                                     }}
                                 />
@@ -40,12 +40,13 @@ const MetaverseHero = () => {
                                             <div className="slider-content-inner ">
                                                 <div>
                                                     <h2 className="slider-title">
-                                                        <span className="theme-color"> Metaverse</span><br /> Development Company
+                                                        <h4 className="theme-color">The Most Professional</h4>
+                                                        Augmented Reality <br />( AR )
+                                                        <span className="theme-color"> App Development <br /> Company</span><br />
                                                     </h2>
                                                     <p style={{ width: "500px" }} className="description metaverse_hero_para">
-                                                        With our cutting-edge development services, you can explore the metaverse and enter a world without boundaries. Raiden is a metaverse development company which employs its expertise in the fields of blockchain, augmented reality, virtual reality, and XR to generate innovative metaverse solutions.
-                                                    </p>
-                                                    <div className="inner-btn" >
+                                                        With our cutting-edge Augmented Reality development services, you can propel your business into the future by developing image-driven experiences within realistic environments.
+                                                    </p>                                                    <div className="inner-btn" >
                                                         <div>
                                                             <Link className="default-btn" to="/contact">
                                                                 Explore Now
@@ -66,5 +67,5 @@ const MetaverseHero = () => {
     );
 };
 
-export default MetaverseHero;
+export default ArHero;
 

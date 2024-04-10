@@ -1,8 +1,8 @@
 import React from "react";
-import image1 from "../images/raidenverse/RAIDENVERSEPURCHASE.jpg";
-import image2 from "../images/raidenverse/raideneducational.jpg";
-import image3 from "../images/raidenverse/raidenverseclient.jpg";
-import image4 from "../images/raidenverse/raidenversemedical.jpg";
+import image1 from "../images/raidenverse/Frame8.jpg";
+import image2 from "../images/raidenverse/Frame12.jpg";
+import image3 from "../images/raidenverse/Frame11.jpg";
+import image4 from "../images/raidenverse/Frame10.jpg";
 const ProductDetailCard = () => {
   return (
     <>

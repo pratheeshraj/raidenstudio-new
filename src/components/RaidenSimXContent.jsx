@@ -4,6 +4,7 @@ import ico2 from "../images/raidenSimx/healthcare.svg";
 import bg_image from "../images/raidenSimx/Group 20.png";
 import bg_image1 from "../images/raidenSimx/2150697460-transformed.jpeg";
 import { Link } from "react-router-dom";
+import about from "../images/simx_about.jpg"
 
 const RaidenSimXContent = () => {
   const [choose, setChoose] = useState(true);
@@ -50,7 +51,7 @@ const RaidenSimXContent = () => {
                 <div className="img-file">
                   <img
                     className="img-fluid "
-                    src="/assets/img/about/_e17fb051-856f-4968-a2c0-150430fd0b61 2.png"
+                    src={about}
                     alt=""
                   />
                 </div>

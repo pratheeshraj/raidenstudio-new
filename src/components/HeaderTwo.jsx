@@ -20,8 +20,8 @@ const HeaderTwo = () => {
     "Raiden ARCVIZ"
   ];
   const ProductPara = [
-    "Experience limitless exploration, creation, and collaboration in a dynamic universe where the possibilities are endless.",
-    "Utilize advanced technology and human guidance to enhance Simulation Training through immersive learning.",
+    "Collaboration in a dynamic universe where the possibilities are endless.",
+    "Human guidance to enhance simulation training through immersive learning",
     "Transforming lives with practical skills for real-world success, one lesson at a time.",
     "Transforming blueprints into immersive, photorealistic environments.",
   ]
@@ -71,7 +71,7 @@ const HeaderTwo = () => {
   // xr
 
 
-  const xrlink = ["", "/vr-development", ""]
+  const xrlink = ["/ar-development", "/vr-development", ""]
   const xrValues = [0.5, 0.5, 0.5];
   const xrNames = [
     "AR Services",

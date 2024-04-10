@@ -1,6 +1,6 @@
 import React from "react";
 
-const MetaverseAbout = () => {
+const ArAbout = () => {
     return (
         <>
             {/* Service Details Section Start */}
@@ -25,12 +25,14 @@ const MetaverseAbout = () => {
                         </div>
                         <div className="col-lg-6">
                             <div className="right-wrapper ps-2">
-                                <h2 style={{ color: "black" }} className="title">Engaging 3D Spaces That Dramatically Increase Customer Engagement
+                                <h2 style={{ color: "black" }} className="title">Boost User Experiences and Grow Enterprises with Highly skilled AR Development Company
                                 </h2>
                                 <p style={{ color: "black" }}>
-                                    Make potential customers stay with your Metaverse project by using services from the top Metaverse app development company Raiden, which guarantees immersive and engaging experiences for your users. Leverage the power of the most realistic metaverse development company to provide unforgettable virtual experiences to your users.                                </p>
+                                    Raiden is a prominent customer-focused Augmented Reality development company that assists businesses with immersive modernization journeys. We help businesses implement the Industry 4.0 suite of VR, AR, MR, and DT technologies. We also collaborate with various partners to help the interactive Metaverse reach its maximum potential.
+                                </p>
                                 <p style={{ color: "black" }}>
-                                    Raiden creates and develops metaverse components like 3D virtual spaces, metaverse NFT marketplaces, metaverse applications, and decentralized platforms that are tailored to your specific virtual environment. </p>
+                                    Our team of developers has extensive technical experience in Augmented Reality and understands the needs of both business and customer applications. Our team is focused on providing leading-edge services in the development of augmented reality apps.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -41,4 +43,4 @@ const MetaverseAbout = () => {
     );
 };
 
-export default MetaverseAbout;
+export default ArAbout;

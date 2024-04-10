@@ -184,7 +184,7 @@ const RaidenArcvizComponent = ({ vidio }) => {
 
                                             <div className="link d-inline-block">
                                                 <p>
-                                                    Equipped with state-of-the-art virtual reality (VR) headsets, you can walk through rooms, inspect materials, and experience the scale of your project firsthand. Feel the warmth of natural light streaming through windows, admire the intricacies of interior finishes, and visualize the flow of space in real time.
+                                                    Equipped with state-of-the-art virtual reality (VR) headsets, you can walk through rooms, inspect materials, and experience the scale of your project firsthand. Feel the warmth of natural light streaming through windows, and visualize the flow of space in real time.
                                                 </p>
                                             </div>
                                         </div>
