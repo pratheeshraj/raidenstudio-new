@@ -4,6 +4,10 @@ import "./RaidenArcvizComponent.css"
 import { Swiper } from 'swiper/react';
 import { SwiperSlide } from 'swiper/react';
 import { Link } from 'react-router-dom';
+import image1 from "../images/raidenverse/RAIDENVERSEPURCHASE.jpg";
+import image2 from "../images/raidenverse/raideneducational.jpg";
+import image3 from "../images/raidenverse/raidenverseclient.jpg";
+import image4 from "../images/raidenverse/raidenversemedical.jpg";
 
 const RaidenArcvizComponent = ({ vidio }) => {
     return (
@@ -90,7 +94,7 @@ const RaidenArcvizComponent = ({ vidio }) => {
                 </section>
             </section> */}
             {/* Raiden arcviz - cards */}
-            <section className="project-section three Raidenarcviz_card_main_div" style={{ padding: "80px 0" }}>
+            {/* <section className="project-section three Raidenarcviz_card_main_div" style={{ padding: "80px 0" }}>
                 <div className="auto-container">
                     <div className="row Raidenarcviz_card">
                         <h2 className="raidenarcviz_card_h2"><span className="theme-color">Solutions</span></h2>
@@ -123,6 +127,114 @@ const RaidenArcvizComponent = ({ vidio }) => {
                                 <div>Unleash the Power of Innovation</div>
                                 <p>
                                     Deliver groundbreaking solutions that empower architects, designers, and developers to realize their creative visions. From augmented reality (AR) experiences to interactive walkthroughs, we offer a diverse range of tools and services tailored to your needs.                                     </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> */}
+            <section className="project-section three">
+                <div className="auto-container">
+                    <div className="row">
+                        <div className="">
+                            <div
+                                className="section-title-shape-one left black "
+                                data-aos="fade-right"
+                                data-aos-delay="300"
+                            >
+                                <h2 style={{ textAlign: "center", width: "100%" }}>
+                                    <span className="theme-color"> Solutions</span>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-lg-6">
+                            <div
+                                className="project-wrapper "
+                                data-aos="fade-up"
+                                data-aos-delay="300"
+                            >
+                                <div className="img-file por">
+                                    <img className="img-fluid" style={{ height: "362px" }} src={image1} alt="" />
+                                    <div className="shape-overlay poa">
+                                        <div className="inner Industry2">
+                                            <h2>Discover Your Vision Come to Life</h2>
+
+                                            <div className="link d-inline-block">
+                                                <p>
+                                                    Our team brings every architectural vision to life with stunning accuracy. With our cutting-edge technology and meticulous attention to detail, you can explore your project before it's built, gaining invaluable insights and ensuring every aspect meets your expectations.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-6">
+                            <div
+                                className="project-wrapper "
+                                data-aos="fade-up"
+                                data-aos-delay="300"
+                            >
+                                <div className="img-file por">
+                                    <img className="img-fluid" style={{ height: "362px" }} src={image2} alt="" />
+                                    <div className="shape-overlay poa">
+                                        <div className="inner Industry2">
+                                            <h2>Immersive Experiences, Unmatched Realism</h2>
+
+                                            <div className="link d-inline-block">
+                                                <p>
+                                                    Equipped with state-of-the-art virtual reality (VR) headsets, you can walk through rooms, inspect materials, and experience the scale of your project firsthand. Feel the warmth of natural light streaming through windows, and visualize the flow of space in real time.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-6">
+                            <div
+                                className="project-wrapper "
+                                data-aos="fade-up"
+                                data-aos-delay="300"
+                            >
+                                <div className="img-file por">
+                                    <img className="img-fluid" src={image4} style={{ height: "362px" }} alt="" />
+                                    <div className="shape-overlay poa">
+                                        <div className="inner Industry2">
+                                            <h2>Seamless Collaboration, Enhanced Communication</h2>
+
+                                            <div className="link d-inline-block">
+                                                <p>
+                                                    Whether you're an architect, designer, developer, or client, our immersive visualizations facilitate clearer communication, foster better understanding, and streamline decision-making processes. Break down barriers, bridge the gap between imagination and reality.
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-6">
+                            <div
+                                className="project-wrapper "
+                                data-aos="fade-up"
+                                data-aos-delay="300"
+                            >
+                                <div className="img-file por">
+                                    <img className="img-fluid" src={image3} style={{ height: "362px" }} alt="" />
+                                    <div className="shape-overlay poa">
+                                        <div className="inner Industry2">
+                                            <h2>Unleash the Power of Innovation</h2>
+
+                                            <div className="link d-inline-block">
+                                                <p>
+                                                    Deliver groundbreaking solutions that empower architects, designers, and developers to realize their creative visions. From augmented reality (AR) experiences to interactive walkthroughs, we offer a diverse range of tools and services tailored to your needs.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

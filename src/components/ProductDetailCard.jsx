@@ -1,8 +1,8 @@
 import React from "react";
-import image1 from "../images/raidenverse/RAIDENVERSEPURCHASE.jpg";
-import image2 from "../images/raidenverse/raideneducational.jpg";
-import image3 from "../images/raidenverse/raidenverseclient.jpg";
-import image4 from "../images/raidenverse/raidenversemedical.jpg";
+import image1 from "../images/raidenverse/Frame8.jpg";
+import image2 from "../images/raidenverse/Frame12.jpg";
+import image3 from "../images/raidenverse/Frame11.jpg";
+import image4 from "../images/raidenverse/Frame10.jpg";
 const ProductDetailCard = () => {
   return (
     <>
@@ -18,7 +18,7 @@ const ProductDetailCard = () => {
                 data-aos-delay="300"
               >
                 <h2 style={{ textAlign: "center", width: "100%" }}>
-                  How we help industry leaders
+                  How we help industry
                   <span className="theme-color"> leaders</span>
                 </h2>
               </div>
@@ -32,7 +32,7 @@ const ProductDetailCard = () => {
                 data-aos-delay="300"
               >
                 <div className="img-file por">
-                  <img className="img-fluid" src={image1} alt="" />
+                  <img className="img-fluid" style={{ height: "362px" }} src={image1} alt="" />
                   <div className="shape-overlay poa">
                     <div className="inner Industry">
                       <h2>Retail Revolution</h2>
@@ -56,7 +56,7 @@ const ProductDetailCard = () => {
                 data-aos-delay="300"
               >
                 <div className="img-file por">
-                  <img className="img-fluid" src={image2} alt="" />
+                  <img className="img-fluid" style={{ height: "362px" }} src={image2} alt="" />
                   <div className="shape-overlay poa">
                     <div className="inner Industry">
                       <h2>Educational Empowerment</h2>
@@ -81,7 +81,7 @@ const ProductDetailCard = () => {
                 data-aos-delay="300"
               >
                 <div className="img-file por">
-                  <img className="img-fluid" src={image4} alt="" />
+                  <img className="img-fluid" src={image4} style={{ height: "362px" }} alt="" />
                   <div className="shape-overlay poa">
                     <div className="inner Industry">
                       <h2>Healthcare Revolution</h2>
@@ -105,7 +105,7 @@ const ProductDetailCard = () => {
                 data-aos-delay="300"
               >
                 <div className="img-file por">
-                  <img className="img-fluid" src={image3} alt="" />
+                  <img className="img-fluid" src={image3} style={{ height: "362px" }} alt="" />
                   <div className="shape-overlay poa">
                     <div className="inner Industry">
                       <h2>Corporate Collaboration</h2>

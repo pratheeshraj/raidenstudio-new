@@ -445,6 +445,17 @@
 
           }
           }
+          .Industry2{
+            transform: translateY(150px);
+            @media #{ $md,$sm} {
+              transform: translateY(54px);
+  
+            }
+            @media #{ $xss} {
+              transform: translateY(130px);
+  
+            }
+            }
         .default-btn {
           margin-top: 20px;
         }

@@ -32,7 +32,7 @@ const NftHero = () => {
   return (
     <>
       {/* slider-area-one-start  */}
-      <section className="hero-slider one" style={{ height: "100vh" }}>
+      <section className="hero-slider one" style={{ height: "90vh" }}>
         <div className="swiper hero-slider-init-one swiper-container swiper-container-fade">
           <Swiper
             loop={false}
