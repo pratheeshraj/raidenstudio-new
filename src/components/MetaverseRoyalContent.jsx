@@ -1,6 +1,37 @@
-import React from "react";
+import React, { useState } from "react";
 
 const MetaverseRoyalContent = () => {
+  const [advanced, setAdvanced] = useState(true);
+  const [enhancements, setEnhancements] = useState(false);
+  const [measures, setMeasures] = useState(false);
+  const [business, setBusiness] = useState(false);
+
+  const handleAdvanced = () => {
+    setAdvanced(true);
+    setEnhancements(false);
+    setMeasures(false);
+    setBusiness(false);
+  };
+
+  const handleEnhancements = () => {
+    setAdvanced(false);
+    setEnhancements(true);
+    setMeasures(false);
+    setBusiness(false);
+  };
+
+  const handleMeasures = () => {
+    setAdvanced(false);
+    setEnhancements(false);
+    setMeasures(true);
+    setBusiness(false);
+  };
+  const handleBusiness = () => {
+    setAdvanced(false);
+    setEnhancements(false);
+    setMeasures(false);
+    setBusiness(true);
+  };
   return (
     <>
       <section>
@@ -206,10 +237,10 @@ const MetaverseRoyalContent = () => {
       </section>
       <section>
         <div className="container-fluid Royal_section5">
-          <h2>
+          <h2 className="auto-container">
             Choices of <span>Games</span>
           </h2>
-          <p>
+          <p className="auto-container">
             Diverse game selection awaits, catering to every gaming preference
             and offering endless adventures in the Metaverse
           </p>
@@ -568,15 +599,131 @@ const MetaverseRoyalContent = () => {
       </section>
       <section>
         <div className="container-fluid Royal_section8">
-          <h2>
+          <h2 className="auto-container">
             Why <span>us</span>
           </h2>
-          <p>
+          <p className="auto-container">
             Discover the MetaVerse Royale advantage, offering innovative
             solutions, robust support, and unmatched gaming experiences
           </p>
           <div className="auto-container section8_container">
-            {/* <div className="section8_card_container1">
+            <div className="section8_left">
+              <p
+                className={advanced ? "section8_card_border" : ""}
+                onClick={handleAdvanced}
+              >
+                Advanced Immersion
+              </p>
+              <p
+                className={enhancements ? "section8_card_border" : ""}
+                onClick={handleEnhancements}
+              >
+                UI & UX Enhancements
+              </p>
+              <p
+                className={measures ? "section8_card_border" : ""}
+                onClick={handleMeasures}
+              >
+                Security Measures
+              </p>
+              <p
+                className={business ? "section8_card_border" : ""}
+                onClick={handleBusiness}
+              >
+                Business Aspects
+              </p>
+            </div>
+            {advanced ? (
+              <div className="section8_card_container1">
+                <div className="card8">
+                  <div className="bg">
+                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                  </div>
+                  <p> High-Performance Game Engine Optimization</p>
+                </div>
+                <div className="card8">
+                  <div className="bg">
+                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                  </div>
+                  <p> Realistic Physics and Environmental Effects</p>
+                </div>
+                <div className="card8">
+                  <div className="bg">
+                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                  </div>
+                  <p> Scalable Backend Infrastructure</p>
+                </div>
+              </div>
+            ) : enhancements ? (
+              <div className="section8_card_container1">
+                <div className="card8">
+                  <div className="bg">
+                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                  </div>
+                  <p> Intuitive User Interface Design</p>
+                </div>
+                <div className="card8">
+                  <div className="bg">
+                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                  </div>
+                  <p> Personalized Player Experiences</p>
+                </div>
+                <div className="card8">
+                  <div className="bg">
+                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                  </div>
+                  <p> Immersive User Experience</p>
+                </div>
+              </div>
+            ) : measures ? (
+              <div className="section8_card_container1">
+                <div className="card8">
+                  <div className="bg">
+                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                  </div>
+                  <p> Blockchain-Powered Asset Security</p>
+                </div>
+                <div className="card8">
+                  <div className="bg">
+                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                  </div>
+                  <p> End-to-End Encryption</p>
+                </div>
+                <div className="card8">
+                  <div className="bg">
+                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                  </div>
+                  <p> Multi-Factor Authentication (MFA)</p>
+                </div>
+              </div>
+            ) : business ? (
+              <div className="section8_card_container1">
+                <div className="card8">
+                  <div className="bg">
+                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                  </div>
+                  <p> Monetization Strategies</p>
+                </div>
+                <div className="card8">
+                  <div className="bg">
+                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                  </div>
+                  <p> Licensing and White Label Solutions</p>
+                </div>
+                <div className="card8">
+                  <div className="bg">
+                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                  </div>
+                  <p> Data Analytics and Insights</p>
+                </div>
+              </div>
+            ) : (
+              ""
+            )}
+          </div>
+          <div className="auto-container section8_responsive">
+            <p className="heading">Advanced Immersion</p>
+            <div className="section8_card_container1">
               <div className="card8">
                 <div className="bg">
                   <img src="/assets/img/whychooseusnft/client.svg" alt="" />
@@ -595,11 +742,283 @@ const MetaverseRoyalContent = () => {
                 </div>
                 <p> Scalable Backend Infrastructure</p>
               </div>
-            </div> */}
-            <div className="section8_left">
-
             </div>
-
+            <p className="heading">UI & UX Enhancements</p>
+            <div className="section8_card_container1">
+              <div className="card8">
+                <div className="bg">
+                  <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                </div>
+                <p> Intuitive User Interface Design</p>
+              </div>
+              <div className="card8">
+                <div className="bg">
+                  <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                </div>
+                <p> Personalized Player Experiences</p>
+              </div>
+              <div className="card8">
+                <div className="bg">
+                  <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                </div>
+                <p> Immersive User Experience</p>
+              </div>
+            </div>
+            <p className="heading">Security Measures</p>
+            <div className="section8_card_container1">
+              <div className="card8">
+                <div className="bg">
+                  <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                </div>
+                <p> Blockchain-Powered Asset Security</p>
+              </div>
+              <div className="card8">
+                <div className="bg">
+                  <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                </div>
+                <p> End-to-End Encryption</p>
+              </div>
+              <div className="card8">
+                <div className="bg">
+                  <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                </div>
+                <p> Multi-Factor Authentication (MFA)</p>
+              </div>
+            </div>
+            <p className="heading">Business Aspects</p>
+            <div className="section8_card_container1">
+              <div className="card8">
+                <div className="bg">
+                  <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                </div>
+                <p> Monetization Strategies</p>
+              </div>
+              <div className="card8">
+                <div className="bg">
+                  <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                </div>
+                <p> Licensing and White Label Solutions</p>
+              </div>
+              <div className="card8">
+                <div className="bg">
+                  <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                </div>
+                <p> Data Analytics and Insights</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="faq-section one" style={{ backgroundColor: "#24292d" }}>
+        <div className="auto-container">
+          <div className="row">
+            <div className="col-lg-6 pe-4">
+              <div
+                className="section-title-shape-one left "
+                data-aos="fade-right"
+                data-aos-delay="300"
+              >
+                <h3>FAQ For MetaVerse Royale</h3>
+            
+                <p style={{marginBottom:"20px"}}>
+                Get answers to common queries, ensuring clarity and confidence in your MetaVerse Royale experience
+                </p>
+              </div>
+              <div
+                className="img-file "
+                data-aos="fade-right"
+                data-aos-delay="500"
+              >
+                <img
+                  className="img-fluid"
+                  src="/assets/img/service/02_service.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div
+                className="faq-inner "
+                data-aos="fade-left"
+                data-aos-delay="300"
+                style={{ marginTop:"15px" }}
+              >
+                <div className="icon-shape">
+                  <img
+                    className="img-fluid"
+                    src="/assets/img/icon/23_icon.png"
+                    alt=""
+                  />
+                </div>
+                <div className="intro">
+                  <h3>Common Question &amp; Answer</h3>
+                </div>
+                <div className="faq-list">
+                  <div
+                    className="accordion accordion-flush"
+                    id="accordionFlushExample"
+                  >
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseOne"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseOne"
+                        >
+                          What is MetaVerse Royale?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapseOne"
+                        className="accordion-collapse collapse show"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          MetaVerse Royale is a cutting-edge white label
+                          solution for immersive Battle Royale experiences set
+                          in the Metaverse. It offers a platform for game
+                          developers to create customizable multiplayer games
+                          with advanced features and dynamic environments.
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseTwo"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseTwo"
+                        >
+                          What platforms is MetaVerse Royale available on?
+                          {"}"}
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapseTwo"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          MetaVerse Royale is compatible with PC, web, and
+                          mobile devices, providing cross-platform support for
+                          seamless multiplayer experiences.
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseThree"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseThree"
+                        >
+                          Can I customize my gameplay experience in MetaVerse
+                          Royale?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapseThree"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          Yes, MetaVerse Royale offers extensive customization
+                          options, including character creation, weapon
+                          loadouts, and gameplay modes, allowing players to
+                          tailor their experience to their preferences.
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseFour"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseFour"
+                        >
+                          Are there different themes and environments available
+                          in MetaVerse Royale?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapseFour"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                           Yes, MetaVerse Royale offers diverse themes and
+                          environments, including futuristic cityscapes, ancient
+                          ruins, post-apocalyptic wastelands, and virtual
+                          reality arenas, each with its own unique challenges
+                          and gameplay dynamics.
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseFive"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseFive"
+                        >
+                          Can I play with friends in MetaVerse Royale?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapseFive"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                           Absolutely! MetaVerse Royale supports team-based
+                          modes, allowing players to collaborate with friends or
+                          join forces with other players in squad or duo matches
+                          to outlast rival teams and claim victory.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="shape-image">
+          <div className="shape-img-2 poa">
+            <img src="/assets/img/icon/64_icon.png" alt="" />
+          </div>
+          <div className="shape-img-3 poa">
+            <img src="/assets/img/icon/22_icon.png" alt="" />
+          </div>
+          <div className="shape-img-4 poa">
+            <img src="/assets/img/icon/08_icon.png" alt="" />
+          </div>
+          <div className="shape-img-5 poa">
+            <img src="/assets/img/icon/26_icon.png" alt="" />
+          </div>
+          <div className="shape-img-6 poa">
+            <img src="/assets/img/icon/43_icon.png" alt="" />
+          </div>
+          <div className="shape-img-7 poa">
+            <img src="/assets/img/icon/68_icon.png" alt="" />
+          </div>
+          <div className="shape-img-8 poa">
+            <img src="/assets/img/icon/71_icon.png" alt="" />
           </div>
         </div>
       </section>
