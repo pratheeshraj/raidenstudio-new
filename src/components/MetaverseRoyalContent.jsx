@@ -37,7 +37,7 @@ const MetaverseRoyalContent = () => {
       <section>
         <div className="container-fluid metaverseroyal_hero">
           <div className="auto-container metaverseroyal_hero_container">
-            <div className="left">
+            <div className="left" data-aos="fade-right" data-aos-delay="300">
               <h2>
                 MetaVerse <span>Royale</span>
               </h2>
@@ -47,7 +47,7 @@ const MetaverseRoyalContent = () => {
                 game-changer for developers and gamers alike.
               </p>
             </div>
-            <div className="right">
+            <div className="right" data-aos="fade-left" data-aos-delay="300">
               <img src="\assets\img\MeatverseRoyal\hero.png" alt="" />
             </div>
           </div>
@@ -59,13 +59,13 @@ const MetaverseRoyalContent = () => {
             Technical <span>Specifications</span>
           </h2>
           <div className="auto-container section2_container">
-            <div className="left">
+            <div className="left" data-aos="fade-right" data-aos-delay="300">
               <img
                 src="\assets\img\MeatverseRoyal\section-2.png"
                 alt="Specifications"
               />
             </div>
-            <div className="right">
+            <div className="right" data-aos="fade-left" data-aos-delay="300">
               <p>
                 Cutting-edge tech specs ensure seamless performance across
                 platforms, maximizing your gaming experience
@@ -110,7 +110,7 @@ const MetaverseRoyalContent = () => {
             Game <span>Engine</span>
           </h2>
           <div className="auto-container section3_container">
-            <div className="right">
+            <div className="right" data-aos="fade-right" data-aos-delay="300">
               <p>
                 Harness the power of advanced game engines like Unreal Engine 5
                 and Unity, delivering stunning graphics and dynamic gameplay for
@@ -145,7 +145,7 @@ const MetaverseRoyalContent = () => {
                 </li>
               </ul>
             </div>
-            <div className="left">
+            <div className="left" data-aos="fade-left" data-aos-delay="300">
               <img
                 src="\assets\img\MeatverseRoyal\section-2.png"
                 alt="Specifications"
@@ -163,7 +163,8 @@ const MetaverseRoyalContent = () => {
             Explore immersive worlds ranging from futuristic cityscapes to
             ancient ruins, offering diverse and captivating environments.
           </p>
-          <div className="auto-container section4_container">
+          <div className="auto-container section4_container"     data-aos="fade-right"
+                data-aos-delay="300">
             <div className="card_section1">
               <div className="royal_cards">
                 <img
@@ -244,7 +245,8 @@ const MetaverseRoyalContent = () => {
             Diverse game selection awaits, catering to every gaming preference
             and offering endless adventures in the Metaverse
           </p>
-          <div className="auto-container section5_container">
+          <div className="auto-container section5_container"  data-aos="fade-left"
+                data-aos-delay="300">
             <div className="card1">
               <div className="section5_card">
                 <img
@@ -607,7 +609,8 @@ const MetaverseRoyalContent = () => {
             solutions, robust support, and unmatched gaming experiences
           </p>
           <div className="auto-container section8_container">
-            <div className="section8_left">
+            <div className="section8_left"  data-aos="fade-right"
+                data-aos-delay="300">
               <p
                 className={advanced ? "section8_card_border" : ""}
                 onClick={handleAdvanced}
@@ -634,7 +637,8 @@ const MetaverseRoyalContent = () => {
               </p>
             </div>
             {advanced ? (
-              <div className="section8_card_container1">
+              <div className="section8_card_container1"  data-aos="fade-left"
+              data-aos-delay="300">
                 <div className="card8">
                   <div className="bg">
                     <img src="/assets/img/whychooseusnft/client.svg" alt="" />
@@ -655,7 +659,8 @@ const MetaverseRoyalContent = () => {
                 </div>
               </div>
             ) : enhancements ? (
-              <div className="section8_card_container1">
+              <div className="section8_card_container1" data-aos="fade-left"
+              data-aos-delay="300">
                 <div className="card8">
                   <div className="bg">
                     <img src="/assets/img/whychooseusnft/client.svg" alt="" />
@@ -676,7 +681,8 @@ const MetaverseRoyalContent = () => {
                 </div>
               </div>
             ) : measures ? (
-              <div className="section8_card_container1">
+              <div className="section8_card_container1" data-aos="fade-left"
+              data-aos-delay="300">
                 <div className="card8">
                   <div className="bg">
                     <img src="/assets/img/whychooseusnft/client.svg" alt="" />
@@ -697,7 +703,8 @@ const MetaverseRoyalContent = () => {
                 </div>
               </div>
             ) : business ? (
-              <div className="section8_card_container1">
+              <div className="section8_card_container1" data-aos="fade-left"
+              data-aos-delay="300">
                 <div className="card8">
                   <div className="bg">
                     <img src="/assets/img/whychooseusnft/client.svg" alt="" />
@@ -809,7 +816,10 @@ const MetaverseRoyalContent = () => {
           </div>
         </div>
       </section>
-      <section className="faq-section one" style={{ backgroundColor: "#24292d" }}>
+      <section
+        className="faq-section one"
+        style={{ backgroundColor: "#24292d" }}
+      >
         <div className="auto-container">
           <div className="row">
             <div className="col-lg-6 pe-4">
@@ -819,9 +829,10 @@ const MetaverseRoyalContent = () => {
                 data-aos-delay="300"
               >
                 <h3>FAQ For MetaVerse Royale</h3>
-            
-                <p style={{marginBottom:"20px"}}>
-                Get answers to common queries, ensuring clarity and confidence in your MetaVerse Royale experience
+
+                <p style={{ marginBottom: "20px" }}>
+                  Get answers to common queries, ensuring clarity and confidence
+                  in your MetaVerse Royale experience
                 </p>
               </div>
               <div
@@ -841,7 +852,7 @@ const MetaverseRoyalContent = () => {
                 className="faq-inner "
                 data-aos="fade-left"
                 data-aos-delay="300"
-                style={{ marginTop:"15px" }}
+                style={{ marginTop: "15px" }}
               >
                 <div className="icon-shape">
                   <img
@@ -958,7 +969,7 @@ const MetaverseRoyalContent = () => {
                         data-bs-parent="#accordionFlushExample"
                       >
                         <div className="accordion-body">
-                           Yes, MetaVerse Royale offers diverse themes and
+                          Yes, MetaVerse Royale offers diverse themes and
                           environments, including futuristic cityscapes, ancient
                           ruins, post-apocalyptic wastelands, and virtual
                           reality arenas, each with its own unique challenges
@@ -985,7 +996,7 @@ const MetaverseRoyalContent = () => {
                         data-bs-parent="#accordionFlushExample"
                       >
                         <div className="accordion-body">
-                           Absolutely! MetaVerse Royale supports team-based
+                          Absolutely! MetaVerse Royale supports team-based
                           modes, allowing players to collaborate with friends or
                           join forces with other players in squad or duo matches
                           to outlast rival teams and claim victory.
