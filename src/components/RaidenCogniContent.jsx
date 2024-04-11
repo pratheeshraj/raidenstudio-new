@@ -518,7 +518,7 @@ const RaidenCogniContent = () => {
           <div className="cogni_card_container">
             <div className="cogni_card">
               <div>
-                <img src={icon} alt="" />
+                <img src={"/assets/img/raidenCogni/cogni lesson for (1)/joint.svg"} alt="" />
               </div>
               <h6>Joint Attention</h6>
               <p>
@@ -530,7 +530,7 @@ const RaidenCogniContent = () => {
             </div>
             <div className="cogni_card">
               <div>
-                <img src={icon} alt="" />
+                <img src="\assets\img\raidenCogni\cogni lesson for (1)\imitation.svg" alt="" />
               </div>
               <h6>Imitation</h6>
               <p>
@@ -542,7 +542,7 @@ const RaidenCogniContent = () => {
             </div>
             <div className="cogni_card">
               <div>
-                <img src={icon} alt="" />
+                <img src="\assets\img\raidenCogni\cogni lesson for (1)\gesture.svg" alt="" />
               </div>
               <h6>Gestures</h6>
               <p>
@@ -554,7 +554,7 @@ const RaidenCogniContent = () => {
             </div>
             <div className="cogni_card">
               <div>
-                <img src={icon} alt="" />
+                <img src="\assets\img\raidenCogni\cogni lesson for (1)\street.svg" alt="" />
               </div>
               <h6>Street Crossing</h6>
               <p>
@@ -566,7 +566,7 @@ const RaidenCogniContent = () => {
             </div>
             <div className="cogni_card">
               <div>
-                <img src={icon} alt="" />
+                <img src="\assets\img\raidenCogni\cogni lesson for (1)\noun-hallway-3310023.svg" alt="" />
               </div>
               <h6>School Hallway</h6>
               <p>
@@ -578,7 +578,7 @@ const RaidenCogniContent = () => {
             </div>
             <div className="cogni_card">
               <div>
-                <img src={icon} alt="" />
+                <img src="\assets\img\raidenCogni\cogni lesson for (1)\hallwaysmall.svg" alt="" />
               </div>
               <h6>Hallway Small Talk</h6>
               <p>
@@ -590,7 +590,7 @@ const RaidenCogniContent = () => {
             </div>
             <div className="cogni_card">
               <div>
-                <img src={icon} alt="" />
+                <img src="\assets\img\raidenCogni\cogni lesson for (1)\cafeteria.svg" alt="" />
               </div>
               <h6>Cafeteria Social Skills</h6>
               <p>
@@ -601,7 +601,7 @@ const RaidenCogniContent = () => {
             </div>
             <div className="cogni_card">
               <div>
-                <img src={icon} alt="" />
+                <img src="\assets\img\raidenCogni\cogni lesson for (1)\mindful.svg" alt="" />
               </div>
               <h6>Mindful Thinking</h6>
               <p>
@@ -613,7 +613,7 @@ const RaidenCogniContent = () => {
             </div>
             <div className="cogni_card">
               <div>
-                <img src={icon} alt="" />
+                <img src="\assets\img\raidenCogni\cogni lesson for (1)\classrroom.svg" alt="" />
               </div>
               <h6>Classroom Social Skills</h6>
               <p>
