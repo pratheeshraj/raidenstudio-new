@@ -45,6 +45,7 @@ import VRdevelopment from "./pages/VRdevelopment";
 import MetaverseRoyal from "./pages/MetaverseRoyal";
 
 import ARdevelopment from "./pages/ARdevelopment";
+import MobileGame from "./pages/MobileGame";
 
 
 
@@ -98,6 +99,7 @@ function App() {
         <Route exact path="/metaverse-royal" element={<MetaverseRoyal />} />
 
         <Route exact path="/ar-development" element={<ARdevelopment />} />
+        <Route exact path="/mobile-game-development" element={<MobileGame/>} />
 
 
 
