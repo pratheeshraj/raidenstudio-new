@@ -55,8 +55,11 @@
     .new {
       img {
         width: 70px;
+        height: 70px;
         @media #{  $xss} {
           width: 50px;
+        height: 50px;
+
         }
       }
       display: flex !important;

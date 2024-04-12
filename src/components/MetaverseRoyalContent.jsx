@@ -1,11 +1,25 @@
 import React, { useState } from "react";
-
+import ScrollAnimation from "react-animate-on-scroll";
+import multiPlayer_icon1 from "../images/raidenverse/multiplayer_integ/cross platform.svg";
+import multiPlayer_icon2 from "../images/raidenverse/multiplayer_integ/custom netcode.svg";
+import multiPlayer_icon3 from "../images/raidenverse/multiplayer_integ/network optimization.svg";
+import multiPlayer_icon4 from "../images/raidenverse/multiplayer_integ/unreal and unity.svg";
+import streaming_icon1 from "../images/raidenverse/streaming/content protection.svg";
+import streaming_icon2 from "../images/raidenverse/streaming/intractive streaming.svg";
+import streaming_icon3 from "../images/raidenverse/streaming/performance optimization.svg";
+import streaming_icon4 from "../images/raidenverse/streaming/video streaming.svg";
+import gameengine_icon1 from "../images/raidenverse/game_engine/cross platform.svg";
+import gameengine_icon2 from "../images/raidenverse/game_engine/interactive.svg";
+import gameengine_icon3 from "../images/raidenverse/game_engine/unity.svg";
+import gameengine_icon4 from "../images/raidenverse/game_engine/unreal.svg";
 const MetaverseRoyalContent = () => {
   const [advanced, setAdvanced] = useState(true);
   const [enhancements, setEnhancements] = useState(false);
   const [measures, setMeasures] = useState(false);
   const [business, setBusiness] = useState(false);
-
+  const [multiplayer, setMultiplayer] = useState(true);
+  const [streaming, setStreaming] = useState(false);
+  const [game, setGame] = useState(false);
   const handleAdvanced = () => {
     setAdvanced(true);
     setEnhancements(false);
@@ -32,6 +46,24 @@ const MetaverseRoyalContent = () => {
     setMeasures(false);
     setBusiness(true);
   };
+
+  const handleMultiplayer = () => {
+    setMultiplayer(true);
+    setStreaming(false);
+    setGame(false);
+  };
+
+  const handeStream = () => {
+    setMultiplayer(false);
+    setStreaming(true);
+    setGame(false);
+  };
+
+  const handleGame = () => {
+    setMultiplayer(false);
+    setStreaming(false);
+    setGame(true);
+  };
   return (
     <>
       <section>
@@ -53,104 +85,375 @@ const MetaverseRoyalContent = () => {
           </div>
         </div>
       </section>
-      <section>
-        <div className="container-fluid Royal_section2">
-          <h2>
-            Technical <span>Specifications</span>
-          </h2>
-          <div className="auto-container section2_container">
-            <div className="left" data-aos="fade-right" data-aos-delay="300">
-              <img
-                src="\assets\img\MeatverseRoyal\section-2.png"
-                alt="Specifications"
-              />
-            </div>
-            <div className="right" data-aos="fade-left" data-aos-delay="300">
-              <p>
-                Cutting-edge tech specs ensure seamless performance across
-                platforms, maximizing your gaming experience
+      <section
+        className="service-details-section"
+        style={{ backgroundColor: "#f8f9fa" }}
+      >
+        <h2>
+          Empowering Metaverse Royale: Advanced Cutting Edge <br />{" "}
+          <span style={{ color: "#efc060" }}>Technology </span>,
+          <span style={{ color: "#efc060" }}> Streaming</span>, and <br />
+          <span style={{ color: "#efc060" }}>
+            {" "}
+            Game Engine Expertise Tailored
+          </span>{" "}
+          for You
+        </h2>
+
+        <div className="auto-container">
+          <div className="row game_engine_expertise ">
+            <div className="game_engine_expertise_heading">
+              <p
+                onClick={handleMultiplayer}
+                className="title"
+                style={{
+                  color: multiplayer ? "#efc060" : "",
+                  borderBottom: multiplayer ? "3px solid #efc060" : "",
+                }}
+              >
+                Technical Specifications
               </p>
-              <ul>
-                <li>
-                  <i class="fa-sharp fa-solid fa-circle-dot"></i>
-                  Cross-platform compatibility for PC, web, and mobile devices.
-                </li>
-                <li>
-                  <i class="fa-sharp fa-solid fa-circle-dot"></i>
-                  High-definition graphics powered by advanced rendering
-                  techniques.
-                </li>
-                <li>
-                  <i class="fa-sharp fa-solid fa-circle-dot"></i>
-                  Seamless multiplayer integration with low-latency networking.
-                </li>
-                <li>
-                  {" "}
-                  <i class="fa-sharp fa-solid fa-circle-dot"></i>Customizable
-                  gameplay mechanics and rulesets.
-                </li>
-                <li>
-                  <i class="fa-sharp fa-solid fa-circle-dot"></i>
-                  Support for virtual reality (VR) and augmented reality (AR)
-                  experiences.
-                </li>
-                <li>
-                  <i class="fa-sharp fa-solid fa-circle-dot"></i>
-                  Robust backend infrastructure for scalable matchmaking and
-                  server management.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section>
-        <div className="container-fluid Royal_section3">
-          <h2>
-            Game <span>Engine</span>
-          </h2>
-          <div className="auto-container section3_container">
-            <div className="right" data-aos="fade-right" data-aos-delay="300">
-              <p>
-                Harness the power of advanced game engines like Unreal Engine 5
-                and Unity, delivering stunning graphics and dynamic gameplay for
-                unparalleled immersion
+              <p
+                className="title"
+                style={{
+                  color: streaming ? "#efc060" : "",
+                  borderBottom: streaming ? "3px solid #efc060" : "",
+                }}
+                onClick={handeStream}
+              >
+                Game Engine Mastery
               </p>
-              <ul>
-                <li>
-                  <i class="fa-sharp fa-solid fa-circle-dot"></i>Utilizes
-                  state-of-the-art game engines such as Unreal Engine 5 and
-                  Unity to deliver stunning visuals and dynamic gameplay.
-                </li>
-                <li>
-                  <i class="fa-sharp fa-solid fa-circle-dot"></i>
-                  Implements advanced physics engines for realistic interactions
-                  and environmental effects.
-                </li>
-                <li>
-                  <i class="fa-sharp fa-solid fa-circle-dot"></i>
-                  Employs AI-driven algorithms for adaptive gameplay mechanics
-                  and intelligent NPC behavior.
-                </li>
-                <li>
-                  {" "}
-                  <i class="fa-sharp fa-solid fa-circle-dot"></i>Customizable
-                  Incorporates dynamic weather systems and day-night cycles for
-                  immersive immersion.
-                </li>
-                <li>
-                  <i class="fa-sharp fa-solid fa-circle-dot"></i>
-                  Supports extensive modding capabilities for community-driven
-                  content creation.
-                </li>
-              </ul>
+
+              <p
+                className="title"
+                style={{
+                  color: game ? "#efc060" : "",
+                  borderBottom: game ? "3px solid #efc060" : "",
+                }}
+                onClick={handleGame}
+              >
+                Community Streamlin <br />
+              </p>
             </div>
-            <div className="left" data-aos="fade-left" data-aos-delay="300">
-              <img
-                src="\assets\img\MeatverseRoyal\section-2.png"
-                alt="Specifications"
-              />
-            </div>
+            {multiplayer ? (
+              <>
+                <div className="game_engine_expertise_cards">
+                  <ScrollAnimation
+                    className="game_engine_expertise_card"
+                    animateIn="fadeInUp"
+                    duration={1}
+                  >
+                    <div
+                      className="left"
+                      style={{
+                        background:
+                          "linear-gradient(136.76deg, #ABDCFF 0%, #0396FF 100%)",
+                      }}
+                    >
+                      <img src={multiPlayer_icon4} alt="" />
+                    </div>
+                    <div className="right">
+                      <h6>Cross-Platform Compatibility</h6>
+                      <p>
+                        Seamlessly play across PC, console, and mobile devices
+                        for a truly universal gaming experience. Enjoy
+                        consistent performance and gameplay mechanics regardless
+                        of your preferred platform.
+                      </p>
+                    </div>
+                  </ScrollAnimation>
+                  <ScrollAnimation
+                    animateIn="fadeInUp"
+                    duration={1.5}
+                    className="game_engine_expertise_card"
+                  >
+                    <div
+                      className="left"
+                      style={{
+                        background:
+                          "linear-gradient(136.76deg, #E2B0FF 0%, #9F44D3 100%)",
+                      }}
+                    >
+                      <img src={multiPlayer_icon2} alt="" />
+                    </div>
+                    <div className="right">
+                      <h6> High-Definition Graphics</h6>
+                      <p>
+                        Immerse yourself in stunning visuals powered by advanced
+                        rendering techniques and high-resolution textures.
+                        Experience lifelike environments and character models
+                        with realistic lighting and dynamic effects.
+                      </p>
+                    </div>
+                  </ScrollAnimation>
+                </div>
+                <div className="game_engine_expertise_cards top">
+                  <ScrollAnimation
+                    animateIn="fadeInUp"
+                    duration={2}
+                    className="game_engine_expertise_card"
+                  >
+                    <div
+                      className="left"
+                      style={{
+                        background:
+                          "linear-gradient(136.76deg, #FEB692 0%, #EA5455 100%)",
+                      }}
+                    >
+                      <img src={multiPlayer_icon1} alt="" />
+                    </div>
+                    <div className="right">
+                      <h6> Seamless Multiplayer Integration</h6>
+                      <p>
+                        Engage in fast-paced multiplayer action with low-latency
+                        networking and reliable server infrastructure.
+                        Experience smooth matchmaking and join matches with
+                        friends or random players effortlessly.
+                      </p>
+                    </div>
+                  </ScrollAnimation>
+                  <ScrollAnimation
+                    animateIn="fadeInUp"
+                    duration={2.5}
+                    className="game_engine_expertise_card"
+                  >
+                    <div
+                      className="left"
+                      style={{
+                        background:
+                          "linear-gradient(136.76deg, #FCCF31 0%, #F55555 100%)",
+                      }}
+                    >
+                      <img src={multiPlayer_icon3} alt="" />
+                    </div>
+                    <div className="right">
+                      <h6> Customizable Gameplay Mechanics</h6>
+                      <p>
+                        Tailor your gameplay experience with customizable
+                        controls, keybindings, and interface settings. Adjust
+                        gameplay mechanics such as weapon balance, movement
+                        speed, and player health to suit your playstyle.
+                      </p>
+                    </div>
+                  </ScrollAnimation>
+                </div>
+              </>
+            ) : streaming ? (
+              <>
+                <div className="game_engine_expertise_cards">
+                  <ScrollAnimation
+                    className="game_engine_expertise_card"
+                    animateIn="fadeInUp"
+                    duration={1}
+                  >
+                    <div
+                      className="left"
+                      style={{
+                        background:
+                          "linear-gradient(136.76deg, #90F7EC 0%, #32CCBC 100%)",
+                      }}
+                    >
+                      <img src={streaming_icon4} alt="" />
+                    </div>
+                    <div className="right">
+                      <h6> Unity Engine Optimization</h6>
+                      <p>
+                        Optimize performance and efficiency with Unity Engine's
+                        versatile development tools and optimization
+                        techniques.Leverage Unity's multiplatform support to
+                        reach a broad audience across PC, console, and mobile
+                        platforms.
+                      </p>
+                    </div>
+                  </ScrollAnimation>
+                  <ScrollAnimation
+                    animateIn="fadeInUp"
+                    duration={1.5}
+                    className="game_engine_expertise_card"
+                  >
+                    <div
+                      className="left"
+                      style={{
+                        background:
+                          "linear-gradient(136.76deg, #F889D5 0%, #5650DE 100%)",
+                      }}
+                    >
+                      <img src={streaming_icon2} alt="" />
+                    </div>
+                    <div className="right">
+                      <h6>Unreal Engine 5 Integration</h6>
+                      <p>
+                        Harness the power of Unreal Engine 5's cutting-edge
+                        technology for unparalleled graphical fidelity and
+                        performance.Take advantage of advanced rendering
+                        features such as Nanite and Lumen to create highly
+                        detailed environments and dynamic lighting effects.
+                      </p>
+                    </div>
+                  </ScrollAnimation>
+                </div>
+                <div className="game_engine_expertise_cards top">
+                  <ScrollAnimation
+                    animateIn="fadeInUp"
+                    duration={2}
+                    className="game_engine_expertise_card"
+                  >
+                    <div
+                      className="left"
+                      style={{
+                        background:
+                          "linear-gradient(136.76deg, #FF9897 0%, #F650A0 100%)",
+                      }}
+                    >
+                      <img src={streaming_icon3} alt="" />
+                    </div>
+                    <div className="right">
+                      <h6> Streaming Integration</h6>
+                      <p>
+                        Seamlessly integrate streaming capabilities into
+                        MetaVerse Royale, allowing players to broadcast their
+                        gameplay sessions to audiences worldwide. Utilize
+                        popular streaming platforms such as Twitch, YouTube, and
+                        Mixer to reach a diverse audience and build a community
+                        around your game.
+                      </p>
+                    </div>
+                  </ScrollAnimation>
+                  <ScrollAnimation
+                    animateIn="fadeInUp"
+                    duration={2.5}
+                    className="game_engine_expertise_card"
+                  >
+                    <div
+                      className="left"
+                      style={{
+                        background:
+                          "linear-gradient(136.76deg, #FFCDA5 0%, #EE4D5F 100%)",
+                      }}
+                    >
+                      <img src={streaming_icon1} alt="" />
+                    </div>
+                    <div className="right">
+                      <h6> Game Engine Mastery</h6>
+                      <p>
+                        Master the intricacies of game engine development with
+                        comprehensive documentation, tutorials, and support
+                        resources.Access dedicated developer forums and
+                        communities to collaborate with fellow developers, share
+                        knowledge, and troubleshoot issues.
+                      </p>
+                    </div>
+                  </ScrollAnimation>
+                </div>
+              </>
+            ) : game ? (
+              <>
+                <div className="game_engine_expertise_cards">
+                  <ScrollAnimation
+                    className="game_engine_expertise_card"
+                    animateIn="fadeInUp"
+                    duration={1}
+                  >
+                    <div
+                      className="left"
+                      style={{
+                        background:
+                          "linear-gradient(136.76deg, #ABDCFF 0%, #0396FF 100%)",
+                      }}
+                    >
+                      <img src={gameengine_icon3} alt="" />
+                    </div>
+                    <div className="right">
+                      <h6> Interactive Streaming Events</h6>
+                      <p>
+                        Host interactive streaming events within MetaVerse
+                        Royale where players can participate in live broadcasts,
+                        interact with streamers, and engage in community
+                        challenges and activities in real-time.
+                      </p>
+                    </div>
+                  </ScrollAnimation>
+                  <ScrollAnimation
+                    animateIn="fadeInUp"
+                    duration={1.5}
+                    className="game_engine_expertise_card"
+                  >
+                    <div
+                      className="left"
+                      style={{
+                        background:
+                          "linear-gradient(136.76deg, #E2B0FF 0%, #9F44D3 100%)",
+                      }}
+                    >
+                      <img src={gameengine_icon4} alt="" />
+                    </div>
+                    <div className="right">
+                      <h6> Player-Run Community Channels</h6>
+                      <p>
+                        Empower players to create and manage their own community
+                        channels within MetaVerse Royale, where they can stream
+                        gameplay, host events, and foster collaboration among
+                        like-minded players.
+                      </p>
+                    </div>
+                  </ScrollAnimation>
+                </div>
+                <div className="game_engine_expertise_cards top">
+                  <ScrollAnimation
+                    animateIn="fadeInUp"
+                    duration={2}
+                    className="game_engine_expertise_card"
+                  >
+                    <div
+                      className="left"
+                      style={{
+                        background:
+                          "linear-gradient(136.76deg, #FEB692 0%, #EA5455 100%)",
+                      }}
+                    >
+                      <img src={gameengine_icon1} alt="" />
+                    </div>
+                    <div className="right">
+                      <h6>Community-Driven Content Creation</h6>
+                      <p>
+                        Encourage community-driven content creation by providing
+                        tools and resources for players to share custom maps,
+                        mods, artwork, and other user-generated content,
+                        fostering creativity and collaboration within the player
+                        community.
+                      </p>
+                    </div>
+                  </ScrollAnimation>
+                  <ScrollAnimation
+                    animateIn="fadeInUp"
+                    duration={2.5}
+                    className="game_engine_expertise_card"
+                  >
+                    <div
+                      className="left"
+                      style={{
+                        background:
+                          "linear-gradient(136.76deg, #ABDCFF 0%, #0396FF 100%)",
+                      }}
+                    >
+                      <img src={gameengine_icon2} alt="" />
+                    </div>
+                    <div className="right">
+                      <h6> Rewarding Community Engagement</h6>
+                      <p>
+                        Reward active community members and content creators
+                        with special perks, recognition, and in-game rewards
+                        based on their contributions, participation, and
+                        engagement, incentivizing positive interactions and
+                        community growth.
+                      </p>
+                    </div>
+                  </ScrollAnimation>
+                </div>
+              </>
+            ) : (
+              ""
+            )}
           </div>
         </div>
       </section>
@@ -163,8 +466,11 @@ const MetaverseRoyalContent = () => {
             Explore immersive worlds ranging from futuristic cityscapes to
             ancient ruins, offering diverse and captivating environments.
           </p>
-          <div className="auto-container section4_container"     data-aos="fade-right"
-                data-aos-delay="300">
+          <div
+            className="auto-container section4_container"
+            data-aos="fade-right"
+            data-aos-delay="300"
+          >
             <div className="card_section1">
               <div className="royal_cards">
                 <img
@@ -245,8 +551,11 @@ const MetaverseRoyalContent = () => {
             Diverse game selection awaits, catering to every gaming preference
             and offering endless adventures in the Metaverse
           </p>
-          <div className="auto-container section5_container"  data-aos="fade-left"
-                data-aos-delay="300">
+          <div
+            className="auto-container section5_container"
+            data-aos="fade-left"
+            data-aos-delay="300"
+          >
             <div className="card1">
               <div className="section5_card">
                 <img
@@ -605,123 +914,156 @@ const MetaverseRoyalContent = () => {
             Why <span>us</span>
           </h2>
           <p className="auto-container">
-            Discover the MetaVerse Royale advantage, offering innovative
-            solutions, robust support, and unmatched gaming experiences
+            Celebrate Your Journey with Us: Discover Why MetaVerse Royale is
+            Your Ultimate Destination for Unforgettable Gaming Experiences!
           </p>
           <div className="auto-container section8_container">
-            <div className="section8_left"  data-aos="fade-right"
-                data-aos-delay="300">
+            <div
+              className="section8_left"
+              data-aos="fade-right"
+              data-aos-delay="300"
+            >
               <p
                 className={advanced ? "section8_card_border" : ""}
                 onClick={handleAdvanced}
               >
-                Advanced Immersion
+               Game Engine Expertise
               </p>
               <p
                 className={enhancements ? "section8_card_border" : ""}
                 onClick={handleEnhancements}
               >
-                UI & UX Enhancements
+              UI & UX
               </p>
               <p
                 className={measures ? "section8_card_border" : ""}
                 onClick={handleMeasures}
               >
-                Security Measures
+             Monetization
               </p>
               <p
                 className={business ? "section8_card_border" : ""}
                 onClick={handleBusiness}
               >
-                Business Aspects
+               Monetization
               </p>
             </div>
             {advanced ? (
-              <div className="section8_card_container1"  data-aos="fade-left"
-              data-aos-delay="300">
+              <div
+                className="section8_card_container1"
+                data-aos="fade-left"
+                data-aos-delay="300"
+              >
                 <div className="card8">
                   <div className="bg">
                     <img src="/assets/img/whychooseusnft/client.svg" alt="" />
                   </div>
-                  <p> High-Performance Game Engine Optimization</p>
+                  <p>Optimized Performance</p>
                 </div>
                 <div className="card8">
                   <div className="bg">
                     <img src="/assets/img/whychooseusnft/client.svg" alt="" />
                   </div>
-                  <p> Realistic Physics and Environmental Effects</p>
+                  <p> Cross-Platform Compatibility</p>
                 </div>
                 <div className="card8">
                   <div className="bg">
                     <img src="/assets/img/whychooseusnft/client.svg" alt="" />
                   </div>
-                  <p> Scalable Backend Infrastructure</p>
+                  <p> Dynamic Environments</p>
+                </div>
+                <div className="card8">
+                  <div className="bg">
+                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                  </div>
+                  <p> Future-Proof Technology</p>
                 </div>
               </div>
             ) : enhancements ? (
-              <div className="section8_card_container1" data-aos="fade-left"
-              data-aos-delay="300">
+              <div
+                className="section8_card_container1"
+                data-aos="fade-left"
+                data-aos-delay="300"
+              >
                 <div className="card8">
                   <div className="bg">
                     <img src="/assets/img/whychooseusnft/client.svg" alt="" />
                   </div>
-                  <p> Intuitive User Interface Design</p>
+                  <p> Intuitive Design</p>
                 </div>
                 <div className="card8">
                   <div className="bg">
                     <img src="/assets/img/whychooseusnft/client.svg" alt="" />
                   </div>
-                  <p> Personalized Player Experiences</p>
+                  <p>Immersive Experience</p>
                 </div>
                 <div className="card8">
                   <div className="bg">
                     <img src="/assets/img/whychooseusnft/client.svg" alt="" />
                   </div>
-                  <p> Immersive User Experience</p>
+                  <p> Customizable Interfaces</p>
+                </div>
+                <div className="card8">
+                  <div className="bg">
+                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                  </div>
+                  <p>Accessibility Features</p>
                 </div>
               </div>
             ) : measures ? (
-              <div className="section8_card_container1" data-aos="fade-left"
-              data-aos-delay="300">
+              <div
+                className="section8_card_container1"
+                data-aos="fade-left"
+                data-aos-delay="300"
+              >
                 <div className="card8">
                   <div className="bg">
                     <img src="/assets/img/whychooseusnft/client.svg" alt="" />
                   </div>
-                  <p> Blockchain-Powered Asset Security</p>
+                  <p>Flexible Revenue Models</p>
                 </div>
                 <div className="card8">
                   <div className="bg">
                     <img src="/assets/img/whychooseusnft/client.svg" alt="" />
                   </div>
-                  <p> End-to-End Encryption</p>
+                  <p> Revenue Optimization Tools</p>
                 </div>
                 <div className="card8">
                   <div className="bg">
                     <img src="/assets/img/whychooseusnft/client.svg" alt="" />
                   </div>
-                  <p> Multi-Factor Authentication (MFA)</p>
+                  <p>Blockchain-Based Economies</p>
+                </div>
+                <div className="card8">
+                  <div className="bg">
+                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                  </div>
+                  <p>Community Engagement</p>
                 </div>
               </div>
             ) : business ? (
-              <div className="section8_card_container1" data-aos="fade-left"
-              data-aos-delay="300">
+              <div
+                className="section8_card_container1"
+                data-aos="fade-left"
+                data-aos-delay="300"
+              >
                 <div className="card8">
                   <div className="bg">
                     <img src="/assets/img/whychooseusnft/client.svg" alt="" />
                   </div>
-                  <p> Monetization Strategies</p>
+                  <p>Customizable Gameplay Mechanics</p>
                 </div>
                 <div className="card8">
                   <div className="bg">
                     <img src="/assets/img/whychooseusnft/client.svg" alt="" />
                   </div>
-                  <p> Licensing and White Label Solutions</p>
+                  <p> Personalized Content Creation</p>
                 </div>
                 <div className="card8">
                   <div className="bg">
                     <img src="/assets/img/whychooseusnft/client.svg" alt="" />
                   </div>
-                  <p> Data Analytics and Insights</p>
+                  <p> Community Collaboration</p>
                 </div>
               </div>
             ) : (

@@ -140,7 +140,7 @@ const RaidenCogniContent = () => {
                 <div className="wrapper-inner one">
                   <div className="img-file">
                     <img
-                      src="/assets/img/Services_Enterprises/1 AI technology consulting@0.png"
+                      src="\assets\img\raidenCogni\cogni keyfea (1)\immersives.svg"
                       alt=""
                     />
                   </div>
@@ -167,7 +167,7 @@ const RaidenCogniContent = () => {
                 <div className="wrapper-inner one">
                   <div className="img-file">
                     <img
-                      src="/assets/img/Services_Enterprises/2ai models@0.3x.png"
+                      src="\assets\img\raidenCogni\cogni keyfea (1)\customizable.svg"
                       alt=""
                     />
                   </div>
@@ -196,7 +196,7 @@ const RaidenCogniContent = () => {
                   <div className="img-file">
                     <img
                       style={{ scale: "0.9" }}
-                      src="/assets/img/Services_Enterprises/3 ai (1)@0.3x.png"
+                      src="\assets\img\raidenCogni\cogni keyfea (1)\realistic.svg"
                       alt=""
                     />
                   </div>
@@ -225,7 +225,7 @@ const RaidenCogniContent = () => {
                   <div className="img-file">
                     <img
                       style={{ scale: "1.1" }}
-                      src="/assets/img/Services_Enterprises/4 mobile-app@0.3x.png"
+                      src="\assets\img\raidenCogni\cogni keyfea (1)\data.svg"
                       alt=""
                     />
                   </div>
@@ -252,7 +252,7 @@ const RaidenCogniContent = () => {
                 <div className="wrapper-inner one">
                   <div className="img-file">
                     <img
-                      src="/assets/img/Services_Enterprises/5 integrations@0.3x.png"
+                      src="\assets\img\raidenCogni\cogni keyfea (1)\user.svg"
                       alt=""
                     />
                   </div>
@@ -280,7 +280,7 @@ const RaidenCogniContent = () => {
                 <div className="wrapper-inner one">
                   <div className="img-file">
                     <img
-                      src="/assets/img/Services_Enterprises/6 ai atrib@0.3x.png"
+                      src="\assets\img\raidenCogni\cogni keyfea (1)\supportive.svg"
                       alt=""
                     />
                   </div>
