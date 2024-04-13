@@ -1,6 +1,6 @@
 import React from "react";
 
-const UnityBenefitSection = () => {
+const Web3GameBenefitSection = () => {
   return (
     <section>
       <div className="container-fluid mobileGamePageBenifit ">
@@ -122,4 +122,4 @@ const UnityBenefitSection = () => {
   );
 };
 
-export default UnityBenefitSection;
+export default Web3GameBenefitSection;

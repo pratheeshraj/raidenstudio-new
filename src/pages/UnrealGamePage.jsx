@@ -13,6 +13,7 @@ import FooterSectionOne from "../components/FooterSectionOne";
 import ContactSection2 from "../components/ContactSection2";
 import NewsSectionOne from "../components/NewsSectionOne";
 import NftCounter from "../components/Nftdevelopment/NftCounter";
+import UnrealCount from "../components/unrealGame/UnrealCount";
 const UnrealGamePage = () => {
   return (
     <Fragment>
@@ -22,7 +23,7 @@ const UnrealGamePage = () => {
         <UnRealHeroSection />
         <UnRealAbout />
         <UnRealServicesSection />
-        <NftCounter />
+        <UnrealCount/>
         <UnRealWhyChoose />
         <UnRealBenefitSection />
         <UnRealBannerSection />

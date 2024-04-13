@@ -1,6 +1,6 @@
 import React from "react";
 
-const UnRealAbout = () => {
+const Web3GameAbout = () => {
   return (
     <section
       style={{ background: "white" }}
@@ -24,27 +24,28 @@ const UnRealAbout = () => {
           <div className="col-lg-6">
             <div className="right-wrapper ps-2">
               <h2 style={{ color: "black" }} className="title">
-                Our Expertise in Unreal Development
+                Our Expertise In Unity Game Development
               </h2>
               <p style={{ color: "black" }}>
-                crafting immersive gaming experiences to pushing the boundaries
-                of architectural visualization, our track record speaks volumes.
-                Trust us to turn your vision into reality with precision,
-                creativity, and a touch of magic.
+                We have honed our skills to deliver innovative and immersive
+                experiences across various platforms.
               </p>
               <p>
-               <strong> Seasoned Team:</strong> Our team comprises seasoned developers with years
-                of experience in Unreal Engine development.
+                <strong> Comprehensive Understanding:</strong> We possess an
+                in-depth understanding of the Unity platform, leveraging its
+                capabilities to their fullest extent in every project.
               </p>
               <p>
-                <strong>Immersive Experiences:</strong> We specialize in crafting immersive
-                gaming experiences and architectural visualizations that push
-                the boundaries of realism.
+                <strong> Versatility Across Genres: </strong> Whether it's
+                mobile games, AR/VR applications, simulations, or interactive
+                experiences, our team has the versatility to excel in diverse
+                genres and mediums.
               </p>
               <p>
-                <strong>Cutting-Edge Technology:</strong> Leveraging the latest tools and
-                techniques, we stay at the forefront of Unreal Engine's
-                capabilities.
+                <strong>Creative Excellence:</strong> Creativity is at the heart
+                of everything we do. From concept ideation to execution, we
+                strive to push boundaries and deliver experiences that captivate
+                and inspire.
               </p>
             </div>
           </div>
@@ -54,4 +55,4 @@ const UnRealAbout = () => {
   );
 };
 
-export default UnRealAbout;
+export default Web3GameAbout;

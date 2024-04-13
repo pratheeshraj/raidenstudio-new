@@ -41,11 +41,12 @@ const UnRealProcessSection = () => {
                     />
                   </div>
                   <div className="text-box">
-                    <h2> Discovery & Planning</h2>
+                    <h2>Conceptualization and Planning</h2>
                     <p>
-                    We start by understanding your project requirements, goals, and target audience
+                      Creating a detailed technical design document outlining
+                      game mechanics, features, and technical requirements
                     </p>
-                    
+
                     <span className="left-container-arrow"></span>
                   </div>
                 </div>
@@ -63,11 +64,11 @@ const UnRealProcessSection = () => {
                     />
                   </div>
                   <div className="text-box">
-                    <h2> Design & Prototyping</h2>
+                    <h2>Pre-production</h2>
                     <p>
-                      Our team creates wireframes and prototypes to visualize
-                      the project's structure and user experience before
-                      proceeding to full-scale development
+                      Establishing pipelines for creating and importing 3D
+                      models, textures, animations, and other assets into Unreal
+                      Engine.
                     </p>
                     <span className="right-container-arrow"></span>
                   </div>
@@ -86,11 +87,10 @@ const UnRealProcessSection = () => {
                     />
                   </div>{" "}
                   <div className="text-box">
-                    <h2> Development & Testing</h2>
+                    <h2>Level Design</h2>
                     <p>
-                      Using agile methodologies, we develop the project
-                      iteratively, conducting rigorous testing at each stage to
-                      ensure quality and functionality.
+                      Designing game levels, environments, and landscapes using
+                      Unreal Engine's level editor.
                     </p>
                     <span className="left-container-arrow"></span>
                   </div>
@@ -109,11 +109,10 @@ const UnRealProcessSection = () => {
                     />
                   </div>{" "}
                   <div className="text-box">
-                    <h2> Deployment & Optimization</h2>
+                    <h2>Gameplay Programming</h2>
                     <p>
-                      Once the project is ready, we deploy it across the desired
-                      platforms and fine-tune performance for optimal user
-                      experience.
+                      Implementing game mechanics, player controls, AI behavior,
+                      physics, and interactions using Blueprints or C++.
                     </p>
                     <span className="right-container-arrow"></span>
                   </div>
@@ -132,11 +131,10 @@ const UnRealProcessSection = () => {
                     />
                   </div>{" "}
                   <div className="text-box">
-                    <h2>Maintenance & Updates</h2>
+                    <h2>User Testing</h2>
                     <p>
-                      We provide ongoing support, maintenance, and updates to
-                      keep your Unity project running smoothly and up-to-date
-                      with the latest technologies.
+                      Conducting alpha and beta testing with real users to
+                      gather feedback and identify areas for improvement.
                     </p>
                     <span className="left-container-arrow"></span>
                   </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const UnityWhyChoose = () => {
+const Web3GameWhyChoose = () => {
   return (
     <section>
     <div className="container-fluid mobile_gamewhy_choose_main">
@@ -88,4 +88,4 @@ const UnityWhyChoose = () => {
   )
 }
 
-export default UnityWhyChoose
+export default Web3GameWhyChoose

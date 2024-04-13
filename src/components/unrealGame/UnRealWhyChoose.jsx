@@ -48,24 +48,7 @@ const UnRealWhyChoose = () => {
               </div>
             </div>
 
-            <div className="mobail_game_card">
-              <div className="left">
-                <div className="icon_container">
-                  <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div className="right">
-                <h6> Collaborative Approach</h6>
-                <p>
-                  We value collaboration and communication, working closely with
-                  clients to understand their vision and deliver results that
-                  exceed expectations.
-                </p>
-              </div>
-            </div>
+        
             <div className="mobail_game_card">
               <div className="left">
                 <div className="icon_container">
