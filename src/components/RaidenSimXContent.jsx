@@ -245,8 +245,7 @@ const RaidenSimXContent = () => {
       <section
         className="counter-section one"
         style={{
-          backgroundSize: "cover",
-          background: "#00151e",
+          background: "url(/assets/img/bg-image/simxbanner.jpg)",
         }}
       >
         <div className="auto-container">
@@ -284,25 +283,7 @@ const RaidenSimXContent = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-6">
-                <img src="/assets/img/bg-image/painting-water-lillies-orange-flowers-pond-generative-ai_733139-67283-transformed-removebg-preview.png" />
-              </div>
             </div>
-            {/* <div className="overlay-text">
-              <h1>AI</h1>
-            </div> */}
-            {/* <div className="shape-img">
-                            <img
-                                className="shape-1 poa"
-                                src="./assets/img/icon/50_icon.png"
-                                alt=""
-                            />
-                            <img
-                                className="shape-2 poa"
-                                src="./assets/img/icon/51_icon.png"
-                                alt=""
-                            />
-                        </div> */}
           </div>
         </div>
       </section>
@@ -322,7 +303,7 @@ const RaidenSimXContent = () => {
                     style={{ backgroundColor: choose ? "#00151e" : "" }}
                     onClick={handleChoose}
                   >
-                    <img src="/assets/img/raidensimx/sim x - how it works/choose.svg" alt="" />
+                    <img src="/assets/img/raidensimx/sim x - how it works/choosepath.svg" alt="" />
                     <p style={{ color: choose ? "white" : "" }}>
                       {" "}
                       Choose Your Path
@@ -346,7 +327,7 @@ const RaidenSimXContent = () => {
                     style={{ backgroundColor: progress ? "#00151e" : "" }}
                     onClick={handleProgress}
                   >
-                    <img src="/assets/img/raidensimx/sim x - how it works/track.svg" alt="" />
+                    <img src="/assets/img/raidensimx/sim x - how it works/progress copy.svg" alt="" />
                     <p style={{ color: progress ? "white" : "" }}>
                       Track Your Progress
                     </p>
@@ -547,7 +528,7 @@ const RaidenSimXContent = () => {
             <h5>
               At Raiden we are <span>committed to</span>
             </h5>
-        
+
             <div className="RaidensimX_commitment_boxs">
               <div className="RaidensimX_commitment_box">
                 <img src={"/assets/img/raidensimx/simx our commitment/continouslinoovating.svg"} alt="" />
