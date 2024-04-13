@@ -1,6 +1,6 @@
 import React from "react";
 
-const MobileGamePageHero = () => {
+const UnRealHeroSection = () => {
   return (
     <section>
       <div
@@ -10,14 +10,14 @@ const MobileGamePageHero = () => {
         <div className="auto-container metaverseroyal_hero_container">
           <div className="left" data-aos="fade-right" data-aos-delay="300">
             <h2>
-              Elevate Your{" "}
-              <span style={{ color: "#fdb441" }}>Gaming Experience</span> with{" "}
-              <br /> <span style={{ color: "#fdb441" }}>Raiden</span>
+              Unleash the Power of{" "}
+              <span style={{ color: "#fdb441" }}>Unreal Development </span> with{" "}
+             <span style={{ color: "#fdb441" }}>Raiden</span>
             </h2>
             <p>
-             Dive into the world of immersive gaming with
-              Raiden. From captivating storylines to stunning visuals, we craft
-              mobile app games that redefine entertainment.
+              Embark on a journey of innovation and creativity with Raiden's
+              expert Unreal Development services. Let's bring your vision to
+              life in the immersive worlds of Unreal Engine.
             </p>
             <button
               className="default-btn"
@@ -35,4 +35,4 @@ const MobileGamePageHero = () => {
   );
 };
 
-export default MobileGamePageHero;
+export default UnRealHeroSection;

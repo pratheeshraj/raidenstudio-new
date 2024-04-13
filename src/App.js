@@ -46,6 +46,9 @@ import MetaverseRoyal from "./pages/MetaverseRoyal";
 
 import ARdevelopment from "./pages/ARdevelopment";
 import MobileGame from "./pages/MobileGame";
+import UnityGamePage from "./pages/UnityGamePage";
+import UnrealGamePage from "./pages/UnrealGamePage";
+import MmorpgGamePage from "./pages/MmorpgGamePage";
 
 
 
@@ -100,6 +103,9 @@ function App() {
 
         <Route exact path="/ar-development" element={<ARdevelopment />} />
         <Route exact path="/mobile-game-development" element={<MobileGame/>} />
+        <Route exact path="/unity-development" element={<UnityGamePage/>} />
+        <Route exact path="/unreal-development" element={<UnrealGamePage/>} />
+        <Route exact path="/mmorpg-development" element={<MmorpgGamePage/>} />
 
 
 
