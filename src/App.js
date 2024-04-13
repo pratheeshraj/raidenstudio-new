@@ -115,7 +115,6 @@ function App() {
         <Route exact path="/web3-game-develpment" element={<Web3GamePage />} />
 
 
-
         <Route exact path="*" element={<Error />} />
       </Routes>
       <RouteScrollToTop />
