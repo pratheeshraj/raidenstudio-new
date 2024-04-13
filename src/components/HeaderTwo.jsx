@@ -60,7 +60,7 @@ const HeaderTwo = () => {
     "/blockchain",
     "/nft-development",
     "",
-    "",
+    "/defi",
     "/metaverse-development",
     "",
     "",

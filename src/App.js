@@ -50,6 +50,7 @@ import Blockchain from "./pages/Blockchain";
 import UnityGamePage from "./pages/UnityGamePage";
 import UnrealGamePage from "./pages/UnrealGamePage";
 import MmorpgGamePage from "./pages/MmorpgGamePage";
+import Defi from "./pages/Defi";
 import P2eGamePage from "./pages/P2eGamePage";
 
 
@@ -105,12 +106,12 @@ function App() {
         <Route exact path="/mobile-game-development" element={<MobileGame />} />
         <Route exact path="/blockchain" element={<Blockchain />} />
 
-        <Route exact path="/mobile-game-development" element={<MobileGame/>} />
-        <Route exact path="/unity-development" element={<UnityGamePage/>} />
-        <Route exact path="/unreal-development" element={<UnrealGamePage/>} />
-        <Route exact path="/mmorpg-development" element={<MmorpgGamePage/>} />
-        <Route exact path="/p2e-develpment" element={<P2eGamePage/>} />
-
+        <Route exact path="/unity-development" element={<UnityGamePage />} />
+        <Route exact path="/unreal-development" element={<UnrealGamePage />} />
+        <Route exact path="/mmorpg-development" element={<MmorpgGamePage />} />
+        <Route exact path="/defi" element={<Defi />} />
+        <Route exact path="/mobile-game-development" element={<MobileGame />} />
+        <Route exact path="/p2e-develpment" element={<P2eGamePage />} />
 
 
 
