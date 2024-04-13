@@ -42,7 +42,7 @@ const MobileGamePageFaq = () => {
               data-aos-delay="300"
             >
               <div className="intro">
-                <h3>Common Question &amp; Answer</h3>
+                <h3 style={{color:"black"}}>Common Question &amp; Answer</h3>
               </div>
               <div className="faq-list">
                 <div
