@@ -15,7 +15,7 @@ function Casinofaq() {
                                 FAQ
                             </h2>
                             <p style={{ marginBottom: "10px" }}>
-                                The FAQ section provides concise answers to common questions about VirtualVegas, ensuring users easily access essential information about game fairness, payment methods, security measures, and more. Simplifying the user experience, it serves as a reliable resource for quick solutions, empowering users to navigate the platform confidently and enjoy immersive gaming
+                                The FAQ section provides concise answers to common questions about VirtualVegas, ensuring users easily access essential information about game fairness, payment methods, security measures, and more. Simplifying the user experience, it serves as a reliable resource for quick solutions, empowering users to navigate the platform confidently and enjoy immersive gaming.
                             </p>
                         </div>
                         <div

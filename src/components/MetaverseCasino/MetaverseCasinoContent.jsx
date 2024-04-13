@@ -1,12 +1,47 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import "./MetaverseCasino.css"
 import ScrollAnimation from 'react-animate-on-scroll';
 import section4 from "../../images/gameproduct-detailimg/section4.png";
 import { Link } from 'react-router-dom';
 import Slider from "react-slick";
 import img from "../../images/2150926863.jpg"
+import multiPlayer_icon1 from "../../images/raidenverse/multiplayer_integ/cross platform.svg";
+import multiPlayer_icon2 from "../../images/raidenverse/multiplayer_integ/custom netcode.svg";
+import multiPlayer_icon3 from "../../images/raidenverse/multiplayer_integ/network optimization.svg";
+import multiPlayer_icon4 from "../../images/raidenverse/multiplayer_integ/unreal and unity.svg";
+import streaming_icon1 from "../../images/raidenverse/streaming/content protection.svg";
+import streaming_icon2 from "../../images/raidenverse/streaming/intractive streaming.svg";
+import streaming_icon3 from "../../images/raidenverse/streaming/performance optimization.svg";
+import streaming_icon4 from "../../images/raidenverse/streaming/video streaming.svg";
+import gameengine_icon1 from "../../images/raidenverse/game_engine/cross platform.svg";
+import gameengine_icon2 from "../../images/raidenverse/game_engine/interactive.svg";
+import gameengine_icon3 from "../../images/raidenverse/game_engine/unity.svg";
+import gameengine_icon4 from "../../images/raidenverse/game_engine/unreal.svg";
+import ChoiceOfGames from './ChoiceOfGames';
 
 function MetaverseCasinoContent() {
+
+    const [multiplayer, setMultiplayer] = useState(true);
+    const [streaming, setStreaming] = useState(false);
+    const [game, setGame] = useState(false);
+
+    const handleMultiplayer = () => {
+        setMultiplayer(true);
+        setStreaming(false);
+        setGame(false);
+    };
+
+    const handeStream = () => {
+        setMultiplayer(false);
+        setStreaming(true);
+        setGame(false);
+    };
+
+    const handleGame = () => {
+        setMultiplayer(false);
+        setStreaming(false);
+        setGame(true);
+    };
 
     const sliderRef = useRef();
 
@@ -46,6 +81,7 @@ function MetaverseCasinoContent() {
             // You can add more breakpoints here
         ],
     };
+
 
     return (
         <>
@@ -88,101 +124,361 @@ function MetaverseCasinoContent() {
                     </div>
                 </div>
             </section>
-            {/* {casino - Technical Specifications:} */}
-            <section>
-                <div className="container-fluid game_product_section2" style={{ background: "#24292D" }}>
-                    <div className="auto-container">
-                        <div className="row game_product_content">
-                            <h2>Technical Specifications</h2>
-                            <div className="col-md-12 detail">
-                                <div
-                                    className=" gameproduct_about section_5"
-                                    style={{
-                                        flexDirection: "row-reverse",
-                                    }}
-                                >
+            <ChoiceOfGames />
+            <section
+                className="service-details-section"
+            >
+                <h2>
+                    Engineered for the Metaverse <br /> <span>Technical Innovations</span>,
+                    <span> Multiplayer Networking</span>, and <br />
+                    AI Integration
+                </h2>
+
+                <div className="auto-container">
+                    <div className="row game_engine_expertise ">
+                        <div className="game_engine_expertise_heading">
+                            <p
+                                onClick={handleMultiplayer}
+                                className="title"
+                                style={{
+                                    color: multiplayer ? "#50c4a1" : "",
+                                    borderBottom: multiplayer ? "3px solid #50c4a1" : "",
+                                }}
+                            >
+                                Technical Innovations
+                            </p>
+                            <p
+                                className="title"
+                                style={{
+                                    color: streaming ? "#50c4a1" : "",
+                                    borderBottom: streaming ? "3px solid #50c4a1" : "",
+                                }}
+                                onClick={handeStream}
+                            >
+                                Multiplayer Networking
+                            </p>
+                            <p
+                                className="title"
+                                style={{
+                                    color: game ? "#50c4a1" : "",
+                                    borderBottom: game ? "3px solid #50c4a1" : "",
+                                }}
+                                onClick={handleGame}
+                            >
+                                AI Integration <br />
+                            </p>
+                        </div>
+                        {multiplayer ? (
+                            <>
+                                <div className="game_engine_expertise_cards">
                                     <ScrollAnimation
-                                        className="left"
-                                        animateIn="fadeInRight"
-                                        duration={1.5}
-                                        style={{ textAlign: "end" }}
+                                        className="game_engine_expertise_card"
+                                        animateIn="fadeInUp"
+                                        duration={1}
                                     >
-                                        <img src={section4} alt="" />
+                                        <div
+                                            className="left"
+                                            style={{
+                                                background:
+                                                    "linear-gradient(136.76deg, #ABDCFF 0%, #0396FF 100%)",
+                                            }}
+                                        >
+                                            <img src={multiPlayer_icon4} alt="" />
+                                        </div>
+                                        <div className="right">
+                                            <h6 >	Blockchain Integration</h6>
+                                            <p>
+                                                Utilizes blockchain technology for secure and transparent transactions.
+                                                Enables provably fair gaming and transparent record-keeping.
+                                                Enhances trust and reliability for players and operators alike.
+
+                                            </p>
+                                        </div>
                                     </ScrollAnimation>
                                     <ScrollAnimation
-                                        animateIn="fadeInLeft"
+                                        animateIn="fadeInUp"
                                         duration={1.5}
-                                        className="right d-flex flex-column align-items- "
-                                        style={{ marginTop: "50px" }}
+                                        className="game_engine_expertise_card"
                                     >
-                                        <ul className="section_5_ul">
-                                            <li>
-                                                <i class="fa-regular fa-circle-dot"></i><span className='theme-color'>Tech Stack :</span> VirtualVegas is built on a robust tech stack including HTML5, CSS3, JavaScript, Node.js, MongoDB, and WebRTC for virtual reality integration.
-                                            </li>
-                                            <li>
-                                                <i class="fa-regular fa-circle-dot"></i><span className='theme-color'>Hosting :</span> Our platform is cloud-based, ensuring scalability, reliability, and high performance.
-                                            </li>
-                                            <li>
-                                                <i class="fa-regular fa-circle-dot"></i>
-                                                <span className='theme-color'>Security :</span> VirtualVegas employs industry-leading security measures, including SSL encryption, two-factor authentication, and blockchain technology for secure transactions
-                                            </li>
-                                        </ul>
+                                        <div
+                                            className="left"
+                                            style={{
+                                                background:
+                                                    "linear-gradient(136.76deg, #E2B0FF 0%, #9F44D3 100%)",
+                                            }}
+                                        >
+                                            <img src={multiPlayer_icon2} alt="" />
+                                        </div>
+                                        <div className="right">
+                                            <h6 >Live Dealer Casino Technology</h6>
+                                            <p>
+                                                Integrates live dealer casino technology to offer immersive and interactive gaming experiences.
+                                                Streams live video feeds of real dealers hosting games such as blackjack, roulette, and baccarat.
+
+                                            </p>
+                                        </div>
                                     </ScrollAnimation>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            {/* {casino - Technical Specifications:} */}
-            <section>
-                <div className="container-fluid game_product_section2" style={{ background: "#24292D", padding: "0", paddingBottom: "100px" }}>
-                    <div className="auto-container">
-                        <div className="row game_product_content">
-                            <h2>Game Engine and Environment</h2>
-                            <div className="col-md-12 detail">
-                                <div
-                                    className=" gameproduct_about section_5"
-                                    style={{
-                                        flexDirection: "row",
-                                    }}
-                                >
+                                <div className="game_engine_expertise_cards top">
                                     <ScrollAnimation
-                                        className="left"
-                                        animateIn="fadeInRight"
-                                        duration={1.5}
-                                        style={{ textAlign: "end" }}
+                                        animateIn="fadeInUp"
+                                        duration={2}
+                                        className="game_engine_expertise_card"
                                     >
-                                        <img src={section4} alt="" />
+                                        <div
+                                            className="left"
+                                            style={{
+                                                background:
+                                                    "linear-gradient(136.76deg, #FEB692 0%, #EA5455 100%)",
+                                            }}
+                                        >
+                                            <img src={multiPlayer_icon1} alt="" />
+                                        </div>
+                                        <div className="right">
+                                            <h6 >	Augmented Reality (AR) Integration</h6>
+                                            <p>
+                                                Offers immersive AR experiences for enhanced gameplay.
+                                                Blends virtual casino elements seamlessly with the real-world environment.
+                                                Allows players to interact with virtual objects overlaid on their physical surroundings.
+
+                                            </p>
+                                        </div>
                                     </ScrollAnimation>
                                     <ScrollAnimation
-                                        animateIn="fadeInLeft"
-                                        duration={1.5}
-                                        className="right d-flex flex-column align-items- "
-                                        style={{ marginTop: "50px" }}
+                                        animateIn="fadeInUp"
+                                        duration={2.5}
+                                        className="game_engine_expertise_card"
                                     >
-                                        <ul className="section_5_ul">
-                                            <li>
-                                                <i class="fa-regular fa-circle-dot"></i><span className='theme-color'>Unity : </span>As the primary game engine for developing casino games, including slots, blackjack, roulette, and more.
-                                            </li>
-                                            <li>
-                                                <i class="fa-regular fa-circle-dot"></i><span className='theme-color'>Photon Unity Networking (PUN) : </span> For implementing multiplayer functionality in Unity games, allowing players to interact with each other in real-time.
-                                            </li>
-                                            <li>
-                                                <i class="fa-regular fa-circle-dot"></i>
-                                                <span className='theme-color'>Three.js : </span> For implementing multiplayer functionality in Unity games, allowing players to interact with each other in real-time.
-                                            </li>
-                                            <li>
-                                                <i class="fa-regular fa-circle-dot"></i><span className='theme-color'>A-Frame : </span>For building virtual reality experiences using HTML and JavaScript, providing a simple and accessible way to create immersive environments.
-                                            </li>
-                                            <li>
-                                                <i class="fa-regular fa-circle-dot"></i><span className='theme-color'>Blender : </span>For 3D modeling and animation, allowing developers to create custom assets and visual effects for casino games and virtual environments.
-                                            </li>
-                                        </ul>
+                                        <div
+                                            className="left"
+                                            style={{
+                                                background:
+                                                    "linear-gradient(136.76deg, #FCCF31 0%, #F55555 100%)",
+                                            }}
+                                        >
+                                            <img src={multiPlayer_icon3} alt="" />
+                                        </div>
+                                        <div className="right">
+                                            <h6 >	Voice Recognition Technology</h6>
+                                            <p>
+                                                Incorporates voice commands for hands-free gaming interaction.
+                                                Enables players to control gameplay, place bets, and navigate menus using voice commands.
+                                                Enhances accessibility for players with mobility impairments or disabilities.
+
+                                            </p>
+                                        </div>
                                     </ScrollAnimation>
                                 </div>
-                            </div>
-                        </div>
+                            </>
+                        ) : streaming ? (
+                            <>
+                                <div className="game_engine_expertise_cards">
+                                    <ScrollAnimation
+                                        className="game_engine_expertise_card"
+                                        animateIn="fadeInUp"
+                                        duration={1}
+                                    >
+                                        <div
+                                            className="left"
+                                            style={{
+                                                background:
+                                                    "linear-gradient(136.76deg, #90F7EC 0%, #32CCBC 100%)",
+                                            }}
+                                        >
+                                            <img src={streaming_icon4} alt="" />
+                                        </div>
+                                        <div className="right">
+                                            <h6 >	Real-Time Multiplayer Games</h6>
+                                            <p>
+                                                Supports synchronous multiplayer gaming for real-time interaction.
+                                                Enables players to compete against each other or collaborate in multiplayer game modes.
+                                                Enhances social engagement and competitive gameplay experiences.
+
+                                            </p>
+                                        </div>
+                                    </ScrollAnimation>
+                                    <ScrollAnimation
+                                        animateIn="fadeInUp"
+                                        duration={1.5}
+                                        className="game_engine_expertise_card"
+                                    >
+                                        <div
+                                            className="left"
+                                            style={{
+                                                background:
+                                                    "linear-gradient(136.76deg, #F889D5 0%, #5650DE 100%)",
+                                            }}
+                                        >
+                                            <img src={streaming_icon2} alt="" />
+                                        </div>
+                                        <div className="right">
+                                            <h6 >	Cross-Platform Compatibility</h6>
+                                            <p>
+                                                Allows players on different devices and platforms to play together seamlessly.
+                                                Ensures a unified gaming experience across PC, mobile, and console platforms.
+                                                Expands player communities and enhances matchmaking opportunities.
+
+                                            </p>
+                                        </div>
+                                    </ScrollAnimation>
+                                </div>
+                                <div className="game_engine_expertise_cards top">
+                                    <ScrollAnimation
+                                        animateIn="fadeInUp"
+                                        duration={2}
+                                        className="game_engine_expertise_card"
+                                    >
+                                        <div
+                                            className="left"
+                                            style={{
+                                                background:
+                                                    "linear-gradient(136.76deg, #FF9897 0%, #F650A0 100%)",
+                                            }}
+                                        >
+                                            <img src={streaming_icon3} alt="" />
+                                        </div>
+                                        <div className="right">
+                                            <h6 >	Scalable Server Infrastructure</h6>
+                                            <p>
+                                                Utilizes scalable cloud-based server architecture to support large player populations.
+                                                Ensures smooth gameplay experiences even during peak traffic periods.
+                                                Enables rapid deployment of additional server resources to meet growing demand.
+
+                                            </p>
+                                        </div>
+                                    </ScrollAnimation>
+                                    <ScrollAnimation
+                                        animateIn="fadeInUp"
+                                        duration={2.5}
+                                        className="game_engine_expertise_card"
+                                    >
+                                        <div
+                                            className="left"
+                                            style={{
+                                                background:
+                                                    "linear-gradient(136.76deg, #FFCDA5 0%, #EE4D5F 100%)",
+                                            }}
+                                        >
+                                            <img src={streaming_icon1} alt="" />
+                                        </div>
+                                        <div className="right">
+                                            <h6 >	Social Features and Interactions</h6>
+                                            <p>
+                                                Incorporates social networking features to connect players and foster community engagement.
+                                                Allows players to form friends lists, join groups, and participate in social activities within the game.
+                                                Enables social sharing of achievements, gameplay highlights, and in-game content.
+                                            </p>
+                                        </div>
+                                    </ScrollAnimation>
+                                </div>
+                            </>
+                        ) : game ? (
+                            <>
+                                <div className="game_engine_expertise_cards">
+                                    <ScrollAnimation
+                                        className="game_engine_expertise_card"
+                                        animateIn="fadeInUp"
+                                        duration={1}
+                                    >
+                                        <div
+                                            className="left"
+                                            style={{
+                                                background:
+                                                    "linear-gradient(136.76deg, #ABDCFF 0%, #0396FF 100%)",
+                                            }}
+                                        >
+                                            <img src={gameengine_icon3} alt="" />
+                                        </div>
+                                        <div className="right">
+                                            <h6 >	Predictive Analytics</h6>
+                                            <p>
+                                                Utilizes AI algorithms to analyze player behavior and predict gaming preferences.
+                                                Offers personalized game recommendations and promotions tailored to individual players.
+                                                Enhances player retention and engagement by delivering targeted offers and incentives.
+
+                                            </p >
+                                        </div>
+                                    </ScrollAnimation>
+                                    <ScrollAnimation
+                                        animateIn="fadeInUp"
+                                        duration={1.5}
+                                        className="game_engine_expertise_card"
+                                    >
+                                        <div
+                                            className="left"
+                                            style={{
+                                                background:
+                                                    "linear-gradient(136.76deg, #E2B0FF 0%, #9F44D3 100%)",
+                                            }}
+                                        >
+                                            <img src={gameengine_icon4} alt="" />
+                                        </div>
+                                        <div className="right">
+                                            <h6 >	Dynamic Game Adaptation</h6>
+                                            <p>
+                                                Implements AI-driven game mechanics that adapt in real-time based on player performance.
+                                                Adjusts difficulty levels, pacing, and gameplay elements to match player skill levels and preferences.
+                                                Provides customized gaming experiences that evolve with each player's abilities and progression.
+
+                                            </p>
+                                        </div>
+                                    </ScrollAnimation>
+                                </div>
+                                <div className="game_engine_expertise_cards top">
+                                    <ScrollAnimation
+                                        animateIn="fadeInUp"
+                                        duration={2}
+                                        className="game_engine_expertise_card"
+                                    >
+                                        <div
+                                            className="left"
+                                            style={{
+                                                background:
+                                                    "linear-gradient(136.76deg, #FEB692 0%, #EA5455 100%)",
+                                            }}
+                                        >
+                                            <img src={gameengine_icon1} alt="" />
+                                        </div>
+                                        <div className="right">
+                                            <h6 >	Behavioral Biometrics</h6>
+                                            <p>
+                                                Leverages AI-powered behavioral biometrics to enhance player identification and security.
+                                                Analyzes unique behavioral patterns such as typing speed, mouse movements, and gameplay style.
+                                                Provides continuous authentication and fraud detection to prevent unauthorized access and fraudulent activities.
+
+                                            </p>
+                                        </div>
+                                    </ScrollAnimation>
+                                    <ScrollAnimation
+                                        animateIn="fadeInUp"
+                                        duration={2.5}
+                                        className="game_engine_expertise_card"
+                                    >
+                                        <div
+                                            className="left"
+                                            style={{
+                                                background:
+                                                    "linear-gradient(136.76deg, #ABDCFF 0%, #0396FF 100%)",
+                                            }}
+                                        >
+                                            <img src={gameengine_icon2} alt="" />
+                                        </div>
+                                        <div className="right">
+                                            <h6 >	Chatbot Customer Support</h6>
+                                            <p>
+                                                Implements AI-driven chatbots to provide instant customer support and assistance.
+                                                Offers 24/7 availability for addressing player inquiries, troubleshooting issues, and providing information.
+                                                Utilizes natural language processing (NLP) to understand and respond to player queries in real-time.
+
+
+                                            </p>
+                                        </div>
+                                    </ScrollAnimation>
+                                </div>
+                            </>
+                        ) : (
+                            ""
+                        )}
                     </div>
                 </div>
             </section>
@@ -267,7 +563,7 @@ function MetaverseCasinoContent() {
 
                 </div>
             </section >
-            
+
 
         </>
 
