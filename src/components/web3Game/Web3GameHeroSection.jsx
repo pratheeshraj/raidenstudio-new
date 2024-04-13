@@ -10,8 +10,8 @@ const Web3GameHeroSection = () => {
         <div className="auto-container metaverseroyal_hero_container">
           <div className="left" data-aos="fade-right" data-aos-delay="300">
             <h2>
-              Immersive
-              <span style={{ color: "#fdb441" }}> Unity Experiences</span> Await
+              Cutting Edge
+              <span style={{ color: "#fdb441" }}>  Web3 Gaming </span> 
             </h2>
             <p
               style={{
@@ -20,8 +20,8 @@ const Web3GameHeroSection = () => {
                 lineHeight: "35px",
               }}
             >
-              Enter Unity, unlock possibilities. Let us craft memorable projects
-              together. Impact awaits
+              Experience immersive, decentralized gameplay like never before
+              with our revolutionary Web3 Game services
             </p>
             <button
               className="default-btn"

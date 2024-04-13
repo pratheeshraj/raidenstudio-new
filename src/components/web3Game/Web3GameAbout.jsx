@@ -27,8 +27,9 @@ const Web3GameAbout = () => {
                 Our Expertise In Unity Game Development
               </h2>
               <p style={{ color: "black" }}>
-                We have honed our skills to deliver innovative and immersive
-                experiences across various platforms.
+                At Raiden, we are pioneers in Web3 Game Development, leveraging
+                blockchain technology and decentralized systems to create
+                innovative gaming experiences. Our expertise includes:
               </p>
               <p>
                 <strong> Comprehensive Understanding:</strong> We possess an

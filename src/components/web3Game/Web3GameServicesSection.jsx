@@ -8,14 +8,14 @@ const Web3GameServicesSection = () => {
         style={{ backgroundColor: "#f8f9fa" }}
       >
         <h2 className="auto-container " style={{ color: "black" }}>
-          Suite of <span style={{ color: "#fdb441" }}>Unity Development</span>{" "}
-          Services
+          Our <span style={{ color: "#fdb441" }}> Web3 Game Development</span>{" "}
+          Services{" "}
         </h2>
         <p
           style={{ color: "black", marginBottom: "40px", textAlign: "center" }}
         >
           Our Unity development services offer unmatched flexibility and
-          creativity, ensuring your project stands <br /> out in today's {" "}
+          creativity, ensuring your project stands <br /> out in today's{" "}
           competitive landscape.
         </p>
         <div className="auto-container row key_features_section_container">
@@ -30,10 +30,10 @@ const Web3GameServicesSection = () => {
               src="/assets/img/raidensimx/key features/immersive.svg"
               alt=""
             />
-            <h6 style={{ color: "black" }}>Game Development</h6>
-            <p style={{color:"black"}}>
-              From concept to launch, we create captivating games tailored to
-              your vision and audience.
+            <h6 style={{ color: "black" }}> Blockchain Integration</h6>
+            <p style={{ color: "black" }}>
+              Incorporate blockchain technology seamlessly into game mechanics
+              for enhanced security and player ownership.
             </p>
           </div>
           <div
@@ -47,10 +47,10 @@ const Web3GameServicesSection = () => {
               src="/assets/img/raidensimx/key features/immersive.svg"
               alt=""
             />
-            <h6 style={{ color: "black" }}> AR/VR Solutions</h6>
+            <h6 style={{ color: "black" }}> Smart Contract Development</h6>
             <p style={{ color: "black" }}>
-              Immerse your audience in captivating virtual experiences or
-              enhance real-world interactions with our AR/VR solutions.
+              Create and deploy smart contracts to automate in-game
+              transactions, guaranteeing transparency and trust.
             </p>
           </div>{" "}
           <div
@@ -64,10 +64,10 @@ const Web3GameServicesSection = () => {
               src="/assets/img/raidensimx/key features/immersive.svg"
               alt=""
             />
-            <h6 style={{ color: "black" }}>Interactive Simulations</h6>
+            <h6 style={{ color: "black" }}> Decentralized In-Game Economies</h6>
             <p style={{ color: "black" }}>
-              Drive engagement and learning through interactive simulations that
-              bring concepts to life.
+              Design and implement decentralized economies within games,
+              fostering player-driven markets and value creation.
             </p>
           </div>{" "}
           <div
@@ -81,10 +81,10 @@ const Web3GameServicesSection = () => {
               src="/assets/img/raidensimx/key features/immersive.svg"
               alt=""
             />
-            <h6 style={{ color: "black" }}>UI/UX Design</h6>
+            <h6 style={{ color: "black" }}> NFT Integration</h6>
             <p style={{ color: "black" }}>
-              Elevate user experiences with intuitive and visually stunning
-              UI/UX design for your Unity projects.
+              Integrate Non-Fungible Tokens (NFTs) to create unique, tradable
+              in-game assets, enhancing player engagement and monetization.
             </p>
           </div>{" "}
           <div
@@ -98,10 +98,11 @@ const Web3GameServicesSection = () => {
               src="/assets/img/raidensimx/key features/immersive.svg"
               alt=""
             />
-            <h6 style={{ color: "black" }}> Multi-platform Deployment</h6>
+            <h6 style={{ color: "black" }}> Multiplayer Functionality</h6>
             <p style={{ color: "black" }}>
-              Ensure your Unity projects reach a wider audience with seamless
-              deployment across multiple platforms.
+              Develop robust multiplayer functionalities using decentralized
+              networking protocols, ensuring seamless and secure gaming
+              experiences.
             </p>
           </div>{" "}
           <div
@@ -115,10 +116,13 @@ const Web3GameServicesSection = () => {
               src="/assets/img/raidensimx/key features/immersive.svg"
               alt=""
             />
-            <h6 style={{ color: "black" }}> Maintenance & Support </h6>
+            <h6 style={{ color: "black" }}>
+              {" "}
+              Blockchain Platform Optimization
+            </h6>
             <p style={{ color: "black" }}>
-              We provide ongoing maintenance and support services to keep your
-              Unity projects running smoothly post-launch.
+              Optimize games for various blockchain platforms and protocols,
+              ensuring compatibility and scalability.
             </p>
           </div>
         </div>
