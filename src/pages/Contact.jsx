@@ -28,7 +28,7 @@ const Contact = () => {
         {/* Breadcrumb */}
         <Breadcrumb data={"Contact"} />
         {/* Contact Section */}
-        <ContactSection2 />
+        <ContactSection />
         {/* News Section One */}
         <NewsSectionOne />
         {/* Footer Section */}
