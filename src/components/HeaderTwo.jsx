@@ -17,17 +17,21 @@ const HeaderTwo = () => {
     "Raiden Verse",
     "Raiden SimX",
     "Raiden COGNI+",
-    "Raiden ARCVIZ"
+    "Raiden ARCVIZ",
   ];
   const ProductPara = [
     "Collaboration in a dynamic universe where the possibilities are endless.",
     "Human guidance to enhance simulation training through immersive learning",
     "Transforming lives with practical skills for real-world success, one lesson at a time.",
     "Transforming blueprints into immersive, photorealistic environments.",
-  ]
+  ];
 
-  const productTo = ["/project-details", "/raidensimx", "/raiden-cogni", "/raiden-arcviz"]
-
+  const productTo = [
+    "/project-details",
+    "/raidensimx",
+    "/raiden-cogni",
+    "/raiden-arcviz",
+  ];
 
   const gameValues2 = [0.5, 0.5, 0.5];
   const gameNames2 = [
@@ -35,19 +39,33 @@ const HeaderTwo = () => {
     "Virtual Vegas",
     "MetaVerse Royale",
   ];
-  const gamelink = [`/gameproduct-details`, "/metaverse-casino", "", ""]
+  const gamelink = [
+    `/gameproduct-details`,
+    "/metaverse-casino",
+    "/metaverse-royal",
+    "",
+  ];
 
   const gamePara = [
     "Forge your empire, rule the realm with Realm Wars: Clash of Empires.",
     "Forge your empire, rule the realm with Realm Wars: Clash of Empires.",
     "Gateway to immersive Battle Royale experiences in the Metaverse.",
-    "Forge your empire, rule the realm with Realm Wars: Clash of Empires."
-  ]
+    "Forge your empire, rule the realm with Realm Wars: Clash of Empires.",
+  ];
 
   // service
 
   // block chain
-  const blockChainTo = ["", "/nft-development", "", "", "/metaverse-development", "", "", ""]
+  const blockChainTo = [
+    "",
+    "/nft-development",
+    "",
+    "",
+    "/metaverse-development",
+    "",
+    "",
+    "",
+  ];
   const blockchainValues = [0.5, 0.5, 0.5, 0.5, 0.5, 0.5];
   const blockchainnames = [
     "Custom Blockchain",
@@ -57,7 +75,7 @@ const HeaderTwo = () => {
     "Metaverse",
     "Blockchain Game",
     "Layer 1 & Layer 2",
-    "Smart Contract"
+    "Smart Contract",
   ];
 
   // Ai
@@ -70,18 +88,14 @@ const HeaderTwo = () => {
 
   // xr
 
-
-  const xrlink = ["/ar-development", "/vr-development", ""]
+  const xrlink = ["/ar-development", "/vr-development", ""];
   const xrValues = [0.5, 0.5, 0.5];
-  const xrNames = [
-    "AR Services",
-    "VR Services",
-    "Digital Twin",
-  ];
+  const xrNames = ["AR Services", "VR Services", "Digital Twin"];
 
   // game
 
   const gameValues = [0.5, 0.5, 0.5, 0.5, 0.5, 0.5];
+  // /mobile-game-development
   const gameNames = [
     "Mobile Game Development",
     "Unity Development",
@@ -90,6 +104,7 @@ const HeaderTwo = () => {
     "P2E Game Development",
     "Web3 Game Development",
   ];
+  const gameNamesLink = ["/mobile-game-development", "", "", "", "", ""];
 
   //  compony
 
@@ -218,10 +233,7 @@ const HeaderTwo = () => {
               </div>
             </div>
           </div> */}
-          <div
-            className="header-inner"
-            id="header-sticky-2"
-          >
+          <div className="header-inner" id="header-sticky-2">
             <div className="auto-container">
               <div className="row align-items-center">
                 <div className=" col-lg-3 col-md-6 col-6">
@@ -335,8 +347,9 @@ const HeaderTwo = () => {
                               <div className="sub-menu-div">
                                 <li
                                   style={{ marginTop: "20px" }}
-                                  className={`has-dropdown ${activeMenu1 === "virtual" ? "active" : ""
-                                    }`}
+                                  className={`has-dropdown ${
+                                    activeMenu1 === "virtual" ? "active" : ""
+                                  }`}
                                   onMouseEnter={() =>
                                     handleMenuHover1("virtual")
                                   }
@@ -347,8 +360,9 @@ const HeaderTwo = () => {
                                   </Link>
                                 </li>
                                 <li
-                                  className={`has-dropdown ${activeMenu1 === "Game2" ? "active" : ""
-                                    }`}
+                                  className={`has-dropdown ${
+                                    activeMenu1 === "Game2" ? "active" : ""
+                                  }`}
                                   onMouseEnter={() => handleMenuHover1("Game2")}
                                 >
                                   <Link
@@ -484,12 +498,13 @@ const HeaderTwo = () => {
                             <ul className="sub-menu">
                               <div className="sub-menu-div">
                                 <li
-                                  className={`has-dropdown ${activeMenu === "Blockchain" ? "active" : ""
-                                    }`}
+                                  className={`has-dropdown ${
+                                    activeMenu === "Blockchain" ? "active" : ""
+                                  }`}
                                   onMouseEnter={() =>
                                     handleMenuHover("Blockchain")
                                   }
-                                // onClick={() => handleMenuClick('team')}
+                                  // onClick={() => handleMenuClick('team')}
                                 >
                                   <Link
                                     className="left_content_arrow"
@@ -501,10 +516,11 @@ const HeaderTwo = () => {
                                   </Link>
                                 </li>
                                 <li
-                                  className={`has-dropdown ${activeMenu === "AI" ? "active" : ""
-                                    }`}
+                                  className={`has-dropdown ${
+                                    activeMenu === "AI" ? "active" : ""
+                                  }`}
                                   onMouseEnter={() => handleMenuHover("AI")}
-                                // onClick={() => handleMenuClick('project1')}
+                                  // onClick={() => handleMenuClick('project1')}
                                 >
                                   <Link className="left_content_arrow" to="#">
                                     AI{" "}
@@ -512,8 +528,9 @@ const HeaderTwo = () => {
                                   </Link>
                                 </li>
                                 <li
-                                  className={`has-dropdown ${activeMenu === "XR" ? "active" : ""
-                                    }`}
+                                  className={`has-dropdown ${
+                                    activeMenu === "XR" ? "active" : ""
+                                  }`}
                                   onMouseEnter={() => handleMenuHover("XR")}
                                 >
                                   <Link className="left_content_arrow" to="#">
@@ -522,8 +539,9 @@ const HeaderTwo = () => {
                                   </Link>
                                 </li>
                                 <li
-                                  className={`has-dropdown ${activeMenu === "Game" ? "active" : ""
-                                    }`}
+                                  className={`has-dropdown ${
+                                    activeMenu === "Game" ? "active" : ""
+                                  }`}
                                   onMouseEnter={() => handleMenuHover("Game")}
                                 >
                                   <Link
@@ -613,7 +631,11 @@ const HeaderTwo = () => {
                                             (value, index) => (
                                               <Link
                                                 key={index}
-                                                to={index === 0 ? "#" : "/ai-development"}
+                                                to={
+                                                  index === 0
+                                                    ? "#"
+                                                    : "/ai-development"
+                                                }
                                                 onMouseEnter={() =>
                                                   setHoveredIndex(index)
                                                 }
@@ -729,7 +751,7 @@ const HeaderTwo = () => {
                                           {gameValues.map((value, index) => (
                                             <Link
                                               key={index}
-                                              // to={`/link${index}`}
+                                              to={gameNamesLink[index]}
                                               onMouseEnter={() =>
                                                 setHoveredIndex(index)
                                               }
@@ -787,12 +809,13 @@ const HeaderTwo = () => {
                             <ul className="sub-menu">
                               <div className="sub-menu-div">
                                 <li
-                                  className={`has-dropdown ${activeMenu2 === "Company" ? "active" : ""
-                                    }`}
+                                  className={`has-dropdown ${
+                                    activeMenu2 === "Company" ? "active" : ""
+                                  }`}
                                   onMouseEnter={() =>
                                     handleMenuHover2("Company")
                                   }
-                                // onClick={() => handleMenuClick('team')}
+                                  // onClick={() => handleMenuClick('team')}
                                 >
                                   <Link
                                     className="left_content_arrow"
@@ -821,10 +844,10 @@ const HeaderTwo = () => {
                                                   index === 0
                                                     ? "/about"
                                                     : index === 2
-                                                      ? "/contact"
-                                                      : index === 1
-                                                        ? "/career"
-                                                        : ""
+                                                    ? "/contact"
+                                                    : index === 1
+                                                    ? "/career"
+                                                    : ""
                                                 } // Assuming index 0 is for "About us" and index 2 is for "Contact us"
                                                 onMouseEnter={() =>
                                                   setHoveredIndex(index)

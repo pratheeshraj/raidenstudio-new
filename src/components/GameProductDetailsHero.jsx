@@ -10,7 +10,7 @@ import section4 from "../images/gameproduct-detailimg/section4.png";
 import AnimationCardScroll from "./AnimationCardScroll";
 import ScrollAnimation from "react-animate-on-scroll";
 import technical_img from "../images/clashof/2151004297.jpg";
-import section2 from "../images/clashof/clash.png"
+import section2 from "../images/clashof/clash.png";
 const GameProductDetailsHero = () => {
   const heroImageRef = useRef(null);
   const [Compatibility, setCompatibility] = useState(true);
@@ -142,14 +142,7 @@ const GameProductDetailsHero = () => {
     // Cleanup on component unmount
     return () => tiltRef.current && tiltRef.current.vanillaTilt.destroy();
   }, []);
-  const processSteps = [
-    "Research & Concept Creation",
-    "Design",
-    "Development",
-    "Testing",
-    "Launch",
-    // Add your actual steps or content here
-  ];
+
   const data = [1, 2, 2, 3, 4, 5];
   const KeyFeatures = [
     {
@@ -179,7 +172,40 @@ const GameProductDetailsHero = () => {
     },
     {
       title: "Global Competition",
-      content: "Compete in epic tournaments and global events to prove your dominance and earn prestigious rewards. ",
+      content:
+        "Compete in epic tournaments and global events to prove your dominance and earn prestigious rewards. ",
+    },
+  ];
+  const KeyFeatures1 = [
+    {
+      title: "White Label Solution",
+      content:
+        "With full control over branding and customization options, you can create a compelling gaming experience that reflects your vision and values.",
+    },
+    {
+      title: "Flexible Licensing Options",
+      content:
+        "Choose from a range of flexible licensing options tailored to meet your specific needs and budget requirements. ",
+    },
+    {
+      title: "Comprehensive Support",
+      content:
+        "From game development and design to marketing and monetization strategies, our team of experts is here to support you every step of the way.",
+    },
+    {
+      title: "Player Profiles and Customization",
+      content:
+        "Customize your player profile with avatars, titles, and badges, showcasing your unique identity and achievements within the community.",
+    },
+    {
+      title: "Guilds and Alliances",
+      content:
+        "Form powerful alliances with other players to coordinate attacks, share resources, and dominate the battlefield together. ",
+    },
+    {
+      title: "Leaderboards and Rankings",
+      content:
+        "Compete for glory and recognition on global leaderboards, showcasing your skills and achievements to the entire community. ",
     },
   ];
   const section5 = [
@@ -263,7 +289,7 @@ const GameProductDetailsHero = () => {
         "Release regular updates and patches to introduce new features, content",
     },
   ];
-  
+
   return (
     <Fragment>
       <section>
@@ -326,9 +352,12 @@ const GameProductDetailsHero = () => {
         <div className="container-fluid section-3">
           <div className="auto-container game-details-Services">
             <h2>Feature Highlights</h2>
-            <p style={{textAlign:"center"}}>Discover the core functionalities and standout attributes that set our game apart from the competition</p>
+            <p style={{ textAlign: "center" }}>
+              Discover the core functionalities and standout attributes that set
+              our game apart from the competition
+            </p>
             <div className="all_card">
-              {KeyFeatures.map((KeyFeatures, i) => {
+              {KeyFeatures1.map((KeyFeatures, i) => {
                 return (
                   <AnimationCardScroll animateIn="fadeInUp" duration={1.5}>
                     {" "}
@@ -344,12 +373,15 @@ const GameProductDetailsHero = () => {
         <div className="container-fluid section_4">
           <div className="auto-container game_features">
             <h2>In-Game Experiences</h2>
-            <p style={{textAlign:"center"}}>Delve into the immersive gameplay elements and interactive features that make our game truly captivating</p>
+            <p style={{ textAlign: "center" }}>
+              Delve into the immersive gameplay elements and interactive
+              features that make our game truly captivating
+            </p>
             <div className="Gamefeature_all_card">
-              {data.map(() => {
+              {KeyFeatures.map((data, index) => {
                 return (
                   <AnimationCardScroll animateIn="fadeInUp" duration={1.5}>
-                    <GameFeaturesCards />
+                    <GameFeaturesCards number={index} data={data} />
                   </AnimationCardScroll>
                 );
               })}
@@ -360,8 +392,15 @@ const GameProductDetailsHero = () => {
       <section>
         <div className="container-fluid game_product_section5">
           <div className="auto-container">
+            <h2 style={{ textAlign: "center", marginBottom: "10px" }}>
+              Under the Hood
+            </h2>
+            <p style={{ textAlign: "center", marginBottom: "80px" }}>
+              {" "}
+              Explore the hardware and software requirements necessary for
+              seamless gameplay and optimal performance
+            </p>
             <div className="row game_product_content">
-              <h2>Technical Details</h2>
               <div className="col-md-12 detail">
                 <div className="section_5">
                   <div className="left">
@@ -736,15 +775,12 @@ const GameProductDetailsHero = () => {
               >
                 <h3>FAQ For Artificial Intelligence </h3>
                 <h2>
-                  The goal of Artificial <br />
-                  <span className="theme-color">intelligence</span>
+                  Answers at a <br />
+                  <span className="theme-color">Glance</span>
                 </h2>
                 <p>
-                  Artificial intelligence is the simulation of human
-                  intelligence processes by machines, especially computer
-                  systems. Specific applications of AI include expert systems,
-                  natural language processing, speech recognition and machine
-                  vision.
+                  Find quick solutions and insights to common queries and
+                  concerns about our game with our comprehensive FAQ section
                 </p>
               </div>
               <div

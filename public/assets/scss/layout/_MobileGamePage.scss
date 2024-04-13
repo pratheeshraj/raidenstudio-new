@@ -1,0 +1,186 @@
+@use "../utils" as *;
+
+.mobile_gamewhy_choose_main {
+  padding: 100px 0;
+}
+
+.mobile_gamewhy_choose {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  @media #{$md,$sm,$xs,$xss} {
+    flex-direction: column;
+  }
+  .mobile_game_left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 40%;
+    @media #{$md,$sm,$xs,$xss} {
+      width: 100%;
+    }
+    h2 {
+      color: black;
+      span {
+        color: #fdb441;
+      }
+      @media #{$md,$sm,$xs,$xss} {
+        text-align: center;
+      }
+    }
+    h6 {
+      color: black;
+      @media #{$md,$sm,$xs,$xss} {
+        text-align: center;
+      }
+    }
+  }
+  .mobile_game_right {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    @media #{$md} {
+      width: 90%;
+    }
+    @media #{$sm,$xs,$xss} {
+      width: 95%;
+    }
+    @media #{$xs,$xss} {
+      width: 100%;
+    }
+    .mobail_game_card {
+      display: flex;
+      gap: 40px;
+      align-items: center;
+      @media #{$xs,$xss} {
+        gap: 20px;
+      }
+      .left {
+        background-color: #fdb441;
+        padding: 10px;
+        transform: rotate(45deg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @media #{$xs,$xss} {
+          padding: 8px;
+        }
+        .icon_container {
+          width: 80px;
+          height: 80px;
+          background-color: white;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          @media #{$xs,$xss} {
+            width: 60px;
+            height: 60px;
+          }
+          @media #{$xss} {
+            width: 50px;
+            height: 50px;
+          }
+          img {
+            width: 50px;
+            height: 50px;
+            transform: rotate(-45deg);
+            @media #{$xs,$xss} {
+              width: 40px;
+              height: 40px;
+            }
+            @media #{$xss} {
+              width: 35px;
+              height: 35px;
+            }
+          }
+        }
+      }
+      .right {
+        h6 {
+          color: black;
+          @media #{$xs,$xss} {
+            font-size: 20px;
+          }
+          @media #{$xs,$xss} {
+            font-size: 16px;
+          }
+        }
+        p {
+          color: black;
+          @media #{$xs,$xss} {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+.pagebenifit_container {
+  h2 {
+    text-align: center;
+    color: black;
+    @media #{$xs,$xss} {
+        font-size: 26px;
+      }
+    span {
+      color: #fdb441;
+    }
+  }
+  p {
+    color: black;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+}
+.mobileGamePageBenifit {
+  background-color: #f8f9fa;
+  padding: 100px 0;
+  .pagebenifit {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    @media (max-width: 1119px) {
+      justify-content: center;
+      gap: 20px;
+    }
+    .pagebenifit_card {
+      width: 320px;
+      padding: 20px 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      @media #{$xs,$xss} {
+       width: 100%;
+      }
+      .top_section {
+        width: fit-content;
+        border-radius: 50%;
+        padding: 12px;
+        border: 2px solid white;
+        .icon {
+          padding: 15px;
+          background-color: white;
+          border-radius: 50%;
+          img {
+            width: 50px;
+            height: 50px;
+          }
+        }
+      }
+      .center_section {
+        h6 {
+          font-size: 20px;
+          text-align: center;
+          color: black;
+        }
+        p {
+          text-align: center;
+          color: black;
+        }
+      }
+    }
+  }
+}

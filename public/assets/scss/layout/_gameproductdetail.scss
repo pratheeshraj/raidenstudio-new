@@ -4,10 +4,9 @@
   background-image: url(../../../../src/images/gameproducthero.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height:91vh;
+  height: 91vh;
   display: flex;
   align-items: center;
-
 }
 
 .gameproduct_hero_container {
@@ -566,7 +565,8 @@
 }
 .game_product_section5 {
   h2 {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
+    color: var(--theme-1);
   }
 }
 
@@ -627,8 +627,16 @@
   flex-direction: column;
   display: flex;
   width: 100%;
+  .card_section5 {
+    img {
+      width: 100%;
+    }
+  }
+  @media (min-width: 768px) {
+    display: none;
+  }
 }
 
-.section_5_ul li{
- margin-bottom: 30px;
+.section_5_ul li {
+  margin-bottom: 30px;
 }

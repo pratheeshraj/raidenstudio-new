@@ -547,28 +547,29 @@ const RaidenSimXContent = () => {
             <h5>
               At Raiden we are <span>committed to</span>
             </h5>
+        
             <div className="RaidensimX_commitment_boxs">
               <div className="RaidensimX_commitment_box">
-                <img src={ico2} alt="" />
+                <img src={"/assets/img/raidensimx/simx our commitment/continouslinoovating.svg"} alt="" />
                 <p>
                   Continuously innovating to deliver cutting-edge learning
                   solutions.
                 </p>
               </div>
               <div className="RaidensimX_commitment_box">
-                <img src={ico2} alt="" />
+                <img src={"/assets/img/raidensimx/simx our commitment/providing.svg"} alt="" />
                 <p>Providing exceptional customer support and service.</p>
               </div>
 
               <div className="RaidensimX_commitment_box">
-                <img src={ico2} alt="" />
+                <img src={"/assets/img/raidensimx/simx our commitment/fostering.svg"} alt="" />
                 <p>
                   Fostering a culture of inclusion, diversity, and
                   collaboration.
                 </p>
               </div>
               <div className="RaidensimX_commitment_box">
-                <img src={ico2} alt="" />
+                <img src={"/assets/img/raidensimx/simx our commitment/upholding.svg"} alt="" />
                 <p>
                   Upholding the highest standards of integrity, ethics, and
                   professionalism.

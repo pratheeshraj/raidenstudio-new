@@ -1,17 +1,14 @@
 import React from "react";
 import icon1 from "../images/gameproduct-detailimg/icon2.png";
 
-const GameFeaturesCards = () => {
+const GameFeaturesCards = ({ data ,number}) => {
+  console.log(number);
   return (
     <div className="gamefeature_card">
       <div className="box_card1">
-        <h2 className="bg_number">01</h2>
-        <h6>Security</h6>
-        <p>
-          Any process associated with the NFT gaming platform is completely
-          transparent because of the decentralized nature of the system. The
-          in-game purchases are highly secure.
-        </p>
+        <h2 className="bg_number">0{number+1}</h2>
+        <h6>{data?.title}</h6>
+        <p>{data?.content}</p>
       </div>
     </div>
   );
