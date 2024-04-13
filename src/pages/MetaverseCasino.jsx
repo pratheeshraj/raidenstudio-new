@@ -19,7 +19,6 @@ const MetaverseCasino = () => {
                 <HeaderTwo />
                 <MetaverseCasionoHero />
                 <MetaverseCasinoContent />
-                <ChoiceOfGames />
                 <section
                     className="counter-section one"
                     style={{
