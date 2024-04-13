@@ -10,20 +10,12 @@ const MmorpgHeroSection = () => {
         <div className="auto-container metaverseroyal_hero_container">
           <div className="left" data-aos="fade-right" data-aos-delay="300">
             <h2>
-              An immersive{" "}
-              <span style={{ color: "#fdb441" }}>
-                , fantastical world bustling{" "}
-              </span>{" "}
-              with <br />{" "}
-              <span style={{ color: "#fdb441" }}>
-                adventures and possibilities.
-              </span>
+              A vibrant MMORPG world of
+              <span style={{ color: "#fdb441" }}> adventure </span>
             </h2>
             <p>
-              Dive into the realm of limitless imagination with Raiden's MMORPG
-              Development Services. Crafted by experts, fueled by creativity,
-              and designed for the extraordinary, our MMORPG solutions redefine
-              virtual realms.
+              Crafted by experts, fueled by creativity, redefining virtual
+              realms with extraordinary MMORPG solutions.
             </p>
             <button
               className="default-btn"

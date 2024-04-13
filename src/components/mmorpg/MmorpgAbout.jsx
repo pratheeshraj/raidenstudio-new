@@ -24,21 +24,25 @@ const MmorpgAbout = () => {
           <div className="col-lg-6">
             <div className="right-wrapper ps-2">
               <h2 style={{ color: "black" }} className="title">
-                Our Expertise in MMORPG Development in Detail
+                Our Mastery in MMORPG Development
               </h2>
               <p style={{ color: "black" }}>
-                At Raiden, we're experts in creating virtual worlds. Our team
-                has years of experience and a strong passion for innovation. We
-                specialize in building captivating environments and designing
-                characters that bring stories to life
+                Explore our prowess in crafting immersive worlds, dynamic
+                gameplay, and engaging experiences in
               </p>
               <p style={{ color: "black" }}>
-                Not only do we focus on world building, but we also excel in
-                other aspects of game development. From crafting engaging quests
-                to making multiplayer games fun and seamless, we pay attention
-                to every detail. Our goal is to create games that players love,
-                with intuitive interfaces and ongoing support for the best
-                experience possible.
+               <strong>World-building:</strong> Crafting intricate and immersive virtual
+                environments that captivate players. Gameplay Mechanics:
+                Implementing dynamic and engaging gameplay systems tailored to
+                the MMORPG genre.
+              </p>
+              <p>
+                <strong>Quest and Storyline Design:</strong> Creating compelling narratives and
+                quests that drive player engagement and progression.
+              </p>
+              <p>
+               <strong> Multiplayer Integration:</strong> Developing robust multiplayer
+                functionality to facilitate seamless interaction among players.
               </p>
             </div>
           </div>

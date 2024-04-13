@@ -8,9 +8,14 @@ const MmorpgServicesSection = () => {
         style={{ backgroundColor: "#f8f9fa" }}
       >
         <h2 className="auto-container " style={{ color: "black" }}>
-          Our <span style={{ color: "#fdb441" }}>MMORPG Development </span>{" "}
-          Services
+          Forge Legends:{" "}
+          <span style={{ color: "#fdb441" }}> MMORPG Creation </span> Services
         </h2>
+        <p style={{ color: "black", textAlign: "center" }}>
+          From character customization to seamless multiplayer experiences, we
+          specialize in delivering immersive,  <br />feature-rich worlds that keep
+          players coming back for more
+        </p>
         <div className="auto-container row key_features_section_container">
           <div
             className="key_features_card"

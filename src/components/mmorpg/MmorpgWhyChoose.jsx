@@ -64,23 +64,7 @@ const MmorpgWhyChoose = () => {
                 </p>
               </div>
             </div>
-            <div className="mobail_game_card">
-              <div className="left">
-                <div className="icon_container">
-                  <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div className="right">
-                <h6> Scalability and Flexibility</h6>
-                <p>
-                  From indie projects to AAA titles, our solutions scale to fit
-                  diverse needs and budgets.
-                </p>
-              </div>
-            </div>
+      
             <div className="mobail_game_card">
               <div className="left">
                 <div className="icon_container">

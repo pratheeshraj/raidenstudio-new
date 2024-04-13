@@ -13,6 +13,7 @@ import FooterSectionOne from '../components/FooterSectionOne'
 import ContactSection2 from '../components/ContactSection2'
 import NewsSectionOne from '../components/NewsSectionOne'
 import NftCounter from '../components/Nftdevelopment/NftCounter'
+import MmorpgCount from '../components/mmorpg/MmorpgCount'
 const MmorpgGamePage = () => {
   return (
     <Fragment>
@@ -22,7 +23,7 @@ const MmorpgGamePage = () => {
       <MmorpgHeroSection/>
       <MmorpgAbout />
       <MmorpgServicesSection />
-      <NftCounter />
+      <MmorpgCount />
       <MmorpgWhyChoose />
       <MmorpgBenefitSection />
       <MmorpgBannerSection />

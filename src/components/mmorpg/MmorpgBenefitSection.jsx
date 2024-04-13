@@ -6,9 +6,13 @@ const MmorpgBenefitSection = () => {
       <div className="container-fluid mobileGamePageBenifit ">
         <div className="auto-container pagebenifit_container">
           <h2>
-            Benefit In <span>Unity Development</span>
+            The Strategic Edge of <span>MMORPG Development</span>
           </h2>
-
+          <p>
+            Experience the transformative impact of MMORPG development as you
+            build vibrant communities, foster player <br /> interaction, and redefine
+            the boundaries of virtual storytelling
+          </p>
           <div className="pagebenifit">
             <div className="pagebenifit_card">
               <div className="top_section">
@@ -37,9 +41,10 @@ const MmorpgBenefitSection = () => {
                 </div>
               </div>
               <div className="center_section">
-                <h6>	Global Reach</h6>
+                <h6> Global Reach</h6>
                 <p>
-                Connect with players worldwide, transcending geographical boundaries and cultural differences.
+                  Connect with players worldwide, transcending geographical
+                  boundaries and cultural differences.
                 </p>
               </div>
             </div>
@@ -53,9 +58,10 @@ const MmorpgBenefitSection = () => {
                 </div>
               </div>
               <div className="center_section">
-                <h6>	Revenue Potential</h6>
+                <h6> Revenue Potential</h6>
                 <p>
-                Monetize your game effectively while enhancing player satisfaction and retention.
+                  Monetize your game effectively while enhancing player
+                  satisfaction and retention.
                 </p>
               </div>
             </div>
@@ -69,9 +75,10 @@ const MmorpgBenefitSection = () => {
                 </div>
               </div>
               <div className="center_section">
-                <h6>	Community Building</h6>
+                <h6> Community Building</h6>
                 <p>
-                Cultivate passionate player communities that fuel long-term success and loyalty.
+                  Cultivate passionate player communities that fuel long-term
+                  success and loyalty.
                 </p>
               </div>
             </div>
@@ -85,9 +92,10 @@ const MmorpgBenefitSection = () => {
                 </div>
               </div>
               <div className="center_section">
-                <h6>	Continuous Evolution</h6>
+                <h6> Continuous Evolution</h6>
                 <p>
-                Stay relevant and competitive with regular updates and expansions that keep players coming back for more.
+                  Stay relevant and competitive with regular updates and
+                  expansions that keep players coming back for more.
                 </p>
               </div>
             </div>
@@ -101,9 +109,10 @@ const MmorpgBenefitSection = () => {
                 </div>
               </div>
               <div className="center_section">
-                <h6> 	Brand Recognition</h6>
+                <h6> Brand Recognition</h6>
                 <p>
-                Position your brand as a leader in the gaming industry with standout MMORPG experiences.
+                  Position your brand as a leader in the gaming industry with
+                  standout MMORPG experiences.
                 </p>
               </div>
             </div>
