@@ -105,7 +105,6 @@ function App() {
         <Route exact path="/ar-development" element={<ARdevelopment />} />
         <Route exact path="/mobile-game-development" element={<MobileGame />} />
         <Route exact path="/blockchain" element={<Blockchain />} />
-
         <Route exact path="/unity-development" element={<UnityGamePage />} />
         <Route exact path="/unreal-development" element={<UnrealGamePage />} />
         <Route exact path="/mmorpg-development" element={<MmorpgGamePage />} />
