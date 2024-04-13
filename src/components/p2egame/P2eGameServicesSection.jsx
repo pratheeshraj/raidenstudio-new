@@ -1,6 +1,6 @@
 import React from "react";
 
-const MobailGamePageServices = () => {
+const P2eGameServicesSection = () => {
   return (
     <section>
       <div
@@ -8,13 +8,9 @@ const MobailGamePageServices = () => {
         style={{ backgroundColor: "#f8f9fa" }}
       >
         <h2 className="auto-container " style={{ color: "black" }}>
-          <span style={{ color: "#fdb441" }}>Game-Changing </span> Services
+          Our <span style={{ color: "#fdb441" }}>P2E Game Development </span>{" "}
+          Services
         </h2>
-        <p style={{color:"black",textAlign:"center"}}>
-          Explore our comprehensive suite of mobile game development services,
-          tailored to elevate your gaming experience and drive success in the
-          competitive market
-        </p>
         <div className="auto-container row key_features_section_container">
           <div
             className="key_features_card"
@@ -27,12 +23,10 @@ const MobailGamePageServices = () => {
               src="/assets/img/raidensimx/key features/immersive.svg"
               alt=""
             />
-            <h6 style={{ color: "black" }}>
-              Conceptualization and Storyboarding
-            </h6>
+            <h6 style={{ color: "black" }}>Concept Design and Storyboarding</h6>
             <p style={{ color: "black" }}>
-              We transform your ideas into compelling game concepts, crafting
-              captivating storylines and characters.
+              From ideation to narrative creation, we breathe life into your
+              game concept, ensuring it resonates with your target audience.
             </p>
           </div>
           <div
@@ -46,10 +40,10 @@ const MobailGamePageServices = () => {
               src="/assets/img/raidensimx/key features/immersive.svg"
               alt=""
             />
-            <h6 style={{ color: "black" }}> Design and Development</h6>
+            <h6 style={{ color: "black" }}> Blockchain Integration</h6>
             <p style={{ color: "black" }}>
-              Our skilled designers and developers bring your vision to life,
-              ensuring seamless gameplay and stunning visuals.
+              Seamlessly integrate blockchain technology into your game to
+              enable secure asset ownership and transparent in-game economies.
             </p>
           </div>{" "}
           <div
@@ -63,10 +57,10 @@ const MobailGamePageServices = () => {
               src="/assets/img/raidensimx/key features/immersive.svg"
               alt=""
             />
-            <h6 style={{ color: "black" }}>UI/UX Design</h6>
+            <h6 style={{ color: "black" }}>Smart Contract Development: </h6>
             <p style={{ color: "black" }}>
-              We prioritize user experience, designing intuitive interfaces that
-              enhance player engagement and enjoyment.
+              Our experts develop custom smart contracts tailored to your game's
+              mechanics, ensuring fairness and security for all players.
             </p>
           </div>{" "}
           <div
@@ -80,10 +74,11 @@ const MobailGamePageServices = () => {
               src="/assets/img/raidensimx/key features/immersive.svg"
               alt=""
             />
-            <h6 style={{ color: "black" }}> Multi-platform Compatibility</h6>
+            <h6 style={{ color: "black" }}>Game Development</h6>
             <p style={{ color: "black" }}>
-              Our games are optimized for various mobile platforms, reaching a
-              wider audience and maximizing your game's potential.
+              Leveraging the latest tools and technologies, we bring your game
+              to life with stunning visuals, engaging gameplay, and scalable
+              architecture.
             </p>
           </div>{" "}
           <div
@@ -97,10 +92,11 @@ const MobailGamePageServices = () => {
               src="/assets/img/raidensimx/key features/immersive.svg"
               alt=""
             />
-            <h6 style={{ color: "black" }}>Testing and Quality Assurance</h6>
+            <h6 style={{ color: "black" }}>Monetization Strategy</h6>
             <p style={{ color: "black" }}>
-              Rigorous testing ensures that your game runs smoothly across
-              devices, delivering a flawless gaming experience.
+              Craft a comprehensive monetization strategy that balances player
+              incentives with sustainable revenue streams, maximizing
+              profitability without compromising player experience.
             </p>
           </div>{" "}
           <div
@@ -116,11 +112,12 @@ const MobailGamePageServices = () => {
             />
             <h6 style={{ color: "black" }}>
               {" "}
-              Ongoing Support and Maintenance{" "}
+              Community Building and Marketing
             </h6>
             <p style={{ color: "black" }}>
-              We provide comprehensive support post-launch, ensuring that your
-              game remains updated and optimized for continued success.
+              Foster a vibrant community around your game through strategic
+              marketing initiatives, influencer partnerships, and community
+              engagement campaigns.
             </p>
           </div>
         </div>
@@ -129,4 +126,4 @@ const MobailGamePageServices = () => {
   );
 };
 
-export default MobailGamePageServices;
+export default P2eGameServicesSection;

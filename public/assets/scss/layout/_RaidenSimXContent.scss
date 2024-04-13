@@ -109,7 +109,7 @@
   h2 {
     color: var(--theme-1);
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 
     @media #{$md} {
       font-size: 32px;
@@ -120,6 +120,9 @@
     }
   }
 
+  p{
+    margin-bottom: 40px;
+  }
   .key_features_section_container {
     display: flex;
     justify-content: space-between;

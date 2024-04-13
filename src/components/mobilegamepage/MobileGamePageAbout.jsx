@@ -27,12 +27,25 @@ const MobileGamePageAbout = () => {
                 Our Expertise In Mobile Game Development
               </h2>
               <p style={{ color: "black" }}>
-                 At Raiden, we boast a team of seasoned developers and
-                designers who are passionate about mobile game development. With
-                years of experience under our belt, we excel in creating
-                engaging and addictive gaming experiences across various genres.
+                At Raiden, we boast a team of seasoned developers and designers
+                who are passionate about mobile game development. With years of
+                experience under our belt, we excel in creating engaging and
+                addictive gaming experiences across various genres.
               </p>
-      
+              <p>
+                <strong>Cutting-Edge Technology:</strong> We integrate advanced
+                technologies like AR and VR for immersive experiences.
+                Cross-Platform Mastery: Expertise in Unity and Unreal Engine
+                ensures seamless performance across devices
+              </p>
+              <p>
+                <strong> Diverse Genre Proficiency:</strong> From action to
+                strategy, we excel in developing games across all genres.
+              </p>
+              <p>
+                <strong> Scalable Solutions:</strong> Our games are designed for
+                future expansion and feature enhancements.
+              </p>
             </div>
           </div>
         </div>
