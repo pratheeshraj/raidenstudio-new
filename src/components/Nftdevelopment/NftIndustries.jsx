@@ -72,7 +72,7 @@ function NftIndustries() {
                         </div>
                         <div className='feature_card idustry'>
                             <img src='/assets/img/industries/mortarboard@0.3x.png' />
-                            <div>Eduction</div>
+                            <div>Education</div>
                         </div>
                     </div>
                 </div>

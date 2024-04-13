@@ -57,7 +57,7 @@ const HeaderTwo = () => {
 
   // block chain
   const blockChainTo = [
-    "",
+    "/blockchain",
     "/nft-development",
     "",
     "",
@@ -347,9 +347,8 @@ const HeaderTwo = () => {
                               <div className="sub-menu-div">
                                 <li
                                   style={{ marginTop: "20px" }}
-                                  className={`has-dropdown ${
-                                    activeMenu1 === "virtual" ? "active" : ""
-                                  }`}
+                                  className={`has-dropdown ${activeMenu1 === "virtual" ? "active" : ""
+                                    }`}
                                   onMouseEnter={() =>
                                     handleMenuHover1("virtual")
                                   }
@@ -360,9 +359,8 @@ const HeaderTwo = () => {
                                   </Link>
                                 </li>
                                 <li
-                                  className={`has-dropdown ${
-                                    activeMenu1 === "Game2" ? "active" : ""
-                                  }`}
+                                  className={`has-dropdown ${activeMenu1 === "Game2" ? "active" : ""
+                                    }`}
                                   onMouseEnter={() => handleMenuHover1("Game2")}
                                 >
                                   <Link
@@ -498,13 +496,12 @@ const HeaderTwo = () => {
                             <ul className="sub-menu">
                               <div className="sub-menu-div">
                                 <li
-                                  className={`has-dropdown ${
-                                    activeMenu === "Blockchain" ? "active" : ""
-                                  }`}
+                                  className={`has-dropdown ${activeMenu === "Blockchain" ? "active" : ""
+                                    }`}
                                   onMouseEnter={() =>
                                     handleMenuHover("Blockchain")
                                   }
-                                  // onClick={() => handleMenuClick('team')}
+                                // onClick={() => handleMenuClick('team')}
                                 >
                                   <Link
                                     className="left_content_arrow"
@@ -516,11 +513,10 @@ const HeaderTwo = () => {
                                   </Link>
                                 </li>
                                 <li
-                                  className={`has-dropdown ${
-                                    activeMenu === "AI" ? "active" : ""
-                                  }`}
+                                  className={`has-dropdown ${activeMenu === "AI" ? "active" : ""
+                                    }`}
                                   onMouseEnter={() => handleMenuHover("AI")}
-                                  // onClick={() => handleMenuClick('project1')}
+                                // onClick={() => handleMenuClick('project1')}
                                 >
                                   <Link className="left_content_arrow" to="#">
                                     AI{" "}
@@ -528,9 +524,8 @@ const HeaderTwo = () => {
                                   </Link>
                                 </li>
                                 <li
-                                  className={`has-dropdown ${
-                                    activeMenu === "XR" ? "active" : ""
-                                  }`}
+                                  className={`has-dropdown ${activeMenu === "XR" ? "active" : ""
+                                    }`}
                                   onMouseEnter={() => handleMenuHover("XR")}
                                 >
                                   <Link className="left_content_arrow" to="#">
@@ -539,9 +534,8 @@ const HeaderTwo = () => {
                                   </Link>
                                 </li>
                                 <li
-                                  className={`has-dropdown ${
-                                    activeMenu === "Game" ? "active" : ""
-                                  }`}
+                                  className={`has-dropdown ${activeMenu === "Game" ? "active" : ""
+                                    }`}
                                   onMouseEnter={() => handleMenuHover("Game")}
                                 >
                                   <Link
@@ -809,13 +803,12 @@ const HeaderTwo = () => {
                             <ul className="sub-menu">
                               <div className="sub-menu-div">
                                 <li
-                                  className={`has-dropdown ${
-                                    activeMenu2 === "Company" ? "active" : ""
-                                  }`}
+                                  className={`has-dropdown ${activeMenu2 === "Company" ? "active" : ""
+                                    }`}
                                   onMouseEnter={() =>
                                     handleMenuHover2("Company")
                                   }
-                                  // onClick={() => handleMenuClick('team')}
+                                // onClick={() => handleMenuClick('team')}
                                 >
                                   <Link
                                     className="left_content_arrow"
@@ -844,10 +837,10 @@ const HeaderTwo = () => {
                                                   index === 0
                                                     ? "/about"
                                                     : index === 2
-                                                    ? "/contact"
-                                                    : index === 1
-                                                    ? "/career"
-                                                    : ""
+                                                      ? "/contact"
+                                                      : index === 1
+                                                        ? "/career"
+                                                        : ""
                                                 } // Assuming index 0 is for "About us" and index 2 is for "Contact us"
                                                 onMouseEnter={() =>
                                                   setHoveredIndex(index)

@@ -31,6 +31,10 @@ import ArAbout from '../components/Ardevelopment/ArAbout';
 import ArCount from '../components/Ardevelopment/ArCount';
 import ArService from '../components/Ardevelopment/ArService';
 import ArBanner from '../components/Ardevelopment/ArBanner';
+import ArFeature from '../components/Ardevelopment/ArFeature';
+import ArIndustries from '../components/Ardevelopment/ArIndustries';
+import ArTech from '../components/Ardevelopment/ArTech';
+import Arwhychoose from '../components/Ardevelopment/Arwhychoose';
 
 function ARdevelopment() {
     let [active, setActive] = useState(true);
@@ -59,15 +63,15 @@ function ARdevelopment() {
                 {/* metaverse-banner */}
                 <ArBanner />
                 {/* metaverse-features */}
-                <Vrfeatures />
+                <ArFeature />
                 {/* metaverse-industries */}
-                <VrIndustries />
+                <ArIndustries />
                 {/* metaverse-tech */}
-                <VrTech />
+                <ArTech />
                 {/* metaverse-process */}
                 {/* <MetaverseProcess /> */}
                 {/* metaverse-whychoose */}
-                <VrWhyChoose />
+                <Arwhychoose />
                 {/* faq */}
                 <VrFaq />
                 {/* contact */}

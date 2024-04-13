@@ -1,6 +1,6 @@
 import React from 'react'
 
-function VrIndustries() {
+function ArIndustries() {
     return (
 
         <section className="faq-section three" style={{ background: "#00151E" }}>
@@ -9,47 +9,37 @@ function VrIndustries() {
                     <h2 style={{ textAlign: "center", color: "white" }}>Industries We <span className='theme-color'> Serve</span></h2>
                     <p style={{ textAlign: "center", color: "white" }}>As a leading virtual reality app development company, we assist startups and established businesses from all sectors in fulfilling the potential of digital transformation via VR to boost revenue. </p>
                     <div className='feature_div'>
+                        <div class="feature_card idustry">
+                            <img src="/assets/img/nftindustries/oilandgas.svg" />
+                            <div>Chemicals, Oil & Gas</div>
+                        </div>
                         <div className='feature_card idustry'>
                             <img src='/assets/img/industries/sports@0.3x.png' />
-                            <div>Games & Sports</div>
+                            <div>Games</div>
+                        </div>
+                        <div class="feature_card idustry">
+                            <img src="/assets/img/meta-indust/electricity.svg" />
+                            <div>Power & Mining</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/industries/social-media@0.3x.png' />
-                            <div>Social Networking</div>
+                            <img src='/assets/img/industries/social-media@0.3x.pn' />
+                            <div>Museums & Experience Centers</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/industries/healthcare@0.3x.png' />
-                            <div>Healthcare</div>
+                            <img src='/assets/img/meta-indust/aviation.svg' />
+                            <div>Defence & Aviation</div>
+                        </div>
+                        <div class="feature_card idustry">
+                            <img src="/assets/img/nftindustries/automotive.svg" />
+                            <div>Automotive</div>
                         </div>
                         <div className='feature_card idustry'>
                             <img src='/assets/img/industries/mortarboard@0.3x.png' />
                             <div>Education</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/nftindustries/manufacturing.svg' />
-                            <div>Manufacturing</div>
-                        </div>
-                        <div className='feature_card idustry'>
-                            <img src='/assets/img/meta-indust/retail.svg' />
-                            <div>Retail
-                            </div>
-                        </div>
-                        <div className='feature_card idustry'>
-                            <img src='/assets/img/meta-indust/consumergoods.svg' />
-                            <div>Advertising</div>
-                        </div>
-                        <div className='feature_card idustry'>
-                            <img src='/assets/img/industries/property@0.3x.png' />
-                            <div>Real Estate</div>
-                        </div>
-                        <div className='feature_card idustry'>
-                            <img src='/assets/img/meta-indust/defence.svg' />
-                            <div>Transportation
-                            </div>
-                        </div>
-                        <div className='feature_card idustry'>
-                            <img src='/assets/img/industries/logistics (1)@0.3x.png' />
-                            <div>Logistic</div>
+                            <img src='/assets/img/featue-metaverse/secur.sv' />
+                            <div> Marketing </div>
                         </div>
                         <div className='feature_card idustry'>
                             <img src='/assets/img/industries/video@0.3x.png' />
@@ -57,13 +47,25 @@ function VrIndustries() {
                             </div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/industries/government@0.3x.png' />
-                            <div>Government
+                            <img src='/assets/img/nftindustries/manufacturing.svg' />
+                            <div>Manufacturing</div>
+                        </div>
+                        <div className='feature_card idustry'>
+                            <img src='/assets/img/industries/healthcare@0.3x.png' />
+                            <div>Healthcare</div>
+                        </div>
+                        <div className='feature_card idustry'>
+                            <img src='/assets/img/meta-indust/retail.svg' />
+                            <div>Retail
                             </div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/industries/planting@0.3x.png' />
-                            <div>Agriculture</div>
+                            <img src='/assets/img/industries/property@0.3x.png' />
+                            <div>Real Estate</div>
+                        </div>
+                        <div className='feature_card idustry'>
+                            <img src='/assets/img/industries/property@0.3x.pn' />
+                            <div>Virtual collaboration</div>
                         </div>
                     </div>
                 </div>
@@ -74,4 +76,4 @@ function VrIndustries() {
     )
 }
 
-export default VrIndustries
+export default ArIndustries
