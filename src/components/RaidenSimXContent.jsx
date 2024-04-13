@@ -9,7 +9,19 @@ import bg_image5 from "../images/raidenSimx/w5.jpg";
 import bg_image6 from "../images/raidenSimx/w6.jpg";
 import bg_image7 from "../images/raidenSimx/w7.jpg";
 import bg_image8 from "../images/raidenSimx/w8.jpg";
-import bg_image1 from "../images/raidenSimx/2150697460-transformed.jpeg";
+import bg_image1 from "../images/Frame 18.jpg";
+import bg_image_engage from "../images/Frame 19.jpg";
+import bg_image_track from "../images/Frame 20.jpg";
+import bg_image_recieve from "../images/Frame 21.jpg";
+import Students from "../images/Students.jpg";
+import Organizations from "../images/Organizations.jpg";
+import Professionals from "../images/Professionals.jpg";
+import Educators from "../images/Educators.jpg";
+import simxfaq from "../images/simx-faq.jpg";
+
+
+
+
 import { Link } from "react-router-dom";
 import about from "../images/simx_about.jpg"
 
@@ -341,7 +353,7 @@ const RaidenSimXContent = () => {
                     <img src="/assets/img/raidensimx/sim x - how it works/receive.svg" alt="" />
                     <p style={{ color: guidance ? "white" : "" }}>
                       {" "}
-                      Receive Personalized Guidance
+                      Receive Personalized <br />Guidance
                     </p>
                   </div>
                 </div>
@@ -358,7 +370,7 @@ const RaidenSimXContent = () => {
                 </div>
               ) : learn ? (
                 <div className="How_it_works_right">
-                  <img src={bg_image1} alt="" />
+                  <img src={bg_image_engage} alt="" />
                   <div className="bg_black"></div>
                   <h6> Engage and Learn</h6>
                   <p>
@@ -368,7 +380,7 @@ const RaidenSimXContent = () => {
                 </div>
               ) : progress ? (
                 <div className="How_it_works_right">
-                  <img src={bg_image1} alt="" />
+                  <img src={bg_image_track} alt="" />
                   <div className="bg_black"></div>
                   <h6> Track Your Progress</h6>
                   <p>
@@ -379,7 +391,7 @@ const RaidenSimXContent = () => {
                 </div>
               ) : guidance ? (
                 <div className="How_it_works_right">
-                  <img src={bg_image1} alt="" />
+                  <img src={bg_image_recieve} alt="" />
                   <div className="bg_black"></div>
                   <h6> Receive Personalized Guidance</h6>
                   <p>
@@ -403,7 +415,7 @@ const RaidenSimXContent = () => {
                 </p>
               </div>
               <div className="How_it_works_right">
-                <img src={bg_image1} alt="" />
+                <img src={bg_image_engage} alt="" />
                 <div className="bg_black"></div>
                 <h6> Engage and Learn</h6>
                 <p>
@@ -412,7 +424,7 @@ const RaidenSimXContent = () => {
                 </p>
               </div>
               <div className="How_it_works_right">
-                <img src={bg_image1} alt="" />
+                <img src={bg_image_track} alt="" />
                 <div className="bg_black"></div>
                 <h6> Track Your Progress</h6>
                 <p>
@@ -421,7 +433,7 @@ const RaidenSimXContent = () => {
                 </p>
               </div>
               <div className="How_it_works_right">
-                <img src={bg_image1} alt="" />
+                <img src={bg_image_recieve} alt="" />
                 <div className="bg_black"></div>
                 <h6> Receive Personalized Guidance</h6>
                 <p>
@@ -485,7 +497,7 @@ const RaidenSimXContent = () => {
           <h2 className="auto-container">Who Can Benefit</h2>
           <div className="auto-container row RaidensimX_benefit_container ">
             <div className="RaidensimX_benefit_card">
-              <img src={bg_image1} alt="" />
+              <img src={Students} alt="" />
               <h6>Students</h6>
               <p>
                 Enhance your education with practical, real-world experiences
@@ -493,7 +505,7 @@ const RaidenSimXContent = () => {
               </p>
             </div>
             <div className="RaidensimX_benefit_card">
-              <img src={bg_image1} alt="" />
+              <img src={Professionals} alt="" />
               <h6>Professionals</h6>
               <p>
                 Stay ahead of the curve and develop new skills in a dynamic and
@@ -501,7 +513,7 @@ const RaidenSimXContent = () => {
               </p>
             </div>
             <div className="RaidensimX_benefit_card">
-              <img src={bg_image1} alt="" />
+              <img src={Educators} alt="" />
               <h6>Educators</h6>
               <p>
                 Enrich your teaching methods with immersive, experiential
@@ -509,7 +521,7 @@ const RaidenSimXContent = () => {
               </p>
             </div>
             <div className="RaidensimX_benefit_card">
-              <img src={bg_image1} alt="" />
+              <img src={Organizations} alt="" />
               <h6>Organizations</h6>
               <p>
                 Empower your workforce with immersive training solutions that
@@ -589,7 +601,7 @@ const RaidenSimXContent = () => {
               >
                 <img
                   className="img-fluid"
-                  src="/assets/img/service/02_service.png"
+                  src={simxfaq}
                   alt=""
                 />
               </div>
@@ -652,7 +664,6 @@ const RaidenSimXContent = () => {
                         >
                           Can RaidensimX be customized for specific industry
                           needs?
-                          {"}"}
                         </button>
                       </h2>
                       <div
@@ -721,29 +732,6 @@ const RaidenSimXContent = () => {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div className="shape-image">
-          <div className="shape-img-2 poa">
-            <img src="/assets/img/icon/64_icon.png" alt="" />
-          </div>
-          <div className="shape-img-3 poa">
-            <img src="/assets/img/icon/22_icon.png" alt="" />
-          </div>
-          <div className="shape-img-4 poa">
-            <img src="/assets/img/icon/08_icon.png" alt="" />
-          </div>
-          <div className="shape-img-5 poa">
-            <img src="/assets/img/icon/26_icon.png" alt="" />
-          </div>
-          <div className="shape-img-6 poa">
-            <img src="/assets/img/icon/43_icon.png" alt="" />
-          </div>
-          <div className="shape-img-7 poa">
-            <img src="/assets/img/icon/68_icon.png" alt="" />
-          </div>
-          <div className="shape-img-8 poa">
-            <img src="/assets/img/icon/71_icon.png" alt="" />
           </div>
         </div>
       </section>
