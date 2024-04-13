@@ -14,7 +14,7 @@ const UnRealProcessSection = () => {
       <div className="auto-container">
         <div className="row">
           <h2 style={{ color: "black", textAlign: "center" }}>
-            Game Development Process for{" "}
+            Unreal Development Process for{" "}
             <span className="theme-color" style={{ color: "#fdb441" }}>
               Your Unique Needs
             </span>
@@ -43,10 +43,9 @@ const UnRealProcessSection = () => {
                   <div className="text-box">
                     <h2> Discovery & Planning</h2>
                     <p>
-                      We begin by understanding your requirements, goals, and
-                      target audience to formulate a comprehensive development
-                      plan.
+                    We start by understanding your project requirements, goals, and target audience
                     </p>
+                    
                     <span className="left-container-arrow"></span>
                   </div>
                 </div>
@@ -143,7 +142,6 @@ const UnRealProcessSection = () => {
                   </div>
                 </div>
               </VisibilitySensor>
-  
             </div>
           </VisibilitySensor>
         </div>

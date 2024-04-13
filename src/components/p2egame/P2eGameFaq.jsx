@@ -11,7 +11,7 @@ const P2eGameFaq = () => {
               data-aos="fade-right"
               data-aos-delay="300"
             >
-              <h3 style={{ color: "black" }}>FAQ For Unreal Development </h3>
+              <h3 style={{ color: "black" }}>FAQ For P2E Game Development </h3>
               <h2 style={{ color: "black" }}>
                 Answers at a <br />
                 <span className="theme-color" style={{ color: "#fdb441" }}>
@@ -59,8 +59,7 @@ const P2eGameFaq = () => {
                         aria-expanded="false"
                         aria-controls="flush-collapseOne"
                       >
-                        What industries do you cater to with your Unreal
-                        Development services?
+                        What is Play-to-Earn (P2E) gaming?
                       </button>
                     </h2>
                     <div
@@ -69,9 +68,9 @@ const P2eGameFaq = () => {
                       data-bs-parent="#accordionFlushExample"
                     >
                       <div className="accordion-body">
-                        We serve clients across various industries, including
-                        gaming, architecture, education, entertainment, and
-                        more.
+                        Play-to-Earn (P2E) gaming allows players to earn real
+                        rewards, such as cryptocurrency or in-game assets, by
+                        participating in gameplay activities.
                       </div>
                     </div>
                   </div>
@@ -85,8 +84,7 @@ const P2eGameFaq = () => {
                         aria-expanded="false"
                         aria-controls="flush-collapseTwo"
                       >
-                        Can you help us with ongoing support and maintenance for
-                        our Unreal Engine projects?
+                        How does blockchain technology enhance P2E games?
                         {"}"}
                       </button>
                     </h2>
@@ -96,9 +94,10 @@ const P2eGameFaq = () => {
                       data-bs-parent="#accordionFlushExample"
                     >
                       <div className="accordion-body">
-                        Absolutely! We offer comprehensive support and
-                        maintenance services to ensure your projects remain
-                        optimized and up-to-date.
+                        Blockchain technology enables secure ownership of
+                        in-game assets, transparent in-game economies, and fair
+                        reward distribution, enhancing the overall player
+                        experience.
                       </div>
                     </div>
                   </div>
@@ -112,8 +111,7 @@ const P2eGameFaq = () => {
                         aria-expanded="false"
                         aria-controls="flush-collapseThree"
                       >
-                        How long does it take to develop a custom Unreal Engine
-                        solution?
+                        Can I monetize my P2E game?
                       </button>
                     </h2>
                     <div
@@ -122,9 +120,9 @@ const P2eGameFaq = () => {
                       data-bs-parent="#accordionFlushExample"
                     >
                       <div className="accordion-body">
-                        The timeline depends on the scope and complexity of the
-                        project. We work closely with clients to establish
-                        realistic timelines and milestones.
+                        Yes, with a comprehensive monetization strategy, you can
+                        generate revenue through in-game purchases,
+                        advertisements, and secondary market transactions.
                       </div>
                     </div>
                   </div>
@@ -138,7 +136,8 @@ const P2eGameFaq = () => {
                         aria-expanded="false"
                         aria-controls="flush-collapseFour"
                       >
-                        Do you provide training for using Unreal Engine?
+                        What makes Raiden's P2E game development services
+                        unique?
                       </button>
                     </h2>
                     <div
@@ -147,9 +146,10 @@ const P2eGameFaq = () => {
                       data-bs-parent="#accordionFlushExample"
                     >
                       <div className="accordion-body">
-                        Yes, we offer training programs tailored to your team's
-                        needs, covering everything from basic to advanced Unreal
-                        Engine concepts and techniques.
+                        Raiden offers a holistic approach to P2E game
+                        development, combining technical expertise with a deep
+                        understanding of player engagement and monetization
+                        strategies.
                       </div>
                     </div>
                   </div>
@@ -163,8 +163,7 @@ const P2eGameFaq = () => {
                         aria-expanded="false"
                         aria-controls="flush-collapseFive"
                       >
-                        What sets Raiden apart from other Unreal Development
-                        service providers?
+                        How long does it take to develop a P2E game?
                       </button>
                     </h2>
                     <div
@@ -173,9 +172,9 @@ const P2eGameFaq = () => {
                       data-bs-parent="#accordionFlushExample"
                     >
                       <div className="accordion-body">
-                        Our commitment to innovation, quality, and client
-                        satisfaction sets us apart. We go above and beyond to
-                        deliver exceptional results that exceed expectations.
+                        The timeline for P2E game development varies depending
+                        on the complexity of the project. Contact Raiden for a
+                        customized development plan tailored to your needs.
                       </div>
                     </div>
                   </div>

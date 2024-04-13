@@ -11,13 +11,11 @@ const MobileGamePageHero = () => {
           <div className="left" data-aos="fade-right" data-aos-delay="300">
             <h2>
               Elevate Your{" "}
-              <span style={{ color: "#fdb441" }}>Gaming Experience</span> with{" "}
-              <br /> <span style={{ color: "#fdb441" }}>Raiden</span>
+              <span style={{ color: "#fdb441" }}>Gaming Experience</span>
             </h2>
-            <p>
-             Dive into the world of immersive gaming with
-              Raiden. From captivating storylines to stunning visuals, we craft
-              mobile app games that redefine entertainment.
+            <p style={{fontSize:"26px",fontWeight:"500",lineHeight:"35px"}}>
+              From captivating storylines to stunning visuals, we craft mobile
+              app games that redefine entertainment.
             </p>
             <button
               className="default-btn"
