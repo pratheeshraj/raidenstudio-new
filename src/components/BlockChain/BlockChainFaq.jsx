@@ -54,7 +54,7 @@ const BlockChainFaq = () => {
                                                     aria-expanded="false"
                                                     aria-controls="flush-collapseOne"
                                                 >
-                                                    Is It Expensive to Develop Virtual Reality Apps?
+                                                    What is blockchain?
                                                 </button>
                                             </h2>
                                             <div
@@ -63,7 +63,8 @@ const BlockChainFaq = () => {
                                                 data-bs-parent="#accordionFlushExample"
                                             >
                                                 <div className="accordion-body">
-                                                    Virtual reality apps are more expensive to build than regular apps. VR developers earn between $25 and 120 per hour. The average cost of VR development will range between $50,000 and $200,000. However, the price will be entirely determined by your requirements.                                                </div>
+                                                    Blockchain is a digital ledger technology where transactions are recorded in real-time and in a secure, unchangeable manner across a network of computers.
+                                                </div>
                                             </div>
                                         </div>
                                         <div className="accordion-item">
@@ -76,7 +77,7 @@ const BlockChainFaq = () => {
                                                     aria-expanded="false"
                                                     aria-controls="flush-collapseTwo"
                                                 >
-                                                    Do you develop VR apps for various business models?
+                                                    Can anyone create a blockchain?
                                                 </button>
                                             </h2>
                                             <div
@@ -85,7 +86,8 @@ const BlockChainFaq = () => {
                                                 data-bs-parent="#accordionFlushExample"
                                             >
                                                 <div className="accordion-body">
-                                                    Yes, we create unique VR apps for desktop, mobile, and web platforms for different business models. Regarding the mobile applications, we provide cross-platform and native versions. To create VR apps, we also use AI/ML and other technologies.                                                </div>
+                                                    Yes, anyone with the necessary coding skills and understanding of blockchain technology can develop their own blockchain system.
+                                                </div>
                                             </div>
                                         </div>
                                         <div className="accordion-item">
@@ -98,7 +100,7 @@ const BlockChainFaq = () => {
                                                     aria-expanded="false"
                                                     aria-controls="flush-collapseThree"
                                                 >
-                                                    What platforms and technologies do Vraidens 3D/VR/AR development teams specialize in?
+                                                    How much time do you require to complete the project?
                                                 </button>
                                             </h2>
                                             <div
@@ -107,8 +109,7 @@ const BlockChainFaq = () => {
                                                 data-bs-parent="#accordionFlushExample"
                                             >
                                                 <div className="accordion-body">
-                                                    Our VR developers have extensive knowledge of all the latest platforms, including Unity, Unreal Engine, C#, and C++. Our team members possess the necessary skills to create immersive, effective solutions. We develop cross-platform, cross-device digital experiences as part of our virtual reality development services.
-                                                </div>
+                                                    The time required for the project completion entirely depends upon your project size and requirements.                                                </div>
                                             </div>
                                         </div>
                                         <div className="accordion-item">
@@ -121,7 +122,7 @@ const BlockChainFaq = () => {
                                                     aria-expanded="false"
                                                     aria-controls="flush-collapseFour"
                                                 >
-                                                    What platforms and technologies do Vraidens 3D/VR/AR development teams specialize in?
+                                                    In which areas I can use the blockchain functions?
                                                 </button>
                                             </h2>
                                             <div
@@ -130,7 +131,7 @@ const BlockChainFaq = () => {
                                                 data-bs-parent="#accordionFlushExample"
                                             >
                                                 <div className="accordion-body">
-                                                    Our VR developers have extensive knowledge of all the latest platforms, including Unity, Unreal Engine, C#, and C++. Our team members possess the necessary skills to create immersive, effective solutions. We develop cross-platform, cross-device digital experiences as part of our virtual reality development services.
+                                                    In enhancing data security. In making decentralized operations. In creating advanced smart contracts.
                                                 </div>
                                             </div>
                                         </div>

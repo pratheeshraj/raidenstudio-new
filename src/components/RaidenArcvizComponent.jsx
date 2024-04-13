@@ -155,7 +155,9 @@ const RaidenArcvizComponent = ({ vidio }) => {
                                 data-aos-delay="300"
                             >
                                 <div className="img-file por">
-                                    <img className="img-fluid" style={{ height: "362px" }} src={image1} alt="" />
+                                    <img className="img-fluid" style={{ height: "362px" }}
+                                        src="/assets/img/Arcviz/Frame 28.jpg"
+                                        alt="" />
                                     <div className="shape-overlay poa">
                                         <div className="inner Industry2">
                                             <h2>Discover Your Vision Come to Life</h2>
@@ -177,7 +179,9 @@ const RaidenArcvizComponent = ({ vidio }) => {
                                 data-aos-delay="300"
                             >
                                 <div className="img-file por">
-                                    <img className="img-fluid" style={{ height: "362px" }} src={image2} alt="" />
+                                    <img className="img-fluid" style={{ height: "362px" }}
+                                        src="/assets/img/Arcviz/Frame 29.jpg"
+                                        alt="" />
                                     <div className="shape-overlay poa">
                                         <div className="inner Industry2">
                                             <h2>Immersive Experiences, Unmatched Realism</h2>
@@ -199,7 +203,9 @@ const RaidenArcvizComponent = ({ vidio }) => {
                                 data-aos-delay="300"
                             >
                                 <div className="img-file por">
-                                    <img className="img-fluid" src={image4} style={{ height: "362px" }} alt="" />
+                                    <img className="img-fluid"
+                                        src="/assets/img/Arcviz/Frame 30.jpg"
+                                        style={{ height: "362px" }} alt="" />
                                     <div className="shape-overlay poa">
                                         <div className="inner Industry2">
                                             <h2>Seamless Collaboration, Enhanced Communication</h2>
@@ -222,7 +228,9 @@ const RaidenArcvizComponent = ({ vidio }) => {
                                 data-aos-delay="300"
                             >
                                 <div className="img-file por">
-                                    <img className="img-fluid" src={image3} style={{ height: "362px" }} alt="" />
+                                    <img className="img-fluid"
+                                        src="/assets/img/Arcviz/Frame 31.jpg"
+                                        style={{ height: "362px" }} alt="" />
                                     <div className="shape-overlay poa">
                                         <div className="inner Industry2">
                                             <h2>Unleash the Power of Innovation</h2>
@@ -361,7 +369,7 @@ const RaidenArcvizComponent = ({ vidio }) => {
                                                 <div className="img-file">
                                                     <img
                                                         className="img-fluid"
-                                                        src="/assets/img/service/network-structure-technology-concept-blockchain-technology-technological-abstract-cube-with-dat(1).webp"
+                                                        src="/assets/img/Arcviz/Frame 23.jpg"
                                                         alt=""
                                                     />
                                                 </div>
@@ -386,7 +394,7 @@ const RaidenArcvizComponent = ({ vidio }) => {
                                                 <div className="img-file">
                                                     <img
                                                         className="img-fluid"
-                                                        src="/assets/img/service/nft-digital-art-non-fungible-token-blockchain-technology-cryptographic-data-block-collecting-un(1).webp"
+                                                        src="/assets/img/Arcviz/Frame 24.jpg"
                                                         alt=""
                                                     />
                                                 </div>
@@ -411,7 +419,7 @@ const RaidenArcvizComponent = ({ vidio }) => {
                                                 <div className="img-file">
                                                     <img
                                                         className="img-fluid"
-                                                        src="/assets/img/service/big-data-ai-analysis-generative-ai(1).webp"
+                                                        src="/assets/img/Arcviz/Frame 25.jpg"
                                                         alt=""
                                                     />
                                                 </div>
@@ -436,7 +444,7 @@ const RaidenArcvizComponent = ({ vidio }) => {
                                                 <div className="img-file">
                                                     <img
                                                         className="img-fluid"
-                                                        src="/assets/img/service/big-data-ai-analysis-generative-ai(1).webp"
+                                                        src="/assets/img/Arcviz/Frame 26.jpg"
                                                         alt=""
                                                     />
                                                 </div>
@@ -461,7 +469,7 @@ const RaidenArcvizComponent = ({ vidio }) => {
                                                 <div className="img-file">
                                                     <img
                                                         className="img-fluid"
-                                                        src="/assets/img/service/big-data-ai-analysis-generative-ai(1).webp"
+                                                        src="/assets/img/Arcviz/Frame 27.jpg"
                                                         alt=""
                                                     />
                                                 </div>
@@ -513,7 +521,7 @@ const RaidenArcvizComponent = ({ vidio }) => {
                             >
                                 <img
                                     className="img-fluid"
-                                    src="/assets/img/service/02_service.png"
+                                    src="/assets/img/Arcviz/d14 1.jpg"
                                     alt=""
                                 />
                             </div>
