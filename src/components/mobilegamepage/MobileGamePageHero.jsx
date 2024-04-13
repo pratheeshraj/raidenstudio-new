@@ -13,7 +13,7 @@ const MobileGamePageHero = () => {
               Elevate Your{" "}
               <span style={{ color: "#fdb441" }}>Gaming Experience</span>
             </h2>
-            <p style={{fontSize:"26px",fontWeight:"500",lineHeight:"35px"}}>
+            <p style={{fontSize:"20px",fontWeight:"600",lineHeight:"35px"}}>
               From captivating storylines to stunning visuals, we craft mobile
               app games that redefine entertainment.
             </p>
