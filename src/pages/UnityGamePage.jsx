@@ -13,6 +13,7 @@ import UnityBannerSection from "../components/unityGame/UnityBannerSection";
 import UnityProcessSection from "../components/unityGame/UnityProcessSection";
 import NewsSectionOne from "../components/NewsSectionOne";
 import UnityFaq from "../components/unityGame/UnityFaq";
+import UnityCount from "../components/unityGame/UnityCount";
 
 const UnityGamePage = () => {
   return (
@@ -23,7 +24,7 @@ const UnityGamePage = () => {
         <UnityHeroSection />
         <UnityAbout/>
         <UnityServicesSection/>
-        <NftCounter/>
+        <UnityCount/>
         <UnityWhyChoose/>
         <UnityBenefitSection/>
         <UnityBannerSection/>
