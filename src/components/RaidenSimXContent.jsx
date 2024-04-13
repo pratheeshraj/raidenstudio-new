@@ -246,6 +246,7 @@ const RaidenSimXContent = () => {
         className="counter-section one"
         style={{
           background: "url(/assets/img/bg-image/simxbanner.jpg)",
+          backgroundSize: "cover"
         }}
       >
         <div className="auto-container">
