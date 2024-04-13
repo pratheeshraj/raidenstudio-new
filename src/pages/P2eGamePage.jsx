@@ -13,6 +13,7 @@ import NftCounter from '../components/Nftdevelopment/NftCounter'
 import FooterSectionOne from '../components/FooterSectionOne'
 import ContactSection2 from '../components/ContactSection2'
 import NewsSectionOne from '../components/NewsSectionOne'
+import P2eGameCount from '../components/p2egame/P2eGameCount'
 const P2eGamePage = () => {
   return (
     <Fragment>
@@ -22,7 +23,7 @@ const P2eGamePage = () => {
       <P2eGameHeroSection/>
       <P2eGameAbout />
       <P2eGameServicesSection />
-      <NftCounter />
+      <P2eGameCount />
       <P2eGameWhyChoose />
       <P2eGameBenefitSection />
       <P2eGameBannerSection />

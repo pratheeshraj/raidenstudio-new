@@ -8,9 +8,13 @@ const P2eGameServicesSection = () => {
         style={{ backgroundColor: "#f8f9fa" }}
       >
         <h2 className="auto-container " style={{ color: "black" }}>
-          Our <span style={{ color: "#fdb441" }}>P2E Game Development </span>{" "}
-          Services
+          Empowering <span style={{ color: "#fdb441" }}>Play-to-Earn </span>{" "}
+          Experiences
         </h2>
+        <p style={{color:"black",textAlign:"center"}}>
+          we specialize in crafting virtual economies that empower players to
+          earn rewards  while <br /> enjoying immersive gameplay experiences
+        </p>
         <div className="auto-container row key_features_section_container">
           <div
             className="key_features_card"
@@ -23,7 +27,7 @@ const P2eGameServicesSection = () => {
               src="/assets/img/raidensimx/key features/immersive.svg"
               alt=""
             />
-            <h6 style={{ color: "black" }}>Concept Design and Storyboarding</h6>
+            <h6 style={{ color: "black" }}>Concept Design & Storyboarding</h6>
             <p style={{ color: "black" }}>
               From ideation to narrative creation, we breathe life into your
               game concept, ensuring it resonates with your target audience.

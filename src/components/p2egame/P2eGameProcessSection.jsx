@@ -14,9 +14,9 @@ const P2eGameProcessSection = () => {
       <div className="auto-container">
         <div className="row">
           <h2 style={{ color: "black", textAlign: "center" }}>
-            Game Development Process for{" "}
+            Bespoke Game Development :{" "}
             <span className="theme-color" style={{ color: "#fdb441" }}>
-              Your Unique Needs
+              Crafting Unique Experiences
             </span>
           </h2>
           <p
@@ -41,11 +41,10 @@ const P2eGameProcessSection = () => {
                     />
                   </div>
                   <div className="text-box">
-                    <h2> Discovery & Planning</h2>
+                    <h2>Requirements Analysis & Conceptualization</h2>
                     <p>
-                      We begin by understanding your requirements, goals, and
-                      target audience to formulate a comprehensive development
-                      plan.
+                      Analyze objectives and vision and Conceptualize game
+                      mechanics and features.
                     </p>
                     <span className="left-container-arrow"></span>
                   </div>
@@ -64,11 +63,10 @@ const P2eGameProcessSection = () => {
                     />
                   </div>
                   <div className="text-box">
-                    <h2> Design & Prototyping</h2>
+                    <h2> Custom Blockchain Integration</h2>
                     <p>
-                      Our team creates wireframes and prototypes to visualize
-                      the project's structure and user experience before
-                      proceeding to full-scale development
+                      Develop tailored blockchain integration.Implement secure
+                      asset ownership and transparent economies.
                     </p>
                     <span className="right-container-arrow"></span>
                   </div>
@@ -87,11 +85,10 @@ const P2eGameProcessSection = () => {
                     />
                   </div>{" "}
                   <div className="text-box">
-                    <h2> Development & Testing</h2>
+                    <h2>Iterative Prototyping</h2>
                     <p>
-                      Using agile methodologies, we develop the project
-                      iteratively, conducting rigorous testing at each stage to
-                      ensure quality and functionality.
+                      Prototype for visualization and refinement.Iterate based
+                      on feedback for optimal user experience.
                     </p>
                     <span className="left-container-arrow"></span>
                   </div>
@@ -110,11 +107,10 @@ const P2eGameProcessSection = () => {
                     />
                   </div>{" "}
                   <div className="text-box">
-                    <h2> Deployment & Optimization</h2>
+                    <h2> Scalable Architecture Design</h2>
                     <p>
-                      Once the project is ready, we deploy it across the desired
-                      platforms and fine-tune performance for optimal user
-                      experience.
+                      Design flexible and resilient infrastructure.Ensure
+                      performance and stability.
                     </p>
                     <span className="right-container-arrow"></span>
                   </div>
@@ -133,17 +129,15 @@ const P2eGameProcessSection = () => {
                     />
                   </div>{" "}
                   <div className="text-box">
-                    <h2>Maintenance & Updates</h2>
+                    <h2>Agile Development & Continuous Optimization</h2>
                     <p>
-                      We provide ongoing support, maintenance, and updates to
-                      keep your Unity project running smoothly and up-to-date
-                      with the latest technologies.
+                      Adopt agile methodologies for rapid iteration.Continuously
+                      optimize based on analytics and user feedback
                     </p>
                     <span className="left-container-arrow"></span>
                   </div>
                 </div>
               </VisibilitySensor>
-  
             </div>
           </VisibilitySensor>
         </div>

@@ -48,24 +48,7 @@ const P2eGameWhyChoose = () => {
               </div>
             </div>
 
-            <div className="mobail_game_card">
-              <div className="left">
-                <div className="icon_container">
-                  <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div className="right">
-                <h6>Innovation</h6>
-                <p>
-                  Our team thrives on pushing the boundaries of gaming,
-                  pioneering new technologies and gameplay mechanics to deliver
-                  groundbreaking experiences.
-                </p>
-              </div>
-            </div>
+       
             <div className="mobail_game_card">
               <div className="left">
                 <div className="icon_container">

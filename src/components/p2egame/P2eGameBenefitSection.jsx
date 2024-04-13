@@ -6,9 +6,10 @@ const P2eGameBenefitSection = () => {
       <div className="container-fluid mobileGamePageBenifit ">
         <div className="auto-container pagebenifit_container">
           <h2>
-            Benefit In <span>P2E Game Development</span>
+          Elevate Your  <span>Gaming Experience</span>
           </h2>
-
+        
+          <p style={{ textAlign: "center",color:"black"}}>Discover the unparalleled benefits of P2E development and revolutionize <br /> your gaming experience.</p>
           <div className="pagebenifit">
             <div className="pagebenifit_card">
               <div className="top_section">

@@ -24,16 +24,25 @@ const P2eGameAbout = () => {
           <div className="col-lg-6">
             <div className="right-wrapper ps-2">
               <h2 style={{ color: "black" }} className="title">
-                Our Expertise In P2E Game Development in Detail
+                Leading the Way in P2E Game Development
               </h2>
               <p style={{ color: "black" }}>
-                Raiden brings a wealth of expertise to P2E game development. Our
-                seasoned team of developers, designers, and strategists
-                meticulously blend cutting-edge technology with innovative
-                gameplay mechanics to deliver captivating experiences. With a
-                deep understanding of blockchain integration, tokenomics, and
-                user engagement, we ensure that every aspect of your P2E game is
-                optimized for success.
+                With a deep understanding of blockchain integration, tokenomics,
+                and user engagement, we ensure that every aspect of your P2E
+                game is optimized for success. we're committed to unveiling the
+                full potential of P2E gaming. Here's how we excel
+              </p>
+              <p>
+                <strong> Tailored Solutions:</strong> We recognize that every
+                P2E game is unique. Our expertise lies in crafting customized
+                solutions that meet the specific needs and objectives of each
+                project.
+              </p>
+              <p>
+                <strong> Engaging Gameplay Design:</strong> Leveraging our
+                expertise in game design and user experience, we create
+                immersive gameplay experiences that keep players coming back for
+                more.
               </p>
             </div>
           </div>

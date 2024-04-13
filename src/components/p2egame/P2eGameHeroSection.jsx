@@ -11,14 +11,12 @@ const P2eGameHeroSection = () => {
           <div className="left" data-aos="fade-right" data-aos-delay="300">
             <h2>
               Unlock the Power of{" "}
-              <span style={{ color: "#fdb441" }}>Play-to-Earn Games </span> with{" "}
-              <span style={{ color: "#fdb441" }}>Raiden</span>
+              <span style={{ color: "#fdb441" }}>Play-to-Earn Games </span>
             </h2>
             <p>
-              Dive into the dynamic world of Play-to-Earn (P2E) gaming with
-              Raiden. From concept to launch, we craft immersive experiences
-              that redefine gaming and empower players to earn rewards while
-              having fun.
+              From concept to launch, we craft immersive experiences that
+              redefine gaming and empower players to earn rewards while having
+              fun.
             </p>
             <button
               className="default-btn"
