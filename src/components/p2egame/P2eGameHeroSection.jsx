@@ -1,6 +1,6 @@
 import React from "react";
 
-const MobileGamePageHero = () => {
+const P2eGameHeroSection = () => {
   return (
     <section>
       <div
@@ -10,12 +10,15 @@ const MobileGamePageHero = () => {
         <div className="auto-container metaverseroyal_hero_container">
           <div className="left" data-aos="fade-right" data-aos-delay="300">
             <h2>
-              Elevate Your{" "}
-              <span style={{ color: "#fdb441" }}>Gaming Experience</span>
+              Unlock the Power of{" "}
+              <span style={{ color: "#fdb441" }}>Play-to-Earn Games </span> with{" "}
+              <span style={{ color: "#fdb441" }}>Raiden</span>
             </h2>
-            <p style={{fontSize:"20px",fontWeight:"600",lineHeight:"35px"}}>
-              From captivating storylines to stunning visuals, we craft mobile
-              app games that redefine entertainment.
+            <p>
+              Dive into the dynamic world of Play-to-Earn (P2E) gaming with
+              Raiden. From concept to launch, we craft immersive experiences
+              that redefine gaming and empower players to earn rewards while
+              having fun.
             </p>
             <button
               className="default-btn"
@@ -33,4 +36,4 @@ const MobileGamePageHero = () => {
   );
 };
 
-export default MobileGamePageHero;
+export default P2eGameHeroSection;

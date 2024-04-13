@@ -1,17 +1,14 @@
 import React from "react";
 
-const MobileGamePageBenifit = () => {
+const P2eGameBenefitSection = () => {
   return (
     <section>
       <div className="container-fluid mobileGamePageBenifit ">
         <div className="auto-container pagebenifit_container">
           <h2>
-            The <span>Power of Play</span>
+            Benefit In <span>P2E Game Development</span>
           </h2>
-          <p>
-            Experience increased user engagement, revenue potential, and brand
-            recognition with our mobile game development services
-          </p>
+
           <div className="pagebenifit">
             <div className="pagebenifit_card">
               <div className="top_section">
@@ -23,10 +20,10 @@ const MobileGamePageBenifit = () => {
                 </div>
               </div>
               <div className="center_section">
-                <h6>Engagement</h6>
+                <h6>Engaging Gameplay</h6>
                 <p>
-                  Captivate your audience with immersive gameplay and
-                  captivating storylines.
+                  P2E games offer immersive and rewarding experiences that keep
+                  players coming back for more.
                 </p>
               </div>
             </div>
@@ -40,10 +37,11 @@ const MobileGamePageBenifit = () => {
                 </div>
               </div>
               <div className="center_section">
-                <h6> Brand Building</h6>
+                <h6>Financial Freedom</h6>
                 <p>
-                  Stand out in the competitive gaming market and enhance your
-                  brand's visibility
+                  By earning real rewards through gameplay, players have the
+                  opportunity to achieve financial independence and unlock new
+                  possibilities.
                 </p>
               </div>
             </div>
@@ -57,10 +55,10 @@ const MobileGamePageBenifit = () => {
                 </div>
               </div>
               <div className="center_section">
-                <h6>Monetization Opportunities</h6>
+                <h6>Community Building</h6>
                 <p>
-                  Explore various monetization strategies and maximize revenue
-                  potential.
+                  P2E games foster vibrant communities of players who share a
+                  passion for gaming and financial empowerment.
                 </p>
               </div>
             </div>
@@ -74,10 +72,11 @@ const MobileGamePageBenifit = () => {
                 </div>
               </div>
               <div className="center_section">
-                <h6> Audience Reach</h6>
+                <h6>Transparency and Trust</h6>
                 <p>
-                  Reach millions of players worldwide with multi-platform
-                  compatibility.
+                  With blockchain technology, P2E games ensure transparent and
+                  secure transactions, fostering trust between players and
+                  developers.
                 </p>
               </div>
             </div>
@@ -91,10 +90,11 @@ const MobileGamePageBenifit = () => {
                 </div>
               </div>
               <div className="center_section">
-                <h6> Customer Retention</h6>
+                <h6>Innovation in Gaming</h6>
                 <p>
-                  Keep players coming back for more with regular updates and new
-                  content.
+                  P2E games represent the future of gaming, blending traditional
+                  gameplay with innovative economic models to create truly
+                  unique experiences.
                 </p>
               </div>
             </div>
@@ -108,10 +108,11 @@ const MobileGamePageBenifit = () => {
                 </div>
               </div>
               <div className="center_section">
-                <h6>Innovation</h6>
+                <h6>Diverse Opportunities</h6>
                 <p>
-                  Drive innovation in your industry & leave a lasting impact
-                  on the gaming landscape.
+                  From in-game assets to trading opportunities, P2E games offer
+                  a wide range of avenues for players to explore and monetize
+                  their skills.
                 </p>
               </div>
             </div>
@@ -122,4 +123,4 @@ const MobileGamePageBenifit = () => {
   );
 };
 
-export default MobileGamePageBenifit;
+export default P2eGameBenefitSection;

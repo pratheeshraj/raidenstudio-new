@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import VisibilitySensor from "react-visibility-sensor";
 
-const UnRealProcessSection = () => {
+const P2eGameProcessSection = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   const onAnimationVisible = (visible) => {
@@ -14,7 +14,7 @@ const UnRealProcessSection = () => {
       <div className="auto-container">
         <div className="row">
           <h2 style={{ color: "black", textAlign: "center" }}>
-            Unreal Development Process for{" "}
+            Game Development Process for{" "}
             <span className="theme-color" style={{ color: "#fdb441" }}>
               Your Unique Needs
             </span>
@@ -43,9 +43,10 @@ const UnRealProcessSection = () => {
                   <div className="text-box">
                     <h2> Discovery & Planning</h2>
                     <p>
-                    We start by understanding your project requirements, goals, and target audience
+                      We begin by understanding your requirements, goals, and
+                      target audience to formulate a comprehensive development
+                      plan.
                     </p>
-                    
                     <span className="left-container-arrow"></span>
                   </div>
                 </div>
@@ -142,6 +143,7 @@ const UnRealProcessSection = () => {
                   </div>
                 </div>
               </VisibilitySensor>
+  
             </div>
           </VisibilitySensor>
         </div>
@@ -150,4 +152,4 @@ const UnRealProcessSection = () => {
   );
 };
 
-export default UnRealProcessSection;
+export default P2eGameProcessSection;

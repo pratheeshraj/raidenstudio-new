@@ -104,7 +104,7 @@ const HeaderTwo = () => {
     "P2E Game Development",
     "Web3 Game Development",
   ];
-  const gameNamesLink = ["/mobile-game-development", "/unity-development", "/unreal-development", "/mmorpg-development", "", ""];
+  const gameNamesLink = ["/mobile-game-development", "/unity-development", "/unreal-development", "/mmorpg-development", "/p2e-develpment", ""];
 
   //  compony
 
