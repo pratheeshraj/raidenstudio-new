@@ -6,9 +6,15 @@ const Web3GameBenefitSection = () => {
       <div className="container-fluid mobileGamePageBenifit ">
         <div className="auto-container pagebenifit_container">
           <h2>
-            Benefits of Choosing <span>Unity for Your Project</span>
+            Benefits in <span>Web3 Game Development</span>
           </h2>
-          <p style={{color:"black",marginBottom:"40px",textAlign:"center"}}>
+          <p
+            style={{
+              color: "black",
+              marginBottom: "40px",
+              textAlign: "center",
+            }}
+          >
             Enjoy cost-effectiveness, rapid prototyping, and a vibrant community
             that supports <br /> your project every step of the way
           </p>
@@ -23,10 +29,10 @@ const Web3GameBenefitSection = () => {
                 </div>
               </div>
               <div className="center_section">
-                <h6> Immersive Experiences</h6>
+                <h6> Enhanced Player Ownerships</h6>
                 <p>
-                  Engage your audience like never before with immersive Unity
-                  experiences that leave a lasting impact.
+                  Empower players with true ownership of in-game assets,
+                  fostering a sense of investment and loyalty.
                 </p>
               </div>
             </div>
@@ -40,10 +46,10 @@ const Web3GameBenefitSection = () => {
                 </div>
               </div>
               <div className="center_section">
-                <h6>Scalability</h6>
+                <h6> Increased Monetization Opportunities</h6>
                 <p>
-                  Unity's flexibility allows for scalable solutions that can
-                  grow with your business needs.
+                  Unlock new revenue streams through NFT sales, in-game
+                  purchases, and player-driven economies.
                 </p>
               </div>
             </div>
@@ -57,10 +63,10 @@ const Web3GameBenefitSection = () => {
                 </div>
               </div>
               <div className="center_section">
-                <h6>Cross-platform Compatibility</h6>
+                <h6> Community Engagement</h6>
                 <p>
-                  Reach a wider audience by deploying your Unity projects across
-                  multiple platforms seamlessly.
+                  Build vibrant gaming communities around decentralized
+                  ecosystems, fostering collaboration and interaction.
                 </p>
               </div>
             </div>
@@ -74,10 +80,10 @@ const Web3GameBenefitSection = () => {
                 </div>
               </div>
               <div className="center_section">
-                <h6> Enhanced Learning</h6>
+                <h6> Trust and Transparency</h6>
                 <p>
-                  Transform education and training with interactive Unity
-                  simulations that facilitate better learning outcomes.
+                  Leverage blockchain technology to ensure fair play,
+                  transparent transactions, and immutable records.
                 </p>
               </div>
             </div>
@@ -91,10 +97,10 @@ const Web3GameBenefitSection = () => {
                 </div>
               </div>
               <div className="center_section">
-                <h6>Competitive Edge</h6>
+                <h6> Innovative Gameplay Mechanics</h6>
                 <p>
-                  Stay ahead of the competition with innovative Unity solutions
-                  that set your brand apart.
+                  Explore new gameplay possibilities with smart contracts,
+                  decentralized governance, and player-driven narratives.
                 </p>
               </div>
             </div>
@@ -108,10 +114,10 @@ const Web3GameBenefitSection = () => {
                 </div>
               </div>
               <div className="center_section">
-                <h6> Cost-effectiveness</h6>
+                <h6> Future-Proofing</h6>
                 <p>
-                  Unity development offers cost-effective solutions without
-                  compromising on quality or performance.
+                  Stay ahead of the curve by embracing the future of gaming,
+                  positioning your brand as an industry leader.
                 </p>
               </div>
             </div>
