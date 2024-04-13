@@ -113,7 +113,6 @@ function App() {
         <Route exact path="/p2e-develpment" element={<P2eGamePage />} />
 
 
-
         <Route exact path="*" element={<Error />} />
       </Routes>
       <RouteScrollToTop />
