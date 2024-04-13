@@ -126,7 +126,7 @@ const MobailGamePageServices = () => {
             </h6>
             <p style={{ color: "black" }}>
               We provide comprehensive support post-launch, ensuring that your
-              game remains updated and optimized for continued success.
+              game remains updated & optimized for continued success.
             </p>
           </div>
         </div>

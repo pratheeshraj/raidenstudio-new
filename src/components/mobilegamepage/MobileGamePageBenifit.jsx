@@ -110,7 +110,7 @@ const MobileGamePageBenifit = () => {
               <div className="center_section">
                 <h6>Innovation</h6>
                 <p>
-                  Drive innovation in your industry and leave a lasting impact
+                  Drive innovation in your industry & leave a lasting impact
                   on the gaming landscape.
                 </p>
               </div>
