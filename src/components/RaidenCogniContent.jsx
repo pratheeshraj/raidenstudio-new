@@ -6,6 +6,8 @@ import ico2 from "../images/raidenSimx/healthcare.svg";
 import icon from "../images/raidenverse/game_engine/interactive.svg";
 import { useDispatch } from "react-redux";
 import { GetAllBlogs } from "../action/BlogAction";
+import cogni_1 from "../images/cogni_1.jpg"
+import cogni_2 from "../images/cogni_2.jpg"
 
 const RaidenCogniContent = () => {
   const dispatch = useDispatch();
@@ -59,7 +61,7 @@ const RaidenCogniContent = () => {
                 <div className="img-file">
                   <img
                     className="img-fluid "
-                    src="/assets/img/about/_e17fb051-856f-4968-a2c0-150430fd0b61 2.png"
+                    src={cogni_1}
                     alt=""
                   />
                 </div>
@@ -329,7 +331,7 @@ const RaidenCogniContent = () => {
         <div className="cogni_benefits_section">
           <h2 className="auto-container">Benefits</h2>
           <div className="auto-container cogini_slider">
-            <img src={bg_image1} alt="" className="sideimage" />
+            <img src={cogni_2} alt="" className="sideimage" />
             <Slider
               {...settings}
               className="cogini_slider_main"
