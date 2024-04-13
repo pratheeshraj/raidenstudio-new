@@ -5,7 +5,9 @@ const MobileGamePageBenifit = () => {
     <section>
       <div className="container-fluid mobileGamePageBenifit ">
         <div className="auto-container pagebenifit_container">
-          <h2>Benefit In <span>Mobile Game Developments</span></h2>
+          <h2>
+            Benefit In <span>Mobile Game Developments</span>
+          </h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
             hic nesciunt consequuntur ipsum minima perspiciatis ullam quod illo
@@ -23,11 +25,10 @@ const MobileGamePageBenifit = () => {
                 </div>
               </div>
               <div className="center_section">
-                <h6>Storefront</h6>
+                <h6>Engagement</h6>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Magni odit esse ducimus expedita facere deleniti perferendis
-                  possimus accusantium, veritatis vitae est quos dolorem id
+                  Captivate your audience with immersive gameplay and
+                  captivating storylines.
                 </p>
               </div>
             </div>
@@ -41,11 +42,9 @@ const MobileGamePageBenifit = () => {
                 </div>
               </div>
               <div className="center_section">
-                <h6>Storefront</h6>
+                <h6>	Brand Building</h6>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Magni odit esse ducimus expedita facere deleniti perferendis
-                  possimus accusantium, veritatis vitae est quos dolorem id
+                Stand out in the competitive gaming market and enhance your brand's visibility
                 </p>
               </div>
             </div>
@@ -59,11 +58,9 @@ const MobileGamePageBenifit = () => {
                 </div>
               </div>
               <div className="center_section">
-                <h6>Storefront</h6>
+                <h6>Monetization Opportunities</h6>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Magni odit esse ducimus expedita facere deleniti perferendis
-                  possimus accusantium, veritatis vitae est quos dolorem id
+                Explore various monetization strategies and maximize revenue potential.
                 </p>
               </div>
             </div>
@@ -77,11 +74,9 @@ const MobileGamePageBenifit = () => {
                 </div>
               </div>
               <div className="center_section">
-                <h6>Storefront</h6>
+                <h6>	Audience Reach</h6>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Magni odit esse ducimus expedita facere deleniti perferendis
-                  possimus accusantium, veritatis vitae est quos dolorem id
+                Reach millions of players worldwide with multi-platform compatibility.
                 </p>
               </div>
             </div>
@@ -95,11 +90,9 @@ const MobileGamePageBenifit = () => {
                 </div>
               </div>
               <div className="center_section">
-                <h6>Storefront</h6>
+                <h6>	Customer Retention</h6>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Magni odit esse ducimus expedita facere deleniti perferendis
-                  possimus accusantium, veritatis vitae est quos dolorem id
+                Keep players coming back for more with regular updates and new content.
                 </p>
               </div>
             </div>
@@ -113,16 +106,13 @@ const MobileGamePageBenifit = () => {
                 </div>
               </div>
               <div className="center_section">
-                <h6>Storefront</h6>
+                <h6>Innovation</h6>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Magni odit esse ducimus expedita facere deleniti perferendis
-                  possimus accusantium, veritatis vitae est quos dolorem id
+                Drive innovation in your industry and leave a lasting impact on the gaming landscape.
                 </p>
               </div>
             </div>
           </div>
-          
         </div>
       </div>
     </section>

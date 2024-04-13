@@ -90,7 +90,7 @@ const MetaverseRoyalContent = () => {
         style={{ backgroundColor: "#f8f9fa" }}
       >
         <h2>
-          Empowering Metaverse Royale: Advanced Cutting Edge <br />{" "}
+       Advanced Cutting Edge <br />{" "}
           <span style={{ color: "#efc060" }}>Technology </span>,
           <span style={{ color: "#efc060" }}> Streaming</span>, and <br />
           <span style={{ color: "#efc060" }}>

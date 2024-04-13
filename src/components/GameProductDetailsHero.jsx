@@ -611,7 +611,7 @@ const GameProductDetailsHero = () => {
           </div>
         </div>
       </section>
-      <section>
+      {/* <section>
         <div className="container-fluid section-6">
           <div className="auto-container development_process">
             <h2>Development and Implementation Lifecycle</h2>
@@ -636,7 +636,7 @@ const GameProductDetailsHero = () => {
             </ul>
           </div>
         </div>
-      </section>
+      </section> */}
       <section
         className="counter-section one"
         style={{

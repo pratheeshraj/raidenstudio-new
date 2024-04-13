@@ -27,25 +27,12 @@ const MobileGamePageAbout = () => {
                 Our Expertise In Mobile Game Development
               </h2>
               <p style={{ color: "black" }}>
-                Employ our specific NFT consulting to create and execute your
-                blockchain-driven NFT projects with ease. Our tried-and-true
-                development process combines niche knowledge with flexibility.
+                 At Raiden, we boast a team of seasoned developers and
+                designers who are passionate about mobile game development. With
+                years of experience under our belt, we excel in creating
+                engaging and addictive gaming experiences across various genres.
               </p>
-              <p style={{ color: "black" }}>
-                As a trustworthy NFT development company, we provide
-                comprehensive solutions that are customized to meet the demands
-                of any size organization or startup. We specialize in using
-                smart contracts to secure and validate ownership of NFTs and
-                blockchain networks.
-              </p>
-              <p style={{ color: "black" }}>
-                Working with a seasoned team of NFT developers, we make use of
-                the DNFT protocol to create non-fungible tokens that are
-                customized to your business's needs and enable you to gain
-                future benefits. We are able to fulfill all of your NFT
-                development requirements, including tokenizing your artwork, NFT
-                marketplace, and NFT lending platform.
-              </p>
+      
             </div>
           </div>
         </div>

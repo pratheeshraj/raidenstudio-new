@@ -13,8 +13,10 @@ const MobileGamePageProcess = () => {
       <div className="auto-container">
         <div className="row">
           <h2 style={{ color: "black", textAlign: "center" }}>
-            Development Cutting-edge AI Development Process for{" "}
-            <span className="theme-color" style={{color:"#fdb441"}}> Your Unique Needs</span>
+            Game Development Process for{" "}
+            <span className="theme-color" style={{ color: "#fdb441" }}>
+              Your Unique Needs
+            </span>
           </h2>
           <p
             style={{
@@ -22,11 +24,7 @@ const MobileGamePageProcess = () => {
               marginBottom: "80px",
               textAlign: "center",
             }}
-          >
-            Experience an unparalleled journey with our complete end-to-end AI
-            development process. From idea to deployment, we deliberately create
-            solutions that are unique to your requirements.{" "}
-          </p>
+          ></p>
           <VisibilitySensor onChange={onAnimationVisible}>
             <div className={`timeline  ${isVisible ? "visible" : ""}`}>
               <VisibilitySensor onChange={onAnimationVisible}>
@@ -44,8 +42,9 @@ const MobileGamePageProcess = () => {
                   <div className="text-box">
                     <h2>Discovery</h2>
                     <p>
-                      Work together with our team to understand your goals and
-                      figure out your specific requirements.
+                      We start by understanding your requirements and goals,
+                      conducting thorough research to identify opportunities and
+                      challenges.
                     </p>
                     <span className="left-container-arrow"></span>
                   </div>
@@ -64,10 +63,11 @@ const MobileGamePageProcess = () => {
                     />
                   </div>
                   <div className="text-box">
-                    <h2>Data Collection & Preparation</h2>
+                    <h2>Planning</h2>
                     <p>
-                      We collect and prepare the required data, assuring its
-                      accuracy and importance for preparation.
+                      Next, we devise a comprehensive strategy outlining the
+                      game concept, design elements, development milestones, and
+                      launch timeline.
                     </p>
                     <span className="right-container-arrow"></span>
                   </div>
@@ -86,10 +86,10 @@ const MobileGamePageProcess = () => {
                     />
                   </div>{" "}
                   <div className="text-box">
-                    <h2>Model Development</h2>
+                    <h2>Design and Development</h2>
                     <p>
-                      Select the most suitable algorithms and create unique AI
-                      models based on your specific application.
+                      Our team brings your vision to life, crafting every aspect
+                      of the game with meticulous attention to detail.
                     </p>
                     <span className="left-container-arrow"></span>
                   </div>
@@ -108,11 +108,10 @@ const MobileGamePageProcess = () => {
                     />
                   </div>{" "}
                   <div className="text-box">
-                    <h2>Testing and evaluation</h2>
+                    <h2> Testing and QA</h2>
                     <p>
-                      Thoroughly test the models to ensure reliability,
-                      security, and performance in a wide range of
-                      configurations.
+                      Rigorous testing ensures that your game meets quality
+                      standards and delivers a seamless gaming experience.
                     </p>
                     <span className="right-container-arrow"></span>
                   </div>
@@ -131,10 +130,11 @@ const MobileGamePageProcess = () => {
                     />
                   </div>{" "}
                   <div className="text-box">
-                    <h2>Deployment</h2>
+                    <h2>Launch and Optimization</h2>
                     <p>
-                      Easily incorporate the AI solution into the current
-                      structure so that it can power your business workflows.
+                      We deploy your game to the app stores and monitor its
+                      performance, making necessary adjustments to optimize user
+                      engagement and retention.
                     </p>
                     <span className="left-container-arrow"></span>
                   </div>
@@ -153,10 +153,11 @@ const MobileGamePageProcess = () => {
                     />
                   </div>{" "}
                   <div className="text-box">
-                    <h2>Tracking and Tuning</h2>
+                    <h2>Support and Maintenance</h2>
                     <p>
-                      Track the AI system's performance continuously and make
-                      required changes and adaptations
+                      Our commitment doesn't end at launch. We provide ongoing
+                      support and maintenance to ensure that your game remains
+                      successful in the long run.
                     </p>
                     <span className="right-container-arrow"></span>
                   </div>
