@@ -12,7 +12,7 @@ const MobailGamePageServices = () => {
         </h2>
         <p style={{color:"black",textAlign:"center"}}>
           Explore our comprehensive suite of mobile game development services,
-          tailored to elevate your gaming experience and drive success in the
+          tailored to elevate your gaming experience and <br /> drive success in the
           competitive market
         </p>
         <div className="auto-container row key_features_section_container">
@@ -21,6 +21,7 @@ const MobailGamePageServices = () => {
             style={{
               backgroundColor: "white",
               boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px",
+              padding:"20px 18px"
             }}
           >
             <img
@@ -28,7 +29,7 @@ const MobailGamePageServices = () => {
               alt=""
             />
             <h6 style={{ color: "black" }}>
-              Conceptualization and Storyboarding
+              Conceptualization & Storyboarding
             </h6>
             <p style={{ color: "black" }}>
               We transform your ideas into compelling game concepts, crafting
@@ -40,6 +41,7 @@ const MobailGamePageServices = () => {
             style={{
               backgroundColor: "white",
               boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px",
+              padding:"20px 18px"
             }}
           >
             <img
@@ -57,6 +59,7 @@ const MobailGamePageServices = () => {
             style={{
               backgroundColor: "white",
               boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px",
+              padding:"20px 18px"
             }}
           >
             <img
@@ -74,6 +77,7 @@ const MobailGamePageServices = () => {
             style={{
               backgroundColor: "white",
               boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px",
+              padding:"20px 18px"
             }}
           >
             <img
@@ -91,6 +95,7 @@ const MobailGamePageServices = () => {
             style={{
               backgroundColor: "white",
               boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px",
+              padding:"20px 18px"
             }}
           >
             <img
@@ -108,6 +113,7 @@ const MobailGamePageServices = () => {
             style={{
               backgroundColor: "white",
               boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px",
+              padding:"20px 18px"
             }}
           >
             <img
@@ -116,7 +122,7 @@ const MobailGamePageServices = () => {
             />
             <h6 style={{ color: "black" }}>
               {" "}
-              Ongoing Support and Maintenance{" "}
+               Support & Maintenance{" "}
             </h6>
             <p style={{ color: "black" }}>
               We provide comprehensive support post-launch, ensuring that your

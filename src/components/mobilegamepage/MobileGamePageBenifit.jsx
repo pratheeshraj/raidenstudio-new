@@ -6,13 +6,11 @@ const MobileGamePageBenifit = () => {
       <div className="container-fluid mobileGamePageBenifit ">
         <div className="auto-container pagebenifit_container">
           <h2>
-            Benefit In <span>Mobile Game Developments</span>
+            The <span>Power of Play</span>
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-            hic nesciunt consequuntur ipsum minima perspiciatis ullam quod illo
-            molestias soluta rem laudantium, possimus at quasi? Voluptatem
-            dolorum vitae iure optio.
+            Experience increased user engagement, revenue potential, and brand
+            recognition with our mobile game development services
           </p>
           <div className="pagebenifit">
             <div className="pagebenifit_card">
@@ -42,9 +40,10 @@ const MobileGamePageBenifit = () => {
                 </div>
               </div>
               <div className="center_section">
-                <h6>	Brand Building</h6>
+                <h6> Brand Building</h6>
                 <p>
-                Stand out in the competitive gaming market and enhance your brand's visibility
+                  Stand out in the competitive gaming market and enhance your
+                  brand's visibility
                 </p>
               </div>
             </div>
@@ -60,7 +59,8 @@ const MobileGamePageBenifit = () => {
               <div className="center_section">
                 <h6>Monetization Opportunities</h6>
                 <p>
-                Explore various monetization strategies and maximize revenue potential.
+                  Explore various monetization strategies and maximize revenue
+                  potential.
                 </p>
               </div>
             </div>
@@ -74,9 +74,10 @@ const MobileGamePageBenifit = () => {
                 </div>
               </div>
               <div className="center_section">
-                <h6>	Audience Reach</h6>
+                <h6> Audience Reach</h6>
                 <p>
-                Reach millions of players worldwide with multi-platform compatibility.
+                  Reach millions of players worldwide with multi-platform
+                  compatibility.
                 </p>
               </div>
             </div>
@@ -90,9 +91,10 @@ const MobileGamePageBenifit = () => {
                 </div>
               </div>
               <div className="center_section">
-                <h6>	Customer Retention</h6>
+                <h6> Customer Retention</h6>
                 <p>
-                Keep players coming back for more with regular updates and new content.
+                  Keep players coming back for more with regular updates and new
+                  content.
                 </p>
               </div>
             </div>
@@ -108,7 +110,8 @@ const MobileGamePageBenifit = () => {
               <div className="center_section">
                 <h6>Innovation</h6>
                 <p>
-                Drive innovation in your industry and leave a lasting impact on the gaming landscape.
+                  Drive innovation in your industry and leave a lasting impact
+                  on the gaming landscape.
                 </p>
               </div>
             </div>
