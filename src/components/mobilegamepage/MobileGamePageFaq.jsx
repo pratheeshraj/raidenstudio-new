@@ -12,13 +12,15 @@ const MobileGamePageFaq = () => {
               data-aos-delay="300"
             >
               <h3 style={{ color: "black" }}>
-                FAQ For Artificial Intelligence{" "}
+                FAQ For Mobile Game Developments{" "}
               </h3>
-              <h2 style={{color:"black"}}>
+              <h2 style={{ color: "black" }}>
                 Answers at a <br />
-                <span className="theme-color" style={{color:"#fdb441"}} >Glance</span>
+                <span className="theme-color" style={{ color: "#fdb441" }}>
+                  Glance
+                </span>
               </h2>
-              <p style={{ color: "black" }} >
+              <p style={{ color: "black" }}>
                 Find quick solutions and insights to common queries and concerns
                 about our game with our comprehensive FAQ section
               </p>
@@ -42,7 +44,7 @@ const MobileGamePageFaq = () => {
               data-aos-delay="300"
             >
               <div className="intro">
-                <h3 style={{color:"black"}}>Common Question &amp; Answer</h3>
+                <h3 style={{ color: "black" }}>Common Question &amp; Answer</h3>
               </div>
               <div className="faq-list">
                 <div
@@ -59,7 +61,7 @@ const MobileGamePageFaq = () => {
                         aria-expanded="false"
                         aria-controls="flush-collapseOne"
                       >
-                        What is Realm Wars: Clash of Empires?
+                        What platforms do you develop games for?
                       </button>
                     </h2>
                     <div
@@ -68,9 +70,8 @@ const MobileGamePageFaq = () => {
                       data-bs-parent="#accordionFlushExample"
                     >
                       <div className="accordion-body">
-                        Clash of Empires is a strategic mobile game that
-                        combines city-building, resource management, and
-                        tactical warfare in a vibrant fantasy world.
+                        We develop games for iOS and Android platforms, ensuring
+                        compatibility with a wide range of devices.
                       </div>
                     </div>
                   </div>
@@ -84,7 +85,7 @@ const MobileGamePageFaq = () => {
                         aria-expanded="false"
                         aria-controls="flush-collapseTwo"
                       >
-                        Who is Realm Wars: Clash of Empires designed for?
+                        How long does the development process take?
                         {"}"}
                       </button>
                     </h2>
@@ -94,10 +95,9 @@ const MobileGamePageFaq = () => {
                       data-bs-parent="#accordionFlushExample"
                     >
                       <div className="accordion-body">
-                        Clash of Empires is designed for startup entrepreneurs
-                        and businesses in the mobile gaming industry who are
-                        looking for a customizable white-label solution to
-                        launch their own mobile game.
+                        The timeline depends on the complexity of the game and
+                        specific client requirements. We provide estimated
+                        timelines during the planning phase.
                       </div>
                     </div>
                   </div>
@@ -111,8 +111,7 @@ const MobileGamePageFaq = () => {
                         aria-expanded="false"
                         aria-controls="flush-collapseThree"
                       >
-                        What platforms is Realm Wars: Clash of Empires available
-                        on?
+                        Do you offer post-launch support?
                       </button>
                     </h2>
                     <div
@@ -121,9 +120,9 @@ const MobileGamePageFaq = () => {
                       data-bs-parent="#accordionFlushExample"
                     >
                       <div className="accordion-body">
-                        Clash of Empires is available on both iOS and Android
-                        platforms, offering cross-platform compatibility for a
-                        wide range of devices.
+                        Yes, we provide comprehensive support and maintenance
+                        services to ensure that your game remains updated and
+                        optimized for continued success.
                       </div>
                     </div>
                   </div>
@@ -137,8 +136,7 @@ const MobileGamePageFaq = () => {
                         aria-expanded="false"
                         aria-controls="flush-collapseFour"
                       >
-                        What licensing options are available for Realm Wars:
-                        Clash of Empires?
+                        Can you help with monetization strategies?
                       </button>
                     </h2>
                     <div
@@ -147,9 +145,9 @@ const MobileGamePageFaq = () => {
                       data-bs-parent="#accordionFlushExample"
                     >
                       <div className="accordion-body">
-                        We offer flexible licensing options tailored to meet
-                        your specific needs and budget requirements, whether
-                        you're a solo entrepreneur or a budding startup
+                        Absolutely! We offer guidance and assistance with
+                        implementing various monetization strategies, including
+                        ads, in-app purchases, and subscription models
                       </div>
                     </div>
                   </div>
@@ -163,8 +161,7 @@ const MobileGamePageFaq = () => {
                         aria-expanded="false"
                         aria-controls="flush-collapseFive"
                       >
-                        How can I customize Realm Wars: Clash of Empires for my
-                        brand?
+                        How involved will I be in the development process?
                       </button>
                     </h2>
                     <div
@@ -173,10 +170,9 @@ const MobileGamePageFaq = () => {
                       data-bs-parent="#accordionFlushExample"
                     >
                       <div className="accordion-body">
-                        With our white-label solution, you can customize and
-                        brand Realm Wars: Clash of Empires as your own unique
-                        product, with full control over branding and
-                        customization options.
+                        We believe in transparent communication and
+                        collaboration. You'll be involved in every step of the
+                        development process, from concept to launch.
                       </div>
                     </div>
                   </div>

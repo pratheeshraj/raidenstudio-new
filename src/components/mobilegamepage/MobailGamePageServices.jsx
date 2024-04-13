@@ -23,11 +23,12 @@ const MobailGamePageServices = () => {
               src="/assets/img/raidensimx/key features/immersive.svg"
               alt=""
             />
-            <h6 style={{color:"black"}}> Immersive Simulations</h6>
-            <p style={{color:"black"}}>
-              Dive into realistic scenarios crafted to mimic real-world
-              situations, providing an engaging learning experience that goes
-              beyond traditional methods.
+            <h6 style={{ color: "black" }}>
+              Conceptualization and Storyboarding
+            </h6>
+            <p style={{ color: "black" }}>
+              We transform your ideas into compelling game concepts, crafting
+              captivating storylines and characters.
             </p>
           </div>
           <div
@@ -41,13 +42,13 @@ const MobailGamePageServices = () => {
               src="/assets/img/raidensimx/key features/immersive.svg"
               alt=""
             />
-            <h6 style={{color:"black"}}> Immersive Simulations</h6>
-            <p style={{color:"black"}}>
-              Dive into realistic scenarios crafted to mimic real-world
-              situations, providing an engaging learning experience that goes
-              beyond traditional methods.
+            <h6 style={{ color: "black" }}> Design and Development</h6>
+            <p style={{ color: "black" }}>
+              Our skilled designers and developers bring your vision to life,
+              ensuring seamless gameplay and stunning visuals.
             </p>
-          </div>    <div
+          </div>{" "}
+          <div
             className="key_features_card"
             style={{
               backgroundColor: "white",
@@ -58,13 +59,13 @@ const MobailGamePageServices = () => {
               src="/assets/img/raidensimx/key features/immersive.svg"
               alt=""
             />
-            <h6 style={{color:"black"}}> Immersive Simulations</h6>
-            <p style={{color:"black"}}>
-              Dive into realistic scenarios crafted to mimic real-world
-              situations, providing an engaging learning experience that goes
-              beyond traditional methods.
+            <h6 style={{ color: "black" }}>UI/UX Design</h6>
+            <p style={{ color: "black" }}>
+              We prioritize user experience, designing intuitive interfaces that
+              enhance player engagement and enjoyment.
             </p>
-          </div>    <div
+          </div>{" "}
+          <div
             className="key_features_card"
             style={{
               backgroundColor: "white",
@@ -75,13 +76,13 @@ const MobailGamePageServices = () => {
               src="/assets/img/raidensimx/key features/immersive.svg"
               alt=""
             />
-            <h6 style={{color:"black"}}> Immersive Simulations</h6>
-            <p style={{color:"black"}}>
-              Dive into realistic scenarios crafted to mimic real-world
-              situations, providing an engaging learning experience that goes
-              beyond traditional methods.
+            <h6 style={{ color: "black" }}> Multi-platform Compatibility</h6>
+            <p style={{ color: "black" }}>
+              Our games are optimized for various mobile platforms, reaching a
+              wider audience and maximizing your game's potential.
             </p>
-          </div>    <div
+          </div>{" "}
+          <div
             className="key_features_card"
             style={{
               backgroundColor: "white",
@@ -92,13 +93,13 @@ const MobailGamePageServices = () => {
               src="/assets/img/raidensimx/key features/immersive.svg"
               alt=""
             />
-            <h6 style={{color:"black"}}> Immersive Simulations</h6>
-            <p style={{color:"black"}}>
-              Dive into realistic scenarios crafted to mimic real-world
-              situations, providing an engaging learning experience that goes
-              beyond traditional methods.
+            <h6 style={{ color: "black" }}>Testing and Quality Assurance</h6>
+            <p style={{ color: "black" }}>
+              Rigorous testing ensures that your game runs smoothly across
+              devices, delivering a flawless gaming experience.
             </p>
-          </div>    <div
+          </div>{" "}
+          <div
             className="key_features_card"
             style={{
               backgroundColor: "white",
@@ -109,11 +110,13 @@ const MobailGamePageServices = () => {
               src="/assets/img/raidensimx/key features/immersive.svg"
               alt=""
             />
-            <h6 style={{color:"black"}}> Immersive Simulations</h6>
-            <p style={{color:"black"}}>
-              Dive into realistic scenarios crafted to mimic real-world
-              situations, providing an engaging learning experience that goes
-              beyond traditional methods.
+            <h6 style={{ color: "black" }}>
+              {" "}
+              Ongoing Support and Maintenance{" "}
+            </h6>
+            <p style={{ color: "black" }}>
+              We provide comprehensive support post-launch, ensuring that your
+              game remains updated and optimized for continued success.
             </p>
           </div>
         </div>
