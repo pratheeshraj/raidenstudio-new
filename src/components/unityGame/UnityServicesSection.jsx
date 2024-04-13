@@ -31,7 +31,7 @@ const UnityServicesSection = () => {
               alt=""
             />
             <h6 style={{ color: "black" }}>Game Development</h6>
-            <p style={{ color: "black" }}>
+            <p style={{color:"black"}}>
               From concept to launch, we create captivating games tailored to
               your vision and audience.
             </p>
@@ -117,7 +117,7 @@ const UnityServicesSection = () => {
             />
             <h6 style={{ color: "black" }}> Maintenance & Support </h6>
             <p style={{ color: "black" }}>
-              We provide ongoing maintenance and support services to keep your
+              We provide ongoing maintenance & support services to keep your
               Unity projects running smoothly post-launch.
             </p>
           </div>

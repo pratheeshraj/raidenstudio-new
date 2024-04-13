@@ -1,6 +1,6 @@
 import React from "react";
 
-const UnRealServicesSection = () => {
+const Web3GameServicesSection = () => {
   return (
     <section>
       <div
@@ -8,12 +8,15 @@ const UnRealServicesSection = () => {
         style={{ backgroundColor: "#f8f9fa" }}
       >
         <h2 className="auto-container " style={{ color: "black" }}>
-          Our <span style={{ color: "#fdb441" }}>Unreal Development </span>{" "}
-          Offerings
+          Suite of <span style={{ color: "#fdb441" }}>Unity Development</span>{" "}
+          Services
         </h2>
-        <p style={{ textAlign: "center", marginBottom: "40px",color:"black" }}>
-          Step into a world where the impossible becomes possible. Explore our
-          range of Unreal Engine services <br /> tailored to meet your every need.
+        <p
+          style={{ color: "black", marginBottom: "40px", textAlign: "center" }}
+        >
+          Our Unity development services offer unmatched flexibility and
+          creativity, ensuring your project stands <br /> out in today's {" "}
+          competitive landscape.
         </p>
         <div className="auto-container row key_features_section_container">
           <div
@@ -28,9 +31,9 @@ const UnRealServicesSection = () => {
               alt=""
             />
             <h6 style={{ color: "black" }}>Game Development</h6>
-            <p style={{ color: "black" }}>
-              From concept to launch, we specialize in crafting captivating and
-              immersive gaming experiences using Unreal Engine.
+            <p style={{color:"black"}}>
+              From concept to launch, we create captivating games tailored to
+              your vision and audience.
             </p>
           </div>
           <div
@@ -44,14 +47,10 @@ const UnRealServicesSection = () => {
               src="/assets/img/raidensimx/key features/immersive.svg"
               alt=""
             />
-            <h6 style={{ color: "black" }}>
-              {" "}
-               (VR) and (AR)
-            </h6>
+            <h6 style={{ color: "black" }}> AR/VR Solutions</h6>
             <p style={{ color: "black" }}>
-              Step into the future with our VR and AR solutions that blend
-              reality with imagination, powered by Unreal Engine's cutting-edge
-              technology.
+              Immerse your audience in captivating virtual experiences or
+              enhance real-world interactions with our AR/VR solutions.
             </p>
           </div>{" "}
           <div
@@ -65,11 +64,10 @@ const UnRealServicesSection = () => {
               src="/assets/img/raidensimx/key features/immersive.svg"
               alt=""
             />
-            <h6 style={{ color: "black" }}>Architectural Visualization</h6>
+            <h6 style={{ color: "black" }}>Interactive Simulations</h6>
             <p style={{ color: "black" }}>
-              Visualize your architectural designs with stunning realism and
-              interactivity, thanks to our expertise in Unreal Engine's
-              architectural visualization capabilities.
+              Drive engagement and learning through interactive simulations that
+              bring concepts to life.
             </p>
           </div>{" "}
           <div
@@ -83,11 +81,10 @@ const UnRealServicesSection = () => {
               src="/assets/img/raidensimx/key features/immersive.svg"
               alt=""
             />
-            <h6 style={{ color: "black" }}>Simulation and Training</h6>
+            <h6 style={{ color: "black" }}>UI/UX Design</h6>
             <p style={{ color: "black" }}>
-              Enhance learning outcomes and improve training effectiveness with
-              our simulation solutions built on Unreal Engine's robust
-              framework.
+              Elevate user experiences with intuitive and visually stunning
+              UI/UX design for your Unity projects.
             </p>
           </div>{" "}
           <div
@@ -101,11 +98,10 @@ const UnRealServicesSection = () => {
               src="/assets/img/raidensimx/key features/immersive.svg"
               alt=""
             />
-            <h6 style={{ color: "black" }}>Cinematics and Visual Effects</h6>
+            <h6 style={{ color: "black" }}> Multi-platform Deployment</h6>
             <p style={{ color: "black" }}>
-              Bring stories to life and captivate audiences with breathtaking
-              cinematics and visual effects rendered using Unreal Engine's
-              unparalleled capabilities.
+              Ensure your Unity projects reach a wider audience with seamless
+              deployment across multiple platforms.
             </p>
           </div>{" "}
           <div
@@ -119,14 +115,10 @@ const UnRealServicesSection = () => {
               src="/assets/img/raidensimx/key features/immersive.svg"
               alt=""
             />
-            <h6 style={{ color: "black" }}>
-              {" "}
-              Custom Unreal Engine 
-            </h6>
+            <h6 style={{ color: "black" }}> Maintenance & Support </h6>
             <p style={{ color: "black" }}>
-              Tailored solutions for unique needs. We specialize in developing
-              custom applications and tools using Unreal Engine's flexible and
-              powerful features.
+              We provide ongoing maintenance and support services to keep your
+              Unity projects running smoothly post-launch.
             </p>
           </div>
         </div>
@@ -135,4 +127,4 @@ const UnRealServicesSection = () => {
   );
 };
 
-export default UnRealServicesSection;
+export default Web3GameServicesSection;

@@ -1,6 +1,6 @@
 import React from "react";
 
-const UnRealHeroSection = () => {
+const Web3GameHeroSection = () => {
   return (
     <section>
       <div
@@ -10,7 +10,8 @@ const UnRealHeroSection = () => {
         <div className="auto-container metaverseroyal_hero_container">
           <div className="left" data-aos="fade-right" data-aos-delay="300">
             <h2>
-            Unreal <span style={{ color: "#fdb441" }}> Potential, Experts Unleashed </span>
+              Immersive
+              <span style={{ color: "#fdb441" }}> Unity Experiences</span> Await
             </h2>
             <p
               style={{
@@ -19,8 +20,8 @@ const UnRealHeroSection = () => {
                 lineHeight: "35px",
               }}
             >
-              Crafting immersive experiences with expert Unreal Development
-              services. Let your imagination soar
+              Enter Unity, unlock possibilities. Let us craft memorable projects
+              together. Impact awaits
             </p>
             <button
               className="default-btn"
@@ -38,4 +39,4 @@ const UnRealHeroSection = () => {
   );
 };
 
-export default UnRealHeroSection;
+export default Web3GameHeroSection;
