@@ -5,7 +5,7 @@ const ProjectSectionTwo = () => {
   return (
     <>
       {/* Project Section two start */}
-      <section className="project-section two" style={{background:"#00151E"}}>
+      <section className="project-section two" style={{ background: "#00151E" }}>
         <div className="auto-container">
           <div className="row">
             <div className="col-12">
@@ -14,8 +14,8 @@ const ProjectSectionTwo = () => {
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
-                <h2 style={{textAlign:"center"}}>
-                Employing AI Development Services in<span className="theme-color"> Multiple Industries</span><br />
+                <h2 style={{ textAlign: "center" }}>
+                  Employing AI Development Services in<span className="theme-color"> Multiple Industries</span><br />
                 </h2>
               </div>
             </div>
@@ -38,8 +38,8 @@ const ProjectSectionTwo = () => {
                   </h3>
                 </div>
               </div>
-            </div>           
-             <div className="col-xl-4 col-md-6">
+            </div>
+            <div className="col-xl-4 col-md-6">
               <div
                 className="project-wrapper "
                 data-aos="fade-up"
@@ -56,7 +56,7 @@ const ProjectSectionTwo = () => {
                   </h3>
                 </div>
               </div>
-            </div>           
+            </div>
             <div className="col-xl-4 col-md-6">
               <div
                 className="project-wrapper "
@@ -74,7 +74,7 @@ const ProjectSectionTwo = () => {
                   </h3>
                 </div>
               </div>
-            </div>            
+            </div>
             <div className="col-xl-4 col-md-6">
               <div
                 className="project-wrapper "
@@ -92,7 +92,7 @@ const ProjectSectionTwo = () => {
                   </h3>
                 </div>
               </div>
-            </div>            
+            </div>
             <div className="col-xl-4 col-md-6">
               <div
                 className="project-wrapper "
@@ -110,8 +110,8 @@ const ProjectSectionTwo = () => {
                   </h3>
                 </div>
               </div>
-            </div>          
-             <div className="col-xl-4 col-md-6">
+            </div>
+            <div className="col-xl-4 col-md-6">
               <div
                 className="project-wrapper "
                 data-aos="fade-up"
@@ -128,8 +128,8 @@ const ProjectSectionTwo = () => {
                   </h3>
                 </div>
               </div>
-            </div>           
-             <div className="col-xl-4 col-md-6">
+            </div>
+            <div className="col-xl-4 col-md-6">
               <div
                 className="project-wrapper "
                 data-aos="fade-up"
@@ -146,7 +146,7 @@ const ProjectSectionTwo = () => {
                   </h3>
                 </div>
               </div>
-            </div>            
+            </div>
             <div className="col-xl-4 col-md-6">
               <div
                 className="project-wrapper "
@@ -182,8 +182,8 @@ const ProjectSectionTwo = () => {
                   </h3>
                 </div>
               </div>
-            </div>           
-             <div className="col-xl-4 col-md-6">
+            </div>
+            <div className="col-xl-4 col-md-6">
               <div
                 className="project-wrapper "
                 data-aos="fade-up"
@@ -196,11 +196,11 @@ const ProjectSectionTwo = () => {
                 />
                 <div className="shape-overlay">
                   <h3>
-                    <Link to="/project-details">Eduction</Link>
+                    <Link to="/project-details">Education</Link>
                   </h3>
                 </div>
               </div>
-            </div>            
+            </div>
             <div className="col-xl-4 col-md-6">
               <div
                 className="project-wrapper "
@@ -218,8 +218,8 @@ const ProjectSectionTwo = () => {
                   </h3>
                 </div>
               </div>
-            </div>           
-             <div className="col-xl-4 col-md-6">
+            </div>
+            <div className="col-xl-4 col-md-6">
               <div
                 className="project-wrapper "
                 data-aos="fade-up"
@@ -236,7 +236,7 @@ const ProjectSectionTwo = () => {
                   </h3>
                 </div>
               </div>
-            </div>            
+            </div>
             <div className="col-xl-4 col-md-6">
               <div
                 className="project-wrapper "
@@ -254,7 +254,7 @@ const ProjectSectionTwo = () => {
                   </h3>
                 </div>
               </div>
-            </div>            
+            </div>
             <div className="col-xl-4 col-md-6">
               <div
                 className="project-wrapper "

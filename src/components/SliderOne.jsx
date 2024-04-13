@@ -26,7 +26,7 @@ const SliderOne = () => {
                   className="slide-bg"
                   style={{
                     backgroundImage:
-                      "url('assets/img/Test/brain.avif')",
+                      "url('assets/img/service/brain.jpg')",
                     backgroundSize: "cover",
                     height: "100%"
                   }}

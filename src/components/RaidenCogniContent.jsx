@@ -6,6 +6,8 @@ import ico2 from "../images/raidenSimx/healthcare.svg";
 import icon from "../images/raidenverse/game_engine/interactive.svg";
 import { useDispatch } from "react-redux";
 import { GetAllBlogs } from "../action/BlogAction";
+import cogni_1 from "../images/cogni_1.jpg"
+import cogni_2 from "../images/cogni_2.jpg"
 
 const RaidenCogniContent = () => {
   const dispatch = useDispatch();
@@ -59,7 +61,7 @@ const RaidenCogniContent = () => {
                 <div className="img-file">
                   <img
                     className="img-fluid "
-                    src="/assets/img/about/_e17fb051-856f-4968-a2c0-150430fd0b61 2.png"
+                    src={cogni_1}
                     alt=""
                   />
                 </div>
@@ -325,66 +327,11 @@ const RaidenCogniContent = () => {
           />
         </div>
       </section>
-      {/* <section
-        className="project-section three Raidenarcviz_card_main_div"
-        style={{ padding: "80px 0", background: "black" }}
-      >
-        <div className="auto-container">
-          <div className="row">
-            <h2 className="raidenarcviz_card_h2">
-              <span className="theme-color">Benefits</span>
-            </h2>
-            <div className="arcviz_benifit_div" style={{justifyContent:"center" ,gap:"20px"}}>
-              <div className="arcviz_benifit">
-                <img src="/assets/img/nftdevfeatu/nftwallet.svg" alt="" />
-                <div>Enhanced Visualization</div>
-                <p>
-                  Gain a clearer understanding of architectural designs with
-                  immersive, photorealistic visualizations.
-                </p>
-              </div>
-              <div className="arcviz_benifit">
-                <img src="/assets/img/nftdevfeatu/nftwallet.svg" alt="" />
-                <div>Improved Decision-Making</div>
-                <p>
-                  Make informed decisions with real-time insights and
-                  customizable design options.
-                </p>
-              </div>
-              <div className="arcviz_benifit">
-                <img src="/assets/img/nftdevfeatu/nftwallet.svg" alt="" />
-                <div>Cost and Time Savings</div>
-                <p>
-                  Reduce costs and save time by eliminating the need for
-                  physical staging and in-person property viewings.
-                </p>
-              </div>
-              <div className="arcviz_benifit">
-                <img src="/assets/img/nftdevfeatu/nftwallet.svg" alt="" />
-                <div>Wider Reach</div>
-                <p>
-                  Reach a wider audience of potential buyers and clients by
-                  offering immersive virtual experiences.
-                </p>
-              </div>
-              <div className="arcviz_benifit">
-                <img src="/assets/img/nftdevfeatu/nftwallet.svg" alt="" />
-                <div>Streamlined Transactions</div>
-                <p>
-                  Simplify real estate transactions with virtual commerce,
-                  making buying and selling properties more convenient.
-                </p>
-              </div>
-       
-            </div>
-          </div>
-        </div>
-      </section> */}
       <section>
         <div className="cogni_benefits_section">
           <h2 className="auto-container">Benefits</h2>
           <div className="auto-container cogini_slider">
-            <img src={bg_image1} alt="" className="sideimage" />
+            <img src={cogni_2} alt="" className="sideimage" />
             <Slider
               {...settings}
               className="cogini_slider_main"
@@ -400,7 +347,7 @@ const RaidenCogniContent = () => {
                 </p>
               </div>
               <div className="new">
-              <img src={"/assets/img/raidenCogni/cogni  benefits/immprovedcommu.svg"} alt="" />
+                <img src={"/assets/img/raidenCogni/cogni  benefits/immprovedcommu.svg"} alt="" />
 
                 <h6> Improved Communication</h6>
                 <p>
@@ -409,7 +356,7 @@ const RaidenCogniContent = () => {
                 </p>
               </div>
               <div className="new">
-              <img src={"/assets/img/raidenCogni/cogni  benefits/reducedanxi.svg"} alt="" />
+                <img src={"/assets/img/raidenCogni/cogni  benefits/reducedanxi.svg"} alt="" />
 
                 <h6> Reduced Anxiety</h6>
                 <p>
@@ -418,7 +365,7 @@ const RaidenCogniContent = () => {
                 </p>
               </div>
               <div className="new">
-              <img src={"/assets/img/raidenCogni/cogni  benefits/increasedinde.svg"} alt="" />
+                <img src={"/assets/img/raidenCogni/cogni  benefits/increasedinde.svg"} alt="" />
 
                 <h6> Increased Independence</h6>
                 <p>
@@ -428,7 +375,7 @@ const RaidenCogniContent = () => {
                 </p>
               </div>{" "}
               <div className="new">
-              <img src={"/assets/img/raidenCogni/cogni  benefits/empowern.svg"} alt="" />
+                <img src={"/assets/img/raidenCogni/cogni  benefits/empowern.svg"} alt="" />
 
                 <h6> Empowerment</h6>
                 <p>

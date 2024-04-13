@@ -248,47 +248,47 @@ const RaidenArcvizComponent = ({ vidio }) => {
                         <p className='raidenarcviz_card_p'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eveniet maiores ipsa, error totam non rerum, placeat fugit repellendus vitae optio sit? Ducimus, optio! Iste ipsum aliquid molestiae vitae nemo.</p>
                         <div className="arcviz_benifit_div">
                             <div className="arcviz_benifit">
-                                <img src="/assets/img/nftdevfeatu/nftwallet.svg" alt="" />
+                                <img src="/assets/img/arckwiz-benefits/enhanced.svg" alt="" />
                                 <div>Enhanced Visualization</div>
                                 <p>Gain a clearer understanding of architectural designs with immersive, photorealistic visualizations.</p>
                             </div>
                             <div className="arcviz_benifit">
-                                <img src="/assets/img/nftdevfeatu/nftwallet.svg" alt="" />
+                                <img src="/assets/img/arckwiz-benefits/improved.svg" alt="" />
                                 <div>Improved Decision-Making</div>
                                 <p>Make informed decisions with real-time insights and customizable design options.</p>
                             </div>
                             <div className="arcviz_benifit">
-                                <img src="/assets/img/nftdevfeatu/nftwallet.svg" alt="" />
+                                <img src="/assets/img/arckwiz-benefits/cost.svg" alt="" />
                                 <div>Cost and Time Savings</div>
                                 <p>Reduce costs and save time by eliminating the need for physical staging and in-person property viewings.</p>
                             </div>
                             <div className="arcviz_benifit">
-                                <img src="/assets/img/nftdevfeatu/nftwallet.svg" alt="" />
+                                <img src="/assets/img/arckwiz-benefits/wider.svg" alt="" />
                                 <div>Wider Reach</div>
                                 <p>Reach a wider audience of potential buyers and clients by offering immersive virtual experiences.</p>
                             </div>
                             <div className="arcviz_benifit">
-                                <img src="/assets/img/nftdevfeatu/nftwallet.svg" alt="" />
+                                <img src="/assets/img/arckwiz-benefits/streamlined.svg" alt="" />
                                 <div>Streamlined Transactions</div>
                                 <p>Simplify real estate transactions with virtual commerce, making buying and selling properties more convenient.</p>
                             </div>
                             <div className="arcviz_benifit">
-                                <img src="/assets/img/nftdevfeatu/nftwallet.svg" alt="" />
+                                <img src="/assets/img/arckwiz-benefits/communication.svg" alt="" />
                                 <div>Enhanced Communication</div>
                                 <p>Foster clearer communication among project stakeholders with immersive virtual tours and digital twin technology.</p>
                             </div>
                             <div className="arcviz_benifit">
-                                <img src="/assets/img/nftdevfeatu/nftwallet.svg" alt="" />
+                                <img src="/assets/img/arckwiz-benefits/increasedtenan.svg" alt="" />
                                 <div>Increased Tenant Satisfaction</div>
                                 <p>Provide tenants with virtual instructions and tours, improving their understanding and satisfaction with their rental property.</p>
                             </div>
                             <div className="arcviz_benifit">
-                                <img src="/assets/img/nftdevfeatu/nftwallet.svg" alt="" />
+                                <img src="/assets/img/arckwiz-benefits/accelarated.svg" alt="" />
                                 <div>Accelerated Design Process</div>
                                 <p>Speed up the design process with real-time analytics and collaborative architectural visualization tools.</p>
                             </div>
                             <div className="arcviz_benifit">
-                                <img src="/assets/img/nftdevfeatu/nftwallet.svg" alt="" />
+                                <img src="/assets/img/arckwiz-benefits/competitive.svg" alt="" />
                                 <div>Competitive Advantage</div>
                                 <p>Stay ahead of the competition by offering cutting-edge immersive experiences that set your projects apart.</p>
                             </div>

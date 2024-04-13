@@ -9,7 +9,7 @@ const CounterSectionOne = () => {
       <section
         className="counter-section one"
         style={{
-          backgroundImage: "url('/assets/img/bg-image/focus-white-robotic.jpg')",
+          backgroundImage: "url('/assets/img/bg-image/naai.jpg')",
           backgroundSize: "cover"
         }}
       >

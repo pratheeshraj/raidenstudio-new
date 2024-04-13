@@ -46,6 +46,7 @@ import MetaverseRoyal from "./pages/MetaverseRoyal";
 
 import ARdevelopment from "./pages/ARdevelopment";
 import MobileGame from "./pages/MobileGame";
+import Blockchain from "./pages/Blockchain";
 import UnityGamePage from "./pages/UnityGamePage";
 import UnrealGamePage from "./pages/UnrealGamePage";
 import MmorpgGamePage from "./pages/MmorpgGamePage";
@@ -98,10 +99,11 @@ function App() {
         <Route exact path="/raiden-cogni" element={<RaidenCogni />} />
         <Route exact path="/metaverse-casino" element={<MetaverseCasino />} />
         <Route exact path="/vr-development" element={<VRdevelopment />} />
-
         <Route exact path="/metaverse-royal" element={<MetaverseRoyal />} />
-
         <Route exact path="/ar-development" element={<ARdevelopment />} />
+        <Route exact path="/mobile-game-development" element={<MobileGame />} />
+        <Route exact path="/blockchain" element={<Blockchain />} />
+
         <Route exact path="/mobile-game-development" element={<MobileGame/>} />
         <Route exact path="/unity-development" element={<UnityGamePage/>} />
         <Route exact path="/unreal-development" element={<UnrealGamePage/>} />
