@@ -28,11 +28,11 @@ const MobileGame = () => {
         <MobileGamePageBenifit/>
         <MobileGamePageBanner/>
         <MobileGamePageProcess/>
-        <MobileGamePageFaq/>
         <NewsSectionOne />
+        <MobileGamePageFaq/>
+      
         <ContactSection2 />
         <FooterSectionOne/>
-        <ContactSection2/>
       </Suspense>
     </Fragment>
   )
