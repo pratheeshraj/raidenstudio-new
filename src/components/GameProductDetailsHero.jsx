@@ -300,11 +300,17 @@ const GameProductDetailsHero = () => {
               className="left"
               duration={1.5}
             >
-              <h2>Game Product Details</h2>
+              <h2>
+                Welcome to Realm Wars:{" "}
+                <span style={{ color: "#32fefb" }}> Clash of Empires</span>{" "}
+              </h2>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Recusandae doloremque, ipsa eligendi rerum, distinctio, nisi
-                cupiditate{" "}
+                At Realm Wars, we understand the journey of entrepreneurship -
+                the thrill of innovation, the challenges of market entry, and
+                the relentless pursuit of success. That's why we're proud to
+                introduce Realm Wars: Clash of Empires - a groundbreaking B2B
+                solution tailored specifically for startup entrepreneurs like
+                you.
               </p>
             </ScrollAnimation>
             <div className="right">

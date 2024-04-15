@@ -15,13 +15,13 @@ const Web3GameCount = () => {
                 <h2 className="counter">
                   <ReactVisibilitySensor>
                     {({ isVisible }) => (
-                      <div> {isVisible ? <CountUp end={300} /> : 0}</div>
+                      <div> {isVisible ? <CountUp end={50} /> : 0}</div>
                     )}
                   </ReactVisibilitySensor>
                 </h2>
-                <h3>K +</h3>
+                <h3> +</h3>
               </div>
-              <h4>Lines of Code Written </h4>
+              <h4>Completed Projects </h4>
             </div>
           </div>
           <div className="col-lg-3 col-md-6">
@@ -34,13 +34,13 @@ const Web3GameCount = () => {
                 <h2 className="counter">
                   <ReactVisibilitySensor>
                     {({ isVisible }) => (
-                      <div> {isVisible ? <CountUp end={99} /> : 0}</div>
+                      <div> {isVisible ? <CountUp end={10} /> : 0}</div>
                     )}
                   </ReactVisibilitySensor>
                 </h2>
-                <h3>%</h3>
+                <h3>+</h3>
               </div>
-              <h4>On-Time Project Delivery</h4>
+              <h4>NFTs Integrated</h4>
             </div>
           </div>
           <div className="col-lg-3 col-md-6">
@@ -53,13 +53,13 @@ const Web3GameCount = () => {
                 <h2 className="counter">
                   <ReactVisibilitySensor>
                     {({ isVisible }) => (
-                      <div> {isVisible ? <CountUp end={80} /> : 0}</div>
+                      <div> {isVisible ? <CountUp end={10} /> : 0}</div>
                     )}
                   </ReactVisibilitySensor>
                 </h2>
-                <h3>%</h3>
+                <h3>+</h3>
               </div>
-              <h4>Cost Savings for Startups </h4>
+              <h4>Blockchain Platforms Supported </h4>
             </div>
           </div>
           <div className="col-lg-3 col-md-6">
@@ -72,13 +72,13 @@ const Web3GameCount = () => {
                 <h2 className="counter">
                   <ReactVisibilitySensor>
                     {({ isVisible }) => (
-                      <div> {isVisible ? <CountUp end={30} /> : 0}</div>
+                      <div> {isVisible ? <CountUp end={100} /> : 0}</div>
                     )}
                   </ReactVisibilitySensor>
                 </h2>
                 <h3>+</h3>
               </div>
-              <h4>Unity Certified Developers</h4>
+              <h4>Smart Contracts Deployed</h4>
             </div>
           </div>
         </div>

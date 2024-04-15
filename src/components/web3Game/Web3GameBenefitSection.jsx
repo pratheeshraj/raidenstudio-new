@@ -15,8 +15,7 @@ const Web3GameBenefitSection = () => {
               textAlign: "center",
             }}
           >
-            Enjoy cost-effectiveness, rapid prototyping, and a vibrant community
-            that supports <br /> your project every step of the way
+          From enhanced player ownership to decentralized economies, our services empower  <br /> you to redefine gaming for the modern era
           </p>
           <div className="pagebenifit">
             <div className="pagebenifit_card">

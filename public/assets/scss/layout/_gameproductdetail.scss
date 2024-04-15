@@ -25,13 +25,13 @@
       flex-direction: column;
     }
     p {
-      text-align: center;
+      text-align: start;
       @media #{ $xs,$xss} {
         font-size: 14px;
       }
     }
     h2 {
-      text-align: center;
+      text-align: start;
       @media #{$sm, $xs,$xss} {
         font-size: 26px;
       }
