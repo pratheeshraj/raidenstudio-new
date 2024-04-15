@@ -5,13 +5,13 @@ const UnityHeroSection = () => {
     <section>
       <div
         className="container-fluid metaverseroyal_hero"
-        style={{ backgroundImage: "none", backgroundColor: "#a2a89d" }}
+        style={{ backgroundImage: "none", backgroundColor: "#223669" }}
       >
         <div className="auto-container metaverseroyal_hero_container">
           <div className="left" data-aos="fade-right" data-aos-delay="300">
             <h2>
               Immersive
-              <span style={{ color: "#fdb441" }}> Unity Experiences</span> Await
+              <span style={{ color: "rgb(216 11 168)" }}> Unity Experiences</span> Await
             </h2>
             <p
               style={{
@@ -25,13 +25,13 @@ const UnityHeroSection = () => {
             </p>
             <button
               className="default-btn"
-              style={{ backgroundColor: "#fdb441" }}
+              style={{ backgroundColor: "rgb(216 11 168)" }}
             >
               Explore Now
             </button>
           </div>
           <div className="right" data-aos="fade-left" data-aos-delay="300">
-            <img src="\assets\img\mobail-game-page\hero.png" alt="" />
+            <img src="\assets\img\unity_game\hero.png" alt="" />
           </div>
         </div>
       </div>

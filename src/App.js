@@ -53,6 +53,7 @@ import MmorpgGamePage from "./pages/MmorpgGamePage";
 import Defi from "./pages/Defi";
 import P2eGamePage from "./pages/P2eGamePage";
 import Web3GamePage from "./pages/Web3GamePage";
+import AllCaseStudy from "./pages/AllCaseStudy";
 
 
 
@@ -113,6 +114,7 @@ function App() {
         <Route exact path="/mobile-game-development" element={<MobileGame />} />
         <Route exact path="/p2e-develpment" element={<P2eGamePage />} />
         <Route exact path="/web3-game-develpment" element={<Web3GamePage />} />
+        <Route exact path="/all-casestudy" element={<AllCaseStudy />} />
 
 
         <Route exact path="*" element={<Error />} />
