@@ -7,6 +7,8 @@ const WebchainTech = () => {
     const [database, setDatabase] = useState(false)
     const [blockchain, setBlockchain] = useState(false)
     const [game, setGame] = useState(false)
+    const [cloud, setCloud] = useState(false)
+
     const handleFrontEnd = () => {
         setFrontend(true)
         setBackend(false)
@@ -14,16 +16,9 @@ const WebchainTech = () => {
         setDatabase(false)
         setBlockchain(false)
         setGame(false)
+        setCloud(false)
     }
-    const handleBackend = () => {
-        setFrontend(false)
-        setBackend(true)
-        setMobile(false)
-        setDatabase(false)
-        setBlockchain(false)
-        setGame(false)
 
-    }
     const handleMobile = () => {
         setFrontend(false)
         setBackend(false)
@@ -31,17 +26,10 @@ const WebchainTech = () => {
         setDatabase(false)
         setBlockchain(false)
         setGame(false)
+        setCloud(false)
 
     }
-    const handleDatabase = () => {
-        setFrontend(false)
-        setBackend(false)
-        setMobile(false)
-        setDatabase(true)
-        setBlockchain(false)
-        setGame(false)
 
-    }
     const handleBlockchain = () => {
         setFrontend(false)
         setBackend(false)
@@ -49,6 +37,7 @@ const WebchainTech = () => {
         setDatabase(false)
         setBlockchain(true)
         setGame(false)
+        setCloud(false)
 
     }
     const handleGame = () => {
@@ -58,7 +47,29 @@ const WebchainTech = () => {
         setDatabase(false)
         setBlockchain(false)
         setGame(true)
+        setCloud(false)
 
+    }
+
+    const handleDatabase = () => {
+        setFrontend(false)
+        setBackend(false)
+        setMobile(false)
+        setDatabase(true)
+        setBlockchain(false)
+        setGame(false)
+        setCloud(false)
+
+    }
+
+    const handleCloud = () => {
+        setFrontend(false)
+        setBackend(false)
+        setMobile(false)
+        setDatabase(false)
+        setBlockchain(false)
+        setGame(false)
+        setCloud(true)
     }
 
     return (
@@ -71,40 +82,36 @@ const WebchainTech = () => {
                         <p style={{ color: "black", textAlign: "center" }}>Our proficiency extends across a diverse range of technologies and frameworks, including but not limited to </p>
                         <div className="left_Language_div">
                             <div onClick={handleFrontEnd} style={{ color: frontend ? '#13C4A1' : 'black' }}>Web</div>
-                            <div onClick={handleMobile} style={{ color: mobile ? '#13C4A1' : 'black' }}>Mobile </div>
+                            <div onClick={handleMobile} style={{ color: mobile ? '#13C4A1' : 'black' }}>Smart Contract</div>
                             <div onClick={handleBlockchain} style={{ color: blockchain ? '#13C4A1' : 'black' }}>Blockchain</div>
-                            <div onClick={handleGame} style={{ color: game ? '#13C4A1' : 'black' }}>Game</div>
+                            <div onClick={handleGame} style={{ color: game ? '#13C4A1' : 'black' }}>Backend</div>
+                            <div onClick={handleDatabase} style={{ color: database ? '#13C4A1' : 'black' }}>Database</div>
+                            <div onClick={handleCloud} style={{ color: cloud ? '#13C4A1' : 'black' }}>Cloud</div>
+
+
                         </div>
                         {
                             frontend ? <div className="right_Language_div">
                                 <div className="Card_service">
-                                    <img src="/assets/img/Language/becomeamernstackdeveloper-mobile-min.png" alt="" />
-                                    <div className="Card_name_sevice">MEAN</div>
+                                    <img src="/assets/img/Language/REACT NATIVE.svg" alt="" />
+                                    <div className="Card_name_sevice">React js</div>
                                 </div>
                                 <div className="Card_service">
-                                    <img src="/assets/img/Language/Screenshot_2024-03-27_112007-removebg-preview-min.png" alt="" />
-                                    <div className="Card_name_sevice">MERN</div>
+                                    <img src="/assets/img/Language/ANGULAR.svg" alt="" />
+                                    <div className="Card_name_sevice">Angular</div>
                                 </div>
                                 <div className="Card_service ">
-                                    <img style={{ scale: "1.3" }} src="/assets/img/Language/WebGL-Logo.wine.svg" alt="" />
-                                    <div className="Card_name_sevice">WebGL</div>
+                                    <img src="/assets/img/Language/WebGL-Logo.wine.svg" alt="" />
+                                    <div className="Card_name_sevice">Vue js</div>
                                 </div>
                             </div> : mobile ? <div className="right_Language_div">
                                 <div className="Card3_service">
                                     <img src="/assets/img/Language/REACT NATIVE.svg" alt="" />
-                                    <div className="Card_name_sevice">React Native</div>
+                                    <div className="Card_name_sevice">Solidity</div>
                                 </div>
                                 <div className="Card3_service">
                                     <img src="/assets/img/Language/FLUTTER.svg" alt="" />
-                                    <div className="Card_name_sevice">Flutter</div>
-                                </div>
-                                <div className="Card3_service">
-                                    <img src="/assets/img/Language/SWIFT.svg" alt="" />
-                                    <div className="Card_name_sevice">Swift</div>
-                                </div>
-                                <div className="Card3_service">
-                                    <img src="/assets/img/Language/KATLIN.svg" alt="" />
-                                    <div className="Card_name_sevice">Kotlin</div>
+                                    <div className="Card_name_sevice">Vyper</div>
                                 </div>
                             </div> : blockchain ? <div className="right_Language_div">
                                 <div className="Card5_service">
@@ -113,52 +120,51 @@ const WebchainTech = () => {
                                 </div>
                                 <div className="Card5_service">
                                     <img src="/assets/img/Language/solana-sol-logo.svg" alt="" />
-                                    <div className="Card_name_sevice">Solana</div>
+                                    <div className="Card_name_sevice">Hyperledger</div>
                                 </div>
                                 <div className="Card5_service">
                                     <img src="/assets/img/Language/cardano-ada-logo.svg" alt="" />
-                                    <div className="Card_name_sevice">Cardano</div>
-                                </div>
-                                <div className="Card5_service">
-                                    <img src="/assets/img/Language/polkadot-new-dot-logo.svg" alt="" />
-                                    <div className="Card_name_sevice">PolkaDot</div>
-                                </div>
-                                <div className="Card5_service">
-                                    <img src="/assets/img/Language/ipfs-logo.svg" alt="" />
-                                    <div className="Card_name_sevice">IPFS</div>
+                                    <div className="Card_name_sevice">EOS</div>
                                 </div>
                             </div> : game ? <div className="right_Language_div">
                                 <div className="Card6_service">
                                     <img src="/assets/img/Language/UNITY.svg" alt="" />
-                                    <div className="Card_name_sevice">Unity 3D</div>
+                                    <div className="Card_name_sevice">Node js</div>
                                 </div>
                                 <div className="Card6_service">
                                     <img style={{ fill: "red" }} src="/assets/img/Language/unreal.svg" alt="" />
-                                    <div className="Card_name_sevice">UnReal Engine</div>
+                                    <div className="Card_name_sevice">Python</div>
                                 </div>
                                 <div className="Card6_service">
                                     <img src="/assets/img/Language/arkit-removebg-preview 1.png" alt="" />
-                                    <div className="Card_name_sevice">ARKit</div>
+                                    <div className="Card_name_sevice">Go</div>
+                                </div>
+
+                            </div> : database ? <div className="right_Language_div">
+                                <div className="Card6_service">
+                                    <img src="/assets/img/Language/UNITY.svg" alt="" />
+                                    <div className="Card_name_sevice">MongoDB</div>
                                 </div>
                                 <div className="Card6_service">
-                                    <img src="/assets/img/Language/google-arcore.svg" alt="" />
-                                    <div className="Card_name_sevice">ARCore</div>
-                                </div>
-                                {/* <div className="Card6_service">
-                                    <img src="/assets/img/Language/csharp.svg.svg" alt="" />
-                                    <div className="Card_name_sevice">C#</div>
+                                    <img src="/assets/img/Language/arkit-removebg-preview 1.png" alt="" />
+                                    <div className="Card_name_sevice">PostgreSQL</div>
                                 </div>
                                 <div className="Card6_service">
-                                    <img src="/assets/img/Language/blender-icon.svg" alt="" />
-                                    <div className="Card_name_sevice">Blender</div>
-                                </div> */}
+                                    <img src="/assets/img/Language/arkit-removebg-preview 1.png" alt="" />
+                                    <div className="Card_name_sevice">MySQL</div>
+                                </div>
+                            </div> : cloud ? <div className="right_Language_div">
                                 <div className="Card6_service">
-                                    <img src="/assets/img/Language/aframe-logo.png" alt="" />
-                                    <div className="Card_name_sevice">A-Frame</div>
+                                    <img src="/assets/img/Language/UNITY.svg" alt="" />
+                                    <div className="Card_name_sevice">Amazon Web Services</div>
                                 </div>
                                 <div className="Card6_service">
-                                    <img src="/assets/img/Language/three js.png" alt="" />
-                                    <div className="Card_name_sevice">Three.js</div>
+                                    <img src="/assets/img/Language/arkit-removebg-preview 1.png" alt="" />
+                                    <div className="Card_name_sevice">Microsoft Azure</div>
+                                </div>
+                                <div className="Card6_service">
+                                    <img src="/assets/img/Language/arkit-removebg-preview 1.png" alt="" />
+                                    <div className="Card_name_sevice">Google Cloud Platform</div>
                                 </div>
                             </div> : ""
                         }
