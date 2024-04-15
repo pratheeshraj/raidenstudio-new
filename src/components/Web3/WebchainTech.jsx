@@ -101,7 +101,7 @@ const WebchainTech = () => {
                                     <div className="Card_name_sevice">Angular</div>
                                 </div>
                                 <div className="Card_service ">
-                                    <img src="/assets/img/Language/WebGL-Logo.wine.svg" alt="" />
+                                    <img src="/assets/img/Language/Vue.js_Logo_2.svg" alt="" />
                                     <div className="Card_name_sevice">Vue js</div>
                                 </div>
                             </div> : mobile ? <div className="right_Language_div">

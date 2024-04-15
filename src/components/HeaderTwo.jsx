@@ -252,7 +252,7 @@ const HeaderTwo = () => {
                       <nav>
                         <ul>
                           <li className="has-dropdown">
-                            <Link to="/">Home</Link>
+                            <Link to="/">HOME</Link>
                             {/* <ul className="sub-menu">
                               <li>
                                 <NavLink
@@ -342,7 +342,7 @@ const HeaderTwo = () => {
                           </li> */}
                           <li className="has-dropdown">
                             <Link className="nav_link" to="#">
-                              Products<i class="fa-solid fa-caret-down"></i>
+                              PRODUCTS<i class="fa-solid fa-caret-down"></i>
                             </Link>
                             <ul className="sub-menu">
                               <div className="sub-menu-div">
@@ -492,7 +492,7 @@ const HeaderTwo = () => {
                           </li>
                           <li className="has-dropdown">
                             <Link className="nav_link" to="#">
-                              Service<i class="fa-solid fa-caret-down"></i>
+                              SERVICES<i class="fa-solid fa-caret-down"></i>
                             </Link>
                             <ul className="sub-menu">
                               <div className="sub-menu-div">
@@ -793,11 +793,11 @@ const HeaderTwo = () => {
                             </ul>
                           </li>
                           <li className="has-dropdown">
-                            <NavLink to="/blog">Insights</NavLink>
+                            <NavLink to="/blog">INSIGHTS</NavLink>
                           </li>
                           <li className="has-dropdown">
                             <Link className="nav_link" to="#">
-                              Company <i class="fa-solid fa-caret-down"></i>
+                              COMPANY <i class="fa-solid fa-caret-down"></i>
                             </Link>
                             <ul className="sub-menu">
                               <div className="sub-menu-div">
