@@ -1,6 +1,6 @@
 import React from "react";
 
-const VrAbout = () => {
+const BlockchainAbout = () => {
     return (
         <>
             {/* Service Details Section Start */}
@@ -25,13 +25,17 @@ const VrAbout = () => {
                         </div>
                         <div className="col-lg-6">
                             <div className="right-wrapper ps-2">
-                                <h2 style={{ color: "black" }} className="title">VR Development: Exploring the Boundaries of Virtual Space
+                                <h2 style={{ color: "black" }} className="title"> Blockchain Game Development Services We Provide:
                                 </h2>
                                 <p style={{ color: "black" }}>
-                                    The cutting-edge technology of immersive virtual reality is breaking down barriers by combining the virtual and real worlds. With worldwide businesses adopting this multimedia technology, there is an enormous movement towards exciting user interaction. Being one of the best VR app development companies, we focus on offering cutting-edge workplaces innovative, competitive, and excellent Virtual, Augmented, and Mixed Reality (MR) software development services.
-                                </p>
-                                <p style={{ color: "black" }}>
-                                    Our custom VR development services, along with powerful tools and advanced technologies, are intended to evaluate your business's specific VR requirements. Our team of experts can help you succeed whether you need a core product or to incorporate VR technologies into your current applications.
+                                    <span style={{ fontWeight: "bold" }}>At Raiden, we offer comprehensive blockchain game development services tailored to meet your unique needs. Our services include:</span>
+                                    <br />
+                                    Conceptualization and Ideation: From brainstorming innovative game concepts to refining ideas, we assist in laying the foundation for your blockchain game.
+                                    Smart Contract Development: Implementing secure and efficient smart contracts to govern in-game transactions, assets, and rules.
+                                    NFT Integration: Leveraging non-fungible tokens (NFTs) to create unique in-game assets, collectibles, and experiences.
+                                    Blockchain Integration: Seamlessly integrating blockchain technology into game mechanics for enhanced security, transparency, and decentralization.
+                                    Multiplayer Functionality: Designing and developing multiplayer features enabled by blockchain for collaborative and competitive gaming experiences.
+
                                 </p>
                             </div>
                         </div>
@@ -43,4 +47,4 @@ const VrAbout = () => {
     );
 };
 
-export default VrAbout;
+export default BlockchainAbout;

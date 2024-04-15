@@ -1,0 +1,12 @@
+@media screen and (max-width: 1140px) {
+    .key_features_card {
+        width: 48% !important;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .key_features_card {
+        width: 100% !important;
+        height: 100% !important;
+    }
+}

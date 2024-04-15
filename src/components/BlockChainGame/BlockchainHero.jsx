@@ -6,7 +6,7 @@ import { Navigation, FreeMode, Thumbs, EffectFade } from "swiper";
 import { Link } from "react-router-dom";
 
 
-const VrHero = () => {
+const BlockchainHero = () => {
     return (
         <>
             <section className="hero-slider one"
@@ -30,7 +30,7 @@ const VrHero = () => {
                                     className="slide-bg"
                                     style={{
                                         backgroundImage:
-                                            "url('assets/img/bg-image/teenager-using-virtual-reality-glasses-play-video-games-metaverse_168310-706-transformed.png')",
+                                            "url('assets/img/bg-image/user-engages-with-futuristic-vr-technology-digital-cyberspace_1151092-683-transformed.jpeg')",
                                         height: "100%"
                                     }}
                                 />
@@ -40,10 +40,13 @@ const VrHero = () => {
                                             <div className="slider-content-inner ">
                                                 <div>
                                                     <h2 className="slider-title">
-                                                        <span className="theme-color" style={{ color: "#7631CE" }}> Virtual Reality (VR)</span><br /> Development Company
+                                                        Revolutionize Gaming <br /> with
+                                                        {/* <h4 className="theme-color">The Most Professional</h4> */}
+                                                        <span className="theme-color"> Blockchain</span><br />
                                                     </h2>
                                                     <p style={{ width: "500px" }} className="description metaverse_hero_para">
-                                                        VRaiden is a one-stop shop for bespoke VR application development, with a focus on crafting custom virtual reality applications which deliver immersive, scalable virtual reality (VR) experiences for next-generation users.                                                     </p>
+                                                        Unlock the future of gaming with Raiden's cutting-edge blockchain game development services. Transforming ideas into immersive experiences.
+                                                    </p>
                                                     <div className="inner-btn" >
                                                         <div>
                                                             <Link className="default-btn" to="/contact">
@@ -65,5 +68,5 @@ const VrHero = () => {
     );
 };
 
-export default VrHero;
+export default BlockchainHero;
 
