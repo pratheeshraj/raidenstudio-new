@@ -2,7 +2,7 @@
 
 .metaverseroyal_hero {
   position: relative;
-  padding: 100px 0 0 0;
+  padding: 100px 0 60px 0;
   height: 90vh;
   background-image: url(../../img/MeatverseRoyal/2151151044.jpg);
   background-position: center;
@@ -46,7 +46,9 @@
     .right {
       flex: 1;
       img {
-        width: 100%;
+        @media #{ $sm,$xs,$xss } {
+          width: 100%;
+        }
       }
     }
   }
@@ -333,7 +335,7 @@
         display: flex;
         align-items: start;
         @media #{$sm, } {
-        width: 90%;
+          width: 90%;
         }
         img {
           width: 50px;

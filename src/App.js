@@ -55,6 +55,7 @@ import P2eGamePage from "./pages/P2eGamePage";
 import Web3GamePage from "./pages/Web3GamePage";
 import BlockchainGame from "./pages/BlockchainGame";
 import Web3 from "./pages/Web3";
+import AllCaseStudy from "./pages/AllCaseStudy";
 
 
 
@@ -118,6 +119,7 @@ function App() {
         <Route exact path="/blockchain-game" element={<BlockchainGame />} />
         <Route exact path="/web3" element={<Web3 />} />
 
+        <Route exact path="/all-casestudy" element={<AllCaseStudy />} />
 
 
         <Route exact path="*" element={<Error />} />
