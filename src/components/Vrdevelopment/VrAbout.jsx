@@ -36,8 +36,6 @@ const VrAbout = () => {
                             </div>
                         </div>
                     </div>
-                    <br />
-                    <br />
                 </div>
             </section>
             {/* Service Details Section End */}

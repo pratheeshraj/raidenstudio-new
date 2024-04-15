@@ -117,9 +117,8 @@ const GameProductDetailsHero = () => {
       const Y = pageY;
 
       if (heroImageRef.current) {
-        heroImageRef.current.style.transform = `translate(${X / 30}px, ${
-          Y / 30
-        }px)`;
+        heroImageRef.current.style.transform = `translate(${X / 30}px, ${Y / 30
+          }px)`;
       }
     };
     document.addEventListener("mousemove", handleMouseMove);
@@ -642,6 +641,7 @@ const GameProductDetailsHero = () => {
         style={{
           backgroundSize: "cover",
           background: "white",
+          padding: "50px 0 20px 0"
         }}
       >
         <div className="auto-container">
@@ -655,13 +655,11 @@ const GameProductDetailsHero = () => {
               className="row"
               style={{ display: "flex", alignItems: "center" }}
             >
-              <div className="col-lg-6">
+              <div className="col-lg-7">
                 <div className="title">
                   <h2 style={{ color: "black" }}>
                     Are you ready to revolutionize
-                    <span className="theme-color">
-                      mobile gaming industry with
-                    </span>{" "}
+                    <span className="theme-color">  mobile gaming industry with</span>{" "}
                     the your innovative ideas?
                   </h2>
                   <p style={{ color: "black" }}>
@@ -682,25 +680,10 @@ const GameProductDetailsHero = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-6">
-                <img src="/assets/img/bg-image/painting-water-lillies-orange-flowers-pond-generative-ai_733139-67283-transformed-removebg-preview.png" />
+              <div className="col-lg-5">
+                <img src="/assets/img/bg-image/boy.png" />
               </div>
             </div>
-            {/* <div className="overlay-text">
-              <h1>AI</h1>
-            </div> */}
-            {/* <div className="shape-img">
-                            <img
-                                className="shape-1 poa"
-                                src="./assets/img/icon/50_icon.png"
-                                alt=""
-                            />
-                            <img
-                                className="shape-2 poa"
-                                src="./assets/img/icon/51_icon.png"
-                                alt=""
-                            />
-                        </div> */}
           </div>
         </div>
       </section>
@@ -790,7 +773,7 @@ const GameProductDetailsHero = () => {
               >
                 <img
                   className="img-fluid"
-                  src="/assets/img/service/02_service.png"
+                  src="/assets/img/service/gamefaq.jpg"
                   alt=""
                 />
               </div>
@@ -835,7 +818,7 @@ const GameProductDetailsHero = () => {
                         data-bs-parent="#accordionFlushExample"
                       >
                         <div className="accordion-body">
-                          Clash of Empires is a strategic mobile game that
+                          trategic mobile game that
                           combines city-building, resource management, and
                           tactical warfare in a vibrant fantasy world.
                         </div>

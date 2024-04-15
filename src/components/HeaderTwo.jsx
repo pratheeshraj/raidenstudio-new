@@ -105,6 +105,9 @@ const HeaderTwo = () => {
     "Web3 Game Development",
   ];
   const gameNamesLink = ["/mobile-game-development", "/unity-development", "/unreal-development", "/mmorpg-development", "/p2e-develpment", "/web3-game-develpment"];
+  const gameservicePara = ["Crafting engaging gaming experiences for portable devices.", "Building immersive worlds with versatile game development platform.", "Creating stunning visuals and realistic gameplay with Unreal Engine.",
+    "Constructing vast, interactive worlds for massive multiplayer experiences.", "Integrating play-to-earn mechanics into captivating gaming projects.", "Leveraging blockchain technology for decentralized, next-gen gaming experiences."
+  ]
 
   //  compony
 
@@ -762,9 +765,7 @@ const HeaderTwo = () => {
                                                   {gameNames[index]}
                                                 </div>
                                                 <div className="manubar_content_para">
-                                                  Lorem ipsum dolor sit amet
-                                                  consectetur adipisicing elit.
-                                                  Fugit, culpa voluptas et.
+                                                  {gameservicePara[index]}
                                                 </div>
                                                 <div
                                                   className="progress-bar"
