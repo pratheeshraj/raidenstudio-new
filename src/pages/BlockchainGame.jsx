@@ -12,11 +12,9 @@ import BlockChainCount from '../components/BlockChainGame/BlockChainCount';
 import BlockchainService from '../components/BlockChainGame/BlockchainService';
 import BlockchainBanner from '../components/BlockChainGame/BlockchainBanner';
 import BlockchainFeature from '../components/BlockChainGame/BlockchainFeature';
-import BlockchainIndustries from '../components/BlockChainGame/BlockchainIndustries';
-import BlockchainTech from '../components/BlockChainGame/BlockchainTech';
 import BlockChainProcess from '../components/BlockChainGame/BlockChainProcess';
-import BlockChainWhychoose from '../components/BlockChainGame/BlockChainWhychoose';
 import BlockChainFaq from '../components/BlockChainGame/BlockChainFaq';
+import BlockchainPortfolio from '../components/BlockChainGame/BlockchainPortfolio';
 
 function BlockchainGame() {
     let [active, setActive] = useState(true);
@@ -53,8 +51,9 @@ function BlockchainGame() {
                 {/* metaverse-process */}
                 <BlockChainProcess />
                 {/* metaverse-whychoose */}
-                <BlockChainWhychoose />
+                {/* <BlockChainWhychoose /> */}
                 {/* faq */}
+                <BlockchainPortfolio />
                 <BlockChainFaq />
                 {/* contact */}
                 <ContactSection2 />

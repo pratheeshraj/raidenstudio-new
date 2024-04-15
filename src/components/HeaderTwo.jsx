@@ -59,7 +59,7 @@ const HeaderTwo = () => {
   const blockChainTo = [
     "/blockchain",
     "/nft-development",
-    "",
+    "/web3",
     "/defi",
     "/metaverse-development",
     "/blockchain-game",
@@ -80,15 +80,15 @@ const HeaderTwo = () => {
 
   const generativeAIValues = [0.5, 0.5];
   const generativeAINames = [
-    "Generative AI Consulting",
+    "AI as a Service",
     "Generative AI Development",
   ];
 
   // xr
 
-  const xrlink = ["/ar-development", "/vr-development", ""];
-  const xrValues = [0.5, 0.5, 0.5];
-  const xrNames = ["AR Services", "VR Services", "Digital Twin"];
+  const xrlink = ["/ar-development", "/vr-development",];
+  const xrValues = [0.5, 0.5];
+  const xrNames = ["AR Services", "VR Services",];
 
   // game
 
@@ -109,9 +109,9 @@ const HeaderTwo = () => {
 
   //  compony
 
-  const companyprogressValues = [0.5, 0.5, 0.5];
-  const CompanyNames = ["About us", "Carrer", "Contact us"];
-
+  const companyprogressValues = [0.5, 0.5, 0.5, 0.5];
+  const CompanyNames = ["About us", "Carrer", "Contact us", "Case studies"];
+  const companyurl = ["/about", "/contact", "/career", "/career"]
   const [activeMenu, setActiveMenu] = useState("Blockchain");
   const [activeMenu1, setActiveMenu1] = useState("virtual");
   const [activeMenu2, setActiveMenu2] = useState("Company");
@@ -832,15 +832,7 @@ const HeaderTwo = () => {
                                             (value, index) => (
                                               <Link
                                                 key={index}
-                                                to={
-                                                  index === 0
-                                                    ? "/about"
-                                                    : index === 2
-                                                      ? "/contact"
-                                                      : index === 1
-                                                        ? "/career"
-                                                        : ""
-                                                } // Assuming index 0 is for "About us" and index 2 is for "Contact us"
+                                                to={companyurl[index]} // Assuming index 0 is for "About us" and index 2 is for "Contact us"
                                                 onMouseEnter={() =>
                                                   setHoveredIndex(index)
                                                 }
