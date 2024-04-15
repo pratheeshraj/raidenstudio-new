@@ -11,7 +11,7 @@ const Web3GameHeroSection = () => {
           <div className="left" data-aos="fade-right" data-aos-delay="300">
             <h2>
               Cutting Edge
-              <span style={{ color: "#fdb441" }}>  Web3 Gaming </span> 
+              <span style={{ color: "#fdb441" }}> Web3 Gaming </span>
             </h2>
             <p
               style={{
@@ -20,8 +20,8 @@ const Web3GameHeroSection = () => {
                 lineHeight: "35px",
               }}
             >
-              Experience immersive, decentralized gameplay like never before
-              with our revolutionary Web3 Game services
+              Harnessing the power of blockchain technology, we offer innovative
+              solutions to revolutionize your gaming experience.
             </p>
             <button
               className="default-btn"

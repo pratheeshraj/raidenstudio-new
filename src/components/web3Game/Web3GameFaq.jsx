@@ -12,7 +12,7 @@ const Web3GameFaq = () => {
             data-aos-delay="300"
           >
             <h3 style={{ color: "black" }}>
-              FAQ For Unity Development{" "}
+              FAQ For Web3 Game Development {" "}
             </h3>
             <h2 style={{ color: "black" }}>
               Answers at a <br />
@@ -60,7 +60,7 @@ const Web3GameFaq = () => {
                       data-bs-target="#flush-collapseOne"
                       aria-expanded="false"
                       aria-controls="flush-collapseOne"
-                    >What industries do you specialize in for Unity development?
+                    >What is Web3 Game Development?
                     </button>
                   </h2>
                   <div
@@ -69,7 +69,7 @@ const Web3GameFaq = () => {
                     data-bs-parent="#accordionFlushExample"
                   >
                     <div className="accordion-body">
-                    We cater to diverse industries including gaming, education, healthcare, entertainment, and more.
+                  	Web3 Game Development refers to the creation of games that leverage blockchain technology, decentralized systems, and cryptographic assets to enable player ownership, transparent transactions, and innovative gameplay mechanics.
                     </div>
                   </div>
                 </div>
@@ -83,7 +83,7 @@ const Web3GameFaq = () => {
                       aria-expanded="false"
                       aria-controls="flush-collapseTwo"
                     >
-              Can you handle both 2D and 3D Unity projects?
+           Why should I integrate blockchain into my game?
                       {"}"}
                     </button>
                   </h2>
@@ -93,7 +93,7 @@ const Web3GameFaq = () => {
                     data-bs-parent="#accordionFlushExample"
                   >
                     <div className="accordion-body">
-                    Yes, our team has expertise in both 2D and 3D Unity development.
+                    Blockchain integration enhances security, enables true ownership of in-game assets, unlocks new monetization opportunities, and fosters trust and transparency among players.
                     </div>
                   </div>
                 </div>
@@ -107,7 +107,7 @@ const Web3GameFaq = () => {
                       aria-expanded="false"
                       aria-controls="flush-collapseThree"
                     >
-             How long does it take to develop a Unity project?
+         What are NFTs, and how are they used in gaming?
                     </button>
                   </h2>
                   <div
@@ -116,7 +116,7 @@ const Web3GameFaq = () => {
                     data-bs-parent="#accordionFlushExample"
                   >
                     <div className="accordion-body">
-                    The timeline varies depending on the project scope and complexity. We provide detailed timelines during the planning phase.
+                    Non-Fungible Tokens (NFTs) are unique digital assets that represent ownership of specific items or collectibles within games. They can be traded, bought, and sold, creating new revenue streams for developers and fostering player engagement.
                     </div>
                   </div>
                 </div>
@@ -130,7 +130,7 @@ const Web3GameFaq = () => {
                       aria-expanded="false"
                       aria-controls="flush-collapseFour"
                     >
-                     Do you provide post-launch support for Unity projects?
+                  How can decentralized economies benefit my game?
                     </button>
                   </h2>
                   <div
@@ -139,7 +139,7 @@ const Web3GameFaq = () => {
                     data-bs-parent="#accordionFlushExample"
                   >
                     <div className="accordion-body">
-                    Yes, we offer ongoing maintenance and support services to ensure your Unity projects remain up-to-date and functional.
+                  	Decentralized economies empower players to trade, sell, and create value within game ecosystems, leading to increased engagement, community building, and monetization opportunities.
                     </div>
                   </div>
                 </div>
