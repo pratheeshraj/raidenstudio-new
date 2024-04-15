@@ -62,9 +62,7 @@ const HeaderTwo = () => {
     "",
     "/defi",
     "/metaverse-development",
-    "",
-    "",
-    "",
+    "/blockchain-game",
   ];
   const blockchainValues = [0.5, 0.5, 0.5, 0.5, 0.5, 0.5];
   const blockchainnames = [
