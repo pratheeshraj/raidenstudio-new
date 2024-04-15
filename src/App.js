@@ -54,6 +54,7 @@ import Defi from "./pages/Defi";
 import P2eGamePage from "./pages/P2eGamePage";
 import Web3GamePage from "./pages/Web3GamePage";
 import BlockchainGame from "./pages/BlockchainGame";
+import Web3 from "./pages/Web3";
 
 
 
@@ -115,6 +116,8 @@ function App() {
         <Route exact path="/p2e-develpment" element={<P2eGamePage />} />
         <Route exact path="/web3-game-develpment" element={<Web3GamePage />} />
         <Route exact path="/blockchain-game" element={<BlockchainGame />} />
+        <Route exact path="/web3" element={<Web3 />} />
+
 
 
         <Route exact path="*" element={<Error />} />
