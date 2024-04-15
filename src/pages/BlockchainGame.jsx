@@ -15,6 +15,7 @@ import BlockchainFeature from '../components/BlockChainGame/BlockchainFeature';
 import BlockChainProcess from '../components/BlockChainGame/BlockChainProcess';
 import BlockChainFaq from '../components/BlockChainGame/BlockChainFaq';
 import BlockchainPortfolio from '../components/BlockChainGame/BlockchainPortfolio';
+import BlockChainWhy from '../components/BlockChainGame/BlockChainWhy';
 
 function BlockchainGame() {
     let [active, setActive] = useState(true);
@@ -50,10 +51,10 @@ function BlockchainGame() {
                 {/* <BlockchainTech /> */}
                 {/* metaverse-process */}
                 <BlockChainProcess />
-                {/* metaverse-whychoose */}
-                {/* <BlockChainWhychoose /> */}
-                {/* faq */}
                 <BlockchainPortfolio />
+                {/* metaverse-whychoose */}
+                <BlockChainWhy />
+                {/* faq */}
                 <BlockChainFaq />
                 {/* contact */}
                 <ContactSection2 />
