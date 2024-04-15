@@ -13,7 +13,7 @@ import BlockchainService from '../components/Web3/WebService';
 import BlockchainBanner from '../components/Web3/BlockchainBanner';
 import BlockchainFeature from '../components/Web3/BlockchainFeature';
 import BlockchainIndustries from '../components/Web3/BlockchainIndustries';
-import BlockchainTech from '../components/Web3/BlockchainTech';
+import BlockchainTech from '../components/Web3/WebchainTech';
 import BlockChainProcess from '../components/Web3/WebProcess';
 import BlockChainWhychoose from '../components/Web3/WebWhychoose';
 import BlockChainFaq from '../components/Web3/WebFaq';
