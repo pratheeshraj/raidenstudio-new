@@ -6,17 +6,17 @@ import FooterSectionOne from '../components/FooterSectionOne';
 import HelmetReact from '../elements/HelmetReact';
 import Preloader from '../elements/Preloader';
 import VrFaq from '../components/Vrdevelopment/VrFaq';
-import BlockchainHero from '../components/BlockChain/BlockchainHero';
-import BlockchainAbout from '../components/BlockChain/BlockchainAbout';
-import BlockChainCount from '../components/BlockChain/BlockChainCount';
-import BlockchainService from '../components/BlockChain/BlockchainService';
-import BlockchainBanner from '../components/BlockChain/BlockchainBanner';
-import BlockchainFeature from '../components/BlockChain/BlockchainFeature';
-import BlockchainIndustries from '../components/BlockChain/BlockchainIndustries';
-import BlockchainTech from '../components/BlockChain/BlockchainTech';
-import BlockChainProcess from '../components/BlockChain/BlockChainProcess';
-import BlockChainWhychoose from '../components/BlockChain/BlockChainWhychoose';
-import BlockChainFaq from '../components/BlockChain/BlockChainFaq';
+import BlockchainHero from '../components/BlockChainGame/BlockchainHero';
+import BlockchainAbout from '../components/BlockChainGame/BlockchainAbout';
+import BlockChainCount from '../components/BlockChainGame/BlockChainCount';
+import BlockchainService from '../components/BlockChainGame/BlockchainService';
+import BlockchainBanner from '../components/BlockChainGame/BlockchainBanner';
+import BlockchainFeature from '../components/BlockChainGame/BlockchainFeature';
+import BlockchainIndustries from '../components/BlockChainGame/BlockchainIndustries';
+import BlockchainTech from '../components/BlockChainGame/BlockchainTech';
+import BlockChainProcess from '../components/BlockChainGame/BlockChainProcess';
+import BlockChainWhychoose from '../components/BlockChainGame/BlockChainWhychoose';
+import BlockChainFaq from '../components/BlockChainGame/BlockChainFaq';
 
 function BlockchainGame() {
     let [active, setActive] = useState(true);
@@ -47,9 +47,9 @@ function BlockchainGame() {
                 {/* metaverse-features */}
                 <BlockchainFeature />
                 {/* metaverse-industries */}
-                <BlockchainIndustries />
+                {/* <BlockchainIndustries /> */}
                 {/* metaverse-tech */}
-                <BlockchainTech />
+                {/* <BlockchainTech /> */}
                 {/* metaverse-process */}
                 <BlockChainProcess />
                 {/* metaverse-whychoose */}
