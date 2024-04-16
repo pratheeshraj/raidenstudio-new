@@ -183,10 +183,10 @@ function MetaverseCasinoContent() {
                                                     "linear-gradient(136.76deg, #ABDCFF 0%, #0396FF 100%)",
                                             }}
                                         >
-                                            <img src={multiPlayer_icon4} alt="" />
+                                            <img src="/assets/img/technical/blockchain.svg" alt="" />
                                         </div>
                                         <div className="right">
-                                            <h6 >	Blockchain Integration</h6>
+                                            <h6 >Blockchain Integration</h6>
                                             <p>
                                                 Utilizes blockchain technology for secure and transparent transactions.
                                                 Enables provably fair gaming and transparent record-keeping.
@@ -207,7 +207,7 @@ function MetaverseCasinoContent() {
                                                     "linear-gradient(136.76deg, #E2B0FF 0%, #9F44D3 100%)",
                                             }}
                                         >
-                                            <img src={multiPlayer_icon2} alt="" />
+                                            <img src="/assets/img/technical/live.svg" alt="" />
                                         </div>
                                         <div className="right">
                                             <h6 >Live Dealer Casino Technology</h6>
@@ -232,7 +232,7 @@ function MetaverseCasinoContent() {
                                                     "linear-gradient(136.76deg, #FEB692 0%, #EA5455 100%)",
                                             }}
                                         >
-                                            <img src={multiPlayer_icon1} alt="" />
+                                            <img src="/assets/img/technical/ar.svg" alt="" />
                                         </div>
                                         <div className="right">
                                             <h6 >	Augmented Reality (AR) Integration</h6>
@@ -256,7 +256,7 @@ function MetaverseCasinoContent() {
                                                     "linear-gradient(136.76deg, #FCCF31 0%, #F55555 100%)",
                                             }}
                                         >
-                                            <img src={multiPlayer_icon3} alt="" />
+                                            <img src="/assets/img/technical/voice.svg" alt="" />
                                         </div>
                                         <div className="right">
                                             <h6 >	Voice Recognition Technology</h6>
@@ -285,7 +285,7 @@ function MetaverseCasinoContent() {
                                                     "linear-gradient(136.76deg, #90F7EC 0%, #32CCBC 100%)",
                                             }}
                                         >
-                                            <img src={streaming_icon4} alt="" />
+                                            <img src="/assets/img/multi/multiplayer.svg" alt="" />
                                         </div>
                                         <div className="right">
                                             <h6 >	Real-Time Multiplayer Games</h6>
@@ -309,7 +309,7 @@ function MetaverseCasinoContent() {
                                                     "linear-gradient(136.76deg, #F889D5 0%, #5650DE 100%)",
                                             }}
                                         >
-                                            <img src={streaming_icon2} alt="" />
+                                            <img src="/assets/img/multi/crossplatform.svg" alt="" />
                                         </div>
                                         <div className="right">
                                             <h6 >	Cross-Platform Compatibility</h6>
@@ -335,7 +335,7 @@ function MetaverseCasinoContent() {
                                                     "linear-gradient(136.76deg, #FF9897 0%, #F650A0 100%)",
                                             }}
                                         >
-                                            <img src={streaming_icon3} alt="" />
+                                            <img src="/assets/img/multi/scalable.svg" alt="" />
                                         </div>
                                         <div className="right">
                                             <h6 >	Scalable Server Infrastructure</h6>
@@ -359,7 +359,7 @@ function MetaverseCasinoContent() {
                                                     "linear-gradient(136.76deg, #FFCDA5 0%, #EE4D5F 100%)",
                                             }}
                                         >
-                                            <img src={streaming_icon1} alt="" />
+                                            <img src="/assets/img/multi/social.svg" alt="" />
                                         </div>
                                         <div className="right">
                                             <h6 >	Social Features and Interactions</h6>
@@ -387,7 +387,7 @@ function MetaverseCasinoContent() {
                                                     "linear-gradient(136.76deg, #ABDCFF 0%, #0396FF 100%)",
                                             }}
                                         >
-                                            <img src={gameengine_icon3} alt="" />
+                                            <img src="/assets/img/AI/predictive.svg" alt="" />
                                         </div>
                                         <div className="right">
                                             <h6 >	Predictive Analytics</h6>
@@ -411,7 +411,7 @@ function MetaverseCasinoContent() {
                                                     "linear-gradient(136.76deg, #E2B0FF 0%, #9F44D3 100%)",
                                             }}
                                         >
-                                            <img src={gameengine_icon4} alt="" />
+                                            <img src="/assets/img/AI/adaption.svg" alt="" />
                                         </div>
                                         <div className="right">
                                             <h6 >	Dynamic Game Adaptation</h6>
@@ -437,7 +437,7 @@ function MetaverseCasinoContent() {
                                                     "linear-gradient(136.76deg, #FEB692 0%, #EA5455 100%)",
                                             }}
                                         >
-                                            <img src={gameengine_icon1} alt="" />
+                                            <img src="/assets/img/AI/Behavioral.svg" alt="" />
                                         </div>
                                         <div className="right">
                                             <h6 >	Behavioral Biometrics</h6>
@@ -461,7 +461,7 @@ function MetaverseCasinoContent() {
                                                     "linear-gradient(136.76deg, #ABDCFF 0%, #0396FF 100%)",
                                             }}
                                         >
-                                            <img src={gameengine_icon2} alt="" />
+                                            <img src="/assets/img/AI/chatbot.svg" alt="" />
                                         </div>
                                         <div className="right">
                                             <h6 >	Chatbot Customer Support</h6>
