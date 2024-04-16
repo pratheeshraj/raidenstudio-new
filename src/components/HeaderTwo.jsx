@@ -111,7 +111,7 @@ const HeaderTwo = () => {
 
   const companyprogressValues = [0.5, 0.5, 0.5, 0.5];
   const CompanyNames = ["About us", "Carrer", "Contact us", "Case studies"];
-  const companyurl = ["/about-us", "/contact-us", "/carrer", "/case-studies"]
+  const companyurl = ["/about-us", "/carrer", "/contact-us", "/case-studies"]
   const [activeMenu, setActiveMenu] = useState("Blockchain");
   const [activeMenu1, setActiveMenu1] = useState("virtual");
   const [activeMenu2, setActiveMenu2] = useState("Company");
@@ -657,7 +657,7 @@ const HeaderTwo = () => {
                             </ul>
                           </li>
                           <li className="has-dropdown">
-                            <NavLink to="/blog">INSIGHTS</NavLink>
+                            <NavLink to="/blog">RESOURSES <i class="fa-solid fa-caret-down"></i></NavLink>
                           </li>
                           <li className="has-dropdown">
                             <Link className="nav_link" to="#">
