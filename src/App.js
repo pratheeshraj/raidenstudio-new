@@ -123,8 +123,6 @@ function App() {
         <Route exact path="/ai-as-a-service" element={<AiasService />} />
         <Route exact path="/case-studies" element={<AllCaseStudy />} />
         <Route exact path="/case-study-detail/:id" element={<CaseStudyDetails />} />
-
-
         <Route exact path="*" element={<Error />} />
       </Routes>
       <RouteScrollToTop />

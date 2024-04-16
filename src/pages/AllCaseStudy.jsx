@@ -11,18 +11,22 @@ import HeaderTwo from "../components/HeaderTwo";
 import { AllcaseStudys } from "../action/caseStudyAction";
 
 const AllCaseStudy = () => {
-  const dispath =useDispatch()
-    let [active, setActive] = useState(true);
-    useEffect(() => {
-      setTimeout(function () {
-        setActive(false);
-      }, 2000);
-    }, []);
+  const dispath = useDispatch();
+  let [active, setActive] = useState(true);
+  useEffect(() => {
+    setTimeout(function () {
+      setActive(false);
+    }, 2000);
+  }, []);
 
-    useEffect(()=>{
-      dispath(AllcaseStudys)
-    },[])
-  
+  useEffect(() => {
+    try {
+      dispath(AllcaseStudys);
+    } catch (error) {
+      console.log(error);
+    }
+  }, []);
+
   return (
     <Fragment>
       <Suspense>
@@ -41,7 +45,7 @@ const AllCaseStudy = () => {
         <FooterSectionOne />
       </Suspense>
     </Fragment>
-  )
-}
+  );
+};
 
-export default AllCaseStudy
+export default AllCaseStudy;
