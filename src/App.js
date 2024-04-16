@@ -57,6 +57,7 @@ import BlockchainGame from "./pages/BlockchainGame";
 import Web3 from "./pages/Web3";
 import AllCaseStudy from "./pages/AllCaseStudy";
 import AiasService from "./pages/AiasService";
+import CaseStudyDetails from "./pages/CaseStudyDetails";
 
 
 
@@ -121,6 +122,7 @@ function App() {
         <Route exact path="/web3" element={<Web3 />} />
         <Route exact path="/ai-as-a-service" element={<AiasService />} />
         <Route exact path="/case-studies" element={<AllCaseStudy />} />
+        <Route exact path="/case-study-detail/:id" element={<CaseStudyDetails />} />
 
 
         <Route exact path="*" element={<Error />} />
