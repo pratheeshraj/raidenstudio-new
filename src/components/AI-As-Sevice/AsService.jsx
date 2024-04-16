@@ -1,6 +1,6 @@
 import React from "react";
 
-const WebService = () => {
+const AsService = () => {
 
     return (
         <>
@@ -9,48 +9,49 @@ const WebService = () => {
                     className="container-fulid key_features"
                     style={{ background: "#F8F9FA" }}
                 >
-                    <h2 className="auto-container" style={{ color: "black" }}>Our Popular Services In <span className="theme-color"> Web 3.0 <br />Development </span></h2>
-                    <p style={{ color: "black", textAlign: "center", width: "70%", margin: "auto auto 80px auto" }}>Unlock the endless possibilities of Web 3.0 with our comprehensive range of services tailored to meet your specific needs.
+                    <h2 className="auto-container" style={{ color: "black" }}>AIaaS/PaaS Offerings:<span className="theme-color"> Empowering <br />Your Business</span></h2>
+                    <p style={{ color: "black", textAlign: "center", width: "70%", margin: "auto auto 80px auto" }}>
+                        Discover the comprehensive capabilities of our AI-as-a-Service (AIaaS) and Platform-as-a-Service (PaaS) offerings, designed to equip your business with the tools needed to thrive in the AI landscape.
                     </p>
                     <div className="auto-container row key_features_section_container" style={{ rowGap: "29px" }}>
                         <div style={{ background: "white", boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px", borderRadius: "8px", width: "340px", height: "320px" }} className="key_features_card">
                             <img src="/assets/img/raidensimx/key features/immersive.svg" alt="" />
-                            <h6 style={{ color: "black" }}>Decentralized Application (DApp) Development</h6>
+                            <h6 style={{ color: "black" }}>Scalable AI Infrastructure</h6>
                             <p style={{ color: "black", marginBottom: "0" }}>
-                                Revolutionize your business operations with custom-built decentralized applications, leveraging the security and transparency of blockchain technology.
+                                Access to scalable computing resources tailored to your AI workload, ensuring optimal performance and cost-effectiveness.
                             </p>
                         </div>
                         <div style={{ background: "white", boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px", borderRadius: "8px", width: "340px", height: "320px" }} className="key_features_card">
                             <img src="/assets/img/raidensimx/key features/immersive.svg" alt="" />
-                            <h6 style={{ color: "black" }}>Smart Contract Development</h6>
+                            <h6 style={{ color: "black" }}>Pre-built AI Models</h6>
                             <p style={{ color: "black", marginBottom: "0" }}>
-                                Automate agreements and transactions securely with smart contracts, ensuring trustless execution and immutable records on the blockchain.
+                                Choose from a range of pre-trained AI models spanning various domains, accelerating your time-to-market for AI-powered solutions.
                             </p>
                         </div>
                         <div style={{ background: "white", boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px", borderRadius: "8px", width: "340px", height: "320px" }} className="key_features_card">
                             <img src="/assets/img/raidensimx/key features/immersive.svg" alt="" />
-                            <h6 style={{ color: "black" }}>Blockchain Integration</h6>
+                            <h6 style={{ color: "black" }}>Custom Model Development</h6>
                             <p style={{ color: "black", marginBottom: "0" }}>
-                                Seamlessly integrate blockchain technology into your existing systems or develop new solutions to enhance transparency, security, and efficiency.
+                                Tailor-made AI model development services to address your specific business needs, from data preprocessing to model deployment.
                             </p>
                         </div>
                         <div style={{ background: "white", boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px", borderRadius: "8px", width: "340px", height: "320px" }} className="key_features_card">
                             <img src="/assets/img/raidensimx/key features/immersive.svg" alt="" />
-                            <h6 style={{ color: "black" }}>Tokenization Solutions</h6>
+                            <h6 style={{ color: "black" }}>Robust APIs</h6>
                             <p style={{ color: "black", marginBottom: "0" }}>
-                                Explore new avenues for fundraising, asset management, and token economies with our expertise in tokenization services.
+                                Seamless integration with your existing systems through robust APIs, enabling effortless incorporation of AI capabilities into your applications.
                             </p>
                         </div>
                         <div style={{ background: "white", boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px", borderRadius: "8px", width: "340px", height: "320px" }} className="key_features_card">
                             <img src="/assets/img/raidensimx/key features/immersive.svg" alt="" />
-                            <h6 style={{ color: "black" }}>NFT (Non-Fungible Token) Development</h6>
+                            <h6 style={{ color: "black" }}>Ongoing Support</h6>
                             <p style={{ color: "black", marginBottom: "0" }}>
-                                With efficient project management practices, we ensure timely delivery of projects without compromising quality.
+                                Dedicated support and maintenance services to ensure the smooth operation of your AI solutions, with regular updates and enhancements.
                             </p>
                         </div>
                         <div style={{ background: "white", boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px", borderRadius: "8px", width: "340px", height: "320px" }} className="key_features_card">
                             <img src="/assets/img/raidensimx/key features/immersive.svg" alt="" />
-                            <h6 style={{ color: "black" }}>NFT (Non-Fungible Token) Development</h6>
+                            <h6 style={{ color: "black" }}>NFT Development</h6>
                             <p style={{ color: "black", marginBottom: "0" }}>
                                 Our commitment extends beyond deployment, providing continuous support and updates to optimize your gaming experience.
                             </p>
@@ -62,4 +63,4 @@ const WebService = () => {
     );
 };
 
-export default WebService;
+export default AsService;

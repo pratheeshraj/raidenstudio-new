@@ -29,7 +29,10 @@ const BlockchainAbout = () => {
                                 </h2>
                                 <p style={{ color: "black", fontWeight: "bold" }}>Experience the Benefits of AI Without the Complexity</p>
                                 <p style={{ color: "black" }}>
-                                    Raiden, a recognized Blockchain development company, is well-known for its blockchain development services. Our pool of blockchain developers is well-versed in the business's various capabilities, which vary from blockchain wallet development to developing top-tier Web3 solutions. Hire Blockchain developers from us if you want only the best experts to work for you, who have become industry experts by learning from every obstacle that the blockchain development project has offered. Our team of developers, designers, project managers, and other varied experts work together to create reliable and efficient blockchain solutions.
+                                    Raiden, a recognized Blockchain development company, is well-known for its blockchain development services. Our pool of blockchain developers is well-versed in the business's various capabilities, which vary from blockchain wallet development to developing top-tier Web3 solutions.
+                                </p>
+                                <p style={{ color: "black" }}>
+                                    Hire Blockchain developers from us if you want only the best experts to work for you, who have become industry experts by learning from every obstacle that the blockchain development project has offered. Our team of developers, designers, project managers, and other varied experts work together to create reliable and efficient blockchain solutions.
                                 </p>
                             </div>
                         </div>

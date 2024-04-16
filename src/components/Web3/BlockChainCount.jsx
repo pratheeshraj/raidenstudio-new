@@ -18,13 +18,13 @@ const BlockChainCount = () => {
                                     <h2 className="counter">
                                         <ReactVisibilitySensor>
                                             {({ isVisible }) => (
-                                                <div> {isVisible ? <CountUp end={5} /> : 0}</div>
+                                                <div> {isVisible ? <CountUp end={200} /> : 0}</div>
                                             )}
                                         </ReactVisibilitySensor>
                                     </h2>
                                     <h3>+</h3>
                                 </div>
-                                <h4>Years of Development Experience</h4>
+                                <h4>DApps Delivered</h4>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
@@ -37,32 +37,13 @@ const BlockChainCount = () => {
                                     <h2 className="counter">
                                         <ReactVisibilitySensor>
                                             {({ isVisible }) => (
-                                                <div> {isVisible ? <CountUp end={50} /> : 0}</div>
-                                            )}
-                                        </ReactVisibilitySensor>
-                                    </h2>
-                                    <h3>+</h3>
-                                </div>
-                                <h4>Talented Squad</h4>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6">
-                            <div
-                                className="wrapper mt-lg-0 mt-4 "
-                                data-aos="fade-up"
-                                data-aos-delay="300"
-                            >
-                                <div className="d-adjust gap-2 justify-content-center">
-                                    <h2 className="counter">
-                                        <ReactVisibilitySensor>
-                                            {({ isVisible }) => (
-                                                <div> {isVisible ? <CountUp end={100} /> : 0}</div>
+                                                <div> {isVisible ? <CountUp end={99.9} /> : 0}</div>
                                             )}
                                         </ReactVisibilitySensor>
                                     </h2>
                                     <h3>%</h3>
                                 </div>
-                                <h4>VR solutions deployed successfully</h4>
+                                <h4>Uptime Assurance</h4>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
@@ -75,13 +56,33 @@ const BlockChainCount = () => {
                                     <h2 className="counter">
                                         <ReactVisibilitySensor>
                                             {({ isVisible }) => (
-                                                <div> {isVisible ? <CountUp end={20} /> : 0}</div>
+                                                <div> {isVisible ? <CountUp end={10} /> : 0}</div>
                                             )}
                                         </ReactVisibilitySensor>
                                     </h2>
                                     <h3>+</h3>
                                 </div>
-                                <h4>Countries Served</h4>
+                                <h4> Tokenized Assets</h4>
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-md-6">
+                            <div
+                                className="wrapper mt-lg-0 mt-4 "
+                                data-aos="fade-up"
+                                data-aos-delay="300"
+                            >
+                                <div className="d-adjust gap-2 justify-content-center">
+                                    <h2 className="counter">
+
+                                        <ReactVisibilitySensor>
+                                            {({ isVisible }) => (
+                                                <div><span style={{ color: "white" }}>$</span>{isVisible ? <CountUp end={10} /> : 0}</div>
+                                            )}
+                                        </ReactVisibilitySensor>
+                                    </h2>
+                                    <h3>M +</h3>
+                                </div>
+                                <h4>NFT Projects Launched</h4>
                             </div>
                         </div>
                     </div>

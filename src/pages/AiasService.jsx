@@ -9,13 +9,14 @@ import BlockchainAbout from '../components/AI-As-Sevice/AsAbout';
 import BlockChainCount from '../components/AI-As-Sevice/BlockChainCount';
 import BlockchainBanner from '../components/AI-As-Sevice/BlockchainBanner';
 import BlockchainTech from '../components/AI-As-Sevice/WebchainTech';
-import WebService from './../components/AI-As-Sevice/WebService';
+import WebService from '../components/AI-As-Sevice/AsService';
 import WebHero from '../components/AI-As-Sevice/AsHero';
 import WebProcess from '../components/AI-As-Sevice/WebProcess';
 import WebFaq from '../components/AI-As-Sevice/WebFaq';
 import WebWhychoose from '../components/AI-As-Sevice/WebWhychoose';
 import WebModel from '../components/AI-As-Sevice/WebModel';
 import AsHero from '../components/AI-As-Sevice/AsHero';
+import AsService from '../components/AI-As-Sevice/AsService';
 
 function AiasService() {
     let [active, setActive] = useState(true);
@@ -38,7 +39,7 @@ function AiasService() {
                 {/* vr-about */}
                 <BlockchainAbout />
                 {/* vr-service */}
-                <WebService />
+                <AsService />
                 {/* metaverse-banner */}
                 <BlockchainBanner />
                 {/* metaverse-features */}
