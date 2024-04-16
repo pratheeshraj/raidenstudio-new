@@ -5,7 +5,7 @@ import NewsSectionOne from '../components/NewsSectionOne';
 import FooterSectionOne from '../components/FooterSectionOne';
 import HelmetReact from '../elements/HelmetReact';
 import Preloader from '../elements/Preloader';
-import BlockchainAbout from '../components/AI-As-Sevice/BlockchainAbout';
+import BlockchainAbout from '../components/AI-As-Sevice/AsAbout';
 import BlockChainCount from '../components/AI-As-Sevice/BlockChainCount';
 import BlockchainBanner from '../components/AI-As-Sevice/BlockchainBanner';
 import BlockchainTech from '../components/AI-As-Sevice/WebchainTech';

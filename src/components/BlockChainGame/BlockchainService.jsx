@@ -49,7 +49,7 @@ const BlockchainService = () => {
                         </div>
                         <div style={{ background: "white", boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px", borderRadius: "8px", width: "340px", height: "320px" }} className="key_features_card">
                             <img src="/assets/img/raidensimx/key features/immersive.svg" alt="" />
-                            <h6 style={{ color: "black" }}> Game Deployment and Maintenance</h6>
+                            <h6 style={{ color: "black" }}>Deployment and Maintenance</h6>
                             <p style={{ color: "black", marginBottom: "0" }}>
                                 Assisting in deploying your blockchain game to various platforms and providing ongoing support and maintenance services.
                             </p>
