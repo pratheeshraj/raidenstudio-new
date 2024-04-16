@@ -1,272 +1,92 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import ReactPaginate from "react-paginate";
 
 const ProjectSectionAll = () => {
+  const { allcaseStudy, loading } = useSelector(
+    (state) => state.caseStudyState
+  );
+  const [itemOffset, setItemOffset] = useState(0);
+  const itemsPerPage = 4;
+
+
+  const endOffset = itemOffset + itemsPerPage;
+  const currentItems = allcaseStudy?.slice(itemOffset, endOffset);
+  const pageCount = Math.ceil(allcaseStudy?.length / itemsPerPage);
+  const handlePageClick = (event) => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+    const newOffset = (event.selected * itemsPerPage) % allcaseStudy?.length;
+    console.log(
+      `User requested page number ${event.selected}, which is offset ${newOffset}`
+    );
+    setItemOffset(newOffset);
+  };
   return (
     <>
       {/* Project Section one start */}
       <section className="project-section one single-row">
         <div className="auto-container">
           <div className="row">
-            <div className="col-lg-6">
-              <div
-                className="project-wrapper "
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
-                <div className="img-file por">
-                  <img
-                    className="img-fluid"
-                    src="/assets/img/project/01_project.png"
-                    alt=""
-                  />
-                  <div className="shape-overlay poa">
-                    <h2>Robotic Technology</h2>
-                    <p>
-                      In this space, we will explore the most innovative and
-                      impactful Artificial Intelligence projects, from
-                      cutting-edge research applications.
-                    </p>
-                    <div className="d-inline-block">
-                      <Link to="#">
-                        View More <i className="fa-light fa-chevrons-right" />
-                      </Link>
+            {allcaseStudy?.map((data,i) => {
+              return (
+                <div className="col-lg-6" key={i}>
+                  <div
+                    className="project-wrapper "
+                    data-aos="fade-up"
+                    data-aos-delay="200"
+                  >
+                    <div className="img-file por image_conatiner">
+                      <img
+                        className="img-fluid"
+                        src={data?.imageurl}
+                        alt=""
+                      />
+                      <div className="shape-overlay poa">
+                        <h2>
+                       {data?.mainheading}
+                        </h2>
+                        <p>
+                      {
+                        `${data?.case_description.substring(0,120)}...`
+                      }
+                        </p>
+                        <div className="d-inline-block">
+                          <Link to={`/case-study-details/${data.url}`}>
+                            View More{" "}
+                            <i className="fa-light fa-chevrons-right" />
+                          </Link>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div
-                className="project-wrapper "
-                data-aos="fade-up"
-                data-aos-delay="300"
-              >
-                <div className="img-file por">
-                  <img
-                    className="img-fluid"
-                    src="/assets/img/project/02_project.png"
-                    alt=""
-                  />
-                  <div className="shape-overlay poa">
-                    <h2>Data Science</h2>
-                    <p>
-                      In this space, we will explore the most innovative and
-                      impactful Artificial Intelligence projects, from
-                      cutting-edge research applications.
-                    </p>
-                    <div className="d-inline-block">
-                      <Link to="#">
-                        View More <i className="fa-light fa-chevrons-right" />
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div
-                className="project-wrapper "
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
-                <div className="img-file por">
-                  <img
-                    className="img-fluid"
-                    src="/assets/img/project/03_project.png"
-                    alt=""
-                  />
-                  <div className="shape-overlay poa">
-                    <h2>Facing AI Challenges</h2>
-                    <p>
-                      In this space, we will explore the most innovative and
-                      impactful Artificial Intelligence projects, from
-                      cutting-edge research applications.
-                    </p>
-                    <div className="d-inline-block">
-                      <Link to="#">
-                        View More <i className="fa-light fa-chevrons-right" />
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div
-                className="project-wrapper"
-                data-aos="fade-up"
-                data-aos-delay="300"
-              >
-                <div className="img-file por">
-                  <img
-                    className="img-fluid"
-                    src="/assets/img/project/04_project.png"
-                    alt=""
-                  />
-                  <div className="shape-overlay poa">
-                    <h2>Technical Support</h2>
-                    <p>
-                      In this space, we will explore the most innovative and
-                      impactful Artificial Intelligence projects, from
-                      cutting-edge research applications.
-                    </p>
-                    <div className="d-inline-block">
-                      <Link to="#">
-                        View More <i className="fa-light fa-chevrons-right" />
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div
-                className="project-wrapper "
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
-                <div className="img-file por">
-                  <img
-                    className="img-fluid"
-                    src="/assets/img/project/05_project.png"
-                    alt=""
-                  />
-                  <div className="shape-overlay poa">
-                    <h2>Robotic Automation</h2>
-                    <p>
-                      In this space, we will explore the most innovative and
-                      impactful Artificial Intelligence projects, from
-                      cutting-edge research applications.
-                    </p>
-                    <div className="d-inline-block">
-                      <Link to="#">
-                        View More <i className="fa-light fa-chevrons-right" />
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div
-                className="project-wrapper "
-                data-aos="fade-up"
-                data-aos-delay="300"
-              >
-                <div className="img-file por">
-                  <img
-                    className="img-fluid"
-                    src="/assets/img/project/06_project.png"
-                    alt=""
-                  />
-                  <div className="shape-overlay poa">
-                    <h2>Virtual Reality</h2>
-                    <p>
-                      In this space, we will explore the most innovative and
-                      impactful Artificial Intelligence projects, from
-                      cutting-edge research applications.
-                    </p>
-                    <div className="d-inline-block">
-                      <Link to="#">
-                        View More <i className="fa-light fa-chevrons-right" />
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div
-                className="project-wrapper "
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
-                <div className="img-file por">
-                  <img
-                    className="img-fluid"
-                    src="/assets/img/project/07_project.png"
-                    alt=""
-                  />
-                  <div className="shape-overlay poa">
-                    <h2>Support &amp; Services</h2>
-                    <p>
-                      In this space, we will explore the most innovative and
-                      impactful Artificial Intelligence projects, from
-                      cutting-edge research applications.
-                    </p>
-                    <div className="d-inline-block">
-                      <Link to="#">
-                        View More <i className="fa-light fa-chevrons-right" />
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div
-                className="project-wrapper "
-                data-aos="fade-up"
-                data-aos-delay="300"
-              >
-                <div className="img-file por">
-                  <img
-                    className="img-fluid"
-                    src="/assets/img/project/08_project.png"
-                    alt=""
-                  />
-                  <div className="shape-overlay poa">
-                    <h2>Ai For Cloud Services</h2>
-                    <p>
-                      In this space, we will explore the most innovative and
-                      impactful Artificial Intelligence projects, from
-                      cutting-edge research applications.
-                    </p>
-                    <div className="d-inline-block">
-                      <Link to="#">
-                        View More <i className="fa-light fa-chevrons-right" />
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+              );
+            })}
           </div>
           <div className="row">
             <div className="col-12">
-              <div
-                className="pagination"
-                data-aos="fade-up"
-                data-aos-delay="300"
-              >
-                <ul>
-                  <li>
-                    <Link to="#">
-                      <i className="fa-regular fa-chevrons-left" />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link className="active" to="#">
-                      1
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="#">2</Link>
-                  </li>
-                  <li>
-                    <Link to="#">3</Link>
-                  </li>
-                  <li>
-                    <Link to="#">4</Link>
-                  </li>
-                  <li>
-                    <Link to="#">
-                      <i className="fa-regular fa-chevrons-right" />
-                    </Link>
-                  </li>
-                </ul>
-              </div>
+            <div className="col">
+                  <div
+                    className="pagination"
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                  >
+                    <ReactPaginate
+                      breakLabel="..."
+                      nextLabel=">>"
+                      onPageChange={handlePageClick}
+                      pageRangeDisplayed={5}
+                      pageCount={pageCount}
+                      previousLabel="<<"
+                      renderOnZeroPageCount={null}
+                      className="pagination"
+                    />
+                  </div>
+                </div>
             </div>
           </div>
           <div className="shape-image-file">

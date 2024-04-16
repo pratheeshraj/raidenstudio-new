@@ -111,7 +111,7 @@ const HeaderTwo = () => {
 
   const companyprogressValues = [0.5, 0.5, 0.5, 0.5];
   const CompanyNames = ["About us", "Carrer", "Contact us", "Case studies"];
-  const companyurl = ["/about", "/contact", "/career", "/career"]
+  const companyurl = ["/about", "/contact", "/career", "/case-studies"]
   const [activeMenu, setActiveMenu] = useState("Blockchain");
   const [activeMenu1, setActiveMenu1] = useState("virtual");
   const [activeMenu2, setActiveMenu2] = useState("Company");

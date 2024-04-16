@@ -8,7 +8,7 @@
 
 .project-section {
   &.one {
-    background: var(--common-body-1);
+    background: white;
     padding: 120px 0;
     position: relative;
     z-index: 9;
@@ -25,14 +25,18 @@
       @media #{$xs, $xss} {
         margin-bottom: 130px;
       }
+
       .img-file {
         border-radius: 5px;
         overflow: hidden;
+        height: 350px;
         @media #{$xs, $xss} {
           overflow: visible;
         }
         img {
           width: 100%;
+          height: 350px;
+          object-fit: cover;
         }
         .shape-overlay {
           bottom: 20px;
@@ -49,11 +53,8 @@
             bottom: -70px;
           }
           h2 {
-            font-size: 26px;
+            font-size: 18px;
             line-height: 1.2;
-            @media #{$xs, $xss} {
-              font-size: 22px;
-            }
           }
           a {
             font-size: 16px;
@@ -396,7 +397,7 @@
         .inner {
           transform: translateY(30px);
           @include transition(0.3s);
-         
+
           h2 {
             font-size: 26px;
             line-height: 1.2;
@@ -434,28 +435,24 @@
             }
           }
         }
-        .Industry{
+        .Industry {
           transform: translateY(100px);
           @media #{ $md,$sm} {
             transform: translateY(54px);
-
           }
           @media #{ $xss} {
             transform: translateY(130px);
-
           }
+        }
+        .Industry2 {
+          transform: translateY(150px);
+          @media #{ $md,$sm} {
+            transform: translateY(54px);
           }
-          .Industry2{
-            transform: translateY(150px);
-            @media #{ $md,$sm} {
-              transform: translateY(54px);
-  
-            }
-            @media #{ $xss} {
-              transform: translateY(130px);
-  
-            }
-            }
+          @media #{ $xss} {
+            transform: translateY(130px);
+          }
+        }
         .default-btn {
           margin-top: 20px;
         }
@@ -469,10 +466,9 @@
           .inner {
             transform: translateY(0);
           }
-          .Industry{
+          .Industry {
             transform: translateY(0px);
-  
-            }
+          }
         }
       }
     }
@@ -658,7 +654,7 @@
     background: var(--common-body-2);
     @media #{$md, $sm, $xs, $xss} {
       margin-left: 0;
-    } 
+    }
     .project_left {
       h2 {
         font-size: 35px;
@@ -839,4 +835,206 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.casestudy_detail_hero {
+  position: relative;
+  display: flex;
+  align-items: end;
+  width: 100%;
+  height: 90vh;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+  }
+  .case_study_black {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  .casestudy_detail_hero_container {
+    padding-bottom: 50px;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    @media #{ $xs, $xss} {
+      align-items: center;
+    }
+    h2 {
+      @media #{$sm, $xs, $xss} {
+        font-size: 30px;
+      }
+      @media #{ $xs, $xss} {
+        font-size: 26px;
+        text-align: center;
+      }
+      @media #{  $xss} {
+        font-size: 24px;
+      }
+    }
+
+    .casestudy_type {
+      color: var(--theme-1);
+      @media #{ $xs, $xss} {
+        text-align: center;
+      }
+    }
+  }
+}
+
+.casestudy_details_content {
+  scroll-behavior: smooth;
+  position: relative;
+  height: auto;
+
+  .caseStudy_nav {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    top: 0px;
+    background-color: #e0e3e8;
+    @media #{ $xs, $xss} {
+      height: auto;
+      flex-direction: column;
+      display: none;
+    }
+    a {
+      color: black;
+      width: 100%;
+      height: 100%;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: 0.5s all;
+      @media #{ $xs, $xss} {
+        padding: 4px 0;
+      }
+      &:hover {
+        background-color: #d3d6db;
+      }
+    }
+  }
+
+  .cdc_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .csc_challenge {
+      width: 70%;
+      @media #{ $xs, $xss} {
+        width: 100%;
+      }
+      .csc_challenge_dec {
+        margin-top: 20px;
+        color: black;
+        @media #{ $xs, $xss} {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .casestudy_challange {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    scroll-behavior: smooth;
+    padding-bottom: 40px;
+    .challenge_container {
+      width: 70%;
+      @media #{ $xs, $xss} {
+        width: 100%;
+      }
+      h2 {
+        padding-top: 80px;
+        color: black;
+        font-size: 26px;
+        @media #{  $xss} {
+          font-size: 20px;
+        }
+      }
+
+      .Challenge_dec {
+        font-size: 20px;
+      }
+      p {
+        color: black;
+      }
+    }
+  }
+}
+
+.casestudy_objective {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  .casestudy_objective_container {
+    width: 70%;
+    @media #{ $xs, $xss} {
+      width: 100%;
+    }
+    h2 {
+      padding-top: 80px;
+      color: black;
+      font-size: 26px;
+      @media #{  $xss} {
+        font-size: 20px;
+      }
+    }
+    .casestudy_objective_dec {
+      font-size: 20px;
+    }
+    p {
+      color: black;
+    }
+  }
+}
+.casestudy_objective_img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.casestudy_impact_main {
+  margin-bottom: 40px;
+  .casestudy_impact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .casestudy_impact_container {
+      width: 70%;
+      @media #{ $xs, $xss} {
+        width: 100%;
+      }
+      h2 {
+        padding-top: 80px;
+        color: black;
+        font-size: 26px;
+        @media #{  $xss} {
+          font-size: 20px;
+        }
+      }
+      .casestudy_impact_dec {
+        font-size: 20px;
+      }
+      p {
+        color: black;
+      }
+    }
+  }
 }
