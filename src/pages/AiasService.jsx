@@ -68,7 +68,7 @@ function AiasService() {
                 <ContactSection2 />
                 {/* Footer Section */}
                 {/* News Section Two */}
-                <NewsSectionOne />
+                {/* <NewsSectionOne /> */}
                 <FooterSectionOne />
             </Suspense>
         </Fragment>
