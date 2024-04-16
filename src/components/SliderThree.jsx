@@ -87,10 +87,11 @@ const SliderThree = () => {
                     className="left"
                   >
                     <h2>
-                      Empower Your Business: <span> Leading Blockchain Solutions Await</span>
+                      Leading Blockchain
+                      <span> Solutions Await</span>
                     </h2>
                     <p className="Hero_sub_heading">
-                      Revolutionize with Cutting-Edge Blockchain Solutions - Unleash the power of innovation for your business.
+                      Revolutionize with Cutting-Edge Blockchain Solutions Unleash the power of innovation for your business.
                     </p>
                     <Link className="default-btn" to="/contact">
                       Talk To Us
@@ -110,7 +111,8 @@ const SliderThree = () => {
                     </span>
                   </h2>
                   <p className="Hero_sub_heading description">
-                    Boost efficiency & results. AI solutions for your business needs.</p>
+                    Explore the forefront of innovation with our AI development expertise. Transforming possibilities into tangible achievements.
+                  </p>
                   <Link
                     style={{ backgroundColor: "#2ac8fd" }}
                     className="default-btn"
@@ -125,11 +127,11 @@ const SliderThree = () => {
               <div className="auto-container section3_container">
                 <div className="left">
                   <h2 className="slider-title">
-                    Forge Your Gaming Legacy:
-                    <span className="theme-color"> Crafting Digital Worlds</span>
+                    Forge Your Gaming
+                    <span className="theme-color"> Legacy </span>
                   </h2>
                   <p className="description Hero_sub_heading" >
-                    Join forces with our expert game developers to bring your gaming vision to life.
+                    Immerse Yourself in the Art of Gaming Creation - Let's Build Your Next Masterpiece Together!
                   </p>
                   <Link className="default-btn" to="/contact">
                     Contact Us Now
@@ -147,13 +149,10 @@ const SliderThree = () => {
                 data-aos-delay="300"
               >
                 <div className="left">
-                  <h2 className="slider-title">
-                    Navigating New Realities: <span className="theme-color" style={{ color: "#2ac8fd" }}>
-                      Redefining Experiences with XR
-                    </span>
+                  <h2 className="slider-title">Redefining Experiences<span className="theme-color" style={{ color: "#2ac8fd" }}>  with XR</span>
                   </h2>
                   <p style={{ width: "500px" }} className="description Hero_sub_heading">
-                    Discover augmented and virtual realities with our expert XR development. Transforming concepts into immersive experiences
+                    Discover augmented and virtual realities with our expert XR development.
                   </p>
                   <Link
                     style={{ backgroundColor: "#2ac8fd" }}
