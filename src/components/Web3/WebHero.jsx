@@ -44,7 +44,7 @@ const WebHero = () => {
                                                         {/* <h4 className="theme-color">The Most Professional</h4> */}
                                                         <span className="theme-color"> Brilliance <br />by Raiden</span><br />
                                                     </h2>
-                                                    <p style={{ width: "500px" }} className="description metaverse_hero_para">
+                                                    <p style={{ width: "500px" }} className="description metaverse_hero_para Hero_sub_heading">
                                                         From decentralized wonders to blockchain magic, let's sculpt your digital destiny together.
                                                     </p>
                                                     <div className="inner-btn" >

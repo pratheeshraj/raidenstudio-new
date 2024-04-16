@@ -44,7 +44,7 @@ const BlockchainHero = () => {
                                                         {/* <h4 className="theme-color">The Most Professional</h4> */}
                                                         <span className="theme-color"> Blockchain</span><br />
                                                     </h2>
-                                                    <p style={{ width: "500px" }} className="description metaverse_hero_para">
+                                                    <p style={{ width: "500px" }} className="description metaverse_hero_para Hero_sub_heading">
                                                         Unlock the future of gaming with Raiden's cutting-edge blockchain game development services. Transforming ideas into immersive experiences.
                                                     </p>
                                                     <div className="inner-btn" >

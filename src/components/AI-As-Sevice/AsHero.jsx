@@ -44,7 +44,7 @@ const AsHero = () => {
                                                         {/* <h4 className="theme-color">The Most Professional</h4> */}
                                                         <span className="theme-color"> with Raiden</span><br />
                                                     </h2>
-                                                    <p style={{ width: "500px" }} className="description metaverse_hero_para">
+                                                    <p style={{ width: "500px" }} className="description metaverse_hero_para Hero_sub_heading">
                                                         Streamline operations, boost productivity, and delight customers with seamless AI integration. Experience innovation simplified.                                                    </p>
                                                     <div className="inner-btn" >
                                                         <div>
