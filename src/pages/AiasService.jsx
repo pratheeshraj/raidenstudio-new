@@ -19,6 +19,7 @@ import AsHero from '../components/AI-As-Sevice/AsHero';
 import AsService from '../components/AI-As-Sevice/AsService';
 import AsFaq from '../components/AI-As-Sevice/AsFaq';
 import AiBussiness from '../components/AI-As-Sevice/AiBussiness';
+import AsUseCase from './AsUseCase';
 
 function AiasService() {
     let [active, setActive] = useState(true);
@@ -52,8 +53,9 @@ function AiasService() {
                 {/* metaverse-tech */}
                 {/* <BlockchainTech /> */}
                 {/* metaverse-process */}
-                <WebProcess />
+                {/* <WebProcess /> */}
                 {/* vr-count */}
+                <AsUseCase />
                 <BlockChainCount />
                 <WebModel />
                 {/* metaverse-whychoose */}
