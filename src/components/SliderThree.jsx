@@ -107,7 +107,7 @@ const SliderThree = () => {
                     Supercharge with
                     <span style={{ color: "#2ac8fd" }} className="theme-color">
                       {" "}
-                      AI
+                      Artificial Intelligence
                     </span>
                   </h2>
                   <p className="Hero_sub_heading description">
