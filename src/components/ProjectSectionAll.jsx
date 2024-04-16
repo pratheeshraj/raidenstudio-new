@@ -55,7 +55,7 @@ const ProjectSectionAll = () => {
                       }
                         </p>
                         <div className="d-inline-block">
-                          <Link to={`/case-study-details/${data.url}`}>
+                          <Link to={`/case-study-detail/${data.url}`}>
                             View More{" "}
                             <i className="fa-light fa-chevrons-right" />
                           </Link>
