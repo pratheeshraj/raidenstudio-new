@@ -14,14 +14,13 @@ const ProjectSectionThree = () => {
                 data-aos="fade-right"
                 data-aos-delay="300"
               >
-                <h3 style={{ textAlign: "center" }}>Our Completed Products</h3>
+                <h3 style={{ textAlign: "center", color: "#13C4A1" }}>Our Products</h3>
                 <h2 style={{ textAlign: "center", width: "100%" }}>
-                  Start off AI Product to your
-                  <span className="theme-color"> Strengths</span>
+                  Next-Level
+                  <span className="theme-color"> Gaming,VR and Blockchain </span>Innovations!
                 </h2>
                 <p style={{ textAlign: "center" }}>
-                  Repellendus autem ruibusdam et aut officiis debitis aut re
-                  necessitatibus saepe eveniet.
+                  Dive into a Realm of Cutting-Edge Entertainment with Our Exciting Gaming, VR, and Blockchain Solutions. Unleash Innovation Today!
                 </p>
               </div>
             </div>

@@ -25,20 +25,20 @@ const BlockchainAbout = () => {
                         </div>
                         <div className="col-lg-6">
                             <div className="right-wrapper ps-2">
-                                <h2 style={{ color: "black" }} className="title"> Expertise in Blockchain Game Development
+                                <h2 style={{ color: "black" }} className="title">Expertise in Web 3.0 Development
                                 </h2>
                                 <p style={{ color: "black" }}>
-                                    Innovative, adaptable, and forward-thinking, our expertise in blockchain game development positions us as leaders in the industry, driving innovation and pushing the boundaries of what's possible in gaming. we have the expertise and passion to bring your ideas to life and revolutionize the gaming industry.
+                                    Our expertise in Web 3.0 development encompasses a deep understanding of both blockchain-related concepts and technical aspects, enabling us to deliver innovative solutions tailored to your business needs. Our key skills are
                                 </p>
                                 <p style={{ color: "black" }}>
-                                    <span style={{ fontWeight: "bold" }}>Decentralized Game Logic:</span> Leveraging the decentralized nature of blockchain technology, we implement game logic directly on the blockchain through smart contracts.
+                                    <span style={{ fontWeight: "bold" }}> Consensus Mechanisms:</span> Blockchain networks use various consensus mechanisms (e.g., Proof of Work, Proof of Stake) to validate and agree on the state of the ledger.
                                 </p>
                                 <p style={{ color: "black" }}>
-                                    <span style={{ fontWeight: "bold" }}>Interoperability and Cross-Game Assets:</span> We design blockchain games with interoperability in mind, allowing players to transfer assets seamlessly between different games and platforms.
+                                    <span style={{ fontWeight: "bold" }}> Immutable Ledger:</span> Data on the blockchain is immutable, meaning once recorded, it cannot be altered or deleted, ensuring transparency and integrity.
                                 </p>
-                                {/* <p style={{ color: "black" }}>
-                                    <span style={{ fontWeight: "bold" }}>Scalable Multiplayer Infrastructure:</span> Our expertise extends to designing and implementing scalable multiplayer infrastructure for blockchain games, accommodating large numbers of players while maintaining low latency and high performance.
-                                </p> */}
+                                <p style={{ color: "black" }}>
+                                    <span style={{ fontWeight: "bold" }}> Node Setup and Management:</span> Running blockchain nodes and maintaining network connectivity is crucial for participating in blockchain networks.
+                                </p>
                             </div>
                         </div>
                     </div>

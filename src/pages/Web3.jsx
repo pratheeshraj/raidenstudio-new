@@ -6,19 +6,25 @@ import FooterSectionOne from '../components/FooterSectionOne';
 import HelmetReact from '../elements/HelmetReact';
 import Preloader from '../elements/Preloader';
 import VrFaq from '../components/Vrdevelopment/VrFaq';
-import BlockchainHero from '../components/BlockChainGame/BlockchainHero';
-import BlockchainAbout from '../components/BlockChainGame/BlockchainAbout';
-import BlockChainCount from '../components/BlockChainGame/BlockChainCount';
-import BlockchainService from '../components/BlockChainGame/BlockchainService';
-import BlockchainBanner from '../components/BlockChainGame/BlockchainBanner';
-import BlockchainFeature from '../components/BlockChainGame/BlockchainPortfolio';
-import BlockChainProcess from '../components/BlockChainGame/BlockChainProcess';
-import BlockChainFaq from '../components/BlockChainGame/BlockChainFaq';
-import BlockChainWhy from '../components/BlockChainGame/BlockChainWhy';
-import BlockchainFeatues from '../components/BlockChainGame/BlockchainFeatues';
-import BlockchainPortfolio from './../components/BlockChainGame/BlockchainPortfolio';
+import BlockchainHero from '../components/Web3/WebHero';
+import BlockchainAbout from '../components/Web3/BlockchainAbout';
+import BlockChainCount from '../components/Web3/BlockChainCount';
+import BlockchainService from '../components/Web3/WebService';
+import BlockchainBanner from '../components/Web3/BlockchainBanner';
+import BlockchainFeature from '../components/Web3/BlockchainFeature';
+import BlockchainIndustries from '../components/Web3/BlockchainIndustries';
+import BlockchainTech from '../components/Web3/WebchainTech';
+import BlockChainProcess from '../components/Web3/WebProcess';
+import BlockChainWhychoose from '../components/Web3/WebWhychoose';
+import BlockChainFaq from '../components/Web3/WebFaq';
+import WebService from './../components/Web3/WebService';
+import WebHero from '../components/Web3/WebHero';
+import WebProcess from '../components/Web3/WebProcess';
+import WebFaq from '../components/Web3/WebFaq';
+import WebWhychoose from '../components/Web3/WebWhychoose';
+import WebModel from '../components/Web3/WebModel';
 
-function BlockchainGame() {
+function Web3() {
     let [active, setActive] = useState(true);
     useEffect(() => {
         setTimeout(function () {
@@ -35,28 +41,28 @@ function BlockchainGame() {
                 {/* Header two */}
                 <HeaderTwo />
                 {/* vr-hero */}
-                <BlockchainHero />
+                <WebHero />
                 {/* vr-about */}
                 <BlockchainAbout />
-                {/* vr-count */}
                 {/* vr-service */}
-                <BlockchainService />
+                <WebService />
                 {/* metaverse-banner */}
                 <BlockchainBanner />
                 {/* metaverse-features */}
-                <BlockchainFeatues />
+                {/* <BlockchainFeature /> */}
                 {/* metaverse-industries */}
                 {/* <BlockchainIndustries /> */}
                 {/* metaverse-tech */}
-                {/* <BlockchainTech /> */}
+                <BlockchainTech />
                 {/* metaverse-process */}
-                <BlockChainProcess />
+                <WebProcess />
+                {/* vr-count */}
                 <BlockChainCount />
-                <BlockchainPortfolio />
+                <WebModel />
                 {/* metaverse-whychoose */}
-                <BlockChainWhy />
+                <WebWhychoose />
                 {/* faq */}
-                <BlockChainFaq />
+                <WebFaq />
                 {/* contact */}
                 <ContactSection2 />
                 {/* Footer Section */}
@@ -68,4 +74,4 @@ function BlockchainGame() {
     );
 };
 
-export default BlockchainGame;
+export default Web3

@@ -6,7 +6,7 @@ import { Navigation, FreeMode, Thumbs, EffectFade } from "swiper";
 import { Link } from "react-router-dom";
 
 
-const BlockchainHero = () => {
+const AsHero = () => {
     return (
         <>
             <section className="hero-slider one"
@@ -40,13 +40,12 @@ const BlockchainHero = () => {
                                             <div className="slider-content-inner ">
                                                 <div>
                                                     <h2 className="slider-title">
-                                                        Revolutionize Gaming <br /> with
+                                                        Transform Your Business
                                                         {/* <h4 className="theme-color">The Most Professional</h4> */}
-                                                        <span className="theme-color"> Blockchain</span><br />
+                                                        <span className="theme-color"> with Raiden</span><br />
                                                     </h2>
                                                     <p style={{ width: "500px" }} className="description metaverse_hero_para Hero_sub_heading">
-                                                        Unlock the future of gaming with Raiden's cutting-edge blockchain game development services. Transforming ideas into immersive experiences.
-                                                    </p>
+                                                        Streamline operations, boost productivity, and delight customers with seamless AI integration. Experience innovation simplified.                                                    </p>
                                                     <div className="inner-btn" >
                                                         <div>
                                                             <Link className="default-btn" to="/contact">
@@ -68,5 +67,5 @@ const BlockchainHero = () => {
     );
 };
 
-export default BlockchainHero;
+export default AsHero;
 

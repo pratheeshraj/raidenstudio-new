@@ -85,7 +85,6 @@
         z-index: 9;
         height: 100%;
         transition: ease-in-out 0.5s;
-
         &:hover {
           scale: 1.1;
         }
@@ -140,7 +139,7 @@
       padding: 45px 20px;
       display: flex;
       flex-direction: column;
-      gap: 21px;
+      gap: 0px;
 
       @media #{$xss} {
         padding: 30px 20px;
@@ -150,6 +149,7 @@
       img {
         width: 50px;
         height: 50px;
+        margin-bottom: 30px;
       }
 
       h6 {

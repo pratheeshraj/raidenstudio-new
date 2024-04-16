@@ -6,7 +6,7 @@ import { Navigation, FreeMode, Thumbs, EffectFade } from "swiper";
 import { Link } from "react-router-dom";
 
 
-const BlockchainHero = () => {
+const WebHero = () => {
     return (
         <>
             <section className="hero-slider one"
@@ -40,12 +40,12 @@ const BlockchainHero = () => {
                                             <div className="slider-content-inner ">
                                                 <div>
                                                     <h2 className="slider-title">
-                                                        Revolutionize Gaming <br /> with
+                                                        Elevate Your Business with Web 3.0
                                                         {/* <h4 className="theme-color">The Most Professional</h4> */}
-                                                        <span className="theme-color"> Blockchain</span><br />
+                                                        <span className="theme-color"> Brilliance <br />by Raiden</span><br />
                                                     </h2>
                                                     <p style={{ width: "500px" }} className="description metaverse_hero_para Hero_sub_heading">
-                                                        Unlock the future of gaming with Raiden's cutting-edge blockchain game development services. Transforming ideas into immersive experiences.
+                                                        From decentralized wonders to blockchain magic, let's sculpt your digital destiny together.
                                                     </p>
                                                     <div className="inner-btn" >
                                                         <div>
@@ -68,5 +68,5 @@ const BlockchainHero = () => {
     );
 };
 
-export default BlockchainHero;
+export default WebHero;
 

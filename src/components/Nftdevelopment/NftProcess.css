@@ -27,6 +27,12 @@
     transform: translateX(-50%);
 }
 
+.nft_line_white:before,
+.nft_line_white::after {
+    background-color: black !important;
+}
+
+
 .nft_line:after {
     bottom: 0 !important;
 }

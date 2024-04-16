@@ -1,57 +1,59 @@
 import React from "react";
-import "./BlockChainGame.css"
 
-const BlockchainService = () => {
+const AsService = () => {
 
     return (
         <>
-            <section style={{ background: "#F8F9FA" }}>
+            <section>
                 <div
                     className="container-fulid key_features"
+                    style={{ background: "#F8F9FA" }}
                 >
-                    <h2 className="auto-container" style={{ color: "black" }}>	Blockchain Game Development Services<span className="theme-color"> <br />We Provide</span></h2>
-                    <p style={{ color: "black", textAlign: "center", width: "70%", margin: "auto auto 80px auto" }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores vitae nulla quidem deleniti officiis eligendi repellat labore dolor fugiat enim neque voluptatem consequatur minus, distinctio accusantium a eum? Optio, voluptatem.</p>
+                    <h2 className="auto-container" style={{ color: "black" }}>AIaaS/PaaS Offerings:<span className="theme-color"> Empowering <br />Your Business</span></h2>
+                    <p style={{ color: "black", textAlign: "center", width: "70%", margin: "auto auto 80px auto" }}>
+                        Discover the comprehensive capabilities of our AI-as-a-Service (AIaaS) and Platform-as-a-Service (PaaS) offerings, designed to equip your business with the tools needed to thrive in the AI landscape.
+                    </p>
                     <div className="auto-container row key_features_section_container" style={{ rowGap: "29px" }}>
                         <div style={{ background: "white", boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px", borderRadius: "8px", width: "340px", height: "320px" }} className="key_features_card">
                             <img src="/assets/img/raidensimx/key features/immersive.svg" alt="" />
-                            <h6 style={{ color: "black" }}> Conceptualization and Ideation</h6>
+                            <h6 style={{ color: "black" }}>Scalable AI Infrastructure</h6>
                             <p style={{ color: "black", marginBottom: "0" }}>
-                                From brainstorming innovative game concepts to refining ideas, we assist in laying the foundation for your blockchain game.
+                                Access to scalable computing resources tailored to your AI workload, ensuring optimal performance and cost-effectiveness.
                             </p>
                         </div>
                         <div style={{ background: "white", boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px", borderRadius: "8px", width: "340px", height: "320px" }} className="key_features_card">
                             <img src="/assets/img/raidensimx/key features/immersive.svg" alt="" />
-                            <h6 style={{ color: "black" }}>Smart Contract Development</h6>
+                            <h6 style={{ color: "black" }}>Pre-built AI Models</h6>
                             <p style={{ color: "black", marginBottom: "0" }}>
-                                Implementing secure and efficient smart contracts to govern in-game transactions, assets, and rules.
+                                Choose from a range of pre-trained AI models spanning various domains, accelerating your time-to-market for AI-powered solutions.
                             </p>
                         </div>
                         <div style={{ background: "white", boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px", borderRadius: "8px", width: "340px", height: "320px" }} className="key_features_card">
                             <img src="/assets/img/raidensimx/key features/immersive.svg" alt="" />
-                            <h6 style={{ color: "black" }}>NFT Integration</h6>
+                            <h6 style={{ color: "black" }}>Custom Model Development</h6>
                             <p style={{ color: "black", marginBottom: "0" }}>
-                                Leveraging non-fungible tokens (NFTs) to create unique in-game assets, collectibles, and experiences.
+                                Tailor-made AI model development services to address your specific business needs, from data preprocessing to model deployment.
                             </p>
                         </div>
                         <div style={{ background: "white", boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px", borderRadius: "8px", width: "340px", height: "320px" }} className="key_features_card">
                             <img src="/assets/img/raidensimx/key features/immersive.svg" alt="" />
-                            <h6 style={{ color: "black" }}>Blockchain Integration</h6>
+                            <h6 style={{ color: "black" }}>Robust APIs</h6>
                             <p style={{ color: "black", marginBottom: "0" }}>
-                                Seamlessly integrating blockchain technology into game mechanics for enhanced security, transparency, and decentralization.
+                                Seamless integration with your existing systems through robust APIs, enabling effortless incorporation of AI capabilities into your applications.
                             </p>
                         </div>
                         <div style={{ background: "white", boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px", borderRadius: "8px", width: "340px", height: "320px" }} className="key_features_card">
                             <img src="/assets/img/raidensimx/key features/immersive.svg" alt="" />
-                            <h6 style={{ color: "black" }}> Multiplayer Functionality</h6>
+                            <h6 style={{ color: "black" }}>Ongoing Support</h6>
                             <p style={{ color: "black", marginBottom: "0" }}>
-                                Designing and developing multiplayer features enabled by blockchain for collaborative and competitive gaming experiences.
+                                Dedicated support and maintenance services to ensure the smooth operation of your AI solutions, with regular updates and enhancements.
                             </p>
                         </div>
                         <div style={{ background: "white", boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px", borderRadius: "8px", width: "340px", height: "320px" }} className="key_features_card">
                             <img src="/assets/img/raidensimx/key features/immersive.svg" alt="" />
-                            <h6 style={{ color: "black" }}>Deployment and Maintenance</h6>
+                            <h6 style={{ color: "black" }}>NFT Development</h6>
                             <p style={{ color: "black", marginBottom: "0" }}>
-                                Assisting in deploying your blockchain game to various platforms and providing ongoing support and maintenance services.
+                                Our commitment extends beyond deployment, providing continuous support and updates to optimize your gaming experience.
                             </p>
                         </div>
                     </div>
@@ -61,4 +63,4 @@ const BlockchainService = () => {
     );
 };
 
-export default BlockchainService;
+export default AsService;

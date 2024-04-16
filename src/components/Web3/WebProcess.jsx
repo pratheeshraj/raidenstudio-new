@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-function BlockChainProcess() {
+function WebProcess() {
 
     useEffect(() => {
         const qs = (selector, all = false) => {
@@ -67,26 +67,27 @@ function BlockChainProcess() {
         <section className="faq-section three" style={{ background: "#F8F9FA" }}>
             <div className="auto-container">
                 <div className="row">
-                    <h2 style={{ textAlign: "center", color: "black" }}>	Our Process Of <span className='theme-color'> Blockchain Game Creation</span></h2>
+                    <h2 style={{ textAlign: "center", color: "black" }}>Our <span className='theme-color'> Process</span></h2>
                     <p style={{ textAlign: "center", color: "black", width: "80%", margin: "auto" }}>
-                        With over 5 years of expertise developing blockchain-powered solutions, we have tailored our process to keep up with the constantly developing state of blockchain technology.
+                        At Raiden, we follow a systematic approach to ensure the successful execution of your Web 3.0 projects
                     </p>
                     <div className="nft_timeline">
                         <div style={{ background: "black" }} className="nft_line nft_line_white"></div>
                         <div className="nft_section">
                             <div style={{ background: "black" }} className="bead"><img src="/assets/img/whychooseusai/EXPERTA.svg" /></div>
                             <div className="nft_content">
-                                <h6 style={{ color: "black", marginTop: "-80px" }}>Blockchain Architecture Design</h6>
+                                <h6 style={{ color: "black", marginTop: "-80px" }}>Discovery & Planning</h6>
                                 <p style={{ color: "black" }}>
-                                    Establishing foundational blockchain architecture, including smart contracts, token standards, and consensus mechanisms.
+                                    We begin by understanding your business requirements, defining project goals, and formulating a strategic roadmap.
                                 </p>
                             </div>
                         </div>
                         <div className="nft_section">
                             <div style={{ background: "black" }} className="bead"><img src="/assets/img/whychooseusai/EXPERTA.svg" /></div>
                             <div className="nft_content">
-                                <h6 style={{ color: "black", marginTop: "-80px" }}>Protocol Implementation</h6>
-                                <p style={{ color: "black" }}>Deploying custom protocols for seamless integration of game and blockchain interactions.
+                                <h6 style={{ color: "black", marginTop: "-80px" }}>Design & Development</h6>
+                                <p style={{ color: "black" }}>
+                                    Our team of experienced developers and designers work collaboratively to bring your vision to life, focusing on usability, functionality, and scalability.
                                 </p>
                             </div>
 
@@ -94,60 +95,30 @@ function BlockChainProcess() {
                         <div className="nft_section">
                             <div style={{ background: "black" }} className="bead"><img src="/assets/img/whychooseusai/EXPERTA.svg" /></div>
                             <div className="nft_content">
-                                <h6 style={{ color: "black", marginTop: "-80px" }}>Asset Tokenization</h6>
-                                <p style={{ color: "black" }}>Tokenizing in-game assets as NFTs or fungible tokens, ensuring secure ownership and transferability.
-                                </p>
-                            </div>
-                        </div>
-                        <div className="nft_section">
-                            <div style={{ background: "black" }} className="bead"><img src="/assets/img/whychooseusai/EXPERTA.svg" /></div>
-                            <div className="nft_content">
-                                <h6 style={{ color: "black", marginTop: "-80px" }}>Decentralized Gameplay Logic</h6>
+                                <h6 style={{ color: "black", marginTop: "-80px" }}>Testing & Quality Assurance</h6>
                                 <p style={{ color: "black" }}>
-                                    Developing smart contracts to enforce game rules transparently and immutably.
+                                    Rigorous testing procedures are implemented to ensure the reliability, security, and performance of the developed solutions.
                                 </p>
                             </div>
                         </div>
                         <div className="nft_section">
                             <div style={{ background: "black" }} className="bead"><img src="/assets/img/whychooseusai/EXPERTA.svg" /></div>
                             <div className="nft_content">
-                                <h6 style={{ color: "black", marginTop: "-80px" }}>Off-Chain Solutions Integration</h6>
-                                <p style={{ color: "black" }}>Integrating off-chain solutions like state channels for efficient real-time interactions.
+                                <h6 style={{ color: "black", marginTop: "-80px" }}>Deployment & Optimization</h6>
+                                <p style={{ color: "black" }}>
+                                    We deploy the finalized solutions and continuously optimize them to adapt to evolving market trends and user feedback.
                                 </p>
                             </div>
                         </div>
                         <div className="nft_section">
                             <div style={{ background: "black" }} className="bead"><img src="/assets/img/whychooseusai/EXPERTA.svg" /></div>
                             <div className="nft_content">
-                                <h6 style={{ color: "black", marginTop: "-80px" }}>Interoperability Implementation</h6>
-                                <p style={{ color: "black" }}>Enabling cross-game asset transfers through interoperability standards.
+                                <h6 style={{ color: "black", marginTop: "-80px" }}>Support & Maintenance</h6>
+                                <p style={{ color: "black" }}>
+                                    Our commitment doesn’t end with deployment. We provide ongoing support and maintenance services to ensure the long-term success of your Web 3.0 initiatives.
                                 </p>
                             </div>
                         </div>
-                        {/* <div className="nft_section">
-                            <div style={{ background: "black" }} className="bead"><img src="/assets/img/whychooseusai/EXPERTA.svg" /></div>
-                            <div className="nft_content">
-                                <h6 style={{ color: "black", marginTop: "-80px" }}>Security Auditing and Testing</h6>
-                                <p style={{ color: "black" }}> Conducting thorough security audits to ensure resilience against attacks.
-                                </p>
-                            </div>
-                        </div>
-                        <div className="nft_section">
-                            <div style={{ background: "black" }} className="bead"><img src="/assets/img/whychooseusai/EXPERTA.svg" /></div>
-                            <div className="nft_content">
-                                <h6 style={{ color: "black", marginTop: "-80px" }}>Scalability Optimization</h6>
-                                <p style={{ color: "black" }}>Optimizing game architecture to handle large player bases without compromising performance.
-                                </p>
-                            </div>
-                        </div>
-                        <div className="nft_section">
-                            <div style={{ background: "black" }} className="bead"><img src="/assets/img/whychooseusai/EXPERTA.svg" /></div>
-                            <div className="nft_content">
-                                <h6 style={{ color: "black", marginTop: "-80px" }}>Continuous Monitoring and Maintenance</h6>
-                                <p style={{ color: "black" }}>Implementing monitoring tools for ongoing health, performance, and security maintenance
-                                </p>
-                            </div>
-                        </div> */}
                     </div>
                 </div>
             </div>
@@ -155,4 +126,4 @@ function BlockChainProcess() {
     );
 }
 
-export default BlockChainProcess;
+export default WebProcess;

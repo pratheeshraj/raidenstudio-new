@@ -90,15 +90,6 @@ function BlockChainProcess() {
                                     We integrate the blockchain use case and provide an excellent user experience, all while delivering unique designs. The technical design includes the specification of technical components, user journeys, and platform database design, along with a system structure design.
                                 </p>
                             </div>
-
-                        </div>
-                        <div className="nft_section">
-                            <div className="bead"><img className='nft_whychoose_img' src='/assets/img/metaverse-process/prototype.svg' /></div>
-                            <div className="nft_content">
-                                <h6>Prototype</h6>
-                                <p>
-                                    Our pool of Metaverse professionals create real-world prototypes to illustrate the platform's major features and collect early feedback on the project.                                </p>
-                            </div>
                         </div>
                         <div className="nft_section">
                             <div className="bead"><img className='nft_whychoose_img' src='/assets/img/metaverse-process/ecosystem.svg' /></div>

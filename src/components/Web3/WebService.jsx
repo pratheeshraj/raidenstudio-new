@@ -1,57 +1,58 @@
 import React from "react";
-import "./BlockChainGame.css"
 
-const BlockchainService = () => {
+const WebService = () => {
 
     return (
         <>
-            <section style={{ background: "#F8F9FA" }}>
+            <section>
                 <div
                     className="container-fulid key_features"
+                    style={{ background: "#F8F9FA" }}
                 >
-                    <h2 className="auto-container" style={{ color: "black" }}>	Blockchain Game Development Services<span className="theme-color"> <br />We Provide</span></h2>
-                    <p style={{ color: "black", textAlign: "center", width: "70%", margin: "auto auto 80px auto" }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores vitae nulla quidem deleniti officiis eligendi repellat labore dolor fugiat enim neque voluptatem consequatur minus, distinctio accusantium a eum? Optio, voluptatem.</p>
+                    <h2 className="auto-container" style={{ color: "black" }}>Our Popular Services In <span className="theme-color"> Web 3.0 <br />Development </span></h2>
+                    <p style={{ color: "black", textAlign: "center", width: "70%", margin: "auto auto 80px auto" }}>Unlock the endless possibilities of Web 3.0 with our comprehensive range of services tailored to meet your specific needs.
+                    </p>
                     <div className="auto-container row key_features_section_container" style={{ rowGap: "29px" }}>
                         <div style={{ background: "white", boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px", borderRadius: "8px", width: "340px", height: "320px" }} className="key_features_card">
                             <img src="/assets/img/raidensimx/key features/immersive.svg" alt="" />
-                            <h6 style={{ color: "black" }}> Conceptualization and Ideation</h6>
+                            <h6 style={{ color: "black" }}>Decentralized Application (DApp) Development</h6>
                             <p style={{ color: "black", marginBottom: "0" }}>
-                                From brainstorming innovative game concepts to refining ideas, we assist in laying the foundation for your blockchain game.
+                                Revolutionize your business operations with custom-built decentralized applications, leveraging the security and transparency of blockchain technology.
                             </p>
                         </div>
                         <div style={{ background: "white", boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px", borderRadius: "8px", width: "340px", height: "320px" }} className="key_features_card">
                             <img src="/assets/img/raidensimx/key features/immersive.svg" alt="" />
                             <h6 style={{ color: "black" }}>Smart Contract Development</h6>
                             <p style={{ color: "black", marginBottom: "0" }}>
-                                Implementing secure and efficient smart contracts to govern in-game transactions, assets, and rules.
-                            </p>
-                        </div>
-                        <div style={{ background: "white", boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px", borderRadius: "8px", width: "340px", height: "320px" }} className="key_features_card">
-                            <img src="/assets/img/raidensimx/key features/immersive.svg" alt="" />
-                            <h6 style={{ color: "black" }}>NFT Integration</h6>
-                            <p style={{ color: "black", marginBottom: "0" }}>
-                                Leveraging non-fungible tokens (NFTs) to create unique in-game assets, collectibles, and experiences.
+                                Automate agreements and transactions securely with smart contracts, ensuring trustless execution and immutable records on the blockchain.
                             </p>
                         </div>
                         <div style={{ background: "white", boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px", borderRadius: "8px", width: "340px", height: "320px" }} className="key_features_card">
                             <img src="/assets/img/raidensimx/key features/immersive.svg" alt="" />
                             <h6 style={{ color: "black" }}>Blockchain Integration</h6>
                             <p style={{ color: "black", marginBottom: "0" }}>
-                                Seamlessly integrating blockchain technology into game mechanics for enhanced security, transparency, and decentralization.
+                                Seamlessly integrate blockchain technology into your existing systems or develop new solutions to enhance transparency, security, and efficiency.
                             </p>
                         </div>
                         <div style={{ background: "white", boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px", borderRadius: "8px", width: "340px", height: "320px" }} className="key_features_card">
                             <img src="/assets/img/raidensimx/key features/immersive.svg" alt="" />
-                            <h6 style={{ color: "black" }}> Multiplayer Functionality</h6>
+                            <h6 style={{ color: "black" }}>Tokenization Solutions</h6>
                             <p style={{ color: "black", marginBottom: "0" }}>
-                                Designing and developing multiplayer features enabled by blockchain for collaborative and competitive gaming experiences.
+                                Explore new avenues for fundraising, asset management, and token economies with our expertise in tokenization services.
                             </p>
                         </div>
                         <div style={{ background: "white", boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px", borderRadius: "8px", width: "340px", height: "320px" }} className="key_features_card">
                             <img src="/assets/img/raidensimx/key features/immersive.svg" alt="" />
-                            <h6 style={{ color: "black" }}>Deployment and Maintenance</h6>
+                            <h6 style={{ color: "black" }}>NFT (Non-Fungible Token) Development</h6>
                             <p style={{ color: "black", marginBottom: "0" }}>
-                                Assisting in deploying your blockchain game to various platforms and providing ongoing support and maintenance services.
+                                Capitalize on the growing trend of digital ownership and unique asset representation through custom NFT development solutions.
+                            </p>
+                        </div>
+                        <div style={{ background: "white", boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px", borderRadius: "8px", width: "340px", height: "320px" }} className="key_features_card">
+                            <img src="/assets/img/raidensimx/key features/immersive.svg" alt="" />
+                            <h6 style={{ color: "black" }}>NFT (Non-Fungible Token) Development</h6>
+                            <p style={{ color: "black", marginBottom: "0" }}>
+                                Our commitment extends beyond deployment, providing continuous support and updates to optimize your gaming experience.
                             </p>
                         </div>
                     </div>
@@ -61,4 +62,4 @@ const BlockchainService = () => {
     );
 };
 
-export default BlockchainService;
+export default WebService;
