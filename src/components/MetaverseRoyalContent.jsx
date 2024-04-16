@@ -956,25 +956,25 @@ const MetaverseRoyalContent = () => {
               >
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                    <img src="/assets/img/whyus-game engine/optimized.svg" alt="" />
                   </div>
                   <p>Optimized Performance</p>
                 </div>
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                    <img src="/assets/img/whyus-game engine/cross.svg" alt="" />
                   </div>
                   <p> Cross-Platform Compatibility</p>
                 </div>
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                    <img src="/assets/img/whyus-game engine/dynamic.svg" alt="" />
                   </div>
                   <p> Dynamic Environments</p>
                 </div>
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                    <img src="/assets/img/whyus-game engine/future.svg" alt="" />
                   </div>
                   <p> Future-Proof Technology</p>
                 </div>
@@ -987,25 +987,25 @@ const MetaverseRoyalContent = () => {
               >
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                    <img src="/assets/img/whyus-uiux/intuative.svg" alt="" />
                   </div>
                   <p> Intuitive Design</p>
                 </div>
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                    <img src="/assets/img/whyus-uiux/immersive.svg" alt="" />
                   </div>
                   <p>Immersive Experience</p>
                 </div>
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                    <img src="/assets/img/whyus-uiux/customizedinterface.svg" alt="" />
                   </div>
                   <p> Customizable Interfaces</p>
                 </div>
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                    <img src="/assets/img/whyus-uiux/accesseability.svg" alt="" />
                   </div>
                   <p>Accessibility Features</p>
                 </div>
@@ -1018,25 +1018,25 @@ const MetaverseRoyalContent = () => {
               >
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                    <img src="/assets/img/whyus-monitization/flexible.svg" alt="" />
                   </div>
                   <p>Flexible Revenue Models</p>
                 </div>
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                    <img src="/assets/img/whyus-monitization/revenueoptimiza.svg" alt="" />
                   </div>
                   <p> Revenue Optimization Tools</p>
                 </div>
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                    <img src="/assets/img/whyus-monitization/blockchaineconomy.svg" alt="" />
                   </div>
                   <p>Blockchain-Based Economies</p>
                 </div>
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                    <img src="/assets/img/whyus-monitization/communityengage.svg" alt="" />
                   </div>
                   <p>Community Engagement</p>
                 </div>
@@ -1049,19 +1049,19 @@ const MetaverseRoyalContent = () => {
               >
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                    <img src="/assets/img/modding-support/customgameplay.svg" alt="" />
                   </div>
                   <p>Customizable Gameplay Mechanics</p>
                 </div>
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                    <img src="/assets/img/modding-support/personalizedcontent.svg" alt="" />
                   </div>
                   <p> Personalized Content Creation</p>
                 </div>
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                    <img src="/assets/img/modding-support/communitycollab.svg" alt="" />
                   </div>
                   <p> Community Collaboration</p>
                 </div>
