@@ -27,8 +27,8 @@ const HeaderTwo = () => {
   ];
 
   const productTo = [
-    "/project-details",
-    "/raidensimx",
+    "/raiden-verse",
+    "/raiden-simx",
     "/raiden-cogni",
     "/raiden-arcviz",
   ];
@@ -37,13 +37,12 @@ const HeaderTwo = () => {
   const gameNames2 = [
     "Realm Wars: Clash of Empires",
     "Virtual Vegas",
-    "MetaVerse Royale",
+    "Metaverse Royale",
   ];
   const gamelink = [
-    `/gameproduct-details`,
-    "/metaverse-casino",
-    "/metaverse-royal",
-    "",
+    `/clash-of-empires`,
+    "/virtual-vegas",
+    "/metaverse-royale",
   ];
 
   const gamePara = [
@@ -57,11 +56,11 @@ const HeaderTwo = () => {
 
   // block chain
   const blockChainTo = [
-    "/blockchain",
-    "/nft-development",
+    "/custom-blockchain",
+    "/nft",
     "/web3",
     "/defi",
-    "/metaverse-development",
+    "/metaverse",
     "/blockchain-game",
   ];
   const blockchainValues = [0.5, 0.5, 0.5, 0.5, 0.5, 0.5];
@@ -84,10 +83,10 @@ const HeaderTwo = () => {
     "Generative AI Development",
   ];
 
-  const generativeAIUrl = ["/ai-as-a-service", "/ai-development"]
+  const generativeAIUrl = ["/ai-as-a-service", "/generative-ai-development"]
   // xr
 
-  const xrlink = ["/ar-development", "/vr-development",];
+  const xrlink = ["/ar-services", "/vr-services",];
   const xrValues = [0.5, 0.5];
   const xrNames = ["AR Services", "VR Services",];
 
@@ -103,7 +102,7 @@ const HeaderTwo = () => {
     "P2E Game Development",
     "Web3 Game Development",
   ];
-  const gameNamesLink = ["/mobile-game-development", "/unity-development", "/unreal-development", "/mmorpg-development", "/p2e-develpment", "/web3-game-develpment"];
+  const gameNamesLink = ["/mobile-game-development", "/unity-development", "/unreal-development", "/mmorpg-game-development", "/p2e-game-develpment", "/web3-game-develpment"];
   const gameservicePara = ["Crafting engaging gaming experiences for portable devices.", "Building immersive worlds with versatile game development platform.", "Creating stunning visuals and realistic gameplay with Unreal Engine.",
     "Constructing vast, interactive worlds for massive multiplayer experiences.", "Integrating play-to-earn mechanics into captivating gaming projects.", "Leveraging blockchain technology for decentralized, next-gen gaming experiences."
   ]
@@ -112,7 +111,7 @@ const HeaderTwo = () => {
 
   const companyprogressValues = [0.5, 0.5, 0.5, 0.5];
   const CompanyNames = ["About us", "Carrer", "Contact us", "Case studies"];
-  const companyurl = ["/about", "/contact", "/career", "/career"]
+  const companyurl = ["/about-us", "/contact-us", "/carrer", "/case-studies"]
   const [activeMenu, setActiveMenu] = useState("Blockchain");
   const [activeMenu1, setActiveMenu1] = useState("virtual");
   const [activeMenu2, setActiveMenu2] = useState("Company");
