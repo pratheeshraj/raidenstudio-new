@@ -84,6 +84,7 @@ const HeaderTwo = () => {
     "Generative AI Development",
   ];
 
+  const generativeAIUrl = ["/ai-as-a-service", "/ai-development"]
   // xr
 
   const xrlink = ["/ar-development", "/vr-development",];
@@ -626,11 +627,7 @@ const HeaderTwo = () => {
                                             (value, index) => (
                                               <Link
                                                 key={index}
-                                                to={
-                                                  index === 0
-                                                    ? "#"
-                                                    : "/ai-development"
-                                                }
+                                                to={generativeAIUrl[index]}
                                                 onMouseEnter={() =>
                                                   setHoveredIndex(index)
                                                 }

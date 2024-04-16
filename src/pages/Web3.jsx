@@ -22,6 +22,7 @@ import WebHero from '../components/Web3/WebHero';
 import WebProcess from '../components/Web3/WebProcess';
 import WebFaq from '../components/Web3/WebFaq';
 import WebWhychoose from '../components/Web3/WebWhychoose';
+import WebModel from '../components/Web3/WebModel';
 
 function Web3() {
     let [active, setActive] = useState(true);
@@ -43,20 +44,21 @@ function Web3() {
                 <WebHero />
                 {/* vr-about */}
                 <BlockchainAbout />
-                {/* vr-count */}
-                <BlockChainCount />
                 {/* vr-service */}
                 <WebService />
                 {/* metaverse-banner */}
                 <BlockchainBanner />
                 {/* metaverse-features */}
-                <BlockchainFeature />
+                {/* <BlockchainFeature /> */}
                 {/* metaverse-industries */}
-                <BlockchainIndustries />
+                {/* <BlockchainIndustries /> */}
                 {/* metaverse-tech */}
                 <BlockchainTech />
                 {/* metaverse-process */}
                 <WebProcess />
+                {/* vr-count */}
+                <BlockChainCount />
+                <WebModel />
                 {/* metaverse-whychoose */}
                 <WebWhychoose />
                 {/* faq */}

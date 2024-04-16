@@ -5,20 +5,19 @@ import NewsSectionOne from '../components/NewsSectionOne';
 import FooterSectionOne from '../components/FooterSectionOne';
 import HelmetReact from '../elements/HelmetReact';
 import Preloader from '../elements/Preloader';
-import VrFaq from '../components/Vrdevelopment/VrFaq';
-import BlockchainHero from '../components/BlockChainGame/BlockchainHero';
-import BlockchainAbout from '../components/BlockChainGame/BlockchainAbout';
-import BlockChainCount from '../components/BlockChainGame/BlockChainCount';
-import BlockchainService from '../components/BlockChainGame/BlockchainService';
-import BlockchainBanner from '../components/BlockChainGame/BlockchainBanner';
-import BlockchainFeature from '../components/BlockChainGame/BlockchainPortfolio';
-import BlockChainProcess from '../components/BlockChainGame/BlockChainProcess';
-import BlockChainFaq from '../components/BlockChainGame/BlockChainFaq';
-import BlockChainWhy from '../components/BlockChainGame/BlockChainWhy';
-import BlockchainFeatues from '../components/BlockChainGame/BlockchainFeatues';
-import BlockchainPortfolio from './../components/BlockChainGame/BlockchainPortfolio';
+import BlockchainAbout from '../components/AI-As-Sevice/BlockchainAbout';
+import BlockChainCount from '../components/AI-As-Sevice/BlockChainCount';
+import BlockchainBanner from '../components/AI-As-Sevice/BlockchainBanner';
+import BlockchainTech from '../components/AI-As-Sevice/WebchainTech';
+import WebService from './../components/AI-As-Sevice/WebService';
+import WebHero from '../components/AI-As-Sevice/AsHero';
+import WebProcess from '../components/AI-As-Sevice/WebProcess';
+import WebFaq from '../components/AI-As-Sevice/WebFaq';
+import WebWhychoose from '../components/AI-As-Sevice/WebWhychoose';
+import WebModel from '../components/AI-As-Sevice/WebModel';
+import AsHero from '../components/AI-As-Sevice/AsHero';
 
-function BlockchainGame() {
+function AiasService() {
     let [active, setActive] = useState(true);
     useEffect(() => {
         setTimeout(function () {
@@ -35,28 +34,28 @@ function BlockchainGame() {
                 {/* Header two */}
                 <HeaderTwo />
                 {/* vr-hero */}
-                <BlockchainHero />
+                <AsHero />
                 {/* vr-about */}
                 <BlockchainAbout />
-                {/* vr-count */}
                 {/* vr-service */}
-                <BlockchainService />
+                <WebService />
                 {/* metaverse-banner */}
                 <BlockchainBanner />
                 {/* metaverse-features */}
-                <BlockchainFeatues />
+                {/* <BlockchainFeature /> */}
                 {/* metaverse-industries */}
                 {/* <BlockchainIndustries /> */}
                 {/* metaverse-tech */}
-                {/* <BlockchainTech /> */}
+                <BlockchainTech />
                 {/* metaverse-process */}
-                <BlockChainProcess />
+                <WebProcess />
+                {/* vr-count */}
                 <BlockChainCount />
-                <BlockchainPortfolio />
+                <WebModel />
                 {/* metaverse-whychoose */}
-                <BlockChainWhy />
+                <WebWhychoose />
                 {/* faq */}
-                <BlockChainFaq />
+                <WebFaq />
                 {/* contact */}
                 <ContactSection2 />
                 {/* Footer Section */}
@@ -68,4 +67,4 @@ function BlockchainGame() {
     );
 };
 
-export default BlockchainGame;
+export default AiasService

@@ -10,3 +10,103 @@
         height: 100% !important;
     }
 }
+
+.blockgame_benifit_main_div {
+    width: 100%;
+    height: 100%;
+}
+
+.blockgame_benifit_div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 25px;
+
+}
+
+.blockgame_benifit_card {
+    padding: 15px;
+    width: 32%;
+    background: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 8px;
+}
+
+.blockgame_benifit_card img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.blockgame_benifit_card div {
+    color: black;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.blockgame_benifit_card p {
+    color: black;
+}
+
+
+
+
+
+/* featurese  */
+
+.blockchain_game_card_maindiv {}
+
+.industry_wide_card_blockchain {
+    position: relative;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 339px;
+    width: 32%;
+    padding: 10px;
+    padding-top: 220px;
+    display: flex;
+    flex-direction: column;
+    z-index: 20;
+    border-radius: 6px;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.classy_simx_bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 11;
+}
+
+.industry_wide_card_blockchain img {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 9;
+    height: 100%;
+    transition: ease-in-out 0.5s;
+}
+
+.industry_wide_card_blockchain h6 {
+    z-index: 20;
+    font-size: 18px;
+    text-align: center;
+}
+
+.industry_wide_card_blockchain p {
+    z-index: 20;
+    font-size: 18px;
+    text-align: center;
+}

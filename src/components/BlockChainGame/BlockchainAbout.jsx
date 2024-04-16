@@ -25,18 +25,20 @@ const BlockchainAbout = () => {
                         </div>
                         <div className="col-lg-6">
                             <div className="right-wrapper ps-2">
-                                <h2 style={{ color: "black" }} className="title"> Blockchain Game Development Services We Provide:
+                                <h2 style={{ color: "black" }} className="title"> Expertise in Blockchain Game Development
                                 </h2>
                                 <p style={{ color: "black" }}>
-                                    <span style={{ fontWeight: "bold" }}>At Raiden, we offer comprehensive blockchain game development services tailored to meet your unique needs. Our services include:</span>
-                                    <br />
-                                    Conceptualization and Ideation: From brainstorming innovative game concepts to refining ideas, we assist in laying the foundation for your blockchain game.
-                                    Smart Contract Development: Implementing secure and efficient smart contracts to govern in-game transactions, assets, and rules.
-                                    NFT Integration: Leveraging non-fungible tokens (NFTs) to create unique in-game assets, collectibles, and experiences.
-                                    Blockchain Integration: Seamlessly integrating blockchain technology into game mechanics for enhanced security, transparency, and decentralization.
-                                    Multiplayer Functionality: Designing and developing multiplayer features enabled by blockchain for collaborative and competitive gaming experiences.
-
+                                    Innovative, adaptable, and forward-thinking, our expertise in blockchain game development positions us as leaders in the industry, driving innovation and pushing the boundaries of what's possible in gaming. we have the expertise and passion to bring your ideas to life and revolutionize the gaming industry.
                                 </p>
+                                <p style={{ color: "black" }}>
+                                    <span style={{ fontWeight: "bold" }}>Decentralized Game Logic:</span> Leveraging the decentralized nature of blockchain technology, we implement game logic directly on the blockchain through smart contracts.
+                                </p>
+                                <p style={{ color: "black" }}>
+                                    <span style={{ fontWeight: "bold" }}>Interoperability and Cross-Game Assets:</span> We design blockchain games with interoperability in mind, allowing players to transfer assets seamlessly between different games and platforms.
+                                </p>
+                                {/* <p style={{ color: "black" }}>
+                                    <span style={{ fontWeight: "bold" }}>Scalable Multiplayer Infrastructure:</span> Our expertise extends to designing and implementing scalable multiplayer infrastructure for blockchain games, accommodating large numbers of players while maintaining low latency and high performance.
+                                </p> */}
                             </div>
                         </div>
                     </div>

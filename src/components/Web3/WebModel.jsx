@@ -1,11 +1,11 @@
 import React from 'react'
 
-function BlockchainPortfolio() {
+function WebModel() {
     return (
         <section className="faq-section three" style={{ background: "white" }}>
             <div className="auto-container">
                 <div className="row">
-                    <h2 style={{ textAlign: "center", color: "black" }}>Our <span className="theme-color">Portfolios</span>
+                    <h2 style={{ textAlign: "center", color: "black" }}>Our  <span className="theme-color">Engagement Models</span>
                     </h2>
                     <p style={{ textAlign: "center", color: "black", marginBottom: "80px" }}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam qui dolorum explicabo praesentium, possimus optio id necessitatibus fugiat pariatur ea in esse est, reiciendis veniam et aliquam facilis temporibus nihil.
                     </p>
@@ -13,18 +13,18 @@ function BlockchainPortfolio() {
                         <div className='blockgame_benifit_div'>
                             <div className='blockgame_benifit_card'>
                                 <img class="img-fluid" src="/assets/img/service/02_service.png" alt="" />
-                                <div >Crypto Clash</div>
-                                <p>EA multiplayer blockchain battle royale game where players compete for scarce resources and battle for supremacy in a post-apocalyptic world. Each in-game asset is represented as an NFT, allowing players to trade, collect, and upgrade their arsenal to gain an edge over their opponents.</p>
+                                <div >Fixed Price</div>
+                                <p>Ideal for projects with well-defined scope and requirements. We provide a fixed price and timeline for the entire project, ensuring cost predictability and clarity.</p>
                             </div>
                             <div className='blockgame_benifit_card'>
                                 <img class="img-fluid" src="/assets/img/service/02_service.png" alt="" />
-                                <div >Ether Empires</div>
-                                <p>Set sail on a blockchain-powered adventure in Ether Empires, a strategy game where players build and manage their own empire on the Ethereum blockchain. Conquer territories, forge alliances, and trade resources with other players in a persistent virtual world.</p>
+                                <div >Time & Material</div>
+                                <p>Perfect for projects with evolving requirements or uncertain scope. Pay as you go based on the actual time and resources consumed, allowing for greater flexibility and control.</p>
                             </div>
                             <div className='blockgame_benifit_card'>
                                 <img class="img-fluid" src="/assets/img/service/02_service.png" alt="" />
-                                <div >Crypto Critters</div>
-                                <p>Enter the world of CryptoCritters, a virtual pet simulation game where players can collect, breed, and trade adorable creatures on the blockchain. Each CryptoCritter is an NFT with unique traits and characteristics, making them highly sought after by collectors and enthusiasts alike.</p>
+                                <div >Dedicated Team</div>
+                                <p>For long-term projects requiring dedicated resources, we provide a dedicated team of skilled professionals who work exclusively on your project, offering full transparency and collaboration.</p>
                             </div>
 
                         </div>
@@ -37,4 +37,4 @@ function BlockchainPortfolio() {
 
     )
 }
-export default BlockchainPortfolio
+export default WebModel

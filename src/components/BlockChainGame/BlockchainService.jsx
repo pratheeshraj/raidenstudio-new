@@ -5,7 +5,7 @@ const BlockchainService = () => {
 
     return (
         <>
-            <section>
+            <section style={{ background: "#F8F9FA" }}>
                 <div
                     className="container-fulid key_features"
                 >

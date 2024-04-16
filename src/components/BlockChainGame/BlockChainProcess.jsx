@@ -64,67 +64,87 @@ function BlockChainProcess() {
     }, []); // Empty dependency array to run effect only once after mount
 
     return (
-        <section className="faq-section three" style={{ background: "#00151E" }}>
+        <section className="faq-section three" style={{ background: "#F8F9FA" }}>
             <div className="auto-container">
                 <div className="row">
-                    <h2 style={{ textAlign: "center", color: "white" }}>	Our Process Of <span className='theme-color'> Blockchain Game Creation</span></h2>
-                    <p style={{ textAlign: "center", color: "white", width: "80%", margin: "auto" }}>
+                    <h2 style={{ textAlign: "center", color: "black" }}>	Our Process Of <span className='theme-color'> Blockchain Game Creation</span></h2>
+                    <p style={{ textAlign: "center", color: "black", width: "80%", margin: "auto" }}>
                         With over 5 years of expertise developing blockchain-powered solutions, we have tailored our process to keep up with the constantly developing state of blockchain technology.
                     </p>
                     <div className="nft_timeline">
-                        <div className="nft_line"></div>
+                        <div style={{ background: "black" }} className="nft_line nft_line_white"></div>
                         <div className="nft_section">
-                            <div className="bead"><img className='nft_whychoose_img' src='/assets/img/metaverse-process/discovery.svg' /></div>
+                            <div style={{ background: "black" }} className="bead"><img src="/assets/img/whychooseusai/EXPERTA.svg" /></div>
                             <div className="nft_content">
-                                <h6>Blockchain Game Conceptualization</h6>
-                                <p>
-                                    We start by exploring unique gameplay mechanics and storylines that leverage the advantages of blockchain technology. This involves brainstorming sessions to conceptualize innovative game ideas that emphasize decentralization, asset ownership, and community interaction.
+                                <h6 style={{ color: "black", marginTop: "-80px" }}>Blockchain Architecture Design</h6>
+                                <p style={{ color: "black" }}>
+                                    Establishing foundational blockchain architecture, including smart contracts, token standards, and consensus mechanisms.
                                 </p>
                             </div>
                         </div>
                         <div className="nft_section">
-                            <div className="bead"><img className='nft_whychoose_img' src='/assets/img/metaverse-process/uiux.svg' /></div>
+                            <div style={{ background: "black" }} className="bead"><img src="/assets/img/whychooseusai/EXPERTA.svg" /></div>
                             <div className="nft_content">
-                                <h6>Smart Contract Design and Development</h6>
-                                <p>
-                                    Our team designs and develops smart contracts tailored to the specific requirements of the game. These smart contracts govern in-game transactions, asset ownership, and gameplay rules, ensuring security, transparency, and immutability on the blockchain.
+                                <h6 style={{ color: "black", marginTop: "-80px" }}>Protocol Implementation</h6>
+                                <p style={{ color: "black" }}>Deploying custom protocols for seamless integration of game and blockchain interactions.
                                 </p>
                             </div>
 
                         </div>
                         <div className="nft_section">
-                            <div className="bead"><img className='nft_whychoose_img' src='/assets/img/metaverse-process/prototype.svg' /></div>
+                            <div style={{ background: "black" }} className="bead"><img src="/assets/img/whychooseusai/EXPERTA.svg" /></div>
                             <div className="nft_content">
-                                <h6>NFT Integration and Asset Creation</h6>
-                                <p>
-                                    We integrate non-fungible tokens (NFTs) into the game to represent unique in-game assets, such as characters, items, and collectibles. Our artists and developers collaborate to create visually stunning and valuable NFTs that enhance the player experience and drive engagement.
+                                <h6 style={{ color: "black", marginTop: "-80px" }}>Asset Tokenization</h6>
+                                <p style={{ color: "black" }}>Tokenizing in-game assets as NFTs or fungible tokens, ensuring secure ownership and transferability.
                                 </p>
                             </div>
                         </div>
                         <div className="nft_section">
-                            <div className="bead"><img className='nft_whychoose_img' src='/assets/img/metaverse-process/ecosystem.svg' /></div>
+                            <div style={{ background: "black" }} className="bead"><img src="/assets/img/whychooseusai/EXPERTA.svg" /></div>
                             <div className="nft_content">
-                                <h6>Multiplayer Functionality Implementation</h6>
-                                <p>
-                                    Leveraging blockchain technology, we implement multiplayer functionality that enables collaborative and competitive gameplay experiences. Players can interact with each other in real-time, engage in PvP battles, or join forces to complete in-game challenges, fostering a vibrant gaming community.
+                                <h6 style={{ color: "black", marginTop: "-80px" }}>Decentralized Gameplay Logic</h6>
+                                <p style={{ color: "black" }}>
+                                    Developing smart contracts to enforce game rules transparently and immutably.
                                 </p>
                             </div>
                         </div>
                         <div className="nft_section">
-                            <div className="bead"><img className='nft_whychoose_img' src='/assets/img/metaverse-process/development.svg' /></div>
+                            <div style={{ background: "black" }} className="bead"><img src="/assets/img/whychooseusai/EXPERTA.svg" /></div>
                             <div className="nft_content">
-                                <h6>Blockchain Integration and Testing</h6>
-                                <p>
-                                    We seamlessly integrate blockchain technology into the game mechanics and conduct thorough testing to ensure functionality, security, and scalability. This involves testing smart contracts for vulnerabilities, conducting stress tests on the blockchain network, and optimizing performance for a smooth gaming experience.
+                                <h6 style={{ color: "black", marginTop: "-80px" }}>Off-Chain Solutions Integration</h6>
+                                <p style={{ color: "black" }}>Integrating off-chain solutions like state channels for efficient real-time interactions.
                                 </p>
                             </div>
                         </div>
                         <div className="nft_section">
-                            <div className="bead"><img className='nft_whychoose_img' src='/assets/img/metaverse-process/testing.svg' /></div>
+                            <div style={{ background: "black" }} className="bead"><img src="/assets/img/whychooseusai/EXPERTA.svg" /></div>
                             <div className="nft_content">
-                                <h6>Deployment and Community Engagement</h6>
-                                <p>
-                                    Upon completion, we deploy the blockchain game to various platforms and engage with the community to drive adoption and player retention. We facilitate marketing campaigns, organize events, and collaborate with influencers to create buzz around the game and attract a diverse player base.
+                                <h6 style={{ color: "black", marginTop: "-80px" }}>Interoperability Implementation</h6>
+                                <p style={{ color: "black" }}>Enabling cross-game asset transfers through interoperability standards.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="nft_section">
+                            <div style={{ background: "black" }} className="bead"><img src="/assets/img/whychooseusai/EXPERTA.svg" /></div>
+                            <div className="nft_content">
+                                <h6 style={{ color: "black", marginTop: "-80px" }}>Security Auditing and Testing</h6>
+                                <p style={{ color: "black" }}> Conducting thorough security audits to ensure resilience against attacks.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="nft_section">
+                            <div style={{ background: "black" }} className="bead"><img src="/assets/img/whychooseusai/EXPERTA.svg" /></div>
+                            <div className="nft_content">
+                                <h6 style={{ color: "black", marginTop: "-80px" }}>Scalability Optimization</h6>
+                                <p style={{ color: "black" }}>Optimizing game architecture to handle large player bases without compromising performance.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="nft_section">
+                            <div style={{ background: "black" }} className="bead"><img src="/assets/img/whychooseusai/EXPERTA.svg" /></div>
+                            <div className="nft_content">
+                                <h6 style={{ color: "black", marginTop: "-80px" }}>Continuous Monitoring and Maintenance</h6>
+                                <p style={{ color: "black" }}>Implementing monitoring tools for ongoing health, performance, and security maintenance
                                 </p>
                             </div>
                         </div>
