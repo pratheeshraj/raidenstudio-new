@@ -18,10 +18,10 @@ const BlockchainBanner = () => {
                             <div className="col-lg-6">
                                 <div className="title">
                                     <h2>
-                                        Are you ready to adopt <span className="theme-color">AI innovation</span> for your business?
+                                        Cutting-Edge Infrastructure for<span className="theme-color"> AI Innovation</span>
                                     </h2>
                                     <p>
-                                        VR can be your ideal artificial intelligence development firm, helping you determine how AI may transform your operations, increase efficiency, and elevate productivity.
+                                        Gain insights into the robust technology stack powering our AIaaS platform, encompassing cloud computing, machine learning frameworks, and DevOps practices, ensuring optimal performance and scalability.
                                     </p>
                                     <div className="inner-btn d-adjust">
                                         <div>

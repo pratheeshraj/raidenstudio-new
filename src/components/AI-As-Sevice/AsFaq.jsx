@@ -1,6 +1,7 @@
 import React from "react";
+import DevelopmentProcess from './../DevelopmentProcess';
 
-const WebFaq = () => {
+const AsFaq = () => {
 
     return (
         <>
@@ -14,9 +15,9 @@ const WebFaq = () => {
                                 data-aos-delay="300"
                             >
                                 <h2>
-                                    FAQ
+                                    Clearing Your Doubts
                                 </h2>
-                                <p style={{ marginBottom: "10px" }}>Have questions about our Web 3.0 development services? Check out our FAQ section below:
+                                <p style={{ marginBottom: "10px" }}>Have questions about our Ai Development services? Check out our FAQ section below:
                                 </p>
                             </div>
                             <div
@@ -56,7 +57,7 @@ const WebFaq = () => {
                                                     aria-expanded="false"
                                                     aria-controls="flush-collapseOne"
                                                 >
-                                                    What is Web 3.0?
+                                                    How does AI-as-a-Service differ from traditional AI development?
                                                 </button>
                                             </h2>
                                             <div
@@ -65,8 +66,7 @@ const WebFaq = () => {
                                                 data-bs-parent="#accordionFlushExample"
                                             >
                                                 <div className="accordion-body">
-                                                    Web 3.0 represents the next evolution of the internet, characterized by
-                                                    decentralization, blockchain technology, and enhanced user experiences.
+                                                    AI-as-a-Service eliminates the need for organizations to invest in AI infrastructure and resources upfront, offering a more cost-effective and scalable approach to leveraging AI capabilities.
                                                 </div>
                                             </div>
                                         </div>
@@ -80,7 +80,7 @@ const WebFaq = () => {
                                                     aria-expanded="false"
                                                     aria-controls="flush-collapseTwo"
                                                 >
-                                                    How can Web 3.0 benefit my business?
+                                                    Can I integrate AI-as-a-Service with my existing applications?
                                                 </button>
                                             </h2>
                                             <div
@@ -89,8 +89,8 @@ const WebFaq = () => {
                                                 data-bs-parent="#accordionFlushExample"
                                             >
                                                 <div className="accordion-body">
-                                                    Web 3.0 offers numerous benefits, including increased security, transparency,
-                                                    efficiency, and opportunities for innovation and new revenue streams.
+                                                    Yes, our AIaaS solution provides robust APIs for seamless integration with your existing systems and applications, ensuring easy incorporation of AI capabilities.
+
                                                 </div>
                                             </div>
                                         </div>
@@ -104,7 +104,7 @@ const WebFaq = () => {
                                                     aria-expanded="false"
                                                     aria-controls="flush-collapseThree"
                                                 >
-                                                    What industries can benefit from Web 3.0 development?
+                                                    What industries do you cater to with your AI-as-a-Service offerings?
                                                 </button>
                                             </h2>
                                             <div
@@ -113,33 +113,7 @@ const WebFaq = () => {
                                                 data-bs-parent="#accordionFlushExample"
                                             >
                                                 <div className="accordion-body">
-                                                    Virtually any industry can benefit from Web 3.0 development, including finance,
-                                                    healthcare, supply chain, gaming, real estate, and more.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="accordion-item">
-                                            <h2 className="accordion-header">
-                                                <button
-                                                    className="accordion-button collapsed"
-                                                    type="button"
-                                                    data-bs-toggle="collapse"
-                                                    data-bs-target="#flush-collapseFour"
-                                                    aria-expanded="false"
-                                                    aria-controls="flush-collapseFour"
-                                                >
-                                                    Is blockchain technology suitable for my project?
-                                                </button>
-                                            </h2>
-                                            <div
-                                                id="flush-collapseFour"
-                                                className="accordion-collapse collapse"
-                                                data-bs-parent="#accordionFlushExample"
-                                            >
-                                                <div className="accordion-body">
-                                                    Blockchain technology can be beneficial for projects requiring enhanced security,
-                                                    transparency, and trustless transactions. Our team can assess your
-                                                    requirements and recommend the best approach.
+                                                    We serve a wide range of industries, including but not limited to healthcare, finance, retail, manufacturing, and logistics. Our AI solutions are tailored to address the unique challenges and requirements of each industry vertical.
                                                 </div>
                                             </div>
                                         </div>
@@ -154,4 +128,4 @@ const WebFaq = () => {
     );
 };
 
-export default WebFaq;
+export default AsFaq;

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const WebchainTech = () => {
+const AsTech = () => {
     const [frontend, setFrontend] = useState(true)
     const [backend, setBackend] = useState(false)
     const [mobile, setMobile] = useState(false)
@@ -194,4 +194,4 @@ const WebchainTech = () => {
     );
 };
 
-export default WebchainTech;
+export default AsTech;

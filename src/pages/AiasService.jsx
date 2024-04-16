@@ -8,15 +8,17 @@ import Preloader from '../elements/Preloader';
 import BlockchainAbout from '../components/AI-As-Sevice/AsAbout';
 import BlockChainCount from '../components/AI-As-Sevice/BlockChainCount';
 import BlockchainBanner from '../components/AI-As-Sevice/BlockchainBanner';
-import BlockchainTech from '../components/AI-As-Sevice/WebchainTech';
+import BlockchainTech from '../components/AI-As-Sevice/AsTech';
 import WebService from '../components/AI-As-Sevice/AsService';
 import WebHero from '../components/AI-As-Sevice/AsHero';
 import WebProcess from '../components/AI-As-Sevice/WebProcess';
-import WebFaq from '../components/AI-As-Sevice/WebFaq';
+import WebFaq from '../components/AI-As-Sevice/AsFaq';
 import WebWhychoose from '../components/AI-As-Sevice/WebWhychoose';
 import WebModel from '../components/AI-As-Sevice/WebModel';
 import AsHero from '../components/AI-As-Sevice/AsHero';
 import AsService from '../components/AI-As-Sevice/AsService';
+import AsFaq from '../components/AI-As-Sevice/AsFaq';
+import AiBussiness from '../components/AI-As-Sevice/AiBussiness';
 
 function AiasService() {
     let [active, setActive] = useState(true);
@@ -42,12 +44,13 @@ function AiasService() {
                 <AsService />
                 {/* metaverse-banner */}
                 <BlockchainBanner />
+                <AiBussiness />
                 {/* metaverse-features */}
                 {/* <BlockchainFeature /> */}
                 {/* metaverse-industries */}
                 {/* <BlockchainIndustries /> */}
                 {/* metaverse-tech */}
-                <BlockchainTech />
+                {/* <BlockchainTech /> */}
                 {/* metaverse-process */}
                 <WebProcess />
                 {/* vr-count */}
@@ -56,7 +59,7 @@ function AiasService() {
                 {/* metaverse-whychoose */}
                 <WebWhychoose />
                 {/* faq */}
-                <WebFaq />
+                <AsFaq />
                 {/* contact */}
                 <ContactSection2 />
                 {/* Footer Section */}
