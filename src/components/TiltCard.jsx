@@ -17,7 +17,7 @@ const TiltCard = ({ KeyFeatures }) => {
   }, []);
   return (
     <div className="animation_card" ref={tiltRef}>
-      <img src={icon1} alt="icon" />
+      <img src={KeyFeatures.img} alt="icon" />
       <h6>{KeyFeatures.title}</h6>
       <p>{KeyFeatures.content}</p>
     </div>
