@@ -27,10 +27,18 @@ const BlockchainAbout = () => {
                             <div className="right-wrapper ps-2">
                                 <h2 style={{ color: "black" }} className="title">AI-as-a-Service
                                 </h2>
-                                <p style={{ color: "black", fontWeight: "bold" }}>Experience the Benefits of AI Without the Complexity</p>
+                                <p style={{ color: "black", fontWeight: "bold" }}>Expertise in AI Models: Tailored Solutions for Your Needs</p>
                                 <p style={{ color: "black" }}>
-                                    Unlock the power of Artificial Intelligence without the hassle of infrastructure setup and maintenance. Our AI-as-a-Service (AIaaS) solution offers a seamless experience, allowing you to leverage cutting-edge AI technologies without worrying about the intricacies of implementation.
+                                    Unlock the power of Artificial Intelligence without the hassle of infrastructure setup and maintenance. Our AI-as-a-Service (AIaaS) solution offers a seamless experience, Our Tailor-made solutions to address  for your unique business challenges , They are
                                 </p>
+                                <ul style={{ color: "black", fontSize: "16px", listStyleType: "square", marginLeft: "18px" }}>
+                                    <li style={{ marginBottom: "5px" }} >Natural Language Processing ( NLP )</li>
+                                    <li style={{ marginBottom: "5px" }}>Computer Vision</li>
+                                    <li style={{ marginBottom: "5px" }}>Predictive Analytics</li>
+                                    <li style={{ marginBottom: "5px" }}>Speech Recognition</li>
+                                    <li style={{ marginBottom: "5px" }}>Recommender Systems</li>
+                                    <li style={{ marginBottom: "5px" }}>Anomaly Detection</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
