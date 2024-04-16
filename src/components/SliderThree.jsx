@@ -94,7 +94,7 @@ const SliderThree = () => {
                       Revolutionize with Cutting-Edge Blockchain Solutions Unleash the power of innovation for your business.
                     </p>
                     <Link className="default-btn" to="/contact">
-                      Talk To Us
+                      Explore
                     </Link>
                   </ScrollAnimation>
                 </div>
@@ -118,7 +118,7 @@ const SliderThree = () => {
                     className="default-btn"
                     to="/contact"
                   >
-                    Contact Us Now
+                    Explore
                   </Link>
                 </div>
               </div>
@@ -134,7 +134,7 @@ const SliderThree = () => {
                     Immerse Yourself in the Art of Gaming Creation - Let's Build Your Next Masterpiece Together!
                   </p>
                   <Link className="default-btn" to="/contact">
-                    Contact Us Now
+                    Explore
                   </Link>
                 </div>
                 <div className="right">
@@ -159,7 +159,7 @@ const SliderThree = () => {
                     className="default-btn"
                     to="/contact"
                   >
-                    Contact Us Now
+                    Explore
                   </Link>
                 </div>
               </div>
