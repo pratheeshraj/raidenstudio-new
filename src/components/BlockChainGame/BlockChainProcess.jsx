@@ -124,7 +124,7 @@ function BlockChainProcess() {
                                 </p>
                             </div>
                         </div>
-                        <div className="nft_section">
+                        {/* <div className="nft_section">
                             <div style={{ background: "black" }} className="bead"><img src="/assets/img/whychooseusai/EXPERTA.svg" /></div>
                             <div className="nft_content">
                                 <h6 style={{ color: "black", marginTop: "-80px" }}>Security Auditing and Testing</h6>
@@ -147,7 +147,7 @@ function BlockChainProcess() {
                                 <p style={{ color: "black" }}>Implementing monitoring tools for ongoing health, performance, and security maintenance
                                 </p>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

@@ -83,7 +83,7 @@ const HomeThree = () => {
         {/* <TeamSectionTwo /> */}
         {/* Blog Section Three */}
         <BlogSectionTwo />
-        <ContactSection2 />
+        {/* <ContactSection2 /> */}
 
         {/* News Section Two */}
         <NewsSectionOne />

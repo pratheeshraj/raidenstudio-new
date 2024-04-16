@@ -14,12 +14,12 @@ const ServiceSectionThree = () => {
                 data-aos="fade-up"
                 data-aos-delay="300"
               >
-                <h3>ADVANCED SERVICES</h3>
+                <h3 style={{ color: "#13C4A1" }} className="theme-color">ADVANCED SERVICES</h3>
                 <h2>
                   We provide a range of all-inclusive
                   <span className="theme-color"> services & solutions</span>
                 </h2>
-                <p>At VR, we're experts at providing innovative solutions that use cutting-edge technology to boost creativity and revolutionize industries. Our skilled professionals have extensive experience in a variety of domains, allowing us to provide comprehensive services in:</p>
+                <p>We're experts at providing innovative solutions that use cutting-edge technology to boost creativity and revolutionize industries. Our skilled professionals have extensive experience in a variety of domains, allowing us to provide comprehensive services in,</p>
               </div>
             </div>
           </div>
@@ -74,7 +74,7 @@ const ServiceSectionThree = () => {
                         <div className="text-file">
                           <h2 className="title">
                             <Link to="/service-details">
-                              Custom Blockchain Development
+                              Blockchain Development
                             </Link>
                           </h2>
                           <p>

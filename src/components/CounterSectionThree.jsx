@@ -18,7 +18,7 @@ const CounterSectionThree = () => {
                   <h2 className="counter">
                     <ReactVisibilitySensor>
                       {({ isVisible }) => (
-                        <div> {isVisible ? <CountUp end={200} /> : 0}</div>
+                        <div> {isVisible ? <CountUp end={50} /> : 0}</div>
                       )}
                     </ReactVisibilitySensor>
                   </h2>
@@ -37,7 +37,7 @@ const CounterSectionThree = () => {
                   <h2 className="counter">
                     <ReactVisibilitySensor>
                       {({ isVisible }) => (
-                        <div> {isVisible ? <CountUp end={100} /> : 0}</div>
+                        <div> {isVisible ? <CountUp end={30} /> : 0}</div>
                       )}
                     </ReactVisibilitySensor>
                   </h2>
@@ -75,7 +75,7 @@ const CounterSectionThree = () => {
                   <h2 className="counter">
                     <ReactVisibilitySensor>
                       {({ isVisible }) => (
-                        <div> {isVisible ? <CountUp end={5} /> : 0}</div>
+                        <div> {isVisible ? <CountUp end={10} /> : 0}</div>
                       )}
                     </ReactVisibilitySensor>
                   </h2>
