@@ -188,52 +188,6 @@ const HeaderTwo = () => {
       <>
         {/* header-area-start */}
         <header className="header-intro-version-one-area header-area-2">
-          {/* <div className="header-top d-none d-lg-block">
-            <div className="auto-container">
-              <div className="row">
-                <div className="col-lg-7">
-                  <div className="left-wrapper">
-                    <div className="item">
-                      <span className="theme-color">
-                        <i className="fa-solid fa-envelope" />
-                      </span>
-                      <span>info@yourdomain.com</span>
-                    </div>
-                    <div className="item">
-                      <span className="theme-color">
-                        <i className="fa-solid fa-phone-arrow-up-right" />
-                      </span>
-                      <span>(0215) 2658 12547</span>
-                    </div>
-                    <div className="item">
-                      <span className="theme-color">
-                        <i className="fa-sharp fa-solid fa-location-dot" />
-                      </span>
-                      <span>Lane Mission New York</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-5">
-                  <div className="right-wrapper">
-                    <div className="item social">
-                      <Link to="#">
-                        <i className="fa-brands fa-facebook" />
-                      </Link>
-                      <Link to="#">
-                        <i className="fa-brands fa-twitter" />
-                      </Link>
-                      <Link to="#">
-                        <i className="fa-brands fa-linkedin-in" />
-                      </Link>
-                      <Link to="#">
-                        <i className="fa-brands fa-instagram" />
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> */}
           <div className="header-inner" id="header-sticky-2">
             <div className="auto-container">
               <div className="row align-items-center">
@@ -253,93 +207,7 @@ const HeaderTwo = () => {
                         <ul>
                           <li className="has-dropdown">
                             <Link to="/">HOME</Link>
-                            {/* <ul className="sub-menu">
-                              <li>
-                                <NavLink
-                                  to="/index"
-                                  className={(navData) =>
-                                    navData.isActive ? "active" : ""
-                                  }
-                                >
-                                  Home One
-                                </NavLink>
-                              </li>
-                              <li className="active">
-                                <NavLink
-                                  to="/index-2"
-                                  className={(navData) =>
-                                    navData.isActive ? "active" : ""
-                                  }
-                                >
-                                  Home Two
-                                </NavLink>
-                              </li>
-                              <li>
-                                <NavLink
-                                  to="/index-3"
-                                  className={(navData) =>
-                                    navData.isActive ? "active" : ""
-                                  }
-                                >
-                                  Home Three
-                                </NavLink>
-                              </li>
-                            </ul> */}
                           </li>
-                          {/* <li className="has-dropdown">
-                            <Link className="nav_link" to="#">Product<i class="fa-solid fa-caret-down"></i></Link>
-                            <ul className="sub-menu">
-                              <div className="sub-menu-div">
-                                <li
-                                  className={`has-dropdown ${activeMenu1 === 'Product' ? 'active' : ''}`}
-                                  onMouseEnter={() => handleMenuHover1('Product')}
-                                // onClick={() => handleMenuClick('team')}
-                                >
-                                  <Link className="left_content_arrow" style={{ marginTop: "20px" }} to="#">Product <i class="fa-solid fa-right-long icon_rightarrow"></i></Link>
-                                </li>
-                              </div>
-                              <div className="menupar-right">
-                                {activeMenu1 === 'Product' && (
-                                  <div className="menupar-right-div">
-                                    <div className="menubar_inside_main_div">
-                                      <div className="menubar_inside_div">
-                                        <div className="menubar_inside_main_heading">Product</div>
-
-                                        <div className="manubar_content_main_div">
-                                          {progressValues.map((value, index) => (
-                                            <Link
-                                              key={index}
-                                              // to={`/link${index}`}
-                                              onMouseEnter={() => setHoveredIndex(index)}
-                                              onMouseLeave={() => setHoveredIndex(null)}
-                                              style={{ position: 'relative', display: 'block' }}
-                                            >
-                                              <div className="manubar_content_item">
-                                                <div className="manubar_content_name">{productName[index]}</div>
-                                                <div className="manubar_content_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, culpa voluptas et.</div>
-                                                <div
-                                                  className="progress-bar"
-                                                  style={{
-                                                    width: hoveredIndex === index ? '100%' : `${value * 100}%`,
-                                                    position: 'absolute',
-                                                    top: '15px', // Adjust the value to position the progress bar above the link name
-                                                    left: 0,
-                                                    height: '4px',
-                                                    backgroundColor: '#13C4A1', // Change color as needed
-                                                    transition: 'width 0.3s ease-in-out',
-                                                  }}
-                                                />
-                                              </div>
-                                            </Link>
-                                          ))}
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                )}
-                              </div>
-                            </ul>
-                          </li> */}
                           <li className="has-dropdown">
                             <Link className="nav_link" to="#">
                               PRODUCTS<i class="fa-solid fa-caret-down"></i>
