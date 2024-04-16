@@ -90,7 +90,7 @@ const MetaverseRoyalContent = () => {
         style={{ backgroundColor: "#f8f9fa" }}
       >
         <h2>
-       Advanced Cutting Edge <br />{" "}
+          Advanced Cutting Edge <br />{" "}
           <span style={{ color: "#efc060" }}>Technology </span>,
           <span style={{ color: "#efc060" }}> Streaming</span>, and <br />
           <span style={{ color: "#efc060" }}>
@@ -150,7 +150,7 @@ const MetaverseRoyalContent = () => {
                           "linear-gradient(136.76deg, #ABDCFF 0%, #0396FF 100%)",
                       }}
                     >
-                      <img src={multiPlayer_icon4} alt="" />
+                      <img src="/assets/img/royale-technical/cross.svg" alt="" />
                     </div>
                     <div className="right">
                       <h6>Cross-Platform Compatibility</h6>
@@ -174,7 +174,7 @@ const MetaverseRoyalContent = () => {
                           "linear-gradient(136.76deg, #E2B0FF 0%, #9F44D3 100%)",
                       }}
                     >
-                      <img src={multiPlayer_icon2} alt="" />
+                      <img src="/assets/img/royale-technical/high.svg" alt="" />
                     </div>
                     <div className="right">
                       <h6> High-Definition Graphics</h6>
@@ -200,7 +200,7 @@ const MetaverseRoyalContent = () => {
                           "linear-gradient(136.76deg, #FEB692 0%, #EA5455 100%)",
                       }}
                     >
-                      <img src={multiPlayer_icon1} alt="" />
+                      <img src="/assets/img/royale-technical/multi.svg" alt="" />
                     </div>
                     <div className="right">
                       <h6> Seamless Multiplayer Integration</h6>
@@ -224,7 +224,7 @@ const MetaverseRoyalContent = () => {
                           "linear-gradient(136.76deg, #FCCF31 0%, #F55555 100%)",
                       }}
                     >
-                      <img src={multiPlayer_icon3} alt="" />
+                      <img src="/assets/img/royale-technical/customi.svg" alt="" />
                     </div>
                     <div className="right">
                       <h6> Customizable Gameplay Mechanics</h6>
@@ -253,7 +253,7 @@ const MetaverseRoyalContent = () => {
                           "linear-gradient(136.76deg, #90F7EC 0%, #32CCBC 100%)",
                       }}
                     >
-                      <img src={streaming_icon4} alt="" />
+                      <img src="/assets/img/royalegame-engine/unity.svg" alt="" />
                     </div>
                     <div className="right">
                       <h6> Unity Engine Optimization</h6>
@@ -278,7 +278,7 @@ const MetaverseRoyalContent = () => {
                           "linear-gradient(136.76deg, #F889D5 0%, #5650DE 100%)",
                       }}
                     >
-                      <img src={streaming_icon2} alt="" />
+                      <img src="/assets/img/royalegame-engine/unreal.svg" alt="" />
                     </div>
                     <div className="right">
                       <h6>Unreal Engine 5 Integration</h6>
@@ -305,7 +305,7 @@ const MetaverseRoyalContent = () => {
                           "linear-gradient(136.76deg, #FF9897 0%, #F650A0 100%)",
                       }}
                     >
-                      <img src={streaming_icon3} alt="" />
+                      <img src="/assets/img/royalegame-engine/streaming.svg" alt="" />
                     </div>
                     <div className="right">
                       <h6> Streaming Integration</h6>
@@ -331,7 +331,7 @@ const MetaverseRoyalContent = () => {
                           "linear-gradient(136.76deg, #FFCDA5 0%, #EE4D5F 100%)",
                       }}
                     >
-                      <img src={streaming_icon1} alt="" />
+                      <img src="/assets/img/royalegame-engine/gameengine.svg" alt="" />
                     </div>
                     <div className="right">
                       <h6> Game Engine Mastery</h6>
@@ -361,7 +361,7 @@ const MetaverseRoyalContent = () => {
                           "linear-gradient(136.76deg, #ABDCFF 0%, #0396FF 100%)",
                       }}
                     >
-                      <img src={gameengine_icon3} alt="" />
+                      <img src="/assets/img/community/interactive.svg" alt="" />
                     </div>
                     <div className="right">
                       <h6> Interactive Streaming Events</h6>
@@ -385,7 +385,7 @@ const MetaverseRoyalContent = () => {
                           "linear-gradient(136.76deg, #E2B0FF 0%, #9F44D3 100%)",
                       }}
                     >
-                      <img src={gameengine_icon4} alt="" />
+                      <img src="/assets/img/community/playerrun.svg" alt="" />
                     </div>
                     <div className="right">
                       <h6> Player-Run Community Channels</h6>
@@ -411,7 +411,7 @@ const MetaverseRoyalContent = () => {
                           "linear-gradient(136.76deg, #FEB692 0%, #EA5455 100%)",
                       }}
                     >
-                      <img src={gameengine_icon1} alt="" />
+                      <img src="/assets/img/community/community.svg" alt="" />
                     </div>
                     <div className="right">
                       <h6>Community-Driven Content Creation</h6>
@@ -436,7 +436,7 @@ const MetaverseRoyalContent = () => {
                           "linear-gradient(136.76deg, #ABDCFF 0%, #0396FF 100%)",
                       }}
                     >
-                      <img src={gameengine_icon2} alt="" />
+                      <img src="/assets/img/community/rewarding.svg" alt="" />
                     </div>
                     <div className="right">
                       <h6> Rewarding Community Engagement</h6>
@@ -927,25 +927,25 @@ const MetaverseRoyalContent = () => {
                 className={advanced ? "section8_card_border" : ""}
                 onClick={handleAdvanced}
               >
-               Game Engine Expertise
+                Game Engine Expertise
               </p>
               <p
                 className={enhancements ? "section8_card_border" : ""}
                 onClick={handleEnhancements}
               >
-              UI & UX
+                UI & UX
               </p>
               <p
                 className={measures ? "section8_card_border" : ""}
                 onClick={handleMeasures}
               >
-             Monetization
+                Monetization
               </p>
               <p
                 className={business ? "section8_card_border" : ""}
                 onClick={handleBusiness}
               >
-               Monetization
+                Monetization
               </p>
             </div>
             {advanced ? (
@@ -956,25 +956,25 @@ const MetaverseRoyalContent = () => {
               >
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                    <img src="/assets/img/whyus-game engine/optimized.svg" alt="" />
                   </div>
                   <p>Optimized Performance</p>
                 </div>
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                    <img src="/assets/img/whyus-game engine/cross.svg" alt="" />
                   </div>
                   <p> Cross-Platform Compatibility</p>
                 </div>
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                    <img src="/assets/img/whyus-game engine/dynamic.svg" alt="" />
                   </div>
                   <p> Dynamic Environments</p>
                 </div>
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                    <img src="/assets/img/whyus-game engine/future.svg" alt="" />
                   </div>
                   <p> Future-Proof Technology</p>
                 </div>
@@ -987,25 +987,25 @@ const MetaverseRoyalContent = () => {
               >
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                    <img src="/assets/img/whyus-uiux/intuative.svg" alt="" />
                   </div>
                   <p> Intuitive Design</p>
                 </div>
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                    <img src="/assets/img/whyus-uiux/immersive.svg" alt="" />
                   </div>
                   <p>Immersive Experience</p>
                 </div>
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                    <img src="/assets/img/whyus-uiux/customizedinterface.svg" alt="" />
                   </div>
                   <p> Customizable Interfaces</p>
                 </div>
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                    <img src="/assets/img/whyus-uiux/accesseability.svg" alt="" />
                   </div>
                   <p>Accessibility Features</p>
                 </div>
@@ -1018,25 +1018,25 @@ const MetaverseRoyalContent = () => {
               >
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                    <img src="/assets/img/whyus-monitization/flexible.svg" alt="" />
                   </div>
                   <p>Flexible Revenue Models</p>
                 </div>
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                    <img src="/assets/img/whyus-monitization/revenueoptimiza.svg" alt="" />
                   </div>
                   <p> Revenue Optimization Tools</p>
                 </div>
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                    <img src="/assets/img/whyus-monitization/blockchaineconomy.svg" alt="" />
                   </div>
                   <p>Blockchain-Based Economies</p>
                 </div>
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                    <img src="/assets/img/whyus-monitization/communityengage.svg" alt="" />
                   </div>
                   <p>Community Engagement</p>
                 </div>
@@ -1049,19 +1049,19 @@ const MetaverseRoyalContent = () => {
               >
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                    <img src="/assets/img/modding-support/customgameplay.svg" alt="" />
                   </div>
                   <p>Customizable Gameplay Mechanics</p>
                 </div>
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                    <img src="/assets/img/modding-support/personalizedcontent.svg" alt="" />
                   </div>
                   <p> Personalized Content Creation</p>
                 </div>
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                    <img src="/assets/img/modding-support/communitycollab.svg" alt="" />
                   </div>
                   <p> Community Collaboration</p>
                 </div>

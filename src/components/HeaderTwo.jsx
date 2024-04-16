@@ -109,12 +109,16 @@ const HeaderTwo = () => {
 
   //  compony
 
-  const companyprogressValues = [0.5, 0.5, 0.5, 0.5];
-  const CompanyNames = ["About us", "Carrer", "Contact us", "Case studies"];
-  const companyurl = ["/about-us", "/contact-us", "/carrer", "/case-studies"]
+  const companyprogressValues = [0.5, 0.5, 0.5];
+  const CompanyNames = ["About us", "Carrer", "Contact us"];
+  const companyurl = ["/about-us", "/carrer", "/contact-us"]
   const [activeMenu, setActiveMenu] = useState("Blockchain");
   const [activeMenu1, setActiveMenu1] = useState("virtual");
   const [activeMenu2, setActiveMenu2] = useState("Company");
+
+  const resourseprogressValues = [0.5, 0.5];
+  const resourseNames = ["Blog", "Case Studies",];
+  const resourseurl = ["/blog", "/case-studies"]
 
   const handleMenuHover2 = (menu2) => {
     setActiveMenu2(menu2);
@@ -657,7 +661,92 @@ const HeaderTwo = () => {
                             </ul>
                           </li>
                           <li className="has-dropdown">
-                            <NavLink to="/blog">INSIGHTS</NavLink>
+                            <Link className="nav_link" to="#">
+                              RESOURSES <i class="fa-solid fa-caret-down"></i>
+                            </Link>
+                            <ul className="sub-menu">
+                              <div className="sub-menu-div">
+                                <li
+                                  className={`has-dropdown ${activeMenu2 === "Company" ? "active" : ""
+                                    }`}
+                                  onMouseEnter={() =>
+                                    handleMenuHover2("Company")
+                                  }
+                                // onClick={() => handleMenuClick('team')}
+                                >
+                                  <Link
+                                    className="left_content_arrow"
+                                    style={{ marginTop: "20px" }}
+                                    to="#"
+                                  >
+                                    RESOURSES
+                                    <i class="fa-solid fa-right-long icon_rightarrow"></i>
+                                  </Link>
+                                </li>
+                              </div>
+                              <div className="menupar-right">
+                                {activeMenu2 === "Company" && (
+                                  <div className="menupar-right-div">
+                                    <div className="menubar_inside_main_div">
+                                      <div className="menubar_inside_div">
+                                        <div className="menubar_inside_main_heading">
+                                          Resourses
+                                        </div>
+                                        <div className="manubar_content_main_div">
+                                          {resourseprogressValues.map(
+                                            (value, index) => (
+                                              <Link
+                                                key={index}
+                                                to={resourseurl[index]} // Assuming index 0 is for "About us" and index 2 is for "Contact us"
+                                                onMouseEnter={() =>
+                                                  setHoveredIndex(index)
+                                                }
+                                                onMouseLeave={() =>
+                                                  setHoveredIndex(null)
+                                                }
+                                                style={{
+                                                  position: "relative",
+                                                  display: "block",
+                                                }}
+                                              >
+                                                <div className="manubar_content_item">
+                                                  <div className="manubar_content_name">
+                                                    {resourseNames[index]}
+                                                  </div>
+                                                  <div className="manubar_content_para">
+                                                    Lorem ipsum dolor sit amet
+                                                    consectetur adipisicing
+                                                    elit. Fugit, culpa voluptas
+                                                    et.
+                                                  </div>
+                                                  <div
+                                                    className="progress-bar"
+                                                    style={{
+                                                      width:
+                                                        hoveredIndex === index
+                                                          ? "100%"
+                                                          : `${value * 100}%`,
+                                                      position: "absolute",
+                                                      top: "15px", // Adjust the value to position the progress bar above the link name
+                                                      left: 0,
+                                                      height: "4px",
+                                                      backgroundColor:
+                                                        "#13C4A1", // Change color as needed
+                                                      transition:
+                                                        "width 0.3s ease-in-out",
+                                                    }}
+                                                  />
+                                                </div>
+                                              </Link>
+                                            )
+                                          )}
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                )}
+                              </div>
+                            </ul>
                           </li>
                           <li className="has-dropdown">
                             <Link className="nav_link" to="#">
