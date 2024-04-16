@@ -53,12 +53,12 @@ function Defi() {
                 <DefiService />
                 {/* metaverse-banner */}
                 <DefiBanner />
+                {/* metaverse-tech */}
+                <DefiTech />
                 {/* metaverse-features */}
                 <DefiFeature />
                 {/* metaverse-industries */}
-                <DefiIndustries />
-                {/* metaverse-tech */}
-                <DefiTech />
+                {/* <DefiIndustries /> */}
                 {/* metaverse-process */}
                 <BlockChainProcess />
                 {/* metaverse-whychoose */}

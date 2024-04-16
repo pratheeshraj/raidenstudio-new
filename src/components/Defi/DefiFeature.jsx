@@ -2,7 +2,7 @@ import React from 'react'
 
 function DefiFeature() {
     return (
-        <section className="faq-section three" style={{ background: "white" }}>
+        <section className="faq-section three" style={{ background: "#F8F9FA" }}>
             <div className="auto-container">
                 <div className="row">
                     <h2 style={{ textAlign: "center", color: "black" }}>Core Benefits of our <span className="theme-color">DeFi Development Company</span>
