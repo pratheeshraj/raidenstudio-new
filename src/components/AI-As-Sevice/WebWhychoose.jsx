@@ -4,37 +4,33 @@ function WebWhychoose() {
 
     return (
         <>
-            <section className="faq-section three whychoose_fulldiv">
+            <section className="faq-section three" style={{ background: "white" }}>
                 <div className="auto-container">
-                    <div className="row wwhychoose_maindiv">
-                        <div className="whychoose_left_div">
-                            <h2 style={{ marginBottom: "25px", color: "black", textAlign: "center" }}>Why Choose<span className='theme-color'> Raiden ?</span></h2>
-                            <p style={{ color: "black", textAlign: "center", marginBottom: "50px" }}>As one of the dedicated AI service providers, we use our significant domain expertise to continually expand the boundaries of what is achievable for your business. We have a fantastic group of AI specialists who thrive on challenges and are always looking for new AI possibilities to help our clients meet their goals. As the best artificial intelligence development company, we define ourselves by:</p>
+                    <div className="row nft_whychoose_full_div">
+                        <div className='nft_whychoose_left_div'>
+                            <h2 style={{ color: "black", textAlign: "center" }}>Why Choose Us For Your Reliable Custom <span className='theme-color'>NFT Development Partner?</span></h2>
+                            <p style={{ color: "black", textAlign: "center", marginBottom: "80px" }}>At Raiden, we have qualified and devoted NFT developers with extensive experience in the NFT development sector, assuring the quality you want. Hire Raiden's skilled developers to grow and enhance your NFT project capabilities to the point where you can successfully complete projects and provide solutions with challenging and intricate criteria. We provide unique NFT development solutions while keeping your budget in mind, since we always strive to provide solutions that are reasonable.</p>
                         </div>
-                        <div className="whychoose_right_div">
-                            <div className='ai_whychoose_card_div' style={{ width: "46%" }}>
-                                <div style={{ background: "linear-gradient(136.76deg, #F40076 0%, #DF98FA 100%)" }} className='whychoose_ai_box'>
-                                    <img src='/assets/img/whychooseusai/EXPERTA.svg' />
+                        <div className='nft_whychoose_Right_div'>
+                            <div className='nft_whychoose_Right_box' style={{ background: "white" }}>
+                                <div style={{ background: "linear-gradient(136.76deg, #F40076 0%, #DF98FA 100%)" }} className='nft_img_round'><img className='nft_whychoose_img' src='/assets/img/whychooseusnft/client.svg' />
                                 </div>
-                                <div className='whychoose_ai_content'>Proven Track Record</div>
+                                <div className='nft_whychoose_name'>Proven Track Record</div>
                             </div>
-                            <div className='ai_whychoose_card_div' style={{ width: "46%" }}>
-                                <div style={{ background: "linear-gradient(136.76deg, #FCCF31 0%, #F55555 100%)" }} className='whychoose_ai_box'>
-                                    <img src='/assets/img/whychooseusai/R&D.svg' />
+                            <div className='nft_whychoose_Right_box' style={{ background: "white" }}>
+                                <div style={{ background: "linear-gradient(136.76deg, #DF98FA 0%, #9055FF 100%)" }} className='nft_img_round'><img className='nft_whychoose_img' src='/assets/img/whychooseusnft/transperancy.svg' />
                                 </div>
-                                <div className='whychoose_ai_content'>Customer-Centric Approach</div>
+                                <div className='nft_whychoose_name'>Customer-Centric Approach</div>
                             </div>
-                            <div className='ai_whychoose_card_div' style={{ width: "46%", }}>
-                                <div style={{ background: "linear-gradient(136.76deg, #ABDCFF 0%, #0396FF 100%)" }} className='whychoose_ai_box'>
-                                    <img src='/assets/img/whychooseusai/Security.svg' />
+                            <div className='nft_whychoose_Right_box' style={{ background: "white" }}>
+                                <div style={{ background: "linear-gradient(136.76deg, #FCCF31 0%, #F55555 100%)" }} className='nft_img_round'><img className='nft_whychoose_img' src='/assets/img/whychooseusnft/experiencedteam.svg' />
                                 </div>
-                                <div className='whychoose_ai_content'>Continuous Innovation</div>
+                                <div className='nft_whychoose_name'>Continuous Innovation</div>
                             </div>
-                            <div className='ai_whychoose_card_div' style={{ width: "46%" }}>
-                                <div style={{ background: "linear-gradient(136.76deg, #90F7EC 0%, #32CCBC 100%)" }} className='whychoose_ai_box'>
-                                    <img src='/assets/img/whychooseusai/aisupport.svg' />
+                            <div className='nft_whychoose_Right_box' style={{ background: "white" }}>
+                                <div style={{ background: "linear-gradient(136.76deg, #ABDCFF 0%, #0396FF 100%)" }} className='nft_img_round'><img className='nft_whychoose_img' src='/assets/img/whychooseusnft/flexible.svg' />
                                 </div>
-                                <div className='whychoose_ai_content'>Transparent Communication</div>
+                                <div className='nft_whychoose_name'>Transparent Communication</div>
                             </div>
                         </div>
                     </div>

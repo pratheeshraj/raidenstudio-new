@@ -45,6 +45,8 @@ function AiasService() {
                 <BlockchainAbout />
                 {/* vr-service */}
                 <AsService />
+                <BlockChainCount />
+
                 {/* metaverse-banner */}
                 {/* <AsIndustries /> */}
                 {/* <BlockchainBanner /> */}
@@ -58,7 +60,6 @@ function AiasService() {
                 {/* <WebProcess /> */}
                 {/* vr-count */}
                 <AsUseCase />
-                <BlockChainCount />
                 {/* <WebModel /> */}
                 {/* metaverse-whychoose */}
                 <WebWhychoose />
