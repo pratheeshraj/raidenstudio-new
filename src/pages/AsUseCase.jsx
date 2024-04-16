@@ -5,7 +5,7 @@ function AsUseCase() {
         <section className="project-section three Raidenarcviz_card_main_div" style={{ padding: "80px 0", background: "#F8F9FA" }}>
             <div className="auto-container">
                 <div className="row">
-                    <h2 className="raidenarcviz_card_h2">Real-World Applications of <span className="theme-color"> AI-as-a-Service</span></h2>
+                    <h2 className="raidenarcviz_card_h2">Real-World Applications of <span className="theme-color"> <br />AI-as-a-Service</span></h2>
                     <p style={{ color: "black" }} className='raidenarcviz_card_p'>Explore real-world scenarios showcasing how businesses across industries leverage our AIaaS offerings to drive innovation, improve efficiency, and deliver superior customer experiences.</p>
                     <div className="arcviz_benifit_div">
                         <div className="arcviz_benifit">

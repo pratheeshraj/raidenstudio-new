@@ -81,7 +81,7 @@
 
 @media screen and (max-width: 550px) {
     .ai_whychoose_card_div {
-        width: 100%;
+        width: 100% !important;
         height: 111px;
         margin: 0 auto;
     }

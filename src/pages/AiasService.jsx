@@ -20,6 +20,8 @@ import AsService from '../components/AI-As-Sevice/AsService';
 import AsFaq from '../components/AI-As-Sevice/AsFaq';
 import AiBussiness from '../components/AI-As-Sevice/AiBussiness';
 import AsUseCase from './AsUseCase';
+import BlockchainIndustries from './../components/BlockChain/BlockchainIndustries';
+import AsIndustries from '../components/AI-As-Sevice/AsIndustries';
 
 function AiasService() {
     let [active, setActive] = useState(true);
@@ -44,12 +46,12 @@ function AiasService() {
                 {/* vr-service */}
                 <AsService />
                 {/* metaverse-banner */}
+                <AsIndustries />
                 <BlockchainBanner />
                 <AiBussiness />
                 {/* metaverse-features */}
                 {/* <BlockchainFeature /> */}
                 {/* metaverse-industries */}
-                {/* <BlockchainIndustries /> */}
                 {/* metaverse-tech */}
                 {/* <BlockchainTech /> */}
                 {/* metaverse-process */}
