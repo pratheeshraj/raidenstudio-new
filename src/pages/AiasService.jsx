@@ -48,12 +48,12 @@ function AiasService() {
                 {/* metaverse-banner */}
                 <AsIndustries />
                 <BlockchainBanner />
+                {/* <BlockchainTech /> */}
                 <AiBussiness />
                 {/* metaverse-features */}
                 {/* <BlockchainFeature /> */}
                 {/* metaverse-industries */}
                 {/* metaverse-tech */}
-                {/* <BlockchainTech /> */}
                 {/* metaverse-process */}
                 {/* <WebProcess /> */}
                 {/* vr-count */}

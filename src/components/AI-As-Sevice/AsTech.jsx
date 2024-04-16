@@ -81,12 +81,10 @@ const AsTech = () => {
                         <h2 style={{ color: "black", textAlign: "center" }}>The Technology Stack<span className="theme-color"> We Use</span></h2>
                         <p style={{ color: "black", textAlign: "center" }}>Our proficiency extends across a diverse range of technologies and frameworks, including but not limited to </p>
                         <div className="left_Language_div">
-                            <div onClick={handleFrontEnd} style={{ color: frontend ? '#13C4A1' : 'black' }}>Web</div>
-                            <div onClick={handleMobile} style={{ color: mobile ? '#13C4A1' : 'black' }}>Smart Contract</div>
-                            <div onClick={handleBlockchain} style={{ color: blockchain ? '#13C4A1' : 'black' }}>Blockchain</div>
-                            <div onClick={handleGame} style={{ color: game ? '#13C4A1' : 'black' }}>Backend</div>
-                            <div onClick={handleDatabase} style={{ color: database ? '#13C4A1' : 'black' }}>Database</div>
-                            <div onClick={handleCloud} style={{ color: cloud ? '#13C4A1' : 'black' }}>Cloud</div>
+                            <div onClick={handleFrontEnd} style={{ color: frontend ? '#13C4A1' : 'black' }}>Cloud Computing</div>
+                            <div onClick={handleMobile} style={{ color: mobile ? '#13C4A1' : 'black' }}>Machine Learning</div>
+                            <div onClick={handleBlockchain} style={{ color: blockchain ? '#13C4A1' : 'black' }}>Big Data Technologies</div>
+                            <div onClick={handleGame} style={{ color: game ? '#13C4A1' : 'black' }}>Containerization and Orchestration</div>
 
 
                         </div>
