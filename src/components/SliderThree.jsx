@@ -63,7 +63,7 @@ const SliderThree = () => {
         pin: true,
         scrub: 1,
         snap: 1 / (sections.length - 1),
-       
+
         end: () => `+=${triggerRef?.current?.offsetWidth}`,
       },
     });
@@ -86,13 +86,11 @@ const SliderThree = () => {
                     duration={1.5}
                     className="left"
                   >
-                    <h4>The Most Personalized</h4>
                     <h2>
-                      Best-in-Class <span> Blockchain Development</span>
+                      Empower Your Business: <span> Leading Blockchain Solutions Await</span>
                     </h2>
-
-                    <p>
-                      RAIDEN is a team of blockchain game professionals with varied skill sets who provide bespoke and world-class blockchain game development solutions to gaming businesses of all sizes. From NFT, Metaverse, and Sports Betting design to development, we provide outstanding and interactive gaming experiences.
+                    <p className="Hero_sub_heading">
+                      Revolutionize with Cutting-Edge Blockchain Solutions - Unleash the power of innovation for your business.
                     </p>
                     <Link className="default-btn" to="/contact">
                       Talk To Us
@@ -104,19 +102,15 @@ const SliderThree = () => {
             <div className="scroll-section section2">
               <div className="auto-container section2_container">
                 <div className="left" data-aos="fade-left" data-aos-delay="300">
-                  <h4 style={{ color: "#2ac8fd" }} className="sub-title">
-                    The Most Personalized
-                  </h4>
                   <h2 className="slider-title">
-                    Your New Age Generative AI
+                    Supercharge with
                     <span style={{ color: "#2ac8fd" }} className="theme-color">
                       {" "}
-                      Development Partner
+                      AI
                     </span>
                   </h2>
-                  <p className="description">
-                    Exploit our vast expertise to accelerate your AI journey by opting for our end-to-end AI development services that are ideal for your specific project needs. Whether you require tailored artificial intelligence tactics for business growth, NLP, and adaptable AI development solutions, we are your dedicated AI talent force.
-                  </p>
+                  <p className="Hero_sub_heading description">
+                    Boost efficiency & results. AI solutions for your business needs.</p>
                   <Link
                     style={{ backgroundColor: "#2ac8fd" }}
                     className="default-btn"
@@ -130,16 +124,12 @@ const SliderThree = () => {
             <div className="scroll-section section3">
               <div className="auto-container section3_container">
                 <div className="left">
-                  <h4 className="sub-title">The Most Personalized</h4>
                   <h2 className="slider-title">
-                    Your New Age Generative AI
-                    <span className="theme-color"> Development Partner</span>
+                    Forge Your Gaming Legacy:
+                    <span className="theme-color"> Crafting Digital Worlds</span>
                   </h2>
-                  <p className="description">
-                    Utilize our expertise to fast-track your AI projects with
-                    our end-to-end development services. From tailored AI
-                    strategies for business growth to NLP and adaptable
-                    solutions, we're your dedicated AI partner.
+                  <p className="description Hero_sub_heading" >
+                    Join forces with our expert game developers to bring your gaming vision to life.
                   </p>
                   <Link className="default-btn" to="/contact">
                     Contact Us Now
@@ -157,18 +147,13 @@ const SliderThree = () => {
                 data-aos-delay="300"
               >
                 <div className="left">
-                  <h4 className="sub-title" style={{ color: "#2ac8fd" }}>
-                    Top AR, VR
-                  </h4>
                   <h2 className="slider-title">
-                    Metaverse
-                    <span className="theme-color" style={{ color: "#2ac8fd" }}>
-                      {" "}
-                      Development Company
+                    Navigating New Realities: <span className="theme-color" style={{ color: "#2ac8fd" }}>
+                      Redefining Experiences with XR
                     </span>
                   </h2>
-                  <p style={{ width: "500px" }} className="description">
-                    With our 3D Metaverse solution, you can redefine the way your business processes by combining virtual and augmented technologies. RAIDEN, a leading AR and VR development company, aspires to create highly customized solutions that will help your modern VR/AR business prosper.
+                  <p style={{ width: "500px" }} className="description Hero_sub_heading">
+                    Discover augmented and virtual realities with our expert XR development. Transforming concepts into immersive experiences
                   </p>
                   <Link
                     style={{ backgroundColor: "#2ac8fd" }}

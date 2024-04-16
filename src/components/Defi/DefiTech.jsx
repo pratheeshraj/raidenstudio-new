@@ -50,7 +50,7 @@ const DefiTech = () => {
             <section className="faq-section three" style={{ background: "white" }}>
                 <div className="auto-container">
                     <div className="row">
-                        <h2 style={{ color: "black", textAlign: "center" }}>Our Tech Stack For<span className="theme-color">DeFi Development</span></h2>
+                        <h2 style={{ color: "black", textAlign: "center" }}>Our Tech Stack For<span className="theme-color"> DeFi Development</span></h2>
                         <p style={{ color: "black", textAlign: "center" }}>Helping startups and enterprises with the right blend of experience and technology.</p>
                         <div className="left_Language_div">
                             <div onClick={handleFrontEnd} style={{ color: frontend ? '#13C4A1' : 'black' }}>Blockchain Networks</div>

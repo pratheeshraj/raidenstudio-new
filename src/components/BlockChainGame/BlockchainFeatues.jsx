@@ -18,7 +18,7 @@ const BlockchainFeatues = () => {
                     className="container-fulid industry_wide_section"
                     style={{ backgroundColor: "white" }}
                 >
-                    <h2 className="auto-container" style={{ marginBottom: "10px", }}>Benefits In Blockchain Game Development</h2>
+                    <h2 className="auto-container" style={{ marginBottom: "10px", color: "black" }}>Benefits In <span className="theme-color"> Blockchain Game Development</span></h2>
                     <p style={{ color: "black", width: "70%", margin: "auto", marginBottom: "80px", textAlign: "center" }}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet veniam nihil nam, temporibus quaerat adipisci rem nisi praesentium iure corrupti non id obcaecati laborum dolor totam inventore dolores ipsum libero.</p>
                     <div className="auto-container row industry_wide_section_container blockchain_game_card_maindiv ">
                         <div className="industry_wide_card_blockchain">
