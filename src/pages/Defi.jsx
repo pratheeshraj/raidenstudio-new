@@ -47,8 +47,6 @@ function Defi() {
                 <DefiHero />
                 {/* vr-about */}
                 <DefiAbout />
-                {/* vr-count */}
-                <DefiCount />
                 {/* vr-service */}
                 <DefiService />
                 {/* metaverse-banner */}
@@ -60,7 +58,9 @@ function Defi() {
                 {/* metaverse-industries */}
                 {/* <DefiIndustries /> */}
                 {/* metaverse-process */}
-                <BlockChainProcess />
+                {/* <BlockChainProcess /> */}
+                {/* vr-count */}
+                <DefiCount />
                 {/* metaverse-whychoose */}
                 <DefiWhychoose />
                 {/* faq */}

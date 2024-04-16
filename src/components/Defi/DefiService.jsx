@@ -6,7 +6,7 @@ const DefiService = () => {
     return (
         <>
             {/* Blog Section three start */}
-            <section className="blog-section three">
+            <section className="blog-section three" style={{ background: "#F8F9FA" }}>
                 <div className="auto-container">
                     <div className="row">
                         <div className="col-lg-12 col-12">
