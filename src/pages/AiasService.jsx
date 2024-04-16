@@ -59,7 +59,7 @@ function AiasService() {
                 {/* vr-count */}
                 <AsUseCase />
                 <BlockChainCount />
-                <WebModel />
+                {/* <WebModel /> */}
                 {/* metaverse-whychoose */}
                 <WebWhychoose />
                 {/* faq */}
