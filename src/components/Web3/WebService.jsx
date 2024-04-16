@@ -45,7 +45,7 @@ const WebService = () => {
                             <img src="/assets/img/raidensimx/key features/immersive.svg" alt="" />
                             <h6 style={{ color: "black" }}>NFT (Non-Fungible Token) Development</h6>
                             <p style={{ color: "black", marginBottom: "0" }}>
-                                With efficient project management practices, we ensure timely delivery of projects without compromising quality.
+                                Capitalize on the growing trend of digital ownership and unique asset representation through custom NFT development solutions.
                             </p>
                         </div>
                         <div style={{ background: "white", boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px", borderRadius: "8px", width: "340px", height: "320px" }} className="key_features_card">
