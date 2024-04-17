@@ -115,6 +115,7 @@ const RaidenSimXContent = () => {
                     <li style={{ color: "black" }}>
                       <p> ● Stay ahead of emerging trends and technologies.</p>
                     </li>
+
                   </ul>
                 </div>
               </div>
