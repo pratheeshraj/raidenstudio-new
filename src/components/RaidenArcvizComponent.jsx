@@ -132,7 +132,7 @@ const RaidenArcvizComponent = ({ vidio }) => {
                     </div>
                 </div>
             </section> */}
-            <section className="project-section three">
+            <section className="project-section three" style={{ background: "white" }}>
                 <div className="auto-container">
                     <div className="row">
                         <div className="">
@@ -249,63 +249,63 @@ const RaidenArcvizComponent = ({ vidio }) => {
                 </div>
             </section>
             {/* Raiden arcviz - benifit */}
-            <section className="project-section three Raidenarcviz_card_main_div" style={{ padding: "80px 0", background: "black" }}>
+            <section className="project-section three Raidenarcviz_card_main_div" style={{ padding: "80px 0", background: "#F8F9FA" }}>
                 <div className="auto-container">
                     <div className="row">
-                        <h2 className="raidenarcviz_card_h2"><span className="theme-color">Benefits</span></h2>
-                        <p className='raidenarcviz_card_p'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eveniet maiores ipsa, error totam non rerum, placeat fugit repellendus vitae optio sit? Ducimus, optio! Iste ipsum aliquid molestiae vitae nemo.</p>
+                        <h2 className="raidenarcviz_card_h2" style={{ color: "black" }}>Benefits<span className="theme-color"></span></h2>
+                        <p className='raidenarcviz_card_p' style={{ color: "black" }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eveniet maiores ipsa, error totam non rerum, placeat fugit repellendus vitae optio sit? Ducimus, optio! Iste ipsum aliquid molestiae vitae nemo.</p>
                         <div className="arcviz_benifit_div">
                             <div className="arcviz_benifit">
                                 <img src="/assets/img/arckwiz-benefits/enhanced.svg" alt="" />
-                                <div>Enhanced Visualization</div>
-                                <p>Gain a clearer understanding of architectural designs with immersive, photorealistic visualizations.</p>
+                                <div style={{ color: "black" }}>Enhanced Visualization</div>
+                                <p style={{ color: "black" }}>Gain a clearer understanding of architectural designs with immersive, photorealistic visualizations.</p>
                             </div>
                             <div className="arcviz_benifit">
                                 <img src="/assets/img/arckwiz-benefits/improved.svg" alt="" />
-                                <div>Improved Decision-Making</div>
-                                <p>Make informed decisions with real-time insights and customizable design options.</p>
+                                <div style={{ color: "black" }}>Improved Decision-Making</div>
+                                <p style={{ color: "black" }}>Make informed decisions with real-time insights and customizable design options.</p>
                             </div>
                             <div className="arcviz_benifit">
                                 <img src="/assets/img/arckwiz-benefits/cost.svg" alt="" />
-                                <div>Cost and Time Savings</div>
-                                <p>Reduce costs and save time by eliminating the need for physical staging and in-person property viewings.</p>
+                                <div style={{ color: "black" }}>Cost and Time Savings</div>
+                                <p style={{ color: "black" }}>Reduce costs and save time by eliminating the need for physical staging and in-person property viewings.</p>
                             </div>
                             <div className="arcviz_benifit">
                                 <img src="/assets/img/arckwiz-benefits/wider.svg" alt="" />
-                                <div>Wider Reach</div>
-                                <p>Reach a wider audience of potential buyers and clients by offering immersive virtual experiences.</p>
+                                <div style={{ color: "black" }}>Wider Reach</div>
+                                <p style={{ color: "black" }}>Reach a wider audience of potential buyers and clients by offering immersive virtual experiences.</p>
                             </div>
                             <div className="arcviz_benifit">
                                 <img src="/assets/img/arckwiz-benefits/streamlined.svg" alt="" />
-                                <div>Streamlined Transactions</div>
-                                <p>Simplify real estate transactions with virtual commerce, making buying and selling properties more convenient.</p>
+                                <div style={{ color: "black" }}>Streamlined Transactions</div>
+                                <p style={{ color: "black" }}>Simplify real estate transactions with virtual commerce, making buying and selling properties more convenient.</p>
                             </div>
                             <div className="arcviz_benifit">
                                 <img src="/assets/img/arckwiz-benefits/communication.svg" alt="" />
-                                <div>Enhanced Communication</div>
-                                <p>Foster clearer communication among project stakeholders with immersive virtual tours and digital twin technology.</p>
+                                <div style={{ color: "black" }}>Enhanced Communication</div>
+                                <p style={{ color: "black" }}>Foster clearer communication among project stakeholders with immersive virtual tours and digital twin technology.</p>
                             </div>
                             <div className="arcviz_benifit">
                                 <img src="/assets/img/arckwiz-benefits/increasedtenan.svg" alt="" />
-                                <div>Increased Tenant Satisfaction</div>
-                                <p>Provide tenants with virtual instructions and tours, improving their understanding and satisfaction with their rental property.</p>
+                                <div style={{ color: "black" }}>Increased Tenant Satisfaction</div>
+                                <p style={{ color: "black" }}>Provide tenants with virtual instructions and tours, improving their understanding and satisfaction with their rental property.</p>
                             </div>
                             <div className="arcviz_benifit">
                                 <img src="/assets/img/arckwiz-benefits/accelarated.svg" alt="" />
-                                <div>Accelerated Design Process</div>
-                                <p>Speed up the design process with real-time analytics and collaborative architectural visualization tools.</p>
+                                <div style={{ color: "black" }}>Accelerated Design Process</div>
+                                <p style={{ color: "black" }}>Speed up the design process with real-time analytics and collaborative architectural visualization tools.</p>
                             </div>
                             <div className="arcviz_benifit">
                                 <img src="/assets/img/arckwiz-benefits/competitive.svg" alt="" />
-                                <div>Competitive Advantage</div>
-                                <p>Stay ahead of the competition by offering cutting-edge immersive experiences that set your projects apart.</p>
+                                <div style={{ color: "black" }}>Competitive Advantage</div>
+                                <p style={{ color: "black" }}>Stay ahead of the competition by offering cutting-edge immersive experiences that set your projects apart.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
             {/* Raiden arcviz - use Case */}
-            <section className="service-section three">
+            <section className="service-section three" style={{ background: "white" }}>
                 <div className="auto-container">
                     <div className="row">
                         <div className="col-12">

@@ -652,7 +652,7 @@ const RaidenCogniContent = () => {
                   alt=""
                 />
               </div>
-              <h6>Classroom Social Skills</h6>
+              <h6>Classroom Social</h6>
               <p>
                 Develop essential social skills for the classroom environment.
                 Practice active listening, group participation, and
