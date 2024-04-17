@@ -20,3 +20,19 @@
     font-weight: 600;
     line-height: 35px;
 }
+
+
+/* key_features_card_white - raide-simx */
+
+.key_features_card_white {
+    background: white !important;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.key_features_card_white h6 {
+    color: black !important;
+}
+
+.key_features_card_white p {
+    color: black !important;
+}
