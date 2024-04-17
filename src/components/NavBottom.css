@@ -43,7 +43,7 @@
 
     .scroll-to-top {
         background-color: white;
-        right: 30px;
+        right: 20px !important;
         bottom: 90px !important;
         border-radius: 7px;
     }
