@@ -91,7 +91,7 @@ const ContactSection2 = () => {
           <div className="row">
             <div className="enqury_main_div">
               <div className="right_div aos-init aos-animate" data-aos="fade-right" data-aos-delay="300">
-                <h2 className="right_div_contact_heading">Get a Free Quote Today</h2>
+                <h2 className="right_div_contact_heading">Get a Free <span className="theme-color">Quote Today</span></h2>
                 <p>Please fill out the quick form and we will be in touch with lightening speed.</p>
                 <form className="right_div_input_div" onSubmit={handleSubmit}>
                   <div>
