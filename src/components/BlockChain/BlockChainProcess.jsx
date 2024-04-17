@@ -74,7 +74,7 @@ function BlockChainProcess() {
                     <div className="nft_timeline">
                         <div className="nft_line"></div>
                         <div className="nft_section">
-                            <div className="bead"><img className='nft_whychoose_img' src='/assets/img/metaverse-process/discovery.svg' /></div>
+                            <div className="bead"><img className='nft_whychoose_img' src='/assets/img/custom-develop-process/consulting.svg' /></div>
                             <div className="nft_content">
                                 <h6>Blockchain Opportunities & Consulting</h6>
                                 <p>
@@ -83,7 +83,7 @@ function BlockChainProcess() {
                             </div>
                         </div>
                         <div className="nft_section">
-                            <div className="bead"><img className='nft_whychoose_img' src='/assets/img/metaverse-process/uiux.svg' /></div>
+                            <div className="bead"><img className='nft_whychoose_img' src='/assets/img/custom-develop-process/prototye.svg' /></div>
                             <div className="nft_content">
                                 <h6>Blockchain Prototype & Use Case</h6>
                                 <p>
@@ -92,7 +92,7 @@ function BlockChainProcess() {
                             </div>
                         </div>
                         <div className="nft_section">
-                            <div className="bead"><img className='nft_whychoose_img' src='/assets/img/metaverse-process/ecosystem.svg' /></div>
+                            <div className="bead"><img className='nft_whychoose_img' src='/assets/img/custom-develop-process/blochaindevelopme.svg' /></div>
                             <div className="nft_content">
                                 <h6>Blockchain Development</h6>
                                 <p>
@@ -101,7 +101,7 @@ function BlockChainProcess() {
                             </div>
                         </div>
                         <div className="nft_section">
-                            <div className="bead"><img className='nft_whychoose_img' src='/assets/img/metaverse-process/development.svg' /></div>
+                            <div className="bead"><img className='nft_whychoose_img' src='/assets/img/custom-develop-process/deploy.svg' /></div>
                             <div className="nft_content">
                                 <h6>Deployment</h6>
                                 <p>
@@ -110,7 +110,7 @@ function BlockChainProcess() {
                             </div>
                         </div>
                         <div className="nft_section">
-                            <div className="bead"><img className='nft_whychoose_img' src='/assets/img/metaverse-process/testing.svg' /></div>
+                            <div className="bead"><img className='nft_whychoose_img' src='/assets/img/custom-develop-process/maintenan.svg' /></div>
                             <div className="nft_content">
                                 <h6>Maintenance</h6>
                                 <p>
@@ -119,7 +119,7 @@ function BlockChainProcess() {
                             </div>
                         </div>
                         <div className="nft_section">
-                            <div className="bead"><img className='nft_whychoose_img' src='/assets/img/metaverse-process/testing.svg' /></div>
+                            <div className="bead"><img className='nft_whychoose_img' src='/assets/img/custom-develop-process/smartcontract.svg' /></div>
                             <div className="nft_content">
                                 <h6>Migration and Smart Contract Updates</h6>
                                 <p>

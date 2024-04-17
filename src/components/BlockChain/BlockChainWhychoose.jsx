@@ -16,42 +16,50 @@ function BlockChainWhychoose() {
                         </div>
                         <div className='nft_whychoose_Right_div'>
                             <div className='nft_whychoose_Right_box'>
-                                <div style={{ background: "linear-gradient(136.76deg, #F40076 0%, #DF98FA 100%)" }} className='nft_img_round'><img className='nft_whychoose_img' src='/assets/img/whychooseusnft/client.svg' />
+                                <div style={{ background: "linear-gradient(136.76deg, #F40076 0%, #DF98FA 100%)" }} className='nft_img_round'>
+                                    <img className='nft_whychoose_img' src='/assets/img/custom-why-choose/industryexperience.svg' />
                                 </div>
                                 <div className='nft_whychoose_name'>5+ Years of Proven Industry Experience</div>
                             </div>
                             <div className='nft_whychoose_Right_box'>
-                                <div style={{ background: "linear-gradient(136.76deg, #DF98FA 0%, #9055FF 100%)" }} className='nft_img_round'><img className='nft_whychoose_img' src='/assets/img/whychooseusnft/transperancy.svg' />
+                                <div style={{ background: "linear-gradient(136.76deg, #DF98FA 0%, #9055FF 100%)" }} className='nft_img_round'>
+                                    <img className='nft_whychoose_img' src='/assets/img/custom-why-choose/certifieddev.svg' />
                                 </div>
                                 <div className='nft_whychoose_name'>Certified Blockchain <br />Developers</div>
                             </div>
                             <div className='nft_whychoose_Right_box'>
-                                <div style={{ background: "linear-gradient(136.76deg, #FCCF31 0%, #F55555 100%)" }} className='nft_img_round'><img className='nft_whychoose_img' src='/assets/img/whychooseusnft/experiencedteam.svg' />
+                                <div style={{ background: "linear-gradient(136.76deg, #FCCF31 0%, #F55555 100%)" }} className='nft_img_round'>
+                                    <img className='nft_whychoose_img' src='/assets/img/custom-why-choose/blockchainintegrat.svg' />
                                 </div>
                                 <div className='nft_whychoose_name'>Offering 360° Blockchain Integration</div>
                             </div>
                             <div className='nft_whychoose_Right_box'>
-                                <div style={{ background: "linear-gradient(136.76deg, #ABDCFF 0%, #0396FF 100%)" }} className='nft_img_round'><img className='nft_whychoose_img' src='/assets/img/whychooseusnft/flexible.svg' />
+                                <div style={{ background: "linear-gradient(136.76deg, #ABDCFF 0%, #0396FF 100%)" }} className='nft_img_round'>
+                                    <img className='nft_whychoose_img' src='/assets/img/custom-why-choose/blockchainarchitect.svg' />
                                 </div>
                                 <div className='nft_whychoose_name'>Flexible Blockchain <br /> Architecture</div>
                             </div>
                             <div className='nft_whychoose_Right_box'>
-                                <div style={{ background: "linear-gradient(136.76deg, #90F7EC 0%, #32CCBC 100%)" }} className='nft_img_round'><img className='nft_whychoose_img' src='/assets/img/whychooseusnft/quality.svg' />
+                                <div style={{ background: "linear-gradient(136.76deg, #90F7EC 0%, #32CCBC 100%)" }} className='nft_img_round'>
+                                    <img className='nft_whychoose_img' src='/assets/img/custom-why-choose/blockchaincollabration.svg' />
                                 </div>
                                 <div className='nft_whychoose_name'>Collaboration with Blockchain <br />in Every Stage</div>
                             </div>
                             <div className='nft_whychoose_Right_box'>
-                                <div style={{ background: "linear-gradient(136.76deg, #F889D5 0%, #5650DE 100%)" }} className='nft_img_round'><img className='nft_whychoose_img' src='/assets/img/whychooseusnft/agilenft.svg' />
+                                <div style={{ background: "linear-gradient(136.76deg, #F889D5 0%, #5650DE 100%)" }} className='nft_img_round'>
+                                    <img className='nft_whychoose_img' src='/assets/img/custom-why-choose/widevarriety.svg' />
                                 </div>
                                 <div className='nft_whychoose_name'>Wide Variety of Blockchain Solutions</div>
                             </div>
                             <div className='nft_whychoose_Right_box'>
-                                <div style={{ background: "linear-gradient(136.76deg, #FF9897 0%, #F650A0 100%)" }} className='nft_img_round'><img className='nft_whychoose_img' src='/assets/img/whychooseusnft/costeffectivecopy.svg' />
+                                <div style={{ background: "linear-gradient(136.76deg, #FF9897 0%, #F650A0 100%)" }} className='nft_img_round'>
+                                    <img className='nft_whychoose_img' src='/assets/img/custom-why-choose/exicution.svg' />
                                 </div>
                                 <div className='nft_whychoose_name'>Execution of Agile and Lean Blockchain Projects</div>
                             </div>
                             <div className='nft_whychoose_Right_box'>
-                                <div style={{ background: "linear-gradient(136.76deg, #FFCDA5 0%, #EE4D5F 100%)" }} className='nft_img_round'><img className='nft_whychoose_img' src='/assets/img/whychooseusnft/developmenny.svg' />
+                                <div style={{ background: "linear-gradient(136.76deg, #FFCDA5 0%, #EE4D5F 100%)" }} className='nft_img_round'>
+                                    <img className='nft_whychoose_img' src='/assets/img/custom-why-choose/blockchainresearch.svg' />
                                 </div>
                                 <div className='nft_whychoose_name'>Hub for Blockchain Research <br />and Excellence</div>
                             </div>
