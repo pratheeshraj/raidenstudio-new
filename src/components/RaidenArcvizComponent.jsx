@@ -34,7 +34,7 @@ const RaidenArcvizComponent = ({ vidio }) => {
                                         </h2>
                                     </div>
                                     <div className="inner-des">
-                                        <p>
+                                        <p >
                                             We are pioneers in leveraging Virtual Reality (VR) technology to revolutionize the fields of architecture and real estate. With a team of passionate innovators and industry experts, we are dedicated to pushing the boundaries of traditional design and visualization methods to create immersive and transformative experiences.
                                         </p>
                                     </div>
@@ -51,7 +51,9 @@ const RaidenArcvizComponent = ({ vidio }) => {
                                             </h2>
                                         </div>
                                         <div className="inner-des2">
-                                            Trusted partner in harnessing the power of Virtual Reality (VR) technology to elevate your architecture and real estate projects. We offer a comprehensive suite of services and solutions tailored to meet the unique needs of our clients
+                                            <p>
+                                                Trusted partner in harnessing the power of Virtual Reality (VR) technology to elevate your architecture and real estate projects. We offer a comprehensive suite of services and solutions tailored to meet the unique needs of our clients. Our techniques and adopting the latest hardware and software innovations to deliver unparalleled quality and performance.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>

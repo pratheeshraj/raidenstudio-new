@@ -98,7 +98,7 @@ const RaidenCogniContent = () => {
                             • COGNI+ utilizes VR technology to empower individuals with ASD.
                           </li>
                           <li>
-                            •  Customizable and adaptive, our solution caters to individual needs.
+                            •  Customizable & adaptive, our solution caters to individual needs.
                           </li>
                           <li>
                             • We strive for inclusivity, understanding, and acceptance in society.
