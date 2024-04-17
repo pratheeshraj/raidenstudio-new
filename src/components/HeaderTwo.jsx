@@ -11,6 +11,40 @@ const HeaderTwo = () => {
   const [search, setSearch] = useState(false);
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
+  const [blockchain, setBlockchain] = useState(false);
+  const [ai, setAi] = useState(false);
+  const [xr, setXr] = useState(false);
+  const [game, setGame] = useState(false);
+
+  const handleBlockchain = () => {
+    setBlockchain(true)
+    setXr(false)
+    setAi(false)
+    setGame(false)
+  }
+
+  const handleXr = () => {
+    setBlockchain(false)
+    setXr(true)
+    setAi(false)
+    setGame(false)
+  }
+
+  const handleAi = () => {
+    setBlockchain(false)
+    setXr(false)
+    setAi(true)
+    setGame(false)
+  }
+
+  const handleGame = () => {
+    setBlockchain(false)
+    setXr(false)
+    setAi(false)
+    setGame(true)
+  }
+
+
   const { allBlogs } = useSelector(
     (state) => state.blogState
   );
@@ -921,7 +955,7 @@ const HeaderTwo = () => {
           <div className="sidebar__content">
             <div className="sidebar-logo mb-40 mt-40">
               <NavLink to="/index">
-                <img src="assets/img/common/logo-white.png" alt="logo" />
+                <img src={logo_img} alt="logo" />
               </NavLink>
             </div>
             {/* <div className="sidebar__search mb-25">
@@ -938,11 +972,11 @@ const HeaderTwo = () => {
                   <NavLink to="/">Home</NavLink>
                 </li>
                 <li className="menu-item-has-children">
-                  <Link to="#">Product</Link>
+                  <Link to="#">Products</Link>
                   <ul className="sub-menu">
                     <li>
                       <NavLink
-                        to="/project-details"
+                        to="/raiden-verse"
                         className={(navData) =>
                           navData.isActive ? "active" : ""
                         }
@@ -952,7 +986,7 @@ const HeaderTwo = () => {
                     </li>
                     <li>
                       <NavLink
-                        to="#"
+                        to="/raiden-simx"
                         className={(navData) =>
                           navData.isActive ? "active" : ""
                         }
@@ -962,7 +996,7 @@ const HeaderTwo = () => {
                     </li>
                     <li>
                       <NavLink
-                        to="#"
+                        to="/raiden-cogni"
                         className={(navData) =>
                           navData.isActive ? "active" : ""
                         }
@@ -972,7 +1006,7 @@ const HeaderTwo = () => {
                     </li>
                     <li>
                       <NavLink
-                        to="#"
+                        to="/raiden-arcviz"
                         className={(navData) =>
                           navData.isActive ? "active" : ""
                         }
@@ -983,193 +1017,243 @@ const HeaderTwo = () => {
                   </ul>
                 </li>
                 <li className="menu-item-has-children">
-                  <Link to="#">Service</Link>
+                  <Link to="#">Services</Link>
                   <ul className="sub-menu">
                     <li className="menu-item-has-children">
-                      <Link className="sub_heading_color" to="#">
+                      <Link onClick={handleBlockchain} className="sub_heading_color" to="#">
                         Blockchain
                       </Link>
-                      <ul className="sub-menu">
-                        <li>
-                          <NavLink
-                            to="#"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            NFT
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink
-                            to="#"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            NFT MARKETPLACE
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink
-                            to="#"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            LAYER1 and Layer 2 Solutions
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink
-                            to="#"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            DEFI
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink
-                            to="#"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            Metaverse
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink
-                            to="#"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            Blockchain Games
-                          </NavLink>
-                        </li>
-                      </ul>
+                      {
+                        blockchain ? <ul className="sub-menu">
+                          <li>
+                            <NavLink
+                              to="/custom-blockchain"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              Custom Blockchain
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink
+                              to="/nft"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              NFT
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink
+                              to="/web3"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              WEB3
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink
+                              to="/defi"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              DEFI
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink
+                              to="/metaverse"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              Metaverse
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink
+                              to="/blockchain-game"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              Blockchain Game
+                            </NavLink>
+                          </li>
+                        </ul> : ""
+                      }
                     </li>
                   </ul>
                   <ul className="sub-menu">
                     <li className="menu-item-has-children">
-                      <Link className="sub_heading_color" to="#">
+                      <Link onClick={handleAi} className="sub_heading_color" to="#">
                         AI
                       </Link>
-                      <ul className="sub-menu">
-                        <li>
-                          <NavLink
-                            to="#"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            Generative AI Consulting
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink
-                            to="/service-details"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            Generative AI Development
-                          </NavLink>
-                        </li>
-                      </ul>
+                      {
+                        ai ? <ul className="sub-menu">
+                          <li>
+                            <NavLink
+                              to="/ai-as-a-service"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              AI as a Service
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink
+                              to="generative-ai-development"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              Generative AI Development
+                            </NavLink>
+                          </li>
+                        </ul> : ""
+                      }
                     </li>
                   </ul>
                   <ul className="sub-menu">
                     <li className="menu-item-has-children">
-                      <Link className="sub_heading_color" to="#">
+                      <Link onClick={handleXr} className="sub_heading_color" to="#">
                         XR
                       </Link>
-                      <ul className="sub-menu">
-                        <li>
-                          <NavLink
-                            to="#"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            AR Services
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink
-                            to="#"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            VR Services
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink
-                            to="#"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            Digital Twin
-                          </NavLink>
-                        </li>
-                      </ul>
+                      {
+                        xr ? <ul className="sub-menu">
+                          <li>
+                            <NavLink
+                              to="/ar-services"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              AR Services
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink
+                              to="/vr-services"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              VR Services
+                            </NavLink>
+                          </li>
+                        </ul> : ""
+                      }
                     </li>
                   </ul>
                   <ul className="sub-menu">
                     <li className="menu-item-has-children">
-                      <Link className="sub_heading_color" to="#">
+                      <Link onClick={handleGame} className="sub_heading_color" to="#">
                         GAME
                       </Link>
-                      <ul className="sub-menu">
-                        <li>
-                          <NavLink
-                            to="#"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            (league of legends) LOL CLONE
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink
-                            to="#"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            (clash of clans) COC CLONE
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink
-                            to="#"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            Metaverse CASINO
-                          </NavLink>
-                        </li>
-                      </ul>
+                      {
+                        game ? <ul className="sub-menu">
+                          <li>
+                            <NavLink
+                              to="/mobile-game-development"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              Mobile Game Development
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink
+                              to="/unity-development"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              Unity Development
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink
+                              to="/unreal-development"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              Unreal Development
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink
+                              to="/mmorpg-game-development"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              mmorpg game development
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink
+                              to="/p2e-game-develpment"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              P2E Game Development
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink
+                              to="/web3-game-develpment"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              Web3 Game Development
+                            </NavLink>
+                          </li>
+                        </ul> : " "
+                      }
                     </li>
                   </ul>
                 </li>
                 <li className="menu-item-has-children">
-                  <NavLink to="/">Insights</NavLink>
-                </li>
-                <li className="menu-item-has-children">
-                  <Link to="#">Product</Link>
+                  <Link to="#">Resources</Link>
                   <ul className="sub-menu">
                     <li>
                       <NavLink
-                        to="#"
+                        to="/blog"
+                        className={(navData) =>
+                          navData.isActive ? "active" : ""
+                        }
+                      >
+                        Blogs
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        to="/case-studies"
+                        className={(navData) =>
+                          navData.isActive ? "active" : ""
+                        }
+                      >
+                        Case studies
+                      </NavLink>
+                    </li>
+                  </ul>
+                </li>
+                <li className="menu-item-has-children">
+                  <Link to="#">company</Link>
+                  <ul className="sub-menu">
+                    <li>
+                      <NavLink
+                        to="/about-us"
                         className={(navData) =>
                           navData.isActive ? "active" : ""
                         }
@@ -1179,7 +1263,7 @@ const HeaderTwo = () => {
                     </li>
                     <li>
                       <NavLink
-                        to="#"
+                        to="/carrer"
                         className={(navData) =>
                           navData.isActive ? "active" : ""
                         }
@@ -1189,7 +1273,7 @@ const HeaderTwo = () => {
                     </li>
                     <li>
                       <NavLink
-                        to="#"
+                        to="/contact-us"
                         className={(navData) =>
                           navData.isActive ? "active" : ""
                         }
