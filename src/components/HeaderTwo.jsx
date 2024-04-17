@@ -957,15 +957,6 @@ const HeaderTwo = () => {
         className={`sidebar__area ${active === true ? "sidebar-opened" : ""} `}
       >
         <div className="sidebar__wrapper">
-          <div className="sidebar__close">
-            <button
-              className="sidebar__close-btn"
-              id="sidebar__close-btn"
-              onClick={mobileMenu}
-            >
-              <i className="fal fa-times" />
-            </button>
-          </div>
           <div className="sidebar__content">
             <div className="sidebar-logo mb-40 mt-40">
               <NavLink to="/index">
