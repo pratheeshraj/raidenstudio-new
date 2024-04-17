@@ -1108,7 +1108,7 @@ const HeaderTwo = () => {
                           </li>
                           <li>
                             <NavLink
-                              to="generative-ai-development"
+                              to="/generative-ai-development"
                               className={(navData) =>
                                 navData.isActive ? "active" : ""
                               }
