@@ -47,7 +47,7 @@ const ProjectSectionThree = () => {
                         applications.
                       </p>
                       <div className="link d-inline-block">
-                        <Link to="/project-details">View More</Link>
+                        <Link to="/raiden-verse">View More</Link>
                       </div>
                     </div>
                   </div>
@@ -75,7 +75,7 @@ const ProjectSectionThree = () => {
                         applications.
                       </p>
                       <div className="link d-inline-block">
-                        <Link to="#">View More</Link>
+                        <Link to="/raiden-simx">View More</Link>
                       </div>
                     </div>
                   </div>
@@ -103,7 +103,7 @@ const ProjectSectionThree = () => {
                         applications.
                       </p>
                       <div className="link d-inline-block">
-                        <Link to="#">View More</Link>
+                        <Link to="/raiden-cogni">View More</Link>
                       </div>
                     </div>
                   </div>
@@ -131,7 +131,7 @@ const ProjectSectionThree = () => {
                         applications.
                       </p>
                       <div className="link d-inline-block">
-                        <Link to="#">View More</Link>
+                        <Link to="/raiden-arcviz">View More</Link>
                       </div>
                     </div>
                   </div>

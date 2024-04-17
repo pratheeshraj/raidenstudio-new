@@ -7,29 +7,6 @@ import { Link } from "react-router-dom";
 
 const MetaverseCasionoHero = () => {
 
-
-    // const heroImageRef = useRef(null);
-
-    // useEffect(() => {
-    //     const handleMouseMove = (e) => {
-    //         const { pageX, pageY } = e;
-
-    //         const X = pageX;
-    //         const Y = pageY;
-
-    //         if (heroImageRef.current) {
-    //             heroImageRef.current.style.transform = `translate(${X / 30}px, ${Y / 30
-    //                 }px)`;
-    //         }
-    //     };
-    //     document.addEventListener("mousemove", handleMouseMove);
-
-    //     return () => {
-    //         document.removeEventListener("mousemove", handleMouseMove);
-    //     };
-    // }, []);
-
-
     return (
         <>
             {/* slider-area-one-start  */}
@@ -49,8 +26,6 @@ const MetaverseCasionoHero = () => {
                                     className="slide-bg"
                                     style={{
                                         height: "100%",
-                                        backgroundRepeat: "no-repeat",
-                                        objectFit: "cover",
                                         background: "url('assets/img/virtualvegas/new 1 1.jpg')",
                                     }}
                                 />
