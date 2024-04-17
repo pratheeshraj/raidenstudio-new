@@ -30,12 +30,12 @@ const RaidenArcvizComponent = ({ vidio }) => {
                                 >
                                     <div className="title">
                                         <h2 className="arcviz_who_heading">
-                                            <span>Who</span> We Are
+                                            <span>Who</span> we Are
                                         </h2>
                                     </div>
                                     <div className="inner-des">
                                         <p >
-                                            We are pioneers in leveraging Virtual Reality (VR) technology to revolutionize the fields of architecture and real estate. With a team of passionate innovators and industry experts, we are dedicated to pushing the boundaries of traditional design and visualization methods to create immersive and transformative experiences.
+                                            At Raiden ARCVIZ, we are pioneers in leveraging Virtual Reality (VR) technology to revolutionize the fields of architecture and real estate. With a team of passionate innovators and industry experts, we are dedicated to pushing the boundaries of traditional design and visualization methods to create immersive and transformative experiences.
                                         </p>
                                     </div>
                                 </div>
