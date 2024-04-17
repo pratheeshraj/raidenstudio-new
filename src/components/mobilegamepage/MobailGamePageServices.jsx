@@ -25,7 +25,7 @@ const MobailGamePageServices = () => {
             }}
           >
             <img
-              src="/assets/img/raidensimx/key features/immersive.svg"
+              src="/assets/img/mobile-game-services/concept-storyboard.svg"
               alt=""
             />
             <h6 style={{ color: "black" }}>
@@ -45,7 +45,7 @@ const MobailGamePageServices = () => {
             }}
           >
             <img
-              src="/assets/img/raidensimx/key features/immersive.svg"
+              src="/assets/img/mobile-game-services/designanddevelopment.svg"
               alt=""
             />
             <h6 style={{ color: "black" }}> Design and Development</h6>
@@ -63,7 +63,7 @@ const MobailGamePageServices = () => {
             }}
           >
             <img
-              src="/assets/img/raidensimx/key features/immersive.svg"
+              src="/assets/img/mobile-game-services/uiux.svg"
               alt=""
             />
             <h6 style={{ color: "black" }}>UI/UX Design</h6>
@@ -81,7 +81,7 @@ const MobailGamePageServices = () => {
             }}
           >
             <img
-              src="/assets/img/raidensimx/key features/immersive.svg"
+              src="/assets/img/mobile-game-services/multip copy.svg"
               alt=""
             />
             <h6 style={{ color: "black" }}> Multi-platform Compatibility</h6>
@@ -99,7 +99,7 @@ const MobailGamePageServices = () => {
             }}
           >
             <img
-              src="/assets/img/raidensimx/key features/immersive.svg"
+              src="/assets/img/mobile-game-services/testingandqua.svg"
               alt=""
             />
             <h6 style={{ color: "black" }}>Testing and Quality Assurance</h6>
@@ -117,7 +117,7 @@ const MobailGamePageServices = () => {
             }}
           >
             <img
-              src="/assets/img/raidensimx/key features/immersive.svg"
+              src="/assets/img/mobile-game-services/support.svg"
               alt=""
             />
             <h6 style={{ color: "black" }}>

@@ -17,7 +17,7 @@ const MobileGamePageBenifit = () => {
               <div className="top_section">
                 <div className="icon">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="/assets/img/mobile-game-the-power/customerengage.svg"
                     alt=""
                   />
                 </div>
@@ -34,7 +34,7 @@ const MobileGamePageBenifit = () => {
               <div className="top_section">
                 <div className="icon">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="/assets/img/mobile-game-the-power/Brand Building.svg"
                     alt=""
                   />
                 </div>
@@ -51,7 +51,7 @@ const MobileGamePageBenifit = () => {
               <div className="top_section">
                 <div className="icon">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="/assets/img/mobile-game-the-power/monitiza.svg"
                     alt=""
                   />
                 </div>
@@ -68,7 +68,7 @@ const MobileGamePageBenifit = () => {
               <div className="top_section">
                 <div className="icon">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="/assets/img/mobile-game-the-power/audience.svg"
                     alt=""
                   />
                 </div>
@@ -85,7 +85,7 @@ const MobileGamePageBenifit = () => {
               <div className="top_section">
                 <div className="icon">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="/assets/img/mobile-game-the-power/custemerretantion.svg"
                     alt=""
                   />
                 </div>
@@ -102,7 +102,7 @@ const MobileGamePageBenifit = () => {
               <div className="top_section">
                 <div className="icon">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="/assets/img/mobile-game-the-power/innovation.svg"
                     alt=""
                   />
                 </div>
