@@ -55,7 +55,7 @@ const RaidenCogniContent = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
-    arrow:false
+    arrow: false
   };
   return (
     <>
@@ -424,7 +424,7 @@ const RaidenCogniContent = () => {
           </div>
         </div>
       </section>
-      <section
+      {/* <section
         className="counter-section one"
         style={{
           backgroundSize: "cover",
@@ -497,8 +497,8 @@ const RaidenCogniContent = () => {
             </div>
           </div>
         </div>
-      </section>
-      <section className="cogni_lesson">
+      </section> */}
+      <section className="cogni_lesson" style={{ background: "white" }}>
         <div className="auto-container cogni_lesson_container">
           <h2>
             LESSONS FOR <span>DEVELOPING</span> PRACTICAL{" "}

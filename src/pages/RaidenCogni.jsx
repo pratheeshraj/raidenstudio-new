@@ -31,51 +31,40 @@ const RaidenCogni = () => {
               </div>
               <div className="container-fulid project_hero_content">
                 <div className="container pb-4 ">
-                  <div className="row">
+                  <div className="row" style={{ display: "flex", alignItems: "start" }}>
                     <div
-                      className="col-lg-7"
+                      className="col-lg-5"
                       data-aos="fade-up"
                       data-aos-delay="300"
                     >
                       <div className="title">
                         <h2>
-                          <span>what we</span> Offer?
+                          <span>What we</span> Offer?
                         </h2>
                       </div>
                       <div className="inner-des">
                         <p>
-                          We offer immersive VR, paired with cutting edge AI
-                          technology, that learns from your child, it crafts the
-                          perfect therapeutic journey tailormade to improve
-                          focus and attention span.
-                        </p>
-                        <p>
-                          Raiden Cogni+ isn’t just technology. It's a belief
-                          that every child, regardless of their challenges,
-                          deserves a chance to explore, understand, and grow at
-                          their own pace.
+                          COGNI+, is a state-of-the-art Virtual Reality (VR) Autism Training solution designed to provide immersive and customizable training experiences for individuals with ASD. With COGNI+, users can practice social interactions, communication skills, and behavioral responses in realistic and interactive environments, empowering them to develop essential life skills in a safe and controlled setting.
                         </p>
                       </div>
                     </div>
-                    <div className="col-lg-5">
+                    <div className="col-lg-7">
                       <div
                         className="widget-project"
                         data-aos="fade-up"
                         data-aos-delay="300"
                       >
                         <div className="project_left">
-                          <h2>
+                          <h2 style={{ marginBottom: "10px" }}>
                             <span>Why</span> COGNI+?
                           </h2>
                         </div>
                         <div className="inner-des2">
                           <p>
-                            The Biggest challenge in making VR experience
-                            conducive to kids is to reduce the usage complexity.
-                            We have seamlessly integrated the state of the art
-                            body tracking systems into VR. There is no need for
-                            controllers. Just movement, expression, and a
-                            universe waiting to respond.
+                            COGNI+ is our revolutionary Virtual Reality (VR) Autism Training solution designed to transform the way autism spectrum disorder (ASD) is understood and managed.
+                          </p>
+                          <p>
+                            COGNI+ utilizes immersive VR technology to create realistic and engaging training scenarios. Users are transported to interactive environments where they can practice social interactions, communication skills, and behavioral responses in a safe and controlled setting.
                           </p>
                         </div>
                       </div>
