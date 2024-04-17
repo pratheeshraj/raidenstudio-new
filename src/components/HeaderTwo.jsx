@@ -11,6 +11,20 @@ const HeaderTwo = () => {
   const [search, setSearch] = useState(false);
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
+  const [raidenXr,setRaidenXr] = useState(false);
+  const [raidenGame,setRaidenGame] = useState(false);
+
+ const handleRaidenXr= () => {
+  setRaidenXr(true)
+  setRaidenGame(false)
+  }
+
+  const handleRaidenGame= () => {
+    setRaidenXr(false)
+    setRaidenGame(true)
+  }
+
+
   const [blockchain, setBlockchain] = useState(false);
   const [ai, setAi] = useState(false);
   const [xr, setXr] = useState(false);
@@ -958,61 +972,105 @@ const HeaderTwo = () => {
                 <img src={logo_img} alt="logo" />
               </NavLink>
             </div>
-            {/* <div className="sidebar__search mb-25">
-              <form action="#">
-                <input type="text" placeholder="What are you searching for?" />
-                <button type="submit">
-                  <i className="far fa-search" />
-                </button>
-              </form>
-            </div> */}
             <nav className="offcanvas-navigation" id="offcanvas-navigation">
               <ul>
                 <li className="menu-item-has-children">
                   <NavLink to="/">Home</NavLink>
                 </li>
                 <li className="menu-item-has-children">
-                  <Link to="#">Products</Link>
+                  <Link to="#">products</Link>
                   <ul className="sub-menu">
-                    <li>
-                      <NavLink
-                        to="/raiden-verse"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
-                      >
-                        Raiden Verse
-                      </NavLink>
+                    <li className="menu-item-has-children">
+                      <Link style={{ display: "flex", justifyContent: "end", alignItems: "center", justifyContent: "space-between" }} onClick={handleRaidenXr} className="sub_heading_color" to="#">
+                        XR
+                        <span><i style={{ position: "relative", right: "65px" }} class="fa-solid fa-plus"></i></span>
+                      </Link>
+                      {
+                        raidenXr ? <ul className="sub-menu">
+                          <li>
+                            <NavLink
+                              to="/raiden-verse"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              Raiden Verse
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink
+                              to="/raiden-simx"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              Raiden SimX
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink
+                              to="/raiden-cogni"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              Raiden COGNI+
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink
+                              to="/raiden-arcviz"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                             Raiden ARCVIZ
+                            </NavLink>
+                          </li>
+                        </ul> : ""
+                      }
                     </li>
-                    <li>
-                      <NavLink
-                        to="/raiden-simx"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
-                      >
-                        Raiden SimX
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink
-                        to="/raiden-cogni"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
-                      >
-                        Raiden COGNI+
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink
-                        to="/raiden-arcviz"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
-                      >
-                        Raiden ARCVIZ
-                      </NavLink>
+                  </ul>
+                  <ul className="sub-menu">
+                    <li className="menu-item-has-children">
+                      <Link style={{ display: "flex", justifyContent: "end", alignItems: "center", justifyContent: "space-between" }} onClick={handleRaidenGame} className="sub_heading_color" to="#">
+                      game
+                        <span><i style={{ position: "relative", right: "65px" }} class="fa-solid fa-plus"></i></span>
+                      </Link>
+                      {
+                        raidenGame ? <ul className="sub-menu">
+                          <li>
+                            <NavLink
+                              to="/clash-of-empires"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                             Realm Wars: Clash of Empires
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink
+                              to="/virtual-vegas"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              Virtual Vegas
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink
+                              to="/metaverse-royale"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                             Metaverse Royale
+                            </NavLink>
+                          </li>
+                        </ul> : ""
+                      }
                     </li>
                   </ul>
                 </li>
@@ -1020,8 +1078,9 @@ const HeaderTwo = () => {
                   <Link to="#">Services</Link>
                   <ul className="sub-menu">
                     <li className="menu-item-has-children">
-                      <Link onClick={handleBlockchain} className="sub_heading_color" to="#">
+                      <Link style={{ display: "flex", justifyContent: "end", alignItems: "center", justifyContent: "space-between" }} onClick={handleBlockchain} className="sub_heading_color" to="#">
                         Blockchain
+                        <span><i style={{ position: "relative", right: "65px" }} class="fa-solid fa-plus"></i></span>
                       </Link>
                       {
                         blockchain ? <ul className="sub-menu">
@@ -1091,8 +1150,9 @@ const HeaderTwo = () => {
                   </ul>
                   <ul className="sub-menu">
                     <li className="menu-item-has-children">
-                      <Link onClick={handleAi} className="sub_heading_color" to="#">
+                      <Link style={{ display: "flex", justifyContent: "end", alignItems: "center", justifyContent: "space-between" }} onClick={handleAi} className="sub_heading_color" to="#">
                         AI
+                        <span><i style={{ position: "relative", right: "65px" }} class="fa-solid fa-plus"></i></span>
                       </Link>
                       {
                         ai ? <ul className="sub-menu">
@@ -1122,8 +1182,9 @@ const HeaderTwo = () => {
                   </ul>
                   <ul className="sub-menu">
                     <li className="menu-item-has-children">
-                      <Link onClick={handleXr} className="sub_heading_color" to="#">
+                      <Link style={{ display: "flex", justifyContent: "end", alignItems: "center", justifyContent: "space-between" }} onClick={handleXr} className="sub_heading_color" to="#">
                         XR
+                        <span><i style={{ position: "relative", right: "65px" }} class="fa-solid fa-plus"></i></span>
                       </Link>
                       {
                         xr ? <ul className="sub-menu">
@@ -1153,8 +1214,9 @@ const HeaderTwo = () => {
                   </ul>
                   <ul className="sub-menu">
                     <li className="menu-item-has-children">
-                      <Link onClick={handleGame} className="sub_heading_color" to="#">
+                      <Link style={{ display: "flex", justifyContent: "end", alignItems: "center", justifyContent: "space-between" }} onClick={handleGame} className="sub_heading_color" to="#">
                         GAME
+                        <span><i style={{position:"relative",right:"65px"}} class="fa-solid fa-plus"></i></span>
                       </Link>
                       {
                         game ? <ul className="sub-menu">
