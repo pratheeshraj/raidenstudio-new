@@ -863,9 +863,9 @@ const HeaderTwo = () => {
                 </div>
                 <div className=" col-lg-2 d-none d-lg-block">
                   <div className="trigger">
-                    <span onClick={searchFun}>
+                    {/* <span onClick={searchFun}>
                       <i className="fa-regular fa-magnifying-glass " />
-                    </span>
+                    </span> */}
                     <span className="sidebar-toggle" onClick={rightSide}>
                       <i className="fa-solid fa-bars-sort " />
                     </span>
