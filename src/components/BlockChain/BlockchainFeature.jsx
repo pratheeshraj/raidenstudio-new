@@ -11,39 +11,39 @@ function BlockchainFeature() {
                     </p>
                     <div className='feature_div'>
                         <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/blockchainintegration.svg' />
+                            <img src='/assets/img/custuom-blockchain-benefit/decentali.svg' />
                             <div>Decentralization</div>
                         </div>
                         <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/dataencryption.svg' />
+                            <img src='/assets/img/custuom-blockchain-benefit/distributed.svg' />
                             <div >Distributed Ledgers</div>
                         </div>
                         <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/secur.svg' />
+                            <img src='/assets/img/custuom-blockchain-benefit/scalabl.svg' />
                             <div>Higher Scalability </div>
                         </div>
                         <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/scalable to peak.svg' />
+                            <img src='/assets/img/custuom-blockchain-benefit/enhanced.svg' />
                             <div>Enhanced Security</div>
                         </div>
                         <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/crosssite.svg' />
+                            <img src='/assets/img/custuom-blockchain-benefit/transperancy.svg' />
                             <div>Transparency</div>
                         </div>
                         <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/ssrf.svg' />
+                            <img src='/assets/img/custuom-blockchain-benefit/flexiblity.svg' />
                             <div>Flexibility</div>
                         </div>
                         <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/http.svg' />
+                            <img src='/assets/img/custuom-blockchain-benefit/reduce.svg' />
                             <div>Reduced Costs</div>
                         </div>
                         <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/ddos.svg' />
+                            <img src='/assets/img/custuom-blockchain-benefit/automation.svg' />
                             <div>Automation</div>
                         </div>
                         <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/ddos.svg' />
+                            <img src='/assets/img/custuom-blockchain-benefit/immutabili.svg' />
                             <div>Immutability</div>
                         </div>
                     </div>
