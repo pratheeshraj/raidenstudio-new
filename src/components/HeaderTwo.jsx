@@ -1417,7 +1417,7 @@ const HeaderTwo = () => {
             </div>
             <div className="intro-text">
               <div className="title-text">
-                <h3>About FaconTech</h3>
+                <h3>About Raiden</h3>
                 <p>
                   Most people focus on the results of AI. For those of us who
                   like to look under the hood, there are four foundational
