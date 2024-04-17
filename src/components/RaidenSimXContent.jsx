@@ -140,7 +140,7 @@ const RaidenSimXContent = () => {
           className="container-fulid key_features"
           style={{ backgroundColor: "#F8F9FA" }}
         >
-          <h2 style={{ marginBottom: "80px" }} className="auto-container">Key Features</h2>
+          <h2 style={{ marginBottom: "80px", color: "black" }} className="auto-container">Key <span className="theme-color">Features</span></h2>
           <div className="auto-container row key_features_section_container">
             <div className="key_features_card key_features_card_white">
               <img src="/assets/img/raidensimx/key features/immersive.svg" alt="" />
@@ -249,7 +249,7 @@ const RaidenSimXContent = () => {
           className="container-fulid industry_wide_section"
           style={{ backgroundColor: "white" }}
         >
-          <h2 className="auto-container">Use Cases</h2>
+          <h2 className="auto-container" style={{ color: "black" }}>Use <span className="theme-color">Cases</span></h2>
           <div className="auto-container row industry_wide_section_container ">
             <div className="industry_wide_card">
               <div className="classy_simx_bg"></div>
@@ -307,7 +307,7 @@ const RaidenSimXContent = () => {
           className="container-fulid How_it_works"
           style={{ backgroundColor: "#F8F9FA" }}
         >
-          <h2 className="auto-container">How It Works</h2>
+          <h2 className="auto-container" style={{ color: "black" }}>How It <span className="theme-color">Works</span></h2>
 
           <div className="auto-container row How_it_works_section_container">
             <div className="How_it_works_main">
@@ -502,7 +502,7 @@ const RaidenSimXContent = () => {
           className="container-fulid RaidensimX_benefit"
           style={{ backgroundColor: "white" }}
         >
-          <h2 className="auto-container">Who Can Benefit</h2>
+          <h2 className="auto-container" style={{ color: "black" }}>Who Can <span className="theme-color">Benefit</span></h2>
           <div className="auto-container row RaidensimX_benefit_container ">
             <div className="RaidensimX_benefit_card">
               <img src={Students} alt="" />
@@ -544,7 +544,7 @@ const RaidenSimXContent = () => {
           className="container-fulid RaidensimX_commitment"
           style={{ backgroundColor: "#f8f9fa" }}
         >
-          <h2 className="auto-container">Our Commitment</h2>
+          <h2 className="auto-container" style={{ color: "black" }}>Our <span className="theme-color">Commitment</span></h2>
           <div className="auto-container row RaidensimX_commitment_container ">
             <h5>
               At Raiden we are <span>committed to</span>
