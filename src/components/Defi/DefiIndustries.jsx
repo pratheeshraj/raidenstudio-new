@@ -10,7 +10,7 @@ function DefiIndustries() {
                     <p style={{ textAlign: "center", color: "white" }}>As a leading virtual reality app development company, we assist startups and established businesses from all sectors in fulfilling the potential of digital transformation via VR to boost revenue. </p>
                     <div className='feature_div'>
                         <div className='feature_card idustry'>
-                            <img style={{ marginLeft: "25px" }} src='/assets/img/meta-indust/defence.svg' />
+                        <img style={{ marginLeft: "25px" }} src='/assets/img/custom-industry/transport.svg' />
                             <div>Transportation
                             </div>
                         </div>
