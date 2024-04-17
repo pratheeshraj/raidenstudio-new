@@ -80,7 +80,7 @@ const RaidenCogniContent = () => {
                 data-aos-delay="300"
               >
                 <div className="section-title-shape-one black">
-                  <h2 style={{ fontSize: "30px" }}>
+                  <h2 style={{ fontSize: "30px", margin: "0" }}>
                     Unlock Your Potential with <span>Cogni+</span>: Empowering
                     Minds, Enriching Lives
                   </h2>
@@ -89,17 +89,27 @@ const RaidenCogniContent = () => {
                   <ul>
                     <li>
                       <div>
-                        <p>
-                          Welcome to a revolutionary solution designed to
-                          empower individuals on the autism spectrum through
-                          immersive Virtual Reality (VR) training. Introducing
-                          Raiden COGNI+, a cutting-edge program meticulously
-                          crafted to cater specifically to the needs of those
-                          with autism. With a focus on enhancing social skills,
-                          communication abilities, and fostering a sense of
-                          independence, Raiden GOGNI+ is poised to redefine the
-                          landscape of autism intervention.
+                        <p style={{ color: "black", marginBottom: "8px" }}>
+                          We believe in the transformative power of technology to unlock human potential and enrich lives. Our mission is to Empowering Minds, Enriching Lives"
                         </p>
+                        <ul className="li-cogni">
+
+                          <li>
+                            • COGNI+ utilizes VR technology to empower individuals with ASD.
+                          </li>
+                          <li>
+                            •  Customizable and adaptive, our solution caters to individual needs.
+                          </li>
+                          <li>
+                            • We strive for inclusivity, understanding, and acceptance in society.
+                          </li>
+                          <li>
+                            • Continuous research ensures the effectiveness of our interventions.
+                          </li>
+                          <li>
+                            • COGNI+ goes beyond therapy, providing holistic support for ASD.
+                          </li>
+                        </ul>
                       </div>
                     </li>
                   </ul>

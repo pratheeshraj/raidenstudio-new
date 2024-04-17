@@ -36,3 +36,18 @@
 .key_features_card_white p {
     color: black !important;
 }
+
+
+/* li-cogni  */
+
+.li-cogni {
+    display: flex !important;
+    flex-direction: column;
+    color: black !important;
+    font-size: 16px;
+}
+
+.li-cogni li {
+    list-style-type: square !important;
+    color: black;
+}
