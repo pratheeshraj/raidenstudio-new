@@ -22,58 +22,36 @@ const RaidenArcvizComponent = ({ vidio }) => {
                     </div>
                     <div className="container-fulid project_hero_content">
                         <div className="container pb-4 ">
-                            <div className="row" style={{ alignItems: "center" }}>
+                            <div className="row">
                                 <div
-                                    className="col-lg-7"
+                                    className="col-lg-6"
                                     data-aos="fade-up"
                                     data-aos-delay="300"
                                 >
                                     <div className="title">
                                         <h2 className="arcviz_who_heading">
-                                            <span>What</span> We Offer ?
+                                            <span>Who</span> We Are
                                         </h2>
                                     </div>
                                     <div className="inner-des">
-                                        <ul>
-                                            <li>
-                                                Class Leading hyper-realistic
-                                                property visualizations.</li>
-                                            <li>
-                                                Integrating AI to offer a dynamic
-                                                experience.
-                                            </li>
-                                            <li>
-
-                                                Swift turn-aroundtime of 20
-                                                business days per project.
-                                            </li>
-                                        </ul>
+                                        <p>
+                                            We are pioneers in leveraging Virtual Reality (VR) technology to revolutionize the fields of architecture and real estate. With a team of passionate innovators and industry experts, we are dedicated to pushing the boundaries of traditional design and visualization methods to create immersive and transformative experiences.
+                                        </p>
                                     </div>
                                 </div>
-                                <div className="col-lg-5">
+                                <div className="col-lg-6">
                                     <div
                                         className="widget-project"
                                         data-aos="fade-up"
                                         data-aos-delay="300"
                                     >
                                         <div className="project_left">
-                                            <h2 className="arcviz_who_heading">
-                                                <span> Be the </span>Vanguard of Real Estate Marketing
+                                            <h2 className="arcviz_who_heading">What
+                                                <span> We Offer</span>
                                             </h2>
                                         </div>
                                         <div className="inner-des2">
-                                            <p>
-                                                Meet your new property guide.
-                                                answering questions, offering
-                                                insights, and making the
-                                                experience deeply personal.
-
-                                            </p>
-                                            <p>
-                                                Our AI bot can personalize
-                                                interior color schemes and
-                                                decors in runtime.
-                                            </p>
+                                            Trusted partner in harnessing the power of Virtual Reality (VR) technology to elevate your architecture and real estate projects. We offer a comprehensive suite of services and solutions tailored to meet the unique needs of our clients
                                         </div>
                                     </div>
                                 </div>
