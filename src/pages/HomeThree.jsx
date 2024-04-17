@@ -31,6 +31,7 @@ import ContactSection from "../components/ContactSection";
 import ContactSection2 from "../components/ContactSection2";
 import FooterSectionOne from "../components/FooterSectionOne";
 import AboutSectionOne from "../components/AboutSectionOne";
+import CaseStudies from "../components/CaseStudies";
 
 
 const HomeThree = () => {
@@ -83,6 +84,7 @@ const HomeThree = () => {
         {/* <TeamSectionTwo /> */}
         {/* Blog Section Three */}
         <BlogSectionTwo />
+        <CaseStudies />
         {/* <ContactSection2 /> */}
 
         {/* News Section Two */}
