@@ -51,7 +51,7 @@ const MetaverseCasionoHero = () => {
                                         height: "100%",
                                         backgroundRepeat: "no-repeat",
                                         objectFit: "cover",
-                                        background: "url('assets/img/bg-image/casion-backgroun-transformed.jpeg')",
+                                        background: "url('assets/img/virtualvegas/new 1 1.jpg')",
                                     }}
                                 />
                                 <div className="auto-container hero-banner_div">

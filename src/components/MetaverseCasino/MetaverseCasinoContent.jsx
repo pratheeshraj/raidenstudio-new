@@ -504,56 +504,56 @@ function MetaverseCasinoContent() {
                             ref={sliderRef}>
                             <div class="card-casino-choice">
                                 <div class="container-card-casino_choice bg-green-box-casino-choice">
-                                    <img src={img} alt='' />
+                                    <img src="\assets\img\virtualvegas\Choice\Frame 40.jpg" alt='' />
                                     <p style={{ textAlign: "center", margin: "0", fontSize: "20px", marginTop: "10px" }} class="card-title-casino">	Las Vegas Strip</p>
                                     <p style={{ textAlign: "center", lineHeight: "25px", margin: "0" }} class="card-description-casino">Experience the electrifying atmosphere of the iconic Las Vegas Strip, complete with dazzling lights, bustling crowds, and the sound of slot machines ringing in the background.</p>
                                 </div>
                             </div>
                             <div class="card-casino-choice">
                                 <div class="container-card-casino_choice bg-white-box-casino-choice">
-                                    <img src={img} alt='' />
+                                    <img src="\assets\img\virtualvegas\Choice\Frame 42.jpg" alt='' />
                                     <p style={{ textAlign: "center", margin: "0", fontSize: "20px", marginTop: "10px" }} class="card-title-casino">	Tropical Paradise</p>
                                     <p style={{ textAlign: "center", lineHeight: "25px", margin: "0" }} class="card-description-casino">Escape to a serene tropical paradise, where palm trees sway in the breeze, crystal-clear waters beckon, and colorful cocktails await at the beachside bar.</p>
                                 </div>
                             </div>
                             <div class="card-casino-choice">
                                 <div class="container-card-casino_choice bg-yellow-box-casino-choice">
-                                    <img src={img} alt='' />
+                                    <img src="\assets\img\virtualvegas\Choice\Frame 43.jpg" alt='' />
                                     <p style={{ textAlign: "center", margin: "0", fontSize: "20px", marginTop: "10px" }} class="card-title-casino">		Ancient Egypt</p>
                                     <p style={{ textAlign: "center", lineHeight: "25px", margin: "0" }} class="card-description-casino">Embark on an archaeological adventure to Ancient Egypt, where pyramids rise against the desert sands, and mysterious hieroglyphics adorn the walls of ancient temples.</p>
                                 </div>
                             </div>
                             <div class="card-casino-choice">
                                 <div class="container-card-casino_choice bg-blue-box-casino-choice">
-                                    <img src={img} alt='' />
+                                    <img src="\assets\img\virtualvegas\Choice\Frame 44.jpg" alt='' />
                                     <p style={{ textAlign: "center", margin: "0", fontSize: "20px", marginTop: "10px" }} class="card-title-casino">	Space Odyssey</p>
                                     <p style={{ textAlign: "center", lineHeight: "25px", margin: "0" }} class="card-description-casino">Blast off into outer space and explore the cosmos aboard a futuristic spaceship, where you'll encounter alien worlds, cosmic phenomena, and the infinite expanse of the universe.</p>
                                 </div>
                             </div>
                             <div class="card-casino-choice">
                                 <div class="container-card-casino_choice bg-green-box-casino-choice">
-                                    <img src={img} alt='' />
+                                    <img src="\assets\img\virtualvegas\Choice\Frame 45.jpg" alt='' />
                                     <p style={{ textAlign: "center", margin: "0", fontSize: "20px", marginTop: "10px" }} class="card-title-casino">	Underwater Kingdom</p>
                                     <p style={{ textAlign: "center", lineHeight: "25px", margin: "0" }} class="card-description-casino"> Dive into the depths of the ocean and discover a vibrant underwater kingdom teeming with exotic marine life, hidden treasures, and ancient shipwrecks.</p>
                                 </div>
                             </div>
                             <div class="card-casino-choice">
                                 <div class="container-card-casino_choice bg-white-box-casino-choice">
-                                    <img src={img} alt='' />
+                                    <img src="\assets\img\virtualvegas\Choice\Frame 46.jpg" alt='' />
                                     <p style={{ textAlign: "center", margin: "0", fontSize: "20px", marginTop: "10px" }} class="card-title-casino">Wild West Saloon</p>
                                     <p style={{ textAlign: "center", lineHeight: "25px", margin: "0" }} class="card-description-casino">Step back in time to the Wild West era and saddle up for a showdown at the local saloon, where card games, whiskey shots, and cowboy hats are the order of the day.</p>
                                 </div>
                             </div>
                             <div class="card-casino-choice">
                                 <div class="container-card-casino_choice bg-yellow-box-casino-choice">
-                                    <img src={img} alt='' />
+                                    <img src="\assets\img\virtualvegas\Choice\Frame 47.jpg" alt='' />
                                     <p style={{ textAlign: "center", margin: "0", fontSize: "20px", marginTop: "10px" }} class="card-title-casino">	Futuristic Cityscape</p>
                                     <p style={{ textAlign: "center", lineHeight: "25px", margin: "0" }} class="card-description-casino">Journey to a bustling metropolis of the future, where neon lights illuminate towering skyscrapers, flying cars zip through the air, and cutting-edge technology is at your fingertips.</p>
                                 </div>
                             </div>
                             <div class="card-casino-choice">
                                 <div class="container-card-casino_choice bg-blue-box-casino-choice">
-                                    <img src={img} alt='' />
+                                    <img src="\assets\img\virtualvegas\Choice\Frame 48.jpg" alt='' />
                                     <p style={{ textAlign: "center", margin: "0", fontSize: "20px", marginTop: "10px" }} class="card-title-casino">	Medieval Castle</p>
                                     <p style={{ textAlign: "center", lineHeight: "25px", margin: "0" }} class="card-description-casino">Enter the realm of knights and kings as you explore a majestic medieval castle, complete with towering turrets, stone walls, and a grand banquet hall fit for royalty.</p>
                                 </div>

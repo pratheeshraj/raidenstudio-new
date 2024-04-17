@@ -117,8 +117,9 @@ const GameProductDetailsHero = () => {
       const Y = pageY;
 
       if (heroImageRef.current) {
-        heroImageRef.current.style.transform = `translate(${X / 30}px, ${Y / 30
-          }px)`;
+        heroImageRef.current.style.transform = `translate(${X / 30}px, ${
+          Y / 30
+        }px)`;
       }
     };
     document.addEventListener("mousemove", handleMouseMove);
@@ -177,31 +178,37 @@ const GameProductDetailsHero = () => {
   ];
   const KeyFeatures1 = [
     {
+      img: "/assets/img/clashofroyal/game feature/white.svg",
       title: "White Label Solution",
       content:
         "With full control over branding and customization options, you can create a compelling gaming experience that reflects your vision and values.",
     },
     {
+      img: "/assets/img/clashofroyal/game feature/flexible.svg",
       title: "Flexible Licensing Options",
       content:
         "Choose from a range of flexible licensing options tailored to meet your specific needs and budget requirements. ",
     },
     {
+      img: "/assets/img/clashofroyal/game feature/comprehensive.svg",
       title: "Comprehensive Support",
       content:
         "From game development and design to marketing and monetization strategies, our team of experts is here to support you every step of the way.",
     },
     {
+      img: "/assets/img/clashofroyal/game feature/player.svg",
       title: "Player Profiles and Customization",
       content:
         "Customize your player profile with avatars, titles, and badges, showcasing your unique identity and achievements within the community.",
     },
     {
+      img: "/assets/img/clashofroyal/game feature/guide.svg",
       title: "Guilds and Alliances",
       content:
         "Form powerful alliances with other players to coordinate attacks, share resources, and dominate the battlefield together. ",
     },
     {
+      img: "/assets/img/clashofroyal/game feature/leader.svg",
       title: "Leaderboards and Rankings",
       content:
         "Compete for glory and recognition on global leaderboards, showcasing your skills and achievements to the entire community. ",
@@ -520,81 +527,151 @@ const GameProductDetailsHero = () => {
                     </div>
                   </div>
                   <div className="right">
-                    <div className="right_img">
-                      <img src={technical_img} alt="" />
-                    </div>
                     {Compatibility ? (
-                      <p>
-                        Realm Wars: Clash of Empires is built using
-                        cross-platform technologies, ensuring compatibility
-                        across a wide range of devices and operating systems.
-                        Whether your target audience uses iOS or Android,
-                        smartphones or tablets, our solution delivers a seamless
-                        gaming experience on any platform.
-                      </p>
+                      <>
+                        <div className="right_img">
+                          <img
+                            src="\assets\img\clashofroyal\performance\Frame 32.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <p>
+                          Realm Wars: Clash of Empires is built using
+                          cross-platform technologies, ensuring compatibility
+                          across a wide range of devices and operating systems.
+                          Whether your target audience uses iOS or Android,
+                          smartphones or tablets, our solution delivers a
+                          seamless gaming experience on any platform.
+                        </p>
+                      </>
                     ) : Architecture ? (
-                      <p>
-                        Our platform is built on a scalable architecture
-                        designed to accommodate rapid growth and increasing user
-                        demand. With flexible server infrastructure and dynamic
-                        load balancing, you can scale your game to support
-                        millions of players without compromising performance or
-                        reliability.
-                      </p>
+                      <>
+                        {" "}
+                        <div className="right_img">
+                          <img
+                            src="\assets\img\clashofroyal\performance\Frame 33.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <p>
+                          Our platform is built on a scalable architecture
+                          designed to accommodate rapid growth and increasing
+                          user demand. With flexible server infrastructure and
+                          dynamic load balancing, you can scale your game to
+                          support millions of players without compromising
+                          performance or reliability.
+                        </p>
+                      </>
                     ) : Support ? (
-                      <p>
-                        Engage players in thrilling real-time battles with
-                        support for multiplayer functionality. Our platform
-                        provides robust networking capabilities, enabling
-                        seamless matchmaking, peer-to-peer connections, and
-                        synchronous gameplay experiences that keep players
-                        coming back for more.
-                      </p>
+                      <>
+                        {" "}
+                        <div className="right_img">
+                          <img
+                            src="\assets\img\clashofroyal\performance\Frame 34.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <p>
+                          Engage players in thrilling real-time battles with
+                          support for multiplayer functionality. Our platform
+                          provides robust networking capabilities, enabling
+                          seamless matchmaking, peer-to-peer connections, and
+                          synchronous gameplay experiences that keep players
+                          coming back for more.
+                        </p>
+                      </>
                     ) : Monetization ? (
-                      <p>
-                        Monetize your game effectively with a range of flexible
-                        monetization options, including in-app purchases,
-                        advertising, and subscription services. Our platform
-                        integrates seamlessly with leading ad networks and
-                        payment gateways, allowing you to maximize revenue while
-                        providing value to your players.
-                      </p>
+                      <>
+                        {" "}
+                        <div className="right_img">
+                          <img
+                            src="\assets\img\clashofroyal\performance\Frame 35.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <p>
+                          Monetize your game effectively with a range of
+                          flexible monetization options, including in-app
+                          purchases, advertising, and subscription services. Our
+                          platform integrates seamlessly with leading ad
+                          networks and payment gateways, allowing you to
+                          maximize revenue while providing value to your
+                          players.
+                        </p>
+                      </>
                     ) : Reporting ? (
-                      <p>
-                        Gain valuable insights into player behavior, engagement
-                        metrics, and revenue performance with comprehensive
-                        analytics and reporting tools. Track key performance
-                        indicators, identify trends, and optimize your game
-                        strategy based on real-time data to drive continuous
-                        improvement and success.
-                      </p>
+                      <>
+                        {" "}
+                        <div className="right_img">
+                          <img
+                            src="\assets\img\clashofroyal\performance\Frame 36.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <p>
+                          Gain valuable insights into player behavior,
+                          engagement metrics, and revenue performance with
+                          comprehensive analytics and reporting tools. Track key
+                          performance indicators, identify trends, and optimize
+                          your game strategy based on real-time data to drive
+                          continuous improvement and success.
+                        </p>
+                      </>
                     ) : Security ? (
-                      <p>
-                        Protect your game and your players' data with robust
-                        security measures and compliance standards. Our platform
-                        implements industry-leading encryption protocols, secure
-                        authentication mechanisms, and strict data privacy
-                        policies to ensure the highest level of security and
-                        regulatory compliance.
-                      </p>
+                      <>
+                        {" "}
+                        <div className="right_img">
+                          <img
+                            src="\assets\img\clashofroyal\performance\Frame 37.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <p>
+                          Protect your game and your players' data with robust
+                          security measures and compliance standards. Our
+                          platform implements industry-leading encryption
+                          protocols, secure authentication mechanisms, and
+                          strict data privacy policies to ensure the highest
+                          level of security and regulatory compliance.
+                        </p>
+                      </>
                     ) : API ? (
-                      <p>
-                        Seamlessly integrate Realm Wars: Clash of Empires with
-                        third-party services and APIs to extend functionality
-                        and enhance the gaming experience. From social media
-                        integration and user authentication to cloud storage and
-                        push notifications, our platform supports a wide range
-                        of integrations to meet your specific requirements.
-                      </p>
+                      <>
+                        {" "}
+                        <div className="right_img">
+                          <img
+                            src="\assets\img\clashofroyal\performance\Frame 38.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <p>
+                          Seamlessly integrate Realm Wars: Clash of Empires with
+                          third-party services and APIs to extend functionality
+                          and enhance the gaming experience. From social media
+                          integration and user authentication to cloud storage
+                          and push notifications, our platform supports a wide
+                          range of integrations to meet your specific
+                          requirements.
+                        </p>
+                      </>
                     ) : Customization ? (
-                      <p>
-                        Customize every aspect of your game with our flexible
-                        customization and extensibility options. From game
-                        mechanics and user interface design to content creation
-                        and feature development, our platform empowers you to
-                        tailor your game to suit your vision and differentiate
-                        your brand in the market.
-                      </p>
+                      <>
+                        {" "}
+                        <div className="right_img">
+                          <img
+                            src="\assets\img\clashofroyal\performance\Frame 39.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <p>
+                          Customize every aspect of your game with our flexible
+                          customization and extensibility options. From game
+                          mechanics and user interface design to content
+                          creation and feature development, our platform
+                          empowers you to tailor your game to suit your vision
+                          and differentiate your brand in the market.
+                        </p>
+                      </>
                     ) : (
                       ""("")
                     )}
@@ -647,7 +724,7 @@ const GameProductDetailsHero = () => {
         style={{
           backgroundSize: "cover",
           background: "white",
-          padding: "50px 0 20px 0"
+          padding: "50px 0 20px 0",
         }}
       >
         <div className="auto-container">
@@ -665,7 +742,10 @@ const GameProductDetailsHero = () => {
                 <div className="title">
                   <h2 style={{ color: "black" }}>
                     Are you ready to revolutionize
-                    <span className="theme-color">  mobile gaming industry with</span>{" "}
+                    <span className="theme-color">
+                      {" "}
+                      mobile gaming industry with
+                    </span>{" "}
                     the your innovative ideas?
                   </h2>
                   <p style={{ color: "black" }}>
@@ -790,13 +870,7 @@ const GameProductDetailsHero = () => {
                 data-aos="fade-left"
                 data-aos-delay="300"
               >
-                <div className="icon-shape">
-                  <img
-                    className="img-fluid"
-                    src="/assets/img/icon/23_icon.png"
-                    alt=""
-                  />
-                </div>
+             
                 <div className="intro">
                   <h3>Common Question &amp; Answer</h3>
                 </div>
@@ -824,9 +898,9 @@ const GameProductDetailsHero = () => {
                         data-bs-parent="#accordionFlushExample"
                       >
                         <div className="accordion-body">
-                          trategic mobile game that
-                          combines city-building, resource management, and
-                          tactical warfare in a vibrant fantasy world.
+                          trategic mobile game that combines city-building,
+                          resource management, and tactical warfare in a vibrant
+                          fantasy world.
                         </div>
                       </div>
                     </div>

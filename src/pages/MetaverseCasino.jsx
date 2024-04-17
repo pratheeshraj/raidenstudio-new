@@ -22,7 +22,7 @@ const MetaverseCasino = () => {
                 <section
                     className="counter-section one"
                     style={{
-                        backgroundImage: "url('/assets/img/bg-image/teenager-using-virtual-reality-glasses-play-video-games-metaverse_168310-706-transformed.png')",
+                        backgroundImage: "url('/assets/img/virtualvegas/banner.jpg')",
                         backgroundSize: "cover"
                     }}
                 >
