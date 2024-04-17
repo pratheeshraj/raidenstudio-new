@@ -2,13 +2,24 @@ import React, { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./HeaderTwo.css";
 import logo_img from "../images/raiden-logo.png";
+import CaseStudies from './CaseStudies';
+import { useSelector } from "react-redux";
 const HeaderTwo = () => {
   const [active, setActive] = useState(false);
   const [scroll, setScroll] = useState(false);
   const [rightSidebar, setRightSidebar] = useState(false);
   const [search, setSearch] = useState(false);
-
   const [hoveredIndex, setHoveredIndex] = useState(null);
+
+  const { allBlogs } = useSelector(
+    (state) => state.blogState
+  );
+  useEffect(() => {
+    console.log(allBlogs);
+  }, [])
+
+
+
   // /gameproduct-details
   // product progress bar
 
@@ -1253,9 +1264,7 @@ const HeaderTwo = () => {
               <div className="logo">
                 <img
                   className="img-fluid"
-                  src="/assets/img/common/logo-black.png"
-                  alt=""
-                />
+                  src={logo_img} alt="" />
               </div>
               <p>
                 Oracle Cloud Infrastructure (OCI) AI Services is a collection of
@@ -1266,7 +1275,28 @@ const HeaderTwo = () => {
             </div>
             <div className="intro-text">
               <div className="title-text">
-                <h3>Gallery</h3>
+                <h3>Blogs</h3>
+              </div>
+              <div className="img-file">
+                {
+                  allBlogs?.slice(-6).map((item, index) => {
+                    return (
+                      <Link to={`/blogdetails/${item.url}`}>
+                        <img
+                          className="img-fluid"
+                          style={{ height: "100%" }}
+                          src={item.imageurl}
+                          alt=""
+                        />
+                      </Link>
+                    )
+                  })
+                }
+              </div>
+            </div>
+            <div className="intro-text">
+              <div className="title-text">
+                <h3>Case Studies</h3>
               </div>
               <div className="img-file">
                 <img
@@ -1310,12 +1340,6 @@ const HeaderTwo = () => {
                   elements to understand: categorization, classification,
                   machine learning, and collaborative filtering.
                 </p>
-              </div>
-            </div>
-            <div className="intro-text">
-              <div className="title-text">
-                <h3>Need To Location</h3>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d29176.030811137334!2d90.3883827!3d23.924917699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1605272373598!5m2!1sen!2sbd" />
               </div>
             </div>
             <div className="intro-text">
