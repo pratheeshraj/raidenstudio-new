@@ -74,7 +74,7 @@ function WebProcess() {
                     <div className="nft_timeline">
                         <div style={{ background: "black" }} className="nft_line nft_line_white"></div>
                         <div className="nft_section">
-                            <div style={{ background: "black" }} className="bead"><img src="/assets/img/whychooseusai/EXPERTA.svg" /></div>
+                            <div style={{ background: "black" }} className="bead"><img src="/assets/img/web3-process/discovery.svg" /></div>
                             <div className="nft_content">
                                 <h6 style={{ color: "black", marginTop: "-80px" }}>Discovery & Planning</h6>
                                 <p style={{ color: "black" }}>
@@ -83,7 +83,7 @@ function WebProcess() {
                             </div>
                         </div>
                         <div className="nft_section">
-                            <div style={{ background: "black" }} className="bead"><img src="/assets/img/whychooseusai/EXPERTA.svg" /></div>
+                            <div style={{ background: "black" }} className="bead"><img src="/assets/img/web3-process/development.svg" /></div>
                             <div className="nft_content">
                                 <h6 style={{ color: "black", marginTop: "-80px" }}>Design & Development</h6>
                                 <p style={{ color: "black" }}>
@@ -93,7 +93,7 @@ function WebProcess() {
 
                         </div>
                         <div className="nft_section">
-                            <div style={{ background: "black" }} className="bead"><img src="/assets/img/whychooseusai/EXPERTA.svg" /></div>
+                            <div style={{ background: "black" }} className="bead"><img src="/assets/img/web3-process/testing.svg" /></div>
                             <div className="nft_content">
                                 <h6 style={{ color: "black", marginTop: "-80px" }}>Testing & Quality Assurance</h6>
                                 <p style={{ color: "black" }}>
@@ -102,7 +102,7 @@ function WebProcess() {
                             </div>
                         </div>
                         <div className="nft_section">
-                            <div style={{ background: "black" }} className="bead"><img src="/assets/img/whychooseusai/EXPERTA.svg" /></div>
+                            <div style={{ background: "black" }} className="bead"><img src="/assets/img/web3-process/deployment.svg" /></div>
                             <div className="nft_content">
                                 <h6 style={{ color: "black", marginTop: "-80px" }}>Deployment & Optimization</h6>
                                 <p style={{ color: "black" }}>
@@ -111,7 +111,7 @@ function WebProcess() {
                             </div>
                         </div>
                         <div className="nft_section">
-                            <div style={{ background: "black" }} className="bead"><img src="/assets/img/whychooseusai/EXPERTA.svg" /></div>
+                            <div style={{ background: "black" }} className="bead"><img src="/assets/img/web3-process/maintenance.svg" /></div>
                             <div className="nft_content">
                                 <h6 style={{ color: "black", marginTop: "-80px" }}>Support & Maintenance</h6>
                                 <p style={{ color: "black" }}>
