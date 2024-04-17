@@ -58,6 +58,7 @@ import Web3 from "./pages/Web3";
 import AllCaseStudy from "./pages/AllCaseStudy";
 import AiasService from "./pages/AiasService";
 import CaseStudyDetails from "./pages/CaseStudyDetails";
+import NavBottom from "./components/NavBottom";
 
 
 
@@ -74,6 +75,7 @@ function App() {
 
   return (
     <BrowserRouter>
+      <NavBottom />
       <SocialIcons />
       <Toaster />
       <Routes>
