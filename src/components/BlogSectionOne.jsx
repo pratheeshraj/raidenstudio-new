@@ -21,7 +21,7 @@ const BlogSectionOne = () => {
                 data-aos="fade-up"
                 data-aos-delay="300"
               >
-                <h3>Our Latest Blog</h3>
+                <h3 style={{ color: "#13C4A1" }}>Our Latest Blog</h3>
                 <h2>
                   Find the latest Blogs news <br />{" "}
                   <span className="theme-color">from WIRED</span>
