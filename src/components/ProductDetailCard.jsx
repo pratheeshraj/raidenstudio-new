@@ -39,7 +39,7 @@ const ProductDetailCard = () => {
 
                       <div className="link d-inline-block">
                         <p>
-                          Retail Revolution: Partnering with leading retail
+                          Partnering with leading retail
                           brands, Raidenverse has transformed the shopping
                           experience through immersive virtual stores.
                         </p>

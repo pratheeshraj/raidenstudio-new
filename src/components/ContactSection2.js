@@ -86,12 +86,12 @@ const ContactSection2 = () => {
     <>
       <Toaster position="bottom-center" reverseOrder={false} />
       {/* Contact Section start */}
-      <section className="contact-section" style={{ background: "black" }}>
+      <section className="contact-section" style={{ background: "white" }}>
         <div className="auto-container">
           <div className="row">
             <div className="enqury_main_div">
               <div className="right_div aos-init aos-animate" data-aos="fade-right" data-aos-delay="300">
-                <h2 className="right_div_contact_heading">Contact Us</h2>
+                <h2 className="right_div_contact_heading">Get a Free Quote Today</h2>
                 <p>Please fill out the quick form and we will be in touch with lightening speed.</p>
                 <form className="right_div_input_div" onSubmit={handleSubmit}>
                   <div>
@@ -151,7 +151,6 @@ const ContactSection2 = () => {
               <div className="left_div aos-init aos-animate" data-aos="fade-left" data-aos-delay="300">
                 <div className="left_background_div">
                   <div className="left_background_div_content">
-                    For Quick Response
                   </div>
                 </div>
               </div>
