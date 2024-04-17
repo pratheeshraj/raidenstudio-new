@@ -13,22 +13,26 @@ function WebWhychoose() {
                         </div>
                         <div className='nft_whychoose_Right_div'>
                             <div className='nft_whychoose_Right_box' style={{ background: "white" }}>
-                                <div style={{ background: "linear-gradient(136.76deg, #F40076 0%, #DF98FA 100%)" }} className='nft_img_round'><img className='nft_whychoose_img' src='/assets/img/whychooseusnft/client.svg' />
+                                <div style={{ background: "linear-gradient(136.76deg, #F40076 0%, #DF98FA 100%)" }} className='nft_img_round'>
+                                    <img className='nft_whychoose_img' src='/assets/img/ai-as-ser-why choose/trackrecord.svg' />
                                 </div>
                                 <div className='nft_whychoose_name'>Proven Track Record</div>
                             </div>
                             <div className='nft_whychoose_Right_box' style={{ background: "white" }}>
-                                <div style={{ background: "linear-gradient(136.76deg, #DF98FA 0%, #9055FF 100%)" }} className='nft_img_round'><img className='nft_whychoose_img' src='/assets/img/whychooseusnft/transperancy.svg' />
+                                <div style={{ background: "linear-gradient(136.76deg, #DF98FA 0%, #9055FF 100%)" }} className='nft_img_round'>
+                                    <img className='nft_whychoose_img' src='/assets/img/ai-as-ser-why choose/customercentric.svg' />
                                 </div>
                                 <div className='nft_whychoose_name'>Customer-Centric Approach</div>
                             </div>
                             <div className='nft_whychoose_Right_box' style={{ background: "white" }}>
-                                <div style={{ background: "linear-gradient(136.76deg, #FCCF31 0%, #F55555 100%)" }} className='nft_img_round'><img className='nft_whychoose_img' src='/assets/img/whychooseusnft/experiencedteam.svg' />
+                                <div style={{ background: "linear-gradient(136.76deg, #FCCF31 0%, #F55555 100%)" }} className='nft_img_round'>
+                                    <img className='nft_whychoose_img' src='\assets\img\ai-as-ser-why choose\countinueinnovation.svg' />
                                 </div>
                                 <div className='nft_whychoose_name'>Continuous Innovation</div>
                             </div>
                             <div className='nft_whychoose_Right_box' style={{ background: "white" }}>
-                                <div style={{ background: "linear-gradient(136.76deg, #ABDCFF 0%, #0396FF 100%)" }} className='nft_img_round'><img className='nft_whychoose_img' src='/assets/img/whychooseusnft/flexible.svg' />
+                                <div style={{ background: "linear-gradient(136.76deg, #ABDCFF 0%, #0396FF 100%)" }} className='nft_img_round'>
+                                    <img className='nft_whychoose_img' src='/assets/img/ai-as-ser-why choose/transperant.svg' />
                                 </div>
                                 <div className='nft_whychoose_name'>Transparent Communication</div>
                             </div>
