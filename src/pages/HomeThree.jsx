@@ -55,6 +55,7 @@ const HomeThree = () => {
       console.log(error);
     }
   }, []);
+  
   return (
     <Fragment>
       <Suspense>
