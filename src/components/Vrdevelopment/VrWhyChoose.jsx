@@ -14,22 +14,26 @@ function VrWhyChoose() {
                         </div>
                         <div className='nft_whychoose_Right_div'>
                             <div className='nft_whychoose_Right_box'>
-                                <div style={{ background: "linear-gradient(136.76deg, #F40076 0%, #DF98FA 100%)" }} className='nft_img_round'><img className='nft_whychoose_img' src='/assets/img/metaverse-whychooseus/developers.svg' />
+                                <div style={{ background: "linear-gradient(136.76deg, #F40076 0%, #DF98FA 100%)" }} className='nft_img_round'>
+                                    <img className='nft_whychoose_img' src='/assets/img/vr-whychoose/qualityassu.svg' />
                                 </div>
                                 <div className='nft_whychoose_name'>High quality and security</div>
                             </div>
                             <div className='nft_whychoose_Right_box'>
-                                <div style={{ background: "linear-gradient(136.76deg, #DF98FA 0%, #9055FF 100%)" }} className='nft_img_round'><img className='nft_whychoose_img' src='/assets/img/metaverse-whychooseus/experience.svg' />
+                                <div style={{ background: "linear-gradient(136.76deg, #DF98FA 0%, #9055FF 100%)" }} className='nft_img_round'>
+                                    <img className='nft_whychoose_img' src='/assets/img/vr-whychoose/reliablepart.svg' />
                                 </div>
                                 <div className='nft_whychoose_name'>Reliable partner</div>
                             </div>
                             <div className='nft_whychoose_Right_box'>
-                                <div style={{ background: "linear-gradient(136.76deg, #FCCF31 0%, #F55555 100%)" }} className='nft_img_round'><img className='nft_whychoose_img' src='/assets/img/metaverse-whychooseus/accelarate.svg' />
+                                <div style={{ background: "linear-gradient(136.76deg, #FCCF31 0%, #F55555 100%)" }} className='nft_img_round'>
+                                    <img className='nft_whychoose_img' src='/assets/img/vr-whychoose/dedicatedtea.svg' />
                                 </div>
                                 <div className='nft_whychoose_name'>Dedicated Team</div>
                             </div>
                             <div className='nft_whychoose_Right_box'>
-                                <div style={{ background: "linear-gradient(136.76deg, #ABDCFF 0%, #0396FF 100%)" }} className='nft_img_round'><img className='nft_whychoose_img' src='/assets/img/metaverse-whychooseus/interobility.svg' />
+                                <div style={{ background: "linear-gradient(136.76deg, #ABDCFF 0%, #0396FF 100%)" }} className='nft_img_round'>
+                                    <img className='nft_whychoose_img' src='/assets/img/vr-whychoose/100customi.svg' />
                                 </div>
                                 <div className='nft_whychoose_name'>100% Customized Solutions</div>
                             </div>

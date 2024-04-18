@@ -689,49 +689,49 @@ const MetaverseRoyalContent = () => {
                 className="feature_card section6_card "
                 style={{ backgroundColor: "#000c14" }}
               >
-                <img src="/assets/img/nftdevfeatu/nftwallet.svg" />
+                <img src="/assets/img/royale-game-fea/customized.svg" />
                 <div style={{ color: "white" }}>Customizable Characters</div>
               </div>
               <div
                 className="feature_card section6_card"
                 style={{ backgroundColor: "#000c14" }}
               >
-                <img src="/assets/img/nftdevfeatu/multichain.svg" />
+                <img src="/assets/img/royale-game-fea/dynamic.svg" />
                 <div style={{ color: "white" }}>Dynamic Map Environments</div>
               </div>
               <div
                 className="feature_card section6_card"
                 style={{ backgroundColor: "#000c14" }}
               >
-                <img src="/assets/img/nftdevfeatu/management.svg" />
+                <img src="/assets/img/royale-game-fea/gameplay.svg" />
                 <div style={{ color: "white" }}>Varied Gameplay Modes</div>
               </div>
               <div
                 className="feature_card section6_card"
                 style={{ backgroundColor: "#000c14" }}
               >
-                <img src="/assets/img/nftdevfeatu/nftstore.svg" />
+                <img src="/assets/img/royale-game-fea/arsenal.svg" />
                 <div style={{ color: "white" }}>Arsenal of Weapons </div>
               </div>
               <div
                 className="feature_card section6_card"
                 style={{ backgroundColor: "#000c14" }}
               >
-                <img src="/assets/img/nftdevfeatu/ipfs.svg" />
+                <img src="/assets/img/royale-game-fea/gamestra.svg" />
                 <div style={{ color: "white" }}>Game strategies</div>
               </div>
               <div
                 className="feature_card section6_card"
                 style={{ backgroundColor: "#000c14" }}
               >
-                <img src="/assets/img/nftdevfeatu/tokanization.svg" />
+                <img src="/assets/img/royale-game-fea/progression.svg" />
                 <div style={{ color: "white" }}>Progression and Rewards</div>
               </div>
               <div
                 className="feature_card section6_card"
                 style={{ backgroundColor: "#000c14" }}
               >
-                <img src="/assets/img/nftdevfeatu/royalty.svg" />
+                <img src="/assets/img/royale-game-fea/spectat.svg" />
                 <div style={{ color: "white" }}>
                   Spectator and Streaming Support
                 </div>
@@ -740,7 +740,7 @@ const MetaverseRoyalContent = () => {
                 className="feature_card section6_card"
                 style={{ backgroundColor: "#000c14" }}
               >
-                <img src="/assets/img/nftdevfeatu/transaction.svg" />
+                <img src="/assets/img/royale-game-fea/cross.svg" />
                 <div style={{ color: "white" }}>
                   Cross-Platform Compatibility
                 </div>
@@ -749,7 +749,7 @@ const MetaverseRoyalContent = () => {
                 className="feature_card section6_card"
                 style={{ backgroundColor: "#000c14" }}
               >
-                <img src="/assets/img/nftdevfeatu/ech.svg" />
+                <img src="/assets/img/royale-game-fea/social.svg" />
                 <div style={{ color: "white" }}>
                   Social Interaction and Community Features
                 </div>
@@ -758,7 +758,7 @@ const MetaverseRoyalContent = () => {
                 className="feature_card section6_card"
                 style={{ backgroundColor: "#000c14" }}
               >
-                <img src="/assets/img/nftdevfeatu/exportnft.svg" />
+                <img src="/assets/img/royale-game-fea/regular.svg" />
                 <div style={{ color: "white" }}>
                   Regular Content Updates and Events
                 </div>
@@ -801,7 +801,7 @@ const MetaverseRoyalContent = () => {
                 >
                   <img
                     className="nft_whychoose_img"
-                    src="/assets/img/whychooseusnft/client.svg"
+                    src="/assets/img/royale-nft-meta/virtual.svg"
                   />
                 </div>
                 <div className="nft_whychoose_name section7_card">
@@ -821,7 +821,7 @@ const MetaverseRoyalContent = () => {
                 >
                   <img
                     className="nft_whychoose_img"
-                    src="/assets/img/whychooseusnft/transperancy.svg"
+                    src="/assets/img/royale-nft-meta/playowned.svg"
                   />
                 </div>
                 <div className="nft_whychoose_name section7_card">
@@ -841,7 +841,7 @@ const MetaverseRoyalContent = () => {
                 >
                   <img
                     className="nft_whychoose_img"
-                    src="/assets/img/whychooseusnft/experiencedteam.svg"
+                    src="/assets/img/royale-nft-meta/limited.svg"
                   />
                 </div>
                 <div className="nft_whychoose_name section7_card">
@@ -861,7 +861,7 @@ const MetaverseRoyalContent = () => {
                 >
                   <img
                     className="nft_whychoose_img"
-                    src="/assets/img/whychooseusnft/flexible.svg"
+                    src="/assets/img/royale-nft-meta/generatedcontent.svg"
                   />
                 </div>
                 <div className="nft_whychoose_name section7_card">
@@ -881,7 +881,7 @@ const MetaverseRoyalContent = () => {
                 >
                   <img
                     className="nft_whychoose_img"
-                    src="/assets/img/whychooseusnft/quality.svg"
+                    src="/assets/img/royale-nft-meta/interop.svg"
                   />
                 </div>
                 <div className="nft_whychoose_name section7_card">
@@ -902,7 +902,7 @@ const MetaverseRoyalContent = () => {
                 >
                   <img
                     className="nft_whychoose_img"
-                    src="/assets/img/whychooseusnft/agilenft.svg"
+                    src="/assets/img/royale-nft-meta/prevenance.svg"
                   />
                 </div>
                 <div className="nft_whychoose_name section7_card">
@@ -922,7 +922,7 @@ const MetaverseRoyalContent = () => {
                 >
                   <img
                     className="nft_whychoose_img"
-                    src="/assets/img/whychooseusnft/costeffectivecopy.svg"
+                    src="/assets/img/royale-nft-meta/communit.svg"
                   />
                 </div>
                 <div className="nft_whychoose_name section7_card">
@@ -942,7 +942,7 @@ const MetaverseRoyalContent = () => {
                 >
                   <img
                     className="nft_whychoose_img"
-                    src="/assets/img/whychooseusnft/developmenny.svg"
+                    src="/assets/img/royale-nft-meta/ingame.svg"
                   />
                 </div>
                 <div className="nft_whychoose_name section7_card">

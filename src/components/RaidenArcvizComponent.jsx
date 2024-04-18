@@ -22,57 +22,37 @@ const RaidenArcvizComponent = ({ vidio }) => {
                     </div>
                     <div className="container-fulid project_hero_content">
                         <div className="container pb-4 ">
-                            <div className="row" style={{ alignItems: "center" }}>
+                            <div className="row">
                                 <div
-                                    className="col-lg-7"
+                                    className="col-lg-6"
                                     data-aos="fade-up"
                                     data-aos-delay="300"
                                 >
                                     <div className="title">
                                         <h2 className="arcviz_who_heading">
-                                            <span>What</span> We Offer ?
+                                            <span>Who</span> we Are
                                         </h2>
                                     </div>
                                     <div className="inner-des">
-                                        <ul>
-                                            <li>
-                                                Class Leading hyper-realistic
-                                                property visualizations.</li>
-                                            <li>
-                                                Integrating AI to offer a dynamic
-                                                experience.
-                                            </li>
-                                            <li>
-
-                                                Swift turn-aroundtime of 20
-                                                business days per project.
-                                            </li>
-                                        </ul>
+                                        <p >
+                                            At Raiden ARCVIZ, we are pioneers in leveraging Virtual Reality (VR) technology to revolutionize the fields of architecture and real estate. With a team of passionate innovators and industry experts, we are dedicated to pushing the boundaries of traditional design and visualization methods to create immersive and transformative experiences.
+                                        </p>
                                     </div>
                                 </div>
-                                <div className="col-lg-5">
+                                <div className="col-lg-6">
                                     <div
                                         className="widget-project"
                                         data-aos="fade-up"
                                         data-aos-delay="300"
                                     >
                                         <div className="project_left">
-                                            <h2 className="arcviz_who_heading">
-                                                <span> Be the </span>Vanguard of Real Estate Marketing
+                                            <h2 className="arcviz_who_heading">What
+                                                <span> We Offer</span>
                                             </h2>
                                         </div>
                                         <div className="inner-des2">
                                             <p>
-                                                Meet your new property guide.
-                                                answering questions, offering
-                                                insights, and making the
-                                                experience deeply personal.
-
-                                            </p>
-                                            <p>
-                                                Our AI bot can personalize
-                                                interior color schemes and
-                                                decors in runtime.
+                                                Trusted partner in harnessing the power of Virtual Reality (VR) technology to elevate your architecture and real estate projects. We offer a comprehensive suite of services and solutions tailored to meet the unique needs of our clients. Our techniques and adopting the latest hardware and software innovations to deliver unparalleled quality and performance.
                                             </p>
                                         </div>
                                     </div>
@@ -132,7 +112,7 @@ const RaidenArcvizComponent = ({ vidio }) => {
                     </div>
                 </div>
             </section> */}
-            <section className="project-section three">
+            <section className="project-section three" style={{ background: "white" }}>
                 <div className="auto-container">
                     <div className="row">
                         <div className="">
@@ -142,7 +122,7 @@ const RaidenArcvizComponent = ({ vidio }) => {
                                 data-aos-delay="300"
                             >
                                 <h2 style={{ textAlign: "center", width: "100%" }}>
-                                    <span className="theme-color"> Solutions</span>
+                                    Unlocking Possibilities: Explore Our  <span className="theme-color"> <br />Innovative Solutions </span>
                                 </h2>
                             </div>
                         </div>
@@ -160,11 +140,11 @@ const RaidenArcvizComponent = ({ vidio }) => {
                                         alt="" />
                                     <div className="shape-overlay poa">
                                         <div className="inner Industry2">
-                                            <h2>Discover Your Vision Come to Life</h2>
+                                            <h2>Immersive Architectural Visualization</h2>
 
                                             <div className="link d-inline-block">
                                                 <p>
-                                                    Our team brings every architectural vision to life with stunning accuracy. With our cutting-edge technology and meticulous attention to detail, you can explore your project before it's built, gaining invaluable insights and ensuring every aspect meets your expectations.
+                                                    Step into your designs with our immersive architectural visualization solutions. Utilizing cutting-edge VR technology, we transform 2D architectural plans into immersive virtual environments, allowing you to explore and experience your designs in stunning detail.
                                                 </p>
                                             </div>
                                         </div>
@@ -184,11 +164,11 @@ const RaidenArcvizComponent = ({ vidio }) => {
                                         alt="" />
                                     <div className="shape-overlay poa">
                                         <div className="inner Industry2">
-                                            <h2>Immersive Experiences, Unmatched Realism</h2>
+                                            <h2>Interactive Design Customization</h2>
 
                                             <div className="link d-inline-block">
                                                 <p>
-                                                    Equipped with state-of-the-art virtual reality (VR) headsets, you can walk through rooms, inspect materials, and experience the scale of your project firsthand. Feel the warmth of natural light streaming through windows, and visualize the flow of space in real time.
+                                                    Customize your designs with ease using our interactive design customization tools. From material selections to lighting configurations, our intuitive interface empowers you to experiment with different options and visualize the impact of your choices in real-time.
                                                 </p>
                                             </div>
                                         </div>
@@ -208,12 +188,11 @@ const RaidenArcvizComponent = ({ vidio }) => {
                                         style={{ height: "362px" }} alt="" />
                                     <div className="shape-overlay poa">
                                         <div className="inner Industry2">
-                                            <h2>Seamless Collaboration, Enhanced Communication</h2>
+                                            <h2>Pre-Construction Visualization </h2>
 
                                             <div className="link d-inline-block">
                                                 <p>
-                                                    Whether you're an architect, designer, developer, or client, our immersive visualizations facilitate clearer communication, foster better understanding, and streamline decision-making processes. Break down barriers, bridge the gap between imagination and reality.
-
+                                                    Avoid costly design errors and misinterpretations with our pre-construction visualization services. Our team creates realistic 3D models and VR simulations of your projects, allowing you to identify and address potential issues before construction begins, saving time and reducing risks.
                                                 </p>
                                             </div>
                                         </div>
@@ -233,11 +212,11 @@ const RaidenArcvizComponent = ({ vidio }) => {
                                         style={{ height: "362px" }} alt="" />
                                     <div className="shape-overlay poa">
                                         <div className="inner Industry2">
-                                            <h2>Unleash the Power of Innovation</h2>
+                                            <h2>Engaging Marketing <br /> Solutions</h2>
 
                                             <div className="link d-inline-block">
                                                 <p>
-                                                    Deliver groundbreaking solutions that empower architects, designers, and developers to realize their creative visions. From augmented reality (AR) experiences to interactive walkthroughs, we offer a diverse range of tools and services tailored to your needs.
+                                                    Showcase your properties in a compelling and immersive way with our engaging marketing solutions. From VR walkthroughs to interactive presentations, we help you captivate potential buyers and investors, driving engagement and accelerating sales.
                                                 </p>
                                             </div>
                                         </div>
@@ -249,63 +228,63 @@ const RaidenArcvizComponent = ({ vidio }) => {
                 </div>
             </section>
             {/* Raiden arcviz - benifit */}
-            <section className="project-section three Raidenarcviz_card_main_div" style={{ padding: "80px 0", background: "black" }}>
+            <section className="project-section three Raidenarcviz_card_main_div" style={{ padding: "80px 0", background: "#F8F9FA" }}>
                 <div className="auto-container">
                     <div className="row">
-                        <h2 className="raidenarcviz_card_h2"><span className="theme-color">Benefits</span></h2>
-                        <p className='raidenarcviz_card_p'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eveniet maiores ipsa, error totam non rerum, placeat fugit repellendus vitae optio sit? Ducimus, optio! Iste ipsum aliquid molestiae vitae nemo.</p>
+                        <h2 className="raidenarcviz_card_h2" style={{ color: "black" }}>Experience the <span className="theme-color">Advantages</span></h2>
+                        <p className='raidenarcviz_card_p' style={{ color: "black" }}>Discover the advantages of immersive visualization, real-time collaboration, and tailored support, and propel your architecture and real estate endeavors to new heights.</p>
                         <div className="arcviz_benifit_div">
                             <div className="arcviz_benifit">
                                 <img src="/assets/img/arckwiz-benefits/enhanced.svg" alt="" />
-                                <div>Enhanced Visualization</div>
-                                <p>Gain a clearer understanding of architectural designs with immersive, photorealistic visualizations.</p>
+                                <div style={{ color: "black" }}>Enhanced Visualization</div>
+                                <p style={{ color: "black" }}>Gain a clearer understanding of architectural designs with immersive, photorealistic visualizations.</p>
                             </div>
                             <div className="arcviz_benifit">
                                 <img src="/assets/img/arckwiz-benefits/improved.svg" alt="" />
-                                <div>Improved Decision-Making</div>
-                                <p>Make informed decisions with real-time insights and customizable design options.</p>
+                                <div style={{ color: "black" }}>Improved Decision-Making</div>
+                                <p style={{ color: "black" }}>Make informed decisions with real-time insights and customizable design options.</p>
                             </div>
                             <div className="arcviz_benifit">
                                 <img src="/assets/img/arckwiz-benefits/cost.svg" alt="" />
-                                <div>Cost and Time Savings</div>
-                                <p>Reduce costs and save time by eliminating the need for physical staging and in-person property viewings.</p>
+                                <div style={{ color: "black" }}>Cost and Time Savings</div>
+                                <p style={{ color: "black" }}>Reduce costs and save time by eliminating the need for physical staging and in-person property viewings.</p>
                             </div>
                             <div className="arcviz_benifit">
                                 <img src="/assets/img/arckwiz-benefits/wider.svg" alt="" />
-                                <div>Wider Reach</div>
-                                <p>Reach a wider audience of potential buyers and clients by offering immersive virtual experiences.</p>
+                                <div style={{ color: "black" }}>Wider Reach</div>
+                                <p style={{ color: "black" }}>Reach a wider audience of potential buyers and clients by offering immersive virtual experiences.</p>
                             </div>
                             <div className="arcviz_benifit">
                                 <img src="/assets/img/arckwiz-benefits/streamlined.svg" alt="" />
-                                <div>Streamlined Transactions</div>
-                                <p>Simplify real estate transactions with virtual commerce, making buying and selling properties more convenient.</p>
+                                <div style={{ color: "black" }}>Streamlined Transactions</div>
+                                <p style={{ color: "black" }}>Simplify real estate transactions with virtual commerce, making buying and selling properties more convenient.</p>
                             </div>
                             <div className="arcviz_benifit">
                                 <img src="/assets/img/arckwiz-benefits/communication.svg" alt="" />
-                                <div>Enhanced Communication</div>
-                                <p>Foster clearer communication among project stakeholders with immersive virtual tours and digital twin technology.</p>
+                                <div style={{ color: "black" }}>Enhanced Communication</div>
+                                <p style={{ color: "black" }}>Foster clearer communication among project stakeholders with immersive virtual tours and digital twin technology.</p>
                             </div>
                             <div className="arcviz_benifit">
                                 <img src="/assets/img/arckwiz-benefits/increasedtenan.svg" alt="" />
-                                <div>Increased Tenant Satisfaction</div>
-                                <p>Provide tenants with virtual instructions and tours, improving their understanding and satisfaction with their rental property.</p>
+                                <div style={{ color: "black" }}>Increased Tenant Satisfaction</div>
+                                <p style={{ color: "black" }}>Provide tenants with virtual instructions and tours, improving their understanding and satisfaction with their rental property.</p>
                             </div>
                             <div className="arcviz_benifit">
                                 <img src="/assets/img/arckwiz-benefits/accelarated.svg" alt="" />
-                                <div>Accelerated Design Process</div>
-                                <p>Speed up the design process with real-time analytics and collaborative architectural visualization tools.</p>
+                                <div style={{ color: "black" }}>Accelerated Design Process</div>
+                                <p style={{ color: "black" }}>Speed up the design process with real-time analytics and collaborative architectural visualization tools.</p>
                             </div>
                             <div className="arcviz_benifit">
                                 <img src="/assets/img/arckwiz-benefits/competitive.svg" alt="" />
-                                <div>Competitive Advantage</div>
-                                <p>Stay ahead of the competition by offering cutting-edge immersive experiences that set your projects apart.</p>
+                                <div style={{ color: "black" }}>Competitive Advantage</div>
+                                <p style={{ color: "black" }}>Stay ahead of the competition by offering cutting-edge immersive experiences that set your projects apart.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
             {/* Raiden arcviz - use Case */}
-            <section className="service-section three">
+            <section className="service-section three" style={{ background: "white" }}>
                 <div className="auto-container">
                     <div className="row">
                         <div className="col-12">

@@ -17,7 +17,7 @@ const MobileGamewhyChoose = () => {
               <div className="left">
                 <div className="icon_container">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="/assets/img/mobile-game-whychoose/innovation.svg"
                     alt=""
                   />
                 </div>
@@ -34,7 +34,7 @@ const MobileGamewhyChoose = () => {
               <div className="left">
                 <div className="icon_container">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="/assets/img/mobile-game-whychoose/collabration.svg"
                     alt=""
                   />
                 </div>
@@ -51,7 +51,7 @@ const MobileGamewhyChoose = () => {
               <div className="left">
                 <div className="icon_container">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="/assets/img/mobile-game-whychoose/quality.svg"
                     alt=""
                   />
                 </div>
@@ -68,7 +68,7 @@ const MobileGamewhyChoose = () => {
               <div className="left">
                 <div className="icon_container">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="/assets/img/mobile-game-whychoose/client.svg"
                     alt=""
                   />
                 </div>

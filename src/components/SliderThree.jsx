@@ -131,7 +131,7 @@ const SliderThree = () => {
                     <span className="theme-color"> Legacy </span>
                   </h2>
                   <p className="description Hero_sub_heading" >
-                    Immerse Yourself in the Art of Gaming Creation - Let's Build Your Next Masterpiece Together!
+                    Immerse Yourself in the Art of Gaming Creation - Let's<br /> Build Your Next Masterpiece Together!
                   </p>
                   <Link className="default-btn" to="/contact">
                     Explore

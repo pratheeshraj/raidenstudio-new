@@ -58,7 +58,7 @@ const MobileGamePageProcess = () => {
                 >
                   <div className="devo_round_div">
                     <img
-                      src="/assets/img/aiprocessdevelopment/datacollection.svg"
+                      src="/assets/img/mobile-game-process/plan.svg"
                       alt=""
                     />
                   </div>
@@ -81,7 +81,7 @@ const MobileGamePageProcess = () => {
                 >
                   <div className="devo_round_div">
                     <img
-                      src="/assets/img/aiprocessdevelopment/model.svg"
+                      src="/assets/img/mobile-game-process/designanddev.svg"
                       alt=""
                     />
                   </div>{" "}
@@ -125,7 +125,7 @@ const MobileGamePageProcess = () => {
                 >
                   <div className="devo_round_div">
                     <img
-                      src="/assets/img/aiprocessdevelopment/deployment.svg"
+                      src="/assets/img/mobile-game-process/launchandopti.svg"
                       alt=""
                     />
                   </div>{" "}
@@ -148,7 +148,7 @@ const MobileGamePageProcess = () => {
                 >
                   <div className="devo_round_div">
                     <img
-                      src="/assets/img/aiprocessdevelopment/track.svg"
+                      src="/assets/img/mobile-game-process/support.svg"
                       alt=""
                     />
                   </div>{" "}
@@ -160,28 +160,6 @@ const MobileGamePageProcess = () => {
                       successful in the long run.
                     </p>
                     <span className="right-container-arrow"></span>
-                  </div>
-                </div>
-              </VisibilitySensor>
-              <VisibilitySensor onChange={onAnimationVisible}>
-                <div
-                  className={`container_devo left-container ${
-                    isVisible ? "visible" : ""
-                  }`}
-                >
-                  <div className="devo_round_div">
-                    <img
-                      src="/assets/img/aiprocessdevelopment/maintenance.svg"
-                      alt=""
-                    />
-                  </div>{" "}
-                  <div className="text-box">
-                    <h2>Maintenance and Support</h2>
-                    <p>
-                      Take advantage of our ongoing maintenance and support to
-                      guarantee that your AI solution stays cutting edge.
-                    </p>
-                    <span className="left-container-arrow"></span>
                   </div>
                 </div>
               </VisibilitySensor>

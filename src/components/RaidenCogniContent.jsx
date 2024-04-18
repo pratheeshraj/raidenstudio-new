@@ -55,7 +55,7 @@ const RaidenCogniContent = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
-    arrow:false
+    arrow: false
   };
   return (
     <>
@@ -80,7 +80,7 @@ const RaidenCogniContent = () => {
                 data-aos-delay="300"
               >
                 <div className="section-title-shape-one black">
-                  <h2 style={{ fontSize: "30px" }}>
+                  <h2 style={{ fontSize: "30px", margin: "0" }}>
                     Unlock Your Potential with <span>Cogni+</span>: Empowering
                     Minds, Enriching Lives
                   </h2>
@@ -89,17 +89,27 @@ const RaidenCogniContent = () => {
                   <ul>
                     <li>
                       <div>
-                        <p>
-                          Welcome to a revolutionary solution designed to
-                          empower individuals on the autism spectrum through
-                          immersive Virtual Reality (VR) training. Introducing
-                          Raiden COGNI+, a cutting-edge program meticulously
-                          crafted to cater specifically to the needs of those
-                          with autism. With a focus on enhancing social skills,
-                          communication abilities, and fostering a sense of
-                          independence, Raiden GOGNI+ is poised to redefine the
-                          landscape of autism intervention.
+                        <p style={{ color: "black", marginBottom: "8px" }}>
+                          We believe in the transformative power of technology to unlock human potential and enrich lives. Our mission is to Empowering Minds, Enriching Lives"
                         </p>
+                        <ul className="li-cogni">
+
+                          <li>
+                            • COGNI+ utilizes VR technology to empower individuals with ASD.
+                          </li>
+                          <li>
+                            •  Customizable & adaptive, our solution caters to individual needs.
+                          </li>
+                          <li>
+                            • We strive for inclusivity, understanding, and acceptance in society.
+                          </li>
+                          <li>
+                            • Continuous research ensures the effectiveness of our interventions.
+                          </li>
+                          <li>
+                            • COGNI+ goes beyond therapy, providing holistic support for ASD.
+                          </li>
+                        </ul>
                       </div>
                     </li>
                   </ul>
@@ -424,7 +434,7 @@ const RaidenCogniContent = () => {
           </div>
         </div>
       </section>
-      <section
+      {/* <section
         className="counter-section one"
         style={{
           backgroundSize: "cover",
@@ -497,8 +507,8 @@ const RaidenCogniContent = () => {
             </div>
           </div>
         </div>
-      </section>
-      <section className="cogni_lesson">
+      </section> */}
+      <section className="cogni_lesson" style={{ background: "white" }}>
         <div className="auto-container cogni_lesson_container">
           <h2>
             LESSONS FOR <span>DEVELOPING</span> PRACTICAL{" "}
@@ -642,7 +652,7 @@ const RaidenCogniContent = () => {
                   alt=""
                 />
               </div>
-              <h6>Classroom Social Skills</h6>
+              <h6>Classroom Social</h6>
               <p>
                 Develop essential social skills for the classroom environment.
                 Practice active listening, group participation, and

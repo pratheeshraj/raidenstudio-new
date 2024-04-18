@@ -12,6 +12,7 @@
     background: white;
     border-radius: 30px;
     padding: 30px 30px 30px 200px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .right_div p {
@@ -28,6 +29,7 @@
     background-position: center;
     border-radius: 30px;
     left: 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .left_background_div {

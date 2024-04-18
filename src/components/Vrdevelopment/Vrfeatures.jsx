@@ -11,55 +11,55 @@ function Vrfeatures() {
                     </p>
                     <div className='feature_div'>
                         <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/blockchainintegration.svg' />
+                            <img src='/assets/img/vr-feature-and-benefit/3den.svg' />
                             <div>3D Environment Creation</div>
                         </div>
                         <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/dataencryption.svg' />
+                            <img src='/assets/img/vr-feature-and-benefit/customerexper.svg' />
                             <div style={{ whiteSpace: "nowrap" }}>Real-Life Customer<br /> Experience</div>
                         </div>
                         <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/secur.svg' />
+                            <img src='/assets/img/vr-feature-and-benefit/enhancedrequire.svg' />
                             <div>Enhanced Recruitment</div>
                         </div>
                         <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/scalable to peak.svg' />
+                            <img src='/assets/img/vr-feature-and-benefit/interacti.svg' />
                             <div>Interactivity</div>
                         </div>
                         <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/crosssite.svg' />
+                            <img src='/assets/img/vr-feature-and-benefit/fastadap.svg' />
                             <div>Fast adaptation</div>
                         </div>
                         <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/ssrf.svg' />
+                            <img src='/assets/img/vr-feature-and-benefit/Spatial Audio.svg' />
                             <div>Spatial Audio</div>
                         </div>
                         <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/http.svg' />
+                            <img src='/assets/img/vr-feature-and-benefit/Training Platform.svg' />
                             <div>Incredible Training Platform</div>
                         </div>
                         <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/ddos.svg' />
+                            <img src='/assets/img/vr-feature-and-benefit/revolunizedwork.svg' />
                             <div>Revolutionized Workplace</div>
                         </div>
                         <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/virtual events.svg' />
+                            <img src='/assets/img/vr-feature-and-benefit/advancedmarket.svg' />
                             <div>Advanced Marketing</div>
                         </div>
                         <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/no border.svg' />
+                            <img src='/assets/img/vr-feature-and-benefit/multiuser.svg' />
                             <div>Multiuser Experiences</div>
                         </div>
                         <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/virtual envir.svg' />
+                            <img src='/assets/img/vr-feature-and-benefit/scalable.svg' />
                             <div>Scalability</div>
                         </div>
                         <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/metaverse communication.svg' />
+                            <img src='/assets/img/vr-feature-and-benefit/analytics.svg' />
                             <div>Analytics Integration</div>
                         </div>
                         <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/metaverse communication.svg' />
+                            <img src='/assets/img/vr-feature-and-benefit/transperanc.svg' />
                             <div>Transparency</div>
                         </div>
                     </div>

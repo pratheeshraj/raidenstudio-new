@@ -115,6 +115,7 @@ const RaidenSimXContent = () => {
                     <li style={{ color: "black" }}>
                       <p> ● Stay ahead of emerging trends and technologies.</p>
                     </li>
+
                   </ul>
                 </div>
               </div>
@@ -137,11 +138,11 @@ const RaidenSimXContent = () => {
       <section>
         <div
           className="container-fulid key_features"
-          style={{ backgroundColor: "#00151e" }}
+          style={{ backgroundColor: "#F8F9FA" }}
         >
-          <h2 className="auto-container">Key Features</h2>
+          <h2 style={{ marginBottom: "80px", color: "black" }} className="auto-container">Key <span className="theme-color">Features</span></h2>
           <div className="auto-container row key_features_section_container">
-            <div className="key_features_card">
+            <div className="key_features_card key_features_card_white">
               <img src="/assets/img/raidensimx/key features/immersive.svg" alt="" />
               <h6> Immersive Simulations</h6>
               <p>
@@ -150,7 +151,7 @@ const RaidenSimXContent = () => {
                 beyond traditional methods.
               </p>
             </div>
-            <div className="key_features_card">
+            <div className="key_features_card key_features_card_white">
               <img src="/assets/img/raidensimx/key features/human.svg" alt="" />
               <h6> Human-Powered AI</h6>
               <p>
@@ -159,7 +160,7 @@ const RaidenSimXContent = () => {
                 individual learning needs.
               </p>
             </div>
-            <div className="key_features_card">
+            <div className="key_features_card key_features_card_white">
               <img src="/assets/img/raidensimx/key features/interactive.svg" alt="" />
               <h6> Interactive Learning</h6>
               <p>
@@ -168,7 +169,7 @@ const RaidenSimXContent = () => {
                 problem-solving skills.
               </p>
             </div>
-            <div className="key_features_card">
+            <div className="key_features_card key_features_card_white">
               <img src="/assets/img/raidensimx/key features/feedback.svg" alt="" />
               <h6> Adaptive Feedback</h6>
               <p>
@@ -176,7 +177,7 @@ const RaidenSimXContent = () => {
                 and make informed adjustments to your learning approach.
               </p>
             </div>
-            <div className="key_features_card">
+            <div className="key_features_card key_features_card_white">
               <img src="/assets/img/raidensimx/key features/community.svg" alt="" />
               <h6> Community Engagement</h6>
               <p>
@@ -185,7 +186,7 @@ const RaidenSimXContent = () => {
                 sharing.
               </p>
             </div>
-            <div className="key_features_card">
+            <div className="key_features_card key_features_card_white">
               <img src="/assets/img/raidensimx/key features/multi.svg" alt="" />
               <h6> Multi-disciplinary Approach</h6>
               <p>
@@ -197,12 +198,58 @@ const RaidenSimXContent = () => {
           </div>
         </div>
       </section>
+
+      <section className="faq-section three" style={{ background: "#00151E", padding: "50px 0" }}>
+        <div className="auto-container">
+          <div className="row">
+            <h2 style={{ textAlign: "center", color: "white" }}>
+              Industry
+              <span className="theme-color"> Verticals</span>
+            </h2>
+            <div className="feature_div" style={{ marginTop: "25px" }}>
+              <div className="feature_card idustry" style={{ width: "186px" }}>
+                <img src="/assets/img/nftindustries/art.svg" />
+                <div>Healthcare</div>
+              </div>
+              <div className="feature_card idustry" style={{ width: "186px" }}>
+                <img src="/assets/img/nftindustries/music.svg" />
+                <div>Education</div>
+              </div>
+              <div className="feature_card idustry" style={{ width: "186px" }}>
+                <img src="/assets/img/nftindustries/DIGITAL.SVG" />
+                <div>Manufacturing</div>
+              </div>
+              <div className="feature_card idustry" style={{ width: "186px" }}>
+                <img src="/assets/img/nftindustries/fashion.svg" />
+                <div>Information Technology</div>
+              </div>
+              <div className="feature_card idustry" style={{ width: "186px" }}>
+                <img src="/assets/img/nftindustries/metaverse.svg" />
+                <div>Finance</div>
+              </div>
+              <div className="feature_card idustry" style={{ width: "186px" }}>
+                <img src="/assets/img/nftindustries/automotive.svg" />
+                <div>Retail</div>
+              </div>
+              <div className="feature_card idustry" style={{ width: "186px" }}>
+                <img src="/assets/img/nftindustries/oilandgas.svg" />
+                <div>Hospitality</div>
+              </div>
+              <div className="feature_card idustry" style={{ width: "186px" }}>
+                <img src="/assets/img/nftindustries/manufacturing.svg" />
+                <div>Energy and Utilities</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section>
         <div
           className="container-fulid industry_wide_section"
           style={{ backgroundColor: "white" }}
         >
-          <h2 className="auto-container">Industry-Wide Use Cases</h2>
+          <h2 className="auto-container" style={{ color: "black" }}>Use <span className="theme-color">Cases</span></h2>
           <div className="auto-container row industry_wide_section_container ">
             <div className="industry_wide_card">
               <div className="classy_simx_bg"></div>
@@ -254,58 +301,13 @@ const RaidenSimXContent = () => {
           </div>
         </div>
       </section>
-      <section
-        className="counter-section one"
-        style={{
-          background: "url(/assets/img/bg-image/simxbanner.jpg)",
-          backgroundSize: "cover"
-        }}
-      >
-        <div className="auto-container">
-          <div
-            className="award-part "
-            data-aos="fade-up"
-            data-aos-delay="300"
-            style={{ paddingTop: "0", paddingBottom: "0" }}
-          >
-            <div
-              className="row"
-              style={{ display: "flex", alignItems: "center" }}
-            >
-              <div className="col-lg-6">
-                <div className="title">
-                  <h2>
-                    Ready to revolutionize{" "}
-                    <span className="theme-color">
-                      learning and drive success
-                    </span>{" "}
-                    in your industry?
-                  </h2>
-                  <p>
-                    Let's partner together to unlock the full potential of
-                    immersive simulations and human-powered AI. Contact us today
-                    to explore partnership opportunities and discover how
-                    RaidensimX can transform your
-                  </p>
-                  <div className="inner-btn d-adjust">
-                    <div>
-                      <Link className="default-btn" to="/contact">
-                        Let’s Work To Do{" "}
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+
       <section>
         <div
           className="container-fulid How_it_works"
-          style={{ backgroundColor: "white" }}
+          style={{ backgroundColor: "#F8F9FA" }}
         >
-          <h2 className="auto-container">How It Works</h2>
+          <h2 className="auto-container" style={{ color: "black" }}>How It <span className="theme-color">Works</span></h2>
 
           <div className="auto-container row How_it_works_section_container">
             <div className="How_it_works_main">
@@ -446,55 +448,61 @@ const RaidenSimXContent = () => {
           </div>
         </div>
       </section>
-      <section className="faq-section three" style={{ background: "#00151E" }}>
+
+      <section
+        className="counter-section one"
+        style={{
+          background: "url(/assets/img/bg-image/simxbanner.jpg)",
+          backgroundSize: "cover"
+        }}
+      >
         <div className="auto-container">
-          <div className="row">
-            <h2 style={{ textAlign: "center", color: "white" }}>
-              <span className="theme-color"> Industry Verticals</span>
-            </h2>
-            <div className="feature_div">
-              <div className="feature_card idustry" style={{ width: "186px" }}>
-                <img src="/assets/img/nftindustries/art.svg" />
-                <div>Healthcare</div>
-              </div>
-              <div className="feature_card idustry" style={{ width: "186px" }}>
-                <img src="/assets/img/nftindustries/music.svg" />
-                <div>Education</div>
-              </div>
-              <div className="feature_card idustry" style={{ width: "186px" }}>
-                <img src="/assets/img/nftindustries/DIGITAL.SVG" />
-                <div>Manufacturing</div>
-              </div>
-              <div className="feature_card idustry" style={{ width: "186px" }}>
-                <img src="/assets/img/nftindustries/fashion.svg" />
-                <div>Information Technology</div>
-              </div>
-              <div className="feature_card idustry" style={{ width: "186px" }}>
-                <img src="/assets/img/nftindustries/metaverse.svg" />
-                <div>Finance</div>
-              </div>
-              <div className="feature_card idustry" style={{ width: "186px" }}>
-                <img src="/assets/img/nftindustries/automotive.svg" />
-                <div>Retail</div>
-              </div>
-              <div className="feature_card idustry" style={{ width: "186px" }}>
-                <img src="/assets/img/nftindustries/oilandgas.svg" />
-                <div>Hospitality</div>
-              </div>
-              <div className="feature_card idustry" style={{ width: "186px" }}>
-                <img src="/assets/img/nftindustries/manufacturing.svg" />
-                <div>Energy and Utilities</div>
+          <div
+            className="award-part "
+            data-aos="fade-up"
+            data-aos-delay="300"
+            style={{ paddingTop: "0", paddingBottom: "0" }}
+          >
+            <div
+              className="row"
+              style={{ display: "flex", alignItems: "center" }}
+            >
+              <div className="col-lg-6">
+                <div className="title">
+                  <h2>
+                    Ready to revolutionize{" "}
+                    <span className="theme-color">
+                      learning and drive success
+                    </span>{" "}
+                    in your industry?
+                  </h2>
+                  <p>
+                    Let's partner together to unlock the full potential of
+                    immersive simulations and human-powered AI. Contact us today
+                    to explore partnership opportunities and discover how
+                    RaidensimX can transform your
+                  </p>
+                  <div className="inner-btn d-adjust">
+                    <div>
+                      <Link className="default-btn" to="/contact">
+                        Let’s Work To Do{" "}
+                      </Link>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+
+
       <section>
         <div
           className="container-fulid RaidensimX_benefit"
           style={{ backgroundColor: "white" }}
         >
-          <h2 className="auto-container">Who Can Benefit</h2>
+          <h2 className="auto-container" style={{ color: "black" }}>Who Can <span className="theme-color">Benefit</span></h2>
           <div className="auto-container row RaidensimX_benefit_container ">
             <div className="RaidensimX_benefit_card">
               <img src={Students} alt="" />
@@ -536,7 +544,7 @@ const RaidenSimXContent = () => {
           className="container-fulid RaidensimX_commitment"
           style={{ backgroundColor: "#f8f9fa" }}
         >
-          <h2 className="auto-container">Our Commitment</h2>
+          <h2 className="auto-container" style={{ color: "black" }}>Our <span className="theme-color">Commitment</span></h2>
           <div className="auto-container row RaidensimX_commitment_container ">
             <h5>
               At Raiden we are <span>committed to</span>
@@ -582,12 +590,10 @@ const RaidenSimXContent = () => {
                 data-aos="fade-right"
                 data-aos-delay="300"
               >
-                <h3>FAQ For Artificial Intelligence </h3>
                 <h2>
-                  The goal of Artificial <br />
-                  <span className="theme-color">intelligence</span>
+                  FAQ
                 </h2>
-                <p>
+                <p style={{ marginBottom: "10px" }}>
                   Explore commonly asked questions about RaidensimX's immersive
                   Training solutions. Get quick answers to your queries and
                   learn more about how our technology is revolutionizing
@@ -611,14 +617,8 @@ const RaidenSimXContent = () => {
                 className="faq-inner "
                 data-aos="fade-left"
                 data-aos-delay="300"
+                style={{ marginTop: "160px" }}
               >
-                <div className="icon-shape">
-                  <img
-                    className="img-fluid"
-                    src="/assets/img/icon/23_icon.png"
-                    alt=""
-                  />
-                </div>
                 <div className="intro">
                   <h3>Common Question &amp; Answer</h3>
                 </div>

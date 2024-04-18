@@ -9,32 +9,32 @@ function AsUseCase() {
                     <p style={{ color: "black" }} className='raidenarcviz_card_p'>Explore real-world scenarios showcasing how businesses across industries leverage our AIaaS offerings to drive innovation, improve efficiency, and deliver superior customer experiences.</p>
                     <div className="arcviz_benifit_div">
                         <div className="arcviz_benifit">
-                            <img src="/assets/img/arckwiz-benefits/enhanced.svg" alt="" />
+                            <img src="/assets/img/ai-as-real world/aichatbot.svg" alt="" />
                             <div style={{ color: "black" }}>Customer Support Chatbots</div>
                             <p style={{ color: "black" }}> Enhance customer service efficiency with AI-powered chatbots, providing instant support and personalized assistance round the clock.</p>
                         </div>
                         <div className="arcviz_benifit">
-                            <img src="/assets/img/arckwiz-benefits/enhanced.svg" alt="" />
+                            <img src="/assets/img/ai-as-real world/maintenan.svg" alt="" />
                             <div style={{ color: "black" }}>Predictive Maintenance</div>
                             <p style={{ color: "black" }}>Optimize equipment reliability and reduce downtime by implementing AI-driven predictive maintenance, detecting potential failures before they occur.  </p>
                         </div>
                         <div className="arcviz_benifit">
-                            <img src="/assets/img/arckwiz-benefits/enhanced.svg" alt="" />
+                            <img src="/assets/img/ai-as-real world/imagereg.svg" alt="" />
                             <div style={{ color: "black" }}>Image Recognition in Retail</div>
                             <p style={{ color: "black" }}>  Revolutionize retail operations with AI-powered image recognition, enabling automated product tagging, visual search, and inventory management.</p>
                         </div>
                         <div className="arcviz_benifit">
-                            <img src="/assets/img/arckwiz-benefits/enhanced.svg" alt="" />
+                            <img src="/assets/img/ai-as-real world/fruad.svg" alt="" />
                             <div style={{ color: "black" }}>Fraud Detection in Finance</div>
                             <p style={{ color: "black" }}>	Safeguard financial transactions and mitigate fraud risks using AI-based fraud detection systems, analyzing patterns and anomalies in real-time data.</p>
                         </div>
                         <div className="arcviz_benifit">
-                            <img src="/assets/img/arckwiz-benefits/enhanced.svg" alt="" />
-                            <div style={{ color: "black" }}>Personalized Recommendations in E-commerce</div>
+                            <img src="/assets/img/ai-as-real world/.svg" alt="" />
+                            <div style={{ color: "black" }}>E-commerce</div>
                             <p style={{ color: "black" }}> 	Drive sales and enhance customer engagement with AI-driven personalized product recommendations tailored to individual preferences and behavior.</p>
                         </div>
                         <div className="arcviz_benifit">
-                            <img src="/assets/img/arckwiz-benefits/enhanced.svg" alt="" />
+                            <img src="/assets/img/ai-as-real world/healthcare.svg" alt="" />
                             <div style={{ color: "black" }}>Healthcare Diagnostics</div>
                             <p style={{ color: "black" }}>Improve diagnostic accuracy and patient outcomes in healthcare with AI-enabled medical image analysis, assisting clinicians in identifying and diagnosing medical conditions</p>
                         </div>

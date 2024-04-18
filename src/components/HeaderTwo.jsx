@@ -2,13 +2,72 @@ import React, { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./HeaderTwo.css";
 import logo_img from "../images/raiden-logo.png";
+import CaseStudies from './CaseStudies';
+import { useSelector } from "react-redux";
 const HeaderTwo = () => {
   const [active, setActive] = useState(false);
   const [scroll, setScroll] = useState(false);
   const [rightSidebar, setRightSidebar] = useState(false);
   const [search, setSearch] = useState(false);
-
   const [hoveredIndex, setHoveredIndex] = useState(null);
+
+  const [raidenXr,setRaidenXr] = useState(false);
+  const [raidenGame,setRaidenGame] = useState(false);
+
+ const handleRaidenXr= () => {
+  setRaidenXr(true)
+  setRaidenGame(false)
+  }
+
+  const handleRaidenGame= () => {
+    setRaidenXr(false)
+    setRaidenGame(true)
+  }
+
+
+  const [blockchain, setBlockchain] = useState(false);
+  const [ai, setAi] = useState(false);
+  const [xr, setXr] = useState(false);
+  const [game, setGame] = useState(false);
+
+  const handleBlockchain = () => {
+    setBlockchain(true)
+    setXr(false)
+    setAi(false)
+    setGame(false)
+  }
+
+  const handleXr = () => {
+    setBlockchain(false)
+    setXr(true)
+    setAi(false)
+    setGame(false)
+  }
+
+  const handleAi = () => {
+    setBlockchain(false)
+    setXr(false)
+    setAi(true)
+    setGame(false)
+  }
+
+  const handleGame = () => {
+    setBlockchain(false)
+    setXr(false)
+    setAi(false)
+    setGame(true)
+  }
+
+
+  const { allBlogs } = useSelector(
+    (state) => state.blogState
+  );
+  useEffect(() => {
+    console.log(allBlogs);
+  }, [])
+
+
+
   // /gameproduct-details
   // product progress bar
 
@@ -852,9 +911,9 @@ const HeaderTwo = () => {
                 </div>
                 <div className=" col-lg-2 d-none d-lg-block">
                   <div className="trigger">
-                    <span onClick={searchFun}>
+                    {/* <span onClick={searchFun}>
                       <i className="fa-regular fa-magnifying-glass " />
-                    </span>
+                    </span> */}
                     <span className="sidebar-toggle" onClick={rightSide}>
                       <i className="fa-solid fa-bars-sort " />
                     </span>
@@ -898,267 +957,356 @@ const HeaderTwo = () => {
         className={`sidebar__area ${active === true ? "sidebar-opened" : ""} `}
       >
         <div className="sidebar__wrapper">
-          <div className="sidebar__close">
-            <button
-              className="sidebar__close-btn"
-              id="sidebar__close-btn"
-              onClick={mobileMenu}
-            >
-              <i className="fal fa-times" />
-            </button>
-          </div>
           <div className="sidebar__content">
             <div className="sidebar-logo mb-40 mt-40">
               <NavLink to="/index">
-                <img src="assets/img/common/logo-white.png" alt="logo" />
+                <img src={logo_img} alt="logo" />
               </NavLink>
             </div>
-            {/* <div className="sidebar__search mb-25">
-              <form action="#">
-                <input type="text" placeholder="What are you searching for?" />
-                <button type="submit">
-                  <i className="far fa-search" />
-                </button>
-              </form>
-            </div> */}
             <nav className="offcanvas-navigation" id="offcanvas-navigation">
               <ul>
                 <li className="menu-item-has-children">
                   <NavLink to="/">Home</NavLink>
                 </li>
                 <li className="menu-item-has-children">
-                  <Link to="#">Product</Link>
-                  <ul className="sub-menu">
-                    <li>
-                      <NavLink
-                        to="/project-details"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
-                      >
-                        Raiden Verse
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink
-                        to="#"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
-                      >
-                        Raiden SimX
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink
-                        to="#"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
-                      >
-                        Raiden COGNI+
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink
-                        to="#"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
-                      >
-                        Raiden ARCVIZ
-                      </NavLink>
-                    </li>
-                  </ul>
-                </li>
-                <li className="menu-item-has-children">
-                  <Link to="#">Service</Link>
+                  <Link to="#">products</Link>
                   <ul className="sub-menu">
                     <li className="menu-item-has-children">
-                      <Link className="sub_heading_color" to="#">
-                        Blockchain
-                      </Link>
-                      <ul className="sub-menu">
-                        <li>
-                          <NavLink
-                            to="#"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            NFT
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink
-                            to="#"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            NFT MARKETPLACE
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink
-                            to="#"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            LAYER1 and Layer 2 Solutions
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink
-                            to="#"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            DEFI
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink
-                            to="#"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            Metaverse
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink
-                            to="#"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            Blockchain Games
-                          </NavLink>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                  <ul className="sub-menu">
-                    <li className="menu-item-has-children">
-                      <Link className="sub_heading_color" to="#">
-                        AI
-                      </Link>
-                      <ul className="sub-menu">
-                        <li>
-                          <NavLink
-                            to="#"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            Generative AI Consulting
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink
-                            to="/service-details"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            Generative AI Development
-                          </NavLink>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                  <ul className="sub-menu">
-                    <li className="menu-item-has-children">
-                      <Link className="sub_heading_color" to="#">
+                      <Link style={{ display: "flex", justifyContent: "end", alignItems: "center", justifyContent: "space-between" }} onClick={handleRaidenXr} className="sub_heading_color" to="#">
                         XR
+                        <span><i style={{ position: "relative", right: "65px" }} class="fa-solid fa-plus"></i></span>
                       </Link>
-                      <ul className="sub-menu">
-                        <li>
-                          <NavLink
-                            to="#"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            AR Services
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink
-                            to="#"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            VR Services
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink
-                            to="#"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            Digital Twin
-                          </NavLink>
-                        </li>
-                      </ul>
+                      {
+                        raidenXr ? <ul className="sub-menu">
+                          <li>
+                            <NavLink
+                              to="/raiden-verse"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              Raiden Verse
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink
+                              to="/raiden-simx"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              Raiden SimX
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink
+                              to="/raiden-cogni"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              Raiden COGNI+
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink
+                              to="/raiden-arcviz"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                             Raiden ARCVIZ
+                            </NavLink>
+                          </li>
+                        </ul> : ""
+                      }
                     </li>
                   </ul>
                   <ul className="sub-menu">
                     <li className="menu-item-has-children">
-                      <Link className="sub_heading_color" to="#">
-                        GAME
+                      <Link style={{ display: "flex", justifyContent: "end", alignItems: "center", justifyContent: "space-between" }} onClick={handleRaidenGame} className="sub_heading_color" to="#">
+                      game
+                        <span><i style={{ position: "relative", right: "65px" }} class="fa-solid fa-plus"></i></span>
                       </Link>
-                      <ul className="sub-menu">
-                        <li>
-                          <NavLink
-                            to="#"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            (league of legends) LOL CLONE
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink
-                            to="#"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            (clash of clans) COC CLONE
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink
-                            to="#"
-                            className={(navData) =>
-                              navData.isActive ? "active" : ""
-                            }
-                          >
-                            Metaverse CASINO
-                          </NavLink>
-                        </li>
-                      </ul>
+                      {
+                        raidenGame ? <ul className="sub-menu">
+                          <li>
+                            <NavLink
+                              to="/clash-of-empires"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                             Realm Wars: Clash of Empires
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink
+                              to="/virtual-vegas"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              Virtual Vegas
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink
+                              to="/metaverse-royale"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                             Metaverse Royale
+                            </NavLink>
+                          </li>
+                        </ul> : ""
+                      }
                     </li>
                   </ul>
                 </li>
                 <li className="menu-item-has-children">
-                  <NavLink to="/">Insights</NavLink>
+                  <Link to="#">Services</Link>
+                  <ul className="sub-menu">
+                    <li className="menu-item-has-children">
+                      <Link style={{ display: "flex", justifyContent: "end", alignItems: "center", justifyContent: "space-between" }} onClick={handleBlockchain} className="sub_heading_color" to="#">
+                        Blockchain
+                        <span><i style={{ position: "relative", right: "65px" }} class="fa-solid fa-plus"></i></span>
+                      </Link>
+                      {
+                        blockchain ? <ul className="sub-menu">
+                          <li>
+                            <NavLink
+                              to="/custom-blockchain"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              Custom Blockchain
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink
+                              to="/nft"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              NFT
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink
+                              to="/web3"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              WEB3
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink
+                              to="/defi"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              DEFI
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink
+                              to="/metaverse"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              Metaverse
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink
+                              to="/blockchain-game"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              Blockchain Game
+                            </NavLink>
+                          </li>
+                        </ul> : ""
+                      }
+                    </li>
+                  </ul>
+                  <ul className="sub-menu">
+                    <li className="menu-item-has-children">
+                      <Link style={{ display: "flex", justifyContent: "end", alignItems: "center", justifyContent: "space-between" }} onClick={handleAi} className="sub_heading_color" to="#">
+                        AI
+                        <span><i style={{ position: "relative", right: "65px" }} class="fa-solid fa-plus"></i></span>
+                      </Link>
+                      {
+                        ai ? <ul className="sub-menu">
+                          <li>
+                            <NavLink
+                              to="/ai-as-a-service"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              AI as a Service
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink
+                              to="/generative-ai-development"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              Generative AI Development
+                            </NavLink>
+                          </li>
+                        </ul> : ""
+                      }
+                    </li>
+                  </ul>
+                  <ul className="sub-menu">
+                    <li className="menu-item-has-children">
+                      <Link style={{ display: "flex", justifyContent: "end", alignItems: "center", justifyContent: "space-between" }} onClick={handleXr} className="sub_heading_color" to="#">
+                        XR
+                        <span><i style={{ position: "relative", right: "65px" }} class="fa-solid fa-plus"></i></span>
+                      </Link>
+                      {
+                        xr ? <ul className="sub-menu">
+                          <li>
+                            <NavLink
+                              to="/ar-services"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              AR Services
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink
+                              to="/vr-services"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              VR Services
+                            </NavLink>
+                          </li>
+                        </ul> : ""
+                      }
+                    </li>
+                  </ul>
+                  <ul className="sub-menu">
+                    <li className="menu-item-has-children">
+                      <Link style={{ display: "flex", justifyContent: "end", alignItems: "center", justifyContent: "space-between" }} onClick={handleGame} className="sub_heading_color" to="#">
+                        GAME
+                        <span><i style={{position:"relative",right:"65px"}} class="fa-solid fa-plus"></i></span>
+                      </Link>
+                      {
+                        game ? <ul className="sub-menu">
+                          <li>
+                            <NavLink
+                              to="/mobile-game-development"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              Mobile Game Development
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink
+                              to="/unity-development"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              Unity Development
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink
+                              to="/unreal-development"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              Unreal Development
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink
+                              to="/mmorpg-game-development"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              mmorpg game development
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink
+                              to="/p2e-game-develpment"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              P2E Game Development
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink
+                              to="/web3-game-develpment"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              Web3 Game Development
+                            </NavLink>
+                          </li>
+                        </ul> : " "
+                      }
+                    </li>
+                  </ul>
                 </li>
                 <li className="menu-item-has-children">
-                  <Link to="#">Product</Link>
+                  <Link to="#">Resources</Link>
                   <ul className="sub-menu">
                     <li>
                       <NavLink
-                        to="#"
+                        to="/blog"
+                        className={(navData) =>
+                          navData.isActive ? "active" : ""
+                        }
+                      >
+                        Blogs
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        to="/case-studies"
+                        className={(navData) =>
+                          navData.isActive ? "active" : ""
+                        }
+                      >
+                        Case studies
+                      </NavLink>
+                    </li>
+                  </ul>
+                </li>
+                <li className="menu-item-has-children">
+                  <Link to="#">company</Link>
+                  <ul className="sub-menu">
+                    <li>
+                      <NavLink
+                        to="/about-us"
                         className={(navData) =>
                           navData.isActive ? "active" : ""
                         }
@@ -1168,7 +1316,7 @@ const HeaderTwo = () => {
                     </li>
                     <li>
                       <NavLink
-                        to="#"
+                        to="/carrer"
                         className={(navData) =>
                           navData.isActive ? "active" : ""
                         }
@@ -1178,7 +1326,7 @@ const HeaderTwo = () => {
                     </li>
                     <li>
                       <NavLink
-                        to="#"
+                        to="/contact-us"
                         className={(navData) =>
                           navData.isActive ? "active" : ""
                         }
@@ -1253,9 +1401,7 @@ const HeaderTwo = () => {
               <div className="logo">
                 <img
                   className="img-fluid"
-                  src="/assets/img/common/logo-black.png"
-                  alt=""
-                />
+                  src={logo_img} alt="" />
               </div>
               <p>
                 Oracle Cloud Infrastructure (OCI) AI Services is a collection of
@@ -1266,7 +1412,28 @@ const HeaderTwo = () => {
             </div>
             <div className="intro-text">
               <div className="title-text">
-                <h3>Gallery</h3>
+                <h3>Blogs</h3>
+              </div>
+              <div className="img-file">
+                {
+                  allBlogs?.slice(-6).map((item, index) => {
+                    return (
+                      <Link to={`/blogdetails/${item.url}`}>
+                        <img
+                          className="img-fluid"
+                          style={{ height: "100%" }}
+                          src={item.imageurl}
+                          alt=""
+                        />
+                      </Link>
+                    )
+                  })
+                }
+              </div>
+            </div>
+            <div className="intro-text">
+              <div className="title-text">
+                <h3>Case Studies</h3>
               </div>
               <div className="img-file">
                 <img
@@ -1303,19 +1470,13 @@ const HeaderTwo = () => {
             </div>
             <div className="intro-text">
               <div className="title-text">
-                <h3>About FaconTech</h3>
+                <h3>About Raiden</h3>
                 <p>
                   Most people focus on the results of AI. For those of us who
                   like to look under the hood, there are four foundational
                   elements to understand: categorization, classification,
                   machine learning, and collaborative filtering.
                 </p>
-              </div>
-            </div>
-            <div className="intro-text">
-              <div className="title-text">
-                <h3>Need To Location</h3>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d29176.030811137334!2d90.3883827!3d23.924917699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1605272373598!5m2!1sen!2sbd" />
               </div>
             </div>
             <div className="intro-text">

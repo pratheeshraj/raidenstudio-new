@@ -45,7 +45,7 @@ const RaidenSimx = () => {
                 <div className="container pb-4 ">
                   <div className="row">
                     <div
-                      className="col-lg-7"
+                      className="col-lg-6"
                       data-aos="fade-up"
                       data-aos-delay="300"
                     >
@@ -56,7 +56,7 @@ const RaidenSimx = () => {
                       </div>
                       <div className="inner-des">
                         <p>
-                          At <span>Raiden</span>, we specialize in
+                          We specialize in
                           revolutionizing the learning experience through
                           immersive simulations powered by human-guided
                           artificial intelligence. Our cutting-edge technology
@@ -66,7 +66,7 @@ const RaidenSimx = () => {
                         </p>
                       </div>
                     </div>
-                    <div className="col-lg-5">
+                    <div className="col-lg-6">
                       <div
                         className="widget-project"
                         data-aos="fade-up"
@@ -79,7 +79,7 @@ const RaidenSimx = () => {
                         </div>
                         <div className="inner-des2">
                           <p>
-                            Raiden is a team of passionate innovators,
+                            Team of passionate innovators,
                             educators, and technologists dedicated to pushing
                             the boundaries of traditional learning methods. With
                             a diverse range of expertise in AI, education, and

@@ -43,7 +43,7 @@ function VrIndustries() {
                             <div>Real Estate</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/meta-indust/defence.svg' />
+                        <img style={{ marginLeft: "25px" }} src='/assets/img/custom-industry/transport.svg' />
                             <div>Transportation
                             </div>
                         </div>
