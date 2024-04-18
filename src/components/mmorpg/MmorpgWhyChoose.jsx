@@ -16,7 +16,7 @@ const MmorpgWhyChoose = () => {
               <div className="left">
                 <div className="icon_container">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="\assets\img\mmorpg\mmorpg why choose\proventrack.svg"
                     alt=""
                   />
                 </div>
@@ -33,7 +33,7 @@ const MmorpgWhyChoose = () => {
               <div className="left">
                 <div className="icon_container">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="\assets\img\mmorpg\mmorpg why choose\innovativesol.svg"
                     alt=""
                   />
                 </div>
@@ -51,7 +51,7 @@ const MmorpgWhyChoose = () => {
               <div className="left">
                 <div className="icon_container">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="\assets\img\mmorpg\mmorpg why choose\collabrat.svg"
                     alt=""
                   />
                 </div>
@@ -69,7 +69,7 @@ const MmorpgWhyChoose = () => {
               <div className="left">
                 <div className="icon_container">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="\assets\img\mmorpg\mmorpg why choose\dedicatedsupport.svg"
                     alt=""
                   />
                 </div>

@@ -27,7 +27,7 @@ const UnityServicesSection = () => {
             }}
           >
             <img
-              src="/assets/img/raidensimx/key features/immersive.svg"
+              src="\assets\img\unity_game\unity suite of\game deve.svg"
               alt=""
             />
             <h6 style={{ color: "black" }}>Game Development</h6>
@@ -44,7 +44,7 @@ const UnityServicesSection = () => {
             }}
           >
             <img
-              src="/assets/img/raidensimx/key features/immersive.svg"
+              src="\assets\img\unity_game\unity suite of\ar.svg"
               alt=""
             />
             <h6 style={{ color: "black" }}> AR/VR Solutions</h6>
@@ -61,7 +61,7 @@ const UnityServicesSection = () => {
             }}
           >
             <img
-              src="/assets/img/raidensimx/key features/immersive.svg"
+              src="\assets\img\unity_game\unity suite of\interactive.svg"
               alt=""
             />
             <h6 style={{ color: "black" }}>Interactive Simulations</h6>
@@ -78,7 +78,7 @@ const UnityServicesSection = () => {
             }}
           >
             <img
-              src="/assets/img/raidensimx/key features/immersive.svg"
+              src="\assets\img\unity_game\unity suite of\uiux.svg"
               alt=""
             />
             <h6 style={{ color: "black" }}>UI/UX Design</h6>
@@ -95,7 +95,7 @@ const UnityServicesSection = () => {
             }}
           >
             <img
-              src="/assets/img/raidensimx/key features/immersive.svg"
+              src="\assets\img\unity_game\unity suite of\multipl.svg"
               alt=""
             />
             <h6 style={{ color: "black" }}> Multi-platform Deployment</h6>
@@ -112,7 +112,7 @@ const UnityServicesSection = () => {
             }}
           >
             <img
-              src="/assets/img/raidensimx/key features/immersive.svg"
+              src="\assets\img\unity_game\unity suite of\support.svg"
               alt=""
             />
             <h6 style={{ color: "black" }}> Maintenance & Support </h6>

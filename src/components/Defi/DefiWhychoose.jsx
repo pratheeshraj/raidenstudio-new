@@ -16,19 +16,19 @@ function DefiWhychoose() {
                         <div className="whychoose_right_div">
                             <div className='ai_whychoose_card_div'>
                                 <div style={{ background: "linear-gradient(136.76deg, #F40076 0%, #DF98FA 100%)" }} className='whychoose_ai_box'>
-                                    <img src='/assets/img/whychooseusai/EXPERTA.svg' />
+                                    <img src='\assets\img\defi\defi why choose\expertise.svg' />
                                 </div>
                                 <div className='whychoose_ai_content'>Expertise and Experience</div>
                             </div>
                             <div className='ai_whychoose_card_div'>
                                 <div style={{ background: "linear-gradient(136.76deg, #FCCF31 0%, #F55555 100%)" }} className='whychoose_ai_box'>
-                                    <img src='/assets/img/whychooseusai/R&D.svg' />
+                                    <img src='\assets\img\defi\defi why choose\tailored.svg' />
                                 </div>
                                 <div className='whychoose_ai_content'>Tailored Solutions</div>
                             </div>
                             <div className='ai_whychoose_card_div'>
                                 <div style={{ background: "linear-gradient(136.76deg, #ABDCFF 0%, #0396FF 100%)" }} className='whychoose_ai_box'>
-                                    <img src='/assets/img/whychooseusai/Security.svg' />
+                                    <img src='\assets\img\defi\defi why choose\commitment.svg' />
                                 </div>
                                 <div className='whychoose_ai_content'>Commitment to Quality</div>
                             </div>

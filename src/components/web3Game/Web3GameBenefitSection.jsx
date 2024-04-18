@@ -22,7 +22,7 @@ const Web3GameBenefitSection = () => {
               <div className="top_section">
                 <div className="icon">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="\assets\img\web3game\web3 benefits\enhanced.svg"
                     alt=""
                   />
                 </div>
@@ -39,7 +39,7 @@ const Web3GameBenefitSection = () => {
               <div className="top_section">
                 <div className="icon">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="\assets\img\web3game\web3 benefits\increased vmonitizatoion.svg"
                     alt=""
                   />
                 </div>
@@ -56,7 +56,7 @@ const Web3GameBenefitSection = () => {
               <div className="top_section">
                 <div className="icon">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="\assets\img\web3game\web3 benefits\community engage.svg"
                     alt=""
                   />
                 </div>
@@ -73,7 +73,7 @@ const Web3GameBenefitSection = () => {
               <div className="top_section">
                 <div className="icon">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="\assets\img\web3game\web3 benefits\trust and transp.svg"
                     alt=""
                   />
                 </div>
@@ -90,7 +90,7 @@ const Web3GameBenefitSection = () => {
               <div className="top_section">
                 <div className="icon">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="\assets\img\web3game\web3 benefits\innovative game play'.svg"
                     alt=""
                   />
                 </div>
@@ -107,7 +107,7 @@ const Web3GameBenefitSection = () => {
               <div className="top_section">
                 <div className="icon">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="\assets\img\web3game\web3 benefits\future proof.svg"
                     alt=""
                   />
                 </div>

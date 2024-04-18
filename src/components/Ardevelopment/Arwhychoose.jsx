@@ -14,37 +14,37 @@ function Arwhychoose() {
                         <div className="whychoose_right_div">
                             <div className='ai_whychoose_card_div'>
                                 <div style={{ background: "linear-gradient(136.76deg, #F40076 0%, #DF98FA 100%)" }} className='whychoose_ai_box'>
-                                    <img src='/assets/img/whychooseusai/EXPERTA.svg' />
+                                    <img src='\assets\img\ar\ar whychoose\agile.svg' />
                                 </div>
                                 <div className='whychoose_ai_content'>Agile Methodology</div>
                             </div>
                             <div className='ai_whychoose_card_div'>
                                 <div style={{ background: "linear-gradient(136.76deg, #FCCF31 0%, #F55555 100%)" }} className='whychoose_ai_box'>
-                                    <img src='/assets/img/whychooseusai/R&D.svg' />
+                                    <img src='\assets\img\ar\ar whychoose\techniknowledge.svg' />
                                 </div>
                                 <div className='whychoose_ai_content'>Technical Knowledge</div>
                             </div>
                             <div className='ai_whychoose_card_div'>
                                 <div style={{ background: "linear-gradient(136.76deg, #ABDCFF 0%, #0396FF 100%)" }} className='whychoose_ai_box'>
-                                    <img src='/assets/img/whychooseusai/Security.svg' />
+                                    <img src='\assets\img\ar\ar whychoose\reasionable.svg' />
                                 </div>
                                 <div className='whychoose_ai_content'>Reasonable Pricing</div>
                             </div>
                             <div className='ai_whychoose_card_div'>
                                 <div style={{ background: "linear-gradient(136.76deg, #90F7EC 0%, #32CCBC 100%)" }} className='whychoose_ai_box'>
-                                    <img src='/assets/img/whychooseusai/aisupport.svg' />
+                                    <img src='\assets\img\ar\ar whychoose\Custom.svg' />
                                 </div>
                                 <div className='whychoose_ai_content'>100% Custom Solutions</div>
                             </div>
                             <div className='ai_whychoose_card_div'>
                                 <div style={{ background: "linear-gradient(136.76deg, #F889D5 0%, #5650DE 100%)" }} className='whychoose_ai_box'>
-                                    <img src='/assets/img/whychooseusai/reliabi.svg' />
+                                    <img src='\assets\img\ar\ar whychoose\userfocus.svg' />
                                 </div>
                                 <div className='whychoose_ai_content'>User-Focused AR Apps</div>
                             </div>
                             <div className='ai_whychoose_card_div'>
                                 <div style={{ background: "linear-gradient(136.76deg, #FF9897 0%, #F650A0 100%)" }} className='whychoose_ai_box'>
-                                    <img src='/assets/img/whychooseusai/flexible.svg' />
+                                    <img src='\assets\img\ar\ar whychoose\dedicated.svg' />
                                 </div>
                                 <div className='whychoose_ai_content'>Dedicated Team</div>
                             </div>

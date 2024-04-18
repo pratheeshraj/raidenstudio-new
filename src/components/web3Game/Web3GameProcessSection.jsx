@@ -36,7 +36,7 @@ const Web3GameProcessSection = () => {
                 >
                   <div className="devo_round_div">
                     <img
-                      src="/assets/img/aiprocessdevelopment/discovery.svg"
+                      src="\assets\img\web3game\web3 dev process\planning.svg"
                       alt=""
                     />
                   </div>
@@ -58,7 +58,7 @@ const Web3GameProcessSection = () => {
                 >
                   <div className="devo_round_div">
                     <img
-                      src="/assets/img/aiprocessdevelopment/datacollection.svg"
+                      src="\assets\img\web3game\web3 dev process\design.svg"
                       alt=""
                     />
                   </div>
@@ -80,7 +80,7 @@ const Web3GameProcessSection = () => {
                 >
                   <div className="devo_round_div">
                     <img
-                      src="/assets/img/aiprocessdevelopment/model.svg"
+                      src="\assets\img\web3game\web3 dev process\development.svg"
                       alt=""
                     />
                   </div>{" "}
@@ -102,7 +102,7 @@ const Web3GameProcessSection = () => {
                 >
                   <div className="devo_round_div">
                     <img
-                      src="/assets/img/aiprocessdevelopment/testing.svg"
+                      src="\assets\img\web3game\web3 dev process\testing.svg"
                       alt=""
                     />
                   </div>{" "}
@@ -124,7 +124,7 @@ const Web3GameProcessSection = () => {
                 >
                   <div className="devo_round_div">
                     <img
-                      src="/assets/img/aiprocessdevelopment/deployment.svg"
+                      src="\assets\img\web3game\web3 dev process\launch.svg"
                       alt=""
                     />
                   </div>{" "}

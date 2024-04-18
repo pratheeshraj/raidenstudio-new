@@ -17,7 +17,7 @@ const UnityBenefitSection = () => {
               <div className="top_section">
                 <div className="icon">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="\assets\img\unity_game\unity benifits\immersive.svg"
                     alt=""
                   />
                 </div>
@@ -34,7 +34,7 @@ const UnityBenefitSection = () => {
               <div className="top_section">
                 <div className="icon">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="\assets\img\unity_game\unity benifits\scalable.svg"
                     alt=""
                   />
                 </div>
@@ -51,7 +51,7 @@ const UnityBenefitSection = () => {
               <div className="top_section">
                 <div className="icon">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="\assets\img\unity_game\unity benifits\multiplatform.svg"
                     alt=""
                   />
                 </div>
@@ -68,7 +68,7 @@ const UnityBenefitSection = () => {
               <div className="top_section">
                 <div className="icon">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="\assets\img\unity_game\unity benifits\learning.svg"
                     alt=""
                   />
                 </div>
@@ -85,7 +85,7 @@ const UnityBenefitSection = () => {
               <div className="top_section">
                 <div className="icon">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="\assets\img\unity_game\unity benifits\competitive edge.svg"
                     alt=""
                   />
                 </div>
@@ -102,7 +102,7 @@ const UnityBenefitSection = () => {
               <div className="top_section">
                 <div className="icon">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="\assets\img\unity_game\unity benifits\costeffecti.svg"
                     alt=""
                   />
                 </div>

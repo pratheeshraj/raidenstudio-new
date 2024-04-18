@@ -87,7 +87,7 @@
             overflow: hidden;
             img {
               width: 380px;
-              height:270px;
+              height: 270px;
               object-fit: cover;
             }
           }
@@ -244,6 +244,98 @@
             }
           }
         }
+      }
+    }
+  }
+}
+
+.search {
+  background: var(--common-white);
+  padding: 15px 20px;
+  border-radius: 5px;
+  .title {
+    h2 {
+      font-size: 20px;
+      line-height: 40px;
+      font-weight: 800;
+      color: var(--text-h);
+    }
+  }
+  .search-wrap {
+    .search-form {
+      position: relative;
+      overflow: hidden;
+      input {
+        background-color: transparent;
+        height: 50px;
+        padding: 6px 15px;
+        width: 100%;
+        display: block;
+        outline: 0;
+        @include transition(0.3s);
+        border: 1px solid #eee;
+        border-radius: 5px;
+        font-size: 16px;
+        overflow: hidden;
+      }
+      button {
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        width: 50px;
+        background: var(--theme-1);
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0px 5px 5px 0px;
+        @include transition(0.2s);
+        &:hover {
+          background: var(--common-body-1);
+        }
+      }
+    }
+  }
+}
+.casestudy_filter_container {
+  display: flex;
+  align-items: center;
+  @media #{$md, $sm, $xs, $xss} {
+    row-gap: 10px;
+  }
+}
+.casestudy_filter {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  @media #{$md, $sm, $xs, $xss} {
+    margin-bottom: 40px;
+    row-gap: 10px;
+  }
+  .filter {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+    @media #{$md, $sm, $xs, $xss} {
+      justify-content: space-around;
+    }
+    p {
+      color: black;
+      margin: 0;
+      width: fit-content;
+      width: 100px;
+    }
+    select {
+      height: 50px;
+      width: 250px;
+      outline: none;
+      border: 1px solid #eee;
+      border-radius: 5px;
+      padding: 0 10px 0 10px;
+      @media #{$md, $sm, $xs, $xss} {
+        width: 100%;
       }
     }
   }

@@ -27,7 +27,7 @@ const Web3GameServicesSection = () => {
             }}
           >
             <img
-              src="/assets/img/raidensimx/key features/immersive.svg"
+              src="\assets\img\web3game\web3 our web3 services\blockchaininteg.svg"
               alt=""
             />
             <h6 style={{ color: "black" }}> Blockchain Integration</h6>
@@ -44,7 +44,7 @@ const Web3GameServicesSection = () => {
             }}
           >
             <img
-              src="/assets/img/raidensimx/key features/immersive.svg"
+              src="\assets\img\web3game\web3 our web3 services\smartcontract.svg"
               alt=""
             />
             <h6 style={{ color: "black" }}> Smart Contract Development</h6>
@@ -61,7 +61,7 @@ const Web3GameServicesSection = () => {
             }}
           >
             <img
-              src="/assets/img/raidensimx/key features/immersive.svg"
+              src="\assets\img\web3game\web3 our web3 services\decentralized.svg"
               alt=""
             />
             <h6 style={{ color: "black" }}> Decentralized In-Game Economies</h6>
@@ -78,7 +78,7 @@ const Web3GameServicesSection = () => {
             }}
           >
             <img
-              src="/assets/img/raidensimx/key features/immersive.svg"
+              src="\assets\img\web3game\web3 our web3 services\nft integration.svg"
               alt=""
             />
             <h6 style={{ color: "black" }}> NFT Integration</h6>
@@ -95,7 +95,7 @@ const Web3GameServicesSection = () => {
             }}
           >
             <img
-              src="/assets/img/raidensimx/key features/immersive.svg"
+              src="\assets\img\web3game\web3 our web3 services\multiplayer.svg"
               alt=""
             />
             <h6 style={{ color: "black" }}> Multiplayer Functionality</h6>
@@ -113,7 +113,7 @@ const Web3GameServicesSection = () => {
             }}
           >
             <img
-              src="/assets/img/raidensimx/key features/immersive.svg"
+              src="\assets\img\web3game\web3 our web3 services\blockchainplatform.svg"
               alt=""
             />
             <h6 style={{ color: "black" }}>

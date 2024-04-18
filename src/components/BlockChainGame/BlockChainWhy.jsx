@@ -15,37 +15,37 @@ function BlockChainWhy() {
                         <div className="whychoose_right_div">
                             <div className='ai_whychoose_card_div'>
                                 <div style={{ background: "linear-gradient(136.76deg, #F40076 0%, #DF98FA 100%)" }} className='whychoose_ai_box'>
-                                    <img src='/assets/img/whychooseusai/EXPERTA.svg' />
+                                    <img src='\assets\img\blockchain_game\block game why choose\expertisde.svg' />
                                 </div>
                                 <div className='whychoose_ai_content'>Expertise</div>
                             </div>
                             <div className='ai_whychoose_card_div'>
                                 <div style={{ background: "linear-gradient(136.76deg, #FCCF31 0%, #F55555 100%)" }} className='whychoose_ai_box'>
-                                    <img src='/assets/img/whychooseusai/R&D.svg' />
+                                    <img src='\assets\img\blockchain_game\block game why choose\innovation.svg' />
                                 </div>
                                 <div className='whychoose_ai_content'>Innovation</div>
                             </div>
                             <div className='ai_whychoose_card_div'>
                                 <div style={{ background: "linear-gradient(136.76deg, #ABDCFF 0%, #0396FF 100%)" }} className='whychoose_ai_box'>
-                                    <img src='/assets/img/whychooseusai/Security.svg' />
+                                    <img src='\assets\img\blockchain_game\block game why choose\qualityassurance.svg' />
                                 </div>
                                 <div className='whychoose_ai_content'>Quality Assurance</div>
                             </div>
                             <div className='ai_whychoose_card_div'>
                                 <div style={{ background: "linear-gradient(136.76deg, #90F7EC 0%, #32CCBC 100%)" }} className='whychoose_ai_box'>
-                                    <img src='/assets/img/whychooseusai/aisupport.svg' />
+                                    <img src='\assets\img\blockchain_game\block game why choose\clientcentric.svg' />
                                 </div>
                                 <div className='whychoose_ai_content'>Client-Centric Approach</div>
                             </div>
                             <div className='ai_whychoose_card_div'>
                                 <div style={{ background: "linear-gradient(136.76deg, #F889D5 0%, #5650DE 100%)" }} className='whychoose_ai_box'>
-                                    <img src='/assets/img/whychooseusai/reliabi.svg' />
+                                    <img src='public\assets\img\ar\ar advantages of\brandawarn.svg' />
                                 </div>
                                 <div className='whychoose_ai_content'>Timely Delivery</div>
                             </div>
                             <div className='ai_whychoose_card_div'>
                                 <div style={{ background: "linear-gradient(136.76deg, #FF9897 0%, #F650A0 100%)" }} className='whychoose_ai_box'>
-                                    <img src='/assets/img/whychooseusai/flexible.svg' />
+                                    <img src='\assets\img\blockchain_game\block game why choose\suppor.svg' />
                                 </div>
                                 <div className='whychoose_ai_content'>Post-launch Support</div>
                             </div>

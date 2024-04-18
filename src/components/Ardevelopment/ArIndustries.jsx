@@ -22,7 +22,7 @@ function ArIndustries() {
                             <div>Power & Mining</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/industries/social-media@0.3x.pn' />
+                            <img src='\assets\img\ar\ar industry\musium.svg' />
                             <div>Museums & Experience Centers</div>
                         </div>
                         <div className='feature_card idustry'>
@@ -38,7 +38,7 @@ function ArIndustries() {
                             <div>Education</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/featue-metaverse/secur.sv' />
+                            <img src='\assets\img\ar\ar industry\marketinf.svg' />
                             <div> Marketing </div>
                         </div>
                         <div className='feature_card idustry'>
@@ -64,7 +64,7 @@ function ArIndustries() {
                             <div>Real Estate</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/industries/property@0.3x.pn' />
+                            <img src='\assets\img\ar\ar industry\virtual.svg' />
                             <div>Virtual collaboration</div>
                         </div>
                     </div>

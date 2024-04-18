@@ -25,7 +25,7 @@ const MmorpgServicesSection = () => {
             }}
           >
             <img
-              src="/assets/img/raidensimx/key features/immersive.svg"
+              src="\assets\img\mmorpg\mmorpg forge leg\conceptualiza.svg"
               alt=""
             />
             <h6 style={{ color: "black" }}> Conceptualization and Design</h6>
@@ -43,7 +43,7 @@ const MmorpgServicesSection = () => {
             }}
           >
             <img
-              src="/assets/img/raidensimx/key features/immersive.svg"
+              src="\assets\img\mmorpg\mmorpg forge leg\game dev.svg"
               alt=""
             />
             <h6 style={{ color: "black" }}> Game Development</h6>
@@ -60,7 +60,7 @@ const MmorpgServicesSection = () => {
             }}
           >
             <img
-              src="/assets/img/raidensimx/key features/immersive.svg"
+              src="\assets\img\mmorpg\mmorpg forge leg\multiplayer.svg"
               alt=""
             />
             <h6 style={{ color: "black" }}> Multiplayer Integration</h6>
@@ -77,7 +77,7 @@ const MmorpgServicesSection = () => {
             }}
           >
             <img
-              src="/assets/img/raidensimx/key features/immersive.svg"
+              src="\assets\img\mmorpg\mmorpg forge leg\content expansion.svg"
               alt=""
             />
             <h6 style={{ color: "black" }}> Content Expansion</h6>
@@ -94,7 +94,7 @@ const MmorpgServicesSection = () => {
             }}
           >
             <img
-              src="/assets/img/raidensimx/key features/immersive.svg"
+              src="\assets\img\mmorpg\mmorpg forge leg\monetization.svg"
               alt=""
             />
             <h6 style={{ color: "black" }}> Monetization Strategies</h6>
@@ -111,7 +111,7 @@ const MmorpgServicesSection = () => {
             }}
           >
             <img
-              src="/assets/img/raidensimx/key features/immersive.svg"
+              src="\assets\img\mmorpg\mmorpg forge leg\community managemen.svg"
               alt=""
             />
             <h6 style={{ color: "black" }}> Community Management </h6>
