@@ -46,7 +46,7 @@ function WebWhychoose() {
                                 <div style={{ background: "linear-gradient(136.76deg, #FF9897 0%, #F650A0 100%)" }} className='whychoose_ai_box'>
                                     <img src='/assets/img/web3-why/flexible.svg' />
                                 </div>
-                                <div className='whychoose_ai_content'>Innovation</div>
+                                <div className='whychoose_ai_content'>Proven Track Record</div>
                             </div>
                         </div>
                     </div>

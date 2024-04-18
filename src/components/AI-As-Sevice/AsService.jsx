@@ -51,9 +51,9 @@ const AsService = () => {
                         </div>
                         <div style={{ background: "white", boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px", borderRadius: "8px", width: "340px", height: "320px" }} className="key_features_card">
                             <img src="/assets/img/ai-as-empowering/immersive.svg" alt="" />
-                            <h6 style={{ color: "black" }}>NFT Development</h6>
+                            <h6 style={{ color: "black" }}>Industry-specific solution</h6>
                             <p style={{ color: "black", marginBottom: "0" }}>
-                                Our commitment extends beyond deployment, providing continuous support and updates to optimize your gaming experience.
+                                Meticulously crafted to address the unique needs and challenges of its respective sector, empowering businesses to unlock new opportunities and stay ahead in today's competitive market landscape.
                             </p>
                         </div>
                     </div>
