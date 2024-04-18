@@ -74,32 +74,10 @@ const BlogDetailsSection = () => {
             <div className="col-lg-4">
               <div className="widget-area">
                 <div
-                  className="widget widget-search"
-                  data-aos="fade-up"
-                  data-aos-delay="300"
-                >
-                  <div className="search">
-                    <div className="title">
-                      <h2>Search Inside</h2>
-                    </div>
-                    <div className="search-wrap">
-                      <form className="search-form">
-                        <input
-                          type="search"
-                          className="search-field"
-                          placeholder="Search..."
-                        />
-                        <button type="submit">
-                          <i className="fa-solid fa-magnifying-glass" />
-                        </button>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-                <div
                   className="widget widget-post"
                   data-aos="fade-up"
                   data-aos-delay="300"
+                  style={{marginTop:"0"}}
                 >
                   <div className="post">
                     <div className="title">

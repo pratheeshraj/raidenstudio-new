@@ -111,15 +111,10 @@ const BlogGridSidebarSection = () => {
             <div className="col-lg-4">
               <div className="widget-area">
                 <div
-                  className="widget widget-search"
-                  data-aos="fade-up"
-                  data-aos-delay="300"
-                >
-                </div>
-                <div
                   className="widget widget-post"
                   data-aos="fade-up"
                   data-aos-delay="300"
+                  style={{marginTop:"0"}}
                 >
                   <div className="post">
                     <div className="title">
