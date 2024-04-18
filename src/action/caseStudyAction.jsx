@@ -11,7 +11,7 @@ import {
 } from "../Slices/caseStudySlices";
 import axios from "axios";
 
-const BASE_URL = "http://localhost:4000/api";
+const BASE_URL = "https://vraiden-backend.onrender.com/api";
 
 export const AllcaseStudys = (keyword,category) => async (dispatch) => {
   console.log(keyword,category);
