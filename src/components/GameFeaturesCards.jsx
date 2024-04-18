@@ -6,7 +6,7 @@ const GameFeaturesCards = ({ data ,number}) => {
   return (
     <div className="gamefeature_card">
       <div className="box_card1">
-        <h2 className="bg_number">0{number+1}</h2>
+        <h2 className="bg_number" style={{pointerEvents:"none"}}>0{number+1}</h2>
         <h6>{data?.title}</h6>
         <p>{data?.content}</p>
       </div>

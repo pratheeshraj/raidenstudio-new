@@ -4,6 +4,7 @@ import HeaderTwo from "../components/HeaderTwo";
 import NewsSectionOne from "../components/NewsSectionOne";
 import FooterSectionOne from "../components/FooterSectionOne";
 import GameProductDetailsHero from "../components/GameProductDetailsHero";
+import ContactSection2 from './../components/ContactSection2';
 
 const GameProductDetails = () => {
   return (
@@ -12,6 +13,7 @@ const GameProductDetails = () => {
         <HelmetReact title={"career"} />
         <HeaderTwo />
         <GameProductDetailsHero/>
+        <ContactSection2/>
         <NewsSectionOne />
         <FooterSectionOne />
       </Suspense>
