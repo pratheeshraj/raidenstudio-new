@@ -15,7 +15,7 @@ const P2eGameBenefitSection = () => {
               <div className="top_section">
                 <div className="icon">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="/assets/img/pe-elevate-your/engaginggameplay.svg"
                     alt=""
                   />
                 </div>
@@ -32,7 +32,7 @@ const P2eGameBenefitSection = () => {
               <div className="top_section">
                 <div className="icon">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="/assets/img/pe-elevate-your/financefreedom.svg"
                     alt=""
                   />
                 </div>
@@ -50,7 +50,7 @@ const P2eGameBenefitSection = () => {
               <div className="top_section">
                 <div className="icon">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="/assets/img/pe-elevate-your/commu build.svg"
                     alt=""
                   />
                 </div>
@@ -67,7 +67,7 @@ const P2eGameBenefitSection = () => {
               <div className="top_section">
                 <div className="icon">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="/assets/img/pe-elevate-your/transperanttrust.svg"
                     alt=""
                   />
                 </div>
@@ -85,7 +85,7 @@ const P2eGameBenefitSection = () => {
               <div className="top_section">
                 <div className="icon">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="/assets/img/pe-elevate-your/innovationingame.svg"
                     alt=""
                   />
                 </div>
@@ -103,7 +103,7 @@ const P2eGameBenefitSection = () => {
               <div className="top_section">
                 <div className="icon">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="/assets/img/pe-elevate-your/equaloppertunity.svg"
                     alt=""
                   />
                 </div>

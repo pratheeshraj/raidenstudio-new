@@ -36,7 +36,7 @@ const P2eGameProcessSection = () => {
                 >
                   <div className="devo_round_div">
                     <img
-                      src="/assets/img/aiprocessdevelopment/discovery.svg"
+                      src="/assets/img/pe-bespok-game/requirementanaly.svg"
                       alt=""
                     />
                   </div>
@@ -58,7 +58,7 @@ const P2eGameProcessSection = () => {
                 >
                   <div className="devo_round_div">
                     <img
-                      src="/assets/img/aiprocessdevelopment/datacollection.svg"
+                      src="/assets/img/pe-bespok-game/custom blockchain.svg"
                       alt=""
                     />
                   </div>
@@ -80,7 +80,7 @@ const P2eGameProcessSection = () => {
                 >
                   <div className="devo_round_div">
                     <img
-                      src="/assets/img/aiprocessdevelopment/model.svg"
+                      src="/assets/img/pe-bespok-game/iterative prototype.svg"
                       alt=""
                     />
                   </div>{" "}
@@ -102,7 +102,7 @@ const P2eGameProcessSection = () => {
                 >
                   <div className="devo_round_div">
                     <img
-                      src="/assets/img/aiprocessdevelopment/testing.svg"
+                      src="/assets/img/pe-bespok-game/Scalable Architecture.svg"
                       alt=""
                     />
                   </div>{" "}
@@ -124,7 +124,7 @@ const P2eGameProcessSection = () => {
                 >
                   <div className="devo_round_div">
                     <img
-                      src="/assets/img/aiprocessdevelopment/deployment.svg"
+                      src="/assets/img/pe-bespok-game/agiledev.svg"
                       alt=""
                     />
                   </div>{" "}
