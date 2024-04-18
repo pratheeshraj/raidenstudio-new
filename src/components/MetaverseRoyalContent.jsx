@@ -1,17 +1,8 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import ScrollAnimation from "react-animate-on-scroll";
-import multiPlayer_icon1 from "../images/raidenverse/multiplayer_integ/cross platform.svg";
-import multiPlayer_icon2 from "../images/raidenverse/multiplayer_integ/custom netcode.svg";
-import multiPlayer_icon3 from "../images/raidenverse/multiplayer_integ/network optimization.svg";
-import multiPlayer_icon4 from "../images/raidenverse/multiplayer_integ/unreal and unity.svg";
-import streaming_icon1 from "../images/raidenverse/streaming/content protection.svg";
-import streaming_icon2 from "../images/raidenverse/streaming/intractive streaming.svg";
-import streaming_icon3 from "../images/raidenverse/streaming/performance optimization.svg";
-import streaming_icon4 from "../images/raidenverse/streaming/video streaming.svg";
-import gameengine_icon1 from "../images/raidenverse/game_engine/cross platform.svg";
-import gameengine_icon2 from "../images/raidenverse/game_engine/interactive.svg";
-import gameengine_icon3 from "../images/raidenverse/game_engine/unity.svg";
-import gameengine_icon4 from "../images/raidenverse/game_engine/unreal.svg";
+import Slider from "react-slick";
+
+
 const MetaverseRoyalContent = () => {
   const [advanced, setAdvanced] = useState(true);
   const [enhancements, setEnhancements] = useState(false);
@@ -20,6 +11,48 @@ const MetaverseRoyalContent = () => {
   const [multiplayer, setMultiplayer] = useState(true);
   const [streaming, setStreaming] = useState(false);
   const [game, setGame] = useState(false);
+
+  const sliderRef = useRef();
+
+
+  var settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 2,
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    pauseOnHover: true,
+    responsive: [
+      {
+        breakpoint: 1050, // Screen width up to 600px
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 2,
+        },
+      },
+      {
+        breakpoint: 850, // Screen width up to 480px
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      },
+      {
+        breakpoint: 550, // Screen width up to 480px
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+      // You can add more breakpoints here
+    ],
+  };
+
+
+
   const handleAdvanced = () => {
     setAdvanced(true);
     setEnhancements(false);
@@ -73,10 +106,9 @@ const MetaverseRoyalContent = () => {
               <h2>
                 MetaVerse <span>Royale</span>
               </h2>
-              <p>
-                MetaVerse Royale revolutionizes gaming with a customizable,
-                immersive Battle Royale experience in the Metaverse. It's a
-                game-changer for developers and gamers alike.
+              <p className="Hero_sub_heading">
+                Revolutionizes gaming with a customizable,
+                immersive Battle Royale experience in the Metaverse.
               </p>
             </div>
             <div className="right" data-aos="fade-left" data-aos-delay="300">
@@ -87,7 +119,7 @@ const MetaverseRoyalContent = () => {
       </section>
       <section
         className="service-details-section"
-        style={{ backgroundColor: "#f8f9fa" }}
+        style={{ backgroundColor: "white" }}
       >
         <h2>
           Advanced Cutting Edge <br />{" "}
@@ -479,7 +511,7 @@ const MetaverseRoyalContent = () => {
         </div>
       </section>
       <section>
-        <div className="container-fluid Royal_section4">
+        <div className="container-fluid Royal_section4" style={{ background: "#f8f9fa" }}>
           <h2>
             Game <span>Themes & Environments</span>
           </h2>
@@ -567,8 +599,8 @@ const MetaverseRoyalContent = () => {
           </div>
         </div>
       </section>
-      <section>
-        <div className="container-fluid Royal_section5">
+      {/* <section style={{background:"white"}}>
+        <div className="container-fluid Royal_section5" style={{background:"white"}}>
           <h2 className="auto-container">
             Choices of <span>Games</span>
           </h2>
@@ -596,8 +628,8 @@ const MetaverseRoyalContent = () => {
                   />
                 </div>
                 <div className="section5_card_content">
-                  <h6>Urban Warfare </h6>
-                  <p>
+                  <h6 style={{color:"black"}}>Urban Warfare </h6>
+                  <p style={{color:"black"}}>
                     Dive into intense urban combat in a futuristic cityscape
                     filled with skyscrapers and high-tech gadgets.
                   </p>
@@ -617,8 +649,8 @@ const MetaverseRoyalContent = () => {
                   />
                 </div>
                 <div className="section5_card_content">
-                  <h6>Lost Kingdoms</h6>
-                  <p>
+                  <h6 style={{color:"black"}}>Lost Kingdoms</h6>
+                  <p style={{color:"black"}}>
                     Embark on an epic journey through ancient ruins and mystical
                     lands, battling rival factions for dominance.
                   </p>
@@ -640,8 +672,8 @@ const MetaverseRoyalContent = () => {
                   />
                 </div>
                 <div className="section5_card_content">
-                  <h6> Wasteland Chronicles </h6>
-                  <p>
+                  <h6 style={{color:"black"}}>Wasteland Chronicles </h6>
+                  <p style={{color:"black"}}>
                     Survive in a harsh post-apocalyptic world, where only the
                     strongest and most cunning can endure.
                   </p>
@@ -661,8 +693,8 @@ const MetaverseRoyalContent = () => {
                   />
                 </div>
                 <div className="section5_card_content">
-                  <h6>Virtual Conquest</h6>
-                  <p>
+                  <h6 style={{color:"black"}}>Virtual Conquest</h6>
+                  <p style={{color:"black"}}>
                     Explore a virtual reality playground where anything is
                     possible, from gravity-defying battles to mind-bending
                     puzzles.
@@ -672,7 +704,61 @@ const MetaverseRoyalContent = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+      <section className="project-section three Raidenarcviz_card_main_div" style={{ padding: "100px 0", background: "white" }}>
+        <div className="auto-container">
+          <div className="row Raidenarcviz_card">
+
+            <h2 className="raidenarcviz_card_h2">Choice of <span className="theme-color"> Games</span></h2>
+
+            <p className='raidenarcviz_card_p' style={{ color: "black", marginBottom: "0" }}>Diverse game selection awaits, catering to every gaming preference and offering endless adventures in the Metaverse.</p>
+            <div className="choice_slider_arrow">
+              <i
+
+                class="fa-regular fa-circle-left"
+                onClick={() => sliderRef.current.slickNext()}
+              ></i>
+              <i
+                class="fa-regular fa-circle-right"
+                onClick={() => sliderRef.current.slickPrev()}
+              ></i>
+            </div>
+            <Slider class="gradient-cards-casino-choice"
+              {...settings}
+              ref={sliderRef}>
+              <div class="card-casino-choice">
+                <div class="container-card-casino_choice bg-green-box-casino-choice">
+                  <img src="\assets\img\virtualvegas\Choice\Frame 40.jpg" alt='' />
+                  <p style={{ textAlign: "center", margin: "0", fontSize: "20px", marginTop: "10px" }} class="card-title-casino">Urban Warfare</p>
+                  <p style={{ textAlign: "center", lineHeight: "25px", margin: "0" }} class="card-description-casino">Dive into intense urban combat in a futuristic cityscape filled with skyscrapers and high-tech gadgets.</p>
+                </div>
+              </div>
+              <div class="card-casino-choice">
+                <div class="container-card-casino_choice bg-white-box-casino-choice">
+                  <img src="\assets\img\virtualvegas\Choice\Frame 42.jpg" alt='' />
+                  <p style={{ textAlign: "center", margin: "0", fontSize: "20px", marginTop: "10px" }} class="card-title-casino">Lost Kingdoms</p>
+                  <p style={{ textAlign: "center", lineHeight: "25px", margin: "0" }} class="card-description-casino">Embark on an epic journey through ancient ruins and mystical lands, battling rival factions for dominance.</p>
+                </div>
+              </div>
+              <div class="card-casino-choice">
+                <div class="container-card-casino_choice bg-yellow-box-casino-choice">
+                  <img src="\assets\img\virtualvegas\Choice\Frame 43.jpg" alt='' />
+                  <p style={{ textAlign: "center", margin: "0", fontSize: "20px", marginTop: "10px" }} class="card-title-casino">Wasteland Chronicles</p>
+                  <p style={{ textAlign: "center", lineHeight: "25px", margin: "0" }} class="card-description-casino">Survive in a harsh post-apocalyptic world, where only the strongest and most cunning can endure.</p>
+                </div>
+              </div>
+              <div class="card-casino-choice">
+                <div class="container-card-casino_choice bg-blue-box-casino-choice">
+                  <img src="\assets\img\virtualvegas\Choice\Frame 44.jpg" alt='' />
+                  <p style={{ textAlign: "center", margin: "0", fontSize: "20px", marginTop: "10px" }} class="card-title-casino">Virtual Conquest</p>
+                  <p style={{ textAlign: "center", lineHeight: "25px", margin: "0" }} class="card-description-casino">Explore a virtual reality playground where anything is possible, from gravity-defying battles to mind-bending puzzles.</p>
+                </div>
+              </div>
+            </Slider>
+          </div>
+
+        </div>
+      </section >
       <section className="faq-section three" style={{ background: "#24292d" }}>
         <div className="auto-container">
           <div className="row">
@@ -962,11 +1048,11 @@ const MetaverseRoyalContent = () => {
         </div>
       </section>
       <section>
-        <div className="container-fluid Royal_section8">
-          <h2 className="auto-container">
+        <div className="container-fluid Royal_section8" style={{background:"white"}}>
+          <h2 style={{color:"black", marginBottom:"10px"}} className="auto-container">
             Why <span>us</span>
           </h2>
-          <p className="auto-container">
+          <p style={{color:"black"}} className="auto-container">
             Celebrate Your Journey with Us: Discover Why MetaVerse Royale is
             Your Ultimate Destination for Unforgettable Gaming Experiences!
           </p>
@@ -976,29 +1062,29 @@ const MetaverseRoyalContent = () => {
               data-aos="fade-right"
               data-aos-delay="300"
             >
-              <p
+              <p style={{color: advanced ? "white" : "black"}}
                 className={advanced ? "section8_card_border" : ""}
                 onClick={handleAdvanced}
               >
                 Game Engine Expertise
               </p>
-              <p
+              <p style={{color: enhancements ? "white" : "black"}}
                 className={enhancements ? "section8_card_border" : ""}
                 onClick={handleEnhancements}
               >
                 UI & UX
               </p>
-              <p
+              <p style={{color: measures ? "white" : "black"}}
                 className={measures ? "section8_card_border" : ""}
                 onClick={handleMeasures}
               >
                 Monetization
               </p>
-              <p
+              <p style={{color: business ? "white" : "black"}}
                 className={business ? "section8_card_border" : ""}
                 onClick={handleBusiness}
               >
-                Monetization
+                supports
               </p>
             </div>
             {advanced ? (
@@ -1007,7 +1093,7 @@ const MetaverseRoyalContent = () => {
                 data-aos="fade-left"
                 data-aos-delay="300"
               >
-                <div className="card8">
+                <div className="card8" >
                   <div className="bg">
                     <img
                       src="/assets/img/whyus-game engine/optimized.svg"
@@ -1154,6 +1240,15 @@ const MetaverseRoyalContent = () => {
                   </div>
                   <p> Community Collaboration</p>
                 </div>
+                <div className="card8">
+                  <div className="bg">
+                    <img
+                      src="/assets/img/modding-support/communitycollab.svg"
+                      alt=""
+                    />
+                  </div>
+                  <p> 24/7 supports</p>
+                </div>
               </div>
             ) : (
               ""
@@ -1259,11 +1354,10 @@ const MetaverseRoyalContent = () => {
                 data-aos="fade-right"
                 data-aos-delay="300"
               >
-                <h3>FAQ For MetaVerse Royale</h3>
-
+                <h3>FAQ</h3>
+                  <h2>Answers At <span className="theme-color">A Glance</span></h2>
                 <p style={{ marginBottom: "20px" }}>
-                  Get answers to common queries, ensuring clarity and confidence
-                  in your MetaVerse Royale experience
+                Find quick solutions and insights to common queries and concerns about our casino with our comprehensive FAQ section.
                 </p>
               </div>
               <div
@@ -1278,20 +1372,13 @@ const MetaverseRoyalContent = () => {
                 />
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6" style={{marginTop:"147px"}}>
               <div
                 className="faq-inner "
                 data-aos="fade-left"
                 data-aos-delay="300"
                 style={{ marginTop: "15px" }}
               >
-                <div className="icon-shape">
-                  <img
-                    className="img-fluid"
-                    src="/assets/img/icon/23_icon.png"
-                    alt=""
-                  />
-                </div>
                 <div className="intro">
                   <h3>Common Question &amp; Answer</h3>
                 </div>

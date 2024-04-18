@@ -4,19 +4,6 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import section4 from "../../images/gameproduct-detailimg/section4.png";
 import { Link } from 'react-router-dom';
 import Slider from "react-slick";
-import img from "../../images/2150926863.jpg"
-import multiPlayer_icon1 from "../../images/raidenverse/multiplayer_integ/cross platform.svg";
-import multiPlayer_icon2 from "../../images/raidenverse/multiplayer_integ/custom netcode.svg";
-import multiPlayer_icon3 from "../../images/raidenverse/multiplayer_integ/network optimization.svg";
-import multiPlayer_icon4 from "../../images/raidenverse/multiplayer_integ/unreal and unity.svg";
-import streaming_icon1 from "../../images/raidenverse/streaming/content protection.svg";
-import streaming_icon2 from "../../images/raidenverse/streaming/intractive streaming.svg";
-import streaming_icon3 from "../../images/raidenverse/streaming/performance optimization.svg";
-import streaming_icon4 from "../../images/raidenverse/streaming/video streaming.svg";
-import gameengine_icon1 from "../../images/raidenverse/game_engine/cross platform.svg";
-import gameengine_icon2 from "../../images/raidenverse/game_engine/interactive.svg";
-import gameengine_icon3 from "../../images/raidenverse/game_engine/unity.svg";
-import gameengine_icon4 from "../../images/raidenverse/game_engine/unreal.svg";
 import ChoiceOfGames from './ChoiceOfGames';
 
 function MetaverseCasinoContent() {

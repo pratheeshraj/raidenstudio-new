@@ -134,6 +134,15 @@ const HeaderTwo = () => {
     "Smart Contract",
   ];
 
+  const blockChainPara = [
+    "Tailored solutions for unique digital ledger needs.",
+    "Unique digital assets with blockchain-backed authenticity.",
+    "Next-gen immersive web experiences for tomorrow's internet.",
+    "Decentralized finance solutions empowering global financial inclusion.",
+    "Explore limitless digital worlds beyond imagination.",
+    "Gaming experiences revolutionized with blockchain integration."
+  ]
+
   // Ai
 
   const generativeAIValues = [0.5, 0.5];
@@ -142,12 +151,22 @@ const HeaderTwo = () => {
     "Generative AI Development",
   ];
 
+const generativeAIpara = [
+  "Access AI capabilities effortlessly for diverse applications.",
+  "AI-driven content creation for innovative digital outputs."
+]
+  
   const generativeAIUrl = ["/ai-as-a-service", "/generative-ai-development"]
   // xr
 
   const xrlink = ["/ar-services", "/vr-services",];
   const xrValues = [0.5, 0.5];
   const xrNames = ["AR Services", "VR Services",];
+  const xrpara = [
+    "Augmented reality enhancements for immersive real-world experiences.",
+    "Virtual reality solutions delivering immersive digital environments."
+
+  ]
 
   // game
 
@@ -162,8 +181,13 @@ const HeaderTwo = () => {
     "Web3 Game Development",
   ];
   const gameNamesLink = ["/mobile-game-development", "/unity-development", "/unreal-development", "/mmorpg-game-development", "/p2e-game-develpment", "/web3-game-develpment"];
-  const gameservicePara = ["Crafting engaging gaming experiences for portable devices.", "Building immersive worlds with versatile game development platform.", "Creating stunning visuals and realistic gameplay with Unreal Engine.",
-    "Constructing vast, interactive worlds for massive multiplayer experiences.", "Integrating play-to-earn mechanics into captivating gaming projects.", "Leveraging blockchain technology for decentralized, next-gen gaming experiences."
+  const gameservicePara = [
+    "Crafting engaging games optimized for mobile platforms.",
+     "Innovative projects developed using the powerful Unity engine.",
+     "Create stunning digital experiences with Unreal Engine.",
+    "Crafting vast multiplayer online role-playing game adventures.",
+     "Gaming experiences that offer play-to-earn opportunities.", 
+     "Games designed to leverage the potential of Web3 technologies."
   ]
 
   //  compony
@@ -510,10 +534,7 @@ const HeaderTwo = () => {
                                                     {blockchainnames[index]}
                                                   </div>
                                                   <div className="manubar_content_para">
-                                                    Lorem ipsum dolor sit amet
-                                                    consectetur adipisicing
-                                                    elit. Fugit, culpa voluptas
-                                                    et.
+                                                    {blockChainPara[index]}
                                                   </div>
                                                   <div
                                                     className="progress-bar"
@@ -574,10 +595,7 @@ const HeaderTwo = () => {
                                                     {generativeAINames[index]}
                                                   </div>
                                                   <div className="manubar_content_para">
-                                                    Lorem ipsum dolor sit amet
-                                                    consectetur adipisicing
-                                                    elit. Fugit, culpa voluptas
-                                                    et.
+                                                    {generativeAIpara[index]}
                                                   </div>
                                                   <div
                                                     className="progress-bar"
@@ -634,9 +652,7 @@ const HeaderTwo = () => {
                                                   {xrNames[index]}
                                                 </div>
                                                 <div className="manubar_content_para">
-                                                  Lorem ipsum dolor sit amet
-                                                  consectetur adipisicing elit.
-                                                  Fugit, culpa voluptas et.
+                                                  {xrpara[index]}
                                                 </div>
                                                 <div
                                                   className="progress-bar"
