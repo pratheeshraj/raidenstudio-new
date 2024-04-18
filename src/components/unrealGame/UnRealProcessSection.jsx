@@ -36,7 +36,7 @@ const UnRealProcessSection = () => {
                 >
                   <div className="devo_round_div">
                     <img
-                      src="/assets/img/aiprocessdevelopment/discovery.svg"
+                      src="/assets/img/unreal-dev-process/concepzuli.svg"
                       alt=""
                     />
                   </div>
@@ -59,7 +59,7 @@ const UnRealProcessSection = () => {
                 >
                   <div className="devo_round_div">
                     <img
-                      src="/assets/img/aiprocessdevelopment/datacollection.svg"
+                      src="/assets/img/unreal-dev-process/producti.svg"
                       alt=""
                     />
                   </div>
@@ -82,7 +82,7 @@ const UnRealProcessSection = () => {
                 >
                   <div className="devo_round_div">
                     <img
-                      src="/assets/img/aiprocessdevelopment/model.svg"
+                      src="/assets/img/unreal-dev-process/leveldesign.svg"
                       alt=""
                     />
                   </div>{" "}
@@ -104,7 +104,7 @@ const UnRealProcessSection = () => {
                 >
                   <div className="devo_round_div">
                     <img
-                      src="/assets/img/aiprocessdevelopment/testing.svg"
+                      src="/assets/img/unreal-dev-process/game programming.svg"
                       alt=""
                     />
                   </div>{" "}
@@ -126,7 +126,7 @@ const UnRealProcessSection = () => {
                 >
                   <div className="devo_round_div">
                     <img
-                      src="/assets/img/aiprocessdevelopment/deployment.svg"
+                      src="/assets/img/unreal-dev-process/user testing.svg"
                       alt=""
                     />
                   </div>{" "}

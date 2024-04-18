@@ -23,7 +23,7 @@ const UnRealBenefitSection = () => {
               <div className="top_section">
                 <div className="icon">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="/assets/img/unreal-the-power-unreal/immersive.svg"
                     alt=""
                   />
                 </div>
@@ -40,7 +40,7 @@ const UnRealBenefitSection = () => {
               <div className="top_section">
                 <div className="icon">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="/assets/img/unreal-the-power-unreal/realisticvisual.svg"
                     alt=""
                   />
                 </div>
@@ -57,7 +57,7 @@ const UnRealBenefitSection = () => {
               <div className="top_section">
                 <div className="icon">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="/assets/img/unreal-the-power-unreal/enhancedtraining.svg"
                     alt=""
                   />
                 </div>
@@ -74,7 +74,7 @@ const UnRealBenefitSection = () => {
               <div className="top_section">
                 <div className="icon">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="/assets/img/unreal-the-power-unreal/competitive.svg"
                     alt=""
                   />
                 </div>
@@ -91,7 +91,7 @@ const UnRealBenefitSection = () => {
               <div className="top_section">
                 <div className="icon">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="/assets/img/unreal-the-power-unreal/scalable.svg"
                     alt=""
                   />
                 </div>
@@ -108,7 +108,7 @@ const UnRealBenefitSection = () => {
               <div className="top_section">
                 <div className="icon">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="/assets/img/unreal-the-power-unreal/futureproof.svg"
                     alt=""
                   />
                 </div>

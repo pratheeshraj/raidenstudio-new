@@ -24,7 +24,7 @@ const UnRealServicesSection = () => {
             }}
           >
             <img
-              src="/assets/img/raidensimx/key features/immersive.svg"
+              src="/assets/img/unreal-our-unreal/game dev.svg"
               alt=""
             />
             <h6 style={{ color: "black" }}>Game Development</h6>
@@ -41,7 +41,7 @@ const UnRealServicesSection = () => {
             }}
           >
             <img
-              src="/assets/img/raidensimx/key features/immersive.svg"
+              src="/assets/img/unreal-our-unreal/vr ar.svg"
               alt=""
             />
             <h6 style={{ color: "black" }}>
@@ -62,7 +62,7 @@ const UnRealServicesSection = () => {
             }}
           >
             <img
-              src="/assets/img/raidensimx/key features/immersive.svg"
+              src="/assets/img/unreal-our-unreal/maintenance.svg"
               alt=""
             />
             <h6 style={{ color: "black" }}>Architectural Visualization</h6>
@@ -80,7 +80,7 @@ const UnRealServicesSection = () => {
             }}
           >
             <img
-              src="/assets/img/raidensimx/key features/immersive.svg"
+              src="/assets/img/unreal-our-unreal/simulation.svg"
               alt=""
             />
             <h6 style={{ color: "black" }}>Simulation and Training</h6>
@@ -98,7 +98,7 @@ const UnRealServicesSection = () => {
             }}
           >
             <img
-              src="/assets/img/raidensimx/key features/immersive.svg"
+              src="/assets/img/unreal-our-unreal/visualeffect.svg"
               alt=""
             />
             <h6 style={{ color: "black" }}>Cinematics and Visual Effects</h6>
@@ -116,7 +116,7 @@ const UnRealServicesSection = () => {
             }}
           >
             <img
-              src="/assets/img/raidensimx/key features/immersive.svg"
+              src="/assets/img/unreal-our-unreal/custom unreal.svg"
               alt=""
             />
             <h6 style={{ color: "black" }}>
