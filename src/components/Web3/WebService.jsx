@@ -50,9 +50,9 @@ const WebService = () => {
                         </div>
                         <div style={{ background: "white", boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px", borderRadius: "8px", width: "340px", height: "320px" }} className="key_features_card">
                             <img src="/assets/img/web3-services/immersive.svg" alt="" />
-                            <h6 style={{ color: "black" }}>NFT (Non-Fungible Token) Development</h6>
+                            <h6 style={{ color: "black" }}>Custom Blockchain Development</h6>
                             <p style={{ color: "black", marginBottom: "0" }}>
-                                Our commitment extends beyond deployment, providing continuous support and updates to optimize your gaming experience.
+                                Building custom blockchain solutions tailored to your specific business requirements, including private or permissioned blockchains, consensus mechanisms, and governance models, to address unique use cases and industry challenges.
                             </p>
                         </div>
                     </div>

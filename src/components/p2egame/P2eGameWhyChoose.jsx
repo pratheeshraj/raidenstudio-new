@@ -16,7 +16,7 @@ const P2eGameWhyChoose = () => {
               <div className="left">
                 <div className="icon_container">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="/assets/img/pe-whychoose/proventrack.svg"
                     alt=""
                   />
                 </div>
@@ -33,7 +33,7 @@ const P2eGameWhyChoose = () => {
               <div className="left">
                 <div className="icon_container">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="/assets/img/pe-whychoose/holisticapproach.svg"
                     alt=""
                   />
                 </div>
@@ -53,7 +53,7 @@ const P2eGameWhyChoose = () => {
               <div className="left">
                 <div className="icon_container">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="/assets/img/pe-whychoose/transperantcommuni.svg"
                     alt=""
                   />
                 </div>
@@ -70,7 +70,7 @@ const P2eGameWhyChoose = () => {
               <div className="left">
                 <div className="icon_container">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="/assets/img/pe-whychoose/client centric.svg"
                     alt=""
                   />
                 </div>

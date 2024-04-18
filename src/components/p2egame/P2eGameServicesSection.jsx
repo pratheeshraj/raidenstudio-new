@@ -24,7 +24,7 @@ const P2eGameServicesSection = () => {
             }}
           >
             <img
-              src="/assets/img/raidensimx/key features/immersive.svg"
+              src="/assets/img/pe-empowering/storyboarding.svg"
               alt=""
             />
             <h6 style={{ color: "black" }}>Concept Design & Storyboarding</h6>
@@ -41,7 +41,7 @@ const P2eGameServicesSection = () => {
             }}
           >
             <img
-              src="/assets/img/raidensimx/key features/immersive.svg"
+              src="/assets/img/pe-empowering/blockchain integration.svg"
               alt=""
             />
             <h6 style={{ color: "black" }}> Blockchain Integration</h6>
@@ -58,7 +58,7 @@ const P2eGameServicesSection = () => {
             }}
           >
             <img
-              src="/assets/img/raidensimx/key features/immersive.svg"
+              src="/assets/img/pe-empowering/smartcontract.svg"
               alt=""
             />
             <h6 style={{ color: "black" }}>Smart Contract Development: </h6>
@@ -75,7 +75,7 @@ const P2eGameServicesSection = () => {
             }}
           >
             <img
-              src="/assets/img/raidensimx/key features/immersive.svg"
+              src="/assets/img/pe-empowering/game dev.svg"
               alt=""
             />
             <h6 style={{ color: "black" }}>Game Development</h6>
@@ -93,7 +93,7 @@ const P2eGameServicesSection = () => {
             }}
           >
             <img
-              src="/assets/img/raidensimx/key features/immersive.svg"
+              src="/assets/img/pe-empowering/monitization.svg"
               alt=""
             />
             <h6 style={{ color: "black" }}>Monetization Strategy</h6>
@@ -111,7 +111,7 @@ const P2eGameServicesSection = () => {
             }}
           >
             <img
-              src="/assets/img/raidensimx/key features/immersive.svg"
+              src="/assets/img/pe-empowering/communit.svg"
               alt=""
             />
             <h6 style={{ color: "black" }}>

@@ -16,7 +16,7 @@ const UnRealWhyChoose = () => {
               <div className="left">
                 <div className="icon_container">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="/assets/img/unreal-whychoose/expertise.svg"
                     alt=""
                   />
                 </div>
@@ -33,7 +33,7 @@ const UnRealWhyChoose = () => {
               <div className="left">
                 <div className="icon_container">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="/assets/img/unreal-whychoose/innovation.svg"
                     alt=""
                   />
                 </div>
@@ -53,7 +53,7 @@ const UnRealWhyChoose = () => {
               <div className="left">
                 <div className="icon_container">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="/assets/img/unreal-whychoose/quality assu.svg"
                     alt=""
                   />
                 </div>
@@ -70,7 +70,7 @@ const UnRealWhyChoose = () => {
               <div className="left">
                 <div className="icon_container">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="/assets/img/unreal-whychoose/client satisfy.svg"
                     alt=""
                   />
                 </div>
