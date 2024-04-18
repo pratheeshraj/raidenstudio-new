@@ -13,16 +13,31 @@ import axios from "axios";
 
 const BASE_URL = "http://localhost:4000/api";
 
-export const AllcaseStudys = async (dispatch) => {
+export const AllcaseStudys = (keyword,category) => async (dispatch) => {
+  console.log(keyword,category);
   try {
     dispatch(AllcaseStudyLoading());
-    const { data } = await axios.get(`${BASE_URL}/case-study/get_casestudy`, {
-      withCredentials: true,
-    });
+    if (category) {
+      const { data } = await axios.get(
+        `${BASE_URL}/case-study/get_casestudy?keyword=${keyword}${
+          category ? `&category=${category}` : ""
+        }`,
+        {
+          withCredentials: true,
+        }
+      );
+      return dispatch(AllcaseStudySuccess(data));
+    }
+    const { data } = await axios.get(
+      `${BASE_URL}/case-study/get_casestudy?keyword=${keyword}`,
+      {
+        withCredentials: true,
+      }
+    );
     dispatch(AllcaseStudySuccess(data));
   } catch (error) {
     if (error.message == "Network Error") {
-      return dispatch(AllcaseStudyfail((error.message)))
+      return dispatch(AllcaseStudyfail(error.message));
     }
     dispatch(AllcaseStudyfail(error.response.data.message));
   }

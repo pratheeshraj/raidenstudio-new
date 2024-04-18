@@ -74,7 +74,7 @@ function BlockChainProcess() {
                     <div className="nft_timeline">
                         <div style={{ background: "black" }} className="nft_line nft_line_white"></div>
                         <div className="nft_section">
-                            <div style={{ background: "black" }} className="bead"><img src="/assets/img/whychooseusai/EXPERTA.svg" /></div>
+                            <div style={{ background: "black" }} className="bead"><img src="\assets\img\blockchain_game\block game process\blockchainarchitec.svg" /></div>
                             <div className="nft_content">
                                 <h6 style={{ color: "black", marginTop: "-80px" }}>Blockchain Architecture Design</h6>
                                 <p style={{ color: "black" }}>
@@ -83,7 +83,7 @@ function BlockChainProcess() {
                             </div>
                         </div>
                         <div className="nft_section">
-                            <div style={{ background: "black" }} className="bead"><img src="/assets/img/whychooseusai/EXPERTA.svg" /></div>
+                            <div style={{ background: "black" }} className="bead"><img src="\assets\img\blockchain_game\block game process\protocal.svg" /></div>
                             <div className="nft_content">
                                 <h6 style={{ color: "black", marginTop: "-80px" }}>Protocol Implementation</h6>
                                 <p style={{ color: "black" }}>Deploying custom protocols for seamless integration of game and blockchain interactions.
@@ -92,7 +92,7 @@ function BlockChainProcess() {
 
                         </div>
                         <div className="nft_section">
-                            <div style={{ background: "black" }} className="bead"><img src="/assets/img/whychooseusai/EXPERTA.svg" /></div>
+                            <div style={{ background: "black" }} className="bead"><img src="\assets\img\blockchain_game\block game process\assettoken.svg" /></div>
                             <div className="nft_content">
                                 <h6 style={{ color: "black", marginTop: "-80px" }}>Asset Tokenization</h6>
                                 <p style={{ color: "black" }}>Tokenizing in-game assets as NFTs or fungible tokens, ensuring secure ownership and transferability.
@@ -100,7 +100,7 @@ function BlockChainProcess() {
                             </div>
                         </div>
                         <div className="nft_section">
-                            <div style={{ background: "black" }} className="bead"><img src="/assets/img/whychooseusai/EXPERTA.svg" /></div>
+                            <div style={{ background: "black" }} className="bead"><img src="\assets\img\blockchain_game\block game process\decentrgameplay.svg" /></div>
                             <div className="nft_content">
                                 <h6 style={{ color: "black", marginTop: "-80px" }}>Decentralized Gameplay Logic</h6>
                                 <p style={{ color: "black" }}>
@@ -109,7 +109,7 @@ function BlockChainProcess() {
                             </div>
                         </div>
                         <div className="nft_section">
-                            <div style={{ background: "black" }} className="bead"><img src="/assets/img/whychooseusai/EXPERTA.svg" /></div>
+                            <div style={{ background: "black" }} className="bead"><img src="\assets\img\blockchain_game\block game process\offchainintegrate.svg" /></div>
                             <div className="nft_content">
                                 <h6 style={{ color: "black", marginTop: "-80px" }}>Off-Chain Solutions Integration</h6>
                                 <p style={{ color: "black" }}>Integrating off-chain solutions like state channels for efficient real-time interactions.
@@ -117,7 +117,7 @@ function BlockChainProcess() {
                             </div>
                         </div>
                         <div className="nft_section">
-                            <div style={{ background: "black" }} className="bead"><img src="/assets/img/whychooseusai/EXPERTA.svg" /></div>
+                            <div style={{ background: "black" }} className="bead"><img src="\assets\img\blockchain_game\block game process\interabo.svg" /></div>
                             <div className="nft_content">
                                 <h6 style={{ color: "black", marginTop: "-80px" }}>Interoperability Implementation</h6>
                                 <p style={{ color: "black" }}>Enabling cross-game asset transfers through interoperability standards.

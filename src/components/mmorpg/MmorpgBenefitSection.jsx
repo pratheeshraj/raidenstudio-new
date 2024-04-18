@@ -18,7 +18,7 @@ const MmorpgBenefitSection = () => {
               <div className="top_section">
                 <div className="icon">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="\assets\img\mmorpg\mmorpg the strategic\immersive.svg"
                     alt=""
                   />
                 </div>
@@ -35,7 +35,7 @@ const MmorpgBenefitSection = () => {
               <div className="top_section">
                 <div className="icon">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="\assets\img\mmorpg\mmorpg the strategic\global reach.svg"
                     alt=""
                   />
                 </div>
@@ -52,7 +52,7 @@ const MmorpgBenefitSection = () => {
               <div className="top_section">
                 <div className="icon">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="\assets\img\mmorpg\mmorpg the strategic\revenue.svg"
                     alt=""
                   />
                 </div>
@@ -69,7 +69,7 @@ const MmorpgBenefitSection = () => {
               <div className="top_section">
                 <div className="icon">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="\assets\img\mmorpg\mmorpg the strategic\commun ity.svg"
                     alt=""
                   />
                 </div>
@@ -86,7 +86,7 @@ const MmorpgBenefitSection = () => {
               <div className="top_section">
                 <div className="icon">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="\assets\img\mmorpg\mmorpg the strategic\continue evaluti.svg"
                     alt=""
                   />
                 </div>
@@ -103,7 +103,7 @@ const MmorpgBenefitSection = () => {
               <div className="top_section">
                 <div className="icon">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="\assets\img\mmorpg\mmorpg the strategic\brand reg.svg"
                     alt=""
                   />
                 </div>

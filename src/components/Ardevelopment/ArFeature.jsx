@@ -11,35 +11,35 @@ function ArFeature() {
                     </p>
                     <div className='feature_div'>
                         <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/blockchainintegration.svg' />
+                            <img src='\assets\img\ar\ar advantages of\marketting.svg' />
                             <div>Unique marketing opportunitie</div>
                         </div>
                         <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/dataencryption.svg' />
+                            <img src='\assets\img\ar\ar advantages of\brandawarn.svg' />
                             <div >Improved Brand Awareness</div>
                         </div>
                         <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/secur.svg' />
+                            <img src='\assets\img\ar\ar advantages of\customizeed.svg' />
                             <div>Customized Marketing </div>
                         </div>
                         <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/scalable to peak.svg' />
+                            <img src='\assets\img\ar\ar advantages of\sales.svg' />
                             <div>Increased Sales </div>
                         </div>
                         <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/crosssite.svg' />
+                            <img src='\assets\img\ar\ar advantages of\competitiveadv.svg' />
                             <div>Competitive Advantage </div>
                         </div>
                         <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/ssrf.svg' />
+                            <img src='\assets\img\ar\ar advantages of\enhavedcustomer.svg' />
                             <div> Enhanced Customer Service</div>
                         </div>
                         <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/http.svg' />
+                            <img src='\assets\img\ar\ar advantages of\cross platform.svg' />
                             <div> Cross-Platform Compatibility</div>
                         </div>
                         <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/ddos.svg' />
+                            <img src='\assets\img\ar\ar advantages of\communi.svg' />
                             <div>Communication and collaboration </div>
                         </div>
                     </div>

@@ -59,7 +59,7 @@ const UnityProcessSection = () => {
               >
                 <div className="devo_round_div">
                   <img
-                    src="/assets/img/aiprocessdevelopment/datacollection.svg"
+                    src="\assets\img\unity_game\unity process\design and protype.svg"
                     alt=""
                   />
                 </div>
@@ -82,7 +82,7 @@ const UnityProcessSection = () => {
               >
                 <div className="devo_round_div">
                   <img
-                    src="/assets/img/aiprocessdevelopment/model.svg"
+                    src="\assets\img\unity_game\unity process\development.svg"
                     alt=""
                   />
                 </div>{" "}
@@ -105,7 +105,7 @@ const UnityProcessSection = () => {
               >
                 <div className="devo_round_div">
                   <img
-                    src="/assets/img/aiprocessdevelopment/testing.svg"
+                    src="\assets\img\unity_game\unity process\deploy.svg"
                     alt=""
                   />
                 </div>{" "}
@@ -128,7 +128,7 @@ const UnityProcessSection = () => {
               >
                 <div className="devo_round_div">
                   <img
-                    src="/assets/img/aiprocessdevelopment/deployment.svg"
+                    src="\assets\img\unity_game\unity process\maintenance.svg"
                     alt=""
                   />
                 </div>{" "}

@@ -16,7 +16,7 @@ const UnityWhyChoose = () => {
             <div className="left">
               <div className="icon_container">
                 <img
-                  src="/assets/img/raidensimx/key features/immersive.svg"
+                  src="\assets\img\unity_game\unity why choose\proventrackrecord.svg"
                   alt=""
                 />
               </div>
@@ -33,7 +33,7 @@ const UnityWhyChoose = () => {
             <div className="left">
               <div className="icon_container">
                 <img
-                  src="/assets/img/raidensimx/key features/immersive.svg"
+                  src="\assets\img\unity_game\unity why choose\collabrative.svg"
                   alt=""
                 />
               </div>
@@ -51,7 +51,7 @@ const UnityWhyChoose = () => {
             <div className="left">
               <div className="icon_container">
                 <img
-                  src="/assets/img/raidensimx/key features/immersive.svg"
+                  src="\assets\img\unity_game\unity why choose\innovative.svg"
                   alt=""
                 />
               </div>
@@ -68,7 +68,7 @@ const UnityWhyChoose = () => {
             <div className="left">
               <div className="icon_container">
                 <img
-                  src="/assets/img/raidensimx/key features/immersive.svg"
+                  src="\assets\img\unity_game\unity why choose\timely.svg"
                   alt=""
                 />
               </div>

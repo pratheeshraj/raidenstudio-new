@@ -58,7 +58,7 @@ const MmorpgProcessSection = () => {
                 >
                   <div className="devo_round_div">
                     <img
-                      src="/assets/img/aiprocessdevelopment/datacollection.svg"
+                      src="\assets\img\mmorpg\mmorpg process\palnning.svg"
                       alt=""
                     />
                   </div>
@@ -81,7 +81,7 @@ const MmorpgProcessSection = () => {
                 >
                   <div className="devo_round_div">
                     <img
-                      src="/assets/img/aiprocessdevelopment/model.svg"
+                      src="\assets\img\mmorpg\mmorpg process\development.svg"
                       alt=""
                     />
                   </div>{" "}
@@ -103,7 +103,7 @@ const MmorpgProcessSection = () => {
                 >
                   <div className="devo_round_div">
                     <img
-                      src="/assets/img/aiprocessdevelopment/testing.svg"
+                      src="\assets\img\mmorpg\mmorpg process\testing.svg"
                       alt=""
                     />
                   </div>{" "}
@@ -125,7 +125,7 @@ const MmorpgProcessSection = () => {
                 >
                   <div className="devo_round_div">
                     <img
-                      src="/assets/img/aiprocessdevelopment/deployment.svg"
+                      src="\assets\img\mmorpg\mmorpg process\launch.svg"
                       alt=""
                     />
                   </div>{" "}

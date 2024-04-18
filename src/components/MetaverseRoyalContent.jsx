@@ -150,7 +150,10 @@ const MetaverseRoyalContent = () => {
                           "linear-gradient(136.76deg, #ABDCFF 0%, #0396FF 100%)",
                       }}
                     >
-                      <img src="/assets/img/royale-technical/cross.svg" alt="" />
+                      <img
+                        src="/assets/img/royale-technical/cross.svg"
+                        alt=""
+                      />
                     </div>
                     <div className="right">
                       <h6>Cross-Platform Compatibility</h6>
@@ -200,7 +203,10 @@ const MetaverseRoyalContent = () => {
                           "linear-gradient(136.76deg, #FEB692 0%, #EA5455 100%)",
                       }}
                     >
-                      <img src="/assets/img/royale-technical/multi.svg" alt="" />
+                      <img
+                        src="/assets/img/royale-technical/multi.svg"
+                        alt=""
+                      />
                     </div>
                     <div className="right">
                       <h6> Seamless Multiplayer Integration</h6>
@@ -224,7 +230,10 @@ const MetaverseRoyalContent = () => {
                           "linear-gradient(136.76deg, #FCCF31 0%, #F55555 100%)",
                       }}
                     >
-                      <img src="/assets/img/royale-technical/customi.svg" alt="" />
+                      <img
+                        src="/assets/img/royale-technical/customi.svg"
+                        alt=""
+                      />
                     </div>
                     <div className="right">
                       <h6> Customizable Gameplay Mechanics</h6>
@@ -253,7 +262,10 @@ const MetaverseRoyalContent = () => {
                           "linear-gradient(136.76deg, #90F7EC 0%, #32CCBC 100%)",
                       }}
                     >
-                      <img src="/assets/img/royalegame-engine/unity.svg" alt="" />
+                      <img
+                        src="/assets/img/royalegame-engine/unity.svg"
+                        alt=""
+                      />
                     </div>
                     <div className="right">
                       <h6> Unity Engine Optimization</h6>
@@ -278,7 +290,10 @@ const MetaverseRoyalContent = () => {
                           "linear-gradient(136.76deg, #F889D5 0%, #5650DE 100%)",
                       }}
                     >
-                      <img src="/assets/img/royalegame-engine/unreal.svg" alt="" />
+                      <img
+                        src="/assets/img/royalegame-engine/unreal.svg"
+                        alt=""
+                      />
                     </div>
                     <div className="right">
                       <h6>Unreal Engine 5 Integration</h6>
@@ -305,7 +320,10 @@ const MetaverseRoyalContent = () => {
                           "linear-gradient(136.76deg, #FF9897 0%, #F650A0 100%)",
                       }}
                     >
-                      <img src="/assets/img/royalegame-engine/streaming.svg" alt="" />
+                      <img
+                        src="/assets/img/royalegame-engine/streaming.svg"
+                        alt=""
+                      />
                     </div>
                     <div className="right">
                       <h6> Streaming Integration</h6>
@@ -331,7 +349,10 @@ const MetaverseRoyalContent = () => {
                           "linear-gradient(136.76deg, #FFCDA5 0%, #EE4D5F 100%)",
                       }}
                     >
-                      <img src="/assets/img/royalegame-engine/gameengine.svg" alt="" />
+                      <img
+                        src="/assets/img/royalegame-engine/gameengine.svg"
+                        alt=""
+                      />
                     </div>
                     <div className="right">
                       <h6> Game Engine Mastery</h6>
@@ -473,11 +494,12 @@ const MetaverseRoyalContent = () => {
           >
             <div className="card_section1">
               <div className="royal_cards">
-                <img
-                  src="\assets\img\MeatverseRoyal\section4.jpeg"
-                  alt=""
-                  className="side_img"
-                />
+                <div className="royal_cards_side_img">
+                  <img
+                    src="\assets\img\MeatverseRoyal\game theme and envire\futuristic.svg"
+                    alt=""
+                  />
+                </div>
                 <img src="\assets\img\MeatverseRoyal\2151151044.jpg" alt="" />
                 <div>
                   <h6>Futuristic Cityscape</h6>
@@ -489,11 +511,12 @@ const MetaverseRoyalContent = () => {
                 </div>
               </div>
               <div className="royal_cards">
-                <img
-                  src="\assets\img\MeatverseRoyal\section4.jpeg"
-                  alt=""
-                  className="side_img"
-                />
+                <div className="royal_cards_side_img">
+                  <img
+                    src="\assets\img\MeatverseRoyal\game theme and envire\ancient.svg"
+                    alt=""
+                  />
+                </div>
                 <img src="\assets\img\MeatverseRoyal\2151151044.jpg" alt="" />
                 <div>
                   <h6> Ancient Ruins</h6>
@@ -507,11 +530,12 @@ const MetaverseRoyalContent = () => {
             </div>
             <div className="card_section2">
               <div className="royal_cards">
-                <img
-                  src="\assets\img\MeatverseRoyal\section4.jpeg"
-                  alt=""
-                  className="side_img"
-                />
+                <div className="royal_cards_side_img">
+                  <img
+                    src="\assets\img\MeatverseRoyal\game theme and envire\post.svg"
+                    alt=""
+                  />
+                </div>
                 <img src="\assets\img\MeatverseRoyal\2151151044.jpg" alt="" />
                 <div>
                   <h6> Post-Apocalyptic Wasteland</h6>
@@ -523,11 +547,12 @@ const MetaverseRoyalContent = () => {
                 </div>
               </div>
               <div className="royal_cards">
-                <img
-                  src="\assets\img\MeatverseRoyal\section4.jpeg"
-                  alt=""
-                  className="side_img"
-                />
+                <div className="royal_cards_side_img">
+                  <img
+                    src="\assets\img\MeatverseRoyal\game theme and envire\vr.svg"
+                    alt=""
+                  />
+                </div>
                 <img src="\assets\img\MeatverseRoyal\2151151044.jpg" alt="" />
                 <div>
                   <h6> Virtual Reality Arena</h6>
@@ -558,10 +583,18 @@ const MetaverseRoyalContent = () => {
           >
             <div className="card1">
               <div className="section5_card">
-                <img
-                  src="\assets\img\MeatverseRoyal\section4.jpeg"
-                  alt="Specifications"
-                />
+                <div
+                  className="div_img"
+                  style={{
+                    background:
+                      "linear-gradient(136.76deg, #E2B0FF 0%, #9F44D3 100%)",
+                  }}
+                >
+                  <img
+                    src="\assets\img\MeatverseRoyal\choice of\warfare.svg"
+                    alt="Specifications"
+                  />
+                </div>
                 <div className="section5_card_content">
                   <h6>Urban Warfare </h6>
                   <p>
@@ -571,10 +604,18 @@ const MetaverseRoyalContent = () => {
                 </div>
               </div>
               <div className="section5_card">
-                <img
-                  src="\assets\img\MeatverseRoyal\section4.jpeg"
-                  alt="Specifications"
-                />
+                <div
+                  className="div_img"
+                  style={{
+                    background:
+                      "linear-gradient(136.76deg, #FEB692 0%, #EA5455 100%)",
+                  }}
+                >
+                  <img
+                    src="\assets\img\MeatverseRoyal\choice of\lost.svg"
+                    alt="Specifications"
+                  />
+                </div>
                 <div className="section5_card_content">
                   <h6>Lost Kingdoms</h6>
                   <p>
@@ -586,10 +627,18 @@ const MetaverseRoyalContent = () => {
             </div>
             <div className="card1">
               <div className="section5_card">
-                <img
-                  src="\assets\img\MeatverseRoyal\section4.jpeg"
-                  alt="Specifications"
-                />
+                <div
+                  className="div_img"
+                  style={{
+                    background:
+                      "linear-gradient(136.76deg, #ABDCFF 0%, #0396FF 100%)",
+                  }}
+                >
+                  <img
+                    src="\assets\img\MeatverseRoyal\choice of\wastland.svg"
+                    alt="Specifications"
+                  />
+                </div>
                 <div className="section5_card_content">
                   <h6> Wasteland Chronicles </h6>
                   <p>
@@ -599,16 +648,20 @@ const MetaverseRoyalContent = () => {
                 </div>
               </div>
               <div className="section5_card">
-                <img
-                  src="\assets\img\MeatverseRoyal\section4.jpeg"
-                  alt="Specifications"
-                />
+                <div
+                  className="div_img "
+                  style={{
+                    background:
+                      "linear-gradient(136.76deg, #FF9897 0%, #F650A0 100%)",
+                  }}
+                >
+                  <img
+                    src="\assets\img\MeatverseRoyal\choice of\virtual.svg"
+                    alt="Specifications"
+                  />
+                </div>
                 <div className="section5_card_content">
-                  <h6>
-                    <a href="https://store.steampowered.com/app/440/Meatverse/">
-                      Virtual Conquest
-                    </a>
-                  </h6>
+                  <h6>Virtual Conquest</h6>
                   <p>
                     Explore a virtual reality playground where anything is
                     possible, from gravity-defying battles to mind-bending
@@ -956,7 +1009,10 @@ const MetaverseRoyalContent = () => {
               >
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whyus-game engine/optimized.svg" alt="" />
+                    <img
+                      src="/assets/img/whyus-game engine/optimized.svg"
+                      alt=""
+                    />
                   </div>
                   <p>Optimized Performance</p>
                 </div>
@@ -968,13 +1024,19 @@ const MetaverseRoyalContent = () => {
                 </div>
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whyus-game engine/dynamic.svg" alt="" />
+                    <img
+                      src="/assets/img/whyus-game engine/dynamic.svg"
+                      alt=""
+                    />
                   </div>
                   <p> Dynamic Environments</p>
                 </div>
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whyus-game engine/future.svg" alt="" />
+                    <img
+                      src="/assets/img/whyus-game engine/future.svg"
+                      alt=""
+                    />
                   </div>
                   <p> Future-Proof Technology</p>
                 </div>
@@ -999,13 +1061,19 @@ const MetaverseRoyalContent = () => {
                 </div>
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whyus-uiux/customizedinterface.svg" alt="" />
+                    <img
+                      src="/assets/img/whyus-uiux/customizedinterface.svg"
+                      alt=""
+                    />
                   </div>
                   <p> Customizable Interfaces</p>
                 </div>
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whyus-uiux/accesseability.svg" alt="" />
+                    <img
+                      src="/assets/img/whyus-uiux/accesseability.svg"
+                      alt=""
+                    />
                   </div>
                   <p>Accessibility Features</p>
                 </div>
@@ -1018,25 +1086,37 @@ const MetaverseRoyalContent = () => {
               >
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whyus-monitization/flexible.svg" alt="" />
+                    <img
+                      src="/assets/img/whyus-monitization/flexible.svg"
+                      alt=""
+                    />
                   </div>
                   <p>Flexible Revenue Models</p>
                 </div>
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whyus-monitization/revenueoptimiza.svg" alt="" />
+                    <img
+                      src="/assets/img/whyus-monitization/revenueoptimiza.svg"
+                      alt=""
+                    />
                   </div>
                   <p> Revenue Optimization Tools</p>
                 </div>
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whyus-monitization/blockchaineconomy.svg" alt="" />
+                    <img
+                      src="/assets/img/whyus-monitization/blockchaineconomy.svg"
+                      alt=""
+                    />
                   </div>
                   <p>Blockchain-Based Economies</p>
                 </div>
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whyus-monitization/communityengage.svg" alt="" />
+                    <img
+                      src="/assets/img/whyus-monitization/communityengage.svg"
+                      alt=""
+                    />
                   </div>
                   <p>Community Engagement</p>
                 </div>
@@ -1049,19 +1129,28 @@ const MetaverseRoyalContent = () => {
               >
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/modding-support/customgameplay.svg" alt="" />
+                    <img
+                      src="/assets/img/modding-support/customgameplay.svg"
+                      alt=""
+                    />
                   </div>
                   <p>Customizable Gameplay Mechanics</p>
                 </div>
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/modding-support/personalizedcontent.svg" alt="" />
+                    <img
+                      src="/assets/img/modding-support/personalizedcontent.svg"
+                      alt=""
+                    />
                   </div>
                   <p> Personalized Content Creation</p>
                 </div>
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/modding-support/communitycollab.svg" alt="" />
+                    <img
+                      src="/assets/img/modding-support/communitycollab.svg"
+                      alt=""
+                    />
                   </div>
                   <p> Community Collaboration</p>
                 </div>
