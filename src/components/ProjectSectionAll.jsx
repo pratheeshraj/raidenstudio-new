@@ -93,7 +93,7 @@ const ProjectSectionAll = () => {
             </div>
           </div>
           <div className="row">
-            {allcaseStudy?.map((data, i) => {
+            {currentItems?.map((data, i) => {
               return (
                 <div className="col-lg-6" key={i}>
                   <div
