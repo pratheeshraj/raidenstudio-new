@@ -33,6 +33,7 @@ import FooterSectionOne from "../components/FooterSectionOne";
 import AboutSectionOne from "../components/AboutSectionOne";
 import CaseStudies from "../components/CaseStudies";
 import NavBottom from "../components/NavBottom";
+import { AllcaseStudys } from "../action/caseStudyAction";
 
 
 const HomeThree = () => {
@@ -51,10 +52,15 @@ const HomeThree = () => {
       dispatch(GetBlogsCategory);
       dispatch(GetBlogsTags);
       dispatch(GetAllBlogs);
+     
     } catch (error) {
       console.log(error);
     }
   }, []);
+
+useEffect(()=>{
+  dispatch(AllcaseStudys("",""));
+},[])
   return (
     <Fragment>
       <Suspense>

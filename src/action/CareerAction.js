@@ -2,7 +2,7 @@ import axios from "axios";
 import { CreateCareerRequest, CreateCareerSuccess, CreateCareerfail } from "../Slices/CareerSlice";
 import toast from "react-hot-toast";
 
-const BASE_URL = "http://localhost:4000/api";
+const BASE_URL = "https://vraiden-backend.onrender.com/api";
 
 export const CreateCareer = (career) => async (dispatch) => {
     try {

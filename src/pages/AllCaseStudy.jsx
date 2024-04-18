@@ -21,7 +21,7 @@ const AllCaseStudy = () => {
 
   useEffect(() => {
     try {
-      dispath(AllcaseStudys);
+      dispath(AllcaseStudys("",""));
     } catch (error) {
       console.log(error);
     }

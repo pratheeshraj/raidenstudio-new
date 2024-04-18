@@ -1,7 +1,7 @@
 import axios from "axios";
 import { contactRequest, contactSuccess, contactfail } from "../Slices/ContactSlice";
 
-const BASE_URL = "http://localhost:4000/api";
+const BASE_URL = "https://vraiden-backend.onrender.com/api";
 
 export const createContact = (contactData) => async (dispatch) => {
     try {
