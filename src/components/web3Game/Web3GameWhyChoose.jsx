@@ -16,7 +16,7 @@ const Web3GameWhyChoose = () => {
               <div className="left">
                 <div className="icon_container">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="\assets\img\web3game\web3 why choose us\industry pio.svg"
                     alt=""
                   />
                 </div>
@@ -33,7 +33,7 @@ const Web3GameWhyChoose = () => {
               <div className="left">
                 <div className="icon_container">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="\assets\img\web3game\web3 why choose us\proven track.svg"
                     alt=""
                   />
                 </div>
@@ -51,7 +51,7 @@ const Web3GameWhyChoose = () => {
               <div className="left">
                 <div className="icon_container">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="\assets\img\web3game\web3 why choose us\security.svg"
                     alt=""
                   />
                 </div>
@@ -67,7 +67,7 @@ const Web3GameWhyChoose = () => {
               <div className="left">
                 <div className="icon_container">
                   <img
-                    src="/assets/img/raidensimx/key features/immersive.svg"
+                    src="\assets\img\web3game\web3 why choose us\continuos support.svg"
                     alt=""
                   />
                 </div>
