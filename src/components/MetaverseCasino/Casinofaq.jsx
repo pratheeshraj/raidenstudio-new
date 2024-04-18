@@ -11,11 +11,12 @@ function Casinofaq() {
                             data-aos="fade-right"
                             data-aos-delay="300"
                         >
+                            <h3>FAQ</h3>
                             <h2>
-                                FAQ
+                                Answers At <span className='theme-color'>A Glance</span>
                             </h2>
                             <p style={{ marginBottom: "10px" }}>
-                                The FAQ section provides concise answers to common questions about VirtualVegas, ensuring users easily access essential information about game fairness, payment methods, security measures, and more. Simplifying the user experience, it serves as a reliable resource for quick solutions, empowering users to navigate the platform confidently and enjoy immersive gaming.
+                                Find quick solutions and insights to common queries and concerns about our casino with our comprehensive FAQ section.
                             </p>
                         </div>
                         <div
@@ -112,29 +113,6 @@ function Casinofaq() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="accordion-item">
-                                        <h2 className="accordion-header">
-                                            <button
-                                                className="accordion-button collapsed"
-                                                type="button"
-                                                data-bs-toggle="collapse"
-                                                data-bs-target="#flush-collapseFour"
-                                                aria-expanded="false"
-                                                aria-controls="flush-collapseFour"
-                                            >
-                                                What devices are supported by VirtualVegas?
-                                            </button>
-                                        </h2>
-                                        <div
-                                            id="flush-collapseFour"
-                                            className="accordion-collapse collapse"
-                                            data-bs-parent="#accordionFlushExample"
-                                        >
-                                            <div className="accordion-body">
-                                                VirtualVegas is designed to work seamlessly across all devices and operating systems, including desktop computers, smartphones, and virtual reality headsets.                                            </div>
-                                        </div>
-                                    </div>
-
                                     <div className="accordion-item">
                                         <h2 className="accordion-header">
                                             <button

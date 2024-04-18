@@ -35,11 +35,11 @@ const MetaverseCasionoHero = () => {
                                             <div className="slider-content-inner ">
                                                 <div>
                                                     <h2 className="slider-title">
-                                                        Welcome to VirtualVegas: Your Ultimate
+                                                         VirtualVegas Ultimate
                                                         <span className="theme-color"> Metaverse Casino Destination!</span>
                                                     </h2>
-                                                    <p className="description">
-                                                        Embark on an exhilarating journey into the heart of virtual entertainment with VirtualVegas! As the premier white label solution for Metaverse casinos, we offer a comprehensive platform that combines the excitement of traditional casino gaming with the cutting-edge technology of the digital realm.
+                                                    <p className="description Hero_sub_heading">
+                                                       comprehensive platform that combines the excitement of traditional casino gaming with the cutting-edge technology.
                                                     </p>
                                                     <div className="inner-btn">
                                                         <div>

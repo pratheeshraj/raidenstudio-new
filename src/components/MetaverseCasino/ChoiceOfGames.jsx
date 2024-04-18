@@ -53,7 +53,7 @@ function ChoiceOfGames() {
         slidesToScroll: 1,
         arrows: false,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 1500,
         pauseOnHover: true,
         responsive: [
             {
@@ -82,10 +82,10 @@ function ChoiceOfGames() {
                 <h2 className="auto-container">Choice of Games</h2>
                 <p className='choicegame_main_p'>Discover a diverse array of thrilling games awaiting you at VirtualVegas. From classic casino favorites to innovative virtual reality experiences, our platform offers something for every type of player. </p>
                 <div className="coice-link-div">
-                    <div className={classic ? "Choice_active" : "Choice_active_div"} onClick={ClassicHandle}>Classic Casino</div>
-                    <div className={slots ? "Choice_active" : "Choice_active_div"} onClick={SlotHandle}>Slots</div>
-                    <div className={table ? "Choice_active" : "Choice_active_div"} onClick={TableHandle}>Table</div>
-                    <div className={specialty ? "Choice_active" : "Choice_active_div"} onClick={specHandle}>Specialty</div>
+                    <div className={classic ? "Choice_active" : "Choice_active_div"} onClick={ClassicHandle}>CLASSIC</div>
+                    <div className={slots ? "Choice_active" : "Choice_active_div"} onClick={SlotHandle}>SLOTS</div>
+                    <div className={table ? "Choice_active" : "Choice_active_div"} onClick={TableHandle}>TABLE</div>
+                    <div className={specialty ? "Choice_active" : "Choice_active_div"} onClick={specHandle}>SPECIALTY</div>
                 </div>
                 {
                     classic ? <div className="auto-container cogini_slider">

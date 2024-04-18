@@ -47,7 +47,7 @@ function MetaverseCasinoContent() {
 
 
     var settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 500,
         slidesToShow: 3,
@@ -86,11 +86,11 @@ function MetaverseCasinoContent() {
     return (
         <>
             {/* {casino - key features} */}
-            <section className="project-section three Raidenarcviz_card_main_div" style={{ padding: "100px 0", background: "black" }}>
+            <section className="project-section three Raidenarcviz_card_main_div" style={{ padding: "100px 0", background: "" }}>
                 <div className="auto-container">
                     <div className="row Raidenarcviz_card">
-                        <h2 className="raidenarcviz_card_h2"><span className="theme-color">Key Features</span></h2>
-                        <p className='raidenarcviz_card_p'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eveniet maiores ipsa, error totam non rerum, placeat fugit repellendus vitae optio sit? Ducimus, optio! Iste ipsum aliquid molestiae vitae nemo.</p>
+                        <h2 className="raidenarcviz_card_h2">Key<span className="theme-color"> Features</span></h2>
+                        <p className='raidenarcviz_card_p' style={{color:"black",width:"90%" ,margin:"auto"}}>From an extensive selection of games to advanced technical capabilities, VirtualVegas offers a comprehensive gaming experience designed to thrill and delight players of all preferences.</p>
                         <div class="gradient-cards-casino">
                             <div class="card-casino">
                                 <div class="container-card-casino bg-green-box-casino">
@@ -101,7 +101,7 @@ function MetaverseCasinoContent() {
 
                             <div class="card-casino">
                                 <div class="container-card-casino bg-white-box-casino">
-                                    <p class="card-title-casino">	Advanced Multiplayer Networking</p>
+                                    <p class="card-title-casino">	Advanced Multiplayer</p>
                                     <p class="card-description-casino">Challenge friends or compete against players from around the world in real-time, thanks to our advanced multiplayer networking capabilities. Experience the thrill of social interaction and competitive gaming like never before.</p>
                                 </div>
                             </div>
@@ -115,7 +115,7 @@ function MetaverseCasinoContent() {
 
                             <div class="card-casino">
                                 <div class="container-card-casino bg-blue-box-casino">
-                                    <p class="card-title-casino">	Advanced Security Features</p>
+                                    <p class="card-title-casino">	Advanced Security</p>
                                     <p class="card-description-casino">Rest easy knowing that your players' data and transactions are protected by the latest in encryption technology. VirtualVegas prioritizes security and transparency, so you can focus on providing the best possible gaming experience for your customers.</p>
                                 </div>
                             </div>
@@ -129,9 +129,7 @@ function MetaverseCasinoContent() {
                 className="service-details-section"
             >
                 <h2>
-                    Engineered for the Metaverse <br /> <span>Technical Innovations</span>,
-                    <span> Multiplayer Networking</span>, and <br />
-                    AI Integration
+                    Engineered for <span className='theme-color'> VirtualVegas</span>
                 </h2>
 
                 <div className="auto-container">
@@ -483,14 +481,15 @@ function MetaverseCasinoContent() {
                 </div>
             </section>
             {/* {casino - coice of enviro} */}
-            <section className="project-section three Raidenarcviz_card_main_div" style={{ padding: "100px 0", background: "black" }}>
+            <section className="project-section three Raidenarcviz_card_main_div" style={{ padding: "100px 0", background: "white" }}>
                 <div className="auto-container">
                     <div className="row Raidenarcviz_card">
-                        <h2 className="raidenarcviz_card_h2"><span className="theme-color">Choice of Environments and Themes</span></h2>
+                        <h2 className="raidenarcviz_card_h2">Choice of Environments<span className="theme-color"> and Themes</span></h2>
 
-                        <p className='raidenarcviz_card_p'>Explore a variety of immersive environments and captivating themes to enhance your gaming experience on VirtualVegas. From the glitz and glamor of a bustling Las Vegas casino floor to exotic locales and fantastical worlds, our platform offers a diverse selection of settings to suit every player's preferences. </p>
+                        <p className='raidenarcviz_card_p' style={{color:"black",marginBottom:"0"}}>From the glitz and glamor of a bustling Las Vegas casino floor to exotic locales and fantastical worlds, our platform offers a diverse selection of settings to suit every player's preferences. </p>
                         <div className="choice_slider_arrow">
                             <i
+                                
                                 class="fa-regular fa-circle-left"
                                 onClick={() => sliderRef.current.slickNext()}
                             ></i>

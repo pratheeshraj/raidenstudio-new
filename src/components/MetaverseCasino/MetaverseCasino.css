@@ -55,7 +55,8 @@
 .container-card-casino {
     position: relative;
     border: 2px solid transparent;
-    background: linear-gradient(71deg, #080509, #1a171c, #080509);
+    /* background: linear-gradient(71deg, #080509, #1a171c, #080509); */
+    background: #0C1F01;
     background-clip: padding-box;
     border-radius: 45px;
     padding: 40px;
@@ -110,12 +111,14 @@
     font-style: normal;
     font-size: 28px;
     padding-bottom: 8px;
+    text-align: center;
 }
 
 .card-description-casino {
     font-weight: 600;
     line-height: 32px;
-    color: rgba(255, 255, 255, 0.5);
+    /* color: rgba(255, 255, 255, 0.5); */
+    color: white;
     font-size: 16px;
     max-width: 470px;
 }
@@ -159,7 +162,8 @@
     height: 400px;
     position: relative;
     border: 2px solid transparent;
-    background: linear-gradient(71deg, #080509, #1a171c, #080509);
+    /* background: linear-gradient(71deg, #080509, #1a171c, #080509); */
+    background: "white";
     background-clip: padding-box;
     border-radius: 8px;
     padding: 12px;
@@ -226,6 +230,8 @@
 .choice_slider_arrow i {
     font-size: 30px;
     cursor: pointer;
+    color: black;
+
 }
 
 .choice_slider_arrow i:hover {

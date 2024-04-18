@@ -993,9 +993,8 @@ const GameProductDetailsHero = () => {
                   <p style={{ color: "black" }}>
                     <strong>
                       {" "}
-                      Take the first step towards success with Realm Wars
                     </strong>{" "}
-                    : Clash of Empires. Contact us now to learn more about our
+                    Contact us now to learn more about our
                     B2B solutions and discover how we can help turn your vision
                     into reality.
                   </p>
@@ -1084,7 +1083,7 @@ const GameProductDetailsHero = () => {
                 data-aos="fade-right"
                 data-aos-delay="300"
               >
-                <h3>FAQ For Artificial Intelligence </h3>
+                <h3>FAQ</h3>
                 <h2>
                   Answers at a <br />
                   <span className="theme-color">Glance</span>
@@ -1157,7 +1156,7 @@ const GameProductDetailsHero = () => {
                           aria-controls="flush-collapseTwo"
                         >
                           Who is Realm Wars: Clash of Empires designed for?
-                          {"}"}
+                          
                         </button>
                       </h2>
                       <div
@@ -1193,7 +1192,7 @@ const GameProductDetailsHero = () => {
                         data-bs-parent="#accordionFlushExample"
                       >
                         <div className="accordion-body">
-                          Clash of Empires is available on both iOS and Android
+                          Clash of Empires is available on Pc, Web and both iOS and Android
                           platforms, offering cross-platform compatibility for a
                           wide range of devices.
                         </div>

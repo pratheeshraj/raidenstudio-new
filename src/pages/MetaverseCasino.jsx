@@ -32,10 +32,10 @@ const MetaverseCasino = () => {
                                 <div className="col-lg-6">
                                     <div className="title">
                                         <h2>
-                                            Get Started <span className="theme-color"> Today!</span>
+                                        Join the ranks of leading online casinos by partnering with <span className="theme-color"> VirtualVegas today!</span>
                                         </h2>
                                         <p>
-                                            Join the ranks of leading online casinos by partnering with VirtualVegas today. With our white label solution, you'll have everything you need to create a world-class Metaverse casino that stands out from the crowd. Don't miss out on the future of gaming - join VirtualVegas and take your casino to new heights!                                        </p>
+                                         Don't miss out on the future of gaming - join VirtualVegas and take your casino to new heights!                                        </p>
                                         <div className="inner-btn d-adjust">
                                             <div>
                                                 <Link className="default-btn" to="/contact">
