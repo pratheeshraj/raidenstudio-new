@@ -15,7 +15,7 @@ const MobileGamePageAbout = () => {
               <div className="img-file">
                 <img
                   className="img-fluid"
-                  src="/assets/img/service/02_service.png"
+                  src="/assets/img/mobile-game-development/about.jpg"
                   alt=""
                 />
               </div>

@@ -40,7 +40,7 @@ const VrHero = () => {
                                             <div className="slider-content-inner ">
                                                 <div>
                                                     <h2 className="slider-title">
-                                                        <span className="theme-color" style={{ color: "#7631CE" }}> Virtual Reality (VR)</span><br /> Development Company
+                                                        <span className="theme-color" style={{ color: "#51F2FF" }}> Virtual Reality (VR)</span><br /> Development Company
                                                     </h2>
                                                     <p style={{ width: "500px" }} className="description metaverse_hero_para">
                                                         VRaiden is a one-stop shop for bespoke VR application development, with a focus on crafting custom virtual reality applications which deliver immersive, scalable virtual reality (VR) experiences for next-generation users.                                                     </p>

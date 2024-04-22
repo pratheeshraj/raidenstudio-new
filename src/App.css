@@ -58,3 +58,75 @@
         margin-right: 15px !important;
     }
 }
+
+/* // banner */
+
+.metaverseroyal_hero {
+    position: relative;
+    padding: 100px 0 60px 0;
+    height: 90vh;
+    background-image: url(`../../../public/assets/img/metaverse-royale/dl.beatsnoop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.metaverseroyal_hero_unity {
+    position: relative;
+    padding: 100px 0 60px 0;
+    height: 90vh;
+    background-image: url(`../../../public/assets/img/unity/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.metaverseroyal_hero_unreal {
+    position: relative;
+    padding: 100px 0 60px 0;
+    height: 90vh;
+    background-image: url(`../../../public/assets/img/unreal/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.metaverseroyal_hero_mmorpg {
+    position: relative;
+    padding: 100px 0 60px 0;
+    height: 90vh;
+    background-image: url(`../../../public/assets/img/mmorpg-img/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.metaverseroyal_hero_p2e {
+    position: relative;
+    padding: 100px 0 60px 0;
+    height: 90vh;
+    background-image: url(`../../../public/assets/img/p2e/her.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.metaverseroyal_hero_web3 {
+    position: relative;
+    padding: 100px 0 60px 0;
+    height: 90vh;
+    background-image: url(`../../../public/assets/img/web3game-img/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}

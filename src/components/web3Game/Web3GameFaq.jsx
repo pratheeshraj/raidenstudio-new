@@ -29,10 +29,12 @@ const Web3GameFaq = () => {
             className="img-file "
             data-aos="fade-right"
             data-aos-delay="500"
+            CaseStudydetailHero
+            style={{display:"flex",justifyContent: "center"}}
           >
             <img
               className="img-fluid"
-              src="/assets/img/service/02_service.png"
+              src="/assets/img/web3game-img/faq.png"
               alt=""
             />
           </div>

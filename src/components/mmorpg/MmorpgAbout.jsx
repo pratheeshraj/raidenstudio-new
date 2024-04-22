@@ -9,13 +9,13 @@ const MmorpgAbout = () => {
       data-aos-delay="300"
     >
       <div className="auto-container">
-        <div className="row">
+        <div className="row" style={{display:"flex",alignItems:"center"}}>
           <div className="col-lg-6">
             <div className="left-wrapper pe-2">
               <div className="img-file">
                 <img
                   className="img-fluid"
-                  src="/assets/img/service/02_service.png"
+                  src="/assets/img/mmorpg-img/about.png"
                   alt=""
                 />
               </div>

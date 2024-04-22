@@ -4,14 +4,13 @@ const Web3GameHeroSection = () => {
   return (
     <section>
       <div
-        className="container-fluid metaverseroyal_hero"
-        style={{ backgroundImage: "none", backgroundColor: "#a2a89d" }}
+        className="container-fluid metaverseroyal_hero_web3"
       >
         <div className="auto-container metaverseroyal_hero_container">
           <div className="left" data-aos="fade-right" data-aos-delay="300">
             <h2>
-              Cutting Edge
-              <span style={{ color: "#fdb441" }}> Web3 Gaming </span>
+              Cutting Edge 
+              <span style={{ color: "#fdb441" }}> Web3 <br/> Gaming </span>
             </h2>
             <p
               style={{
@@ -20,8 +19,8 @@ const Web3GameHeroSection = () => {
                 lineHeight: "35px",
               }}
             >
-              Harnessing the power of blockchain technology, we offer innovative
-              solutions to revolutionize your gaming experience.
+              Harnessing the power of blockchain technology,<br/> we offer innovative
+              solutions to revolutionize your<br/> gaming experience.
             </p>
             <button
               className="default-btn"
@@ -29,9 +28,6 @@ const Web3GameHeroSection = () => {
             >
               Explore Now
             </button>
-          </div>
-          <div className="right" data-aos="fade-left" data-aos-delay="300">
-            <img src="\assets\img\mobail-game-page\hero.png" alt="" />
           </div>
         </div>
       </div>

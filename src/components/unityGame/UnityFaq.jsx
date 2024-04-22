@@ -27,12 +27,13 @@ const UnityFaq = () => {
           </div>
           <div
             className="img-file "
+            style={{display:"flex",justifyContent: "center"}}
             data-aos="fade-right"
             data-aos-delay="500"
           >
             <img
               className="img-fluid"
-              src="/assets/img/service/02_service.png"
+              src="/assets/img/unity/faq.png"
               alt=""
             />
           </div>

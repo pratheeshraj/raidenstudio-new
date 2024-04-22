@@ -32,7 +32,7 @@ const FAQSectionOne = () => {
               >
                 <img
                   className="img-fluid"
-                  src="/assets/img/service/02_service.png"
+                  src="/assets/img/AI/aidevfaq.jpg"
                   alt=""
                 />
               </div>
@@ -43,13 +43,6 @@ const FAQSectionOne = () => {
                 data-aos="fade-left"
                 data-aos-delay="300"
               >
-                <div className="icon-shape">
-                  <img
-                    className="img-fluid"
-                    src="/assets/img/icon/23_icon.png"
-                    alt=""
-                  />
-                </div>
                 <div className="intro">
                   <h3>Common Question &amp; Answer</h3>
                 </div>

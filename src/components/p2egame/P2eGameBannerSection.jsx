@@ -7,7 +7,8 @@ const P2eGameBannerSection = () => {
       className="counter-section one"
       style={{
         backgroundSize: "cover",
-        background: "#00151e",
+        background: 'url("/assets/img/p2e/banner.jpg")',
+
       }}
     >
       <div className="auto-container">
@@ -49,9 +50,9 @@ const P2eGameBannerSection = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6">
+            {/* <div className="col-lg-6">
               <img src="/assets/img/bg-image/painting-water-lillies-orange-flowers-pond-generative-ai_733139-67283-transformed-removebg-preview.png" />
-            </div>
+            </div> */}
           </div>
           {/* <div className="overlay-text">
         <h1>AI</h1>

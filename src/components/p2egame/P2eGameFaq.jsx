@@ -11,7 +11,7 @@ const P2eGameFaq = () => {
               data-aos="fade-right"
               data-aos-delay="300"
             >
-              <h3 style={{ color: "black" }}>FAQ For P2E Game Development </h3>
+              <h3 style={{ color: "black" }}>FAQ</h3>
               <h2 style={{ color: "black" }}>
                 Answers at a <br />
                 <span className="theme-color" style={{ color: "#fdb441" }}>
@@ -25,12 +25,13 @@ const P2eGameFaq = () => {
             </div>
             <div
               className="img-file "
+              style={{justifyContent: "center",display:"flex"}}
               data-aos="fade-right"
               data-aos-delay="500"
             >
               <img
                 className="img-fluid"
-                src="/assets/img/service/02_service.png"
+                src="/assets/img/p2e/faq.png"
                 alt=""
               />
             </div>

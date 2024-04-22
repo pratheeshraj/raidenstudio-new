@@ -4,13 +4,12 @@ const UnRealHeroSection = () => {
   return (
     <section>
       <div
-        className="container-fluid metaverseroyal_hero"
-        style={{ backgroundImage: "none", backgroundColor: "#a2a89d" }}
+        className="container-fluid metaverseroyal_hero_unreal"
       >
         <div className="auto-container metaverseroyal_hero_container">
           <div className="left" data-aos="fade-right" data-aos-delay="300">
             <h2>
-            Unreal <span style={{ color: "#fdb441" }}> Potential, Experts Unleashed </span>
+            Unreal <span style={{ color: "#fdb441" }}> Potential, <br/> Experts Unleashed </span>
             </h2>
             <p
               style={{
@@ -19,7 +18,7 @@ const UnRealHeroSection = () => {
                 lineHeight: "35px",
               }}
             >
-              Crafting immersive experiences with expert Unreal Development
+              Crafting immersive experiences with expert Unreal<br/> Development
               services. Let your imagination soar
             </p>
             <button
@@ -29,9 +28,9 @@ const UnRealHeroSection = () => {
               Explore Now
             </button>
           </div>
-          <div className="right" data-aos="fade-left" data-aos-delay="300">
+          {/* <div className="right" data-aos="fade-left" data-aos-delay="300">
             <img src="\assets\img\mobail-game-page\hero.png" alt="" />
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

@@ -27,7 +27,7 @@ const AsFaq = () => {
                             >
                                 <img
                                     className="img-fluid"
-                                    src="/assets/img/service/02_service.png"
+                                    src="/assets/img/ai-as-service/faq.jpg"
                                     alt=""
                                 />
                             </div>

@@ -33,7 +33,7 @@ const AiBussiness = () => {
                                 data-aos-delay="300"
                             >
                                 <div className="img-file por">
-                                    <img className="img-fluid" style={{ height: "362px" }} src={image1} alt="" />
+                                    <img className="img-fluid" style={{ height: "362px" }} src="/assets/img/ai-as-service/focus.jpg" alt="" />
                                     <div className="shape-overlay poa">
                                         <div className="inner Industry">
                                             <h2>Focus on Core Competencies</h2>
@@ -55,7 +55,7 @@ const AiBussiness = () => {
                                 data-aos-delay="300"
                             >
                                 <div className="img-file por">
-                                    <img className="img-fluid" style={{ height: "362px" }} src={image2} alt="" />
+                                    <img className="img-fluid" style={{ height: "362px" }} src="/assets/img/ai-as-service/cost.jpg" alt="" />
                                     <div className="shape-overlay poa">
                                         <div className="inner Industry">
                                             <h2>Cost Efficiency</h2>
@@ -77,7 +77,7 @@ const AiBussiness = () => {
                                 data-aos-delay="300"
                             >
                                 <div className="img-file por">
-                                    <img className="img-fluid" src={image4} style={{ height: "362px" }} alt="" />
+                                    <img className="img-fluid" src="/assets/img/ai-as-service/deployment.jpg" style={{ height: "362px" }} alt="" />
                                     <div className="shape-overlay poa">
                                         <div className="inner Industry">
                                             <h2>Rapid Deployment</h2>
@@ -98,7 +98,7 @@ const AiBussiness = () => {
                                 data-aos-delay="300"
                             >
                                 <div className="img-file por">
-                                    <img className="img-fluid" src={image3} style={{ height: "362px" }} alt="" />
+                                    <img className="img-fluid" src="/assets/img/ai-as-service/expertise.jpg" style={{ height: "362px" }} alt="" />
                                     <div className="shape-overlay poa">
                                         <div className="inner Industry">
                                             <h2>Access to Expertise</h2>

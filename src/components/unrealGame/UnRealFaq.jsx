@@ -30,7 +30,7 @@ const UnRealFaq = () => {
             >
               <img
                 className="img-fluid"
-                src="/assets/img/service/02_service.png"
+                src="/assets/img/unreal/faq.png"
                 alt=""
               />
             </div>
@@ -150,32 +150,6 @@ const UnRealFaq = () => {
                         Yes, we offer training programs tailored to your team's
                         needs, covering everything from basic to advanced Unreal
                         Engine concepts and techniques.
-                      </div>
-                    </div>
-                  </div>
-                  <div className="accordion-item">
-                    <h2 className="accordion-header">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseFive"
-                        aria-expanded="false"
-                        aria-controls="flush-collapseFive"
-                      >
-                        What sets Raiden apart from other Unreal Development
-                        service providers?
-                      </button>
-                    </h2>
-                    <div
-                      id="flush-collapseFive"
-                      className="accordion-collapse collapse"
-                      data-bs-parent="#accordionFlushExample"
-                    >
-                      <div className="accordion-body">
-                        Our commitment to innovation, quality, and client
-                        satisfaction sets us apart. We go above and beyond to
-                        deliver exceptional results that exceed expectations.
                       </div>
                     </div>
                   </div>

@@ -100,20 +100,20 @@ const MetaverseRoyalContent = () => {
   return (
     <>
       <section>
-        <div className="container-fluid metaverseroyal_hero">
+        <div className="container-fluid metaverseroyal_hero" >
           <div className="auto-container metaverseroyal_hero_container">
             <div className="left" data-aos="fade-right" data-aos-delay="300">
               <h2>
                 MetaVerse <span>Royale</span>
               </h2>
               <p className="Hero_sub_heading">
-                Revolutionizes gaming with a customizable,
+                Revolutionizes gaming with a customizable,<br/>
                 immersive Battle Royale experience in the Metaverse.
               </p>
             </div>
-            <div className="right" data-aos="fade-left" data-aos-delay="300">
-              <img src="\assets\img\MeatverseRoyal\hero.png" alt="" />
-            </div>
+            {/* <div className="right" data-aos="fade-left" data-aos-delay="300">
+              <img src="\assets\img\metaverse-royale\dl.beatsnoop.jpg" alt="" />
+            </div> */}
           </div>
         </div>
       </section>
@@ -532,7 +532,7 @@ const MetaverseRoyalContent = () => {
                     alt=""
                   />
                 </div>
-                <img src="\assets\img\MeatverseRoyal\2151151044.jpg" alt="" />
+                <img src="\assets\img\metaverse-royale\Frame 49.jpg" alt="" />
                 <div>
                   <h6>Futuristic Cityscape</h6>
                   <p>
@@ -549,7 +549,7 @@ const MetaverseRoyalContent = () => {
                     alt=""
                   />
                 </div>
-                <img src="\assets\img\MeatverseRoyal\2151151044.jpg" alt="" />
+                <img src="\assets\img\metaverse-royale\Frame 50.jpg" alt="" />
                 <div>
                   <h6> Ancient Ruins</h6>
                   <p>
@@ -568,7 +568,7 @@ const MetaverseRoyalContent = () => {
                     alt=""
                   />
                 </div>
-                <img src="\assets\img\MeatverseRoyal\2151151044.jpg" alt="" />
+                <img src="\assets\img\metaverse-royale\Frame 51.jpg" alt="" />
                 <div>
                   <h6> Post-Apocalyptic Wasteland</h6>
                   <p>
@@ -585,7 +585,7 @@ const MetaverseRoyalContent = () => {
                     alt=""
                   />
                 </div>
-                <img src="\assets\img\MeatverseRoyal\2151151044.jpg" alt="" />
+                <img src="\assets\img\metaverse-royale\Frame 52.jpg" alt="" />
                 <div>
                   <h6> Virtual Reality Arena</h6>
                   <p>
@@ -728,28 +728,28 @@ const MetaverseRoyalContent = () => {
               ref={sliderRef}>
               <div class="card-casino-choice">
                 <div class="container-card-casino_choice bg-green-box-casino-choice">
-                  <img src="\assets\img\virtualvegas\Choice\Frame 40.jpg" alt='' />
+                  <img src="\assets\img\metaverse-royale-choiceofgame\urban war.jpg" alt='' />
                   <p style={{ textAlign: "center", margin: "0", fontSize: "20px", marginTop: "10px" }} class="card-title-casino">Urban Warfare</p>
                   <p style={{ textAlign: "center", lineHeight: "25px", margin: "0" }} class="card-description-casino">Dive into intense urban combat in a futuristic cityscape filled with skyscrapers and high-tech gadgets.</p>
                 </div>
               </div>
               <div class="card-casino-choice">
                 <div class="container-card-casino_choice bg-white-box-casino-choice">
-                  <img src="\assets\img\virtualvegas\Choice\Frame 42.jpg" alt='' />
+                  <img src="\assets\img\metaverse-royale-choiceofgame\lost.jpg" alt='' />
                   <p style={{ textAlign: "center", margin: "0", fontSize: "20px", marginTop: "10px" }} class="card-title-casino">Lost Kingdoms</p>
                   <p style={{ textAlign: "center", lineHeight: "25px", margin: "0" }} class="card-description-casino">Embark on an epic journey through ancient ruins and mystical lands, battling rival factions for dominance.</p>
                 </div>
               </div>
               <div class="card-casino-choice">
                 <div class="container-card-casino_choice bg-yellow-box-casino-choice">
-                  <img src="\assets\img\virtualvegas\Choice\Frame 43.jpg" alt='' />
+                  <img src="\assets\img\metaverse-royale-choiceofgame\waste.jpg" alt='' />
                   <p style={{ textAlign: "center", margin: "0", fontSize: "20px", marginTop: "10px" }} class="card-title-casino">Wasteland Chronicles</p>
                   <p style={{ textAlign: "center", lineHeight: "25px", margin: "0" }} class="card-description-casino">Survive in a harsh post-apocalyptic world, where only the strongest and most cunning can endure.</p>
                 </div>
               </div>
               <div class="card-casino-choice">
                 <div class="container-card-casino_choice bg-blue-box-casino-choice">
-                  <img src="\assets\img\virtualvegas\Choice\Frame 44.jpg" alt='' />
+                  <img src="\assets\img\metaverse-royale-choiceofgame\virtual.jpg" alt='' />
                   <p style={{ textAlign: "center", margin: "0", fontSize: "20px", marginTop: "10px" }} class="card-title-casino">Virtual Conquest</p>
                   <p style={{ textAlign: "center", lineHeight: "25px", margin: "0" }} class="card-description-casino">Explore a virtual reality playground where anything is possible, from gravity-defying battles to mind-bending puzzles.</p>
                 </div>
@@ -1367,7 +1367,7 @@ const MetaverseRoyalContent = () => {
               >
                 <img
                   className="img-fluid"
-                  src="/assets/img/service/02_service.png"
+                  src="/assets/img/metaverse-royale/_740a4e96-eff5-4b8a-ba80-572c07f79145 1.jpg"
                   alt=""
                 />
               </div>
@@ -1495,32 +1495,6 @@ const MetaverseRoyalContent = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="accordion-item">
-                      <h2 className="accordion-header">
-                        <button
-                          className="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapseFive"
-                          aria-expanded="false"
-                          aria-controls="flush-collapseFive"
-                        >
-                          Can I play with friends in MetaVerse Royale?
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapseFive"
-                        className="accordion-collapse collapse"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div className="accordion-body">
-                          Absolutely! MetaVerse Royale supports team-based
-                          modes, allowing players to collaborate with friends or
-                          join forces with other players in squad or duo matches
-                          to outlast rival teams and claim victory.
-                        </div>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -1531,20 +1505,8 @@ const MetaverseRoyalContent = () => {
           <div className="shape-img-2 poa">
             <img src="/assets/img/icon/64_icon.png" alt="" />
           </div>
-          <div className="shape-img-3 poa">
-            <img src="/assets/img/icon/22_icon.png" alt="" />
-          </div>
-          <div className="shape-img-4 poa">
-            <img src="/assets/img/icon/08_icon.png" alt="" />
-          </div>
           <div className="shape-img-5 poa">
             <img src="/assets/img/icon/26_icon.png" alt="" />
-          </div>
-          <div className="shape-img-6 poa">
-            <img src="/assets/img/icon/43_icon.png" alt="" />
-          </div>
-          <div className="shape-img-7 poa">
-            <img src="/assets/img/icon/68_icon.png" alt="" />
           </div>
           <div className="shape-img-8 poa">
             <img src="/assets/img/icon/71_icon.png" alt="" />

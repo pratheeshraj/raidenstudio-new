@@ -27,12 +27,13 @@ const MobileGamePageFaq = () => {
             </div>
             <div
               className="img-file "
+              style={{display:"flex",justifyContent: "center",alignItems:"center"}}
               data-aos="fade-right"
               data-aos-delay="500"
             >
               <img
                 className="img-fluid"
-                src="/assets/img/service/02_service.png"
+                src="/assets/img/mobile-game-development/faq.png"
                 alt=""
               />
             </div>

@@ -12,10 +12,10 @@ const UnRealAbout = () => {
         <div className="row">
           <div className="col-lg-6">
             <div className="left-wrapper pe-2">
-              <div className="img-file">
+              <div className="img-file" style={{display:"flex",justifyContent:"center"}}>
                 <img
                   className="img-fluid"
-                  src="/assets/img/service/02_service.png"
+                  src="/assets/img/unreal/about.png"
                   alt=""
                 />
               </div>

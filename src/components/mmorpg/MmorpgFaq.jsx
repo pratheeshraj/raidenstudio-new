@@ -25,12 +25,13 @@ const MmorpgFaq = () => {
             </div>
             <div
               className="img-file "
+              style={{display:"flex",justifyContent: "center"}}
               data-aos="fade-right"
               data-aos-delay="500"
             >
               <img
                 className="img-fluid"
-                src="/assets/img/service/02_service.png"
+                src="/assets/img/mmorpg-img/faq.png"
                 alt=""
               />
             </div>
@@ -149,7 +150,7 @@ const MmorpgFaq = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="accordion-item">
+                  {/* <div className="accordion-item">
                     <h2 className="accordion-header">
                       <button
                         className="accordion-button collapsed"
@@ -174,7 +175,7 @@ const MmorpgFaq = () => {
                         positive community experience.
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

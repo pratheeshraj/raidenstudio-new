@@ -15,7 +15,8 @@ const P2eGameAbout = () => {
               <div className="img-file">
                 <img
                   className="img-fluid"
-                  src="/assets/img/service/02_service.png"
+                  style={{marginTop:"-130px",scale:"0.9"}}
+                  src="/assets/img/p2e/about.png"
                   alt=""
                 />
               </div>

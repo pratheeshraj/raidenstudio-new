@@ -48,8 +48,8 @@ const UnityBannerSection = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-6">
-            <img src="/assets/img/bg-image/painting-water-lillies-orange-flowers-pond-generative-ai_733139-67283-transformed-removebg-preview.png" />
+          <div className="col-lg-6" style={{display:"flex",justifyContent:"end"}}>
+            <img style={{width:"60%"}} src="/assets/img/unity/banner.svg" />
           </div>
         </div>
         {/* <div className="overlay-text">
