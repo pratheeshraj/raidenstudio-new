@@ -26,7 +26,7 @@ const WebFaq = () => {
                             >
                                 <img
                                     className="img-fluid"
-                                    src="/assets/img/service/02_service.png"
+                                    src="/assets/img/web3/faq.jpg"
                                     alt=""
                                 />
                             </div>

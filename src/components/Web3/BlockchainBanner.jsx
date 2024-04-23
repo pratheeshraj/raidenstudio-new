@@ -8,7 +8,7 @@ const BlockchainBanner = () => {
             <section
                 className="counter-section one"
                 style={{
-                    backgroundImage: "url('/assets/img/bg-image/ar-banner.avif')",
+                    backgroundImage: "url('/assets/img/web3/banner.jpg')",
                     backgroundSize: "cover"
                 }}
             >
