@@ -77,7 +77,7 @@ function MetaverseCasinoContent() {
                 <div className="auto-container">
                     <div className="row Raidenarcviz_card">
                         <h2 className="raidenarcviz_card_h2">Key<span className="theme-color"> Features</span></h2>
-                        <p className='raidenarcviz_card_p' style={{color:"black",width:"90%" ,margin:"auto"}}>From an extensive selection of games to advanced technical capabilities, VirtualVegas offers a comprehensive gaming experience designed to thrill and delight players of all preferences.</p>
+                        <p className='raidenarcviz_card_p' style={{color:"black",width:"90%" ,margin:"auto" , marginBottom:"40px"}}>From an extensive selection of games to advanced technical capabilities, VirtualVegas offers a comprehensive gaming experience designed to thrill and delight players of all preferences.</p>
                         <div class="gradient-cards-casino">
                             <div class="card-casino">
                                 <div class="container-card-casino bg-green-box-casino">
