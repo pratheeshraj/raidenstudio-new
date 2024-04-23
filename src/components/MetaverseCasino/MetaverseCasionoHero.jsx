@@ -23,10 +23,10 @@ const MetaverseCasionoHero = () => {
                         <SwiperSlide>
                             <div className="item-slider sliderm-height p-relative swiper-slide" style={{ height: "90vh" }}>
                                 <div
-                                    className="slide-bg"
+                                    className="slide-bg casino_banner"
                                     style={{
                                         height: "100%",
-                                        background: "url('assets/img/virtualvegas/new 1 1.jpg')",
+                                        background: "url('assets/img/virtualvegas/casino-hero.jpg')",
                                     }}
                                 />
                                 <div className="auto-container hero-banner_div">
@@ -39,7 +39,7 @@ const MetaverseCasionoHero = () => {
                                                         <span className="theme-color"> Metaverse Casino Destination!</span>
                                                     </h2>
                                                     <p className="description Hero_sub_heading">
-                                                       comprehensive platform that combines the excitement of traditional casino gaming with the cutting-edge technology.
+                                                       comprehensive platform that combines the excitement of <br/>traditional casino gaming with the cutting-edge technology.
                                                     </p>
                                                     <div className="inner-btn">
                                                         <div>

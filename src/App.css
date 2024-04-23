@@ -146,3 +146,11 @@
     display: flex !important;
     align-items: center !important;
 }
+
+.casino_banner {
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    display: flex !important;
+    align-items: center !important;
+}
