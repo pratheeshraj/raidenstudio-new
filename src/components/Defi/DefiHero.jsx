@@ -30,7 +30,7 @@ const DefiHero = () => {
                                     className="slide-bg"
                                     style={{
                                         backgroundImage:
-                                            "url('assets/img/bg-image/user-engages-with-futuristic-vr-technology-digital-cyberspace_1151092-683-transformed.jpeg')",
+                                            "url('assets/img/defi/hero.jpg')",
                                         height: "100%"
                                     }}
                                 />

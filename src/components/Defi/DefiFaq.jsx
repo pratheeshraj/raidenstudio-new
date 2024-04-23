@@ -25,7 +25,7 @@ const DefiFaq = () => {
                             >
                                 <img
                                     className="img-fluid"
-                                    src="/assets/img/service/02_service.png"
+                                    src="/assets/img/defi/faq.jpg"
                                     alt=""
                                 />
                             </div>

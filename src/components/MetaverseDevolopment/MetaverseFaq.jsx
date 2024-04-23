@@ -25,7 +25,7 @@ const MetaverseFaq = () => {
                             >
                                 <img
                                     className="img-fluid"
-                                    src="/assets/img/service/02_service.png"
+                                    src="/assets/img/metaverse-block/faq.jpg"
                                     alt=""
                                 />
                             </div>
