@@ -25,7 +25,7 @@ const BlockChainFaq = () => {
                             >
                                 <img
                                     className="img-fluid"
-                                    src="/assets/img/service/02_service.png"
+                                    src="/assets/img/custom-block/faq.jpg"
                                     alt=""
                                 />
                             </div>

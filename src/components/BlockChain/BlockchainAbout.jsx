@@ -17,7 +17,7 @@ const BlockchainAbout = () => {
                                 <div className="img-file">
                                     <img
                                         className="img-fluid"
-                                        src="/assets/img/service/02_service.png"
+                                        src="/assets/img/custom-block/about.jpg"
                                         alt=""
                                     />
                                 </div>
