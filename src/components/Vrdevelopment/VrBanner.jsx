@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const ArBanner = () => {
+const VrBanner = () => {
     return (
         <>
             {/* Counter-section one start */}
             <section
                 className="counter-section one"
                 style={{
-                    backgroundImage: "url('/assets/img/ar/banner.jpg')",
+                    backgroundImage: "url('/assets/img/vr/banner.jpg')",
                     backgroundSize: "cover"
                 }}
             >
@@ -56,4 +56,4 @@ const ArBanner = () => {
     );
 };
 
-export default ArBanner;
+export default VrBanner;

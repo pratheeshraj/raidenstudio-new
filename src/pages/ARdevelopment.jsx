@@ -35,6 +35,7 @@ import ArFeature from '../components/Ardevelopment/ArFeature';
 import ArIndustries from '../components/Ardevelopment/ArIndustries';
 import ArTech from '../components/Ardevelopment/ArTech';
 import Arwhychoose from '../components/Ardevelopment/Arwhychoose';
+import ArFaq from '../components/Ardevelopment/ArFaq';
 
 function ARdevelopment() {
     let [active, setActive] = useState(true);
@@ -73,7 +74,7 @@ function ARdevelopment() {
                 {/* metaverse-whychoose */}
                 <Arwhychoose />
                 {/* faq */}
-                <VrFaq />
+                <ArFaq />
                 {/* contact */}
                 <ContactSection2 />
                 {/* Footer Section */}

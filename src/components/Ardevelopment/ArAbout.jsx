@@ -17,7 +17,7 @@ const ArAbout = () => {
                                 <div className="img-file">
                                     <img
                                         className="img-fluid"
-                                        src="/assets/img/service/02_service.png"
+                                        src="/assets/img/ar/about.jpg"
                                         alt=""
                                     />
                                 </div>

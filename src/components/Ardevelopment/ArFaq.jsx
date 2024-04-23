@@ -1,6 +1,6 @@
 import React from "react";
 
-const VrFaq = () => {
+const ArFaq = () => {
 
     return (
         <>
@@ -25,7 +25,7 @@ const VrFaq = () => {
                             >
                                 <img
                                     className="img-fluid"
-                                    src="/assets/img/vr/faq.jpg"
+                                    src="/assets/img/ar/faq.jpg"
                                     alt=""
                                 />
                             </div>
@@ -122,4 +122,4 @@ const VrFaq = () => {
     );
 };
 
-export default VrFaq;
+export default ArFaq;

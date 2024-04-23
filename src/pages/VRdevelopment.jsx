@@ -15,6 +15,7 @@ import VrIndustries from '../components/Vrdevelopment/VrIndustries';
 import VrTech from '../components/Vrdevelopment/VrTech';
 import VrWhyChoose from '../components/Vrdevelopment/VrWhyChoose';
 import VrFaq from '../components/Vrdevelopment/VrFaq';
+import VrBanner from '../components/Vrdevelopment/VrBanner';
 
 function VRdevelopment() {
     let [active, setActive] = useState(true);
@@ -41,7 +42,7 @@ function VRdevelopment() {
                 {/* vr-service */}
                 <Vrsevice />
                 {/* metaverse-banner */}
-                <MetaverseBanner />
+                <VrBanner />
                 {/* metaverse-features */}
                 <Vrfeatures />
                 {/* metaverse-industries */}
