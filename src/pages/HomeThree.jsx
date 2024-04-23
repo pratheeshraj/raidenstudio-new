@@ -66,7 +66,8 @@ useEffect(()=>{
       <Suspense>
         {active === true && <Preloader />}
         {/* Helmet */}
-        <HelmetReact title={"Home"} />
+        {/* title, description, keywords,ogimage  */}
+        <HelmetReact title={"Raiden - AI, Metaverse, NFT, Web3 & Blockchain Development Company"}  description={"Raiden is a leading blockchain development services company with 10+ years of experience offering reliable, secure, scalable dApps, AI, NFT, Metaverse, and Web3.0 solutions globally."} keywords={"blockchain development, web3 development, AI development, Metaverse development, AR development, VR development"} ogimage={""} />
         {/* Header Three */}
         <HeaderTwo />
         {/* Slider Three */}
