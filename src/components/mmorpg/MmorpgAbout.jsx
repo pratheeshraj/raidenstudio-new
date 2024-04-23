@@ -12,7 +12,9 @@ const MmorpgAbout = () => {
         <div className="row" style={{display:"flex",alignItems:"center"}}>
           <div className="col-lg-6">
             <div className="left-wrapper pe-2">
-              <div className="img-file">
+              <div className="img-file"
+              style={{display:"flex" ,justifyContent:"center",alignItems:"center"}}
+              >
                 <img
                   className="img-fluid"
                   src="/assets/img/mmorpg-img/about.png"

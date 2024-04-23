@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Web3GameBannerSection = () => {
   return (
     <section
-      className="counter-section one"
+      className="counter-section one  web3game_banner"
       style={{
         backgroundSize: "cover",
         background: 'url("/assets/img/web3game-img/banner.jpg")',

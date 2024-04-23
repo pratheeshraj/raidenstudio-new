@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const P2eGameBannerSection = () => {
   return (
     <section
-      className="counter-section one"
+      className="counter-section one p2e_banner"
       style={{
         backgroundSize: "cover",
         background: 'url("/assets/img/p2e/banner.jpg")',
