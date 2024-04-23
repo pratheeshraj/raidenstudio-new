@@ -8,7 +8,7 @@ const DefiBanner = () => {
             <section
                 className="counter-section one"
                 style={{
-                    backgroundImage: "url('/assets/img/bg-image/ar-banner.avif')",
+                    backgroundImage: "url('/assets/img/defi/banner.jpg')",
                     backgroundSize: "cover"
                 }}
             >

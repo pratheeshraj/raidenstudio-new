@@ -23,31 +23,31 @@ const BlockchainFeatues = () => {
                     <div className="auto-container row industry_wide_section_container blockchain_game_card_maindiv ">
                         <div className="industry_wide_card_blockchain">
                             <div className="classy_simx_bg"></div>
-                            <img src={bg_image} alt="" />
+                            <img src="\assets\img\blockchaingame\Frame 60.jpg" alt="" />
                             <h6>Decentralization</h6>
                             <p>Empowering players with true ownership of in-game assets and economies.</p>
                         </div>
                         <div className="industry_wide_card_blockchain">
                             <div className="classy_simx_bg"></div>
-                            <img src={bg_image2} alt="" />
+                            <img src="\assets\img\blockchaingame\Frame 61.jpg" alt="" />
                             <h6>Transparency</h6>
                             <p>Ensuring fairness and transparency through immutable blockchain <br />records.</p>
                         </div>
                         <div className="industry_wide_card_blockchain">
                             <div className="classy_simx_bg"></div>
-                            <img src={bg_image3} alt="" />
+                            <img src="\assets\img\blockchaingame\Frame 62.jpg" alt="" />
                             <h6>Interoperability</h6>
                             <p>Facilitating interoperability between different games and platforms, enhancing user experiences.</p>
                         </div>
                         <div className="industry_wide_card_blockchain">
                             <div className="classy_simx_bg"></div>
-                            <img src={bg_image4} alt="" />
+                            <img src="\assets\img\blockchaingame\Frame 63.jpg" alt="" />
                             <h6>Security</h6>
                             <p>Implementing robust security measures to safeguard against fraud and unauthorized access.</p>
                         </div>
                         <div className="industry_wide_card_blockchain">
                             <div className="classy_simx_bg"></div>
-                            <img src={bg_image5} alt="" />
+                            <img src="\assets\img\blockchaingame\Frame 64.jpg" alt="" />
                             <h6>Monetization Opportunities</h6>
                             <p>
                                 Unlocking new revenue streams through tokenization and in-game economies.
@@ -55,7 +55,7 @@ const BlockchainFeatues = () => {
                         </div>
                         <div className="industry_wide_card_blockchain">
                             <div className="classy_simx_bg"></div>
-                            <img src={bg_image6} alt="" />
+                            <img src="\assets\img\blockchaingame\Frame 65.jpg" alt="" />
                             <h6>Community Engagement</h6>
                             <p>
                                 Fostering vibrant gaming communities through participatory governance and incentivized gameplay.
