@@ -16,7 +16,18 @@ import HelmetReact from '../elements/HelmetReact'
 const Web3GamePage = () => {
   return (
     <Suspense>
-    <HelmetReact title={"career"} />
+      <HelmetReact
+          title={
+            "Web3 Game Development Company | Hire Web3 Game Developers"
+          }
+          description={
+            "A top-notch Web3.0 Game development company with 5+ years of deep domain expertise. We deliver a comprehensive set of Web3 game development services using avant-garde technologies."
+          }
+          keywords={
+            "web3 game development, web3 game development company, web3 game development services, create your own web3 game"
+          }
+          ogimage={""}
+        />
     <HeaderTwo />
     <Web3GameHeroSection/>
     <Web3GameAbout/>

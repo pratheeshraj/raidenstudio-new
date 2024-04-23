@@ -18,7 +18,18 @@ const P2eGamePage = () => {
   return (
     <Fragment>
     <Suspense>
-    <HelmetReact title={"career"} />
+    <HelmetReact
+          title={
+            "Play to Earn Game Development Company | P2E Game Development Services"
+          }
+          description={
+            "Raiden is a trustworthy P2E game development company with a pool of game developers who help develop Play-To-Earn games across multiple categories using cutting-edge technologies."
+          }
+          keywords={
+            "play-to-earn game development, p2e game development company, p2e game development services, hire p2e game developers, launch your own p2e game"
+          }
+          ogimage={""}
+        />
       <HeaderTwo/>
       <P2eGameHeroSection/>
       <P2eGameAbout />
