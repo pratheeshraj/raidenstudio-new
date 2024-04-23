@@ -39,7 +39,7 @@ function BlockChainWhy() {
                             </div>
                             <div className='ai_whychoose_card_div'>
                                 <div style={{ background: "linear-gradient(136.76deg, #F889D5 0%, #5650DE 100%)" }} className='whychoose_ai_box'>
-                                    <img src='public\assets\img\ar\ar advantages of\brandawarn.svg' />
+                                    <img src='\assets\img\blockchain_game\block game why choose\timelydeliver.svg' />
                                 </div>
                                 <div className='whychoose_ai_content'>Timely Delivery</div>
                             </div>
