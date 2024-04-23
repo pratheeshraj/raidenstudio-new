@@ -14,10 +14,9 @@ const TestimonialSectionThree = () => {
                 data-aos="fade-up"
                 data-aos-delay="300"
               >
-                <h3>Our Customer Review</h3>
+                <h3><span className="theme-color"> Meet The Team Member</span></h3>
                 <h2>
-                  People reviews for us For <br /> Great{" "}
-                  <span className="theme-color">AI Service</span>
+                Innovation, Creativity, and  Inclusivity
                 </h2>
               </div>
             </div>
@@ -26,17 +25,10 @@ const TestimonialSectionThree = () => {
             <div className="swiper swiper-container testimonial-two">
               <div className="swiper-wrapper">
                 <Swiper
-                  loop={true}
-                  navigation={{
-                    nextEl: ".testimonialOne-button-next",
-                    prevEl: ".testimonialOne-button-prev",
-                  }}
                   spaceBetween={20}
                   slidesPerView={2}
                   slidesPerGroup={1}
-                  speed={1000}
                   pagination={{ clickable: true }}
-                  autoplay={{ delay: 6000 }}
                   className="mySwiper"
                   modules={[FreeMode, Navigation, Thumbs, EffectFade]}
                   breakpoints={{
@@ -63,9 +55,8 @@ const TestimonialSectionThree = () => {
                       <div className="inner-wrapper">
                         <div className="review">
                           <p>
-                            Overall, I highly recommend x-team to anyone looking
-                            for a high-quality theme with top-notch support.
-                            It's a great value for the price and has exceeded.
+                          Kamal founded Raiden Studios as a result of his interest in immersive technology.
+Kamal previously worked as the chief operating officer at Osiz Technologies, where he honed his managerial and team-leading skills, as well as his knowledge of Blockchain and Web3.
                           </p>
                           <div className="shape">
                             <span>
@@ -76,13 +67,13 @@ const TestimonialSectionThree = () => {
                         <div className="intro-body">
                           <div className="img-file">
                             <img
-                              src="/assets/img/testimonial/01_testimonial-profile.png"
+                              src="/assets/img/founder/img1.jpg"
                               alt=""
                             />
                           </div>
                           <div className="text-file">
-                            <h3>Stuart L. Roberts</h3>
-                            <h5>Software Developer</h5>
+                            <h3>KAMAL</h3>
+                            <h5>CEO & Co-Founder</h5>
                           </div>
                         </div>
                       </div>
@@ -93,9 +84,7 @@ const TestimonialSectionThree = () => {
                       <div className="inner-wrapper">
                         <div className="review">
                           <p>
-                            Overall, I highly recommend x-team to anyone looking
-                            for a high-quality theme with top-notch support.
-                            It's a great value for the price and has exceeded.
+                          Vaidya began his career as the CEO of Marlion Games, an Edutech gamification business that specialised in developing VR and augmented reality (VR/AR) solutions for the Indian market in the fields of education and healthcare. He has also held an academic position in engineering.
                           </p>
                           <div className="shape">
                             <span>
@@ -106,148 +95,19 @@ const TestimonialSectionThree = () => {
                         <div className="intro-body">
                           <div className="img-file">
                             <img
-                              src="/assets/img/testimonial/02_testimonial-profile.png"
+                              src="/assets/img/founder/img2.jpg"
                               alt=""
                             />
                           </div>
                           <div className="text-file">
-                            <h3>Nicole J. Robertson</h3>
-                            <h5>Recreation parks director</h5>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <div className="swiper-slide">
-                      <div className="inner-wrapper">
-                        <div className="review">
-                          <p>
-                            Overall, I highly recommend x-team to anyone looking
-                            for a high-quality theme with top-notch support.
-                            It's a great value for the price and has exceeded.
-                          </p>
-                          <div className="shape">
-                            <span>
-                              <i className="fa-sharp fa-solid fa-quote-left" />
-                            </span>
-                          </div>
-                        </div>
-                        <div className="intro-body">
-                          <div className="img-file">
-                            <img
-                              src="/assets/img/testimonial/03_testimonial-profile.png"
-                              alt=""
-                            />
-                          </div>
-                          <div className="text-file">
-                            <h3>Jose N. Swarthout</h3>
-                            <h5>Slicing machine setter</h5>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <div className="swiper-slide">
-                      <div className="inner-wrapper">
-                        <div className="review">
-                          <p>
-                            Overall, I highly recommend x-team to anyone looking
-                            for a high-quality theme with top-notch support.
-                            It's a great value for the price and has exceeded.
-                          </p>
-                          <div className="shape">
-                            <span>
-                              <i className="fa-sharp fa-solid fa-quote-left" />
-                            </span>
-                          </div>
-                        </div>
-                        <div className="intro-body">
-                          <div className="img-file">
-                            <img
-                              src="/assets/img/testimonial/04_testimonial-profile.png"
-                              alt=""
-                            />
-                          </div>
-                          <div className="text-file">
-                            <h3>Rosie T. Butler</h3>
-                            <h5>Labor training manager</h5>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <div className="swiper-slide">
-                      <div className="inner-wrapper">
-                        <div className="review">
-                          <p>
-                            Overall, I highly recommend x-team to anyone looking
-                            for a high-quality theme with top-notch support.
-                            It's a great value for the price and has exceeded.
-                          </p>
-                          <div className="shape">
-                            <span>
-                              <i className="fa-sharp fa-solid fa-quote-left" />
-                            </span>
-                          </div>
-                        </div>
-                        <div className="intro-body">
-                          <div className="img-file">
-                            <img
-                              src="/assets/img/testimonial/05_testimonial-profile.png"
-                              alt=""
-                            />
-                          </div>
-                          <div className="text-file">
-                            <h3>Clarence M. Berube</h3>
-                            <h5>Organic chemist</h5>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <div className="swiper-slide">
-                      <div className="inner-wrapper">
-                        <div className="review">
-                          <p>
-                            Overall, I highly recommend x-team to anyone looking
-                            for a high-quality theme with top-notch support.
-                            It's a great value for the price and has exceeded.
-                          </p>
-                          <div className="shape">
-                            <span>
-                              <i className="fa-sharp fa-solid fa-quote-left" />
-                            </span>
-                          </div>
-                        </div>
-                        <div className="intro-body">
-                          <div className="img-file">
-                            <img
-                              src="/assets/img/testimonial/06_testimonial-profile.png"
-                              alt=""
-                            />
-                          </div>
-                          <div className="text-file">
-                            <h3>Melissa K. Watson</h3>
-                            <h5>Agricultural product</h5>
+                            <h3>VAIDYA</h3>
+                            <h5>CTO & Co-Founder</h5>
                           </div>
                         </div>
                       </div>
                     </div>
                   </SwiperSlide>
                 </Swiper>
-              </div>
-            </div>
-            {/* If we need navigation buttons */}
-            <div className="arrow white">
-              <div className="testimonialOne-button-next testimonialOne-button">
-                <i className="fa-solid fa-chevrons-left" />
-              </div>
-              <div className="testimonialOne-button-prev testimonialOne-button">
-                <i className="fa-solid fa-chevrons-right" />
               </div>
             </div>
           </div>
@@ -259,23 +119,8 @@ const TestimonialSectionThree = () => {
             alt=""
           />
           <img
-            className="shape-2 poa"
-            src="/assets/img/icon/16_icon.png"
-            alt=""
-          />
-          <img
             className="shape-3 poa"
             src="/assets/img/icon/95_icon.png"
-            alt=""
-          />
-          <img
-            className="shape-4 poa"
-            src="/assets/img/icon/03_icon.png"
-            alt=""
-          />
-          <img
-            className="shape-6 poa"
-            src="/assets/img/icon/43_icon.png"
             alt=""
           />
         </div>

@@ -10,6 +10,9 @@ import NewsSectionOne from "../components/NewsSectionOne";
 import HelmetReact from "../elements/HelmetReact";
 import HeaderTwo from "../components/HeaderTwo";
 import AboutPara from "../components/AboutPara";
+import TestimonialSectionTwo from './../components/TestimonialSectionTwo';
+import TestimonialSectionThree from './../components/TestimonialSectionThree';
+import Aboutbanner from "../components/Aboutbanner";
 
 const About = () => {
   let [active, setActive] = useState(true);
@@ -31,10 +34,10 @@ const About = () => {
         <Breadcrumb data={"About us"} />
         {/* About Section One */}
         <AboutPara />
-        {/* Counter Section One */}
-        <CounterSectionOne />
         {/* Testimonial Section One */}
-        <TestimonialSectionOne />
+        <TestimonialSectionThree />
+        {/* Counter Section One */}
+        <Aboutbanner />
         {/* News Section One */}
         <NewsSectionOne />
         {/* Footer Section */}
