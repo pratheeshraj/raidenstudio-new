@@ -400,15 +400,19 @@
               box-shadow: 0px 3px 10px 0px rgba(41, 45, 194, 0.08);
               margin: 20px 0;
               border-radius: 8px;
-              padding: 20px 20px;
+              padding: 50px 50px;
+              display: flex;
+              flex-direction: column-reverse;
+
               .intro-body {
                 margin-top: 20px;
                 display: flex;
                 align-items: center;
+                flex-direction: column;
                 gap: 15px;
                 .img-file {
-                  width: 60px;
-                  height: 60px;
+                  width: 100px;
+                  height: 100px;
                   overflow: hidden;
                   border-radius: 8px;
                   img {
@@ -426,8 +430,10 @@
                     margin: 0px;
                     line-height: normal;
                     text-transform: capitalize;
+                    text-align: center;
                   }
                   h5 {
+                    text-align: center;
                     font-size: 14px;
                     color: var(--text-p-1);
                     font-weight: var(fw-normal);
@@ -435,16 +441,18 @@
                     margin: 0;
                     margin-top: 5px;
                     text-transform: capitalize;
+                    font-family: var(--ff-p) !important;
                   }
                 }
               }
               .review {
-                margin-top: 80px;
+                margin-top: 20px;
                 position: relative;
                 p {
                   color: var(--text-p-1);
                   font-size: 15px;
                   margin: 0;
+                  text-align: center;
                 }
 
                 .shape {

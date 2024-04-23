@@ -16,7 +16,7 @@ const TestimonialSectionThree = () => {
               >
                 <h3><span className="theme-color"> Meet The Team Member</span></h3>
                 <h2>
-                Innovation, Creativity, and  Inclusivity
+                  Innovation, Creativity, and  Inclusivity
                 </h2>
               </div>
             </div>
@@ -28,7 +28,9 @@ const TestimonialSectionThree = () => {
                   spaceBetween={20}
                   slidesPerView={2}
                   slidesPerGroup={1}
+                  speed={1000}
                   pagination={{ clickable: true }}
+                  autoplay={{ delay: 1000 }}
                   className="mySwiper"
                   modules={[FreeMode, Navigation, Thumbs, EffectFade]}
                   breakpoints={{
@@ -55,14 +57,14 @@ const TestimonialSectionThree = () => {
                       <div className="inner-wrapper">
                         <div className="review">
                           <p>
-                          Kamal founded Raiden Studios as a result of his interest in immersive technology.
-Kamal previously worked as the chief operating officer at Osiz Technologies, where he honed his managerial and team-leading skills, as well as his knowledge of Blockchain and Web3.
+                            Kamal founded Raiden Studios as a result of his interest in immersive technology.
+                            Kamal previously worked as the chief operating officer at Osiz Technologies, where he honed his managerial and team-leading skills, as well as his knowledge of Blockchain and Web3.
                           </p>
-                          <div className="shape">
+                          {/* <div className="shape">
                             <span>
                               <i className="fa-sharp fa-solid fa-quote-left" />
                             </span>
-                          </div>
+                          </div> */}
                         </div>
                         <div className="intro-body">
                           <div className="img-file">
@@ -84,13 +86,13 @@ Kamal previously worked as the chief operating officer at Osiz Technologies, whe
                       <div className="inner-wrapper">
                         <div className="review">
                           <p>
-                          Vaidya began his career as the CEO of Marlion Games, an Edutech gamification business that specialised in developing VR and augmented reality (VR/AR) solutions for the Indian market in the fields of education and healthcare. He has also held an academic position in engineering.
+                            Vaidya began his career as the CEO of Marlion Games, an Edutech gamification business that specialised in developing VR and augmented reality (VR/AR) solutions for the Indian market in the fields of education and healthcare. He has also held an academic position in engineering.
                           </p>
-                          <div className="shape">
+                          {/* <div className="shape">
                             <span>
                               <i className="fa-sharp fa-solid fa-quote-left" />
                             </span>
-                          </div>
+                          </div> */}
                         </div>
                         <div className="intro-body">
                           <div className="img-file">
