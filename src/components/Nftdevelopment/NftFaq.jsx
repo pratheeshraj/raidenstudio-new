@@ -25,7 +25,7 @@ const NftFaq = () => {
                             >
                                 <img
                                     className="img-fluid"
-                                    src="/assets/img/service/02_service.png"
+                                    src="/assets/img/nft/faq.jpg"
                                     alt=""
                                 />
                             </div>
