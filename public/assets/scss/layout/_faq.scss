@@ -101,6 +101,51 @@
 
 
          // normal
+              // virtual-vegas
+              .virtual-vegas {
+                padding: 15px 35px 15px 16px;
+                font-size: 15px !important;
+                line-height: 25px;
+
+                font-weight: 600;
+                background:#57E400 !important;
+          
+                color: var(--common-white);
+                &.collapsed {
+                  background:white !important;
+                  color:black!important;
+                }
+                &:focus {
+                  z-index: 3;
+                  border-color: transparent;
+                  outline: 0;
+                  box-shadow: none !important;
+                }
+                &::after {
+                  flex-shrink: 0;
+                  width: 1.25rem;
+                  height: 1.25rem;
+                  margin-left: auto;
+                  font-family: "Font Awesome 5 Pro";
+                  font-weight: 900;
+                  content: "\2b";
+                  background-image: none;
+                  transform: none;
+                  position: absolute;
+                  right: 10px;
+                  top: 15px;
+                }
+                &:not(.collapsed)::after {
+                  font-family: "Font Awesome 5 Pro";
+                  font-weight: 900;
+                  content: "\f068";
+                  background-image: none;
+                  transform: none;
+                  position: absolute;
+                  right: 10px;
+                  top: 15px;
+                }
+              }
               .accordion-button {
                 padding: 15px 35px 15px 16px;
                 font-size: 15px !important;

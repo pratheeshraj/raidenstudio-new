@@ -32,13 +32,13 @@ const MetaverseCasino = () => {
                                 <div className="col-lg-6">
                                     <div className="title">
                                         <h2>
-                                        Join the ranks of leading online casinos by partnering with <span className="theme-color"> VirtualVegas today!</span>
+                                        Join the ranks of leading online casinos by partnering with <span className="theme-color" style={{color:"#57E400"}}> VirtualVegas today!</span>
                                         </h2>
                                         <p>
                                          Don't miss out on the future of gaming - join VirtualVegas and take your casino to new heights!                                        </p>
                                         <div className="inner-btn d-adjust">
                                             <div>
-                                                <Link className="default-btn" to="/contact">
+                                                <Link className="default-btn" to="/contact" style={{backgroundColor:"#57E400"}}>
                                                     Let’s Work To Do{" "}
                                                 </Link>
                                             </div>

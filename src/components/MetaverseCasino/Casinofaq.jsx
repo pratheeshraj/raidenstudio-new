@@ -13,7 +13,7 @@ function Casinofaq() {
                         >
                             <h3>FAQ</h3>
                             <h2>
-                                Answers At <span className='theme-color'>A Glance</span>
+                                Answers At <span className='theme-color' style={{color:"#57E400"}}>A Glance</span>
                             </h2>
                             <p style={{ marginBottom: "10px" }}>
                                 Find quick solutions and insights to common queries and concerns about our casino with our comprehensive FAQ section.
@@ -49,7 +49,7 @@ function Casinofaq() {
                                     <div className="accordion-item">
                                         <h2 className="accordion-header">
                                             <button
-                                                className="accordion-button"
+                                                className="accordion-button virtual-vegas"
                                                 type="button"
                                                 data-bs-toggle="collapse"
                                                 data-bs-target="#flush-collapseOne"
@@ -71,7 +71,7 @@ function Casinofaq() {
                                     <div className="accordion-item">
                                         <h2 className="accordion-header">
                                             <button
-                                                className="accordion-button collapsed"
+                                                className="accordion-button collapsed virtual-vegas"
                                                 type="button"
                                                 data-bs-toggle="collapse"
                                                 data-bs-target="#flush-collapseTwo"
@@ -93,7 +93,7 @@ function Casinofaq() {
                                     <div className="accordion-item">
                                         <h2 className="accordion-header">
                                             <button
-                                                className="accordion-button collapsed"
+                                                className="accordion-button collapsed virtual-vegas"
                                                 type="button"
                                                 data-bs-toggle="collapse"
                                                 data-bs-target="#flush-collapseThree"
@@ -116,7 +116,7 @@ function Casinofaq() {
                                     <div className="accordion-item">
                                         <h2 className="accordion-header">
                                             <button
-                                                className="accordion-button collapsed"
+                                                className="accordion-button collapsed virtual-vegas"
                                                 type="button"
                                                 data-bs-toggle="collapse"
                                                 data-bs-target="#flush-collapseFive"
