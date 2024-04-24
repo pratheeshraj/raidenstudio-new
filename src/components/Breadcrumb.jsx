@@ -8,7 +8,7 @@ const Breadcrumb = ({ data }) => {
       <section
         className="breadcrumb"
         style={{
-          backgroundImage: "url('/assets/img/case-study/hero.jpg')",
+          backgroundImage: "url('/assets/img/case-study/blog.jpg')",
         }}
       >
         <div className="auto-container">
@@ -29,7 +29,7 @@ const Breadcrumb = ({ data }) => {
             </div>
           </div>
         </div>
-        <div className="shape-img">
+        {/* <div className="shape-img">
           <img
             className="shape-1 poa"
             src="/assets/img/icon/84_icon.png"
@@ -55,7 +55,7 @@ const Breadcrumb = ({ data }) => {
             src="/assets/img/icon/66_icon.png"
             alt=""
           />
-        </div>
+        </div> */}
       </section>
       {/* Breadcrumb Section End */}
     </>
