@@ -69,7 +69,7 @@
             -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
             // border: 0.5px solid var(--theme-1);
-            box-shadow: 0 0 3px var(--theme-1);
+            box-shadow: 0 0 3px #1BA2D7;
             border-radius: 1rem;
             padding: 8px;
             border: none;
@@ -91,12 +91,7 @@
           }
 
           .flip-card-back {
-            background: linear-gradient(
-              119.66deg,
-              #16d9b2 0%,
-              #1be1ba 0.01%,
-              #5fe86c 100%
-            );
+            background: linear-gradient(138.93deg, #1BA2D7 5.11%, #8D3DFA 107.87%);
             color: white;
             transform: rotateY(180deg);
           }
