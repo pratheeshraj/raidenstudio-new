@@ -67,13 +67,14 @@ const ServiceSectionThree = () => {
                         <div className="img-file">
                           <img
                             className="img-fluid"
+                            style={{width:"-webkit-fill-available"}}
                             src="/assets/img/service/network-structure-technology-concept-blockchain-technology-technological-abstract-cube-with-dat(1).webp"
                             alt=""
                           />
                         </div>
                         <div className="text-file">
                           <h2 className="title">
-                            <Link to="/service-details">
+                            <Link to="/custom-blockchain">
                               Blockchain Development
                             </Link>
                           </h2>
@@ -95,13 +96,14 @@ const ServiceSectionThree = () => {
                         <div className="img-file">
                           <img
                             className="img-fluid"
+                            style={{width:"-webkit-fill-available"}}
                             src="/assets/img/service/nft-digital-art-non-fungible-token-blockchain-technology-cryptographic-data-block-collecting-un(1).webp"
                             alt=""
                           />
                         </div>
                         <div className="text-file">
                           <h2 className="title">
-                            <Link to="/service-details">
+                            <Link to="/nft">
                               NFT Development
                             </Link>
                           </h2>
@@ -123,13 +125,14 @@ const ServiceSectionThree = () => {
                         <div className="img-file">
                           <img
                             className="img-fluid"
+                            style={{width:"-webkit-fill-available"}}
                             src="/assets/img/service/big-data-ai-analysis-generative-ai(1).webp"
                             alt=""
                           />
                         </div>
                         <div className="text-file">
                           <h2 className="title">
-                            <Link to="/service-details">
+                            <Link to="/generative-ai-development">
                               Generative AI Development
                             </Link>
                           </h2>
@@ -159,11 +162,11 @@ const ServiceSectionThree = () => {
           </div>
         </div>
         <div className="shape-img">
-          <img
+          {/* <img
             className="shape-1 poa"
             src="/assets/img/icon/96_icon.png"
             alt=""
-          />
+          /> */}
           <img
             className="shape-2 poa"
             src="/assets/img/icon/92_icon.png"
@@ -174,11 +177,11 @@ const ServiceSectionThree = () => {
             src="/assets/img/icon/71_icon.png"
             alt=""
           />
-          <img
+          {/* <img
             className="shape-4 poa"
             src="/assets/img/icon/77_icon.png"
             alt=""
-          />
+          /> */}
         </div>
       </section>
       {/* Service Section three End */}

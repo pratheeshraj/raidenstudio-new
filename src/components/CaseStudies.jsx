@@ -66,7 +66,7 @@ const CaseStudies = () => {
           </div>
           <div className="inner-btn d-adjust">
             <div>
-              <Link className="default-btn" to="/contact">
+              <Link className="default-btn" to="/case-studies">
                 View All Projects
               </Link>
             </div>

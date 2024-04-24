@@ -170,7 +170,7 @@
 }
 
 .all_card {
-  margin: 30px 0;
+  margin: 60px 0 0 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -183,7 +183,7 @@
   .animation_card {
     width: 320px;
     height: 400px;
-    box-shadow: var(--theme-1) 0px 4px 12px;
+    box-shadow:  #2bfef8 0px 4px 12px !important;
     border-radius: 8px;
     padding: 20px;
     display: flex;
@@ -193,6 +193,7 @@
     justify-content: center;
     h6 {
       text-align: center;
+      color: #2BFEF8 !important;
     }
     p {
       text-align: center;
@@ -269,12 +270,7 @@
 
     &:hover .box_card1 {
       transform: translateY(-50px);
-      background: linear-gradient(
-        119.66deg,
-        #16d9b2 0%,
-        #1be1ba 0.01%,
-        #5fe86c 100%
-      );
+      background: linear-gradient(to right, #0dcccc, #008b8b);
     }
 
     &:hover .box_card1 p,
