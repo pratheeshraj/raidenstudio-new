@@ -332,7 +332,7 @@ const GameProductDetailsHero = () => {
             >
               <h2>
                 Welcome to Realm Wars
-                <span style={{ color: "#32fefb" }}> Clash of Empires</span>{" "}
+                <span style={{ color: "#2BFEF8" }}> Clash of Empires</span>{" "}
               </h2>
               <p className="Hero_sub_heading">
                 Clash of Empires - a groundbreaking B2B
@@ -363,7 +363,7 @@ const GameProductDetailsHero = () => {
                     duration={1.5}
                     className="right"
                   >
-                    <h2><span style={{ color: "black" }}>About Realm Wars </span>Clash of Empires</h2>
+                    <h2 style={{ color: "#00ECE5" }}><span style={{ color: "black" }}>About Realm Wars </span >Clash of Empires</h2>
                     <p>
                       Clash of Empires isn't just a game; it's a
                       powerful business tool designed to empower startup
@@ -372,7 +372,7 @@ const GameProductDetailsHero = () => {
                       to help you bring your vision to life, from concept to
                       launch and beyond.
                     </p>
-                    <Link className="default-btn">Get Free Consulation</Link>
+                    <Link style={{ background: "#00ECE5" }} className="default-btn">Get Free Consulation</Link>
                   </ScrollAnimation>
                 </div>
               </div>
@@ -383,7 +383,7 @@ const GameProductDetailsHero = () => {
       <section>
         <div className="container-fluid section-3">
           <div className="auto-container game-details-Services">
-            <h2><span style={{ color: "white" }}>Feature</span> Highlights</h2>
+            <h2 style={{ color: "#00ECE5" }}><span style={{ color: "white" }}>Feature</span> Highlights</h2>
             <p style={{ textAlign: "center" }}>
               Discover the core functionalities and standout attributes that set
               our game apart from the competition
@@ -404,7 +404,7 @@ const GameProductDetailsHero = () => {
       <section>
         <div className="container-fluid section_4">
           <div className="auto-container game_features">
-            <h2>In-Game Experiences</h2>
+            <h2 style={{ color: "#00ECE5" }}><span style={{color:"black"}}>In-Game</span> Experiences</h2>
             <p style={{ textAlign: "center" }}>
               Delve into the immersive gameplay elements and interactive
               features that make our game truly captivating
@@ -719,7 +719,7 @@ const GameProductDetailsHero = () => {
       >
         <h2 style={{marginBottom:"10px"}}>
           Under the
-          <span> Hood</span>
+          <span style={{ color: "#00ECE5" }}> Hood</span>
         </h2>
         <p style={{color:"black",textAlign:"center",marginBottom:"40px"}}>Explore the hardware and software requirements necessary for seamless gameplay and optimal performance.</p>
         <div className="auto-container">
@@ -729,8 +729,8 @@ const GameProductDetailsHero = () => {
                 onClick={handleMultiplayer}
                 className="title"
                 style={{
-                  color: multiplayer ? "#50c4a1" : "",
-                  borderBottom: multiplayer ? "3px solid #50c4a1" : "",
+                  color: multiplayer ? "#00ECE5" : "",
+                  borderBottom: multiplayer ? "3px solid #00ECE5" : "",
                 }}
               >
                 Technical Innovations
@@ -738,8 +738,8 @@ const GameProductDetailsHero = () => {
               <p
                 className="title"
                 style={{
-                  color: streaming ? "#50c4a1" : "",
-                  borderBottom: streaming ? "3px solid #50c4a1" : "",
+                  color: streaming ? "#00ECE5" : "",
+                  borderBottom: streaming ? "3px solid #00ECE5" : "",
                 }}
                 onClick={handeStream}
               >
@@ -984,9 +984,7 @@ const GameProductDetailsHero = () => {
                 <div className="title">
                   <h2 style={{ color: "black" }}>
                     Are you ready to revolutionize
-                    <span className="theme-color">
-                      {" "}
-                      mobile gaming industry with
+                    <span style={{ color: "#00ECE5" }}> mobile gaming industry with
                     </span>{" "}
                     the your innovative ideas?
                   </h2>
@@ -1000,7 +998,7 @@ const GameProductDetailsHero = () => {
                   </p>
                   <div className="inner-btn d-adjust">
                     <div>
-                      <Link className="default-btn" to="/contact">
+                      <Link style={{ background: "#00ECE5" }} className="default-btn" to="/contact">
                         Let’s Work To Do{" "}
                       </Link>
                     </div>
@@ -1086,7 +1084,7 @@ const GameProductDetailsHero = () => {
                 <h3>FAQ</h3>
                 <h2>
                   Answers at a <br />
-                  <span className="theme-color">Glance</span>
+                  <span style={{ color: "#2BFEF8" }}>Glance</span>
                 </h2>
                 <p>
                   Find quick solutions and insights to common queries and
@@ -1123,7 +1121,7 @@ const GameProductDetailsHero = () => {
                     <div className="accordion-item">
                       <h2 className="accordion-header">
                         <button
-                          className="accordion-button"
+                          className="accordion-button faq_clash_of_empire"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#flush-collapseOne"
@@ -1148,7 +1146,7 @@ const GameProductDetailsHero = () => {
                     <div className="accordion-item">
                       <h2 className="accordion-header">
                         <button
-                          className="accordion-button collapsed"
+                          className="accordion-button collapsed faq_clash_of_empire"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#flush-collapseTwo"
@@ -1175,7 +1173,7 @@ const GameProductDetailsHero = () => {
                     <div className="accordion-item">
                       <h2 className="accordion-header">
                         <button
-                          className="accordion-button collapsed"
+                          className="accordion-button collapsed faq_clash_of_empire"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#flush-collapseThree"
@@ -1201,7 +1199,7 @@ const GameProductDetailsHero = () => {
                     <div className="accordion-item">
                       <h2 className="accordion-header">
                         <button
-                          className="accordion-button collapsed"
+                          className="accordion-button collapsed faq_clash_of_empire"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#flush-collapseFour"
