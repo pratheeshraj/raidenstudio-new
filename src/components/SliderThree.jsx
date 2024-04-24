@@ -91,7 +91,7 @@ const SliderThree = () => {
                       <span> Solutions Await</span>
                     </h2>
                     <p className="Hero_sub_heading">
-                      Revolutionize with Cutting-Edge Blockchain Solutions  Unleash the power of innovation for your business.
+                      Revolutionize with Cutting-Edge Blockchain Solutions <br/> Unleash the power of innovation for your business.
                     </p>
                     <Link className="default-btn" to="/contact">
                       Explore
@@ -149,13 +149,13 @@ const SliderThree = () => {
                 data-aos-delay="300"
               >
                 <div className="left">
-                  <h2 className="slider-title">Redefining Experiences<span className="theme-color" style={{ color: "#2ac8fd" }}>  with XR</span>
+                  <h2 className="slider-title">Redefining Experiences<span className="theme-color" style={{ color: "#5CF8FF" }}>  with XR</span>
                   </h2>
                   <p style={{ width: "500px" }} className="description Hero_sub_heading">
                     Discover augmented and virtual realities with our expert XR development.
                   </p>
                   <Link
-                    style={{ backgroundColor: "#2ac8fd" }}
+                    style={{ backgroundColor: "#00D1DB" }}
                     className="default-btn"
                     to="/contact"
                   >
