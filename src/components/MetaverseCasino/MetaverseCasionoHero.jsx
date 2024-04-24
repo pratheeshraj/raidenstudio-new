@@ -36,14 +36,14 @@ const MetaverseCasionoHero = () => {
                                                 <div>
                                                     <h2 className="slider-title">
                                                          VirtualVegas Ultimate
-                                                        <span className="theme-color"> Metaverse Casino Destination!</span>
+                                                        <span className="theme-color" style={{color:"#57E400"}}> Metaverse Casino Destination!</span>
                                                     </h2>
                                                     <p className="description Hero_sub_heading">
                                                        comprehensive platform that combines the excitement of <br/>traditional casino gaming with the cutting-edge technology.
                                                     </p>
                                                     <div className="inner-btn">
                                                         <div>
-                                                            <Link className="default-btn" to="/contact">
+                                                            <Link className="default-btn" to="/contact" style={{backgroundColor:"#57E400"}}>
                                                                 Explore Now
                                                             </Link>
                                                         </div>

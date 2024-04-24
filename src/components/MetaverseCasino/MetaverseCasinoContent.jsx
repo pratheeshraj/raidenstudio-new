@@ -76,7 +76,7 @@ function MetaverseCasinoContent() {
             <section className="project-section three Raidenarcviz_card_main_div" style={{ padding: "100px 0", background: "" }}>
                 <div className="auto-container">
                     <div className="row Raidenarcviz_card">
-                        <h2 className="raidenarcviz_card_h2">Key<span className="theme-color"> Features</span></h2>
+                        <h2 className="raidenarcviz_card_h2">Key<span className="theme-color" style={{color:"#4ECD00"}}> Features</span></h2>
                         <p className='raidenarcviz_card_p' style={{color:"black",width:"90%" ,margin:"auto" , marginBottom:"40px"}}>From an extensive selection of games to advanced technical capabilities, VirtualVegas offers a comprehensive gaming experience designed to thrill and delight players of all preferences.</p>
                         <div class="gradient-cards-casino">
                             <div class="card-casino">
@@ -116,7 +116,7 @@ function MetaverseCasinoContent() {
                 className="service-details-section"
             >
                 <h2>
-                    Engineered for <span className='theme-color'> VirtualVegas</span>
+                    Engineered for <span className='theme-color' style={{color:"#4ECD00"}}> VirtualVegas</span>
                 </h2>
 
                 <div className="auto-container">
@@ -126,8 +126,8 @@ function MetaverseCasinoContent() {
                                 onClick={handleMultiplayer}
                                 className="title"
                                 style={{
-                                    color: multiplayer ? "#50c4a1" : "",
-                                    borderBottom: multiplayer ? "3px solid #50c4a1" : "",
+                                    color: multiplayer ? "#4ECD00" : "",
+                                    borderBottom: multiplayer ? "3px solid #4ECD00" : "",
                                 }}
                             >
                                 Technical Innovations
@@ -135,8 +135,8 @@ function MetaverseCasinoContent() {
                             <p
                                 className="title"
                                 style={{
-                                    color: streaming ? "#50c4a1" : "",
-                                    borderBottom: streaming ? "3px solid #50c4a1" : "",
+                                    color: streaming ? "#4ECD00" : "",
+                                    borderBottom: streaming ? "3px solid #4ECD00" : "",
                                 }}
                                 onClick={handeStream}
                             >
@@ -145,8 +145,8 @@ function MetaverseCasinoContent() {
                             <p
                                 className="title"
                                 style={{
-                                    color: game ? "#50c4a1" : "",
-                                    borderBottom: game ? "3px solid #50c4a1" : "",
+                                    color: game ? "#4ECD00" : "",
+                                    borderBottom: game ? "3px solid #4ECD00" : "",
                                 }}
                                 onClick={handleGame}
                             >
@@ -471,7 +471,7 @@ function MetaverseCasinoContent() {
             <section className="project-section three Raidenarcviz_card_main_div" style={{ padding: "100px 0", background: "white" }}>
                 <div className="auto-container">
                     <div className="row Raidenarcviz_card">
-                        <h2 className="raidenarcviz_card_h2">Choice of Environments<span className="theme-color"> and Themes</span></h2>
+                        <h2 className="raidenarcviz_card_h2">Choice of Environments<span className="theme-color" style={{color:"#4ECD00"}}> and Themes</span></h2>
 
                         <p className='raidenarcviz_card_p' style={{color:"black",marginBottom:"0"}}>From the glitz and glamor of a bustling Las Vegas casino floor to exotic locales and fantastical worlds, our platform offers a diverse selection of settings to suit every player's preferences. </p>
                         <div className="choice_slider_arrow">

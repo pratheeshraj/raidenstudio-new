@@ -79,13 +79,13 @@ function ChoiceOfGames() {
     return (
         <section>
             <div className="cogni_benefits_section choicegame_main_div">
-                <h2 className="auto-container">Choice of Games</h2>
+                <h2 className="auto-container">Choice of <span style={{color:"#57E400"}}>Games</span></h2>
                 <p className='choicegame_main_p'>Discover a diverse array of thrilling games awaiting you at VirtualVegas. From classic casino favorites to innovative virtual reality experiences, our platform offers something for every type of player. </p>
                 <div className="coice-link-div">
-                    <div className={classic ? "Choice_active" : "Choice_active_div"} onClick={ClassicHandle}>CLASSIC</div>
-                    <div className={slots ? "Choice_active" : "Choice_active_div"} onClick={SlotHandle}>SLOTS</div>
-                    <div className={table ? "Choice_active" : "Choice_active_div"} onClick={TableHandle}>TABLE</div>
-                    <div className={specialty ? "Choice_active" : "Choice_active_div"} onClick={specHandle}>SPECIALTY</div>
+                    <h6 className={classic ? "Choice_active" : "Choice_active_div"} onClick={ClassicHandle}>CLASSIC</h6>
+                    <h6 className={slots ? "Choice_active" : "Choice_active_div"} onClick={SlotHandle}>SLOTS</h6>
+                    <h6 className={table ? "Choice_active" : "Choice_active_div"} onClick={TableHandle}>TABLE</h6>
+                    <h6 className={specialty ? "Choice_active" : "Choice_active_div"} onClick={specHandle}>SPECIALTY</h6>
                 </div>
                 {
                     classic ? <div className="auto-container cogini_slider">
