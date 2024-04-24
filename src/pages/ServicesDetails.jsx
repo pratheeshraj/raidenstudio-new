@@ -37,7 +37,18 @@ const ServicesDetails = () => {
       <Suspense>
         {active === true && <Preloader />}
         {/* Helmet */}
-        <HelmetReact title={"Services Details"} />
+        <HelmetReact
+          title={
+            "Generative AI Development Company | GenAI Consulting"
+          }
+          description={
+            "As a top-tier Generative AI development company, we can enhance your projects with our experience. Our expertise is providing cutting-edge Generative AI Development services to support the growth of your business."
+          }
+          keywords={
+            "Generative AI Development, Generative AI Development  Company, Generative AI Development services, Generative AI Development solutions, Generative AI Services, GenAI Consulting"
+          }
+          ogimage={""}
+        />
         {/* Header one */}
         <HeaderTwo />
         {/* Breadcrumb */}

@@ -18,7 +18,18 @@ const MobileGame = () => {
   return (
     <Fragment>
       <Suspense>
-        <HelmetReact title={"career"} />
+      <HelmetReact
+          title={
+            "Mobile Game Development Company | Mobile Game App Development Services"
+          }
+          description={
+            "As a prominent mobile game development company, we devote ourselves to creating innovative games for a wide range of platforms, including mobile, PC, gaming consoles, and others."
+          }
+          keywords={
+            "game development, mobile game development, mobile game development company, mobile game development services, mobile game development solutions, hire mobile game developers"
+          }
+          ogimage={""}
+        />
         <HeaderTwo />
         <MobileGamePageHero/>
         <MobileGamePageAbout/>

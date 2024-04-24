@@ -10,7 +10,7 @@ const BlogDetailsSection = () => {
   const getContent = (data) => {
     return <div dangerouslySetInnerHTML={{ __html: data }} />;
   };
-  const { BlogDetails, BlogByCategory, recentBlogs, Blogcategory, tags } =
+  const { BlogDetails, recentBlogs, Blogcategory, tags } =
     useSelector((state) => state.blogState);
   const formatDate = (dateString) => {
     const options = { year: "numeric", month: "long", day: "numeric" };

@@ -7,7 +7,7 @@ import BlogSectionOne from '../components/BlogSectionOne'
 import ProjectDetailUseCase from '../components/ProjectDetailUseCase'
 import NewsSectionOne from '../components/NewsSectionOne'
 import FooterSectionOne from '../components/FooterSectionOne'
-import vidio from "../images/viedio.mp4"
+import vidio from "../images/arcviz.mp4"
 import RaidenArcvizComponent from '../components/RaidenArcvizComponent'
 import ContactSection2 from './../components/ContactSection2';
 

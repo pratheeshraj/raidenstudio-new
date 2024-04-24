@@ -7,7 +7,7 @@ import HeaderTwo from "../components/HeaderTwo";
 import HelmetReact from "../elements/HelmetReact";
 import RaidenCogniContent from "../components/RaidenCogniContent";
 import NewsSectionOne from "../components/NewsSectionOne";
-import vidio from "../images/viedio.mp4";
+import vidio from "../images/cogni.mp4";
 
 const RaidenCogni = () => {
   return (
