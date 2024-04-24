@@ -59,11 +59,11 @@ const NftProgramming = () => {
                         {
                             frontend ? <div className="right_Language_div">
                                 <div className="Card_service">
-                                    <img src="/assets/img/Language/ethereum-eth-logo.svg" alt="" />
+                                    <img src="/assets/img/Language/html-1.svg" alt="" />
                                     <div className="Card_name_sevice">HTML</div>
                                 </div>
                                 <div className="Card_service">
-                                    <img src="/assets/img/Language/bnb-bnb-logo.svg" alt="" />
+                                    <img src="/assets/img/Language/w3_css-icon.svg" alt="" />
                                     <div className="Card_name_sevice">CSS</div>
                                 </div>
                                 <div className="Card_service ">
@@ -71,20 +71,20 @@ const NftProgramming = () => {
                                     <div className="Card_name_sevice">React Native</div>
                                 </div>
                                 <div className="Card_service ">
-                                    <img src="/assets/img/Language/solana-sol-logo.svg" alt="" />
+                                    <img src="/assets/img/Language/logos--web3js.svg" alt="" />
                                     <div className="Card_name_sevice">Web3js</div>
                                 </div>
                                 <div className="Card_service ">
-                                    <img src="/assets/img/Language/polygon-matic-logo (1).svg" alt="" />
+                                    <img src="/assets/img/Language/websocket.svg" alt="" />
                                     <div className="Card_name_sevice">Websocket</div>
                                 </div>
                             </div> : mobile ? <div className="right_Language_div">
                                 <div className="Card3_service">
-                                    <img src="/assets/img/Language/ipfs-logo.svg" alt="" />
+                                    <img src="/assets/img/Language/rust-svgrepo-com.svg" alt="" />
                                     <div className="Card_name_sevice">Rust</div>
                                 </div>
                                 <div className="Card3_service">
-                                    <img src="/assets/img/Language/FLUTTER.svg" alt="" />
+                                    <img src="/assets/img/Language/solidity.svg" alt="" />
                                     <div className="Card_name_sevice">Solidity</div>
                                 </div>
                                 <div className="Card3_service">

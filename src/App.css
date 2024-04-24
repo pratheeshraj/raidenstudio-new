@@ -154,3 +154,9 @@
     display: flex !important;
     align-items: center !important;
 }
+
+/* @media screen and (max-width: 1000px) {
+    .banner_right_image{
+        display: none !important;
+    }
+} */

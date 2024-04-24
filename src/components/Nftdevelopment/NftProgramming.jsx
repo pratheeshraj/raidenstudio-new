@@ -401,19 +401,19 @@ const NftProgramming = () => {
                                     <div className="Card_name_sevice">IPFS</div>
                                 </div>
                                 <div className="Card3_service">
-                                    <img src="/assets/img/Language/FLUTTER.svg" alt="" />
+                                    <img src="/assets/img/Language/arweave-ar-logo.svg" alt="" />
                                     <div className="Card_name_sevice">Arweave</div>
                                 </div>
                                 <div className="Card3_service">
-                                    <img src="/assets/img/Language/SWIFT.svg" alt="" />
+                                    <img src="/assets/img/Language/chalk.svg" alt="" />
                                     <div className="Card_name_sevice">Chalk</div>
                                 </div>
                                 <div className="Card3_service">
-                                    <img src="/assets/img/Language/KATLIN.svg" alt="" />
+                                    <img src="/assets/img/Language/filecoin-fil-logo.svg" alt="" />
                                     <div className="Card_name_sevice">Filecoin</div>
                                 </div>
                                 <div className="Card3_service">
-                                    <img src="/assets/img/Language/KATLIN.svg" alt="" />
+                                    <img src="/assets/img/Language/storj-storj-logo.svg" alt="" />
                                     <div className="Card_name_sevice">Storj</div>
                                 </div>
                             </div> : blockchain ? <div className="right_Language_div">
@@ -422,23 +422,23 @@ const NftProgramming = () => {
                                     <div className="Card_name_sevice">ERC-721</div>
                                 </div>
                                 <div className="Card5_service">
-                                    <img src="/assets/img/Language/solana-sol-logo.svg" alt="" />
+                                <img src="/assets/img/Language/ethereum-eth-logo.svg" alt="" />
                                     <div className="Card_name_sevice">ERC-1155</div>
                                 </div>
                                 <div className="Card5_service">
-                                    <img src="/assets/img/Language/cardano-ada-logo.svg" alt="" />
+                                    <img src="/assets/img/Language/bnb-bnb-logo.svg" alt="" />
                                     <div className="Card_name_sevice">BEP-721</div>
                                 </div>
                                 <div className="Card5_service">
-                                    <img src="/assets/img/Language/polkadot-new-dot-logo.svg" alt="" />
+                                    <img src="/assets/img/Language/tron-trx-logo.svg" alt="" />
                                     <div className="Card_name_sevice">TRC-721</div>
                                 </div>
                                 <div className="Card5_service">
-                                    <img src="/assets/img/Language/ipfs-logo.svg" alt="" />
+                                    <img src="/assets/img/Language/tezos-xtz-logo.svg" alt="" />
                                     <div className="Card_name_sevice">FA2</div>
                                 </div>
                                 <div className="Card5_service">
-                                    <img src="/assets/img/Language/ipfs-logo.svg" alt="" />
+                                    <img src="/assets/img/Language/eos-eos-logo.svg" alt="" />
                                     <div className="Card_name_sevice">dGoods</div>
                                 </div>
                             </div> : game ? <div className="right_Language_div">

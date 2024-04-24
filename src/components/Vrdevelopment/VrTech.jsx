@@ -22,7 +22,7 @@ const VrTech = () => {
                                 <div className="Card_name_sevice">UnReal Engine</div>
                             </div>
                             <div className="Card_service ">
-                                <img src="/assets/img/Language/WebGL-Logo.wine.svg" alt="" />
+                                <img src="/assets/img/Language/Cryengine-Logo--Streamline-Logos (1).svg" alt="" />
                                 <div className="Card_name_sevice">Cry Engine</div>
                             </div>
                             <div className="Card_service ">
@@ -30,19 +30,19 @@ const VrTech = () => {
                                 <div className="Card_name_sevice">Blender</div>
                             </div>
                             <div className="Card_service ">
-                                <img src="/assets/img/Language/polygon-matic-logo (1).svg" alt="" />
+                                <img src="/assets/img/Language/icons8-google-sketchup.svg" alt="" />
                                 <div className="Card_name_sevice">Google Sketch Up</div>
                             </div>
                             <div className="Card_service ">
-                                <img src="/assets/img/Language/polygon-matic-logo (1).svg" alt="" />
+                                <img src="/assets/img/Language/google-tiltbrush.svg" alt="" />
                                 <div className="Card_name_sevice">Tilt Brush</div>
                             </div>
                             <div className="Card_service ">
-                                <img src="/assets/img/Language/polygon-matic-logo (1).svg" alt="" />
+                                <img src="/assets/img/Language/1520096705705 1.png" alt="" />
                                 <div className="Card_name_sevice">AppGameKit Vr</div>
                             </div>
                             <div className="Card_service ">
-                                <img src="/assets/img/Language/polygon-matic-logo (1).svg" alt="" />
+                                <img src="/assets/img/Language/libgdx-seeklogo.svg" alt="" />
                                 <div className="Card_name_sevice">Libgdx</div>
                             </div>
                         </div>

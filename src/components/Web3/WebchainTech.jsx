@@ -106,11 +106,11 @@ const WebchainTech = () => {
                                 </div>
                             </div> : mobile ? <div className="right_Language_div">
                                 <div className="Card3_service">
-                                    <img src="/assets/img/Language/REACT NATIVE.svg" alt="" />
+                                    <img src="/assets/img/Language/solidity.svg" alt="" />
                                     <div className="Card_name_sevice">Solidity</div>
                                 </div>
                                 <div className="Card3_service">
-                                    <img src="/assets/img/Language/FLUTTER.svg" alt="" />
+                                    <img src="/assets/img/Language/Vyper.svg" alt="" />
                                     <div className="Card_name_sevice">Vyper</div>
                                 </div>
                             </div> : blockchain ? <div className="right_Language_div">
@@ -119,11 +119,11 @@ const WebchainTech = () => {
                                     <div className="Card_name_sevice">Ethereum</div>
                                 </div>
                                 <div className="Card5_service">
-                                    <img src="/assets/img/Language/solana-sol-logo.svg" alt="" />
+                                    <img src="/assets/img/Language/hyperledger-icon.svg" alt="" />
                                     <div className="Card_name_sevice">Hyperledger</div>
                                 </div>
                                 <div className="Card5_service">
-                                    <img src="/assets/img/Language/cardano-ada-logo.svg" alt="" />
+                                    <img src="/assets/img/Language/eos-eos-logo.svg" alt="" />
                                     <div className="Card_name_sevice">EOS</div>
                                 </div>
                             </div> : game ? <div className="right_Language_div">
@@ -136,7 +136,7 @@ const WebchainTech = () => {
                                     <div className="Card_name_sevice">Python</div>
                                 </div>
                                 <div className="Card6_service">
-                                    <img src="/assets/img/Language/arkit-removebg-preview 1.png" alt="" />
+                                    <img src="/assets/img/Language/web3-backend-go.svg" alt="" />
                                     <div className="Card_name_sevice">Go</div>
                                 </div>
 
@@ -155,15 +155,15 @@ const WebchainTech = () => {
                                 </div>
                             </div> : cloud ? <div className="right_Language_div">
                                 <div className="Card6_service">
-                                    <img src="/assets/img/Language/UNITY.svg" alt="" />
+                                    <img src="/assets/img/Language/amazon-web-services-2.svg" alt="" />
                                     <div className="Card_name_sevice">Amazon Web Services</div>
                                 </div>
                                 <div className="Card6_service">
-                                    <img src="/assets/img/Language/arkit-removebg-preview 1.png" alt="" />
+                                    <img src="/assets/img/Language/google-cloud-1.svg" alt="" />
                                     <div className="Card_name_sevice">Microsoft Azure</div>
                                 </div>
                                 <div className="Card6_service">
-                                    <img src="/assets/img/Language/arkit-removebg-preview 1.png" alt="" />
+                                    <img src="/assets/img/Language/microsoft-azure-3.svg" alt="" />
                                     <div className="Card_name_sevice">Google Cloud Platform</div>
                                 </div>
                             </div> : ""
