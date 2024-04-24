@@ -11,7 +11,7 @@ const VrTech = () => {
                 <div className="auto-container">
                     <div className="row">
                         <h2 style={{ color: "black", textAlign: "center" }}>Technology Stack for <span className="theme-color"> VR Software Development</span></h2>
-                        <p style={{ color: "black", textAlign: "center" }}>Helping startups and enterprises with the right blend of experience and technology.</p>
+                        {/* <p style={{ color: "black", textAlign: "center" }}>Helping startups and enterprises with the right blend of experience and technology.</p> */}
                         <div className="right_Language_div">
                             <div className="Card_service">
                                 <img src="/assets/img/Language/UNITY.svg" alt="" />

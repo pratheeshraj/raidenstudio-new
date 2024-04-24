@@ -64,9 +64,12 @@ const HeaderTwo = () => {
   );
   useEffect(() => {
     console.log(allBlogs);
+    console.log(allcaseStudy);
   }, [])
 
-
+  const { allcaseStudy, loading } = useSelector(
+    (state) => state.caseStudyState
+  );
 
   // /gameproduct-details
   // product progress bar
@@ -1437,7 +1440,7 @@ const generativeAIpara = [
                       <Link to={`/blogdetails/${item.url}`}>
                         <img
                           className="img-fluid"
-                          style={{ height: "100%" }}
+                          style={{ height: "65px" }}
                           src={item.imageurl}
                           alt=""
                         />
@@ -1452,36 +1455,20 @@ const generativeAIpara = [
                 <h3>Case Studies</h3>
               </div>
               <div className="img-file">
-                <img
-                  className="img-fluid"
-                  src="/assets/img/project/01_project.png"
-                  alt=""
-                />
-                <img
-                  className="img-fluid"
-                  src="/assets/img/project/02_project.png"
-                  alt=""
-                />
-                <img
-                  className="img-fluid"
-                  src="/assets/img/project/03_project.png"
-                  alt=""
-                />
-                <img
-                  className="img-fluid"
-                  src="/assets/img/project/04_project.png"
-                  alt=""
-                />
-                <img
-                  className="img-fluid"
-                  src="/assets/img/project/05_project.png"
-                  alt=""
-                />
-                <img
-                  className="img-fluid"
-                  src="/assets/img/project/06_project.png"
-                  alt=""
-                />
+                             {
+                  allcaseStudy?.slice(-6).map((item, index) => {
+                    return (
+                      <Link to={`/blogdetails/${item.url}`}>
+                        <img
+                          className="img-fluid"
+                          style={{ height: "65px" }}
+                          src={item.imageurl}
+                          alt=""
+                        />
+                      </Link>
+                    )
+                  })
+                }
               </div>
             </div>
             <div className="intro-text">

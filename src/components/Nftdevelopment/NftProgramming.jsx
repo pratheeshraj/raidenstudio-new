@@ -366,8 +366,8 @@ const NftProgramming = () => {
             <section className="faq-section three" style={{ background: "white" }}>
                 <div className="auto-container">
                     <div className="row">
-                        <h2 style={{ color: "black", textAlign: "center" }}>High-End Technologies<span className="theme-color"> We Use</span></h2>
-                        <p style={{ color: "black", textAlign: "center" }}>Helping startups and enterprises with the right blend of experience and technology.</p>
+                        <h2 style={{ color: "black", textAlign: "center" }}>Our Tech Stack for<span className="theme-color"> NFT Development Services</span></h2>
+                        {/* <p style={{ color: "black", textAlign: "center" }}>Helping startups and enterprises with the right blend of experience and technology.</p> */}
                         <div className="left_Language_div">
                             <div onClick={handleFrontEnd} style={{ color: frontend ? '#13C4A1' : 'black' }}>Blockchain Networks</div>
                             <div onClick={handleMobile} style={{ color: mobile ? '#13C4A1' : 'black' }}>Storage Platforms</div>

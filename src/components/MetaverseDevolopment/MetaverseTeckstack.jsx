@@ -51,7 +51,7 @@ const NftProgramming = () => {
                 <div className="auto-container">
                     <div className="row">
                         <h2 style={{ color: "black", textAlign: "center" }}>Newest Tech Stack For <span className="theme-color"> Metaverse Development</span></h2>
-                        <p style={{ color: "black", textAlign: "center" }}>Helping startups and enterprises with the right blend of experience and technology.</p>
+                        {/* <p style={{ color: "black", textAlign: "center" }}>Helping startups and enterprises with the right blend of experience and technology.</p> */}
                         <div className="left_Language_div">
                             <div onClick={handleFrontEnd} style={{ color: frontend ? '#13C4A1' : 'black' }}>Blockchain Front-end</div>
                             <div onClick={handleMobile} style={{ color: mobile ? '#13C4A1' : 'black' }}>Blockchain Back-end</div>
@@ -67,7 +67,7 @@ const NftProgramming = () => {
                                     <div className="Card_name_sevice">CSS</div>
                                 </div>
                                 <div className="Card_service ">
-                                    <img src="/assets/img/Language/WebGL-Logo.wine.svg" alt="" />
+                                    <img src="/assets/img/Language/REACT NATIVE.svg" alt="" />
                                     <div className="Card_name_sevice">React Native</div>
                                 </div>
                                 <div className="Card_service ">
@@ -88,11 +88,11 @@ const NftProgramming = () => {
                                     <div className="Card_name_sevice">Solidity</div>
                                 </div>
                                 <div className="Card3_service">
-                                    <img src="/assets/img/Language/SWIFT.svg" alt="" />
+                                    <img src="/assets/img/Language/nodejs-icon.svg" alt="" />
                                     <div className="Card_name_sevice">Node.js</div>
                                 </div>
                                 <div className="Card3_service">
-                                    <img src="/assets/img/Language/KATLIN.svg" alt="" />
+                                    <img src="/assets/img/Language/mongo.svg" alt="" />
                                     <div className="Card_name_sevice">MongoDB</div>
                                 </div>
                             </div> : ""

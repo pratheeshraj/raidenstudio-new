@@ -194,23 +194,22 @@ const ContactSection = () => {
             <div className="col-lg-3 col-md-6 col-12">
               <div className="item " data-aos="fade-up" data-aos-delay="400">
                 <div className="icon">
-                  <i className="fa-solid fa-headset" />
+                <i className="fa-sharp fa-solid fa-location-dot" />
                 </div>
                 <div className="view">
-                  <h3>Need Support?</h3>
-                  <p>Phone: +919-963-4308</p>
-                  <p>Phone: +913-624-2047</p>
+                  <h3>Office</h3>
+                  <p>2590 Rockford Mountain Lane Four Oaks, NC.</p>
                 </div>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 col-12">
               <div className="item " data-aos="fade-up" data-aos-delay="400">
                 <div className="icon">
-                  <i className="fa-regular fa-messages" />
+                  <i className="fa-solid fa-headset" />
                 </div>
                 <div className="view">
-                  <h3>Live Chat</h3>
-                  <p>Need live chat all the time with our company 24/7</p>
+                  <h3>Need Support?</h3>
+                  <p>Phone: +91 98840 36062</p>
                 </div>
               </div>
             </div>
@@ -221,8 +220,7 @@ const ContactSection = () => {
                 </div>
                 <div className="view">
                   <h3>Email Us</h3>
-                  <p>help-dline@demo.com</p>
-                  <p>support@demo.com</p>
+                  <p>info@raiden.studio</p>
                 </div>
               </div>
             </div>

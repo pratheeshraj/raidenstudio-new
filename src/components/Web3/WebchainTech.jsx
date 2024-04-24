@@ -142,15 +142,15 @@ const WebchainTech = () => {
 
                             </div> : database ? <div className="right_Language_div">
                                 <div className="Card6_service">
-                                    <img src="/assets/img/Language/UNITY.svg" alt="" />
+                                    <img src="/assets/img/Language/mongo.svg" alt="" />
                                     <div className="Card_name_sevice">MongoDB</div>
                                 </div>
                                 <div className="Card6_service">
-                                    <img src="/assets/img/Language/arkit-removebg-preview 1.png" alt="" />
+                                    <img src="/assets/img/Language/postgresq.svg" alt="" />
                                     <div className="Card_name_sevice">PostgreSQL</div>
                                 </div>
                                 <div className="Card6_service">
-                                    <img src="/assets/img/Language/arkit-removebg-preview 1.png" alt="" />
+                                    <img src="/assets/img/Language/mysql-icon.svg" alt="" />
                                     <div className="Card_name_sevice">MySQL</div>
                                 </div>
                             </div> : cloud ? <div className="right_Language_div">
