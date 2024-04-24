@@ -111,7 +111,7 @@ const SliderThree = () => {
                     </span>
                   </h2>
                   <p className="Hero_sub_heading description">
-                    Explore the forefront of innovation with our AI development expertise. Transforming possibilities into tangible achievements.
+                    Explore the forefront of innovation with our AI development <br/> expertise. Transforming possibilities into tangible achievements.
                   </p>
                   <Link
                     style={{ backgroundColor: "#2ac8fd" }}
