@@ -104,7 +104,7 @@ const MetaverseRoyalContent = () => {
           <div className="auto-container metaverseroyal_hero_container">
             <div className="left" data-aos="fade-right" data-aos-delay="300">
               <h2>
-                MetaVerse <span>Royale</span>
+                MetaVerse <span style={{color:"#2BFEF8"}}>Royale</span>
               </h2>
               <p className="Hero_sub_heading">
                 Revolutionizes gaming with a customizable,<br/>
@@ -123,9 +123,9 @@ const MetaverseRoyalContent = () => {
       >
         <h2>
           Advanced Cutting Edge <br />{" "}
-          <span style={{ color: "#efc060" }}>Technology </span>,
-          <span style={{ color: "#efc060" }}> Streaming</span>, and <br />
-          <span style={{ color: "#efc060" }}>
+          <span style={{ color: "#00ECE5" }}>Technology </span>,
+          <span style={{ color: "#00ECE5" }}> Streaming</span>, and <br />
+          <span style={{ color: "#00ECE5" }}>
             {" "}
             Game Engine Expertise Tailored
           </span>{" "}
@@ -139,8 +139,8 @@ const MetaverseRoyalContent = () => {
                 onClick={handleMultiplayer}
                 className="title"
                 style={{
-                  color: multiplayer ? "#efc060" : "",
-                  borderBottom: multiplayer ? "3px solid #efc060" : "",
+                  color: multiplayer ? "#00ECE5" : "",
+                  borderBottom: multiplayer ? "3px solid #00ECE5" : "",
                 }}
               >
                 Technical Specifications
@@ -148,8 +148,8 @@ const MetaverseRoyalContent = () => {
               <p
                 className="title"
                 style={{
-                  color: streaming ? "#efc060" : "",
-                  borderBottom: streaming ? "3px solid #efc060" : "",
+                  color: streaming ? "#00ECE5" : "",
+                  borderBottom: streaming ? "3px solid #00ECE5" : "",
                 }}
                 onClick={handeStream}
               >
@@ -159,8 +159,8 @@ const MetaverseRoyalContent = () => {
               <p
                 className="title"
                 style={{
-                  color: game ? "#efc060" : "",
-                  borderBottom: game ? "3px solid #efc060" : "",
+                  color: game ? "#00ECE5" : "",
+                  borderBottom: game ? "3px solid #00ECE5" : "",
                 }}
                 onClick={handleGame}
               >
@@ -513,7 +513,7 @@ const MetaverseRoyalContent = () => {
       <section>
         <div className="container-fluid Royal_section4" style={{ background: "#f8f9fa" }}>
           <h2>
-            Game <span>Themes & Environments</span>
+            Game <span style={{ color: "#00ECE5" }}>Themes & Environments</span>
           </h2>
           <p>
             Explore immersive worlds ranging from futuristic cityscapes to
@@ -709,7 +709,7 @@ const MetaverseRoyalContent = () => {
         <div className="auto-container">
           <div className="row Raidenarcviz_card">
 
-            <h2 className="raidenarcviz_card_h2">Choice of <span className="theme-color"> Games</span></h2>
+            <h2 className="raidenarcviz_card_h2">Choice of <span style={{ color: "#00ECE5" }}> Games</span></h2>
 
             <p className='raidenarcviz_card_p' style={{ color: "black", marginBottom: "0" }}>Diverse game selection awaits, catering to every gaming preference and offering endless adventures in the Metaverse.</p>
             <div className="choice_slider_arrow">
@@ -763,7 +763,7 @@ const MetaverseRoyalContent = () => {
         <div className="auto-container">
           <div className="row">
             <h2 style={{ textAlign: "center", color: "white" }}>
-              Game<span style={{ color: "#efc060" }}> features</span>
+              Game<span style={{ color: "#2BFEF8" }}> features</span>
             </h2>
             <p style={{ textAlign: "center", color: "white" }}>
               Dive into gameplay rich with features, from customizable
@@ -859,7 +859,7 @@ const MetaverseRoyalContent = () => {
             <div className="nft_whychoose_left_div">
               <h2 style={{ color: "black", textAlign: "center" }}>
                 NFT with
-                <span style={{ color: "#efc060" }}> MetaVerse Royale</span>
+                <span style={{ color: "#00ECE5" }}> MetaVerse Royale</span>
               </h2>
               <p
                 style={{
@@ -1050,7 +1050,7 @@ const MetaverseRoyalContent = () => {
       <section>
         <div className="container-fluid Royal_section8" style={{background:"white"}}>
           <h2 style={{color:"black", marginBottom:"10px"}} className="auto-container">
-            Why <span>us</span>
+            Why <span style={{ color: "#00ECE5" }} >us</span>
           </h2>
           <p style={{color:"black"}} className="auto-container">
             Celebrate Your Journey with Us: Discover Why MetaVerse Royale is
@@ -1355,7 +1355,7 @@ const MetaverseRoyalContent = () => {
                 data-aos-delay="300"
               >
                 <h3>FAQ</h3>
-                  <h2>Answers At <span className="theme-color">A Glance</span></h2>
+                  <h2>Answers At <span style={{ color: "#00ECE5" }}>A Glance</span></h2>
                 <p style={{ marginBottom: "20px" }}>
                 Find quick solutions and insights to common queries and concerns about our casino with our comprehensive FAQ section.
                 </p>
@@ -1390,7 +1390,7 @@ const MetaverseRoyalContent = () => {
                     <div className="accordion-item">
                       <h2 className="accordion-header">
                         <button
-                          className="accordion-button"
+                          className="accordion-button faq_clash_of_empire"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#flush-collapseOne"
@@ -1417,7 +1417,7 @@ const MetaverseRoyalContent = () => {
                     <div className="accordion-item">
                       <h2 className="accordion-header">
                         <button
-                          className="accordion-button collapsed"
+                          className="accordion-button collapsed faq_clash_of_empire"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#flush-collapseTwo"
@@ -1443,7 +1443,7 @@ const MetaverseRoyalContent = () => {
                     <div className="accordion-item">
                       <h2 className="accordion-header">
                         <button
-                          className="accordion-button collapsed"
+                          className="accordion-button collapsed faq_clash_of_empire"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#flush-collapseThree"
@@ -1470,7 +1470,7 @@ const MetaverseRoyalContent = () => {
                     <div className="accordion-item">
                       <h2 className="accordion-header">
                         <button
-                          className="accordion-button collapsed"
+                          className="accordion-button collapsed faq_clash_of_empire"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#flush-collapseFour"
@@ -1483,7 +1483,7 @@ const MetaverseRoyalContent = () => {
                       </h2>
                       <div
                         id="flush-collapseFour"
-                        className="accordion-collapse collapse"
+                        className="accordion-collapse collapse "
                         data-bs-parent="#accordionFlushExample"
                       >
                         <div className="accordion-body">

@@ -196,7 +196,7 @@ const generativeAIpara = [
   //  compony
 
   const companyprogressValues = [0.5, 0.5, 0.5];
-  const CompanyNames = ["About us", "Carrer", "Contact us"];
+  const CompanyNames = ["About us", "Career", "Contact us"];
   const companyurl = ["/about-us", "/carrer", "/contact-us"]
   const [activeMenu, setActiveMenu] = useState("Blockchain");
   const [activeMenu1, setActiveMenu1] = useState("virtual");
@@ -1340,7 +1340,7 @@ const generativeAIpara = [
                           navData.isActive ? "active" : ""
                         }
                       >
-                        Carrer
+                        Career
                       </NavLink>
                     </li>
                     <li>
