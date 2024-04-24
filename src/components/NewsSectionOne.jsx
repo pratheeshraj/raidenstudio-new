@@ -3,10 +3,12 @@ import { useDispatch } from "react-redux";
 import { NewsLetterGetEmail } from "../action/newsLetter";
 import NewsletterPopup from "./NewsletterPopup";
 import { useSelector } from "react-redux";
+import { RotatingLines } from "react-loader-spinner";
 
 const NewsSectionOne = () => {
-  const { loading, error,success } = useSelector((state) => state.newsLetterState);
-  const [openPopup,setOpenPopup]=useState(false)
+  const { loading,error, success } = useSelector((state) => state.newsLetterState);
+
+  const [openPopup, setOpenPopup] = useState(false);
   const [email, setEmail] = useState("");
   const dispatch = useDispatch();
 
@@ -19,18 +21,24 @@ const NewsSectionOne = () => {
     }
   };
 
-  useEffect(()=>{
-    if(error){
-      setOpenPopup(true)
+  useEffect(() => {
+    if (error) {
+      setOpenPopup(true);
     }
-    if(success){
-      setOpenPopup(true)
+    if (success) {
+      setOpenPopup(true);
     }
-  },[error,success])
+  }, [error, success]);
   return (
     <>
       {/* newsletter popuop */}
-      {(openPopup) && <NewsletterPopup error={error} setOpenPopup={setOpenPopup} success={success}/>}
+      {openPopup && (
+        <NewsletterPopup
+          error={error}
+          setOpenPopup={setOpenPopup}
+          success={success}
+        />
+      )}
       {/* News Letter One start */}
       <section
         className="news-letter one"
@@ -67,13 +75,29 @@ const NewsSectionOne = () => {
                       onChange={(e) => setEmail(e.target.value)}
                     />
 
-                    <input
+                    <button
                       style={{ color: "white" }}
                       className="submit"
-                      value={"submit"}
                       type="submit"
-                      placeholder="Submit"
-                    /> 
+                      disabled={loading}
+                    >
+                      {loading ? (
+                        <RotatingLines
+                        visible={true}
+                        height="25"
+                        width="25"
+                        strokeColor="white"
+                        color="white"  // Change this to any color you want
+                        strokeWidth="5"
+                        animationDuration="0.75"
+                        ariaLabel="rotating-lines-loading"
+                        wrapperStyle={{}}
+                        wrapperClass=""
+                        />
+                      ) : (
+                        "Submit"
+                      )}
+                    </button>
                   </div>
                 </form>
               </div>

@@ -78,10 +78,10 @@ const SliderThree = () => {
         <div ref={triggerRef}>
           <div ref={sectionRef} className="scroll-section-inner">
             <div className="scroll-section section1">
-              <div>
+         
                 {" "}
                 <div className="auto-container section1_container">
-                  <ScrollAnimation
+                  <div
                     animateIn="fadeInLeft"
                     duration={1.5}
                     className="left"
@@ -91,14 +91,14 @@ const SliderThree = () => {
                       <span> Solutions Await</span>
                     </h2>
                     <p className="Hero_sub_heading">
-                      Revolutionize with Cutting-Edge Blockchain Solutions Unleash the power of innovation for your business.
+                      Revolutionize with Cutting-Edge Blockchain Solutions  Unleash the power of innovation for your business.
                     </p>
                     <Link className="default-btn" to="/contact">
                       Explore
                     </Link>
-                  </ScrollAnimation>
+                  </div>
                 </div>
-              </div>
+             
             </div>
             <div className="scroll-section section2">
               <div className="auto-container section2_container">
