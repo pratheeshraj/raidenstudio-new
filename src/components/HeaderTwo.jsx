@@ -1420,7 +1420,7 @@ const generativeAIpara = [
               <div className="logo">
                 <img
                   className="img-fluid"
-                  src="\assets\img\Language\raiden new blue-min.png" alt="" />
+                  src="\assets\img\Language\raiden new black-min.png" alt="" />
               </div>
               <p>
                 Oracle Cloud Infrastructure (OCI) AI Services is a collection of

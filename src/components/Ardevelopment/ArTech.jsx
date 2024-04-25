@@ -89,7 +89,7 @@ const ArTech = () => {
                                     <div className="Card_name_sevice">Arweave</div>
                                 </div>
                                 <div className="Card3_service">
-                                    <img src="/assets/img/Language/SWIFT.svg" alt="" />
+                                <img src="/assets/img/Language/chalk.svg" alt="" />
                                     <div className="Card_name_sevice">Chalk</div>
                                 </div>
                                 <div className="Card3_service">
