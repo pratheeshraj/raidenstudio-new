@@ -1075,7 +1075,7 @@ const GameProductDetailsHero = () => {
       <section className="faq-section one" style={{ backgroundColor: "black" }}>
         <div className="auto-container">
           <div className="row">
-            <div className="col-lg-6 pe-4">
+            <div className="col-lg-6">
               <div
                 className="section-title-shape-one left "
                 data-aos="fade-right"

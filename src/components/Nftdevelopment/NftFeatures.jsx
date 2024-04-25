@@ -7,7 +7,7 @@ function NftFeatures() {
                 <div className="row">
                     <h2 style={{ textAlign: "center", color: "black" }}>Features of NFT<br /> <span className="theme-color"> Development</span>
                     </h2>
-                    <p style={{ textAlign: "center", color: "black" }}>Our Nft development team is up to date on the newest technology trends, and they continue to experiment with new Nft PoCs (Proof of Concepts) to provide cutting-edge Nft development solutions with novel ideas.</p>
+                    {/* <p style={{ textAlign: "center", color: "black" }}>Our Nft development team is up to date on the newest technology trends, and they continue to experiment with new Nft PoCs (Proof of Concepts) to provide cutting-edge Nft development solutions with novel ideas.</p> */}
                     <div className='feature_div'>
                         <div className='feature_card'>
                             <img src='/assets/img/nftdevfeatu/nftwallet.svg' />

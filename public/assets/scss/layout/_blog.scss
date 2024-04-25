@@ -679,8 +679,11 @@
     padding: 100px 0;
     position: relative;
     overflow: hidden;
+    @media #{ $sm, $xs, $xss} {
+    padding: 40px 0;
+    }
     .section-title-shape-one {
-      margin-bottom: 70px;
+      margin-bottom: 60px;
     }
     .blog-items {
       position: relative;

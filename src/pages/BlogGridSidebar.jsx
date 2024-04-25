@@ -40,7 +40,7 @@ const BlogGridSidebar = () => {
           <Suspense>
             <HelmetReact title={"Blog Grid Sidebar"} />
             <HeaderTwo />
-            <Breadcrumb data={"Blog Grid Sidebar"} />
+            <Breadcrumb data={"Blog"} img={"url('/assets/img/bg-image/Frame 72.jpg')"}/>
             <BlogGridSidebarSection />
             <NewsSectionOne />
             <FooterSectionOne />

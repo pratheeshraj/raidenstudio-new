@@ -30,7 +30,7 @@ const About = () => {
         {/* Header one */}
         <HeaderTwo />
         {/* Breadcrumb */}
-        <Breadcrumb data={"About us"} />
+        <Breadcrumb data={"About us"} img={"url('/assets/img/bg-image/Frame 71.jpg')"} />
         {/* About Section One */}
         <AboutPara />
         {/* Testimonial Section One */}

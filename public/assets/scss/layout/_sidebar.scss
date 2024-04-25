@@ -69,7 +69,7 @@
     padding: 70px 45px 45px 45px ;
     background: var(--tp-grey-5);
     @media #{$sm, $xs, $xss} {
-      padding:50px 25px 25px 25px;
+      padding:50px 25px 100px 25px;
     }
   }
   .sidebar__close {

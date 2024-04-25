@@ -36,7 +36,7 @@ const AllCaseStudy = () => {
         {/* Header one */}
         <HeaderTwo />
         {/* Breadcrumb */}
-        <Breadcrumb data={"Case Study"} />
+        <Breadcrumb data={"Case Study"} img={"url('/assets/img/bg-image/Frame 70.jpg')"}/>
         {/* Project Section All */}
         <ProjectSectionAll />
         {/* News Section One */}

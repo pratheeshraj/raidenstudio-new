@@ -14,6 +14,14 @@
 .blockgame_benifit_main_div {
     width: 100%;
     height: 100%;
+    margin-top: 60px;
+}
+
+@media screen and (max-width: 768px) {
+    .blockgame_benifit_main_div {
+        margin-top: 30px;
+    }
+
 }
 
 .blockgame_benifit_div {
@@ -53,8 +61,30 @@
 }
 
 
+@media screen and (max-width: 950px) {
 
+    .blockgame_benifit_card {
+        padding: 15px;
+        width: 48%;
+        background: white;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        border-radius: 8px;
+    }
 
+}
+
+@media screen and (max-width: 650px) {
+
+    .blockgame_benifit_card {
+        padding: 15px;
+        width: 100%;
+        height: 100%;
+        background: white;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        border-radius: 8px;
+    }
+
+}
 
 /* featurese  */
 

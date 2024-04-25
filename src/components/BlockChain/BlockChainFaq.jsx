@@ -7,15 +7,15 @@ const BlockChainFaq = () => {
             <section className="faq-section one">
                 <div className="auto-container">
                     <div className="row">
-                        <div className="col-lg-6 pe-4">
+                        <div className="col-lg-6">
                             <div
                                 className="section-title-shape-one left "
                                 data-aos="fade-right"
                                 data-aos-delay="300"
                             >
-                                <h2>
+                                <h3>
                                     FAQ
-                                </h2>
+                                </h3>
                                 <p style={{ marginBottom: "10px" }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem aut cumque facere ab tempore iusto sapiente. Ex quisquam modi corporis dicta, qui, eveniet dolor amet delectus molestias incidunt suscipit neque?</p>
                             </div>
                             <div

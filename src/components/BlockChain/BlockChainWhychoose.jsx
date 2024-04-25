@@ -10,7 +10,7 @@ function BlockChainWhychoose() {
                     <div className="row nft_whychoose_full_div">
                         <div className='nft_whychoose_left_div'>
                             <h2 style={{ color: "black", textAlign: "center" }}>Why Choose Us for <span className='theme-color'>Blockchain Development Services ?</span></h2>
-                            <p style={{ color: "black", textAlign: "center", marginBottom: "80px" }}>
+                            <p style={{ color: "black", textAlign: "center"}}>
                                 We are among the early adopters of blockchain technology, specializing in offering blockchain development services to solve real-world difficulties for businesses and startups around the world. Everything from application integration to cloud-based product deployment can be coordinated by our highly qualified developers. We provide affordable, customized solutions to meet your unique requirements.
                             </p>
                         </div>
