@@ -52,7 +52,8 @@ const WebService = () => {
                             <img src="/assets/img/web3-services/immersive.svg" alt="" />
                             <h6 style={{ color: "black" }}>Custom Blockchain Development</h6>
                             <p style={{ color: "black", marginBottom: "0" }}>
-                                Building custom blockchain solutions tailored to your specific business requirements, including private or permissioned blockchains, consensus mechanisms, and governance models, to address unique use cases and industry challenges.
+                                Building custom blockchain solutions tailored to your specific business requirements, including private or permissioned blockchains, consensus mechanisms, and governance models.
+                                {/* to address unique use cases and industry challenges. */}
                             </p>
                         </div>
                     </div>

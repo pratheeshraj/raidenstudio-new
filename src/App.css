@@ -157,8 +157,15 @@
 
 /* br tag  */
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
     br {
+        display: none !important;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .banner_right_image {
         display: none !important;
     }
 }
