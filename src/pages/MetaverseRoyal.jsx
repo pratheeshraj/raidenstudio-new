@@ -9,7 +9,18 @@ const MetaverseRoyal = () => {
   return (
     <Fragment>
       <Suspense>
-        <HelmetReact title={"career"} />
+      <HelmetReact
+          title={
+            "Metaverse Royale | Readymade Battle Royale Game Solutions"
+          }
+          description={
+            "Metaverse Royale for Multiplayer Video Game Solution is a pre-built battle royale gaming platform that enables entrepreneurs to develop Metaverse-powered battle royale game apps quickly and within their budget and timeline."
+          }
+          keywords={
+            "battle royale game solutions, multiplayer video game development solutions, readymade battle royale game solutions"
+          }
+          ogimage={""}
+        />
         <HeaderTwo />
         <MetaverseRoyalContent/>
         <NewsSectionOne />

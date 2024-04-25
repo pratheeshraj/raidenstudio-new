@@ -10,7 +10,18 @@ const GameProductDetails = () => {
   return (
     <Fragment>
       <Suspense>
-        <HelmetReact title={"career"} />
+      <HelmetReact
+          title={
+            "Realm Wars Clash of Empires | Whitelabel Gaming Solutions"
+          }
+          description={
+            "Realm Wars Clash of Empires is a turnkey gaming solution that enables entrepreneurs like you to build their game across many platforms quickly. Realm Wards Clash of Empires' superior technology and user-friendly design make it simple for entrepreneurs to launch and run a successful gaming business."
+          }
+          keywords={
+            "realm wars clash of empires, Whitelabel gaming solutions, ready game clone script"
+          }
+          ogimage={""}
+        />
         <HeaderTwo />
         <GameProductDetailsHero/>
         <ContactSection2/>
