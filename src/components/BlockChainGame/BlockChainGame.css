@@ -90,7 +90,13 @@
 
 .blockchain_game_card_maindiv {
     width: 100%;
-    flex-wrap: wrap;
+    margin-top: 60px !important;
+}
+
+@media screen and (max-width: 768px) {
+    .blockchain_game_card_maindiv {
+        margin-top: 30px !important;
+    }
 }
 
 .industry_wide_card_blockchain {

@@ -10,7 +10,7 @@ const AsService = () => {
                     style={{ background: "#F8F9FA" }}
                 >
                     <h2 className="auto-container" style={{ color: "black" }}>AIaaS/PaaS Offerings:<span className="theme-color"> Empowering <br />Your Business</span></h2>
-                    <p style={{ color: "black", textAlign: "center", width: "70%", margin: "auto auto 80px auto" }}>
+                    <p style={{ color: "black", textAlign: "center", width: "70%", margin: "auto auto auto auto" }}>
                         Discover the comprehensive capabilities of our AI-as-a-Service (AIaaS) and Platform-as-a-Service (PaaS) offerings, designed to equip your business with the tools needed to thrive in the AI landscape.
                     </p>
                     <div className="auto-container row key_features_section_container" style={{ rowGap: "29px" }}>

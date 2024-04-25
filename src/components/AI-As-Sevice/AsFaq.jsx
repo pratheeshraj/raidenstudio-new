@@ -14,6 +14,9 @@ const AsFaq = () => {
                                 data-aos="fade-right"
                                 data-aos-delay="300"
                             >
+                                 <h3>
+                                    faq
+                                </h3>
                                 <h2>
                                     Clearing Your Doubts
                                 </h2>

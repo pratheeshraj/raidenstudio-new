@@ -270,6 +270,9 @@
         font-size: 40px;
         line-height: 1.2;
         margin: 0;
+        @media #{$sm, $xs, $xss} {
+          font-size: 20px;
+        }
       }
       h4 {
         font-size: 22px;

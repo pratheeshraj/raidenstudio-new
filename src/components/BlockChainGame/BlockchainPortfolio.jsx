@@ -7,8 +7,8 @@ function BlockchainPortfolio() {
                 <div className="row">
                     <h2 style={{ textAlign: "center", color: "black" }}>Our <span className="theme-color">Portfolios</span>
                     </h2>
-                    <p style={{ textAlign: "center", color: "black", marginBottom: "80px" }}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam qui dolorum explicabo praesentium, possimus optio id necessitatibus fugiat pariatur ea in esse est, reiciendis veniam et aliquam facilis temporibus nihil.
-                    </p>
+                    {/* <p style={{ textAlign: "center", color: "black", marginBottom: "80px" }}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam qui dolorum explicabo praesentium, possimus optio id necessitatibus fugiat pariatur ea in esse est, reiciendis veniam et aliquam facilis temporibus nihil.
+                    </p> */}
                     <div className='blockgame_benifit_main_div'>
                         <div className='blockgame_benifit_div'>
                             <div className='blockgame_benifit_card'>

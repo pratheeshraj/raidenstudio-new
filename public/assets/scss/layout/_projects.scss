@@ -346,8 +346,14 @@
     position: relative;
     z-index: 9;
     overflow: hidden;
+    @media #{$sm, $xs, $xss} {
+      padding: 40px 0 !important;
+    }
     .section-title-shape-one {
       margin-bottom: 60px;
+      @media #{$sm, $xs, $xss} {
+        margin-bottom: 30px !important;
+      }
     }
     .project-wrapper {
       z-index: 9;

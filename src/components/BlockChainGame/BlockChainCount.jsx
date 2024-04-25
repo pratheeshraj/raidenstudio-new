@@ -100,7 +100,7 @@ const BlockChainCount = () => {
                                     </h2>
                                     <h3>w</h3>
                                 </div>
-                                <h4>Testing /<br />Deployment</h4>
+                                <h4>Testing /<br /> Deployment</h4>
                             </div>
                         </div>
                     </div>
