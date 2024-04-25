@@ -24,7 +24,7 @@ const Web3GameAbout = () => {
           <div className="col-lg-6">
             <div className="right-wrapper ps-2">
               <h2 style={{ color: "black" }} className="title">
-                Our Expertise In Unity Game Development
+                Our Expertise In Web3 Game Development
               </h2>
               <p style={{ color: "black" }}>
                 At Raiden, we are pioneers in Web3 Game Development, leveraging
