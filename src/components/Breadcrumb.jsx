@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Breadcrumb = ({ data }) => {
+const Breadcrumb = ({ data,img }) => {
   return (
     <>
       {/* Breadcrumb Section Start */}
       <section
         className="breadcrumb"
         style={{
-          backgroundImage: "url('/assets/img/case-study/blog.jpg')",
+          backgroundImage: `${img}`,
         }}
       >
         <div className="auto-container">
