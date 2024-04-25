@@ -15,7 +15,18 @@ const MetaverseCasino = () => {
     return (
         <Fragment>
             <Suspense>
-                <HelmetReact title={"career"} />
+            <HelmetReact
+          title={
+            "Virtual Vegas | Metaverse Casino App Solutions"
+          }
+          description={
+            "Virtual Vegas Metaverse Casino Solution is a pre-developed casino platform that enables entrepreneurs to swiftly build a Metaverse-powered gambling platform. Furthermore, it works as a cost-effective solution."
+          }
+          keywords={
+            "readymade Metaverse Casino platform, white label casino game script"
+          }
+          ogimage={""}
+        />
                 <HeaderTwo />
                 <MetaverseCasionoHero />
                 <MetaverseCasinoContent />
@@ -38,7 +49,7 @@ const MetaverseCasino = () => {
                                          Don't miss out on the future of gaming - join VirtualVegas and take your casino to new heights!                                        </p>
                                         <div className="inner-btn d-adjust">
                                             <div>
-                                                <Link className="default-btn" to="/contact" style={{backgroundColor:"#57E400"}}>
+                                                <Link className="default-btn" to="/contact" style={{backgroundColor:"#4ecd00"}}>
                                                     Let’s Work To Do{" "}
                                                 </Link>
                                             </div>

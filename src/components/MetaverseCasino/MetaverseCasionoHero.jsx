@@ -43,7 +43,7 @@ const MetaverseCasionoHero = () => {
                                                     </p>
                                                     <div className="inner-btn">
                                                         <div>
-                                                            <Link className="default-btn" to="/contact" style={{backgroundColor:"#57E400"}}>
+                                                            <Link className="default-btn" to="/contact" style={{backgroundColor:"#4ECD00"}}>
                                                                 Explore Now
                                                             </Link>
                                                         </div>
