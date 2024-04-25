@@ -2,7 +2,7 @@ import React from "react";
 
 const MmorpgFaq = () => {
   return (
-    <section className="faq-section one" style={{ backgroundColor: "white" }}>
+    <section className="faq-section one" style={{ backgroundColor: "#f8f9fa" }}>
       <div className="auto-container">
         <div className="row">
           <div className="col-lg-6">
