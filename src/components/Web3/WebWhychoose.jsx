@@ -9,7 +9,7 @@ function WebWhychoose() {
                     <div className="row wwhychoose_maindiv">
                         <div className="whychoose_left_div">
                             <h2 style={{ marginBottom: "25px", color: "black", textAlign: "center" }}>Why Choose<span className='theme-color'> Raiden ?</span></h2>
-                            <p style={{ color: "black", textAlign: "center", marginBottom: "50px" }}>As one of the dedicated AI service providers, we use our significant domain expertise to continually expand the boundaries of what is achievable for your business. We have a fantastic group of AI specialists who thrive on challenges and are always looking for new AI possibilities to help our clients meet their goals. As the best artificial intelligence development company, we define ourselves by:</p>
+                            {/* <p style={{ color: "black", textAlign: "center", marginBottom: "50px" }}>As one of the dedicated AI service providers, we use our significant domain expertise to continually expand the boundaries of what is achievable for your business. We have a fantastic group of AI specialists who thrive on challenges and are always looking for new AI possibilities to help our clients meet their goals. As the best artificial intelligence development company, we define ourselves by:</p> */}
                         </div>
                         <div className="whychoose_right_div">
                             <div className='ai_whychoose_card_div'>
@@ -44,7 +44,7 @@ function WebWhychoose() {
                             </div>
                             <div className='ai_whychoose_card_div'>
                                 <div style={{ background: "linear-gradient(136.76deg, #FF9897 0%, #F650A0 100%)" }} className='whychoose_ai_box'>
-                                    <img src='/assets/img/web3-why/flexible.svg' />
+                                    <img src='/assets/img/web3-why/proven.svg' />
                                 </div>
                                 <div className='whychoose_ai_content'>Proven Track Record</div>
                             </div>

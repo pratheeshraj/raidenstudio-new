@@ -29,7 +29,7 @@ function AsUseCase() {
                             <p style={{ color: "black" }}>	Safeguard financial transactions and mitigate fraud risks using AI-based fraud detection systems, analyzing patterns and anomalies in real-time data.</p>
                         </div>
                         <div className="arcviz_benifit">
-                            <img src="/assets/img/ai-as-real world/.svg" alt="" />
+                            <img src="/assets/img/ai-as-real world/ecommerce.svg" alt="" />
                             <div style={{ color: "black" }}>E-commerce</div>
                             <p style={{ color: "black" }}> 	Drive sales and enhance customer engagement with AI-driven personalized product recommendations tailored to individual preferences and behavior.</p>
                         </div>

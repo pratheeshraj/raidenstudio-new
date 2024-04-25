@@ -366,7 +366,7 @@ const NftProgramming = () => {
             <section className="faq-section three" style={{ background: "white" }}>
                 <div className="auto-container">
                     <div className="row">
-                        <h2 style={{ color: "black", textAlign: "center" }}>Our Tech Stack for<span className="theme-color"> NFT Development <br/> Services</span></h2>
+                        <h2 style={{ color: "black", textAlign: "center" }}>Our Tech Stack for<span className="theme-color"> NFT Development <br /> Services</span></h2>
                         {/* <p style={{ color: "black", textAlign: "center" }}>Helping startups and enterprises with the right blend of experience and technology.</p> */}
                         <div className="left_Language_div">
                             <div onClick={handleFrontEnd} style={{ color: frontend ? '#13C4A1' : 'black' }}>Blockchain Networks</div>
@@ -422,7 +422,7 @@ const NftProgramming = () => {
                                     <div className="Card_name_sevice">ERC-721</div>
                                 </div>
                                 <div className="Card5_service">
-                                <img src="/assets/img/Language/ethereum-eth-logo.svg" alt="" />
+                                    <img src="/assets/img/Language/ethereum-eth-logo.svg" alt="" />
                                     <div className="Card_name_sevice">ERC-1155</div>
                                 </div>
                                 <div className="Card5_service">
@@ -438,7 +438,7 @@ const NftProgramming = () => {
                                     <div className="Card_name_sevice">FA2</div>
                                 </div>
                                 <div className="Card5_service">
-                                    <img src="/assets/img/Language/eos-eos-logo.svg" alt="" />
+                                    <img src="/assets/img/Language/dgoods-icon.png" alt="" />
                                     <div className="Card_name_sevice">dGoods</div>
                                 </div>
                             </div> : game ? <div className="right_Language_div">

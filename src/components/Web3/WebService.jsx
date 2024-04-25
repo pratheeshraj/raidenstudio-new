@@ -49,7 +49,7 @@ const WebService = () => {
                             </p>
                         </div>
                         <div style={{ background: "white", boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px", borderRadius: "8px", width: "340px", height: "320px" }} className="key_features_card">
-                            <img src="/assets/img/web3-services/immersive.svg" alt="" />
+                            <img src="/assets/img/web3-services/custum-blockch.svg" alt="" />
                             <h6 style={{ color: "black" }}>Custom Blockchain Development</h6>
                             <p style={{ color: "black", marginBottom: "0" }}>
                                 Building custom blockchain solutions tailored to your specific business requirements, including private or permissioned blockchains, consensus mechanisms, and governance models.
