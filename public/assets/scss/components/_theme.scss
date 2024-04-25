@@ -99,6 +99,10 @@ h1 {
 h2 {
   font-size: var(--fz-h2);
   // line-height: 50px;
+  margin-bottom: 16px;
+  @media #{$sm,$xs, $xss} {
+    font-size: 24px !important;
+  }
 }
 
 h3 {

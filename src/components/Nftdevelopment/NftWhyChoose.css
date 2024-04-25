@@ -7,7 +7,7 @@
 }
 
 .nft_whychoose_Right_div {
-    margin-top: 50px;
+    margin-top: 100px !important;
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -87,6 +87,16 @@
 
 }
 
+@media screen and (max-width:768px) {
+
+
+    .nft_whychoose_Right_div {
+        margin-top: 50px !important;
+    }
+
+}
+
+
 @media screen and (max-width:500px) {
 
     .nft_whychoose_Right_box {
@@ -122,7 +132,6 @@
 @media screen and (max-width:500px) {
     .feature_div {
         width: 100%;
-        margin: 80px 0 0 0;
         display: flex;
         flex-wrap: wrap;
         align-items: center;

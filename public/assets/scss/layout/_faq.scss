@@ -11,6 +11,9 @@
     position: relative;
     overflow: hidden;
     z-index: 9;
+    @media #{$sm, $xs, $xss} {
+      padding: 40px 0 !important;
+    }
     .img-file {
       @media #{$lg, $md, $sm, $xs, $xss} {
         margin-top: 70px;
@@ -364,6 +367,9 @@
     position: relative;
     overflow: hidden;
     z-index: 9;
+    @media #{$sm, $xs, $xss} {
+      padding: 40px 0 !important;
+    }
     .img-file {
       position: absolute;
       top: -300px;

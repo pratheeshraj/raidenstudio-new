@@ -10,6 +10,9 @@
   padding: 100px 0 0;
   position: relative;
   overflow: hidden;
+  @media #{$sm, $xs, $xss} {
+    padding: 40px 0 !important;
+  }
   .section-title-shape-one {
     margin-bottom: 30px;
   }

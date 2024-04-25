@@ -11,7 +11,7 @@ const MmorpgAbout = () => {
       <div className="auto-container">
         <div className="row" style={{display:"flex",alignItems:"center"}}>
           <div className="col-lg-6">
-            <div className="left-wrapper pe-2">
+            <div className="left-wrapper ">
               <div className="img-file"
               style={{display:"flex" ,justifyContent:"center",alignItems:"center"}}
               >

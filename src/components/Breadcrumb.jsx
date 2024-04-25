@@ -15,7 +15,7 @@ const Breadcrumb = ({ data }) => {
           <div className="row">
             <div className="col-12">
               <div className="breadcrumb-inner">
-                <h2 data-aos="fade-up" data-aos-delay="300">
+                <h2 style={{textAlign:"center"}} data-aos="fade-up" data-aos-delay="300">
                   {data}
                 </h2>
                 <div
@@ -23,7 +23,6 @@ const Breadcrumb = ({ data }) => {
                   data-aos="fade-up"
                   data-aos-delay="400"
                 >
-                  <Link to="/">Home</Link> / <span>{data}</span>
                 </div>
               </div>
             </div>

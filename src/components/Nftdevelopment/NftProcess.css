@@ -1,7 +1,7 @@
 .nft_timeline {
     position: relative;
     min-height: 150px;
-    margin-top: 200px;
+    margin-top: 130px;
 }
 
 .nft_line {
@@ -151,8 +151,8 @@
 
     .show-me .bead {
         background-color: white;
-        width: 30px;
-        height: 30px;
+        width: 50px;
+        height: 50px;
         color: black;
         font-size: 16px;
         font-weight: 700;
@@ -160,6 +160,11 @@
         justify-content: center;
         align-items: center;
         left: -44px;
+    }
+
+    .bead>img {
+        width: 30px;
+        height: 30px;
     }
 
     .nft_content {
@@ -177,10 +182,6 @@
     }
 
     .show-me .bead {
-        width: 20px;
-        height: 20px;
-        font-size: 14px;
-        font-weight: 700;
         left: -31px;
     }
 

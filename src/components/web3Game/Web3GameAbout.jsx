@@ -11,7 +11,7 @@ const Web3GameAbout = () => {
       <div className="auto-container">
         <div className="row">
           <div className="col-lg-6">
-            <div className="left-wrapper pe-2">
+            <div className="left-wrapper ">
               <div className="img-file" style={{display:"flex",justifyContent:"center"}}>
                 <img
                   className="img-fluid"

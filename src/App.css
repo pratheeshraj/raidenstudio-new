@@ -155,8 +155,10 @@
     align-items: center !important;
 }
 
-/* @media screen and (max-width: 1000px) {
-    .banner_right_image{
+/* br tag  */
+
+@media screen and (max-width: 576px) {
+    br {
         display: none !important;
     }
-} */
+}

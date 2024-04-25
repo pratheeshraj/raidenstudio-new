@@ -20,7 +20,7 @@
 }
 
 .right_Language_div {
-    margin-top: 20px;
+    margin-top: 55px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -617,6 +617,7 @@
 @media screen and (max-width:770px) {
 
     .right_Language_div {
+        margin-top: 30px;
         width: 100%;
         gap: 20px;
         justify-content: center;

@@ -13,7 +13,7 @@ const DefiAbout = () => {
                 <div className="auto-container">
                     <div className="row">
                         <div className="col-lg-6">
-                            <div className="left-wrapper pe-2">
+                            <div className="left-wrapper ">
                                 <div className="img-file">
                                     <img
                                         className="img-fluid"

@@ -248,6 +248,9 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    @media #{ $sm, $xs, $xss} {
+      padding: 40px 0;
+    }
     .wrapper {
       .middle {
         @media #{$md, $sm, $xs, $xss} {
