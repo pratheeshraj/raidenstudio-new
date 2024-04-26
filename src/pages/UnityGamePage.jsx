@@ -19,7 +19,7 @@ const UnityGamePage = () => {
   return (
     <Fragment>
       <Suspense>
-      <HelmetReact
+        <HelmetReact
           title={
             "Unity Game Development Company | Hire Unity3D Game Developers"
           }
@@ -33,15 +33,15 @@ const UnityGamePage = () => {
         />
         <HeaderTwo />
         <UnityHeroSection />
-        <UnityAbout/>
-        <UnityServicesSection/>
-        <UnityCount/>
-        <UnityWhyChoose/>
-        <UnityBenefitSection/>
-        <UnityBannerSection/>
-        <UnityProcessSection/>
+        <UnityAbout />
+        <UnityServicesSection />
+        <UnityCount />
+        <UnityWhyChoose />
+        <UnityBenefitSection />
+        <UnityBannerSection />
+        <UnityProcessSection />
+        <UnityFaq />
         <NewsSectionOne />
-        <UnityFaq/>
         <ContactSection2 />
         <FooterSectionOne />
       </Suspense>
