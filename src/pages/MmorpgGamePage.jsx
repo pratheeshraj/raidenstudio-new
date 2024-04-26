@@ -17,8 +17,8 @@ import MmorpgCount from '../components/mmorpg/MmorpgCount'
 const MmorpgGamePage = () => {
   return (
     <Fragment>
-    <Suspense>
-    <HelmetReact
+      <Suspense>
+        <HelmetReact
           title={
             "MMORPG Game Development Company | Hire MMORPG Game Developers"
           }
@@ -30,21 +30,21 @@ const MmorpgGamePage = () => {
           }
           ogimage={""}
         />
-      <HeaderTwo />
-      <MmorpgHeroSection/>
-      <MmorpgAbout />
-      <MmorpgServicesSection />
-      <MmorpgCount />
-      <MmorpgWhyChoose />
-      <MmorpgBenefitSection />
-      <MmorpgBannerSection />
-      <MmorpgProcessSection />
-      <NewsSectionOne />
-      <MmorpgFaq />
-      <ContactSection2/>
-      <FooterSectionOne />
-    </Suspense>
-  </Fragment>
+        <HeaderTwo />
+        <MmorpgHeroSection />
+        <MmorpgAbout />
+        <MmorpgServicesSection />
+        <MmorpgCount />
+        <MmorpgWhyChoose />
+        <MmorpgBenefitSection />
+        <MmorpgBannerSection />
+        <MmorpgProcessSection />
+        <MmorpgFaq />
+        <NewsSectionOne />
+        <ContactSection2 />
+        <FooterSectionOne />
+      </Suspense>
+    </Fragment>
   )
 }
 
