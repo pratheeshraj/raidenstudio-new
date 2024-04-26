@@ -123,6 +123,9 @@
 
   p{
     margin-bottom: 40px;
+    @media #{$sm, $xs, $xss} {
+      margin-bottom: 30px !important;
+    }
   }
   .key_features_section_container {
     display: flex;
@@ -148,12 +151,13 @@
       gap: 0px;
       @media #{$sm, $xs, $xss} {
         gap: 0px !important;
+        padding: 30px 15px;
       }
       @media #{$xss} {
         padding: 30px 20px;
         gap: 15px;
       }
-
+    
       img {
         width: 50px;
         height: 50px;
@@ -162,6 +166,12 @@
 
       h6 {
         font-size: 16px;
+      }
+      p{
+        margin-bottom: 40px;
+        @media #{$sm, $xs, $xss} {
+          margin-bottom: 0 !important;
+        }
       }
     }
   }
