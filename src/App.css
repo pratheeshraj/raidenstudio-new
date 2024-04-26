@@ -49,6 +49,7 @@
 
     .service_img_game {
         width: 60% !important;
+        margin: 0 auto !important;
     }
 
     .mobile_gamewhy_choose .mobile_game_right {
