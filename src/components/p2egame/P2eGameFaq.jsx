@@ -2,7 +2,7 @@ import React from "react";
 
 const P2eGameFaq = () => {
   return (
-    <section className="faq-section one" style={{ backgroundColor: "white" }}>
+    <section className="faq-section one" style={{ backgroundColor: "#F8F9FA" }}>
       <div className="auto-container">
         <div className="row">
           <div className="col-lg-6">
@@ -24,8 +24,8 @@ const P2eGameFaq = () => {
               </p>
             </div>
             <div
-              className="img-file "
-              style={{justifyContent: "center",display:"flex"}}
+              className="img-file service_img_game_faq"
+              style={{ justifyContent: "center", display: "flex" }}
               data-aos="fade-right"
               data-aos-delay="500"
             >
@@ -189,21 +189,21 @@ const P2eGameFaq = () => {
         <div className="shape-img-2 poa">
           <img src="/assets/img/icon/64_icon.png" alt="" />
         </div>
-        <div className="shape-img-3 poa">
+        {/* <div className="shape-img-3 poa">
           <img src="/assets/img/icon/22_icon.png" alt="" />
         </div>
         <div className="shape-img-4 poa">
           <img src="/assets/img/icon/08_icon.png" alt="" />
-        </div>
+        </div> */}
         <div className="shape-img-5 poa">
           <img src="/assets/img/icon/26_icon.png" alt="" />
         </div>
-        <div className="shape-img-6 poa">
+        {/* <div className="shape-img-6 poa">
           <img src="/assets/img/icon/43_icon.png" alt="" />
         </div>
         <div className="shape-img-7 poa">
           <img src="/assets/img/icon/68_icon.png" alt="" />
-        </div>
+        </div> */}
         <div className="shape-img-8 poa">
           <img src="/assets/img/icon/71_icon.png" alt="" />
         </div>

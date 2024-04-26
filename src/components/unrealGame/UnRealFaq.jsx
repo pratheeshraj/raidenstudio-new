@@ -24,7 +24,7 @@ const UnRealFaq = () => {
               </p>
             </div>
             <div
-              className="img-file "
+              className="img-file service_img_game_faq"
               data-aos="fade-right"
               data-aos-delay="500"
             >

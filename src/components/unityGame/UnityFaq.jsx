@@ -26,7 +26,7 @@ const UnityFaq = () => {
               </p>
             </div>
             <div
-              className="img-file "
+              className="img-file service_img_game_faq"
               style={{ display: "flex", justifyContent: "center" }}
               data-aos="fade-right"
               data-aos-delay="500"

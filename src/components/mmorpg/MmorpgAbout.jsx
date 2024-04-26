@@ -16,7 +16,7 @@ const MmorpgAbout = () => {
               style={{display:"flex" ,justifyContent:"center",alignItems:"center"}}
               >
                 <img
-                  className="img-fluid"
+                  className="img-fluid service_img_game"
                   src="/assets/img/mmorpg-img/about.png"
                   alt=""
                 />

@@ -1,14 +1,14 @@
 import React, { Fragment, Suspense } from 'react'
 import HelmetReact from '../elements/HelmetReact'
 import HeaderTwo from '../components/HeaderTwo'
-import  P2eGameHeroSection from "../components/p2egame/P2eGameHeroSection"
-import  P2eGameAbout from "../components/p2egame/P2eGameAbout"
-import  P2eGameServicesSection from "../components/p2egame/P2eGameServicesSection"
-import  P2eGameWhyChoose from "../components/p2egame/P2eGameWhyChoose"
-import  P2eGameBenefitSection from "../components/p2egame/P2eGameBenefitSection"
-import  P2eGameBannerSection from "../components/p2egame/P2eGameBannerSection"
-import  P2eGameProcessSection from "../components/p2egame/P2eGameProcessSection"
-import  P2eGameFaq from "../components/p2egame/P2eGameFaq"
+import P2eGameHeroSection from "../components/p2egame/P2eGameHeroSection"
+import P2eGameAbout from "../components/p2egame/P2eGameAbout"
+import P2eGameServicesSection from "../components/p2egame/P2eGameServicesSection"
+import P2eGameWhyChoose from "../components/p2egame/P2eGameWhyChoose"
+import P2eGameBenefitSection from "../components/p2egame/P2eGameBenefitSection"
+import P2eGameBannerSection from "../components/p2egame/P2eGameBannerSection"
+import P2eGameProcessSection from "../components/p2egame/P2eGameProcessSection"
+import P2eGameFaq from "../components/p2egame/P2eGameFaq"
 import NftCounter from '../components/Nftdevelopment/NftCounter'
 import FooterSectionOne from '../components/FooterSectionOne'
 import ContactSection2 from '../components/ContactSection2'
@@ -17,8 +17,8 @@ import P2eGameCount from '../components/p2egame/P2eGameCount'
 const P2eGamePage = () => {
   return (
     <Fragment>
-    <Suspense>
-    <HelmetReact
+      <Suspense>
+        <HelmetReact
           title={
             "Play to Earn Game Development Company | P2E Game Development Services"
           }
@@ -30,21 +30,21 @@ const P2eGamePage = () => {
           }
           ogimage={""}
         />
-      <HeaderTwo/>
-      <P2eGameHeroSection/>
-      <P2eGameAbout />
-      <P2eGameServicesSection />
-      <P2eGameCount />
-      <P2eGameWhyChoose />
-      <P2eGameBenefitSection />
-      <P2eGameBannerSection />
-      <P2eGameProcessSection />
-      <NewsSectionOne />
-      <P2eGameFaq />
-      <ContactSection2/>
-      <FooterSectionOne />
-    </Suspense>
-  </Fragment>
+        <HeaderTwo />
+        <P2eGameHeroSection />
+        <P2eGameAbout />
+        <P2eGameServicesSection />
+        <P2eGameCount />
+        <P2eGameWhyChoose />
+        <P2eGameBenefitSection />
+        <P2eGameBannerSection />
+        <P2eGameProcessSection />
+        <P2eGameFaq />
+        <NewsSectionOne />
+        <ContactSection2 />
+        <FooterSectionOne />
+      </Suspense>
+    </Fragment>
   )
 }
 

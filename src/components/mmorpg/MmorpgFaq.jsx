@@ -24,13 +24,13 @@ const MmorpgFaq = () => {
               </p>
             </div>
             <div
-              className="img-file "
-              style={{display:"flex",justifyContent: "center"}}
+              className="img-file service_img_game_faq"
+              style={{ display: "flex", justifyContent: "center" }}
               data-aos="fade-right"
               data-aos-delay="500"
             >
               <img
-                className="img-fluid"
+                className="img-fluid "
                 src="/assets/img/mmorpg-img/faq.png"
                 alt=""
               />
@@ -186,21 +186,21 @@ const MmorpgFaq = () => {
         <div className="shape-img-2 poa">
           <img src="/assets/img/icon/64_icon.png" alt="" />
         </div>
-        <div className="shape-img-3 poa">
+        {/* <div className="shape-img-3 poa">
           <img src="/assets/img/icon/22_icon.png" alt="" />
-        </div>
-        <div className="shape-img-4 poa">
+        </div> */}
+        {/* <div className="shape-img-4 poa">
           <img src="/assets/img/icon/08_icon.png" alt="" />
-        </div>
+        </div> */}
         <div className="shape-img-5 poa">
           <img src="/assets/img/icon/26_icon.png" alt="" />
         </div>
-        <div className="shape-img-6 poa">
+        {/* <div className="shape-img-6 poa">
           <img src="/assets/img/icon/43_icon.png" alt="" />
         </div>
         <div className="shape-img-7 poa">
           <img src="/assets/img/icon/68_icon.png" alt="" />
-        </div>
+        </div> */}
         <div className="shape-img-8 poa">
           <img src="/assets/img/icon/71_icon.png" alt="" />
         </div>
