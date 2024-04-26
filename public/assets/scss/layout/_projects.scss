@@ -663,6 +663,10 @@
   .widget-project {
     margin-top: 60px;
     background: var(--common-body-2);
+    @media #{$sm, $xs, $xss} {
+      margin-top: 20px !important;
+    }
+
     @media #{$md, $sm, $xs, $xss} {
       margin-left: 0;
     }

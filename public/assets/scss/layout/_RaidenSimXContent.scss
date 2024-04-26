@@ -5,7 +5,9 @@
   position: relative;
   z-index: 9;
   padding: 100px 0;
-
+  @media #{$sm, $xs, $xss} {
+    padding: 40px 0 !important;
+  }
   h2 {
     color: var(--theme-1);
     text-align: center;
@@ -134,6 +136,7 @@
     padding: 60px 30px 0 30px !important;
     @media #{$sm, $xs, $xss} {
       padding: 0 15px !important;
+      margin-top:40px;
     }
 
     @media #{$lg,$md,$sm,$xs,$xss} {
@@ -181,6 +184,9 @@
   padding: 100px 0;
   position: relative;
   z-index: 9;
+  @media #{$sm, $xs, $xss} {
+    padding: 40px 0 !important;
+  }
 
   h2 {
     margin-bottom: 50px;
@@ -414,7 +420,9 @@
   position: relative;
   z-index: 9;
   padding: 100px 0;
-
+  @media #{$sm, $xs, $xss} {
+    padding: 40px 0 !important;
+  }
   h2 {
     color: var(--theme-1);
     text-align: center;
@@ -476,6 +484,9 @@
 
 .RaidensimX_commitment {
   padding: 100px 0;
+  @media #{$sm, $xs, $xss} {
+    padding: 40px 0 !important;
+  }
 
   h2 {
     color: var(--theme-1);

@@ -21,7 +21,7 @@ const RaidenArcvizComponent = ({ vidio }) => {
                         </video>
                     </div>
                     <div className="container-fulid project_hero_content">
-                        <div className="container pb-4 ">
+                        <div className="container pb-4 product_what_we_do">
                             <div className="row">
                                 <div
                                     className="col-lg-6"
@@ -293,7 +293,7 @@ const RaidenArcvizComponent = ({ vidio }) => {
                                 data-aos="fade-up"
                                 data-aos-delay="300"
                             >
-                                <h2>
+                                <h2 style={{ textAlign: "center" }}>
                                     Use Cases of VR in Real Estate
                                     <span className="theme-color"> Real Estate</span>
                                 </h2>

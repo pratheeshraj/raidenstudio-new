@@ -13,10 +13,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  @media #{$md ,$sm, $xs,$xss} {
-    flex-direction: column-reverse;
-    justify-content: center;
-  }
   .left {
     @media #{$md ,$sm, $xs,$xss} {
       display: flex;
@@ -26,25 +22,23 @@
     }
     p {
       text-align: start;
-      @media #{ $xs,$xss} {
-        font-size: 14px;
+      @media #{$sm, $xs, $xss} {
+      text-align: center !important;
       }
     }
     h2 {
       text-align: start;
-      @media #{$sm, $xs,$xss} {
-        font-size: 26px;
-      }
+      @media #{$sm, $xs, $xss} {
+        text-align: center !important;
+        }
     }
   }
   .right {
     display: flex;
     align-items: center;
     img {
-      @media #{ $xs,$xss} {
-        flex-direction: column-reverse;
-        justify-content: center;
-        width: 100%;
+      @media #{$md ,$sm, $xs,$xss} {
+        display: none;
       }
     }
   }
@@ -53,6 +47,11 @@
 .game_product_section2 {
   background-color: white;
   padding: 80px 0;
+
+  @media #{$sm, $xs, $xss} {
+    padding: 40px 0 !important;
+  }
+
 
   h2 {
     color: var(--theme-1);
@@ -156,6 +155,9 @@
 .section-3 {
   padding: 100px 0;
   background-color: var(--common-black-2);
+  @media #{$sm, $xs, $xss} {
+    padding: 40px 0 !important;
+  }
 
   .game-details-Services {
     h2 {
@@ -224,7 +226,9 @@
 .section_4 {
   background-color: white;
   padding: 100px 0;
-
+  @media #{$sm, $xs, $xss} {
+    padding: 40px 0 !important;
+  }
   .game_features {
     h2 {
       color: var(--theme-1);

@@ -327,7 +327,7 @@ const GameProductDetailsHero = () => {
           <div className="auto-container gameproduct_hero_container">
             <ScrollAnimation
               animateIn="fadeInLeft"
-              className="left"
+              className="left game_hero_content"
               duration={1.5}
             >
               <h2>
@@ -404,7 +404,7 @@ const GameProductDetailsHero = () => {
       <section>
         <div className="container-fluid section_4">
           <div className="auto-container game_features">
-            <h2 style={{ color: "#00ECE5" }}><span style={{color:"black"}}>In-Game</span> Experiences</h2>
+            <h2 style={{ color: "#00ECE5" }}><span style={{ color: "black" }}>In-Game</span> Experiences</h2>
             <p style={{ textAlign: "center" }}>
               Delve into the immersive gameplay elements and interactive
               features that make our game truly captivating
@@ -715,16 +715,16 @@ const GameProductDetailsHero = () => {
       </section> */}
       <section
         className="service-details-section"
-        style={{backgroundColor: "#F8F9FA"}}
+        style={{ backgroundColor: "#F8F9FA" }}
       >
-        <h2 style={{marginBottom:"10px"}}>
+        <h2 style={{ marginBottom: "10px" }}>
           Under the
           <span style={{ color: "#00ECE5" }}> Hood</span>
         </h2>
-        <p style={{color:"black",textAlign:"center",marginBottom:"40px"}}>Explore the hardware and software requirements necessary for seamless gameplay and optimal performance.</p>
+        <p style={{ color: "black", textAlign: "center", marginBottom: "40px" }}>Explore the hardware and software requirements necessary for seamless gameplay and optimal performance.</p>
         <div className="auto-container">
           <div className="row game_engine_expertise ">
-            <div className="game_engine_expertise_heading" style={{justifyContent:"space-evenly"}}>
+            <div className="game_engine_expertise_heading" style={{ justifyContent: "space-evenly" }}>
               <p
                 onClick={handleMultiplayer}
                 className="title"
@@ -766,7 +766,7 @@ const GameProductDetailsHero = () => {
                     <div className="right">
                       <h6 >Cross-Platform Compatibility</h6>
                       <p>
-                      Realm Wars: Clash of Empires is built using cross-platform technologies, ensuring compatibility across a wide range of devices and operating systems. Whether your target audience uses iOS or Android, smartphones or tablets, our solution delivers a seamless gaming experience on any platform.
+                        Realm Wars: Clash of Empires is built using cross-platform technologies, ensuring compatibility across a wide range of devices and operating systems. Whether your target audience uses iOS or Android, smartphones or tablets, our solution delivers a seamless gaming experience on any platform.
 
                       </p>
                     </div>
@@ -788,7 +788,7 @@ const GameProductDetailsHero = () => {
                     <div className="right">
                       <h6 >Scalable Architecture</h6>
                       <p>
-                      Our platform is built on a scalable architecture designed to accommodate rapid growth and increasing user demand. With flexible server infrastructure and dynamic load balancing, you can scale your game to support millions of players without compromising performance or reliability.
+                        Our platform is built on a scalable architecture designed to accommodate rapid growth and increasing user demand. With flexible server infrastructure and dynamic load balancing, you can scale your game to support millions of players without compromising performance or reliability.
                       </p>
                     </div>
                   </ScrollAnimation>
@@ -811,7 +811,7 @@ const GameProductDetailsHero = () => {
                     <div className="right">
                       <h6 >	Real-Time Multiplayer Support</h6>
                       <p>
-                      Engage players in thrilling real-time battles with support for multiplayer functionality. Our platform provides robust networking capabilities, enabling seamless matchmaking, peer-to-peer connections, and synchronous gameplay experiences that keep players coming back for more.
+                        Engage players in thrilling real-time battles with support for multiplayer functionality. Our platform provides robust networking capabilities, enabling seamless matchmaking, peer-to-peer connections, and synchronous gameplay experiences that keep players coming back for more.
                       </p>
                     </div>
                   </ScrollAnimation>
@@ -832,7 +832,7 @@ const GameProductDetailsHero = () => {
                     <div className="right">
                       <h6 >Monetization Options</h6>
                       <p>
-                      Monetize your game effectively with a range of flexible monetization options, including in-app purchases, advertising, and subscription services. Our platform integrates seamlessly with leading ad networks and payment gateways, allowing you to maximize revenue while providing value to your players.
+                        Monetize your game effectively with a range of flexible monetization options, including in-app purchases, advertising, and subscription services. Our platform integrates seamlessly with leading ad networks and payment gateways, allowing you to maximize revenue while providing value to your players.
                       </p>
                     </div>
                   </ScrollAnimation>
@@ -858,7 +858,7 @@ const GameProductDetailsHero = () => {
                     <div className="right">
                       <h6 >Analytics and Reporting</h6>
                       <p>
-                      Gain valuable insights into player behavior, engagement metrics, and revenue performance with comprehensive analytics and reporting tools. Track key performance indicators, identify trends, and optimize your game strategy based on real-time data to drive continuous improvement and success.
+                        Gain valuable insights into player behavior, engagement metrics, and revenue performance with comprehensive analytics and reporting tools. Track key performance indicators, identify trends, and optimize your game strategy based on real-time data to drive continuous improvement and success.
                       </p>
                     </div>
                   </ScrollAnimation>
@@ -879,7 +879,7 @@ const GameProductDetailsHero = () => {
                     <div className="right">
                       <h6 >Security and Compliance</h6>
                       <p>
-                      Protect your game and your players' data with robust security measures and compliance standards. Our platform implements industry-leading encryption protocols, secure authentication mechanisms, and strict data privacy policies to ensure the highest level of security and regulatory compliance.
+                        Protect your game and your players' data with robust security measures and compliance standards. Our platform implements industry-leading encryption protocols, secure authentication mechanisms, and strict data privacy policies to ensure the highest level of security and regulatory compliance.
                       </p>
                     </div>
                   </ScrollAnimation>
@@ -902,7 +902,7 @@ const GameProductDetailsHero = () => {
                     <div className="right">
                       <h6 >API Integration</h6>
                       <p>
-                      Seamlessly integrate Realm Wars: Clash of Empires with third-party services and APIs to extend functionality and enhance the gaming experience. From social media integration and user authentication to cloud storage and push notifications, our platform supports a wide range of integrations to meet your specific requirements.
+                        Seamlessly integrate Realm Wars: Clash of Empires with third-party services and APIs to extend functionality and enhance the gaming experience. From social media integration and user authentication to cloud storage and push notifications, our platform supports a wide range of integrations to meet your specific requirements.
                       </p>
                     </div>
                   </ScrollAnimation>
@@ -923,7 +923,7 @@ const GameProductDetailsHero = () => {
                     <div className="right">
                       <h6 >Customization and Extensibility</h6>
                       <p>
-                      Customize every aspect of your game with our flexible customization and extensibility options. From game mechanics and user interface design to content creation and feature development, our platform empowers you to tailor your game to suit your vision and differentiate your brand in the market.
+                        Customize every aspect of your game with our flexible customization and extensibility options. From game mechanics and user interface design to content creation and feature development, our platform empowers you to tailor your game to suit your vision and differentiate your brand in the market.
                       </p>
                     </div>
                   </ScrollAnimation>
@@ -1005,7 +1005,7 @@ const GameProductDetailsHero = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-5">
+              <div className="col-lg-5 banner_right_image">
                 <img src="/assets/img/bg-image/boy.png" />
               </div>
             </div>
@@ -1154,7 +1154,7 @@ const GameProductDetailsHero = () => {
                           aria-controls="flush-collapseTwo"
                         >
                           Who is Realm Wars: Clash of Empires designed for?
-                          
+
                         </button>
                       </h2>
                       <div

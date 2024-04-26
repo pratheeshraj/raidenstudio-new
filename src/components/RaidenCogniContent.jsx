@@ -136,12 +136,11 @@ const RaidenCogniContent = () => {
           <div className="row">
             <div className="col-12">
               <div
-                style={{ padding: "0 100px" }}
                 className="section-title-shape-one middle "
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
-                <h2 style={{ color: "black" }}>
+                <h2 style={{ color: "black", textAlign: "center" }}>
                   Key
                   <span className="theme-color"> Features</span>
                 </h2>

@@ -140,7 +140,7 @@ const RaidenSimXContent = () => {
           className="container-fulid key_features"
           style={{ backgroundColor: "#F8F9FA" }}
         >
-          <h2 style={{ marginBottom: "80px", color: "black" }} className="auto-container">Key <span className="theme-color">Features</span></h2>
+          <h2 style={{ color: "black" }} className="auto-container">Key <span className="theme-color">Features</span></h2>
           <div className="auto-container row key_features_section_container">
             <div className="key_features_card key_features_card_white">
               <img src="/assets/img/raidensimx/key features/immersive.svg" alt="" />
@@ -199,7 +199,7 @@ const RaidenSimXContent = () => {
         </div>
       </section>
 
-      <section className="faq-section three" style={{ background: "#00151E", padding: "50px 0" }}>
+      <section className="faq-section three" style={{ background: "#00151E" }}>
         <div className="auto-container">
           <div className="row">
             <h2 style={{ textAlign: "center", color: "white" }}>
@@ -590,8 +590,11 @@ const RaidenSimXContent = () => {
                 data-aos="fade-right"
                 data-aos-delay="300"
               >
-                <h2>
+                <h3>
                   FAQ
+                </h3>
+                <h2>
+                  Answers At A <span className="theme-color"> Glance</span>
                 </h2>
                 <p style={{ marginBottom: "10px" }}>
                   Explore commonly asked questions about RaidensimX's immersive

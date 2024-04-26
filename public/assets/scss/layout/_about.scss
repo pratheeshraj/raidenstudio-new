@@ -363,10 +363,13 @@
   }
   &.three {
     background: var(--common-white);
-    padding: 120px 0;
+    padding: 100px 0;
     position: relative;
     z-index: 9;
     overflow: hidden;
+    @media #{$sm, $xs, $xss} {
+      padding: 40px 0 !important;
+    }
     .left-wrapper {
       .img-file {
         @media #{$md, $sm, $xs, $xss} {
@@ -392,9 +395,6 @@
             gap: 16px;
             align-items: flex-start;
             margin-bottom: 10px;
-            @media #{$md, $sm, $xs, $xss} {
-              margin-bottom: 30px;
-            }
             .img-file {
               width: 170px;
               height: auto;
