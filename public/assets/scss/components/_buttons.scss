@@ -20,6 +20,10 @@
   overflow: hidden;
   background-color: var(--theme-1);
   display: inline-block;
+  @media #{$sm, $xs, $xss} {
+    padding: 15px !important;
+  font-size: 14px !important;
+  }
   &::before {
     content: "";
     position: absolute;

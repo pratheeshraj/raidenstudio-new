@@ -18,7 +18,7 @@ const MobileGame = () => {
   return (
     <Fragment>
       <Suspense>
-      <HelmetReact
+        <HelmetReact
           title={
             "Mobile Game Development Company | Mobile Game App Development Services"
           }
@@ -31,18 +31,18 @@ const MobileGame = () => {
           ogimage={""}
         />
         <HeaderTwo />
-        <MobileGamePageHero/>
-        <MobileGamePageAbout/>
-        <MobailGamePageServices/>
+        <MobileGamePageHero />
+        <MobileGamePageAbout />
+        <MobailGamePageServices />
         <NftCounter />
-        <MobileGamewhyChoose/>
-        <MobileGamePageBenifit/>
-        <MobileGamePageBanner/>
-        <MobileGamePageProcess/>
+        <MobileGamewhyChoose />
+        <MobileGamePageBenifit />
+        <MobileGamePageBanner />
+        <MobileGamePageProcess />
+        <MobileGamePageFaq />
         <NewsSectionOne />
-        <MobileGamePageFaq/>
         <ContactSection2 />
-        <FooterSectionOne/>
+        <FooterSectionOne />
       </Suspense>
     </Fragment>
   )

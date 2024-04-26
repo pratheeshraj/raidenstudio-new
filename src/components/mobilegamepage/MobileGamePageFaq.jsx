@@ -2,7 +2,7 @@ import React from "react";
 
 const MobileGamePageFaq = () => {
   return (
-    <section className="faq-section one" style={{ backgroundColor: "white" }}>
+    <section className="faq-section one" style={{ backgroundColor: "#F8F9FA" }}>
       <div className="auto-container">
         <div className="row">
           <div className="col-lg-6">
@@ -27,7 +27,7 @@ const MobileGamePageFaq = () => {
             </div>
             <div
               className="img-file "
-              style={{display:"flex",justifyContent: "center",alignItems:"center"}}
+              style={{ display: "flex", justifyContent: "center", alignItems: "center" }}
               data-aos="fade-right"
               data-aos-delay="500"
             >
@@ -187,21 +187,21 @@ const MobileGamePageFaq = () => {
         <div className="shape-img-2 poa">
           <img src="/assets/img/icon/64_icon.png" alt="" />
         </div>
-        <div className="shape-img-3 poa">
+        {/* <div className="shape-img-3 poa">
           <img src="/assets/img/icon/22_icon.png" alt="" />
-        </div>
-        <div className="shape-img-4 poa">
+        </div> */}
+        {/* <div className="shape-img-4 poa">
           <img src="/assets/img/icon/08_icon.png" alt="" />
-        </div>
+        </div> */}
         <div className="shape-img-5 poa">
           <img src="/assets/img/icon/26_icon.png" alt="" />
         </div>
-        <div className="shape-img-6 poa">
+        {/* <div className="shape-img-6 poa">
           <img src="/assets/img/icon/43_icon.png" alt="" />
-        </div>
-        <div className="shape-img-7 poa">
+        </div> */}
+        {/* <div className="shape-img-7 poa">
           <img src="/assets/img/icon/68_icon.png" alt="" />
-        </div>
+        </div> */}
         <div className="shape-img-8 poa">
           <img src="/assets/img/icon/71_icon.png" alt="" />
         </div>

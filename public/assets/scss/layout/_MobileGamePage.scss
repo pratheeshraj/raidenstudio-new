@@ -2,6 +2,10 @@
 
 .mobile_gamewhy_choose_main {
   padding: 100px 0;
+  @media #{$sm, $xs, $xss} {
+    padding: 40px 0 !important;
+  }
+
 }
 
 .mobile_gamewhy_choose {
@@ -137,6 +141,9 @@
 .mobileGamePageBenifit {
   background-color: #f8f9fa;
   padding: 100px 0;
+  @media #{$sm, $xs, $xss} {
+    padding: 40px 0 !important;
+  }
   .pagebenifit {
     display: flex;
     justify-content: space-between;
