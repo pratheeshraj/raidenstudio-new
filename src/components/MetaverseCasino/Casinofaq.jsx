@@ -2,7 +2,7 @@ import React from 'react'
 
 function Casinofaq() {
     return (
-        <section className="faq-section one">
+        <section className="faq-section one" style={{ background: "#F8F9FA" }}>
             <div className="auto-container">
                 <div className="row">
                     <div className="col-lg-6">
@@ -11,11 +11,11 @@ function Casinofaq() {
                             data-aos="fade-right"
                             data-aos-delay="300"
                         >
-                            <h3>FAQ</h3>
-                            <h2>
-                                Answers At <span className='theme-color' style={{color:"#57E400"}}>A Glance</span>
+                            <h3 style={{ color: "black" }}>FAQ</h3>
+                            <h2 style={{ color: "black" }}>
+                                Answers At <span className='theme-color' style={{ color: "#57E400" }}>A Glance</span>
                             </h2>
-                            <p style={{ marginBottom: "10px" }}>
+                            <p style={{ marginBottom: "10px", color: "black" }}>
                                 Find quick solutions and insights to common queries and concerns about our casino with our comprehensive FAQ section.
                             </p>
                         </div>
@@ -39,7 +39,7 @@ function Casinofaq() {
                             style={{ marginTop: "145px" }}
                         >
                             <div className="intro">
-                                <h3>Common Question &amp; Answer</h3>
+                                <h3 style={{ color: "black" }}>Common Question &amp; Answer</h3>
                             </div>
                             <div className="faq-list">
                                 <div
