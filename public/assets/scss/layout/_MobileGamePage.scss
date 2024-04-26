@@ -152,6 +152,10 @@
       justify-content: center;
       gap: 20px;
     }
+    @media #{$sm, $xs, $xss} {
+      gap: 0px;
+    }
+
     .pagebenifit_card {
       width: 320px;
       padding: 20px 10px;
