@@ -18,7 +18,7 @@ const UnrealGamePage = () => {
   return (
     <Fragment>
       <Suspense>
-      <HelmetReact
+        <HelmetReact
           title={
             "Unreal Engine Game Development Company | Hire Unreal Engin Game Developers"
           }
@@ -34,13 +34,13 @@ const UnrealGamePage = () => {
         <UnRealHeroSection />
         <UnRealAbout />
         <UnRealServicesSection />
-        <UnrealCount/>
+        <UnrealCount />
         <UnRealWhyChoose />
         <UnRealBenefitSection />
         <UnRealBannerSection />
         <UnRealProcessSection />
-        <NewsSectionOne />
         <UnRealFaq />
+        <NewsSectionOne />
         <ContactSection2 />
         <FooterSectionOne />
       </Suspense>
