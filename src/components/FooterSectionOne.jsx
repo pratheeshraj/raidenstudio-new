@@ -8,7 +8,7 @@ const FooterSectionOne = () => {
       {/* footer section one start */}
       <footer className="footer-section one">
         <div className="auto-container">
-          <div className="row">
+          <div className="row ">
             <div className="col-lg-5 col-md-6 col-12">
               <div className="footer-wrapper one">
                 <div className="logo" data-aos="fade-up" data-aos-delay="200">
@@ -44,34 +44,43 @@ const FooterSectionOne = () => {
               </div>
             </div>
             <div className="col-lg-2 col-md-6 col-12">
-              <div className="footer-wrapper two mt-4 mt-md-0">
+              <div className="footer-wrapper two mt-4 mt-lg-0 ">
                 <h2 className="title" data-aos="fade-up" data-aos-delay="200">
-                  Quick Link
+                  Products
                 </h2>
                 <ul data-aos="fade-up" data-aos-delay="300">
                   <li>
-                    <Link to="#">About Us</Link>
+                    <Link to="#">Raiden Verse</Link>
                   </li>
                   <li>
-                    <Link to="#">Services</Link>
+                    <Link to="#">Raiden SimX</Link>
                   </li>
                   <li>
-                    <Link to="#">Blog</Link>
+                    <Link to="#">Raiden COGNI+</Link>
                   </li>
                   <li>
-                    <Link to="#">Pricing Plan</Link>
+                    <Link to="#">Raiden ARCVIZ</Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-6 col-12">
+              <div className="footer-wrapper two mt-4 mt-md-0">
+                <h2 className="title" data-aos="fade-up" data-aos-delay="200">
+                  Services
+                </h2>
+                <ul data-aos="fade-up" data-aos-delay="300">
+                  <li>
+                    <Link to="#">Block Chain</Link>
                   </li>
                   <li>
-                    <Link to="#">Our Team</Link>
+                    <Link to="#">AI</Link>
                   </li>
                   <li>
-                    <Link to="#">All Projects</Link>
+                    <Link to="#">XR</Link>
                   </li>
                   <li>
-                    <Link to="#">Contact</Link>
-                  </li>
-                  <li>
-                    <Link to="#">Trams &amp; Condition</Link>
+                    <Link to="#">Game</Link>
                   </li>
                 </ul>
               </div>
@@ -79,26 +88,17 @@ const FooterSectionOne = () => {
             <div className="col-lg-2 col-md-6 col-12">
               <div className="footer-wrapper two mt-4 mt-lg-0 ">
                 <h2 className="title" data-aos="fade-up" data-aos-delay="200">
-                  IT Service
+                  Company
                 </h2>
                 <ul data-aos="fade-up" data-aos-delay="300">
                   <li>
-                    <Link to="#">Credit industry</Link>
+                    <Link to="#">About us</Link>
                   </li>
                   <li>
-                    <Link to="#">Research sector</Link>
+                    <Link to="#">Career</Link>
                   </li>
                   <li>
-                    <Link to="#">Finance Sector</Link>
-                  </li>
-                  <li>
-                    <Link to="#">Credit industry</Link>
-                  </li>
-                  <li>
-                    <Link to="#">AI Research</Link>
-                  </li>
-                  <li>
-                    <Link to="#">ICT industry</Link>
+                    <Link to="#">Contact us</Link>
                   </li>
                 </ul>
               </div>
