@@ -141,7 +141,7 @@ const DefiTech = () => {
                                     <div className="Card_name_sevice">BNB Chain</div>
                                 </div>
                                 <div className="Card6_service">
-                                    <img src="/assets/img/Language/csharp.svg.svg" alt="" />
+                                    <img src="/assets/img/Language/tron-trx-logo.svg" alt="" />
                                     <div className="Card_name_sevice">Tron</div>
                                 </div>
                                 <div className="Card6_service">

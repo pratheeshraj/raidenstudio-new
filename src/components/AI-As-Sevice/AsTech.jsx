@@ -117,7 +117,7 @@ const AsTech = () => {
                                     <div className="Card_name_sevice">Ethereum</div>
                                 </div>
                                 <div className="Card5_service">
-                                    <img src="/assets/img/Language/solana-sol-logo.svg" alt="" />
+                                    <img src="/assets/img/Language/hyperledger-icon.svg" alt="" />
                                     <div className="Card_name_sevice">Hyperledger</div>
                                 </div>
                                 <div className="Card5_service">
