@@ -65,7 +65,7 @@ const AboutSectionOne = () => {
                 </div>
                 {/* <div className="inner-btn">
                   <div>
-                    <Link className="default-btn" to="/contact">
+                    <Link className="default-btn" to="/contact-us">
                       Learn About AI
                     </Link>
                   </div>

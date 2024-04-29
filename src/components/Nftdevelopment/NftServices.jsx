@@ -177,7 +177,6 @@ const NftServices = () => {
                                             Raiden has the abilities of handling the entire process for creating a fully functional NFT game.
                                             We develop gaming platforms and include the feature that allows users to collect non-fungible tokens
                                             that can be exchanged eventually.
-                                            Our technology experts can create the NFT-based game on any popular platform, including Web, Android, and iOS.
                                         </p>
                                     </div>
                                 </div>

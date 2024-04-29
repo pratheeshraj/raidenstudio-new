@@ -9,7 +9,7 @@ const Aboutbanner = () => {
       <section
         className="counter-section one"
         style={{
-          background:"#000C14",
+          background: "#000C14",
           backgroundSize: "cover"
         }}
       >
@@ -18,10 +18,10 @@ const Aboutbanner = () => {
             <div className="row">
               <div className="col-lg-12">
                 <div className="title">
-                  <h2 style={{textAlign:"center"}}>
-                  "We don’t believe that great ideas are limited to stuffy meeting rooms or fancy designations. Great ideas come from teams that celebrate collaboration and innovative ideas."
+                  <h2 style={{ textAlign: "center" }}>
+                    "We don’t believe that great ideas are limited to stuffy meeting rooms or fancy designations. Great ideas come from teams that celebrate collaboration and innovative ideas."
                   </h2>
-                  <div className="inner-btn d-adjust" style={{display:"flex",justifyContent:"center"}}>
+                  <div className="inner-btn d-adjust" style={{ display: "flex", justifyContent: "center" }}>
                     <div>
                       <Link className="default-btn" to="/contact-us">
                         Let’s Work To Do{" "}

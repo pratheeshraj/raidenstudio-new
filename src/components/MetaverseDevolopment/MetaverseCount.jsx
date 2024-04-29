@@ -18,7 +18,7 @@ const MetaverseCount = () => {
                                     <h2 className="counter">
                                         <ReactVisibilitySensor>
                                             {({ isVisible }) => (
-                                                <div> {isVisible ? <CountUp end={90} /> : 0}</div>
+                                                <div> {isVisible ? <CountUp end={100} /> : 0}</div>
                                             )}
                                         </ReactVisibilitySensor>
                                     </h2>

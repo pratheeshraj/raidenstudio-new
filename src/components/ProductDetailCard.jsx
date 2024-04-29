@@ -126,7 +126,7 @@ const ProductDetailCard = () => {
           </div>
           {/* <div className="inner-btn d-adjust">
             <div>
-              <Link className="default-btn" to="/contact">
+              <Link className="default-btn" to="/contact-us">
                 View All Projects
               </Link>
             </div>

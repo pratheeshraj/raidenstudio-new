@@ -13,14 +13,16 @@ const NftFaq = () => {
                                 data-aos="fade-right"
                                 data-aos-delay="300"
                             >
-                              <h3>
+                                <h3>
                                     FAQ
                                 </h3>
                                 <h2>
-                                Answers At A <br/><span className="theme-color"> Glance</span>
+                                    Answers At A <br /><span className="theme-color"> Glance</span>
                                 </h2>
-                                <p style={{ marginBottom: "10px" }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem aut cumque facere ab tempore iusto sapiente. Ex quisquam modi corporis dicta, qui, eveniet dolor amet delectus molestias incidunt suscipit neque?</p>
-                           </div>
+                                <p style={{ marginBottom: "10px" }}>
+                                    We've compiled concise yet informative answers to common questions about NFTs and how our development services can benefit your business
+                                </p>
+                            </div>
                             <div
                                 className="img-file "
                                 data-aos="fade-right"
@@ -57,7 +59,7 @@ const NftFaq = () => {
                                                     aria-expanded="false"
                                                     aria-controls="flush-collapseOne"
                                                 >
-                                                    What services are included in your Metaverse Development package?
+                                                    What are NFTs?
                                                 </button>
                                             </h2>
                                             <div
@@ -66,7 +68,7 @@ const NftFaq = () => {
                                                 data-bs-parent="#accordionFlushExample"
                                             >
                                                 <div className="accordion-body">
-                                                    We offer user-centered interfaces, decentralized structure, cross-platform integration, and digital space planning and development as part of our Metaverse Development services
+                                                    NFTs, or Non-Fungible Tokens, are unique digital assets stored on a blockchain that certify ownership and authenticity of digital items like art, music, videos, and virtual real estate.
                                                 </div>
                                             </div>
                                         </div>
@@ -80,7 +82,7 @@ const NftFaq = () => {
                                                     aria-expanded="false"
                                                     aria-controls="flush-collapseTwo"
                                                 >
-                                                    Which core technologies are required for the development of a metaverse?
+                                                    Why should I consider NFT development services for my business?
                                                 </button>
                                             </h2>
                                             <div
@@ -89,7 +91,7 @@ const NftFaq = () => {
                                                 data-bs-parent="#accordionFlushExample"
                                             >
                                                 <div className="accordion-body">
-                                                    Blockchain, AR/VR,  IoT, cloud computing, and 3D modeling are the core technologies for the development of the metaverse.
+                                                    NFTs offer a new way to monetize digital assets, create scarcity, and establish ownership in the digital world. Our development services can help you leverage this technology to tap into new revenue streams and engage with your audience in innovative ways.
                                                 </div>
                                             </div>
                                         </div>
@@ -103,7 +105,7 @@ const NftFaq = () => {
                                                     aria-expanded="false"
                                                     aria-controls="flush-collapseThree"
                                                 >
-                                                    What differentiates your Metaverse Development services from competitors?
+                                                    What types of projects can benefit from NFT development services?
                                                 </button>
                                             </h2>
                                             <div
@@ -112,7 +114,30 @@ const NftFaq = () => {
                                                 data-bs-parent="#accordionFlushExample"
                                             >
                                                 <div className="accordion-body">
-                                                    We develop captivating and functional virtual worlds with our Metaverse Development strategy, which blends decentralized architecture, cross-platform interoperability, and user-centered design. Our team of professionals has a strong track record of completing projects successfully and a wealth of industry knowledge.
+                                                    Any project that involves digital assets with unique value, such as artwork, collectibles, gaming assets, virtual real estate, and intellectual property, can benefit from NFT development services.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="accordion-item">
+                                            <h2 className="accordion-header">
+                                                <button
+                                                    className="accordion-button collapsed"
+                                                    type="button"
+                                                    data-bs-toggle="collapse"
+                                                    data-bs-target="#flush-collapseFour"
+                                                    aria-expanded="false"
+                                                    aria-controls="flush-collapseFour"
+                                                >
+                                                    What is the process for developing NFTs with your services?
+                                                </button>
+                                            </h2>
+                                            <div
+                                                id="flush-collapseFour"
+                                                className="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample"
+                                            >
+                                                <div className="accordion-body">
+                                                    Our process typically involves consultation to understand your project goals, followed by design and development of smart contracts, integration with blockchain platforms, testing, and deployment.
                                                 </div>
                                             </div>
                                         </div>

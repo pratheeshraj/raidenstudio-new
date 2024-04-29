@@ -13,13 +13,15 @@ const MetaverseFaq = () => {
                                 data-aos="fade-right"
                                 data-aos-delay="300"
                             >
-                            <h3>
+                                <h3>
                                     FAQ
                                 </h3>
                                 <h2>
-                                Answers At A <br/><span className="theme-color"> Glance</span>
+                                    Answers At A <br /><span className="theme-color"> Glance</span>
                                 </h2>
-                                <p style={{ marginBottom: "10px" }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem aut cumque facere ab tempore iusto sapiente. Ex quisquam modi corporis dicta, qui, eveniet dolor amet delectus molestias incidunt suscipit neque?</p>
+                                <p style={{ marginBottom: "10px" }}>
+                                    Get rapid insights into the transformative potential of Metaverse development services for your business.
+                                </p>
                             </div>
                             <div
                                 className="img-file "
@@ -113,6 +115,29 @@ const MetaverseFaq = () => {
                                             >
                                                 <div className="accordion-body">
                                                     We develop captivating and functional virtual worlds with our Metaverse Development strategy, which blends decentralized architecture, cross-platform interoperability, and user-centered design. Our team of professionals has a strong track record of completing projects successfully and a wealth of industry knowledge.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="accordion-item">
+                                            <h2 className="accordion-header">
+                                                <button
+                                                    className="accordion-button collapsed"
+                                                    type="button"
+                                                    data-bs-toggle="collapse"
+                                                    data-bs-target="#flush-collapseFour"
+                                                    aria-expanded="false"
+                                                    aria-controls="flush-collapseFour"
+                                                >
+                                                    What types of projects can be developed within the Metaverse?
+                                                </button>
+                                            </h2>
+                                            <div
+                                                id="flush-collapseFour"
+                                                className="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample"
+                                            >
+                                                <div className="accordion-body">
+                                                    Virtually any digital experience can be adapted for the Metaverse, including virtual events, conferences, trade shows, product showcases, interactive storytelling experiences, virtual training simulations, gaming environments, and more.
                                                 </div>
                                             </div>
                                         </div>

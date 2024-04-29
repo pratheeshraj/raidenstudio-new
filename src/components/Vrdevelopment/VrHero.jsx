@@ -46,7 +46,7 @@ const VrHero = () => {
                                                         VRaiden is a one-stop shop for bespoke VR application development, with a focus on crafting custom virtual reality applications which deliver immersive, scalable virtual reality (VR) experiences for next-generation users.                                                     </p>
                                                     <div className="inner-btn" >
                                                         <div>
-                                                            <Link className="default-btn" to="/contact">
+                                                            <Link className="default-btn" to="/contact-us">
                                                                 Explore Now
                                                             </Link>
                                                         </div>

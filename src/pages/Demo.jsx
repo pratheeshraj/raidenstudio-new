@@ -436,7 +436,7 @@ const Demo = () => {
                 </Link>
               </div>
               <div className="col-lg-4 col-md-6 col-12">
-                <Link to="/contact">
+                <Link to="/contact-us">
                   <div
                     className="wrapper "
                     data-aos="fade-up"

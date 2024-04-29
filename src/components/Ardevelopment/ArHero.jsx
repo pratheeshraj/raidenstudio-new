@@ -48,7 +48,7 @@ const ArHero = () => {
                                                         With our cutting-edge Augmented Reality development services, you can propel your business into the future by developing image-driven experiences within realistic environments.
                                                     </p>                                                    <div className="inner-btn" >
                                                         <div>
-                                                            <Link className="default-btn" to="/contact">
+                                                            <Link className="default-btn" to="/contact-us">
                                                                 Explore Now
                                                             </Link>
                                                         </div>

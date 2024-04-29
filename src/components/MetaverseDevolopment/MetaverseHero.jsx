@@ -42,12 +42,12 @@ const MetaverseHero = () => {
                                                     <h2 className="slider-title">
                                                         <span className="theme-color"> Metaverse</span><br /> Development Company
                                                     </h2>
-                                                    <p style={{ width: "500px" }} className="description metaverse_hero_para">
-                                                        With our cutting-edge development services, you can explore the metaverse and enter a world without boundaries. Raiden is a metaverse development company which employs its expertise in the fields of blockchain, augmented reality, virtual reality, and XR to generate innovative metaverse solutions.
+                                                    <p style={{ width: "500px" }} className="description metaverse_hero_para Hero_sub_heading">
+                                                        With our cutting-edge development services, you can explore the metaverse and enter a world without boundaries.
                                                     </p>
                                                     <div className="inner-btn" >
                                                         <div>
-                                                            <Link className="default-btn" to="/contact">
+                                                            <Link className="default-btn" to="/contact-us">
                                                                 Explore Now
                                                             </Link>
                                                         </div>

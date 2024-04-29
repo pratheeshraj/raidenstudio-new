@@ -43,7 +43,7 @@ const SliderTwo = () => {
                                 </p>
                                 <div className="inner-btn">
                                     <div>
-                                        <Link className="default-btn" to="/contact">
+                                        <Link className="default-btn" to="/contact-us">
                                             Get Started Project
                                         </Link>
                                     </div>

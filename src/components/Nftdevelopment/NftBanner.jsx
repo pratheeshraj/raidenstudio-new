@@ -20,14 +20,14 @@ const NftBanner = () => {
                             <div className="col-lg-6">
                                 <div className="title">
                                     <h2>
-                                        Are you ready to adopt <span className="theme-color">AI innovation</span> for your business?
+                                        Is your business prepared to embrace  <span className="theme-color"> NFT development services?</span>
                                     </h2>
                                     <p>
-                                        VR can be your ideal artificial intelligence development firm, helping you determine how AI may transform your operations, increase efficiency, and elevate productivity.
+                                        Prepare your business for the future of digital assets with NFT development services tailored to your needs. Whether you're looking to tokenize artwork, collectibles, or digital real estate, our expert team is ready to guide you through the process
                                     </p>
                                     <div className="inner-btn d-adjust">
                                         <div>
-                                            <Link className="default-btn" to="/contact">
+                                            <Link className="default-btn" to="/contact-us">
                                                 Let’s Work To Do{" "}
                                             </Link>
                                         </div>

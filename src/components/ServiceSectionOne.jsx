@@ -164,7 +164,7 @@ const ServiceSectionOne = () => {
           data-aos-delay="300"
         >
           <div>
-            <Link className="default-btn" to="/contact">
+            <Link className="default-btn" to="/contact-us">
               View All Services
             </Link>
           </div>

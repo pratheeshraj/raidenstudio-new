@@ -45,7 +45,7 @@ const SliderOne = () => {
                           </p>
                           <div className="inner-btn">
                             <div>
-                              <Link className="default-btn" to="/contact">
+                              <Link className="default-btn" to="/contact-us">
                                 Explore Now
                               </Link>
                             </div>
