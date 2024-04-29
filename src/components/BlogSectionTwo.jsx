@@ -96,16 +96,16 @@ const BlogSectionTwo = () => {
             src="/assets/img/icon/76_icon.png"
             alt=""
           />
-          <img
+          {/* <img
             className="shape-5 poa"
             src="/assets/img/icon/43_icon.png"
             alt=""
-          />
-          <img
+          /> */}
+          {/* <img
             className="shape-6 poa"
             src="/assets/img/icon/89_icon.png"
             alt=""
-          />
+          /> */}
         </div>
       </section>
       {/* Blog Section two end */}

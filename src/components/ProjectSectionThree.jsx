@@ -153,7 +153,7 @@ const ProjectSectionThree = () => {
             src="/assets/img/shape/14_shape.png"
             alt=""
           />
-          <img
+          {/* <img
             className="shape-2 poa"
             src="/assets/img/icon/03_icon.png"
             alt=""
@@ -162,7 +162,7 @@ const ProjectSectionThree = () => {
             className="shape-3 poa"
             src="/assets/img/icon/89_icon.png"
             alt=""
-          />
+          /> */}
         </div>
       </section>
       {/* Project Section three end */}
