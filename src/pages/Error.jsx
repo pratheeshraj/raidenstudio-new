@@ -49,7 +49,7 @@ const Error = () => {
                     data-aos="fade-up"
                     data-aos-delay="500"
                   >
-                    <Link className="default-btn" to="/index">
+                    <Link className="default-btn" to="/">
                       Back to Home
                     </Link>
                   </div>
