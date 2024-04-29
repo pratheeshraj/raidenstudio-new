@@ -243,3 +243,12 @@
         display: none !important;
     }
 }
+
+
+/* contact */
+
+@media screen and (max-width:992px) {
+    .contact_box_card {
+        margin-bottom: 20px !important;
+    }
+}

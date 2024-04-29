@@ -53,8 +53,9 @@ const ContactSection = () => {
                 id="contact-form"
                 className="contact-form"
               >
-                <div className="d-block d-md-flex gap-0">
+                <div className="d-block d-md-flex gap-4">
                   <div
+                    style={{ padding: "0" }}
                     className="form-author"
                     data-aos="fade-up"
                     data-aos-delay="200"
@@ -85,8 +86,9 @@ const ContactSection = () => {
                     />
                   </div>
                 </div>
-                <div className="d-block d-md-flex gap-0 mt-2">
+                <div className="d-block d-md-flex gap-4 mt-2">
                   <div
+                    style={{ padding: "0" }}
                     className="form-author"
                     data-aos="fade-up"
                     data-aos-delay="200"
@@ -146,7 +148,7 @@ const ContactSection = () => {
             </div> */}
           </div>
           <div className="row location-tag">
-            <div className="col-lg-3 col-md-6 col-12">
+            <div className="col-lg-3 col-md-6 col-12 contact_box_card">
               <div className="item " data-aos="fade-up" data-aos-delay="300">
                 <div className="icon">
                   <i className="fa-sharp fa-solid fa-location-dot" />
@@ -158,7 +160,7 @@ const ContactSection = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 col-12">
+            <div className="col-lg-3 col-md-6 col-12 contact_box_card">
               <div className="item " data-aos="fade-up" data-aos-delay="400">
                 <div className="icon">
                   <i className="fa-sharp fa-solid fa-location-dot" />
@@ -170,7 +172,7 @@ const ContactSection = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 col-12">
+            <div className="col-lg-3 col-md-6 col-12 contact_box_card">
               <div className="item " data-aos="fade-up" data-aos-delay="400">
                 <div className="icon">
                   <i className="fa-solid fa-headset" />
@@ -181,7 +183,7 @@ const ContactSection = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 col-12">
+            <div className="col-lg-3 col-md-6 col-12 contact_box_card">
               <div className="item " data-aos="fade-up" data-aos-delay="500">
                 <div className="icon">
                   <i className="fa-solid fa-envelope" />
