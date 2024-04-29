@@ -94,7 +94,7 @@ const ContactSection = () => {
                     data-aos-delay="200"
                   >
                     <label>
-                      Subject <span className="required">*</span>
+                      Phone <span className="required">*</span>
                     </label>
                     <input
                       type="text"
@@ -108,7 +108,7 @@ const ContactSection = () => {
                     data-aos="fade-up"
                     data-aos-delay="300"
                   >
-                    <label>Website</label>
+                    <label>Telegram No</label>
                     <input type="url" id="url" name="website" />
                   </div>
                 </div>
