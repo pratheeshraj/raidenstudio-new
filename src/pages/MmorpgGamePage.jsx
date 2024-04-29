@@ -30,8 +30,8 @@ const MmorpgGamePage = () => {
   return (
     <Fragment>
       <Suspense>
-    
-   
+
+
         <HelmetReact
           title={metadata[0]?.meta_title}
           description={metadata[0]?.meta_dec}
@@ -53,9 +53,9 @@ const MmorpgGamePage = () => {
         <FooterSectionOne />
       </Suspense>
     </Fragment>
-  )
-}
 
+  );
+};
 
 
 
