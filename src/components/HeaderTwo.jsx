@@ -1385,20 +1385,21 @@ const HeaderTwo = () => {
                 <ul>
                   <li>
                     <i className="fa-sharp fa-solid fa-location-dot" />
-                    1739 Kincheloe Road Portland, OR 97205
+                    Saravanampatti , Coimbatore
+                    TamilNadu
                   </li>
                   <li>
                     <i className="fa-solid fa-envelope" />
-                    info@demo.com
+                    info@raiden.studio
                   </li>
                   <li>
                     <i className="fa-solid fa-phone" />
-                    +88 632-528-(859)
+                    +91 98840 36062
                   </li>
-                  <li>
+                  {/* <li>
                     <i className="fa-regular fa-globe" />
                     themesoft69.com
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
