@@ -17,7 +17,7 @@ const ArFaq = () => {
                                     FAQ
                                 </h3>
                                 <h2>
-                                    Answers At A Glance
+                                    Answers At A <span className="theme-color"> Glance</span>
                                 </h2>
                                 <p style={{ marginBottom: "10px" }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem aut cumque facere ab tempore iusto sapiente. Ex quisquam modi corporis dicta, qui, eveniet dolor amet delectus molestias incidunt suscipit neque?</p>
                             </div>
