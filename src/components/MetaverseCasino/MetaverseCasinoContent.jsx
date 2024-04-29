@@ -76,8 +76,8 @@ function MetaverseCasinoContent() {
             <section className="project-section three Raidenarcviz_card_main_div" style={{ padding: "100px 0", background: "" }}>
                 <div className="auto-container">
                     <div className="row Raidenarcviz_card">
-                        <h2 className="raidenarcviz_card_h2">Key<span className="theme-color" style={{color:"#4ECD00"}}> Features</span></h2>
-                        <p className='raidenarcviz_card_p' style={{color:"black",width:"90%" ,margin:"auto" , marginBottom:"40px"}}>From an extensive selection of games to advanced technical capabilities, VirtualVegas offers a comprehensive gaming experience designed to thrill and delight players of all preferences.</p>
+                        <h2 className="raidenarcviz_card_h2">Key<span className="theme-color" style={{ color: "#4ECD00" }}> Features</span></h2>
+                        <p className='raidenarcviz_card_p' style={{ color: "black", width: "90%", margin: "auto", marginBottom: "40px" }}>From an extensive selection of games to advanced technical capabilities, VirtualVegas offers a comprehensive gaming experience designed to thrill and delight players of all preferences.</p>
                         <div class="gradient-cards-casino">
                             <div class="card-casino">
                                 <div class="container-card-casino bg-green-box-casino">
@@ -116,7 +116,7 @@ function MetaverseCasinoContent() {
                 className="service-details-section"
             >
                 <h2>
-                    Engineered for <span className='theme-color' style={{color:"#4ECD00"}}> VirtualVegas</span>
+                    Engineered for <span className='theme-color' style={{ color: "#4ECD00" }}> VirtualVegas</span>
                 </h2>
 
                 <div className="auto-container">
@@ -468,15 +468,15 @@ function MetaverseCasinoContent() {
                 </div>
             </section>
             {/* {casino - coice of enviro} */}
-            <section className="project-section three Raidenarcviz_card_main_div" style={{ padding: "100px 0", background: "white" }}>
+            <section className="project-section three Raidenarcviz_card_main_div" style={{ padding: "100px 0", background: "#F8F9FA" }}>
                 <div className="auto-container">
                     <div className="row Raidenarcviz_card">
-                        <h2 className="raidenarcviz_card_h2">Choice of Environments<span className="theme-color" style={{color:"#4ECD00"}}> and Themes</span></h2>
+                        <h2 className="raidenarcviz_card_h2">Choice of Environments<span className="theme-color" style={{ color: "#4ECD00" }}> and Themes</span></h2>
 
-                        <p className='raidenarcviz_card_p' style={{color:"black",marginBottom:"0"}}>From the glitz and glamor of a bustling Las Vegas casino floor to exotic locales and fantastical worlds, our platform offers a diverse selection of settings to suit every player's preferences. </p>
+                        <p className='raidenarcviz_card_p' style={{ color: "black", marginBottom: "0" }}>From the glitz and glamor of a bustling Las Vegas casino floor to exotic locales and fantastical worlds, our platform offers a diverse selection of settings to suit every player's preferences. </p>
                         <div className="choice_slider_arrow">
                             <i
-                                
+
                                 class="fa-regular fa-circle-left"
                                 onClick={() => sliderRef.current.slickNext()}
                             ></i>
