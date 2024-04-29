@@ -39,7 +39,7 @@ const AboutSectionThree = () => {
                                         At our core, we believe in the power of storytelling. We believe that immersive technologies can be used to tell stories in new and exciting ways, and we are constantly exploring new ways to use these technologies to connect with audiences on a deeper level.
                                     </p>
                                     <p>
-                                        Whether you’re looking to create a virtual reality training program, an immersive marketing experience, or a game-changing augmented reality application, we are here to help. We are passionate about what we do, and we are dedicated to helping our clients succeed in a rapidly-changing world.
+                                        Whether you're looking to create a virtual reality training program, an immersive marketing experience, or a game-changing augmented reality application, we are here to help. We are passionate about what we do, and we are dedicated to helping our clients succeed in a rapidly-changing world.
                                     </p>
                                 </div>
                             </div>
