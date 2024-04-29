@@ -31,17 +31,6 @@ const MobileGame = () => {
     <Fragment>
       <Suspense>
         <HelmetReact
-          title={
-            "Mobile Game Development Company | Mobile Game App Development Services"
-          }
-          description={
-            "As a prominent mobile game development company, we devote ourselves to creating innovative games for a wide range of platforms, including mobile, PC, gaming consoles, and others."
-          }
-          keywords={
-            "game development, mobile game development, mobile game development company, mobile game development services, mobile game development solutions, hire mobile game developers"
-          }
-          ogimage={""}
-        <HelmetReact
           title={metadata[0]?.meta_title}
           description={metadata[0]?.meta_dec}
           keywords={metadata[0]?.meta_keyword}
@@ -51,23 +40,15 @@ const MobileGame = () => {
         <MobileGamePageHero />
         <MobileGamePageAbout />
         <MobailGamePageServices />
-        <MobileGamePageHero />
-        <MobileGamePageAbout />
-        <MobailGamePageServices />
         <NftCounter />
-        <MobileGamewhyChoose />
-        <MobileGamePageBenifit />
-        <MobileGamePageBanner />
-        <MobileGamePageProcess />
-        <MobileGamePageFaq />
         <MobileGamewhyChoose />
         <MobileGamePageBenifit />
         <MobileGamePageBanner />
         <MobileGamePageProcess />
         <NewsSectionOne />
         <MobileGamePageFaq />
+        <MobileGamePageFaq />
         <ContactSection2 />
-        <FooterSectionOne />
         <FooterSectionOne />
       </Suspense>
     </Fragment>
