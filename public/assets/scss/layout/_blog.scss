@@ -8,9 +8,13 @@
   &.one {
     background: var(--common-body-1);
     z-index: 9;
-    padding: 120px 0;
+    padding: 100px 0;
     position: relative;
     overflow: hidden;
+    @media #{$sm, $xs, $xss} {
+      padding: 40px 0 !important;
+    }
+    .blog-section.one
     .section-title-shape-one {
       margin-bottom: 60px;
     }
@@ -477,6 +481,9 @@
     padding: 100px 0;
     position: relative;
     overflow: hidden;
+    @media #{$sm, $xs, $xss} {
+      padding: 40px 0 !important;
+    }
     .section-title-shape-one {
       margin-bottom: 60px;
     }
@@ -879,9 +886,12 @@
   &.details {
     background: var(--common-body-1);
     z-index: 9;
-    padding: 120px 0;
+    padding: 100px 0;
     position: relative;
     overflow: hidden;
+    @media #{$sm, $xs, $xss} {
+      padding: 40px 0 !important;
+    }
     .wrapper {
       .blog-image {
         border-radius: 8px;

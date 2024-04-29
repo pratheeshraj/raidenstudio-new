@@ -216,6 +216,9 @@
     position: relative;
     z-index: 9;
     overflow: hidden;
+    @media #{$sm, $xs, $xss} {
+      padding: 40px 0 !important;
+    }
     .section-title-shape-one {
       margin-bottom: 60px;
     }
@@ -346,8 +349,14 @@
     position: relative;
     z-index: 9;
     overflow: hidden;
+    @media #{$sm, $xs, $xss} {
+      padding: 40px 0 !important;
+    }
     .section-title-shape-one {
       margin-bottom: 60px;
+      @media #{$sm, $xs, $xss} {
+        margin-bottom: 30px !important;
+      }
     }
     .project-wrapper {
       z-index: 9;
@@ -657,6 +666,10 @@
   .widget-project {
     margin-top: 60px;
     background: var(--common-body-2);
+    @media #{$sm, $xs, $xss} {
+      margin-top: 20px !important;
+    }
+
     @media #{$md, $sm, $xs, $xss} {
       margin-left: 0;
     }

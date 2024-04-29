@@ -12,6 +12,10 @@
       background-repeat: no-repeat;
       background-size: cover;
       z-index: 9;
+      @media #{$sm, $xs, $xss} {
+        padding: 40px 0 !important;
+      }
+  
     &::after {
       position: absolute;
       left: 0;
@@ -270,6 +274,9 @@
         font-size: 40px;
         line-height: 1.2;
         margin: 0;
+        @media #{$sm, $xs, $xss} {
+          font-size: 20px;
+        }
       }
       h4 {
         font-size: 22px;

@@ -11,15 +11,15 @@ const HeaderTwo = () => {
   const [search, setSearch] = useState(false);
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
-  const [raidenXr,setRaidenXr] = useState(false);
-  const [raidenGame,setRaidenGame] = useState(false);
+  const [raidenXr, setRaidenXr] = useState(false);
+  const [raidenGame, setRaidenGame] = useState(false);
 
- const handleRaidenXr= () => {
-  setRaidenXr(true)
-  setRaidenGame(false)
+  const handleRaidenXr = () => {
+    setRaidenXr(true)
+    setRaidenGame(false)
   }
 
-  const handleRaidenGame= () => {
+  const handleRaidenGame = () => {
     setRaidenXr(false)
     setRaidenGame(true)
   }
@@ -59,7 +59,7 @@ const HeaderTwo = () => {
   }
 
 
-  const { allBlogs } = useSelector(
+  const { allBlogs, } = useSelector(
     (state) => state.blogState
   );
   useEffect(() => {
@@ -118,12 +118,12 @@ const HeaderTwo = () => {
 
   // block chain
   const blockChainTo = [
-    "/custom-blockchain",
-    "/nft",
-    "/web3",
-    "/defi",
-    "/metaverse",
-    "/blockchain-game",
+    "/blockchain-development-company",
+    "/nft-development-company",
+    "/web3-development-company",
+    "/defi-development-company",
+    "/metaverse-development-company",
+    "/blockchain-game-development-company",
   ];
   const blockchainValues = [0.5, 0.5, 0.5, 0.5, 0.5, 0.5];
   const blockchainnames = [
@@ -154,15 +154,15 @@ const HeaderTwo = () => {
     "Generative AI Development",
   ];
 
-const generativeAIpara = [
-  "Access AI capabilities effortlessly for diverse applications.",
-  "AI-driven content creation for innovative digital outputs."
-]
-  
-  const generativeAIUrl = ["/ai-as-a-service", "/generative-ai-development"]
+  const generativeAIpara = [
+    "Access AI capabilities effortlessly for diverse applications.",
+    "AI-driven content creation for innovative digital outputs."
+  ]
+
+  const generativeAIUrl = ["/AI-as-a-Service(AIaaS)-Artificial-Intelligence", "/generative-ai-development-company"]
   // xr
 
-  const xrlink = ["/ar-services", "/vr-services",];
+  const xrlink = ["/augmented-reality-ar-development-company", "/virtual-reality-vr-development-company",];
   const xrValues = [0.5, 0.5];
   const xrNames = ["AR Services", "VR Services",];
   const xrpara = [
@@ -186,11 +186,11 @@ const generativeAIpara = [
   const gameNamesLink = ["/mobile-game-development", "/unity-development", "/unreal-development", "/mmorpg-game-development", "/p2e-game-develpment", "/web3-game-develpment"];
   const gameservicePara = [
     "Crafting engaging games optimized for mobile platforms.",
-     "Innovative projects developed using the powerful Unity engine.",
-     "Create stunning digital experiences with Unreal Engine.",
+    "Innovative projects developed using the powerful Unity engine.",
+    "Create stunning digital experiences with Unreal Engine.",
     "Crafting vast multiplayer online role-playing game adventures.",
-     "Gaming experiences that offer play-to-earn opportunities.", 
-     "Games designed to leverage the potential of Web3 technologies."
+    "Gaming experiences that offer play-to-earn opportunities.",
+    "Games designed to leverage the potential of Web3 technologies."
   ]
 
   //  compony
@@ -1034,7 +1034,7 @@ const generativeAIpara = [
                                 navData.isActive ? "active" : ""
                               }
                             >
-                             Raiden ARCVIZ
+                              Raiden ARCVIZ
                             </NavLink>
                           </li>
                         </ul> : ""
@@ -1044,7 +1044,7 @@ const generativeAIpara = [
                   <ul className="sub-menu">
                     <li className="menu-item-has-children">
                       <Link style={{ display: "flex", justifyContent: "end", alignItems: "center", justifyContent: "space-between" }} onClick={handleRaidenGame} className="sub_heading_color" to="#">
-                      game
+                        game
                         <span><i style={{ position: "relative", right: "65px" }} class="fa-solid fa-plus"></i></span>
                       </Link>
                       {
@@ -1056,7 +1056,7 @@ const generativeAIpara = [
                                 navData.isActive ? "active" : ""
                               }
                             >
-                             Realm Wars: Clash of Empires
+                              Realm Wars: Clash of Empires
                             </NavLink>
                           </li>
                           <li>
@@ -1076,7 +1076,7 @@ const generativeAIpara = [
                                 navData.isActive ? "active" : ""
                               }
                             >
-                             Metaverse Royale
+                              Metaverse Royale
                             </NavLink>
                           </li>
                         </ul> : ""
@@ -1096,7 +1096,7 @@ const generativeAIpara = [
                         blockchain ? <ul className="sub-menu">
                           <li>
                             <NavLink
-                              to="/custom-blockchain"
+                              to="/blockchain-development-company"
                               className={(navData) =>
                                 navData.isActive ? "active" : ""
                               }
@@ -1106,7 +1106,7 @@ const generativeAIpara = [
                           </li>
                           <li>
                             <NavLink
-                              to="/nft"
+                              to="/nft-development-company"
                               className={(navData) =>
                                 navData.isActive ? "active" : ""
                               }
@@ -1116,7 +1116,7 @@ const generativeAIpara = [
                           </li>
                           <li>
                             <NavLink
-                              to="/web3"
+                              to="/web3-development-company"
                               className={(navData) =>
                                 navData.isActive ? "active" : ""
                               }
@@ -1126,7 +1126,7 @@ const generativeAIpara = [
                           </li>
                           <li>
                             <NavLink
-                              to="/defi"
+                              to="/defi-development-company"
                               className={(navData) =>
                                 navData.isActive ? "active" : ""
                               }
@@ -1136,7 +1136,7 @@ const generativeAIpara = [
                           </li>
                           <li>
                             <NavLink
-                              to="/metaverse"
+                              to="/metaverse-development-company"
                               className={(navData) =>
                                 navData.isActive ? "active" : ""
                               }
@@ -1146,7 +1146,7 @@ const generativeAIpara = [
                           </li>
                           <li>
                             <NavLink
-                              to="/blockchain-game"
+                              to="/blockchain-game-development-company"
                               className={(navData) =>
                                 navData.isActive ? "active" : ""
                               }
@@ -1168,7 +1168,7 @@ const generativeAIpara = [
                         ai ? <ul className="sub-menu">
                           <li>
                             <NavLink
-                              to="/ai-as-a-service"
+                              to="/AI-as-a-Service(AIaaS)-Artificial-Intelligence"
                               className={(navData) =>
                                 navData.isActive ? "active" : ""
                               }
@@ -1178,7 +1178,7 @@ const generativeAIpara = [
                           </li>
                           <li>
                             <NavLink
-                              to="/generative-ai-development"
+                              to="/generative-ai-development-company"
                               className={(navData) =>
                                 navData.isActive ? "active" : ""
                               }
@@ -1200,7 +1200,7 @@ const generativeAIpara = [
                         xr ? <ul className="sub-menu">
                           <li>
                             <NavLink
-                              to="/ar-services"
+                              to="/augmented-reality-ar-development-company"
                               className={(navData) =>
                                 navData.isActive ? "active" : ""
                               }
@@ -1210,7 +1210,7 @@ const generativeAIpara = [
                           </li>
                           <li>
                             <NavLink
-                              to="/vr-services"
+                              to="/virtual-reality-vr-development-company"
                               className={(navData) =>
                                 navData.isActive ? "active" : ""
                               }
@@ -1226,7 +1226,7 @@ const generativeAIpara = [
                     <li className="menu-item-has-children">
                       <Link style={{ display: "flex", justifyContent: "end", alignItems: "center", justifyContent: "space-between" }} onClick={handleGame} className="sub_heading_color" to="#">
                         GAME
-                        <span><i style={{position:"relative",right:"65px"}} class="fa-solid fa-plus"></i></span>
+                        <span><i style={{ position: "relative", right: "65px" }} class="fa-solid fa-plus"></i></span>
                       </Link>
                       {
                         game ? <ul className="sub-menu">
@@ -1420,7 +1420,7 @@ const generativeAIpara = [
               <div className="logo">
                 <img
                   className="img-fluid"
-                  src="\assets\img\Language\raiden new blue-min.png" alt="" />
+                  src="\assets\img\Language\raiden new black-min.png" alt="" />
               </div>
               <p>
                 Oracle Cloud Infrastructure (OCI) AI Services is a collection of
@@ -1455,7 +1455,7 @@ const generativeAIpara = [
                 <h3>Case Studies</h3>
               </div>
               <div className="img-file">
-                             {
+                {
                   allcaseStudy?.slice(-6).map((item, index) => {
                     return (
                       <Link to={`/blogdetails/${item.url}`}>

@@ -7,8 +7,8 @@ function Vrfeatures() {
                 <div className="row">
                     <h2 style={{ textAlign: "center", color: "black" }}>The Top Features and Benefits of<br /><span className="theme-color"> Virtual Reality App Development Services!</span>
                     </h2>
-                    <p style={{ textAlign: "center", color: "black" }}>We are a reputable metaverse development company that provides feature-rich metaverse software to help you stay ahead of the competition. Check out what we've got to offer.
-                    </p>
+                    {/* <p style={{ textAlign: "center", color: "black" }}>We are a reputable metaverse development company that provides feature-rich metaverse software to help you stay ahead of the competition. Check out what we've got to offer.
+                    </p> */}
                     <div className='feature_div'>
                         <div className='feature_card'>
                             <img src='/assets/img/vr-feature-and-benefit/3den.svg' />

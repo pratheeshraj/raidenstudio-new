@@ -1243,7 +1243,7 @@ const MetaverseRoyalContent = () => {
                 <div className="card8">
                   <div className="bg">
                     <img
-                      src="/assets/img/modding-support/communitycollab.svg"
+                      src="/assets/img/modding-support/custumer24-7.svg"
                       alt=""
                     />
                   </div>

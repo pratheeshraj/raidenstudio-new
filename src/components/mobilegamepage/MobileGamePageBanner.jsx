@@ -49,7 +49,7 @@ const MobileGamePageBanner = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6" style={{display:"flex",justifyContent:"end",alignItems:"center"}}>
+            <div className="col-lg-6 banner_right_image" style={{ display: "flex", justifyContent: "end", alignItems: "center" }}>
               <img src="/assets/img/mobile-game-development/banner.png" />
             </div>
           </div>

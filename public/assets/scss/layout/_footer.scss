@@ -111,6 +111,11 @@
       }
     }
   }
+  .row{
+    display: flex;
+    justify-content: space-between;
+    row-gap: 50px;
+  }
   &.two {
     background-color: var(--common-body-2);
     background-position: center center;

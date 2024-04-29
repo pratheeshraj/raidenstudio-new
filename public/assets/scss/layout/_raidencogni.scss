@@ -6,6 +6,9 @@
   background-color: black;
   padding: 100px 0;
   padding-bottom: 150px;
+  @media #{$sm, $xs, $xss} {
+    padding: 40px 0 !important;
+  }
   h2 {
     margin-bottom: 100px;
     text-align: center;
@@ -92,6 +95,9 @@
   padding: 100px 0;
   z-index: 9;
   background-color: #f8f9fa;
+  @media #{$sm, $xs, $xss} {
+    padding: 40px 0 !important;
+  }
 }
 
 .cogni_lesson_container {

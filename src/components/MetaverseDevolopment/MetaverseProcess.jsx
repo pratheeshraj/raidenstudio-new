@@ -68,9 +68,9 @@ function MetaverseProcess() {
             <div className="auto-container">
                 <div className="row">
                     <h2 style={{ textAlign: "center", color: "white" }}>Our Comprehensive Metaverse<span className='theme-color'> Development Process</span></h2>
-                    <p style={{ textAlign: "center", color: "white" }}>Dive into the world of NFTs with our end-to-end development process
+                    {/* <p style={{ textAlign: "center", color: "white" }}>Dive into the world of NFTs with our end-to-end development process
                         Detailed market research along with comprehensive analysis of the NFT project idea ensures your success by outlining its goal, target audience, and unique selling factors.
-                    </p>
+                    </p> */}
                     <div className="nft_timeline">
                         <div className="nft_line"></div>
                         <div className="nft_section">

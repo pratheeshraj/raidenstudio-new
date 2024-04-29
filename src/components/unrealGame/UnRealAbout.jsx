@@ -12,7 +12,7 @@ const UnRealAbout = () => {
         <div className="row">
           <div className="col-lg-6">
             <div className="left-wrapper ">
-              <div className="img-file" style={{display:"flex",justifyContent:"center"}}>
+              <div className="img-file service_img_game" style={{ display: "flex", justifyContent: "center" }}>
                 <img
                   className="img-fluid"
                   src="/assets/img/unreal/about.png"
@@ -33,7 +33,7 @@ const UnRealAbout = () => {
                 creativity, and a touch of magic.
               </p>
               <p>
-               <strong> Seasoned Team:</strong> Our team comprises seasoned developers with years
+                <strong> Seasoned Team:</strong> Our team comprises seasoned developers with years
                 of experience in Unreal Engine development.
               </p>
               <p>

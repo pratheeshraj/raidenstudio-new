@@ -122,7 +122,9 @@ h5 {
 
 h6 {
   font-size: var(--fz-h6);
-  // line-height: 30px;
+  @media #{$sm, $xs, $xss} {
+    font-size: 22px;
+  }
 }
 
 ul {

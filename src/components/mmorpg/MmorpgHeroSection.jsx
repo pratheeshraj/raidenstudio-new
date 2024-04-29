@@ -7,13 +7,13 @@ const MmorpgHeroSection = () => {
         className="container-fluid metaverseroyal_hero_mmorpg"
       >
         <div className="auto-container metaverseroyal_hero_container">
-          <div className="left" data-aos="fade-right" data-aos-delay="300">
+          <div className="left game_hero_content" data-aos="fade-right" data-aos-delay="300">
             <h2>
-              A vibrant MMORPG <br/> world of
+              A vibrant MMORPG <br /> world of
               <span style={{ color: "#fdb441" }}> adventure </span>
             </h2>
             <p className="Hero_sub_heading">
-              Crafted by experts, fueled by creativity, redefining <br/> virtual
+              Crafted by experts, fueled by creativity, redefining <br /> virtual
               realms with extraordinary MMORPG solutions.
             </p>
             <button

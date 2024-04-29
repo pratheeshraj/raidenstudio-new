@@ -7,14 +7,14 @@ const P2eGameHeroSection = () => {
         className="container-fluid metaverseroyal_hero_p2e"
       >
         <div className="auto-container metaverseroyal_hero_container">
-          <div className="left" data-aos="fade-right" data-aos-delay="300">
+          <div className="left game_hero_content" data-aos="fade-right" data-aos-delay="300">
             <h2>
-              Unlock the Power of<br/>
-              <span style={{ color: "#fdb441" }}>Play-to-Earn Games </span>
+              Unlock the Power of<br />
+              <span style={{ color: "#fdb441" }}> Play-to-Earn Games </span>
             </h2>
             <p className="Hero_sub_heading">
-              From concept to launch, we craft immersive experiences <br/> that
-              redefine gaming and empower players to earn <br/> rewards while having
+              From concept to launch, we craft immersive experiences <br /> that
+              redefine gaming and empower players to earn <br /> rewards while having
               fun.
             </p>
             <button

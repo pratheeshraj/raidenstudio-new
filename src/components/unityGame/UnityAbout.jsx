@@ -12,9 +12,9 @@ const UnityAbout = () => {
         <div className="row">
           <div className="col-lg-6">
             <div className="left-wrapper ">
-              <div className="img-file">
+              <div className="img-file service_img_game">
                 <img
-                  className="img-fluid"
+                  className="img-fluid "
                   src="/assets/img/unity/about.png"
                   alt=""
                 />

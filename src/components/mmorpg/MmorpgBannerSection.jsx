@@ -50,7 +50,7 @@ const MmorpgBannerSection = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6" style={{display:"flex",justifyContent:"end"}}>
+            <div className="col-lg-6 banner_right_image" style={{ display: "flex", justifyContent: "end" }}>
               <img src="/assets/img/mmorpg-img/banner.png" />
             </div>
           </div>

@@ -274,7 +274,7 @@ const HeaderOne = () => {
                       </li>
                       <li>
                         <NavLink
-                          to="/contact"
+                          to="/contact-us"
                           className={(navData) =>
                             navData.isActive ? "active" : ""
                           }
@@ -527,7 +527,7 @@ const HeaderOne = () => {
                 </li>
                 <li>
                   <NavLink
-                    to="/contact"
+                    to="/contact-us"
                     className={(navData) => (navData.isActive ? "active" : "")}
                   >
                     Contact

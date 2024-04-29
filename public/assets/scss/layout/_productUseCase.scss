@@ -1,10 +1,14 @@
 @use "../utils" as *;
 
 .UseCase {
-  padding: 60px 0;
+  padding: 100px 0;
   position: relative;
   z-index: 9;
   background-color: white;
+  @media #{$sm, $xs, $xss} {
+    padding: 40px 0 !important;
+  }
+
 }
 
 .UseCase_content {
@@ -21,6 +25,9 @@
 
 .UseCase_content_row {
   margin-top: 80px;
+  @media #{$sm, $xs, $xss} {
+    margin-top: 40px !important;
+  }
   div {
     .right-wrapper {
       .title {

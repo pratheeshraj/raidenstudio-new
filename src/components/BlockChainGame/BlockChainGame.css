@@ -88,14 +88,23 @@
 
 /* featurese  */
 
-.blockchain_game_card_maindiv {}
+.blockchain_game_card_maindiv {
+    width: 100%;
+    margin-top: 60px !important;
+}
+
+@media screen and (max-width: 768px) {
+    .blockchain_game_card_maindiv {
+        margin-top: 30px !important;
+    }
+}
 
 .industry_wide_card_blockchain {
     position: relative;
     background-repeat: no-repeat;
     object-fit: cover;
     height: 339px;
-    width: 32%;
+    width: 32% !important;
     padding: 10px;
     padding-top: 220px;
     display: flex;
@@ -106,6 +115,8 @@
     overflow: hidden;
     justify-content: center;
 }
+
+
 
 .classy_simx_bg {
     position: absolute;
@@ -139,4 +150,94 @@
     z-index: 20;
     font-size: 18px;
     text-align: center;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    .industry_wide_card_blockchain {
+        position: relative;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        height: 339px;
+        width: 32% !important;
+        padding: 10px;
+        padding-top: 220px;
+    }
+
+    .indutry_container_padding {
+        padding: 0 30px !important;
+        justify-content: center !important;
+        gap: 15px !important;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .industry_wide_card_blockchain {
+        position: relative;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        height: 339px;
+        width: 49% !important;
+        padding: 10px;
+        padding-top: 220px;
+    }
+
+    .indutry_container_padding {
+        padding: 0 30px !important;
+        justify-content: space-between !important;
+        gap: 0 !important;
+        row-gap: 15px !important;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .industry_wide_card_blockchain {
+        position: relative;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        height: 339px;
+        width: 49% !important;
+        padding: 10px;
+        padding-top: 220px;
+    }
+
+    .indutry_container_padding {
+        padding: 0 30px !important;
+        justify-content: space-between !important;
+        gap: 0 !important;
+        row-gap: 15px !important;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+
+    .indutry_container_padding {
+        padding: 0 15px !important;
+        justify-content: space-between !important;
+        gap: 0 !important;
+        row-gap: 15px !important;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+
+    .industry_wide_card_blockchain {
+        position: relative;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        height: 339px;
+        width: 100% !important;
+        padding: 10px;
+        padding-top: 220px;
+    }
+
 }

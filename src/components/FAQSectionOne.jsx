@@ -12,7 +12,7 @@ const FAQSectionOne = () => {
                 data-aos="fade-right"
                 data-aos-delay="300"
               >
-                <h3>FAQ For Artificial Intelligence </h3>
+                <h3>FAQ</h3>
                 <h2>
                   The goal of Artificial <br />
                   <span className="theme-color">intelligence</span>
@@ -151,7 +151,7 @@ const FAQSectionOne = () => {
             </div>
           </div>
         </div>
-        <div className="shape-image">
+        {/* <div className="shape-image">
           <div className="shape-img-2 poa">
             <img src="/assets/img/icon/64_icon.png" alt="" />
           </div>
@@ -173,7 +173,7 @@ const FAQSectionOne = () => {
           <div className="shape-img-8 poa">
             <img src="/assets/img/icon/71_icon.png" alt="" />
           </div>
-        </div>
+        </div> */}
       </section>
     </>
   );

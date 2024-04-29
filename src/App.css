@@ -21,6 +21,76 @@
     line-height: 35px;
 }
 
+.game_hero_images {
+    display: flex !important;
+    justify-content: end !important;
+}
+
+@media screen and (max-width: 1000px) {
+    .game_hero_images img {
+        width: 400px !important;
+        height: 400px !important;
+    }
+
+    .product_what_we_do {
+        max-width: 100% !important;
+        padding: auto 30px !important;
+    }
+
+    .widget-project {
+        margin-top: 30px !important;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .game_hero_images img {
+        width: 300px !important;
+        height: 300px !important;
+    }
+
+    .How_it_works_main_responsive {
+        padding: 0;
+    }
+
+    .product_what_we_do {
+        padding: auto 15px !important;
+    }
+
+    .about_game_image {
+        margin-top: -70px !important;
+    }
+
+    .pagebenifit_container p {
+        margin-bottom: 0px !important;
+    }
+
+    .service_img_game {
+        width: 60% !important;
+        margin: 0 auto !important;
+    }
+
+    .mobile_gamewhy_choose .mobile_game_right {
+        gap: 20px !important;
+    }
+
+    .service_img_game_faq {
+        display: none !important;
+    }
+
+    .game_hero_content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Hero_sub_heading {
+        font-size: 16px !important;
+        font-weight: 600 !important;
+        line-height: 25px !important;
+    }
+}
 
 /* key_features_card_white - raide-simx */
 

@@ -10,7 +10,7 @@ const AsService = () => {
                     style={{ background: "#F8F9FA" }}
                 >
                     <h2 className="auto-container" style={{ color: "black" }}>AIaaS/PaaS Offerings:<span className="theme-color"> Empowering <br />Your Business</span></h2>
-                    <p style={{ color: "black", textAlign: "center", width: "70%", margin: "auto auto 80px auto" }}>
+                    <p style={{ color: "black", textAlign: "center", width: "70%", margin: "auto auto auto auto" }}>
                         Discover the comprehensive capabilities of our AI-as-a-Service (AIaaS) and Platform-as-a-Service (PaaS) offerings, designed to equip your business with the tools needed to thrive in the AI landscape.
                     </p>
                     <div className="auto-container row key_features_section_container" style={{ rowGap: "29px" }}>
@@ -50,10 +50,11 @@ const AsService = () => {
                             </p>
                         </div>
                         <div style={{ background: "white", boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px", borderRadius: "8px", width: "340px", height: "320px" }} className="key_features_card">
-                            <img src="/assets/img/ai-as-empowering/immersive.svg" alt="" />
+                            <img src="/assets/img/ai-as-empowering/industry-sol.svg" alt="" />
                             <h6 style={{ color: "black" }}>Industry-specific solution</h6>
                             <p style={{ color: "black", marginBottom: "0" }}>
-                                Meticulously crafted to address the unique needs and challenges of its respective sector, empowering businesses to unlock new opportunities and stay ahead in today's competitive market landscape.
+                                Meticulously crafted to address the unique needs and challenges of its respective sector, empowering businesses to unlock new opportunities.
+                                {/* and stay ahead in today's competitive market landscape */}
                             </p>
                         </div>
                     </div>

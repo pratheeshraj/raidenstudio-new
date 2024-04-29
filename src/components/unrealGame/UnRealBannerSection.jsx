@@ -48,8 +48,8 @@ const UnRealBannerSection = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6" style={{display:"flex",justifyContent:"end"}}>
-              <img style={{width:"60%"}} src="/assets/img/unreal/banner.svg" />
+            <div className="col-lg-6 banner_right_image" style={{ display: "flex", justifyContent: "end" }}>
+              <img style={{ width: "60%" }} src="/assets/img/unreal/banner.svg" />
             </div>
           </div>
         </div>

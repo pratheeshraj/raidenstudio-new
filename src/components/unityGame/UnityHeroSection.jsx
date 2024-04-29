@@ -5,22 +5,16 @@ const UnityHeroSection = () => {
     <section>
       <div
         className="container-fluid metaverseroyal_hero_unity"
-    
+
       >
         <div className="auto-container metaverseroyal_hero_container">
-          <div className="left" data-aos="fade-right" data-aos-delay="300">
+          <div className="left game_hero_content" data-aos="fade-right" data-aos-delay="300">
             <h2>
               Immersive
-              <span style={{ color: "rgb(216 11 168)" }}> Unity <br/> Experiences</span> Await
+              <span style={{ color: "rgb(216 11 168)" }}> Unity <br /> Experiences</span> Await
             </h2>
-            <p
-              style={{
-                fontSize: "20px",
-                fontWeight: "600",
-                lineHeight: "35px",
-              }}
-            >
-              Enter Unity, unlock possibilities. Let us craft memorable<br/> projects
+            <p className="Hero_sub_heading">
+              Enter Unity, unlock possibilities. Let us craft memorable<br /> projects
               together. Impact awaits
             </p>
             <button

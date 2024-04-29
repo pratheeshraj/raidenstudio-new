@@ -8,12 +8,12 @@ const MobileGamePageHero = () => {
         style={{ backgroundImage: "none", backgroundColor: "#a2a89d" }}
       >
         <div className="auto-container metaverseroyal_hero_container">
-          <div className="left" data-aos="fade-right" data-aos-delay="300">
+          <div className="left game_hero_content" data-aos="fade-right" data-aos-delay="300">
             <h2>
               Elevate Your{" "}
               <span style={{ color: "#fdb441" }}>Gaming Experience</span>
             </h2>
-            <p style={{fontSize:"20px",fontWeight:"600",lineHeight:"35px"}}>
+            <p className="Hero_sub_heading">
               From captivating storylines to stunning visuals, we craft mobile
               app games that redefine entertainment.
             </p>
@@ -24,7 +24,7 @@ const MobileGamePageHero = () => {
               Explore Now
             </button>
           </div>
-          <div className="right" data-aos="fade-left" data-aos-delay="300">
+          <div className="right game_hero_images" data-aos="fade-left" data-aos-delay="300">
             <img src="\assets\img\mobail-game-page\hero.png" alt="" />
           </div>
         </div>

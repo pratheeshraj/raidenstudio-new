@@ -13,11 +13,14 @@ const BlockChainFaq = () => {
                                 data-aos="fade-right"
                                 data-aos-delay="300"
                             >
-                                <h3>
+                             <h3>
                                     FAQ
                                 </h3>
+                                <h2>
+                                Answers At A <br/>Glance
+                                </h2>
                                 <p style={{ marginBottom: "10px" }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem aut cumque facere ab tempore iusto sapiente. Ex quisquam modi corporis dicta, qui, eveniet dolor amet delectus molestias incidunt suscipit neque?</p>
-                            </div>
+                          </div>
                             <div
                                 className="img-file "
                                 data-aos="fade-right"

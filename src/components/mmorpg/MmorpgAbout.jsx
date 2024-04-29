@@ -9,11 +9,11 @@ const MmorpgAbout = () => {
       data-aos-delay="300"
     >
       <div className="auto-container">
-        <div className="row" style={{display:"flex",alignItems:"center"}}>
+        <div className="row" style={{ display: "flex", alignItems: "center" }}>
           <div className="col-lg-6">
             <div className="left-wrapper ">
-              <div className="img-file"
-              style={{display:"flex" ,justifyContent:"center",alignItems:"center"}}
+              <div className="img-file service_img_game"
+                style={{ display: "flex", justifyContent: "center", alignItems: "center" }}
               >
                 <img
                   className="img-fluid"
@@ -33,7 +33,7 @@ const MmorpgAbout = () => {
                 gameplay, and engaging experiences in
               </p>
               <p style={{ color: "black" }}>
-               <strong>World-building:</strong> Crafting intricate and immersive virtual
+                <strong>World-building:</strong> Crafting intricate and immersive virtual
                 environments that captivate players. Gameplay Mechanics:
                 Implementing dynamic and engaging gameplay systems tailored to
                 the MMORPG genre.
@@ -43,7 +43,7 @@ const MmorpgAbout = () => {
                 quests that drive player engagement and progression.
               </p>
               <p>
-               <strong> Multiplayer Integration:</strong> Developing robust multiplayer
+                <strong> Multiplayer Integration:</strong> Developing robust multiplayer
                 functionality to facilitate seamless interaction among players.
               </p>
             </div>

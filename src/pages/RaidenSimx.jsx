@@ -57,7 +57,7 @@ const RaidenSimx = () => {
                 </video>
               </div>
               <div className="container-fulid project_hero_content">
-                <div className="container pb-4 ">
+                <div className="container pb-4 product_what_we_do">
                   <div className="row">
                     <div
                       className="col-lg-6"

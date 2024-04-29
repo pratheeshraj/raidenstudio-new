@@ -12,9 +12,9 @@ const Web3GameAbout = () => {
         <div className="row">
           <div className="col-lg-6">
             <div className="left-wrapper ">
-              <div className="img-file" style={{display:"flex",justifyContent:"center"}}>
+              <div className="img-file service_img_game" style={{ display: "flex", justifyContent: "center" }}>
                 <img
-                  className="img-fluid"
+                  className="img-fluid "
                   src="/assets/img/web3game-img/about.png"
                   alt=""
                 />

@@ -8,7 +8,7 @@ const FooterSectionOne = () => {
       {/* footer section one start */}
       <footer className="footer-section one">
         <div className="auto-container">
-          <div className="row">
+          <div className="row ">
             <div className="col-lg-5 col-md-6 col-12">
               <div className="footer-wrapper one">
                 <div className="logo" data-aos="fade-up" data-aos-delay="200">
@@ -44,34 +44,43 @@ const FooterSectionOne = () => {
               </div>
             </div>
             <div className="col-lg-2 col-md-6 col-12">
-              <div className="footer-wrapper two mt-4 mt-md-0">
+              <div className="footer-wrapper two mt-4 mt-lg-0 ">
                 <h2 className="title" data-aos="fade-up" data-aos-delay="200">
-                  Quick Link
+                  Products
                 </h2>
                 <ul data-aos="fade-up" data-aos-delay="300">
                   <li>
-                    <Link to="#">About Us</Link>
+                    <Link to="/raiden-verse">Raiden Verse</Link>
                   </li>
                   <li>
-                    <Link to="#">Services</Link>
+                    <Link to="/raiden-simx">Raiden SimX</Link>
                   </li>
                   <li>
-                    <Link to="#">Blog</Link>
+                    <Link to="/raiden-cogni">Raiden COGNI+</Link>
                   </li>
                   <li>
-                    <Link to="#">Pricing Plan</Link>
+                    <Link to="/raiden-arcviz">Raiden ARCVIZ</Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-6 col-12">
+              <div className="footer-wrapper two mt-4 mt-md-0">
+                <h2 className="title" data-aos="fade-up" data-aos-delay="200">
+                  Services
+                </h2>
+                <ul data-aos="fade-up" data-aos-delay="300">
+                  <li>
+                    <Link to="/blockchain-development-company">Block Chain</Link>
                   </li>
                   <li>
-                    <Link to="#">Our Team</Link>
+                    <Link to="/generative-ai-development-company">AI</Link>
                   </li>
                   <li>
-                    <Link to="#">All Projects</Link>
+                    <Link to="/augmented-reality-ar-development-company">XR</Link>
                   </li>
                   <li>
-                    <Link to="#">Contact</Link>
-                  </li>
-                  <li>
-                    <Link to="#">Trams &amp; Condition</Link>
+                    <Link to="/mobile-game-development">Game</Link>
                   </li>
                 </ul>
               </div>
@@ -79,39 +88,57 @@ const FooterSectionOne = () => {
             <div className="col-lg-2 col-md-6 col-12">
               <div className="footer-wrapper two mt-4 mt-lg-0 ">
                 <h2 className="title" data-aos="fade-up" data-aos-delay="200">
-                  IT Service
+                  Company
                 </h2>
                 <ul data-aos="fade-up" data-aos-delay="300">
                   <li>
-                    <Link to="#">Credit industry</Link>
+                    <Link to="/about-us">About us</Link>
                   </li>
                   <li>
-                    <Link to="#">Research sector</Link>
+                    <Link to="/carrer">Career</Link>
                   </li>
                   <li>
-                    <Link to="#">Finance Sector</Link>
-                  </li>
-                  <li>
-                    <Link to="#">Credit industry</Link>
-                  </li>
-                  <li>
-                    <Link to="#">AI Research</Link>
-                  </li>
-                  <li>
-                    <Link to="#">ICT industry</Link>
+                    <Link to="/contact-us">Contact us</Link>
                   </li>
                 </ul>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 col-12">
-              <div className="footer-wrapper three mt-4 mt-lg-0">
+            <div className="col-lg-4 col-md-6 col-12">
+              <div className="footer-wrapper two mt-4 mt-lg-0 ">
                 <h2 className="title" data-aos="fade-up" data-aos-delay="200">
-                  Contact Us
+                  Resourses
                 </h2>
                 <ul data-aos="fade-up" data-aos-delay="300">
-                  <li>3487 Harter StreetDayton, OH 45402</li>
-                  <li>info@demo.com</li>
-                  <li className="phone">+ (008)-345-6789</li>
+                  <li>
+                    <Link to="/blog">Blog</Link>
+                  </li>
+                  <li>
+                    <Link to="/case-studies">Case Studies</Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-12">
+              <div className="footer-wrapper three mt-4 mt-lg-0">
+                <h2 className="title" data-aos="fade-up" data-aos-delay="200">
+                  Head Office
+                </h2>
+                <ul data-aos="fade-up" data-aos-delay="300">
+                  <li>Saravanampatti , Coimbatore</li>
+                  <li>info@raiden.studio</li>
+                  <li className="phone"> +91 98840 36062</li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-12">
+              <div className="footer-wrapper three mt-4 mt-lg-0">
+                <h2 className="title" data-aos="fade-up" data-aos-delay="200">
+                  Office
+                </h2>
+                <ul data-aos="fade-up" data-aos-delay="300">
+                  <li>Thiru Nagar , Madurai</li>
+                  <li>info@raiden.studio</li>
+                  <li className="phone"> +91 98840 36062</li>
                 </ul>
               </div>
             </div>

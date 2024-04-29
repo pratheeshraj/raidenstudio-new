@@ -11,16 +11,15 @@ const ServiceSectionTwo = () => {
           <div className="row">
             <div className="col-12">
               <div
-                style={{ padding: "0 100px" }}
                 className="section-title-shape-one middle "
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
-                <h2 style={{ color: "black" }}>
+                <h2 style={{ color: "black",textAlign:"center" }}>
                   Drive Digital Transformation: Top-tier AI
                   <span className="theme-color"> Services for Enterprises</span>
                 </h2>
-                <p style={{ color: "black" }}>As a top-notch AI software development company, we empower you by utilizing Generative AI technology to enhance your product.</p>
+                <p style={{ color: "black",textAlign:"center" }}>As a top-notch AI software development company, we empower you by utilizing Generative AI technology to enhance your product.</p>
               </div>
             </div>
           </div>

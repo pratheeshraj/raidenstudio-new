@@ -239,8 +239,14 @@ $color-primary-white: rgb(240, 240, 240);
     padding: 100px 0;
     min-height: auto;
     position: relative;
+    @media #{$sm, $xs, $xss} {
+      padding: 40px 0 !important;
+    }
     .section-title-shape-one {
       margin-bottom: 60px;
+      @media #{$sm, $xs, $xss} {
+        margin-bottom: 30px;
+      }
     }
     .section-wrapper {
       margin-bottom: 30px;
@@ -396,6 +402,9 @@ $color-primary-white: rgb(240, 240, 240);
     padding: 100px 0;
     min-height: auto;
     position: relative;
+    @media #{$sm, $xs, $xss} {
+      padding: 40px 0 !important;
+    }
 
     .section-title-shape-one {
       margin-bottom: 60px;
