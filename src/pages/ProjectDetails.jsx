@@ -12,7 +12,7 @@ import ProductDemokit from "../components/ProductDemokit";
 import BlogSectionOne from "../components/BlogSectionOne";
 import ProjectDetailUseCase from "../components/ProjectDetailUseCase";
 import ContactSection2 from "../components/ContactSection2";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { GetAllBlogs } from "../action/BlogAction";
 
 const ProjectDetails = () => {
@@ -30,11 +30,26 @@ const ProjectDetails = () => {
       console.log(error);
     }
   }, []);
+  const [metadata, setMetaData] = useState([]);
+  const { allMetaData } = useSelector((state) => state.metaDataState);
+  useEffect(() => {
+    if (allMetaData) {
+      const data = allMetaData.filter(
+        (meta) => meta.page_name == "Raiden Verse"
+      );
+      setMetaData(data);
+    }
+  }, [allMetaData]);
   return (
     <Fragment>
       <Suspense>
         {/* Helmet */}
-        <HelmetReact title={"Project Details"} />
+        <HelmetReact
+          title={metadata[0]?.meta_title}
+          description={metadata[0]?.meta_dec}
+          keywords={metadata[0]?.meta_keyword}
+          ogimage={metadata[0]?.og_image}
+        />
         {/* Header one */}
         <HeaderTwo />
         {/* Breadcrumb */}
@@ -46,7 +61,7 @@ const ProjectDetails = () => {
         <ProjectDetailUseCase />
         <BlogSectionOne />
         {/* News Section One */}
-     
+
         <ContactSection2 />
 
         {/* Footer Section */}

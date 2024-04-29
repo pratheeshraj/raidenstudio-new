@@ -25,7 +25,15 @@ const BlogByTag = () => {
   const { loading } = useSelector((state) => state.blogState);
   const { id } = useParams();
   let [active, setActive] = useState(true);
-  
+  const { allMetaData } = useSelector((state) => state.metaDataState);
+  const [metadata, setMetaData] = useState([]);
+
+  useEffect(() => {
+    if (allMetaData) {
+      const data = allMetaData.filter((meta) => meta.page_name == "Home Page");
+      setMetaData(data);
+    }
+  }, [allMetaData]);
   useEffect(() => {
     dispatch(GetRecentBlogs);
     dispatch(GetBlogsCategory);

@@ -1,25 +1,29 @@
-import React, { Fragment, Suspense } from 'react'
+import React, { Fragment, Suspense, useEffect, useState } from 'react'
 import HelmetReact from '../elements/HelmetReact'
 import HeaderTwo from '../components/HeaderTwo'
 import NewsSectionOne from '../components/NewsSectionOne'
 import FooterSectionOne from '../components/FooterSectionOne'
 import MetaverseRoyalContent from '../components/MetaverseRoyalContent'
+import { useSelector } from 'react-redux'
 
 const MetaverseRoyal = () => {
+  const { allMetaData } = useSelector((state) => state.metaDataState);
+  const [metadata, setMetaData] = useState([]);
+
+  useEffect(() => {
+    if (allMetaData) {
+      const data = allMetaData.filter((meta) => meta.page_name == "Metaverse Royale");
+      setMetaData(data);
+    }
+  }, [allMetaData]);
   return (
     <Fragment>
       <Suspense>
       <HelmetReact
-          title={
-            "Metaverse Royale | Readymade Battle Royale Game Solutions"
-          }
-          description={
-            "Metaverse Royale for Multiplayer Video Game Solution is a pre-built battle royale gaming platform that enables entrepreneurs to develop Metaverse-powered battle royale game apps quickly and within their budget and timeline."
-          }
-          keywords={
-            "battle royale game solutions, multiplayer video game development solutions, readymade battle royale game solutions"
-          }
-          ogimage={""}
+          title={metadata[0]?.meta_title}
+          description={metadata[0]?.meta_dec}
+          keywords={metadata[0]?.meta_keyword}
+          ogimage={metadata[0]?.og_image}
         />
         <HeaderTwo />
         <MetaverseRoyalContent/>

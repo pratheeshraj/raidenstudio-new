@@ -26,6 +26,7 @@ import DefiIndustries from "../components/Defi/DefiIndustries";
 import DefiTech from "../components/Defi/DefiTech";
 import DefiWhychoose from "../components/Defi/DefiWhychoose";
 import DefiFaq from "../components/Defi/DefiFaq";
+import { useSelector } from "react-redux";
 
 function Defi() {
   let [active, setActive] = useState(true);
@@ -34,23 +35,25 @@ function Defi() {
       setActive(false);
     }, 2000);
   }, []);
+  const { allMetaData } = useSelector((state) => state.metaDataState);
+  const [metadata, setMetaData] = useState([]);
 
+  useEffect(() => {
+    if (allMetaData) {
+      const data = allMetaData.filter((meta) => meta.page_name == "DeFi Development");
+      setMetaData(data);
+    }
+  }, [allMetaData]);
   return (
     <Fragment>
       <Suspense>
         {active === true && <Preloader />}
         {/* Helmet */}
         <HelmetReact
-          title={
-            "Decentralized Finance (DeFi) Development Company"
-          }
-          description={
-            "Raiden is the most valued DeFi development company that offers a wide range of DeFi development solutions like DeFi Exchange, Staking, Lending, Wallet, etc"
-          }
-          keywords={
-            "DeFi development, defi development company, defi development services, launch your own defi, decentralized finance development"
-          }
-          ogimage={""}
+          title={metadata[0]?.meta_title}
+          description={metadata[0]?.meta_dec}
+          keywords={metadata[0]?.meta_keyword}
+          ogimage={metadata[0]?.og_image}
         />
 
         {/* Header two */}

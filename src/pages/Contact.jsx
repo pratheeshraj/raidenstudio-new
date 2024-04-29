@@ -8,6 +8,7 @@ import ContactSection from "../components/ContactSection";
 import HelmetReact from "../elements/HelmetReact";
 import HeaderTwo from "../components/HeaderTwo";
 import ContactSection2 from './../components/ContactSection2';
+import { useSelector } from "react-redux";
 
 const Contact = () => {
   let [active, setActive] = useState(true);
@@ -16,7 +17,15 @@ const Contact = () => {
       setActive(false);
     }, 2000);
   }, []);
+  const { allMetaData } = useSelector((state) => state.metaDataState);
+  const [metadata, setMetaData] = useState([]);
 
+  useEffect(() => {
+    if (allMetaData) {
+      const data = allMetaData.filter((meta) => meta.page_name == "Home Page");
+      setMetaData(data);
+    }
+  }, [allMetaData]);
   return (
     <Fragment>
       <Suspense>

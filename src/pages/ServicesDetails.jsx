@@ -23,6 +23,7 @@ import Features from "../components/Features";
 import CounterService1 from "../components/CounterService1";
 import ServiceProgramLanguage from "../components/ServiceProgramLanguage";
 import Industries from "../components/Industries";
+import { useSelector } from "react-redux";
 
 const ServicesDetails = () => {
   let [active, setActive] = useState(true);
@@ -31,23 +32,25 @@ const ServicesDetails = () => {
       setActive(false);
     }, 2000);
   }, []);
+  const { allMetaData } = useSelector((state) => state.metaDataState);
+  const [metadata, setMetaData] = useState([]);
 
+  useEffect(() => {
+    if (allMetaData) {
+      const data = allMetaData.filter((meta) => meta.page_name == "Generative AI Development");
+      setMetaData(data);
+    }
+  }, [allMetaData]);
   return (
     <Fragment>
       <Suspense>
         {active === true && <Preloader />}
         {/* Helmet */}
         <HelmetReact
-          title={
-            "Generative AI Development Company | GenAI Consulting"
-          }
-          description={
-            "As a top-tier Generative AI development company, we can enhance your projects with our experience. Our expertise is providing cutting-edge Generative AI Development services to support the growth of your business."
-          }
-          keywords={
-            "Generative AI Development, Generative AI Development  Company, Generative AI Development services, Generative AI Development solutions, Generative AI Services, GenAI Consulting"
-          }
-          ogimage={""}
+          title={metadata[0]?.meta_title}
+          description={metadata[0]?.meta_dec}
+          keywords={metadata[0]?.meta_keyword}
+          ogimage={metadata[0]?.og_image}
         />
         {/* Header one */}
         <HeaderTwo />

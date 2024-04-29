@@ -1,4 +1,4 @@
-import React, { Fragment, Suspense } from "react";
+import React, { Fragment, Suspense, useEffect, useState } from "react";
 import FooterSectionOne from "../components/FooterSectionOne";
 import ContactSection2 from "../components/ContactSection2";
 import BlogSectionOne from "../components/BlogSectionOne";
@@ -8,13 +8,28 @@ import HelmetReact from "../elements/HelmetReact";
 import RaidenCogniContent from "../components/RaidenCogniContent";
 import NewsSectionOne from "../components/NewsSectionOne";
 import vidio from "../images/cogni.mp4";
+import { useSelector } from "react-redux";
 
 const RaidenCogni = () => {
+  const { allMetaData } = useSelector((state) => state.metaDataState);
+  const [metadata, setMetaData] = useState([]);
+
+  useEffect(() => {
+    if (allMetaData) {
+      const data = allMetaData.filter((meta) => meta.page_name == "Raiden COGNI+");
+      setMetaData(data);
+    }
+  }, [allMetaData]);
   return (
     <Fragment>
       <Suspense>
         {/* Helmet */}
-        <HelmetReact title={"Project Details"} />
+        <HelmetReact
+          title={metadata[0]?.meta_title}
+          description={metadata[0]?.meta_dec}
+          keywords={metadata[0]?.meta_keyword}
+          ogimage={metadata[0]?.og_image}
+        />
         {/* Header one */}
         <HeaderTwo />
         {/* Breadcrumb */}

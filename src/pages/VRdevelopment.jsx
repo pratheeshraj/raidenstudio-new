@@ -16,6 +16,7 @@ import VrTech from "../components/Vrdevelopment/VrTech";
 import VrWhyChoose from "../components/Vrdevelopment/VrWhyChoose";
 import VrFaq from "../components/Vrdevelopment/VrFaq";
 import VrBanner from "../components/Vrdevelopment/VrBanner";
+import { useSelector } from "react-redux";
 
 function VRdevelopment() {
   let [active, setActive] = useState(true);
@@ -24,23 +25,25 @@ function VRdevelopment() {
       setActive(false);
     }, 2000);
   }, []);
+  const { allMetaData } = useSelector((state) => state.metaDataState);
+  const [metadata, setMetaData] = useState([]);
 
+  useEffect(() => {
+    if (allMetaData) {
+      const data = allMetaData.filter((meta) => meta.page_name == "VR Solutions");
+      setMetaData(data);
+    }
+  }, [allMetaData]);
   return (
     <Fragment>
       <Suspense>
         {active === true && <Preloader />}
         {/* Helmet */}
         <HelmetReact
-          title={
-            "Virtual Reality (VR) Development Company | Hire VR Developers"
-          }
-          description={
-            "Raiden is a leading VR development company that specializes in extended reality(XR), mixed reality(MR), and 3D/2D animations that help build interactive VR apps."
-          }
-          keywords={
-            "VR development company, virtual reality development services, VR development solutions, hire VR developers"
-          }
-          ogimage={""}
+          title={metadata[0]?.meta_title}
+          description={metadata[0]?.meta_dec}
+          keywords={metadata[0]?.meta_keyword}
+          ogimage={metadata[0]?.og_image}
         />
         {/* Header two */}
         <HeaderTwo />

@@ -1,4 +1,4 @@
-import React, { Fragment, Suspense } from 'react'
+import React, { Fragment, Suspense, useEffect, useState } from 'react'
 import HelmetReact from '../elements/HelmetReact'
 import HeaderTwo from '../components/HeaderTwo'
 import  P2eGameHeroSection from "../components/p2egame/P2eGameHeroSection"
@@ -14,21 +14,25 @@ import FooterSectionOne from '../components/FooterSectionOne'
 import ContactSection2 from '../components/ContactSection2'
 import NewsSectionOne from '../components/NewsSectionOne'
 import P2eGameCount from '../components/p2egame/P2eGameCount'
+import { useSelector } from 'react-redux'
 const P2eGamePage = () => {
+  const { allMetaData } = useSelector((state) => state.metaDataState);
+  const [metadata, setMetaData] = useState([]);
+
+  useEffect(() => {
+    if (allMetaData) {
+      const data = allMetaData.filter((meta) => meta.page_name == "P2E Game Development");
+      setMetaData(data);
+    }
+  }, [allMetaData]);
   return (
     <Fragment>
     <Suspense>
     <HelmetReact
-          title={
-            "Play to Earn Game Development Company | P2E Game Development Services"
-          }
-          description={
-            "Raiden is a trustworthy P2E game development company with a pool of game developers who help develop Play-To-Earn games across multiple categories using cutting-edge technologies."
-          }
-          keywords={
-            "play-to-earn game development, p2e game development company, p2e game development services, hire p2e game developers, launch your own p2e game"
-          }
-          ogimage={""}
+          title={metadata[0]?.meta_title}
+          description={metadata[0]?.meta_dec}
+          keywords={metadata[0]?.meta_keyword}
+          ogimage={metadata[0]?.og_image}
         />
       <HeaderTwo/>
       <P2eGameHeroSection/>

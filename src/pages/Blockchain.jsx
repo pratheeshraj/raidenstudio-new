@@ -17,6 +17,7 @@ import BlockchainTech from "../components/BlockChain/BlockchainTech";
 import BlockChainProcess from "../components/BlockChain/BlockChainProcess";
 import BlockChainWhychoose from "../components/BlockChain/BlockChainWhychoose";
 import BlockChainFaq from "../components/BlockChain/BlockChainFaq";
+import { useSelector } from "react-redux";
 
 function Blockchain() {
   let [active, setActive] = useState(true);
@@ -25,22 +26,27 @@ function Blockchain() {
       setActive(false);
     }, 2000);
   }, []);
+  const { allMetaData } = useSelector((state) => state.metaDataState);
+  const [metadata, setMetaData] = useState([]);
 
+  useEffect(() => {
+    if (allMetaData) {
+      const data = allMetaData.filter((meta) => meta.page_name == "Custom Blockchain Development Services");
+      setMetaData(data);
+    }
+  }, [allMetaData]);
   return (
     <Fragment>
       <Suspense>
         {active === true && <Preloader />}
         {/* Helmet */}
         <HelmetReact
-          title={"Blockchain Development Company | Blockchain Consulting"}
-          description={
-            "Raiden, a top-notch blockchain development company, offers decentralized blockchain development solutions for startups and enterprises. Hire blockchain developers."
-          }
-          keywords={
-            "blockchain development, blockchain development company, blockchain app development, hire blockchain developers"
-          }
-          ogimage={""}
+          title={metadata[0]?.meta_title}
+          description={metadata[0]?.meta_dec}
+          keywords={metadata[0]?.meta_keyword}
+          ogimage={metadata[0]?.og_image}
         />
+
 
         {/* Header two */}
         <HeaderTwo />

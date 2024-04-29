@@ -23,6 +23,7 @@ import WebProcess from "../components/Web3/WebProcess";
 import WebFaq from "../components/Web3/WebFaq";
 import WebWhychoose from "../components/Web3/WebWhychoose";
 import WebModel from "../components/Web3/WebModel";
+import { useSelector } from "react-redux";
 
 function Web3() {
   let [active, setActive] = useState(true);
@@ -31,23 +32,25 @@ function Web3() {
       setActive(false);
     }, 2000);
   }, []);
+  const { allMetaData } = useSelector((state) => state.metaDataState);
+  const [metadata, setMetaData] = useState([]);
 
+  useEffect(() => {
+    if (allMetaData) {
+      const data = allMetaData.filter((meta) => meta.page_name == "Web3 Development");
+      setMetaData(data);
+    }
+  }, [allMetaData]);
   return (
     <Fragment>
       <Suspense>
         {active === true && <Preloader />}
         {/* Helmet */}
         <HelmetReact
-          title={
-            "Web3 Development Company | Hire Web3.0 Developers"
-          }
-          description={
-            "Raiden is a custom WEB3.0 development company that specializes in providing completely interoperable multi-chain web3 solutions based on a wide range of business requirements."
-          }
-          keywords={
-            "web3 development, web3.0 development company, web3 development servies, hire web3.0 developers"
-          }
-          ogimage={""}
+          title={metadata[0]?.meta_title}
+          description={metadata[0]?.meta_dec}
+          keywords={metadata[0]?.meta_keyword}
+          ogimage={metadata[0]?.og_image}
         />
         {/* Header two */}
         <HeaderTwo />

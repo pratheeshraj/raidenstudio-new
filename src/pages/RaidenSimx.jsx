@@ -1,4 +1,4 @@
-import React, { Fragment, Suspense, useEffect } from "react";
+import React, { Fragment, Suspense, useEffect, useState } from "react";
 import HelmetReact from "../elements/HelmetReact";
 import HeaderTwo from "../components/HeaderTwo";
 import ProjectDetailsSection from "../components/ProjectDetailsSection";
@@ -11,10 +11,19 @@ import vidio from "../images/viedio.mp4";
 import RaidenSimXContent from "../components/RaidenSimXContent";
 import demo from "../images/Metaverse.mp4";
 import ContactSection2 from "../components/ContactSection2";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { GetAllBlogs } from "../action/BlogAction";
 const RaidenSimx = () => {
   const dispatch = useDispatch();
+  const { allMetaData } = useSelector((state) => state.metaDataState);
+  const [metadata, setMetaData] = useState([]);
+
+  useEffect(() => {
+    if (allMetaData) {
+      const data = allMetaData.filter((meta) => meta.page_name == "Raiden SimX");
+      setMetaData(data);
+    }
+  }, [allMetaData]);
   useEffect(() => {
     try {
       dispatch(GetAllBlogs);
@@ -22,11 +31,17 @@ const RaidenSimx = () => {
       console.log(error);
     }
   }, []);
+
   return (
     <Fragment>
       <Suspense>
         {/* Helmet */}
-        <HelmetReact title={"Project Details"} />
+        <HelmetReact
+          title={metadata[0]?.meta_title}
+          description={metadata[0]?.meta_dec}
+          keywords={metadata[0]?.meta_keyword}
+          ogimage={metadata[0]?.og_image}
+        />
         {/* Header one */}
         <HeaderTwo />
         {/* Breadcrumb */}

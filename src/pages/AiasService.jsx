@@ -22,6 +22,7 @@ import AiBussiness from "../components/AI-As-Sevice/AiBussiness";
 import AsUseCase from "./AsUseCase";
 import BlockchainIndustries from "./../components/BlockChain/BlockchainIndustries";
 import AsIndustries from "../components/AI-As-Sevice/AsIndustries";
+import { useSelector } from "react-redux";
 
 function AiasService() {
   let [active, setActive] = useState(true);
@@ -30,23 +31,25 @@ function AiasService() {
       setActive(false);
     }, 2000);
   }, []);
+  const { allMetaData } = useSelector((state) => state.metaDataState);
+  const [metadata, setMetaData] = useState([]);
 
+  useEffect(() => {
+    if (allMetaData) {
+      const data = allMetaData.filter((meta) => meta.page_name == "AI as a Services");
+      setMetaData(data);
+    }
+  }, [allMetaData]);
   return (
     <Fragment>
       <Suspense>
         {active === true && <Preloader />}
         {/* Helmet */}
         <HelmetReact
-          title={
-            "AI-as-a-Service (AIaaS) - Artificial Intelligence"
-          }
-          description={
-            "Raiden provides powerful Artificial intelligence (AI) as a service, including generative AI, with prebuilt models that make it easy to apply AI to applications and business activities."
-          }
-          keywords={
-            "Artificial Intelligence as a service, AI As A Service, AI development, AI Development Services"
-          }
-          ogimage={""}
+          title={metadata[0]?.meta_title}
+          description={metadata[0]?.meta_dec}
+          keywords={metadata[0]?.meta_keyword}
+          ogimage={metadata[0]?.og_image}
         />
         {/* Header two */}
         <HeaderTwo />

@@ -59,10 +59,14 @@ import AllCaseStudy from "./pages/AllCaseStudy";
 import AiasService from "./pages/AiasService";
 import CaseStudyDetails from "./pages/CaseStudyDetails";
 import NavBottom from "./components/NavBottom";
+import { Helmet } from "react-helmet";
+import { useDispatch } from "react-redux";
+import { getMetaDataCreate } from "./action/MetaDataAction";
 
 
 
 function App() {
+  const dispatch=useDispatch()
   useEffect(() => {
     AOS.init({
       offset: 0,
@@ -73,12 +77,17 @@ function App() {
     AOS.refresh();
   }, []);
 
+  useEffect(() => {
+    dispatch(getMetaDataCreate);
+  }, []);
   return (
     <BrowserRouter>
       <NavBottom />
       <SocialIcons />
       <Toaster />
       <Routes>
+
+
         {/* <Route exact path="/" element={<Demo />} /> */}
         {/* <Route exact path="/index" element={<HomeOne />} /> */}
         {/* <Route exact path="/index-2" element={<HomeTwo />} /> */}

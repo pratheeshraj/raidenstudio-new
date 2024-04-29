@@ -17,6 +17,7 @@ import MetaverseProcess from "../components/MetaverseDevolopment/MetaverseProces
 import MetaverseWhychoose from "../components/MetaverseDevolopment/MetaverseWhychoose";
 import MetaverseFaq from "../components/MetaverseDevolopment/MetaverseFaq";
 import MetaverseIndustries from "../components/MetaverseDevolopment/MetaverseIndustries";
+import { useSelector } from "react-redux";
 
 function NftDevlopment() {
   let [active, setActive] = useState(true);
@@ -25,23 +26,25 @@ function NftDevlopment() {
       setActive(false);
     }, 2000);
   }, []);
+  const { allMetaData } = useSelector((state) => state.metaDataState);
+  const [metadata, setMetaData] = useState([]);
 
+  useEffect(() => {
+    if (allMetaData) {
+      const data = allMetaData.filter((meta) => meta.page_name == "Metaverse Development Company");
+      setMetaData(data);
+    }
+  }, [allMetaData]);
   return (
     <Fragment>
       <Suspense>
         {active === true && <Preloader />}
         {/* Helmet */}
         <HelmetReact
-          title={
-            "Metaverse Development Company | Metaverse App Development Services"
-          }
-          description={
-            "Raiden is a top-tier Metaverse development company that provides a range of custom Metaverse software development services including metaverse apps, metaverse NFT, metaverse gaming, etc."
-          }
-          keywords={
-            "Metaverse development, Metaverse app development company, Metaverse development services, Hire Metaverse developers"
-          }
-          ogimage={""}
+          title={metadata[0]?.meta_title}
+          description={metadata[0]?.meta_dec}
+          keywords={metadata[0]?.meta_keyword}
+          ogimage={metadata[0]?.og_image}
         />
         {/* Header two */}
         <HeaderTwo />
