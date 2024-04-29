@@ -10,7 +10,7 @@ export const getMetaDataCreate = async (dispatch) => {
     dispatch(getAllMetadataSuccess(data));
   } catch (error) {
     if (error.message == "Network Error") {
-      return dispatch(blogFail((error.message)))
+      return dispatch(getAllMetadataFailure((error.message)))
     }
     dispatch(getAllMetadataFailure(error.response.data.message));
   }
