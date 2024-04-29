@@ -6,6 +6,7 @@ import NewsSectionOne from "../components/NewsSectionOne";
 import FooterSectionOne from "../components/FooterSectionOne";
 import BlogGridSection from "../components/BlogGridSection";
 import HelmetReact from "../elements/HelmetReact";
+import { useSelector } from "react-redux";
 
 const BlogGrid = () => {
   let [active, setActive] = useState(true);
@@ -14,7 +15,15 @@ const BlogGrid = () => {
       setActive(false);
     }, 2000);
   }, []);
+  const { allMetaData } = useSelector((state) => state.metaDataState);
+  const [metadata, setMetaData] = useState([]);
 
+  useEffect(() => {
+    if (allMetaData) {
+      const data = allMetaData.filter((meta) => meta.page_name == "Home Page");
+      setMetaData(data);
+    }
+  }, [allMetaData]);
   return (
     <Fragment>
       <Suspense>

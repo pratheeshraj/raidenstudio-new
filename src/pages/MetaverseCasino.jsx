@@ -1,4 +1,4 @@
-import React, { Fragment, Suspense } from "react";
+import React, { Fragment, Suspense, useEffect, useState } from "react";
 import HelmetReact from "../elements/HelmetReact";
 import HeaderTwo from "../components/HeaderTwo";
 import NewsSectionOne from "../components/NewsSectionOne";
@@ -10,22 +10,26 @@ import Casinofaq from "../components/MetaverseCasino/Casinofaq";
 import BlogSectionOne from "../components/BlogSectionOne";
 import ContactSection2 from "../components/ContactSection2";
 import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 const MetaverseCasino = () => {
+    const { allMetaData } = useSelector((state) => state.metaDataState);
+    const [metadata, setMetaData] = useState([]);
+  
+    useEffect(() => {
+      if (allMetaData) {
+        const data = allMetaData.filter((meta) => meta.page_name == "Virtual Vegas");
+        setMetaData(data);
+      }
+    }, [allMetaData]);
     return (
         <Fragment>
             <Suspense>
             <HelmetReact
-          title={
-            "Virtual Vegas | Metaverse Casino App Solutions"
-          }
-          description={
-            "Virtual Vegas Metaverse Casino Solution is a pre-developed casino platform that enables entrepreneurs to swiftly build a Metaverse-powered gambling platform. Furthermore, it works as a cost-effective solution."
-          }
-          keywords={
-            "readymade Metaverse Casino platform, white label casino game script"
-          }
-          ogimage={""}
+          title={metadata[0]?.meta_title}
+          description={metadata[0]?.meta_dec}
+          keywords={metadata[0]?.meta_keyword}
+          ogimage={metadata[0]?.og_image}
         />
                 <HeaderTwo />
                 <MetaverseCasionoHero />

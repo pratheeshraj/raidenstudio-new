@@ -24,6 +24,15 @@ const BlogByCategory = () => {
   const { loading } = useSelector((state) => state.blogState);
 
   let [active, setActive] = useState(true);
+  const { allMetaData } = useSelector((state) => state.metaDataState);
+  const [metadata, setMetaData] = useState([]);
+
+  useEffect(() => {
+    if (allMetaData) {
+      const data = allMetaData.filter((meta) => meta.page_name == "Home Page");
+      setMetaData(data);
+    }
+  }, [allMetaData]);
   useEffect(() => {
     dispatch(GetBlogByCategory(id));
   }, [id]);
@@ -37,6 +46,7 @@ const BlogByCategory = () => {
       console.log(error);
     }
   }, []);
+
   return (
     <Fragment>
       {loading ? (

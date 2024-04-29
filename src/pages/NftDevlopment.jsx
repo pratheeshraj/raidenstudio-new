@@ -21,6 +21,7 @@ import NftProcess from "../components/Nftdevelopment/NftProcess";
 import NftWhyChoose from "./../components/Nftdevelopment/NftWhyChoose";
 import Process from "../components/NextDevelopment/Process";
 import NftFaq from "../components/Nftdevelopment/NftFaq";
+import { useSelector } from "react-redux";
 
 function NftDevlopment() {
   let [active, setActive] = useState(true);
@@ -29,23 +30,25 @@ function NftDevlopment() {
       setActive(false);
     }, 2000);
   }, []);
+  const { allMetaData } = useSelector((state) => state.metaDataState);
+  const [metadata, setMetaData] = useState([]);
 
+  useEffect(() => {
+    if (allMetaData) {
+      const data = allMetaData.filter((meta) => meta.page_name == "NFT Development Page");
+      setMetaData(data);
+    }
+  }, [allMetaData]);
   return (
     <Fragment>
       <Suspense>
         {active === true && <Preloader />}
         {/* Helmet */}
         <HelmetReact
-          title={
-            "Non-Fungible Token (NFT) Development Company | NFT Development Services"
-          }
-          description={
-            "Raiden is an NFT development company that provides a full cycle of custom NFT marketplace development and NFT game development services and so on."
-          }
-          keywords={
-            "nft development, nft development company, nft development services, non-fungible token development, hire nft developers"
-          }
-          ogimage={""}
+          title={metadata[0]?.meta_title}
+          description={metadata[0]?.meta_dec}
+          keywords={metadata[0]?.meta_keyword}
+          ogimage={metadata[0]?.og_image}
         />
         {/* Header two */}
         <HeaderTwo />

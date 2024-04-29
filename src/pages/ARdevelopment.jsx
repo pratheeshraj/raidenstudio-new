@@ -36,6 +36,7 @@ import ArIndustries from "../components/Ardevelopment/ArIndustries";
 import ArTech from "../components/Ardevelopment/ArTech";
 import Arwhychoose from "../components/Ardevelopment/Arwhychoose";
 import ArFaq from "../components/Ardevelopment/ArFaq";
+import { useSelector } from "react-redux";
 
 function ARdevelopment() {
   let [active, setActive] = useState(true);
@@ -44,23 +45,25 @@ function ARdevelopment() {
       setActive(false);
     }, 2000);
   }, []);
+  const { allMetaData } = useSelector((state) => state.metaDataState);
+  const [metadata, setMetaData] = useState([]);
 
+  useEffect(() => {
+    if (allMetaData) {
+      const data = allMetaData.filter((meta) => meta.page_name == "AR Services");
+      setMetaData(data);
+    }
+  }, [allMetaData]);
   return (
     <Fragment>
       <Suspense>
         {active === true && <Preloader />}
         {/* Helmet */}
         <HelmetReact
-          title={
-            "Augmented Reality (AR) Development Company"
-          }
-          description={
-            "Raiden is a top-rated Augmented Reality development company that offers a comprehensive range of AR development services tailored to your specific business requirements. Hire an experienced in-house AR team to accelerate growth.."
-          }
-          keywords={
-            " augmented reality development company, AR development, AR development company, hire AR developers"
-          }
-          ogimage={""}
+          title={metadata[0]?.meta_title}
+          description={metadata[0]?.meta_dec}
+          keywords={metadata[0]?.meta_keyword}
+          ogimage={metadata[0]?.og_image}
         />
 
         {/* Header two */}

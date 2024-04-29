@@ -17,6 +17,7 @@ import BlockChainFaq from "../components/BlockChainGame/BlockChainFaq";
 import BlockChainWhy from "../components/BlockChainGame/BlockChainWhy";
 import BlockchainFeatues from "../components/BlockChainGame/BlockchainFeatues";
 import BlockchainPortfolio from "./../components/BlockChainGame/BlockchainPortfolio";
+import { useSelector } from "react-redux";
 
 function BlockchainGame() {
   let [active, setActive] = useState(true);
@@ -25,23 +26,25 @@ function BlockchainGame() {
       setActive(false);
     }, 2000);
   }, []);
+  const { allMetaData } = useSelector((state) => state.metaDataState);
+  const [metadata, setMetaData] = useState([]);
 
+  useEffect(() => {
+    if (allMetaData) {
+      const data = allMetaData.filter((meta) => meta.page_name == "Blockchain Game Development");
+      setMetaData(data);
+    }
+  }, [allMetaData]);
   return (
     <Fragment>
       <Suspense>
         {active === true && <Preloader />}
         {/* Helmet */}
         <HelmetReact
-          title={
-            "Blockchain Game Development Company | Hire Blockchain Game Developer"
-          }
-          description={
-            "Raiden, a reputable blockchain game development company provides a wide range of blockchain game development services with significant experience. Hire blockchain game developers to launch your own game on popular blockchain networks."
-          }
-          keywords={
-            "blockchain game development, blockchain game development company, blockchain game development services, hire blockchain game developers"
-          }
-          ogimage={""}
+          title={metadata[0]?.meta_title}
+          description={metadata[0]?.meta_dec}
+          keywords={metadata[0]?.meta_keyword}
+          ogimage={metadata[0]?.og_image}
         />
         {/* Header two */}
         <HeaderTwo />

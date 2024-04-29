@@ -10,17 +10,27 @@ import NewsSectionOne from "../components/NewsSectionOne";
 import HelmetReact from "../elements/HelmetReact";
 import HeaderTwo from "../components/HeaderTwo";
 import AboutPara from "../components/AboutPara";
-import TestimonialSectionThree from './../components/TestimonialSectionThree';
-import Aboutbanner from './../components/Aboutbanner';
+import TestimonialSectionThree from "./../components/TestimonialSectionThree";
+import Aboutbanner from "./../components/Aboutbanner";
+import { useSelector } from "react-redux";
 
 const About = () => {
   let [active, setActive] = useState(true);
+
   useEffect(() => {
     setTimeout(function () {
       setActive(false);
     }, 2000);
   }, []);
+  const { allMetaData } = useSelector((state) => state.metaDataState);
+  const [metadata, setMetaData] = useState([]);
 
+  useEffect(() => {
+    if (allMetaData) {
+      const data = allMetaData.filter((meta) => meta.page_name == "Home Page");
+      setMetaData(data);
+    }
+  }, [allMetaData]);
   return (
     <Fragment>
       <Suspense>
@@ -30,7 +40,10 @@ const About = () => {
         {/* Header one */}
         <HeaderTwo />
         {/* Breadcrumb */}
-        <Breadcrumb data={"About us"} img={"url('/assets/img/bg-image/Frame 71.jpg')"} />
+        <Breadcrumb
+          data={"About us"}
+          img={"url('/assets/img/bg-image/Frame 71.jpg')"}
+        />
         {/* About Section One */}
         <AboutPara />
         {/* Testimonial Section One */}

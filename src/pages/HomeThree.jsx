@@ -24,7 +24,7 @@ import {
   GetBlogsTags,
   GetRecentBlogs,
 } from "../action/BlogAction";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 
 import ProgramLanguage from "../components/ProgramLanguage";
 import ContactSection from "../components/ContactSection";
@@ -34,12 +34,13 @@ import AboutSectionOne from "../components/AboutSectionOne";
 import CaseStudies from "../components/CaseStudies";
 import NavBottom from "../components/NavBottom";
 import { AllcaseStudys } from "../action/caseStudyAction";
-
+import { getMetaDataCreate } from "../action/MetaDataAction";
 
 const HomeThree = () => {
   let [active, setActive] = useState(true);
+  const [metadata, setMetaData] = useState([]);
   const dispatch = useDispatch();
-
+  const { allMetaData } = useSelector((state) => state.metaDataState);
   useEffect(() => {
     setTimeout(function () {
       setActive(false);
@@ -52,22 +53,38 @@ const HomeThree = () => {
       dispatch(GetBlogsCategory);
       dispatch(GetBlogsTags);
       dispatch(GetAllBlogs);
-     
+      dispatch(getMetaDataCreate);
     } catch (error) {
       console.log(error);
     }
   }, []);
 
-useEffect(()=>{
-  dispatch(AllcaseStudys("",""));
-},[])
+  useEffect(() => {
+    dispatch(AllcaseStudys("", ""));
+  }, []);
+
+  useEffect(() => {
+    if (allMetaData) {
+      const data = allMetaData.filter((meta) => meta.page_name == "Home Page");
+      setMetaData(data);
+    }
+  }, [allMetaData]);
+
   return (
     <Fragment>
       <Suspense>
         {active === true && <Preloader />}
         {/* Helmet */}
+        
+        
+        
         {/* title, description, keywords,ogimage  */}
-        <HelmetReact title={"Raiden - AI, Metaverse, NFT, Web3 & Blockchain Development Company"}  description={"Raiden is a leading blockchain development services company with 10+ years of experience offering reliable, secure, scalable dApps, AI, NFT, Metaverse, and Web3.0 solutions globally."} keywords={"blockchain development, web3 development, AI development, Metaverse development, AR development, VR development"} ogimage={""} />
+        <HelmetReact
+          title={metadata[0]?.meta_title}
+          description={metadata[0]?.meta_dec}
+          keywords={metadata[0]?.meta_keyword}
+          ogimage={metadata[0]?.og_image}
+        />
         {/* Header Three */}
         <HeaderTwo />
         {/* Slider Three */}

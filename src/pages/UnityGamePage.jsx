@@ -1,4 +1,4 @@
-import React, { Fragment, Suspense } from "react";
+import React, { Fragment, Suspense, useEffect, useState } from "react";
 import HelmetReact from "../elements/HelmetReact";
 import HeaderTwo from "../components/HeaderTwo";
 import ContactSection2 from "../components/ContactSection2";
@@ -14,8 +14,18 @@ import UnityProcessSection from "../components/unityGame/UnityProcessSection";
 import NewsSectionOne from "../components/NewsSectionOne";
 import UnityFaq from "../components/unityGame/UnityFaq";
 import UnityCount from "../components/unityGame/UnityCount";
+import { useSelector } from "react-redux";
 
 const UnityGamePage = () => {
+  const { allMetaData } = useSelector((state) => state.metaDataState);
+  const [metadata, setMetaData] = useState([]);
+
+  useEffect(() => {
+    if (allMetaData) {
+      const data = allMetaData.filter((meta) => meta.page_name == "Unity Game Development");
+      setMetaData(data);
+    }
+  }, [allMetaData]);
   return (
     <Fragment>
       <Suspense>
@@ -30,6 +40,11 @@ const UnityGamePage = () => {
             "unity game development, unity 3d game development company, unity game development company, hire unity game developers"
           }
           ogimage={""}
+      <HelmetReact
+          title={metadata[0]?.meta_title}
+          description={metadata[0]?.meta_dec}
+          keywords={metadata[0]?.meta_keyword}
+          ogimage={metadata[0]?.og_image}
         />
         <HeaderTwo />
         <UnityHeroSection />

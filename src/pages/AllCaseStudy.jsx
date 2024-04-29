@@ -21,12 +21,21 @@ const AllCaseStudy = () => {
 
   useEffect(() => {
     try {
-      dispath(AllcaseStudys("",""));
+      dispath(AllcaseStudys("", ""));
     } catch (error) {
       console.log(error);
     }
   }, []);
 
+  const { allMetaData } = useSelector((state) => state.metaDataState);
+  const [metadata, setMetaData] = useState([]);
+
+  useEffect(() => {
+    if (allMetaData) {
+      const data = allMetaData.filter((meta) => meta.page_name == "Home Page");
+      setMetaData(data);
+    }
+  }, [allMetaData]);
   return (
     <Fragment>
       <Suspense>
@@ -36,7 +45,10 @@ const AllCaseStudy = () => {
         {/* Header one */}
         <HeaderTwo />
         {/* Breadcrumb */}
-        <Breadcrumb data={"Case Study"} img={"url('/assets/img/bg-image/Frame 70.jpg')"}/>
+        <Breadcrumb
+          data={"Case Study"}
+          img={"url('/assets/img/bg-image/Frame 70.jpg')"}
+        />
         {/* Project Section All */}
         <ProjectSectionAll />
         {/* News Section One */}

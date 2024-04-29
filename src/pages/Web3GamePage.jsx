@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react'
+import React, { Suspense, useEffect, useState } from 'react'
 import HeaderTwo from '../components/HeaderTwo'
 import FooterSectionOne from '../components/FooterSectionOne'
 import ContactSection2 from '../components/ContactSection2'
@@ -13,35 +13,39 @@ import Web3GameBannerSection from "../components/web3Game/Web3GameBannerSection"
 import Web3GameProcessSection from "../components/web3Game/Web3GameProcessSection"
 import Web3GameFaq from "../components/web3Game/Web3GameFaq"
 import HelmetReact from '../elements/HelmetReact'
+import { useSelector } from 'react-redux'
 const Web3GamePage = () => {
+  const { allMetaData } = useSelector((state) => state.metaDataState);
+  const [metadata, setMetaData] = useState([]);
+
+  useEffect(() => {
+    if (allMetaData) {
+      const data = allMetaData.filter((meta) => meta.page_name == "Web3 Game Development");
+      setMetaData(data);
+    }
+  }, [allMetaData]);
   return (
     <Suspense>
-      <HelmetReact
-        title={
-          "Web3 Game Development Company | Hire Web3 Game Developers"
-        }
-        description={
-          "A top-notch Web3.0 Game development company with 5+ years of deep domain expertise. We deliver a comprehensive set of Web3 game development services using avant-garde technologies."
-        }
-        keywords={
-          "web3 game development, web3 game development company, web3 game development services, create your own web3 game"
-        }
-        ogimage={""}
-      />
-      <HeaderTwo />
-      <Web3GameHeroSection />
-      <Web3GameAbout />
-      <Web3GameServicesSection />
-      <Web3GameCount />
-      <Web3GameWhyChoose />
-      <Web3GameBenefitSection />
-      <Web3GameBannerSection />
-      <Web3GameProcessSection />
-      <Web3GameFaq />
-      <NewsSectionOne />
-      <ContactSection2 />
-      <FooterSectionOne />
-    </Suspense>
+    <HelmetReact
+          title={metadata[0]?.meta_title}
+          description={metadata[0]?.meta_dec}
+          keywords={metadata[0]?.meta_keyword}
+          ogimage={metadata[0]?.og_image}
+        />
+    <HeaderTwo />
+    <Web3GameHeroSection/>
+    <Web3GameAbout/>
+    <Web3GameServicesSection/>
+    <Web3GameCount />
+    <Web3GameWhyChoose/>
+    <Web3GameBenefitSection/>
+    <Web3GameBannerSection/>
+    <Web3GameProcessSection/>
+    <NewsSectionOne />
+    <Web3GameFaq/>
+    <ContactSection2/>
+    <FooterSectionOne/>
+  </Suspense>
   )
 }
 
