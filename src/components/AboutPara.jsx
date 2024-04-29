@@ -30,8 +30,8 @@ const AboutSectionThree = () => {
                             >
                                 <div className="section-title-shape-one black">
                                     {/* <h3 style={}>ABOUT COMPANY</h3> */}
-                                    <h2 style={{ fontSize: "30px",marginTop:"0" }}>
-                                    ABOUT COMPANY</h2>
+                                    <h2 style={{ fontSize: "30px", marginTop: "0" }}>
+                                        ABOUT COMPANY</h2>
                                     <p>
                                         We are a team of passionate Our team includes experts in a wide range of fields, including software development, game design, storytelling, and user experience design. We work closely with our clients to understand their unique needs and goals, and we use our expertise to create immersive experiences that exceed their expectations.
                                     </p>
@@ -52,11 +52,11 @@ const AboutSectionThree = () => {
                         src="/assets/img/shape/14_shape.png"
                         alt=""
                     />
-                    <img
+                    {/* <img
                         className="shape-2 poa"
                         src="/assets/img/icon/84_icon.png"
                         alt=""
-                    />
+                    /> */}
                 </div>
             </section>
             {/* About Section one End */}

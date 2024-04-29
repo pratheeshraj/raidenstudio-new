@@ -378,12 +378,15 @@
 
   &.three {
     background: var(--common-body-3);
-    padding: 120px 0;
+    padding: 100px 0;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 9;
     overflow: hidden;
+    @media #{$sm, $xs, $xss} {
+      padding: 40px 0 !important;
+    }
     .section-title-shape-one {
       margin-bottom: 70px;
     }

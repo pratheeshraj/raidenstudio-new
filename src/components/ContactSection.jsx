@@ -142,41 +142,7 @@ const ContactSection = () => {
               <p className="form-Messages mt-3" />
             </div>
             <div className="col-lg-4">
-              <div className="appointment">
-                <div className="title">
-                  <h4>Need Appointment</h4>
-                  <p>
-                    Schedule a meeting with someone, as in Do I need to make
-                    another appointment with the team?
-                  </p>
-                </div>
-                <table className="table  table-dark">
-                  <thead>
-                    <tr>
-                      <th scope="col">Day</th>
-                      <th scope="col">Morning</th>
-                      <th scope="col">Night</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th scope="row">Sunday</th>
-                      <td>Closed</td>
-                      <td>5pm - 9pm</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">Monday - Friday</th>
-                      <td>Open</td>
-                      <td>5pm - 9pm</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">Saturday</th>
-                      <td>Closed</td>
-                      <td>Closed</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+
             </div>
           </div>
           <div className="row location-tag">
@@ -187,18 +153,20 @@ const ContactSection = () => {
                 </div>
                 <div className="view">
                   <h3>Head Office</h3>
-                  <p>2590 Rockford Mountain Lane Four Oaks, NC.</p>
+                  <p>Saravanampatti , Coimbatore</p>
+                  <p>TamilNadu</p>
                 </div>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 col-12">
               <div className="item " data-aos="fade-up" data-aos-delay="400">
                 <div className="icon">
-                <i className="fa-sharp fa-solid fa-location-dot" />
+                  <i className="fa-sharp fa-solid fa-location-dot" />
                 </div>
                 <div className="view">
                   <h3>Office</h3>
-                  <p>2590 Rockford Mountain Lane Four Oaks, NC.</p>
+                  <p>Thiru Nagar , Madurai</p>
+                  <p>TamilNadu</p>
                 </div>
               </div>
             </div>
@@ -228,29 +196,29 @@ const ContactSection = () => {
         </div>
         <div className="contact-map">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6304.829986131271!2d-122.4746968033092!3d37.80374752160443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808586e6302615a1%3A0x86bd130251757c00!2sStorey+Ave%2C+San+Francisco%2C+CA+94129!5e0!3m2!1sen!2sus!4v1435826432051"
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d978.8673875855843!2d76.99904226955294!3d11.078339999318088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTHCsDA0JzQyLjAiTiA3NsKwNTknNTguOSJF!5e0!3m2!1sen!2sin!4v1714374950104!5m2!1sen!2sin"
             height={570}
           />
         </div>
         <div className="shape-image-file">
-          <div className="shape-img-1 poa">
+          {/* <div className="shape-img-1 poa">
             <img src="/assets/img/icon/21_icon.png" alt="" />
           </div>
           <div className="shape-img-2 poa">
             <img src="/assets/img/icon/64_icon.png" alt="" />
-          </div>
-          <div className="shape-img-4 poa">
+          </div> */}
+          {/* <div className="shape-img-4 poa">
             <img src="/assets/img/icon/08_icon.png" alt="" />
-          </div>
-          <div className="shape-img-5 poa">
+          </div> */}
+          {/* <div className="shape-img-5 poa">
             <img src="/assets/img/icon/78_icon.png" alt="" />
-          </div>
-          <div className="shape-img-6 poa">
+          </div> */}
+          {/* <div className="shape-img-6 poa">
             <img src="/assets/img/icon/43_icon.png" alt="" />
-          </div>
-          <div className="shape-img-7 poa">
+          </div> */}
+          {/* <div className="shape-img-7 poa">
             <img src="/assets/img/icon/68_icon.png" alt="" />
-          </div>
+          </div> */}
           <div className="shape-img-8 poa">
             <img src="/assets/img/icon/71_icon.png" alt="" />
           </div>
