@@ -152,7 +152,7 @@ const SliderThree = () => {
                   <h2 className="slider-title">Redefining Experiences<span className="theme-color" style={{ color: "#5CF8FF" }}>  with XR</span>
                   </h2>
                   <p className="description Hero_sub_heading">
-                    Discover augmented and virtual realities with our expert XR development.
+                    Discover augmented and virtual realities with our<br /> expert XR development.
                   </p>
                   <Link
                     style={{ backgroundColor: "#00D1DB" }}
