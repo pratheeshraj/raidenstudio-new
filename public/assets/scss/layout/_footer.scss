@@ -115,6 +115,9 @@
     display: flex;
     justify-content: space-between;
     row-gap: 50px;
+    @media #{$sm, $xs, $xss} {
+      row-gap: 20px;
+    }
   }
   &.two {
     background-color: var(--common-body-2);
