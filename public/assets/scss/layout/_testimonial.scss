@@ -389,7 +389,11 @@
     }
     .section-title-shape-one {
       margin-bottom: 70px;
+      @media #{$sm, $xs, $xss} {
+        margin-bottom: 30px;
+      }
     }
+    
     .swiper {
       z-index: 9;
       &.testimonial-two {
