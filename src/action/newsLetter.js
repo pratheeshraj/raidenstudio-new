@@ -22,7 +22,7 @@ export const NewsLetterGetEmail = (email) => async (dispatch) => {
     dispatch(newLetterEmailSuccess(data.message));
   } catch (error) {
     if (error.message == "Network Error") {
-      return dispatch(blogFail((error.message)))
+      return dispatch(newLetterEmailFail((error.message)))
     }
     dispatch(newLetterEmailFail(error.response.data.message));
   }

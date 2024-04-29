@@ -11,7 +11,7 @@ export const createContact = (contactData) => async (dispatch) => {
     } catch (error) {
         const errorMessage = error.response ? error.response.data.message : "An error occurred";
         if (error.message == "Network Error") {
-            return dispatch(blogFail((error.message)))
+            return dispatch(contactfail((error.message)))
           }
         dispatch(contactfail(errorMessage));
     }
