@@ -50,16 +50,16 @@ const FooterSectionOne = () => {
                 </h2>
                 <ul data-aos="fade-up" data-aos-delay="300">
                   <li>
-                    <Link to="#">Raiden Verse</Link>
+                    <Link to="/raiden-verse">Raiden Verse</Link>
                   </li>
                   <li>
-                    <Link to="#">Raiden SimX</Link>
+                    <Link to="/raiden-simx">Raiden SimX</Link>
                   </li>
                   <li>
-                    <Link to="#">Raiden COGNI+</Link>
+                    <Link to="/raiden-cogni">Raiden COGNI+</Link>
                   </li>
                   <li>
-                    <Link to="#">Raiden ARCVIZ</Link>
+                    <Link to="/raiden-arcviz">Raiden ARCVIZ</Link>
                   </li>
                 </ul>
               </div>
@@ -71,16 +71,16 @@ const FooterSectionOne = () => {
                 </h2>
                 <ul data-aos="fade-up" data-aos-delay="300">
                   <li>
-                    <Link to="#">Block Chain</Link>
+                    <Link to="/custom-blockchain">Block Chain</Link>
                   </li>
                   <li>
-                    <Link to="#">AI</Link>
+                    <Link to="/generative-ai-development">AI</Link>
                   </li>
                   <li>
-                    <Link to="#">XR</Link>
+                    <Link to="/ar-services">XR</Link>
                   </li>
                   <li>
-                    <Link to="#">Game</Link>
+                    <Link to="/mobile-game-development">Game</Link>
                   </li>
                 </ul>
               </div>
@@ -92,26 +92,53 @@ const FooterSectionOne = () => {
                 </h2>
                 <ul data-aos="fade-up" data-aos-delay="300">
                   <li>
-                    <Link to="#">About us</Link>
+                    <Link to="/about-us">About us</Link>
                   </li>
                   <li>
-                    <Link to="#">Career</Link>
+                    <Link to="/carrer">Career</Link>
                   </li>
                   <li>
-                    <Link to="#">Contact us</Link>
+                    <Link to="/contact-us">Contact us</Link>
                   </li>
                 </ul>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 col-12">
-              <div className="footer-wrapper three mt-4 mt-lg-0">
+            <div className="col-lg-4 col-md-6 col-12">
+              <div className="footer-wrapper two mt-4 mt-lg-0 ">
                 <h2 className="title" data-aos="fade-up" data-aos-delay="200">
-                  Contact Us
+                  Resourses
                 </h2>
                 <ul data-aos="fade-up" data-aos-delay="300">
-                  <li>3487 Harter StreetDayton, OH 45402</li>
-                  <li>info@demo.com</li>
-                  <li className="phone">+ (008)-345-6789</li>
+                  <li>
+                    <Link to="/blog">Blog</Link>
+                  </li>
+                  <li>
+                    <Link to="/case-studies">Case Studies</Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-12">
+              <div className="footer-wrapper three mt-4 mt-lg-0">
+                <h2 className="title" data-aos="fade-up" data-aos-delay="200">
+                  Head Office
+                </h2>
+                <ul data-aos="fade-up" data-aos-delay="300">
+                  <li>Saravanampatti , Coimbatore</li>
+                  <li>info@raiden.studio</li>
+                  <li className="phone"> +91 98840 36062</li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-12">
+              <div className="footer-wrapper three mt-4 mt-lg-0">
+                <h2 className="title" data-aos="fade-up" data-aos-delay="200">
+                  Office
+                </h2>
+                <ul data-aos="fade-up" data-aos-delay="300">
+                  <li>Thiru Nagar , Madurai</li>
+                  <li>info@raiden.studio</li>
+                  <li className="phone"> +91 98840 36062</li>
                 </ul>
               </div>
             </div>
