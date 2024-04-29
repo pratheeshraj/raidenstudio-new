@@ -16,7 +16,7 @@ function Vrfeatures() {
                         </div>
                         <div className='feature_card'>
                             <img src='/assets/img/vr-feature-and-benefit/customerexper.svg' />
-                            <div style={{ whiteSpace: "nowrap" }}>Real-Life Customer<br /> Experience</div>
+                            <div style={{ whiteSpace: "nowrap" }}>Real-Life Customer<br className='vr-br-tag'/> Experience</div>
                         </div>
                         <div className='feature_card'>
                             <img src='/assets/img/vr-feature-and-benefit/enhancedrequire.svg' />

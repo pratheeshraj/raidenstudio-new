@@ -49,6 +49,10 @@
         height: 300px !important;
     }
 
+    .vr-br-tag {
+        display: flex !important;
+    }
+
     .How_it_works_main_responsive {
         padding: 0;
     }
