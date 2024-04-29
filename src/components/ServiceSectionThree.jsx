@@ -14,12 +14,12 @@ const ServiceSectionThree = () => {
                 data-aos="fade-up"
                 data-aos-delay="300"
               >
-                <h3 style={{ color: "#13C4A1" }} className="theme-color">ADVANCED SERVICES</h3>
-                <h2>
+                <h3 style={{ color: "#13C4A1", textAlign: "center" }} className="theme-color">ADVANCED SERVICES</h3>
+                <h2 style={{ textAlign: "center" }}>
                   We provide a range of all-inclusive
                   <span className="theme-color"> services & solutions</span>
                 </h2>
-                <p>We're experts at providing innovative solutions that use cutting-edge technology to boost creativity and revolutionize industries. Our skilled professionals have extensive experience in a variety of domains, allowing us to provide comprehensive services in,</p>
+                <p style={{ textAlign: "center" }}>We're experts at providing innovative solutions that use cutting-edge technology to boost creativity and revolutionize industries. Our skilled professionals have extensive experience in a variety of domains, allowing us to provide comprehensive services in,</p>
               </div>
             </div>
           </div>

@@ -20,7 +20,7 @@ const BlogSectionTwo = () => {
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
-                <h2 style={{color:"black"}}>
+                <h2 style={{ color: "black", textAlign: "center" }}>
                   Latest thinking in AI &amp; our <br />{" "}
                   <span className="theme-color">company news</span>
                 </h2>
@@ -55,7 +55,7 @@ const BlogSectionTwo = () => {
                           </Link>
                         </h2>
                         <p>
-                        {`${data?.maincontent.substring(0, 60)}...`}
+                          {`${data?.maincontent.substring(0, 60)}...`}
                         </p>
                         <Link className="link" to={`/blogdetails/${data?.url}`}>
                           Read More

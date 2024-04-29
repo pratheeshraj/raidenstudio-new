@@ -216,6 +216,9 @@
     position: relative;
     z-index: 9;
     overflow: hidden;
+    @media #{$sm, $xs, $xss} {
+      padding: 40px 0 !important;
+    }
     .section-title-shape-one {
       margin-bottom: 60px;
     }
