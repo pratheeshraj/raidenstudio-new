@@ -42,16 +42,16 @@ const CaseStudies = () => {
                   >
                     <img
                       className="img-fluid"
-                      style={{height:"250px",objectFit:"cover"}}
+                      style={{ height: "250px", objectFit: "cover" }}
                       src={data?.imageurl}
                       alt=""
                     />
-                    <div className="shape-overlay" style={{margin:"70px 35px"}}>
+                    <div className="shape-overlay" style={{ margin: "70px 35px" }}>
                       <h3>
-                      {  `${data?.mainheading.substring(0, 20)}...`}
+                        {`${data?.mainheading.substring(0, 20)}...`}
                       </h3>
                       <p>
-                    {  `${data?.case_description.substring(0, 50)}...`}
+                        {`${data?.case_description.substring(0, 50)}...`}
                       </p>
                       <div className="d-flex justify-content-center">
                         <Link className="default-btn" Link to={`/case-study-detail/${data.url}`}>
@@ -67,7 +67,7 @@ const CaseStudies = () => {
           <div className="inner-btn d-adjust">
             <div>
               <Link className="default-btn" to="/case-studies">
-                View All Projects
+                View All Case Studies
               </Link>
             </div>
           </div>
