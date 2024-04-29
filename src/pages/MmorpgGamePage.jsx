@@ -30,18 +30,8 @@ const MmorpgGamePage = () => {
   return (
     <Fragment>
       <Suspense>
-        <HelmetReact
-          title={
-            "MMORPG Game Development Company | Hire MMORPG Game Developers"
-          }
-          description={
-            "Raiden is a top-notch MMORPG game development company that delivers massively multiplayer online role-playing game development solutions for the gaming industry."
-          }
-          keywords={
-            "mmorpg game development, mmorpg game development company, mmorpg game development services, hire mmorpg game developers"
-          }
-          ogimage={""}
-      <Suspense>
+    
+   
         <HelmetReact
           title={metadata[0]?.meta_title}
           description={metadata[0]?.meta_dec}
@@ -66,6 +56,7 @@ const MmorpgGamePage = () => {
   )
 }
 
+<<<<<<< HEAD
         <HeaderTwo />
         <MmorpgHeroSection />
         <MmorpgAbout />
@@ -81,11 +72,11 @@ const MmorpgGamePage = () => {
         <FooterSectionOne />
 
 
-
-        
       </Suspense>
     </Fragment>
   );
 };
+
+
 
 export default MmorpgGamePage;

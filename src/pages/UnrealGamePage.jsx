@@ -21,7 +21,9 @@ const UnrealGamePage = () => {
 
   useEffect(() => {
     if (allMetaData) {
-      const data = allMetaData.filter((meta) => meta.page_name == "Unreal Engine Game Development");
+      const data = allMetaData.filter(
+        (meta) => meta.page_name == "Unreal Engine Game Development"
+      );
       setMetaData(data);
     }
   }, [allMetaData]);
@@ -29,17 +31,6 @@ const UnrealGamePage = () => {
     <Fragment>
       <Suspense>
         <HelmetReact
-          title={
-            "Unreal Engine Game Development Company | Hire Unreal Engin Game Developers"
-          }
-          description={
-            "Raiden is a premier Unreal Game Development Company that specializes in Unreal Engine Game design and development. Hire dedicated and professional Unreal Developers for all types of business vectors"
-          }
-          keywords={
-            "unreal engine game development, unreal game development company, unreal game development services, hire unreal game developers"
-          }
-          ogimage={""}
-      <HelmetReact
           title={metadata[0]?.meta_title}
           description={metadata[0]?.meta_dec}
           keywords={metadata[0]?.meta_keyword}
