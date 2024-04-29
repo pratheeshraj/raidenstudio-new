@@ -23,7 +23,7 @@ const Aboutbanner = () => {
                   </h2>
                   <div className="inner-btn d-adjust" style={{display:"flex",justifyContent:"center"}}>
                     <div>
-                      <Link className="default-btn" to="/contact">
+                      <Link className="default-btn" to="/contact-us">
                         Let’s Work To Do{" "}
                       </Link>
                     </div>

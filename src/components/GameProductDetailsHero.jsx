@@ -998,7 +998,7 @@ const GameProductDetailsHero = () => {
                   </p>
                   <div className="inner-btn d-adjust">
                     <div>
-                      <Link style={{ background: "#00ECE5" }} className="default-btn" to="/contact">
+                      <Link style={{ background: "#00ECE5" }} className="default-btn" to="/contact-us">
                         Let’s Work To Do{" "}
                       </Link>
                     </div>

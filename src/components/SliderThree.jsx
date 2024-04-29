@@ -93,7 +93,7 @@ const SliderThree = () => {
                     <p className="Hero_sub_heading">
                       Revolutionize with Cutting-Edge Blockchain Solutions <br/> Unleash the power of innovation for your business.
                     </p>
-                    <Link className="default-btn" to="/contact">
+                    <Link className="default-btn" to="/contact-us">
                       Explore
                     </Link>
                   </div>
@@ -116,7 +116,7 @@ const SliderThree = () => {
                   <Link
                     style={{ backgroundColor: "#2ac8fd" }}
                     className="default-btn"
-                    to="/contact"
+                    to="/contact-us"
                   >
                     Explore
                   </Link>
@@ -133,7 +133,7 @@ const SliderThree = () => {
                   <p className="description Hero_sub_heading" >
                     Immerse Yourself in the Art of Gaming Creation - Let's<br /> Build Your Next Masterpiece Together!
                   </p>
-                  <Link className="default-btn" to="/contact">
+                  <Link className="default-btn" to="/contact-us">
                     Explore
                   </Link>
                 </div>
@@ -157,7 +157,7 @@ const SliderThree = () => {
                   <Link
                     style={{ backgroundColor: "#00D1DB" }}
                     className="default-btn"
-                    to="/contact"
+                    to="/contact-us"
                   >
                     Explore
                   </Link>
@@ -193,7 +193,7 @@ export default SliderThree;
 //             </p>
 //             <div className="inner-btn">
 //               <div>
-//                 <Link className="default-btn" to="/contact">
+//                 <Link className="default-btn" to="/contact-us">
 //                   Contact Us Now
 //                 </Link>
 //               </div>
@@ -218,7 +218,7 @@ export default SliderThree;
 //                 development, delivering exceptional and engaging gaming
 //                 experiences.
 //               </p>
-//               <Link className="default-btn" to="/contact">
+//               <Link className="default-btn" to="/contact-us">
 //                 Contact Us Now
 //               </Link>
 //             </div>
@@ -245,7 +245,7 @@ export default SliderThree;
 //             </p>
 //             <div className="inner-btn">
 //               <div>
-//                 <Link className="default-btn" to="/contact">
+//                 <Link className="default-btn" to="/contact-us">
 //                   Contact Us Now
 //                 </Link>
 //               </div>
