@@ -64,11 +64,11 @@ const ArTech = () => {
                                     <div className="Card_name_sevice">Unity</div>
                                 </div>
                                 <div className="Card_service">
-                                    <img src="/assets/img/Language/bnb-bnb-logo.svg" alt="" />
+                                    <img src="/assets/img/Language/opengl.svg" alt="" />
                                     <div className="Card_name_sevice">OpenGL</div>
                                 </div>
                                 <div className="Card_service ">
-                                    <img src="/assets/img/Language/solana-sol-logo.svg" alt="" />
+                                    <img src="/assets/img/Language/artoolkit-1.svg" alt="" />
                                     <div className="Card_name_sevice">ARToolKit</div>
                                 </div>
                                 <div className="Card_service ">
@@ -80,37 +80,37 @@ const ArTech = () => {
                                     <div className="Card_name_sevice">ARCore</div>
                                 </div>
                                 <div className="Card_service ">
-                                    <img src="/assets/img/Language/cardano-ada-logo.svg" alt="" />
+                                    <img src="/assets/img/Language/ar-js-min.png" alt="" />
                                     <div className="Card_name_sevice">AR.js</div>
                                 </div>
                             </div> : mobile ? <div className="right_Language_div">
                                 <div className="Card3_service">
-                                    <img src="/assets/img/Language/ipfs-logo.svg" alt="" />
+                                    <img src="/assets/img/Language/Android_robot.svg" alt="" />
                                     <div className="Card_name_sevice">Android</div>
                                 </div>
                                 <div className="Card3_service">
-                                    <img src="/assets/img/Language/FLUTTER.svg" alt="" />
+                                    <img src="/assets/img/Language/apple-ios.svg" alt="" />
                                     <div className="Card_name_sevice">iOS</div>
                                 </div>
                                 <div className="Card3_service">
-                                    <img src="/assets/img/Language/chalk.svg" alt="" />
+                                    <img src="/assets/img/Language/Windows_logo_-_2012_derivative.svg" alt="" />
                                     <div className="Card_name_sevice">Windows</div>
                                 </div>
                                 <div className="Card3_service">
-                                    <img src="/assets/img/Language/KATLIN.svg" alt="" />
+                                    <img src="/assets/img/Language/20221028124048!MacOS_logo.svg" alt="" />
                                     <div className="Card_name_sevice">macOS</div>
                                 </div>
                             </div> : blockchain ? <div className="right_Language_div">
                                 <div className="Card5_service">
-                                    <img src="/assets/img/Language/ethereum-eth-logo.svg" alt="" />
+                                    <img src="/assets/img/Language/kisspng-virtual-reality-headset-microsoft-hololens-samsung-5ae825690637d1.0972398215251633690255-removebg-preview.png" alt="" />
                                     <div className="Card_name_sevice">HoloLens</div>
                                 </div>
                                 <div className="Card5_service">
-                                    <img src="/assets/img/Language/solana-sol-logo.svg" alt="" />
+                                    <img src="/assets/img/Language/oculus-logo.svg" alt="" />
                                     <div className="Card_name_sevice">Oculus Quest</div>
                                 </div>
                                 <div className="Card5_service">
-                                    <img src="/assets/img/Language/cardano-ada-logo.svg" alt="" />
+                                    <img style={{ scale: "1.5" }} src="/assets/img/Language/Apple_Vision_Pro.svg" alt="" />
                                     <div className="Card_name_sevice">Vision Pro</div>
                                 </div>
                             </div> : ""

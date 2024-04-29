@@ -103,7 +103,7 @@ const ServiceSectionThree = () => {
                         </div>
                         <div className="text-file">
                           <h2 className="title">
-                            <Link to="/nft">
+                            <Link to="/nft-development-company">
                               NFT Development
                             </Link>
                           </h2>

@@ -83,44 +83,44 @@ const DefiTech = () => {
                                 </div>
                             </div> : mobile ? <div className="right_Language_div">
                                 <div className="Card3_service">
-                                    <img src="/assets/img/Language/ipfs-logo.svg" alt="" />
+                                    <img src="/assets/img/Language/Truffle Suite.svg" alt="" />
                                     <div className="Card_name_sevice">Truffle</div>
                                 </div>
                                 <div className="Card3_service">
-                                    <img src="/assets/img/Language/FLUTTER.svg" alt="" />
+                                    <img src="/assets/img/Language/remix.svg" alt="" />
                                     <div className="Card_name_sevice">Remix</div>
                                 </div>
                                 <div className="Card3_service">
-                                    <img src="/assets/img/Language/SWIFT.svg" alt="" />
+                                    <img src="/assets/img/Language/hardhat-logo.svg" alt="" />
                                     <div className="Card_name_sevice">Hardhat</div>
                                 </div>
                                 <div className="Card3_service">
-                                    <img src="/assets/img/Language/KATLIN.svg" alt="" />
+                                    <img src="/assets/img/Language/openzeppelin-seeklogo.svg" alt="" />
                                     <div className="Card_name_sevice">OpenZeppelin</div>
                                 </div>
                                 <div className="Card3_service">
-                                    <img src="/assets/img/Language/KATLIN.svg" alt="" />
+                                    <img src="/assets/img/Language/chainlink-link-logo.svg" alt="" />
                                     <div className="Card_name_sevice">Chainlink</div>
                                 </div>
                             </div> : blockchain ? <div className="right_Language_div">
                                 <div className="Card5_service">
-                                    <img src="/assets/img/Language/ethereum-eth-logo.svg" alt="" />
+                                    <img src="/assets/img/Language/ethers-seeklogo.svg" alt="" />
                                     <div className="Card_name_sevice">Ether.js</div>
                                 </div>
                                 <div className="Card5_service">
-                                    <img src="/assets/img/Language/solana-sol-logo.svg" alt="" />
+                                    <img src="/assets/img/Language/logo (1)-min.png" alt="" />
                                     <div className="Card_name_sevice">Slither</div>
                                 </div>
                                 <div className="Card5_service">
-                                    <img src="/assets/img/Language/cardano-ada-logo.svg" alt="" />
+                                    <img src="/assets/img/Language/Skarmavbild-2021-07-14-kl.-16.38.05-1024x386-removebg-preview-min.png" alt="" />
                                     <div className="Card_name_sevice">Drizzle</div>
                                 </div>
                                 <div className="Card5_service">
-                                    <img src="/assets/img/Language/polkadot-new-dot-logo.svg" alt="" />
+                                    <img src="/assets/img/Language/Embark-removebg-preview-min.png" alt="" />
                                     <div className="Card_name_sevice">Embark</div>
                                 </div>
                                 <div className="Card5_service">
-                                    <img src="/assets/img/Language/ipfs-logo.svg" alt="" />
+                                    <img src="/assets/img/Language/63a1d920e67a83396c581a94_IMyiXvP2rn-Hjx_Lbix41k0xkJfSdbRc1AHgw8Zdy9M-removebg-preview-min.png" alt="" />
                                     <div className="Card_name_sevice">Scaffold-ETH</div>
                                 </div>
                             </div> : game ? <div className="right_Language_div">
@@ -145,7 +145,7 @@ const DefiTech = () => {
                                     <div className="Card_name_sevice">Tron</div>
                                 </div>
                                 <div className="Card6_service">
-                                    <img src="/assets/img/Language/blender-icon.svg" alt="" />
+                                    <img src="/assets/img/Language/near-protocol-near-logo.svg" alt="" />
                                     <div className="Card_name_sevice">NEAR</div>
                                 </div>
                                 <div className="Card6_service">
