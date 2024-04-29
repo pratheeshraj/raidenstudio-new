@@ -47,7 +47,6 @@ const MobileGame = () => {
         <MobileGamePageProcess />
         <NewsSectionOne />
         <MobileGamePageFaq />
-        <MobileGamePageFaq />
         <ContactSection2 />
         <FooterSectionOne />
       </Suspense>

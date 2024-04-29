@@ -9,6 +9,9 @@ export const getMetaDataCreate = async (dispatch) => {
     const { data } = await axios.get(`${baseurl}/meta-data/Getmetadata`);
     dispatch(getAllMetadataSuccess(data));
   } catch (error) {
+    if (error.message == "Network Error") {
+      return dispatch(blogFail((error.message)))
+    }
     dispatch(getAllMetadataFailure(error.response.data.message));
   }
 };

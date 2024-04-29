@@ -14,6 +14,9 @@ export const CreateCareer = (career) => async (dispatch) => {
         dispatch(CreateCareerSuccess(data.message));
         toast.success('Successfully created!');
     } catch (error) {
+        if (error.message == "Network Error") {
+            return dispatch(blogFail((error.message)))
+          }
         dispatch(CreateCareerfail(error.response.data.message));
     }
 };

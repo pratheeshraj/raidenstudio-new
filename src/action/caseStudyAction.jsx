@@ -53,6 +53,9 @@ export const getSinglecaseStudys = (url) => async (dispatch) => {
     );
     dispatch(GetSinglecaseStudySuccess(data));
   } catch (error) {
+    if (error.message == "Network Error") {
+      return dispatch(blogFail((error.message)))
+    }
     dispatch(GetSinglecaseStudyfail(error.response.data.message));
   }
 };

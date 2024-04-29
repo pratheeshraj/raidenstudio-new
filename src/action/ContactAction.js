@@ -10,6 +10,9 @@ export const createContact = (contactData) => async (dispatch) => {
         dispatch(contactSuccess(response.data.message));
     } catch (error) {
         const errorMessage = error.response ? error.response.data.message : "An error occurred";
+        if (error.message == "Network Error") {
+            return dispatch(blogFail((error.message)))
+          }
         dispatch(contactfail(errorMessage));
     }
 };
