@@ -1484,18 +1484,18 @@ const HeaderTwo = () => {
             </div>
             <div className="intro-text">
               <div className="title-text">
-                <h3>Contact Us</h3>
+                <h3>Head Office</h3>
                 <ul>
                   <li>
                     <i className="fa-sharp fa-solid fa-location-dot pe-1" />
-                    2007 Cherry Ridge Drive Victor
+                    {"  "}Saravanampatti , Coimbatore TamilNadu
                   </li>
                   <li>
-                    <i className="fa-solid fa-envelope pe-1" /> support@demo.com
+                    <i className="fa-solid fa-envelope pe-1" /> info@raiden.studio
                   </li>
                   <li>
-                    <i className="fa-sharp fa-solid fa-phone-volume pe-1" /> +88
-                    (102)-253620
+                    <i className="fa-sharp fa-solid fa-phone-volume pe-1" />
+                    +91 98840 36062
                   </li>
                   <li />
                 </ul>
