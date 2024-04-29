@@ -1458,7 +1458,7 @@ const HeaderTwo = () => {
                 {
                   allcaseStudy?.slice(-6).map((item, index) => {
                     return (
-                      <Link to={`/blogdetails/${item.url}`}>
+                      <Link to={`/case-study-detail/${item.url}`}>
                         <img
                           className="img-fluid"
                           style={{ height: "65px" }}
