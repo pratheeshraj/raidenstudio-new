@@ -1,6 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
+
+
+
+const GameDescription = ({ htmlString }) => {
+  return (
+    <div dangerouslySetInnerHTML={{ __html: htmlString }} />
+  );
+}
+
 const CaseStudies = () => {
   const { allcaseStudy, loading } = useSelector(
     (state) => state.caseStudyState
@@ -51,7 +60,7 @@ const CaseStudies = () => {
                         {`${data?.mainheading.substring(0, 20)}...`}
                       </h3>
                       <p>
-                        {`${data?.case_description.substring(0, 50)}...`}
+                        <GameDescription htmlString={`${data?.challenge_content.substring(0, 50)}...`} />
                       </p>
                       <div className="d-flex justify-content-center">
                         <Link className="default-btn" Link to={`/case-study-detail/${data.url}`}>

@@ -103,7 +103,7 @@ const FooterSectionOne = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-12">
+            {/* <div className="col-lg-4 col-md-6 col-12">
               <div className="footer-wrapper two mt-4 mt-lg-0 ">
                 <h2 className="title" data-aos="fade-up" data-aos-delay="200">
                   Resourses
@@ -141,7 +141,7 @@ const FooterSectionOne = () => {
                   <li className="phone"> +91 98840 36062</li>
                 </ul>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="row">
             <div className="col-12">

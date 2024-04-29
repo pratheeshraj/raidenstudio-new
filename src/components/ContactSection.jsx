@@ -194,12 +194,12 @@ const ContactSection = () => {
             </div>
           </div>
         </div>
-        <div className="contact-map">
+        {/* <div className="contact-map">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d978.8673875855843!2d76.99904226955294!3d11.078339999318088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTHCsDA0JzQyLjAiTiA3NsKwNTknNTguOSJF!5e0!3m2!1sen!2sin!4v1714374950104!5m2!1sen!2sin"
             height={570}
           />
-        </div>
+        </div> */}
         <div className="shape-image-file">
           {/* <div className="shape-img-1 poa">
             <img src="/assets/img/icon/21_icon.png" alt="" />
