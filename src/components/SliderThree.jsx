@@ -78,27 +78,27 @@ const SliderThree = () => {
         <div ref={triggerRef}>
           <div ref={sectionRef} className="scroll-section-inner">
             <div className="scroll-section section1">
-         
-                {" "}
-                <div className="auto-container section1_container">
-                  <div
-                    animateIn="fadeInLeft"
-                    duration={1.5}
-                    className="left"
-                  >
-                    <h2>
-                      Leading Blockchain
-                      <span> Solutions Await</span>
-                    </h2>
-                    <p className="Hero_sub_heading">
-                      Revolutionize with Cutting-Edge Blockchain Solutions <br/> Unleash the power of innovation for your business.
-                    </p>
-                    <Link className="default-btn" to="/contact-us">
-                      Explore
-                    </Link>
-                  </div>
+
+              {" "}
+              <div className="auto-container section1_container">
+                <div
+                  animateIn="fadeInLeft"
+                  duration={1.5}
+                  className="left"
+                >
+                  <h2>
+                    Leading Blockchain
+                    <span> Solutions Await</span>
+                  </h2>
+                  <p className="Hero_sub_heading">
+                    Revolutionize with Cutting-Edge Blockchain Solutions <br /> Unleash the power of innovation for your business.
+                  </p>
+                  <Link className="default-btn" to="/contact-us">
+                    Explore
+                  </Link>
                 </div>
-             
+              </div>
+
             </div>
             <div className="scroll-section section2">
               <div className="auto-container section2_container">
@@ -111,7 +111,7 @@ const SliderThree = () => {
                     </span>
                   </h2>
                   <p className="Hero_sub_heading description">
-                    Explore the forefront of innovation with our AI development <br/> expertise. Transforming possibilities into tangible achievements.
+                    Explore the forefront of innovation with our AI development <br /> expertise. Transforming possibilities into tangible achievements.
                   </p>
                   <Link
                     style={{ backgroundColor: "#2ac8fd" }}
@@ -151,7 +151,7 @@ const SliderThree = () => {
                 <div className="left">
                   <h2 className="slider-title">Redefining Experiences<span className="theme-color" style={{ color: "#5CF8FF" }}>  with XR</span>
                   </h2>
-                  <p style={{ width: "500px" }} className="description Hero_sub_heading">
+                  <p className="description Hero_sub_heading">
                     Discover augmented and virtual realities with our expert XR development.
                   </p>
                   <Link
