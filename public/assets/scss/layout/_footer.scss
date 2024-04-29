@@ -7,12 +7,12 @@
 .footer-section {
   &.one {
     background-color: var(--common-body-1);
-    padding: 120px 0 120px 0;
+    padding: 100px 0;
     position: relative;
     overflow: hidden;
     z-index: 9;
     @media #{$sm, $xs, $xss} {
-      padding: 50px 0 100px 0 !important;
+      padding: 40px 0;
     }
 
     .footer-wrapper {
