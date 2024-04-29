@@ -12,6 +12,10 @@
     padding: 100px 0;
     position: relative;
     z-index: 9;
+    @media #{$sm, $xs, $xss} {
+      padding: 40px 0 !important;
+    }
+
     .left-wrapper {
       z-index: 9;
       margin-right: 25px;
