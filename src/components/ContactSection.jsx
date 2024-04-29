@@ -141,9 +141,9 @@ const ContactSection = () => {
               </form>
               <p className="form-Messages mt-3" />
             </div>
-            <div className="col-lg-4">
-
-            </div>
+            {/* <div className="col-lg-4">
+              <img src="\assets\img\contact-right.png" />
+            </div> */}
           </div>
           <div className="row location-tag">
             <div className="col-lg-3 col-md-6 col-12">
