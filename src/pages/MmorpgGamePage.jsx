@@ -55,8 +55,6 @@ const MmorpgGamePage = () => {
     </Fragment>
   )
 }
-
-<<<<<<< HEAD
         <HeaderTwo />
         <MmorpgHeroSection />
         <MmorpgAbout />
