@@ -99,30 +99,30 @@ function App() {
         <Route exact path="/service" element={<Service />} />
         <Route exact path="/team" element={<Team />} />
         <Route exact path="/carrer" element={<Career />} />
-        <Route exact path="/nft" element={<NftDevlopment />} />
+        <Route exact path="/nft-development-company" element={<NftDevlopment />} />
         <Route exact path="/career-details/:id" element={<CareerDetails />} />
         <Route exact path="/clash-of-empires" element={<GameProductDetails />} />
         <Route exact path="/raiden-simx" element={<RaidenSimx />} />
-        <Route exact path="/generative-ai-development" element={<ServicesDetails />} />
-        <Route exact path="/metaverse" element={<MetaveseDevelopment />} />
+        <Route exact path="/generative-ai-development-company" element={<ServicesDetails />} />
+        <Route exact path="/metaverse-development-company" element={<MetaveseDevelopment />} />
         <Route exact path="/raiden-arcviz" element={<RaidenArcviz />} />
         <Route exact path="/raiden-cogni" element={<RaidenCogni />} />
         <Route exact path="/virtual-vegas" element={<MetaverseCasino />} />
-        <Route exact path="/vr-services" element={<VRdevelopment />} />
+        <Route exact path="/virtual-reality-vr-development-company" element={<VRdevelopment />} />
         <Route exact path="/metaverse-royale" element={<MetaverseRoyal />} />
-        <Route exact path="/ar-services" element={<ARdevelopment />} />
+        <Route exact path="/augmented-reality-ar-development-company" element={<ARdevelopment />} />
         <Route exact path="/mobile-game-development" element={<MobileGame />} />
-        <Route exact path="/custom-blockchain" element={<Blockchain />} />
+        <Route exact path="/blockchain-development-company" element={<Blockchain />} />
         <Route exact path="/unity-development" element={<UnityGamePage />} />
         <Route exact path="/unreal-development" element={<UnrealGamePage />} />
         <Route exact path="/mmorpg-game-development" element={<MmorpgGamePage />} />
-        <Route exact path="/defi" element={<Defi />} />
+        <Route exact path="/defi-development-company" element={<Defi />} />
         <Route exact path="/mobile-game-development" element={<MobileGame />} />
         <Route exact path="/p2e-game-develpment" element={<P2eGamePage />} />
         <Route exact path="/web3-game-develpment" element={<Web3GamePage />} />
-        <Route exact path="/blockchain-game" element={<BlockchainGame />} />
-        <Route exact path="/web3" element={<Web3 />} />
-        <Route exact path="/ai-as-a-service" element={<AiasService />} />
+        <Route exact path="/blockchain-game-development-company" element={<BlockchainGame />} />
+        <Route exact path="/web3-development-company" element={<Web3 />} />
+        <Route exact path="/AI-as-a-Service(AIaaS)-Artificial-Intelligence" element={<AiasService />} />
         <Route exact path="/case-studies" element={<AllCaseStudy />} />
         <Route exact path="/case-study-detail/:id" element={<CaseStudyDetails />} />
         <Route exact path="*" element={<Error />} />

@@ -71,13 +71,13 @@ const FooterSectionOne = () => {
                 </h2>
                 <ul data-aos="fade-up" data-aos-delay="300">
                   <li>
-                    <Link to="/custom-blockchain">Block Chain</Link>
+                    <Link to="/blockchain-development-company">Block Chain</Link>
                   </li>
                   <li>
-                    <Link to="/generative-ai-development">AI</Link>
+                    <Link to="/generative-ai-development-company">AI</Link>
                   </li>
                   <li>
-                    <Link to="/ar-services">XR</Link>
+                    <Link to="/augmented-reality-ar-development-company">XR</Link>
                   </li>
                   <li>
                     <Link to="/mobile-game-development">Game</Link>

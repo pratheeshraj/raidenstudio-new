@@ -67,14 +67,14 @@ const ServiceSectionThree = () => {
                         <div className="img-file">
                           <img
                             className="img-fluid"
-                            style={{width:"-webkit-fill-available"}}
+                            style={{ width: "-webkit-fill-available" }}
                             src="/assets/img/service/network-structure-technology-concept-blockchain-technology-technological-abstract-cube-with-dat(1).webp"
                             alt=""
                           />
                         </div>
                         <div className="text-file">
                           <h2 className="title">
-                            <Link to="/custom-blockchain">
+                            <Link to="/blockchain-development-company">
                               Blockchain Development
                             </Link>
                           </h2>
@@ -96,7 +96,7 @@ const ServiceSectionThree = () => {
                         <div className="img-file">
                           <img
                             className="img-fluid"
-                            style={{width:"-webkit-fill-available"}}
+                            style={{ width: "-webkit-fill-available" }}
                             src="/assets/img/service/nft-digital-art-non-fungible-token-blockchain-technology-cryptographic-data-block-collecting-un(1).webp"
                             alt=""
                           />
@@ -125,14 +125,14 @@ const ServiceSectionThree = () => {
                         <div className="img-file">
                           <img
                             className="img-fluid"
-                            style={{width:"-webkit-fill-available"}}
+                            style={{ width: "-webkit-fill-available" }}
                             src="/assets/img/service/big-data-ai-analysis-generative-ai(1).webp"
                             alt=""
                           />
                         </div>
                         <div className="text-file">
                           <h2 className="title">
-                            <Link to="/generative-ai-development">
+                            <Link to="/generative-ai-development-company">
                               Generative AI Development
                             </Link>
                           </h2>
