@@ -208,35 +208,35 @@ const RaidenSimXContent = () => {
             </h2>
             <div className="feature_div" style={{ marginTop: "25px" }}>
               <div className="feature_card idustry" style={{ width: "186px" }}>
-                <img src="/assets/img/nftindustries/art.svg" />
+                <img src='/assets/img/industries/healthcare@0.3x.png' />
                 <div>Healthcare</div>
               </div>
               <div className="feature_card idustry" style={{ width: "186px" }}>
-                <img src="/assets/img/nftindustries/music.svg" />
+                <img src='/assets/img/industries/mortarboard@0.3x.png' />
                 <div>Education</div>
               </div>
               <div className="feature_card idustry" style={{ width: "186px" }}>
-                <img src="/assets/img/nftindustries/DIGITAL.SVG" />
+                <img src='/assets/img/nftindustries/manufacturing.svg' />
                 <div>Manufacturing</div>
               </div>
               <div className="feature_card idustry" style={{ width: "186px" }}>
                 <img src="/assets/img/nftindustries/fashion.svg" />
-                <div>Information Technology</div>
+                <div>IT</div>
               </div>
               <div className="feature_card idustry" style={{ width: "186px" }}>
-                <img src="/assets/img/nftindustries/metaverse.svg" />
+                <img src='/assets/img/industries/finance@0.3x.png' />
                 <div>Finance</div>
               </div>
               <div className="feature_card idustry" style={{ width: "186px" }}>
-                <img src="/assets/img/nftindustries/automotive.svg" />
+                <img src='/assets/img/meta-indust/retail.svg' />
                 <div>Retail</div>
               </div>
               <div className="feature_card idustry" style={{ width: "186px" }}>
-                <img src="/assets/img/nftindustries/oilandgas.svg" />
+                <img src='/assets/img/meta-indust/hospita.svg' />
                 <div>Hospitality</div>
               </div>
               <div className="feature_card idustry" style={{ width: "186px" }}>
-                <img src="/assets/img/nftindustries/manufacturing.svg" />
+                <img src='/assets/img/meta-indust/electricity.svg' />
                 <div>Energy and Utilities</div>
               </div>
             </div>

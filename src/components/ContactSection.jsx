@@ -8,21 +8,18 @@ const ContactSection = () => {
     // Please See Documentation for more information
     emailjs
       .sendForm(
-        "service_ljx76ce", //YOUR_SERVICE_ID
-        "template_71bgc2q", //YOUR_TEMPLATE_ID
+        "service_0274fcb", //YOUR_SERVICE_ID
+        "template_q3081ko", //YOUR_TEMPLATE_ID
         form.current,
-        "cwf8kROl5o3__96Ti" //YOUR_PUBLIC_KEY
+        "21lNpD1cwOwuP13Qn" //YOUR_PUBLIC_KEY
       )
       .then(
         (result) => {
           if (result.text === "OK") {
-            toast.success("Massage Sent Successfully!");
-            form.current[0].value = "";
-            form.current[1].value = "";
-            form.current[2].value = "";
-            form.current[3].value = "";
-            form.current[4].value = "";
-            form.current[5].value = "";
+            toast.success("Message Sent Successfully!", {
+              position: "top-center", // Display toast only at the top center
+            });
+            form.current.reset();
           }
         },
         (error) => {
@@ -34,7 +31,7 @@ const ContactSection = () => {
   };
   return (
     <>
-      <Toaster position="bottom-center" reverseOrder={false} />
+      <Toaster position="top-center" reverseOrder={false} />
       {/* Contact Section start */}
       <section className="contact-section">
         <div className="auto-container">
@@ -99,7 +96,7 @@ const ContactSection = () => {
                     <input
                       type="text"
                       id="subject"
-                      name="subject"
+                      name="user_phone"
                       required="required"
                     />
                   </div>
@@ -109,7 +106,10 @@ const ContactSection = () => {
                     data-aos-delay="300"
                   >
                     <label>Telegram No</label>
-                    <input type="url" id="url" name="website" />
+                    <input
+                      type="text"
+                      id="url"
+                      name="user_telegramno" />
                   </div>
                 </div>
                 <div

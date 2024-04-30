@@ -13,49 +13,13 @@ const ContactSection2 = () => {
   const dispatch = useDispatch();
   const [selected, setSelected] = useState('IN');
   const [name, setName] = useState("");
-  const [nameError, setNameError] = useState("");
   const [email, setEmail] = useState("");
-  const [emailError, setEmailError] = useState("");
   const [phone, setPhone] = useState("");
-  const [phoneError, setPhoneError] = useState("");
   const [country, setCountry] = useState("");
-  const [messageError, setMessageError] = useState("");
   const [message, setMessage] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault(); // Prevent default form submission
-
-    // Validation
-    let isValid = true;
-    if (name === "") {
-      setNameError("Name is required");
-      isValid = false;
-    } else {
-      setNameError("");
-    }
-    if (email === "") {
-      setEmailError("Email is required");
-      isValid = false;
-    } else {
-      setEmailError("");
-    }
-    if (phone === "") {
-      setPhoneError("Phone is required");
-      isValid = false;
-    } else {
-      setPhoneError("");
-    }
-
-    if (message === "") {
-      setMessageError("message is required");
-      isValid = false;
-    } else {
-      setMessageError("");
-    }
-
-    if (!isValid) {
-      return;
-    }
 
     const ContactData = {
       "name": name,
@@ -67,7 +31,34 @@ const ContactSection2 = () => {
 
     try {
 
+      if (!name) {
+        return toast.error("Please Enter Name", {
+          position: "top-center", // Display toast only at the top center
+        });
+      }
+      if (!email) {
+        return toast.error("Please Enter Email", {
+          position: "top-center", // Display toast only at the top center
+        });
+      }
+      if (!phone) {
+        return toast.error("Please Enter Phone", {
+          position: "top-center", // Display toast only at the top center
+        });
+      }
+      if (!message) {
+        return toast.error("Please Enter Message", {
+          position: "top-center", // Display toast only at the top center
+        });
+      }
+
       dispatch(createContact(ContactData))
+
+
+      
+      toast.success("Thank You !", {
+        position: "top-center",
+      });
 
       // Reset form fields after submission
       setName("");
@@ -75,6 +66,7 @@ const ContactSection2 = () => {
       setPhone("");
       setCountry("");
       setMessage("");
+
 
     } catch (error) {
       console.error("Error submitting contact form:", error);
@@ -84,7 +76,7 @@ const ContactSection2 = () => {
 
   return (
     <>
-      <Toaster position="bottom-center" reverseOrder={false} />
+      <Toaster position="top-center" reverseOrder={false} />
       {/* Contact Section start */}
       <section className="contact-section" style={{ background: "white" }}>
         <div className="auto-container">
@@ -95,12 +87,16 @@ const ContactSection2 = () => {
                 <p>Please fill out the quick form and we will be in touch with lightening speed.</p>
                 <form className="right_div_input_div" onSubmit={handleSubmit}>
                   <div>
-                    <input type="text" placeholder="Name" value={name} onChange={(e) => setName(e.target.value)} />
-                    {nameError && <div className="error-message">{nameError}</div>}
+                    <input
+                      type="text"
+                      placeholder="Name"
+                      value={name} onChange={(e) => setName(e.target.value)} />
                   </div>
                   <div>
-                    <input type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
-                    {emailError && <div className="error-message">{emailError}</div>}</div>
+                    <input type="email"
+                      placeholder="Email"
+                      value={email} onChange={(e) => setEmail(e.target.value)} />
+                  </div>
                   <div>
                     <PhoneInput
                       type="tel"
@@ -109,7 +105,6 @@ const ContactSection2 = () => {
                       value={phone}
                       onChange={(phoneValue) => setPhone(phoneValue)}
                     />
-                    {phoneError && <div className="error-message">{phoneError}</div>}
                   </div>
                   <ReactFlagsSelect
                     selected={selected}
@@ -125,7 +120,6 @@ const ContactSection2 = () => {
                       value={message}
                       onChange={(e) => setMessage(e.target.value)}
                     />
-                    {messageError && <div className="error-message">{messageError}</div>}
                   </div>
                   <button className="Contact2_button" type="submit">
                     <div class="svg-wrapper-1">
