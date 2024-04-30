@@ -109,7 +109,7 @@ const HeaderTwo = () => {
 
   const gamePara = [
     "Forge your empire, rule the realm with Realm Wars: Clash of Empires.",
-    "Forge your empire, rule the realm with Realm Wars: Clash of Empires.",
+    "Dive into Virtual Vegas: your metaverse casino adventure awaits!",
     "Gateway to immersive Battle Royale experiences in the Metaverse.",
   ];
 
@@ -149,7 +149,7 @@ const HeaderTwo = () => {
 
   const generativeAIValues = [0.5, 0.5];
   const generativeAINames = [
-    "AI as a Service",
+    "AI As A Service",
     "Generative AI Development",
   ];
 
@@ -176,9 +176,9 @@ const HeaderTwo = () => {
   // /mobile-game-development
   const gameNames = [
     "Mobile Game Development",
-    "Unity Development",
-    "Unreal Development",
-    "mmorpg game development ",
+    "Unity Game Development",
+    "Unreal Game Development",
+    "MMORPG Game Development ",
     "P2E Game Development",
     "Web3 Game Development",
   ];
@@ -210,7 +210,7 @@ const HeaderTwo = () => {
   const resourseprogressValues = [0.5, 0.5];
   const resourseNames = ["Blog", "Case Studies",];
   const resoursePara = [
-    "Explore Insights & Inspiration: Read Our Blog",
+    "Explore Insights & Inspiration Read Our Blog",
     "Learn from Success: Dive into Case Studies"
   ]
   const resourseurl = ["/blog", "/case-studies"]
