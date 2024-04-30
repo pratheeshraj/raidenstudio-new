@@ -31,15 +31,10 @@ const AboutSectionThree = () => {
                                 <div className="section-title-shape-one black">
                                     {/* <h3 style={}>ABOUT COMPANY</h3> */}
                                     <h2 style={{ fontSize: "30px", marginTop: "0" }}>
-                                        ABOUT COMPANY</h2>
+                                        Raiden Studios: Powering the Future of Gaming, VR, AR, and Blockchain
+                                    </h2>
                                     <p>
-                                        We are a team of passionate Our team includes experts in a wide range of fields, including software development, game design, storytelling, and user experience design. We work closely with our clients to understand their unique needs and goals, and we use our expertise to create immersive experiences that exceed their expectations.
-                                    </p>
-                                    <p>
-                                        At our core, we believe in the power of storytelling. We believe that immersive technologies can be used to tell stories in new and exciting ways, and we are constantly exploring new ways to use these technologies to connect with audiences on a deeper level.
-                                    </p>
-                                    <p>
-                                        Whether you're looking to create a virtual reality training program, an immersive marketing experience, or a game-changing augmented reality application, we are here to help. We are passionate about what we do, and we are dedicated to helping our clients succeed in a rapidly-changing world.
+                                        At Raiden Studios, we blend innovation with expertise to navigate the ever-evolving landscapes of gaming, virtual reality (VR), augmented reality (AR), and blockchain technology. As a premier consulting and solutions provider, we offer comprehensive services tailored to meet the unique needs of our clients in these dynamic industries.
                                     </p>
                                 </div>
                             </div>
@@ -52,11 +47,6 @@ const AboutSectionThree = () => {
                         src="/assets/img/shape/14_shape.png"
                         alt=""
                     />
-                    {/* <img
-                        className="shape-2 poa"
-                        src="/assets/img/icon/84_icon.png"
-                        alt=""
-                    /> */}
                 </div>
             </section>
             {/* About Section one End */}
