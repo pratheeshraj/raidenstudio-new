@@ -78,8 +78,8 @@ const HeaderTwo = () => {
   const productName = [
     "RaidenVerse",
     "RaidenSimX",
-    "RaidenCOGNI+",
-    "RaidenARCVIZ",
+    "RaidenCogni+",
+    "RaidenArcviz",
   ];
   const ProductPara = [
     "Collaboration in a dynamic universe where the possibilities are endless.",
@@ -97,7 +97,7 @@ const HeaderTwo = () => {
 
   const gameValues2 = [0.5, 0.5, 0.5];
   const gameNames2 = [
-    "Realm Wars: Clash of Empires",
+    "Clash of Empires",
     "Virtual Vegas",
     "Metaverse Royale",
   ];
