@@ -20,7 +20,7 @@ const NftFaq = () => {
                                     Answers At A <br /><span className="theme-color"> Glance</span>
                                 </h2>
                                 <p style={{ marginBottom: "10px" }}>
-                                    We've compiled concise yet informative answers to common questions about NFTs and how our development services can benefit your business
+                                    We've compiled concise yet informative answers to common questions about NFTs and how our development services can benefit your business.
                                 </p>
                             </div>
                             <div
