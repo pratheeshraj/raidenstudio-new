@@ -220,7 +220,7 @@ const RaidenSimXContent = () => {
                 <div>Manufacturing</div>
               </div>
               <div className="feature_card idustry" style={{ width: "186px" }}>
-                <img src="/assets/img/nftindustries/fashion.svg" />
+                <img src="/assets/img/nftindustries/it.svg" />
                 <div>IT</div>
               </div>
               <div className="feature_card idustry" style={{ width: "186px" }}>

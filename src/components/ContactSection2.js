@@ -7,8 +7,12 @@ import 'react-phone-input-2/lib/style.css'
 import ReactFlagsSelect from "react-flags-select";
 import { useDispatch } from "react-redux";
 import { createContact } from "../action/ContactAction";
+import { enqueryContact } from "../action/EnqueryAction";
 
 const ContactSection2 = () => {
+
+  const form = useRef();
+
 
   const dispatch = useDispatch();
   const [selected, setSelected] = useState('IN');
@@ -21,57 +25,71 @@ const ContactSection2 = () => {
   const handleSubmit = (e) => {
     e.preventDefault(); // Prevent default form submission
 
-    const ContactData = {
+    const enqueryData = {
       "name": name,
       "email": email,
       "phone": phone,
       "country": selected,
       "message": message
-    }
+    };
 
     try {
 
-      if (!name) {
-        return toast.error("Please Enter Name", {
-          position: "top-center", // Display toast only at the top center
-        });
+      if (!name || !email || !phone || !message) {
+        if (!name) {
+          toast.error("Please Enter name", {
+            position: "top-center",
+          });
+        }
+        if (!email) {
+          toast.error("Please Enter Email", {
+            position: "top-center",
+          });
+        }
+        if (!phone) {
+          toast.error("Please Enter Phone", {
+            position: "top-center",
+          });
+        }
+        if (!message) {
+          toast.error("Please Enter Message", {
+            position: "top-center",
+          });
+        }
+        return;
       }
-      if (!email) {
-        return toast.error("Please Enter Email", {
-          position: "top-center", // Display toast only at the top center
-        });
-      }
-      if (!phone) {
-        return toast.error("Please Enter Phone", {
-          position: "top-center", // Display toast only at the top center
-        });
-      }
-      if (!message) {
-        return toast.error("Please Enter Message", {
-          position: "top-center", // Display toast only at the top center
-        });
-      }
 
-      dispatch(createContact(ContactData))
+      dispatch(enqueryContact(enqueryData));
 
 
-      
-      toast.success("Thank You !", {
-        position: "top-center",
-      });
-
-      // Reset form fields after submission
-      setName("");
-      setEmail("");
-      setPhone("");
-      setCountry("");
-      setMessage("");
-
+      emailjs
+        .sendForm(
+          "service_mg9q3wt", // Replace with your service ID
+          "template_o26rqua", // Replace with your template ID
+          form.current, // Access the actual DOM element
+          "21lNpD1cwOwuP13Qn" // Replace with your public key
+        )
+        .then(
+          (result) => {
+            if (result.text === "OK") {
+              toast.success("Thank You!", {
+                position: "top-center",
+              });
+              form.current.reset();
+              setName("")
+              setEmail("")
+              setPhone("")
+              setMessage("")
+            }
+          },
+          (error) => {
+            toast.error("Message Not Sent!");
+          }
+        );
 
     } catch (error) {
       console.error("Error submitting contact form:", error);
     }
-
   };
 
   return (
@@ -85,25 +103,31 @@ const ContactSection2 = () => {
               <div className="right_div aos-init aos-animate" data-aos="fade-right" data-aos-delay="300">
                 <h2 className="right_div_contact_heading">Get a Free <span className="theme-color">Quote Today</span></h2>
                 <p>Please fill out the quick form and we will be in touch with lightening speed.</p>
-                <form className="right_div_input_div" onSubmit={handleSubmit}>
+                <form className="right_div_input_div" ref={form}
+                  onSubmit={handleSubmit}>
                   <div>
                     <input
                       type="text"
                       placeholder="Name"
-                      value={name} onChange={(e) => setName(e.target.value)} />
+                      name="user_name"
+                      value={name}
+                      onChange={(e) => setName(e.target.value)} />
                   </div>
                   <div>
                     <input type="email"
                       placeholder="Email"
-                      value={email} onChange={(e) => setEmail(e.target.value)} />
+                      name="user_email"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)} />
                   </div>
-                  <div>
-                    <PhoneInput
+                  <div style={{ marginTop: "8px" }}>
+                    <input
                       type="tel"
+                      placeholder="Phone"
                       className="phone_no_input"
-                      country={'in'}
+                      name="user_phone"
                       value={phone}
-                      onChange={(phoneValue) => setPhone(phoneValue)}
+                      onChange={(e) => setPhone(e.target.value)}
                     />
                   </div>
                   <ReactFlagsSelect
@@ -111,11 +135,13 @@ const ContactSection2 = () => {
                     onSelect={(countryCode) => setSelected(countryCode)}
                     searchPlaceholder="Search Country"
                     searchable
+                    name="user_country"
                     defaultCountry="IN"
                   />
                   <div className="text-contat-div">
                     <textarea
                       type="text"
+                      name="message"
                       placeholder="Message"
                       value={message}
                       onChange={(e) => setMessage(e.target.value)}

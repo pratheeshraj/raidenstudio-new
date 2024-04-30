@@ -1,26 +1,26 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 
-const ContactSlices = createSlice({
-    name: "contact",
+const enquerySlices = createSlice({
+    name: "enquery",
     initialState: {
         loading: false,
     },
     reducers: {
-        contactRequest(state, action) {
+        enqueryRequest(state, action) {
             return {
                 ...state,
                 loading: true,
             }
         },
-        contactSuccess(state, action) {
+        enquerySuccess(state, action) {
             return {
                 ...state,
                 loading: false,
-                createconatct: action.payload.createconatct
+                createenquery: action.payload.createenquery
             }
         },
-        contactfail(state, action) {
+        enqueryfail(state, action) {
             return {
                 ...state,
                 loading: false,
@@ -31,9 +31,9 @@ const ContactSlices = createSlice({
     }
 })
 
-const { actions, reducer } = ContactSlices;
+const { actions, reducer } = enquerySlices;
 
-export const { contactRequest, contactSuccess, contactfail } = actions
+export const { enqueryRequest, enquerySuccess, enqueryfail } = actions
 
 
 export default reducer;

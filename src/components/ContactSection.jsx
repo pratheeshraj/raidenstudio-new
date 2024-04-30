@@ -1,11 +1,56 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { toast, Toaster } from "react-hot-toast";
+import { createContact } from "../action/ContactAction";
+import { useDispatch } from "react-redux";
 const ContactSection = () => {
   const form = useRef();
+  const dispatch = useDispatch();
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [telegram, setTelegram] = useState("");
+  const [message, setMessage] = useState("");
+
+
   const sendEmail = (e) => {
     e.preventDefault();
-    // Please See Documentation for more information
+
+    const contactData = {
+      "name": name,
+      "email": email,
+      "phone": phone,
+      "telegram": telegram,
+      "message": message
+    };
+
+
+    if (!name || !email || !phone || !message) {
+      if (!name) {
+        toast.error("Please Enter name", {
+          position: "top-center",
+        });
+      }
+      if (!email) {
+        toast.error("Please Enter Email", {
+          position: "top-center",
+        });
+      }
+      if (!phone) {
+        toast.error("Please Enter Phone", {
+          position: "top-center",
+        });
+      }
+      if (!message) {
+        toast.error("Please Enter Message", {
+          position: "top-center",
+        });
+      }
+      return;
+    }
+
+    dispatch(createContact(contactData));
+
     emailjs
       .sendForm(
         "service_0274fcb", //YOUR_SERVICE_ID
@@ -20,6 +65,11 @@ const ContactSection = () => {
               position: "top-center", // Display toast only at the top center
             });
             form.current.reset();
+            setName("")
+            setEmail("")
+            setPhone("")
+            setMessage("")
+            setTelegram("")
           }
         },
         (error) => {
@@ -65,6 +115,8 @@ const ContactSection = () => {
                       id="name"
                       name="user_name"
                       required="required"
+                      value={name}
+                      onChange={(e) => setName(e.target.value)}
                     />
                   </div>
                   <div
@@ -80,6 +132,8 @@ const ContactSection = () => {
                       id="email"
                       name="user_email"
                       required="required"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
                     />
                   </div>
                 </div>
@@ -98,6 +152,8 @@ const ContactSection = () => {
                       id="subject"
                       name="user_phone"
                       required="required"
+                      value={phone}
+                      onChange={(e) => setPhone(e.target.value)}
                     />
                   </div>
                   <div
@@ -109,7 +165,11 @@ const ContactSection = () => {
                     <input
                       type="text"
                       id="url"
-                      name="user_telegramno" />
+                      name="user_telegramno"
+                      value={telegram}
+                      onChange={(e) => setTelegram(e.target.value)}
+                    />
+
                   </div>
                 </div>
                 <div
@@ -125,6 +185,8 @@ const ContactSection = () => {
                     rows={8}
                     spellCheck="false"
                     defaultValue={""}
+                    value={message}
+                    onChange={(e) => setMessage(e.target.value)}
                   />
                 </div>
                 <div

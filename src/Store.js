@@ -7,12 +7,15 @@ import careerReducer from "./Slices/CareerSlice";
 import contactReducer from "./Slices/ContactSlice";
 import caseStudyReducer from "./Slices/caseStudySlices";
 import MetaDataReducer from "./Slices/metaDataSclice";
+import enqueryReducer from "./Slices/EnquerySlice";
+
 const reducer = combineReducers({
   newsLetterState: newsLetterReducer,
   blogState: blogReducer,
   jobState: jobReducer,
   careerState: careerReducer,
   contactState: contactReducer,
+  enqueryState: enqueryReducer,
   caseStudyState: caseStudyReducer,
   metaDataState: MetaDataReducer,
 });
