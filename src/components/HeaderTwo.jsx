@@ -76,14 +76,14 @@ const HeaderTwo = () => {
 
   const progressValues = [0.5, 0.5, 0.5, 0.5];
   const productName = [
-    "Raiden Verse",
-    "Raiden SimX",
-    "Raiden COGNI+",
-    "Raiden ARCVIZ",
+    "RaidenVerse",
+    "RaidenSimX",
+    "RaidenCOGNI+",
+    "RaidenARCVIZ",
   ];
   const ProductPara = [
     "Collaboration in a dynamic universe where the possibilities are endless.",
-    "Human guidance to enhance simulation training through immersive learning",
+    "Human guidance to enhance simulation training through immersive learning.",
     "Transforming lives with practical skills for real-world success, one lesson at a time.",
     "Transforming blueprints into immersive, photorealistic environments.",
   ];
@@ -199,9 +199,9 @@ const HeaderTwo = () => {
   const CompanyNames = ["About us", "Career", "Contact us"];
   const companyurl = ["/about-us", "/carrer", "/contact-us"]
   const companyPara = [
-    "Learn Our Story, Mission, Values",
-    "Join Our Team, Grow Career",
-    "Connect, Reach Out, Inquire"
+    "Learn Our Story, Mission, Values.",
+    "Join Our Team, Grow Career.",
+    "Connect, Reach Out, Inquire."
   ]
 
   const [activeMenu, setActiveMenu] = useState("Blockchain");
