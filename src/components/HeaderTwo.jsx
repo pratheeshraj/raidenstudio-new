@@ -111,7 +111,6 @@ const HeaderTwo = () => {
     "Forge your empire, rule the realm with Realm Wars: Clash of Empires.",
     "Forge your empire, rule the realm with Realm Wars: Clash of Empires.",
     "Gateway to immersive Battle Royale experiences in the Metaverse.",
-    "Forge your empire, rule the realm with Realm Wars: Clash of Empires.",
   ];
 
   // service
