@@ -198,12 +198,22 @@ const HeaderTwo = () => {
   const companyprogressValues = [0.5, 0.5, 0.5];
   const CompanyNames = ["About us", "Career", "Contact us"];
   const companyurl = ["/about-us", "/carrer", "/contact-us"]
+  const companyPara = [
+    "Learn Our Story, Mission, Values",
+    "Join Our Team, Grow Career",
+    "Connect, Reach Out, Inquire"
+  ]
+
   const [activeMenu, setActiveMenu] = useState("Blockchain");
   const [activeMenu1, setActiveMenu1] = useState("virtual");
   const [activeMenu2, setActiveMenu2] = useState("Company");
 
   const resourseprogressValues = [0.5, 0.5];
   const resourseNames = ["Blog", "Case Studies",];
+  const resoursePara = [
+    "Explore Insights & Inspiration: Read Our Blog",
+    "Learn from Success: Dive into Case Studies"
+  ]
   const resourseurl = ["/blog", "/case-studies"]
 
   const handleMenuHover2 = (menu2) => {
@@ -792,10 +802,7 @@ const HeaderTwo = () => {
                                                     {resourseNames[index]}
                                                   </div>
                                                   <div className="manubar_content_para">
-                                                    Lorem ipsum dolor sit amet
-                                                    consectetur adipisicing
-                                                    elit. Fugit, culpa voluptas
-                                                    et.
+                                                    {resoursePara[index]}
                                                   </div>
                                                   <div
                                                     className="progress-bar"
@@ -880,10 +887,7 @@ const HeaderTwo = () => {
                                                     {CompanyNames[index]}
                                                   </div>
                                                   <div className="manubar_content_para">
-                                                    Lorem ipsum dolor sit amet
-                                                    consectetur adipisicing
-                                                    elit. Fugit, culpa voluptas
-                                                    et.
+                                                    {companyPara[index]}
                                                   </div>
                                                   <div
                                                     className="progress-bar"
