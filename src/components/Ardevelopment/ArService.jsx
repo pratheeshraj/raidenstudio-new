@@ -68,7 +68,7 @@ const ArService = () => {
                         <div className="col-lg-4 col-md-6 col-12" style={{ marginBottom: "20px" }}>
                             <div class="card_metaverse" style={{ height: "100%" }}>
                                 <div class="content_metaverse">
-                                    <p class="heading_metaverse">WebAR Development
+                                    <p class="heading_metaverse">Web AR Development
                                     </p><p class="para_metaverse">
                                         With the use of 3D modeling and augmented reality, we provide WebAR development services to assist companies in exhibiting their products and services on their websites and mobile applications.
                                     </p>

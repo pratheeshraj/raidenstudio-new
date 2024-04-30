@@ -252,3 +252,19 @@
         margin-bottom: 20px !important;
     }
 }
+
+
+/* ai service */
+
+.ai_service_li li {
+    color: black !important;
+    list-style-type: disc;
+    margin-left: 18px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.ai_process_li {
+    list-style-type: disc;
+    margin-left: 18px;
+}

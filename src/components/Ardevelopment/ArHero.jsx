@@ -40,13 +40,13 @@ const ArHero = () => {
                                             <div className="slider-content-inner ">
                                                 <div>
                                                     <h2 className="slider-title">
-                                                        <h4 className="theme-color">The Most Professional</h4>
-                                                        Augmented Reality <br />( AR )
-                                                        <span className="theme-color"> App Development <br /> Company</span><br />
+                                                        Experience Reality in <br />a
+                                                        <span className="theme-color"> New Dimension</span><br />
                                                     </h2>
-                                                    <p style={{ width: "500px" }} className="description metaverse_hero_para">
-                                                        With our cutting-edge Augmented Reality development services, you can propel your business into the future by developing image-driven experiences within realistic environments.
-                                                    </p>                                                    <div className="inner-btn" >
+                                                    <p style={{ width: "500px" }} className="description metaverse_hero_para Hero_sub_heading">
+                                                        Explore new dimensions of creativity, engagement, and innovation, as we guide you on a journey where reality is elevated to new heights.
+                                                    </p>
+                                                    <div className="inner-btn" >
                                                         <div>
                                                             <Link className="default-btn" to="/contact-us">
                                                                 Explore Now

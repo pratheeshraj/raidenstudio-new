@@ -7,7 +7,7 @@ function ArIndustries() {
             <div className="auto-container">
                 <div className="row">
                     <h2 style={{ textAlign: "center", color: "white" }}>Industries We <span className='theme-color'> Serve</span></h2>
-                    <p style={{ textAlign: "center", color: "white" }}>As a leading virtual reality app development company, we assist startups and established businesses from all sectors in fulfilling the potential of digital transformation via VR to boost revenue. </p>
+                    <p style={{ textAlign: "center", color: "white" }}>As a leading augmented reality app development company, we assist startups and established businesses from all sectors in fulfilling the potential of digital transformation via AR to boost revenue. </p>
                     <div className='feature_div'>
                         <div class="feature_card idustry">
                             <img src="/assets/img/nftindustries/oilandgas.svg" />

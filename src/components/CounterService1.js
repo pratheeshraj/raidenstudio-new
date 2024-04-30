@@ -18,37 +18,18 @@ const CounterService1 = () => {
                                     <h2 className="counter">
                                         <ReactVisibilitySensor>
                                             {({ isVisible }) => (
-                                                <div> {isVisible ? <CountUp end={50} /> : 0}</div>
+                                                <div> {isVisible ? <CountUp end={30} /> : 0}</div>
                                             )}
                                         </ReactVisibilitySensor>
                                     </h2>
                                     <h3>+</h3>
                                 </div>
-                                <h4>AI Developers</h4>
+                                <h4>AI Engineers</h4>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <div
                                 className="wrapper mt-md-0 mt-4 "
-                                data-aos="fade-up"
-                                data-aos-delay="300"
-                            >
-                                <div className="d-adjust gap-2 justify-content-center">
-                                    <h2 className="counter">
-                                        <ReactVisibilitySensor>
-                                            {({ isVisible }) => (
-                                                <div> {isVisible ? <CountUp end={100} /> : 0}</div>
-                                            )}
-                                        </ReactVisibilitySensor>
-                                    </h2>
-                                    <h3>+</h3>
-                                </div>
-                                <h4>Software Products Launched</h4>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6">
-                            <div
-                                className="wrapper mt-lg-0 mt-4 "
                                 data-aos="fade-up"
                                 data-aos-delay="300"
                             >
@@ -62,7 +43,26 @@ const CounterService1 = () => {
                                     </h2>
                                     <h3>+</h3>
                                 </div>
-                                <h4>AI Solutions</h4>
+                                <h4>Models</h4>
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-md-6">
+                            <div
+                                className="wrapper mt-lg-0 mt-4 "
+                                data-aos="fade-up"
+                                data-aos-delay="300"
+                            >
+                                <div className="d-adjust gap-2 justify-content-center">
+                                    <h2 className="counter">
+                                        <ReactVisibilitySensor>
+                                            {({ isVisible }) => (
+                                                <div> {isVisible ? <CountUp end={10} /> : 0}</div>
+                                            )}
+                                        </ReactVisibilitySensor>
+                                    </h2>
+                                    <h3>+</h3>
+                                </div>
+                                <h4>Bespoke AI Solutions</h4>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
@@ -81,7 +81,7 @@ const CounterService1 = () => {
                                     </h2>
                                     <h3>+</h3>
                                 </div>
-                                <h4>Year of Experience</h4>
+                                <h4>Language Frameworks</h4>
                             </div>
                         </div>
                     </div>
