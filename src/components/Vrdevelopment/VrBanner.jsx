@@ -18,10 +18,10 @@ const VrBanner = () => {
                             <div className="col-lg-6">
                                 <div className="title">
                                     <h2>
-                                        Are you ready to adopt <span className="theme-color">AI innovation</span> for your business?
+                                        Is your business ready to leverage <span className="theme-color"> VR Development services? </span>
                                     </h2>
                                     <p>
-                                        VR can be your ideal artificial intelligence development firm, helping you determine how AI may transform your operations, increase efficiency, and elevate productivity.
+                                        Invest in the Future: Unlock VR Development Solutions for Your Business Today!
                                     </p>
                                     <div className="inner-btn d-adjust">
                                         <div>

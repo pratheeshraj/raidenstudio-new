@@ -19,7 +19,9 @@ const VrFaq = () => {
                                 <h2>
                                     Answers At A <span className="theme-color"> Glance</span>
                                 </h2>
-                                <p style={{ marginBottom: "10px" }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem aut cumque facere ab tempore iusto sapiente. Ex quisquam modi corporis dicta, qui, eveniet dolor amet delectus molestias incidunt suscipit neque?</p>
+                                <p style={{ marginBottom: "10px" }}>
+                                    We've curated a collection of concise responses to ensure you get the information you need at a glance
+                                </p>
                             </div>
                             <div
                                 className="img-file "
@@ -35,6 +37,7 @@ const VrFaq = () => {
                         </div>
                         <div className="col-lg-6">
                             <div
+                                style={{ marginTop: "150px" }}
                                 className="faq-inner "
                                 data-aos="fade-left"
                                 data-aos-delay="300"
@@ -57,7 +60,7 @@ const VrFaq = () => {
                                                     aria-expanded="false"
                                                     aria-controls="flush-collapseOne"
                                                 >
-                                                    Is It Expensive to Develop Virtual Reality Apps?
+                                                    What hardware is compatible with your VR applications?
                                                 </button>
                                             </h2>
                                             <div
@@ -66,7 +69,8 @@ const VrFaq = () => {
                                                 data-bs-parent="#accordionFlushExample"
                                             >
                                                 <div className="accordion-body">
-                                                    Virtual reality apps are more expensive to build than regular apps. VR developers earn between $25 and 120 per hour. The average cost of VR development will range between $50,000 and $200,000. However, the price will be entirely determined by your requirements.                                                </div>
+                                                    Our VR applications are compatible with a wide range of VR headsets, including Oculus Rift, Hololens, and Visionpro VR, among others.
+                                                </div>
                                             </div>
                                         </div>
                                         <div className="accordion-item">
@@ -79,7 +83,7 @@ const VrFaq = () => {
                                                     aria-expanded="false"
                                                     aria-controls="flush-collapseTwo"
                                                 >
-                                                    Do you develop VR apps for various business models?
+                                                    What software development platforms do you use for VR development?
                                                 </button>
                                             </h2>
                                             <div
@@ -88,7 +92,8 @@ const VrFaq = () => {
                                                 data-bs-parent="#accordionFlushExample"
                                             >
                                                 <div className="accordion-body">
-                                                    Yes, we create unique VR apps for desktop, mobile, and web platforms for different business models. Regarding the mobile applications, we provide cross-platform and native versions. To create VR apps, we also use AI/ML and other technologies.                                                </div>
+                                                    We primarily utilize Unity3D and Unreal Engine for VR development. These platforms offer robust tools and features for creating immersive VR experiences across various devices and platforms.
+                                                </div>
                                             </div>
                                         </div>
                                         <div className="accordion-item">
@@ -101,7 +106,7 @@ const VrFaq = () => {
                                                     aria-expanded="false"
                                                     aria-controls="flush-collapseThree"
                                                 >
-                                                    What platforms and technologies do Vraidens 3D/VR/AR development teams specialize in?
+                                                    Do your VR applications support multi-platform deployment?
                                                 </button>
                                             </h2>
                                             <div
@@ -110,7 +115,30 @@ const VrFaq = () => {
                                                 data-bs-parent="#accordionFlushExample"
                                             >
                                                 <div className="accordion-body">
-                                                    Our VR developers have extensive knowledge of all the latest platforms, including Unity, Unreal Engine, C#, and C++. Our team members possess the necessary skills to create immersive, effective solutions. We develop cross-platform, cross-device digital experiences as part of our virtual reality development services.
+                                                    Yes, we design our VR applications with cross-platform compatibility in mind. This means they can be deployed across different VR platforms, such as Oculus, SteamVR, and PlayStation VR, allowing for a broader reach and accessibility.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="accordion-item">
+                                            <h2 className="accordion-header">
+                                                <button
+                                                    className="accordion-button collapsed"
+                                                    type="button"
+                                                    data-bs-toggle="collapse"
+                                                    data-bs-target="#flush-collapseFour"
+                                                    aria-expanded="false"
+                                                    aria-controls="flush-collapseFour"
+                                                >
+                                                    How do you ensure smooth performance and minimize motion sickness in VR experiences?
+                                                </button>
+                                            </h2>
+                                            <div
+                                                id="flush-collapseFour"
+                                                className="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample"
+                                            >
+                                                <div className="accordion-body">
+                                                    We implement various techniques, such as optimizing frame rates, reducing latency, and employing comfort-oriented design principles, to ensure smooth performance and mitigate motion sickness in our VR experiences. Additionally, user testing and feedback play a crucial role in refining our applications for maximum comfort and immersion.
                                                 </div>
                                             </div>
                                         </div>

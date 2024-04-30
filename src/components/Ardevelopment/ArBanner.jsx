@@ -18,10 +18,10 @@ const ArBanner = () => {
                             <div className="col-lg-6">
                                 <div className="title">
                                     <h2>
-                                        Are you ready to adopt <span className="theme-color">AI innovation</span> for your business?
+                                        Ready to elevate your business with <span className="theme-color">  AR development services?</span>
                                     </h2>
                                     <p>
-                                        VR can be your ideal artificial intelligence development firm, helping you determine how AI may transform your operations, increase efficiency, and elevate productivity.
+                                        Let's embark on an immersive journey together and unlock the full potential of augmented reality for your brand.
                                     </p>
                                     <div className="inner-btn d-adjust">
                                         <div>

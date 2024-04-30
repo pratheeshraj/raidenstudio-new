@@ -19,7 +19,9 @@ const ArFaq = () => {
                                 <h2>
                                     Answers At A <span className="theme-color"> Glance</span>
                                 </h2>
-                                <p style={{ marginBottom: "10px" }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem aut cumque facere ab tempore iusto sapiente. Ex quisquam modi corporis dicta, qui, eveniet dolor amet delectus molestias incidunt suscipit neque?</p>
+                                <p style={{ marginBottom: "10px" }}>
+                                    Dive into the world of AR with confidence as we unravel the complexities and unlock the technical potential of augmented reality for your projects.
+                                </p>
                             </div>
                             <div
                                 className="img-file "
@@ -33,7 +35,7 @@ const ArFaq = () => {
                                 />
                             </div>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6" style={{ marginTop: "-30px" }}>
                             <div
                                 className="faq-inner "
                                 data-aos="fade-left"
@@ -57,7 +59,7 @@ const ArFaq = () => {
                                                     aria-expanded="false"
                                                     aria-controls="flush-collapseOne"
                                                 >
-                                                    Is It Expensive to Develop Virtual Reality Apps?
+                                                    What platforms do you develop AR applications for?
                                                 </button>
                                             </h2>
                                             <div
@@ -66,7 +68,8 @@ const ArFaq = () => {
                                                 data-bs-parent="#accordionFlushExample"
                                             >
                                                 <div className="accordion-body">
-                                                    Virtual reality apps are more expensive to build than regular apps. VR developers earn between $25 and 120 per hour. The average cost of VR development will range between $50,000 and $200,000. However, the price will be entirely determined by your requirements.                                                </div>
+                                                    We develop AR applications for a variety of platforms including iOS (using ARKit), Android (using ARCore), and cross-platform solutions like Unity and Unreal Engine.
+                                                </div>
                                             </div>
                                         </div>
                                         <div className="accordion-item">
@@ -79,7 +82,7 @@ const ArFaq = () => {
                                                     aria-expanded="false"
                                                     aria-controls="flush-collapseTwo"
                                                 >
-                                                    Do you develop VR apps for various business models?
+                                                    What programming languages do you use for AR development?
                                                 </button>
                                             </h2>
                                             <div
@@ -88,7 +91,8 @@ const ArFaq = () => {
                                                 data-bs-parent="#accordionFlushExample"
                                             >
                                                 <div className="accordion-body">
-                                                    Yes, we create unique VR apps for desktop, mobile, and web platforms for different business models. Regarding the mobile applications, we provide cross-platform and native versions. To create VR apps, we also use AI/ML and other technologies.                                                </div>
+                                                    Our team is proficient in languages such as Swift, Objective-C, Java, Kotlin, C#, and C++, depending on the platform and development environment.
+                                                </div>
                                             </div>
                                         </div>
                                         <div className="accordion-item">
@@ -101,7 +105,7 @@ const ArFaq = () => {
                                                     aria-expanded="false"
                                                     aria-controls="flush-collapseThree"
                                                 >
-                                                    What platforms and technologies do Vraidens 3D/VR/AR development teams specialize in?
+                                                    Can you integrate AR features into existing applications?
                                                 </button>
                                             </h2>
                                             <div
@@ -110,7 +114,30 @@ const ArFaq = () => {
                                                 data-bs-parent="#accordionFlushExample"
                                             >
                                                 <div className="accordion-body">
-                                                    Our VR developers have extensive knowledge of all the latest platforms, including Unity, Unreal Engine, C#, and C++. Our team members possess the necessary skills to create immersive, effective solutions. We develop cross-platform, cross-device digital experiences as part of our virtual reality development services.
+                                                    Yes, we have experience integrating AR features into existing mobile applications, whether they are built natively or using cross-platform frameworks.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="accordion-item">
+                                            <h2 className="accordion-header">
+                                                <button
+                                                    className="accordion-button collapsed"
+                                                    type="button"
+                                                    data-bs-toggle="collapse"
+                                                    data-bs-target="#flush-collapseFour"
+                                                    aria-expanded="false"
+                                                    aria-controls="flush-collapseFour"
+                                                >
+                                                    How do you ensure compatibility with different devices?
+                                                </button>
+                                            </h2>
+                                            <div
+                                                id="flush-collapseFour"
+                                                className="accordion-collapse collapse"
+                                                data-bs-parent="#accordionFlushExample"
+                                            >
+                                                <div className="accordion-body">
+                                                    We conduct thorough testing on a range of devices to ensure compatibility and optimize performance. We also leverage features like device tracking and scaling to ensure a consistent experience across various screen sizes and resolutions.
                                                 </div>
                                             </div>
                                         </div>
