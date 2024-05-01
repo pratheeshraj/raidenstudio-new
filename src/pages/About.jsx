@@ -13,6 +13,8 @@ import AboutPara from "../components/AboutPara";
 import TestimonialSectionThree from "./../components/TestimonialSectionThree";
 import Aboutbanner from "./../components/Aboutbanner";
 import { useSelector } from "react-redux";
+import Breadcrumb2 from "../components/Breadcrumb2";
+import WhatwedoAbout from "../components/WhatwedoAbout";
 
 const About = () => {
   let [active, setActive] = useState(true);
@@ -40,12 +42,13 @@ const About = () => {
         {/* Header one */}
         <HeaderTwo />
         {/* Breadcrumb */}
-        <Breadcrumb
-          data={"About us"}
+        <Breadcrumb2
+          data={"About Raiden"}
           img={"url('/assets/img/bg-image/Frame 71.jpg')"}
         />
         {/* About Section One */}
         <AboutPara />
+        <WhatwedoAbout />
         {/* Testimonial Section One */}
         <TestimonialSectionThree />
         {/* Counter Section One */}
