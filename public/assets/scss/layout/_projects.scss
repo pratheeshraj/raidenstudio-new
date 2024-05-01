@@ -13,15 +13,18 @@
     position: relative;
     z-index: 9;
     overflow: hidden;
+
     .section-title-shape-one {
       margin-bottom: 60px;
       position: relative;
       z-index: 9;
     }
+
     .project-wrapper {
       position: relative;
       z-index: 9;
       margin-bottom: 40px;
+
       @media #{$xs, $xss} {
         margin-bottom: 130px;
       }
@@ -30,14 +33,17 @@
         border-radius: 5px;
         overflow: hidden;
         height: 350px;
+
         @media #{$xs, $xss} {
           overflow: visible;
         }
+
         img {
           width: 100%;
           height: 350px;
           object-fit: cover;
         }
+
         .shape-overlay {
           bottom: 20px;
           left: 50%;
@@ -48,14 +54,17 @@
           border-radius: 5px;
           text-align: center;
           transition: all 0.4s linear;
+
           @media #{$xs, $xss} {
             width: 300px;
             bottom: -70px;
           }
+
           h2 {
             font-size: 18px;
             line-height: 1.2;
           }
+
           a {
             font-size: 16px;
             font-weight: var(--fw-700);
@@ -63,26 +72,31 @@
             justify-content: center;
             align-items: center;
             gap: 10px;
+
             i {
               font-size: 14px;
               margin-top: 2px;
             }
+
             &:hover {
               color: var(--theme-1);
             }
           }
         }
       }
+
       &:hover {
         .shape-overlay {
           animation: pulse 2s;
           bottom: 30px;
+
           @media #{$xs, $xss} {
             bottom: -70px;
           }
         }
       }
     }
+
     .inner-btn {
       margin-top: 15px;
     }
@@ -92,85 +106,103 @@
         left: 0;
         bottom: -217px;
         z-index: -1;
+
         img {
           width: 100%;
           opacity: 0.4;
         }
       }
+
       .shape-img-2 {
         left: 10px;
         top: 40%;
         z-index: -1;
-        -webkit-animation: slide-top 10s linear 0.3s infinite alternate-reverse
-          both;
+        -webkit-animation: slide-top 10s linear 0.3s infinite alternate-reverse both;
         animation: slide-top 10s linear 0.3s infinite alternate-reverse both;
+
         img {
           width: 60px;
         }
+
         @media #{$sm ,$xs, $xss} {
           display: none;
         }
       }
+
       .shape-img-3 {
         left: 10%;
         top: 10%;
         z-index: -1;
         animation: animationFramesOne 25s linear infinite;
         -webkit-animation: animationFramesOne 25s linear infinite;
+
         img {
           width: 30px;
         }
+
         @media #{$sm, $xs, $xss} {
           display: none;
         }
       }
+
       .shape-img-4 {
         left: 15px;
         bottom: 40%;
         z-index: -1;
         animation: animationFramesOne 35s linear infinite;
         -webkit-animation: animationFramesOne 35s linear infinite;
+
         img {
           width: 15px;
         }
+
         @media #{$sm ,$xs, $xss} {
           display: none;
         }
       }
+
       .shape-img-5 {
         left: -3px;
         bottom: 7%;
         z-index: -1;
+
         img {
           width: 130px;
         }
+
         @media #{$sm ,$xs, $xss} {
           left: -3px;
           bottom: 10px;
         }
       }
+
       .shape-img-6 {
         right: 0;
         bottom: 2%;
         z-index: -1;
+
         img {
           width: 140px;
         }
+
         @media #{$sm ,$xs, $xss} {
           right: -10px;
           bottom: 0;
         }
       }
+
       .shape-img-7 {
         right: 25px;
         bottom: 40%;
         z-index: -1;
         animation: animationFramesOne 25s linear infinite;
         -webkit-animation: animationFramesOne 25s linear infinite;
+
         img {
           width: 30px;
         }
       }
+
       .shape-img-8 {
         right: 25px;
         bottom: 60%;
@@ -179,10 +211,12 @@
         img {
           width: 30px;
         }
+
         @media #{$sm ,$xs, $xss} {
           display: none;
         }
       }
+
       .shape-img-9 {
         right: 60px;
         top: 7%;
@@ -191,10 +225,12 @@
         img {
           width: 52px;
         }
+
         @media #{$sm, $xs, $xss} {
           display: none;
         }
       }
+
       .shape-img-10 {
         left: 25px;
         top: 7%;
@@ -203,6 +239,7 @@
         img {
           width: 75px;
         }
+
         @media #{$sm, $xs, $xss} {
           display: none;
         }
@@ -216,38 +253,50 @@
     position: relative;
     z-index: 9;
     overflow: hidden;
+
     @media #{$sm, $xs, $xss} {
       padding: 40px 0 !important;
     }
+
     .section-title-shape-one {
       margin-bottom: 60px;
     }
+
     .project-wrapper {
       z-index: 9;
       margin-bottom: 120px;
       background: var(--common-body-2);
       position: relative;
+
       img {
         border-radius: 8px;
         width: 100%;
       }
+
       .shape-overlay {
-          position: absolute;
-          background: var(--common-white);
-          padding: 0px 20px;
-          bottom: -40%;
-          left: 0;
-          width: 80%;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          height: -webkit-fill-available;
-          margin: 35px;
-          border-radius: 8px;
+        position: absolute;
+        /* From https://css.glass */
+        background: rgba(0, 0, 0, 0.43);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(9px);
+        -webkit-backdrop-filter: blur(9px);
+        padding: 0px 20px;
+        bottom: -40%;
+        left: 0;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: -webkit-fill-available;
+        margin: 35px;
+        border-radius: 8px;
+
         @media #{$sm} {
           bottom: -30%;
         }
+
         @media #{$xs, $xss} {
           bottom: -45%;
         }
@@ -256,24 +305,29 @@
           text-align: center;
           font-size: 22px;
           font-weight: 800;
-          color: var(--text-h);
+          color: white;
         }
+
         p {
           text-align: center;
           margin: 0;
-          color: var(--text-p-1);
+          color: white;
         }
+
         .default-btn {
           margin-top: 20px;
         }
       }
+
       &:hover {
         border-radius: 8px;
+
         img {
           animation: pulse 1s;
         }
       }
     }
+
     .inner-btn {
       margin-top: 15px;
     }
@@ -286,28 +340,32 @@
         width: 150px;
         transform: rotate(90deg);
       }
+
       .shape-2 {
         left: 41%;
         top: 12%;
         z-index: -1;
         width: 140px;
+
         @media #{$lg, $md, $sm, $xs, $xss} {
           left: 44%;
           top: 100px;
         }
+
         @media #{$sm, $xs, $xss} {
           top: 74px;
         }
       }
+
       .shape-3 {
         right: 41%;
         top: 12%;
         z-index: -1;
         width: 20px;
         animation: animationFramesOne 30s linear infinite reverse backwards;
-        -webkit-animation: animationFramesOne 30s linear infinite reverse
-          backwards;
+        -webkit-animation: animationFramesOne 30s linear infinite reverse backwards;
       }
+
       .shape-4 {
         right: 21%;
         top: 18%;
@@ -316,6 +374,7 @@
         animation: animationFramesOne 30s linear infinite;
         -webkit-animation: animationFramesOne 30s linear infinite;
       }
+
       .shape-5 {
         right: 26%;
         top: 10%;
@@ -323,17 +382,20 @@
         width: 20px;
         animation: trigger 4s linear infinite;
       }
+
       .shape-6 {
         right: 6%;
         bottom: 7%;
         z-index: -1;
         width: 63px;
         animation: trigger 6s linear infinite;
+
         @media #{$sm, $xs, $xss} {
           right: 15px;
           bottom: 35px;
         }
       }
+
       .shape-7 {
         left: 0;
         bottom: 0%;
@@ -349,30 +411,37 @@
     position: relative;
     z-index: 9;
     overflow: hidden;
+
     @media #{$sm, $xs, $xss} {
       padding: 40px 0 !important;
     }
+
     .section-title-shape-one {
       margin-bottom: 60px;
+
       @media #{$sm, $xs, $xss} {
         margin-bottom: 30px !important;
       }
     }
+
     .project-wrapper {
       z-index: 9;
       position: relative;
       margin-bottom: 30px;
+
       .img-file {
         @media #{$xss} {
           width: 100%;
           height: 250px;
           overflow: hidden;
+
           img {
             width: 100%;
             height: 100%;
             object-fit: cover;
           }
         }
+
         img {
           border-radius: 8px;
           width: 100%;
@@ -387,16 +456,15 @@
         top: 0;
         content: "";
         background: rgb(19, 196, 161);
-        background: linear-gradient(
-          180deg,
-          rgba(19, 196, 161, 0.192) 6%,
-          rgb(0 0 0) 100%
-        );
+        background: linear-gradient(180deg,
+            rgba(19, 196, 161, 0.192) 6%,
+            rgb(0 0 0) 100%);
         opacity: 0.4;
         border-radius: 8px;
         z-index: 0;
         @include transition(0.4s);
       }
+
       .shape-overlay {
         position: absolute;
         margin: 40px;
@@ -404,6 +472,7 @@
         left: 0;
         z-index: 9;
         overflow: hidden;
+
         @media #{ $xs, $xss} {
           margin: 15px 15px;
         }
@@ -417,22 +486,27 @@
             line-height: 1.2;
             font-weight: 800;
             color: var(--common-white);
+
             @media #{ $xs, $xss} {
               font-size: 22px;
             }
           }
+
           p {
             margin: 0;
             font-size: 16px;
             color: var(--text-p-2);
           }
+
           .link {
             margin-top: 15px;
+
             a {
               font-size: 20px;
               font-weight: 600;
               position: relative;
               @include transition(0.3s);
+
               &::after {
                 padding-left: 15px;
                 position: absolute;
@@ -449,46 +523,58 @@
             }
           }
         }
+
         .Industry {
           transform: translateY(100px);
+
           @media #{ $md,$sm} {
             transform: translateY(54px);
           }
+
           @media #{ $xss} {
             transform: translateY(130px);
           }
         }
+
         .Industry2 {
           transform: translateY(150px);
+
           @media #{ $md,$sm} {
             transform: translateY(54px);
           }
+
           @media #{ $xss} {
             transform: translateY(130px);
           }
         }
+
         .default-btn {
           margin-top: 20px;
         }
       }
+
       &:hover {
         &::after {
           @include transition(0.3s);
           opacity: 1;
         }
+
         .shape-overlay {
           .inner {
             transform: translateY(0);
           }
+
           .Industry {
             transform: translateY(0px);
           }
         }
       }
     }
+
     .inner-btn {
       margin-top: 15px;
     }
+
     .shape-image {
       .shape-1 {
         right: -409px;
@@ -496,21 +582,25 @@
         z-index: -1;
         width: 658px;
       }
+
       .shape-2 {
         right: 287px;
         top: 111px;
         z-index: -1;
         animation: rotate-in-center 12s linear 0s infinite reverse;
         width: 60px;
+
         @media #{$md, $sm} {
           right: 240px;
           top: 70px;
         }
+
         @media #{$xs, $xss} {
           right: 50px;
           top: 20px;
         }
       }
+
       .shape-3 {
         right: 470px;
         top: 201px;
@@ -527,11 +617,13 @@
       margin-top: 30px;
       display: flex;
       justify-content: center;
+
       ul {
         display: flex;
         gap: 12px;
         align-items: center;
         justify-content: center;
+
         li {
           a {
             width: 35px;
@@ -542,10 +634,12 @@
             align-items: center;
             justify-content: center;
             font-weight: 600;
+
             &:hover {
               animation: pulse-small 0.8s;
               color: var(--theme-1);
             }
+
             &.active {
               color: var(--theme-1);
             }
@@ -553,77 +647,91 @@
         }
       }
     }
+
     .shape-image-file {
       .shape-img-1 {
         left: -12px;
         top: 8%;
         z-index: -1;
+
         img {
           width: 60px;
         }
       }
+
       .shape-img-2 {
         top: -24px;
         right: -28px;
         z-index: -1;
+
         img {
           width: 100px;
         }
       }
+
       .shape-img-3 {
         top: 13%;
         right: 14%;
         z-index: -1;
-        -webkit-animation: scale-down-center 15s linear infinite
-          alternate-reverse both;
+        -webkit-animation: scale-down-center 15s linear infinite alternate-reverse both;
         animation: scale-down-center 15s linear infinite alternate-reverse both;
+
         img {
           width: 120px;
         }
       }
+
       .shape-img-4 {
         bottom: 21%;
         right: 20px;
         z-index: -1;
-        -webkit-animation: slide-top 10s linear 0.3s infinite alternate-reverse
-          both;
+        -webkit-animation: slide-top 10s linear 0.3s infinite alternate-reverse both;
         animation: slide-top 10s linear 0.3s infinite alternate-reverse both;
+
         img {
           width: 40px;
         }
       }
+
       .shape-img-5 {
         bottom: 40px;
         left: -28px;
         z-index: -1;
+
         img {
           width: 200px;
         }
       }
+
       .shape-img-6 {
         top: 74px;
         right: 42%;
         z-index: -1;
         animation: animationFramesOne 45s linear infinite reverse;
         -webkit-animation: animationFramesOne 45s linear infinite reverse;
+
         img {
           width: 30px;
         }
       }
+
       .shape-img-7 {
         top: 74px;
         right: 42%;
         z-index: -1;
         animation: animationFramesOne 55s linear infinite;
         -webkit-animation: animationFramesOne 55s linear infinite;
+
         img {
           width: 25px;
         }
       }
+
       .shape-img-8 {
         top: 26px;
         right: 54%;
         z-index: -1;
+
         img {
           width: 200px;
         }
@@ -637,25 +745,32 @@
   position: relative;
   z-index: 9;
   overflow: hidden;
+
   .title {
     margin-top: 60px;
+
     h2 {
       span {
         color: var(--theme-1);
       }
+
       font-size: 35px;
       line-height: 36px;
       margin-bottom: 20px;
     }
   }
+
   .inner-des {
     p {
       font-size: 16px;
+
       span {
         color: var(--theme-1);
       }
     }
+
     margin-top: 20px;
+
     .grid-action {
       display: grid;
       grid-gap: 2rem;
@@ -666,6 +781,7 @@
   .widget-project {
     margin-top: 60px;
     background: var(--common-body-2);
+
     @media #{$sm, $xs, $xss} {
       margin-top: 20px !important;
     }
@@ -673,40 +789,50 @@
     @media #{$md, $sm, $xs, $xss} {
       margin-left: 0;
     }
+
     .project_left {
       h2 {
         font-size: 35px;
+
         span {
           color: var(--theme-1);
         }
       }
+
       div {
         h3 {
           font-size: 16px;
+
           span {
             color: var(--theme-1);
           }
         }
       }
     }
+
     .inner-des2 {
       p {
         font-size: 16px;
+
         span {
           color: var(--theme-1);
         }
       }
     }
+
     .project {
       ul {
         li {
           margin-bottom: 15px;
+
           span {
             display: block;
+
             &:first-child {
               color: var(--text-p-1);
               line-height: initial;
             }
+
             &:last-child {
               color: var(--text-h);
               font-weight: 700;
@@ -721,9 +847,11 @@
 
     .social {
       margin-top: 20px;
+
       ul {
         display: flex;
         gap: 10px;
+
         li {
           a {
             display: block;
@@ -735,13 +863,16 @@
             justify-content: center;
             border-radius: 100%;
             transition: all 0.2s linear;
+
             i {
               font-size: 15px;
               color: var(--theme-1);
               transition: all 0.2s linear;
             }
+
             &:hover {
               background: var(--theme-1);
+
               i {
                 color: var(--common-white);
               }
@@ -751,11 +882,13 @@
       }
     }
   }
+
   .shape-image-file {
     .shape-img-1 {
       left: -12px;
       top: 8%;
       z-index: -1;
+
       @media #{$lg, $md, $sm, $xs, $xss} {
         top: 10px;
       }
@@ -764,78 +897,92 @@
         width: 60px;
       }
     }
+
     .shape-img-2 {
       top: -24px;
       right: -28px;
       z-index: -1;
+
       img {
         width: 100px;
       }
     }
+
     .shape-img-3 {
       top: 13%;
       right: 14%;
       z-index: -1;
-      -webkit-animation: scale-down-center 15s linear infinite alternate-reverse
-        both;
+      -webkit-animation: scale-down-center 15s linear infinite alternate-reverse both;
       animation: scale-down-center 15s linear infinite alternate-reverse both;
+
       img {
         width: 120px;
       }
     }
+
     .shape-img-4 {
       bottom: 21%;
       right: 20px;
       z-index: -1;
-      -webkit-animation: slide-top 10s linear 0.3s infinite alternate-reverse
-        both;
+      -webkit-animation: slide-top 10s linear 0.3s infinite alternate-reverse both;
       animation: slide-top 10s linear 0.3s infinite alternate-reverse both;
+
       @media #{$lg, $md, $sm, $xs, $xss} {
         animation: none;
         bottom: 10px;
       }
+
       img {
         width: 40px;
       }
     }
+
     .shape-img-5 {
       bottom: 40px;
       left: -28px;
       z-index: -1;
+
       img {
         width: 200px;
       }
     }
+
     .shape-img-6 {
       top: 74px;
       right: 42%;
       z-index: -1;
       animation: animationFramesOne 45s linear infinite reverse;
       -webkit-animation: animationFramesOne 45s linear infinite reverse;
+
       img {
         width: 30px;
       }
     }
+
     .shape-img-7 {
       top: 74px;
       right: 42%;
       z-index: -1;
       animation: animationFramesOne 55s linear infinite;
       -webkit-animation: animationFramesOne 55s linear infinite;
+
       img {
         width: 25px;
       }
     }
+
     .shape-img-8 {
       top: 26px;
       right: 54%;
       z-index: -1;
+
       img {
         width: 200px;
       }
     }
   }
 }
+
 .project_hero_content {
   position: relative;
   background-color: #00151e;
@@ -846,7 +993,8 @@
   height: 100vh;
   overflow: hidden;
 }
-.project_hero_section > video {
+
+.project_hero_section>video {
   position: fixed;
   top: 0;
   left: 0;
@@ -861,12 +1009,14 @@
   align-items: end;
   width: 100%;
   height: 90vh;
+
   img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     position: absolute;
   }
+
   .case_study_black {
     position: absolute;
     top: 0;
@@ -876,23 +1026,28 @@
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
   }
+
   .casestudy_detail_hero_container {
     padding-bottom: 50px;
     position: relative;
     z-index: 10;
     display: flex;
     flex-direction: column;
+
     @media #{ $xs, $xss} {
       align-items: center;
     }
+
     h2 {
       @media #{$sm, $xs, $xss} {
         font-size: 30px;
       }
+
       @media #{ $xs, $xss} {
         font-size: 26px;
         text-align: center;
       }
+
       @media #{  $xss} {
         font-size: 24px;
       }
@@ -900,6 +1055,7 @@
 
     .casestudy_type {
       color: var(--theme-1);
+
       @media #{ $xs, $xss} {
         text-align: center;
       }
@@ -922,11 +1078,13 @@
     height: 70px;
     top: 0px;
     background-color: #e0e3e8;
+
     @media #{ $xs, $xss} {
       height: auto;
       flex-direction: column;
       display: none;
     }
+
     a {
       color: black;
       width: 100%;
@@ -937,9 +1095,11 @@
       justify-content: center;
       cursor: pointer;
       transition: 0.5s all;
+
       @media #{ $xs, $xss} {
         padding: 4px 0;
       }
+
       &:hover {
         background-color: #d3d6db;
       }
@@ -951,20 +1111,25 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
     .csc_challenge {
       width: 70%;
+
       @media #{ $xs, $xss} {
         width: 100%;
       }
+
       .csc_challenge_dec {
         margin-top: 20px;
         color: black;
+
         @media #{ $xs, $xss} {
           width: 100%;
         }
       }
     }
   }
+
   .casestudy_challange {
     width: 100%;
     display: flex;
@@ -972,15 +1137,19 @@
     align-items: center;
     scroll-behavior: smooth;
     padding-bottom: 40px;
+
     .challenge_container {
       width: 70%;
+
       @media #{ $xs, $xss} {
         width: 100%;
       }
+
       h2 {
         padding-top: 80px;
         color: black;
         font-size: 26px;
+
         @media #{  $xss} {
           font-size: 20px;
         }
@@ -989,6 +1158,7 @@
       .Challenge_dec {
         font-size: 20px;
       }
+
       p {
         color: black;
       }
@@ -1000,27 +1170,34 @@
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
+
   .casestudy_objective_container {
     width: 70%;
+
     @media #{ $xs, $xss} {
       width: 100%;
     }
+
     h2 {
       padding-top: 80px;
       color: black;
       font-size: 26px;
+
       @media #{  $xss} {
         font-size: 20px;
       }
     }
+
     .casestudy_objective_dec {
       font-size: 20px;
     }
+
     p {
       color: black;
     }
   }
 }
+
 .casestudy_objective_img {
   width: 100%;
   height: 250px;
@@ -1029,27 +1206,34 @@
 
 .casestudy_impact_main {
   margin-bottom: 40px;
+
   .casestudy_impact {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+
     .casestudy_impact_container {
       width: 70%;
+
       @media #{ $xs, $xss} {
         width: 100%;
       }
+
       h2 {
         padding-top: 80px;
         color: black;
         font-size: 26px;
+
         @media #{  $xss} {
           font-size: 20px;
         }
       }
+
       .casestudy_impact_dec {
         font-size: 20px;
       }
+
       p {
         color: black;
       }

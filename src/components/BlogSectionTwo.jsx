@@ -11,7 +11,7 @@ const BlogSectionTwo = () => {
   return (
     <>
       {/* Blog Section two start */}
-      <section className="blog-section two">
+      <section className="blog-section two" style={{ background: "white" }}>
         <div className="auto-container">
           <div className="row">
             <div className="col-12">
@@ -20,8 +20,9 @@ const BlogSectionTwo = () => {
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
+                <h3 style={{ color: "#13C4A1" }}>Blog</h3>
                 <h2 style={{ color: "black", textAlign: "center" }}>
-                  Latest thinking in AI &amp; our <br />{" "}
+                  Latest thinking &amp; our <br />{" "}
                   <span className="theme-color">company news</span>
                 </h2>
               </div>
@@ -55,7 +56,7 @@ const BlogSectionTwo = () => {
                           </Link>
                         </h2>
                         <p>
-                          {`${data?.maincontent.substring(0, 60)}...`}
+                          {`${data?.maincontent.substring(0, 100)}...`}
                         </p>
                         <Link className="link" to={`/blogdetails/${data?.url}`}>
                           Read More
