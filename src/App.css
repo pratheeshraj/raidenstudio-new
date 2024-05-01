@@ -311,6 +311,7 @@
     height: 400px;
     object-fit: cover;
     margin-bottom: 15px;
+    border-radius: 2px;
 }
 
 .about_what_we_do_image_2 img {
@@ -318,4 +319,31 @@
     height: 400px;
     object-fit: cover;
     margin-top: 15px;
+    border-radius: 2px;
+}
+
+.about_why_card_div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 40px;
+}
+
+.about_why_card {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about_why_card img {
+    width: 80px !important;
+    height: 80px !important;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.about_why_card p {
+    text-align: center;
 }
