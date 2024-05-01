@@ -40,11 +40,10 @@ const ProjectSectionThree = () => {
                   />
                   <div className="shape-overlay poa">
                     <div className="inner">
-                      <h2>Raiden Verse</h2>
+                      <h2>RaidenVerse</h2>
                       <p>
-                        In this space, we will explore the most innovative and
-                        impactful Artificial Intelligence projects, real-world
-                        applications.
+                        We redefine virtual experiences, providing individuals and businesses with the ability to effortlessly traverse ...
+                        {/* immersive environments while leveraging the capabilities of artificial intelligence. */}
                       </p>
                       <div className="link d-inline-block">
                         <Link to="/raiden-verse">View More</Link>
@@ -68,11 +67,10 @@ const ProjectSectionThree = () => {
                   />
                   <div className="shape-overlay poa">
                     <div className="inner">
-                      <h2>Raiden SimX</h2>
+                      <h2>RaidenSimX</h2>
                       <p>
-                        In this space, we will explore the most innovative and
-                        impactful Artificial Intelligence projects, real-world
-                        applications.
+                        Our state-of-the-art technology facilitates dynamic environments, empowering individuals and organizations...
+                        {/* to improve their skills, knowledge, and performance across diverse industries through immersive simulations driven by human-guided artificial intelligence. */}
                       </p>
                       <div className="link d-inline-block">
                         <Link to="/raiden-simx">View More</Link>
@@ -96,11 +94,10 @@ const ProjectSectionThree = () => {
                   />
                   <div className="shape-overlay poa">
                     <div className="inner">
-                      <h2>Metaverse CASINO</h2>
+                      <h2>RaidenCogni+</h2>
                       <p>
-                        In this space, we will explore the most innovative and
-                        impactful Artificial Intelligence projects, real-world
-                        applications.
+                        COGNI+ utilizes immersive VR technology to create realistic and engaging training scenarios. Users are transported...
+                        {/* to interactive environments where they can practice social interactions, communication skills, and behavioral responses in a safe and controlled setting. */}
                       </p>
                       <div className="link d-inline-block">
                         <Link to="/raiden-cogni">View More</Link>
@@ -124,11 +121,10 @@ const ProjectSectionThree = () => {
                   />
                   <div className="shape-overlay poa">
                     <div className="inner">
-                      <h2>Raiden ARCVIZ</h2>
+                      <h2>RaidenARCVIZ</h2>
                       <p>
-                        In this space, we will explore the most innovative and
-                        impactful Artificial Intelligence projects, real-world
-                        applications.
+                        We utilize Virtual Reality (VR) technology to revolutionize the domains of architecture and real estate. Backed by a team of...
+                        {/* committed innovators and experienced industry professionals, we spearhead this transformative journey. */}
                       </p>
                       <div className="link d-inline-block">
                         <Link to="/raiden-arcviz">View More</Link>
