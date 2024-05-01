@@ -1388,7 +1388,7 @@ const HeaderTwo = () => {
                 <ul>
                   <li>
                     <i className="fa-sharp fa-solid fa-location-dot" />
-                    Saravanampatti , Coimbatore
+                    Kgisl Tech Park opp, Saravanampatti , Coimbatore
                     TamilNadu
                   </li>
                   <li>
@@ -1492,8 +1492,9 @@ const HeaderTwo = () => {
                 <ul>
                   <li>
                     <i className="fa-sharp fa-solid fa-location-dot pe-1" />
-                    {"  "}Saravanampatti , Coimbatore TamilNadu
+                    Kgisl Tech Park opp, Saravanampatti ,
                   </li>
+                  <li>Coimbatore , TamilNadu</li>
                   <li>
                     <i className="fa-solid fa-envelope pe-1" /> info@raiden.studio
                   </li>

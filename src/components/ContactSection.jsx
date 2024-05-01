@@ -217,7 +217,8 @@ const ContactSection = () => {
                 </div>
                 <div className="view">
                   <h3>Head Office</h3>
-                  <p>Saravanampatti , Coimbatore</p>
+                  <p>Kgisl Tech Park opp, Saravanampatti , Coimbatore
+                  </p>
                   <p>TamilNadu</p>
                 </div>
               </div>
