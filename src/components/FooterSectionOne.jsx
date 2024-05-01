@@ -16,11 +16,7 @@ const FooterSectionOne = () => {
                 </div>
                 <div className="des" data-aos="fade-up" data-aos-delay="300">
                   <p>
-                    Artificial intelligence is intelligence demonstrated by
-                    machines, as opposed to intelligence of humans and other
-                    animals. Example tasks in which this is done include speech
-                    recognition, computer vision, translation between languages,
-                    as well as other mappings of inputs.
+                    At Raiden Studios, we blend innovation with expertise to navigate the ever-evolving landscapes of gaming, virtual reality (VR), augmented reality (AR), and blockchain technology. As a premier consulting and solutions provider, we offer comprehensive services tailored to meet the unique needs of our clients in these dynamic industries.
                   </p>
                 </div>
                 <div

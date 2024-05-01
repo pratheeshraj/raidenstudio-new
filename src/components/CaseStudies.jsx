@@ -87,14 +87,9 @@ const CaseStudies = () => {
             src="/assets/img/shape/09_shape.png"
             alt=""
           />
-          <img class="shape-7 poa" src="/assets/img/shape/05_shape.png" alt="" />
-          <img
-            className="shape-7 poa"
+          <img class="shape-7 poa"
             src="/assets/img/shape/05_shape.png"
-            alt=""
-          />
-          <img class="shape-3 poa" src="/assets/img/icon/71_icon.png" alt="" />
-          <img class="shape-2 poa" src="/assets/img/icon/78_icon.png" alt="" />
+            alt="" />
         </div>
       </section>
       {/* Project Section two end */}
