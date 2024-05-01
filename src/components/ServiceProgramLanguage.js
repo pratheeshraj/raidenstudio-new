@@ -71,61 +71,61 @@ const ServiceProgramLanguage = () => {
                         {
                             frontend ? <div className="right_Language_div">
                                 <div className="Card_service">
-                                    <img src="/assets/img/Language/becomeamernstackdeveloper-mobile-min.png" alt="" />
+                                    <img src="/assets/img/Language/openai-icon.svg" alt="" />
                                     <div className="Card_name_sevice">OpenAI GPT</div>
                                 </div>
                                 <div className="Card_service">
-                                    <img src="/assets/img/Language/Screenshot_2024-03-27_112007-removebg-preview-min.png" alt="" />
-                                    <div className="Card_name_sevice">Microsoft Cognitive Toolkit (CNTK)</div>
+                                    <img src="/assets/img/Language/microsoft-cog.svg" alt="" />
+                                    <div style={{ textAlign: "center" }} className="Card_name_sevice">Microsoft Cognitive</div>
                                 </div>
                                 <div className="Card_service ">
-                                    <img style={{ scale: "1.3" }} src="/assets/img/Language/WebGL-Logo.wine.svg" alt="" />
+                                    <img src="/assets/img/Language/tensorflow-icon.svg" alt="" />
                                     <div className="Card_name_sevice">TensorFlow</div>
                                 </div>
                                 <div className="Card_service ">
-                                    <img style={{ scale: "1.3" }} src="/assets/img/Language/WebGL-Logo.wine.svg" alt="" />
+                                    <img src="/assets/img/Language/pytorch-icon.svg" alt="" />
                                     <div className="Card_name_sevice">PyTorch</div>
                                 </div>
                                 <div className="Card_service ">
-                                    <img style={{ scale: "1.3" }} src="/assets/img/Language/WebGL-Logo.wine.svg" alt="" />
+                                    <img src="/assets/img/Language/Keras.svg" alt="" />
                                     <div className="Card_name_sevice">Keras</div>
                                 </div>
                             </div> : mobile ? <div className="right_Language_div">
                                 <div className="Card3_service">
-                                    <img src="/assets/img/Language/REACT NATIVE.svg" alt="" />
+                                    <img style={{ fill: "red" }} src="/assets/img/Language/PYTHON.svg" alt="" />
                                     <div className="Card_name_sevice">Python</div>
                                 </div>
                                 <div className="Card3_service">
-                                    <img src="/assets/img/Language/FLUTTER.svg" alt="" />
+                                    <img src="/assets/img/Language/JAVA.svg" alt="" />
                                     <div className="Card_name_sevice">Java</div>
                                 </div>
                                 <div className="Card3_service">
-                                    <img src="/assets/img/Language/SWIFT.svg" alt="" />
+                                    <img src="/assets/img/Language/jupyter-icon.svg" alt="" />
                                     <div className="Card_name_sevice">Jupyter Notebooks</div>
                                 </div>
                                 <div className="Card3_service">
-                                    <img src="/assets/img/Language/KATLIN.svg" alt="" />
+                                    <img src="/assets/img/Language/git-scm-icon.svg" alt="" />
                                     <div className="Card_name_sevice">Git</div>
                                 </div>
                             </div> : blockchain ? <div className="right_Language_div">
                                 <div className="Card5_service">
-                                    <img src="/assets/img/Language/ethereum-eth-logo.svg" alt="" />
+                                    <img src="/assets/img/Language/docker-svgrepo-com.svg" alt="" />
                                     <div className="Card_name_sevice">Docker</div>
                                 </div>
                                 <div className="Card5_service">
-                                    <img src="/assets/img/Language/solana-sol-logo.svg" alt="" />
+                                    <img src="/assets/img/Language/kubernetes-icon.svg" alt="" />
                                     <div className="Card_name_sevice">Kubernetes</div>
                                 </div>
                                 <div className="Card5_service">
-                                    <img src="/assets/img/Language/cardano-ada-logo.svg" alt="" />
-                                    <div className="Card_name_sevice">AWS/Azure (Cloud Platforms)</div>
+                                    <img style={{ scale: "1.3" }} src="/assets/img/Language/aws azure.svg" alt="" />
+                                    <div style={{ textAlign: "center" }} className="Card_name_sevice">AWS / Azure</div>
                                 </div>
                                 <div className="Card5_service">
-                                    <img src="/assets/img/Language/polkadot-new-dot-logo.svg" alt="" />
+                                    <img src="/assets/img/Language/hadoop-icon.svg" alt="" />
                                     <div className="Card_name_sevice">Hadoop</div>
                                 </div>
                                 <div className="Card5_service">
-                                    <img src="/assets/img/Language/ipfs-logo.svg" alt="" />
+                                    <img src="/assets/img/Language/apache_kafka-icon.svg" alt="" />
                                     <div className="Card_name_sevice">Apache Kafka</div>
                                 </div>
                             </div> : ""

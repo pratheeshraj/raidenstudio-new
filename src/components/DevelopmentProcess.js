@@ -26,7 +26,7 @@ function DevelopmentProcess() {
               <div className={`timeline  ${isVisible ? 'visible' : ''}`}>
                 <VisibilitySensor onChange={onAnimationVisible}>
                   <div className={`container_devo left-container ${isVisible ? 'visible' : ''}`}>
-                    <div className='devo_round_div'><img src='/assets/img/aiprocessdevelopment/discovery.svg' alt='' />
+                    <div className='devo_round_div'><img src='/assets/img/aiprocessdevelopment/data-prep.svg' alt='' />
                     </div>
                     <div className='text-box'>
                       <h2>Data Preparation</h2>
@@ -42,7 +42,7 @@ function DevelopmentProcess() {
                 </VisibilitySensor>
                 <VisibilitySensor onChange={onAnimationVisible}>
                   <div className={`container_devo right-container ${isVisible ? 'visible' : ''}`}>
-                    <div className='devo_round_div'><img src='/assets/img/aiprocessdevelopment/datacollection.svg' alt='' />
+                    <div className='devo_round_div'><img src='/assets/img/aiprocessdevelopment/design.svg' alt='' />
                     </div>
                     <div className='text-box'>
                       <h2>Model Selection and Design</h2>
@@ -60,7 +60,7 @@ function DevelopmentProcess() {
                 </VisibilitySensor>
                 <VisibilitySensor onChange={onAnimationVisible}>
                   <div className={`container_devo left-container ${isVisible ? 'visible' : ''}`}>
-                    <div className='devo_round_div'><img src='/assets/img/aiprocessdevelopment/model.svg' alt='' />
+                    <div className='devo_round_div'><img src='/assets/img/aiprocessdevelopment/optimization.svg' alt='' />
                     </div>
                     <div className='text-box'>
                       <h2>Training and Optimization</h2>
@@ -76,8 +76,9 @@ function DevelopmentProcess() {
                 </VisibilitySensor>
                 <VisibilitySensor onChange={onAnimationVisible}>
                   <div className={`container_devo right-container ${isVisible ? 'visible' : ''}`}>
-                    <div className='devo_round_div'><img src='/assets/img/aiprocessdevelopment/testing.svg' alt='' />
-                    </div>                    <div className='text-box'>
+                    <div className='devo_round_div'><img src='/assets/img/aiprocessdevelopment/deployment.svg' alt='' />
+                    </div>
+                    <div className='text-box'>
                       <h2>Deployment and Integration</h2>
                       <p>
                         <ul className='ai_process_li'>
@@ -91,8 +92,9 @@ function DevelopmentProcess() {
                 </VisibilitySensor>
                 <VisibilitySensor onChange={onAnimationVisible}>
                   <div className={`container_devo left-container ${isVisible ? 'visible' : ''}`}>
-                    <div className='devo_round_div'><img src='/assets/img/aiprocessdevelopment/deployment.svg' alt='' />
-                    </div>                    <div className='text-box'>
+                    <div className='devo_round_div'><img src='/assets/img/aiprocessdevelopment/maintenance.svg' alt='' />
+                    </div>
+                    <div className='text-box'>
                       <h2>Monitoring and Maintenance</h2>
                       <p>
                         <ul className='ai_process_li'>
