@@ -217,9 +217,9 @@ const ContactSection = () => {
                 </div>
                 <div className="view">
                   <h3>Head Office</h3>
-                  <p>Kgisl Tech Park opp, Saravanampatti , Coimbatore
+                  <p>No: 5 Namachivaya Nagar, Opp KGISL Tech park, Saravanampatti, Coimbatore,
                   </p>
-                  <p>TamilNadu</p>
+                  <p>TamilNadu - 641035</p>
                 </div>
               </div>
             </div>

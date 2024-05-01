@@ -1388,8 +1388,7 @@ const HeaderTwo = () => {
                 <ul>
                   <li>
                     <i className="fa-sharp fa-solid fa-location-dot" />
-                    Kgisl Tech Park opp, Saravanampatti , Coimbatore
-                    TamilNadu
+                    No: 5 Namachivaya Nagar, Opp KGISL Tech park, Saravanampatti, Coimbatore, TamilNadu - 641035
                   </li>
                   <li>
                     <i className="fa-solid fa-envelope" />
@@ -1427,10 +1426,7 @@ const HeaderTwo = () => {
                   src="\assets\img\Language\raiden new black-min.png" alt="" />
               </div>
               <p>
-                Oracle Cloud Infrastructure (OCI) AI Services is a collection of
-                services with prebuilt machine learning models that make it
-                easier for developers to apply AI to applications and business
-                operations.
+                Raiden Studios: Innovating the future of gaming, VR, AR, and blockchain. Your go-to consultancy for cutting-edge solutions tailored to your needs. Let's redefine possibilities together!
               </p>
             </div>
             <div className="intro-text">
@@ -1479,10 +1475,7 @@ const HeaderTwo = () => {
               <div className="title-text">
                 <h3>About Raiden</h3>
                 <p>
-                  Most people focus on the results of AI. For those of us who
-                  like to look under the hood, there are four foundational
-                  elements to understand: categorization, classification,
-                  machine learning, and collaborative filtering.
+                  At Raiden Studios, we blend innovation with expertise to navigate the ever-evolving landscapes of gaming, virtual reality (VR), augmented reality (AR), and blockchain technology. As a premier consulting and solutions provider, we offer comprehensive services tailored to meet the unique needs of our clients in these dynamic industries.
                 </p>
               </div>
             </div>
@@ -1492,9 +1485,9 @@ const HeaderTwo = () => {
                 <ul>
                   <li>
                     <i className="fa-sharp fa-solid fa-location-dot pe-1" />
-                    Kgisl Tech Park opp, Saravanampatti ,
+                    No: 5 Namachivaya Nagar, Opp KGISL Tech park, Saravanampatti, Coimbatore,
                   </li>
-                  <li>Coimbatore , TamilNadu</li>
+                  <li>TamilNadu - 641035 </li>
                   <li>
                     <i className="fa-solid fa-envelope pe-1" /> info@raiden.studio
                   </li>

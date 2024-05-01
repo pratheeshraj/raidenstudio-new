@@ -16,7 +16,7 @@ const FooterSectionOne = () => {
                 </div>
                 <div className="des" data-aos="fade-up" data-aos-delay="300">
                   <p>
-                    At Raiden Studios, we blend innovation with expertise to navigate the ever-evolving landscapes of gaming, virtual reality (VR), augmented reality (AR), and blockchain technology. As a premier consulting and solutions provider, we offer comprehensive services tailored to meet the unique needs of our clients in these dynamic industries.
+                    Raiden Studios: Innovating the future of gaming, VR, AR, and blockchain. Your go-to consultancy for cutting-edge solutions tailored to your needs. Let's redefine possibilities together!
                   </p>
                 </div>
                 <div
