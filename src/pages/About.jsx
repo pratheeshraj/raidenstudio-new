@@ -11,6 +11,9 @@ import { useSelector } from "react-redux";
 import Breadcrumb2 from "../components/Breadcrumb2";
 import WhatwedoAbout from "../components/WhatwedoAbout";
 import Aboutwhychoose from "../components/Aboutwhychoose";
+import Breadcrumb from './../components/Breadcrumb';
+import AboutCompany from "../components/AboutCompany";
+import AboutCount from "../components/AboutCount";
 
 const About = () => {
   let [active, setActive] = useState(true);
@@ -38,14 +41,16 @@ const About = () => {
         {/* Header one */}
         <HeaderTwo />
         {/* Breadcrumb */}
-        <Breadcrumb2
-          data={"About Raiden"}
+        <Breadcrumb
+          data={"About us"}
           img={"url('/assets/img/bg-image/Frame 71.jpg')"}
         />
         {/* About Section One */}
-        <AboutPara />
-        <WhatwedoAbout />
-        <Aboutwhychoose />
+        <AboutCompany />
+        <AboutCount />
+        {/* <AboutPara /> */}
+        {/* <WhatwedoAbout /> */}
+        {/* <Aboutwhychoose /> */}
         {/* Testimonial Section One */}
         <TestimonialSectionThree />
         {/* Counter Section One */}

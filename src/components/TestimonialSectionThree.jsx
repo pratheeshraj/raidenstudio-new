@@ -5,7 +5,7 @@ const TestimonialSectionThree = () => {
   return (
     <>
       {/* Testimonial Section three start*/}
-      <section className="testimonial-section three">
+      <section className="testimonial-section three" style={{ background: "white" }}>
         <div className="auto-container">
           <div className="row">
             <div className="col-12">
