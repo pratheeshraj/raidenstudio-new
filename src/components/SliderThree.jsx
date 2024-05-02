@@ -54,11 +54,11 @@ function SliderThree() {
     setItemActive(index);
   };
 
-  // useEffect(() => {
-  //   clearInterval(intervalRef.current);
-  //   intervalRef.current = setInterval(handleNext, 6000);
-  //   return () => clearInterval(intervalRef.current);
-  // }, [handleNext]);
+  useEffect(() => {
+    clearInterval(intervalRef.current);
+    intervalRef.current = setInterval(handleNext, 6000);
+    return () => clearInterval(intervalRef.current);
+  }, [handleNext]);
 
   useEffect(() => {
     const slider = sliderRef.current;
