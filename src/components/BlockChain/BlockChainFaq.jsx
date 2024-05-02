@@ -13,14 +13,16 @@ const BlockChainFaq = () => {
                                 data-aos="fade-right"
                                 data-aos-delay="300"
                             >
-                             <h3>
+                                <h3>
                                     FAQ
                                 </h3>
                                 <h2>
-                                Answers At A <br/>Glance
+                                    Answers At A <br /><span className="theme-color"> Glance</span>
                                 </h2>
-                                <p style={{ marginBottom: "10px" }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem aut cumque facere ab tempore iusto sapiente. Ex quisquam modi corporis dicta, qui, eveniet dolor amet delectus molestias incidunt suscipit neque?</p>
-                          </div>
+                                <p style={{ marginBottom: "10px" }}>
+                                    Gain clarity on the benefits, industries served, development timelines, ongoing support, and how to kickstart your journey into the world of tailored blockchain solutions.
+                                </p>
+                            </div>
                             <div
                                 className="img-file "
                                 data-aos="fade-right"
@@ -57,7 +59,7 @@ const BlockChainFaq = () => {
                                                     aria-expanded="false"
                                                     aria-controls="flush-collapseOne"
                                                 >
-                                                    What is blockchain?
+                                                    What are custom blockchain solutions?
                                                 </button>
                                             </h2>
                                             <div
@@ -66,7 +68,7 @@ const BlockChainFaq = () => {
                                                 data-bs-parent="#accordionFlushExample"
                                             >
                                                 <div className="accordion-body">
-                                                    Blockchain is a digital ledger technology where transactions are recorded in real-time and in a secure, unchangeable manner across a network of computers.
+                                                    Custom blockchain solutions are tailored technological platforms built to meet specific business needs using blockchain technology. They offer flexibility, security, and efficiency by addressing unique requirements.
                                                 </div>
                                             </div>
                                         </div>
@@ -80,7 +82,7 @@ const BlockChainFaq = () => {
                                                     aria-expanded="false"
                                                     aria-controls="flush-collapseTwo"
                                                 >
-                                                    Can anyone create a blockchain?
+                                                    How can custom blockchain solutions benefit my business?
                                                 </button>
                                             </h2>
                                             <div
@@ -89,7 +91,7 @@ const BlockChainFaq = () => {
                                                 data-bs-parent="#accordionFlushExample"
                                             >
                                                 <div className="accordion-body">
-                                                    Yes, anyone with the necessary coding skills and understanding of blockchain technology can develop their own blockchain system.
+                                                    Custom blockchain solutions can streamline operations, enhance transparency, improve security, reduce costs, and provide a competitive edge by leveraging decentralized and immutable ledger technology.
                                                 </div>
                                             </div>
                                         </div>
@@ -103,7 +105,7 @@ const BlockChainFaq = () => {
                                                     aria-expanded="false"
                                                     aria-controls="flush-collapseThree"
                                                 >
-                                                    How much time do you require to complete the project?
+                                                    How do I know if my business needs a custom blockchain solution?
                                                 </button>
                                             </h2>
                                             <div
@@ -112,7 +114,8 @@ const BlockChainFaq = () => {
                                                 data-bs-parent="#accordionFlushExample"
                                             >
                                                 <div className="accordion-body">
-                                                    The time required for the project completion entirely depends upon your project size and requirements.                                                </div>
+                                                    Consider implementing a custom blockchain solution if you face challenges related to data security, transparency, traceability, efficiency, or if you operate in industries where trust and authenticity are paramount.
+                                                </div>
                                             </div>
                                         </div>
                                         <div className="accordion-item">
@@ -125,7 +128,7 @@ const BlockChainFaq = () => {
                                                     aria-expanded="false"
                                                     aria-controls="flush-collapseFour"
                                                 >
-                                                    In which areas I can use the blockchain functions?
+                                                    What industries can benefit from custom blockchain solutions?
                                                 </button>
                                             </h2>
                                             <div
@@ -134,7 +137,7 @@ const BlockChainFaq = () => {
                                                 data-bs-parent="#accordionFlushExample"
                                             >
                                                 <div className="accordion-body">
-                                                    In enhancing data security. In making decentralized operations. In creating advanced smart contracts.
+                                                    Virtually any industry can benefit, but particularly those with complex supply chains, financial transactions, identity verification, intellectual property management, healthcare records, and legal documentation.
                                                 </div>
                                             </div>
                                         </div>

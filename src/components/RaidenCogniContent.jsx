@@ -496,7 +496,7 @@ const RaidenCogniContent = () => {
                   </p>
                   <div className="inner-btn d-adjust">
                     <div>
-                      <Link className="default-btn" to="/contact">
+                      <Link className="default-btn" to="/contact-us">
                         Let’s Work To Do{" "}
                       </Link>
                     </div>

@@ -26,12 +26,15 @@ function DevelopmentProcess() {
               <div className={`timeline  ${isVisible ? 'visible' : ''}`}>
                 <VisibilitySensor onChange={onAnimationVisible}>
                   <div className={`container_devo left-container ${isVisible ? 'visible' : ''}`}>
-                    <div className='devo_round_div'><img src='/assets/img/aiprocessdevelopment/discovery.svg' alt='' />
+                    <div className='devo_round_div'><img src='/assets/img/aiprocessdevelopment/data-prep.svg' alt='' />
                     </div>
                     <div className='text-box'>
-                      <h2>Discovery</h2>
+                      <h2>Data Preparation</h2>
                       <p>
-                        Work together with our team to understand your goals and figure out your specific requirements.
+                        <ul className='ai_process_li'>
+                          <li>Clean and format data.</li>
+                          <li>Conduct exploratory analysis.</li>
+                        </ul>
                       </p>
                       <span className='left-container-arrow'></span>
                     </div>
@@ -39,12 +42,15 @@ function DevelopmentProcess() {
                 </VisibilitySensor>
                 <VisibilitySensor onChange={onAnimationVisible}>
                   <div className={`container_devo right-container ${isVisible ? 'visible' : ''}`}>
-                    <div className='devo_round_div'><img src='/assets/img/aiprocessdevelopment/datacollection.svg' alt='' />
+                    <div className='devo_round_div'><img src='/assets/img/aiprocessdevelopment/design.svg' alt='' />
                     </div>
                     <div className='text-box'>
-                      <h2>Data Collection & Preparation</h2>
+                      <h2>Model Selection and Design</h2>
                       <p>
-                        We collect and prepare the required data, assuring its accuracy and importance for preparation.
+                        <ul className='ai_process_li'>
+                          <li>Choose suitable models.</li>
+                          <li>Design custom architectures.</li>
+                        </ul>
                       </p>
                       <span className='right-container-arrow'></span>
                     </div>
@@ -54,11 +60,15 @@ function DevelopmentProcess() {
                 </VisibilitySensor>
                 <VisibilitySensor onChange={onAnimationVisible}>
                   <div className={`container_devo left-container ${isVisible ? 'visible' : ''}`}>
-                    <div className='devo_round_div'><img src='/assets/img/aiprocessdevelopment/model.svg' alt='' />
-                    </div>                    <div className='text-box'>
-                      <h2>Model Development</h2>
+                    <div className='devo_round_div'><img src='/assets/img/aiprocessdevelopment/optimization.svg' alt='' />
+                    </div>
+                    <div className='text-box'>
+                      <h2>Training and Optimization</h2>
                       <p>
-                        Select the most suitable algorithms and create unique AI models based on your specific application.
+                        <ul className='ai_process_li'>
+                          <li>Train models with prepared data.</li>
+                          <li>Optimize parameters.</li>
+                        </ul>
                       </p>
                       <span className='left-container-arrow'></span>
                     </div>
@@ -66,35 +76,15 @@ function DevelopmentProcess() {
                 </VisibilitySensor>
                 <VisibilitySensor onChange={onAnimationVisible}>
                   <div className={`container_devo right-container ${isVisible ? 'visible' : ''}`}>
-                    <div className='devo_round_div'><img src='/assets/img/aiprocessdevelopment/testing.svg' alt='' />
-                    </div>                    <div className='text-box'>
-                      <h2>Testing and evaluation</h2>
-                      <p>
-                        Thoroughly test the models to ensure reliability, security, and performance in a wide range of configurations.
-                      </p>
-                      <span className='right-container-arrow'></span>
-                    </div>
-                  </div>
-                </VisibilitySensor>
-                <VisibilitySensor onChange={onAnimationVisible}>
-                  <div className={`container_devo left-container ${isVisible ? 'visible' : ''}`}>
                     <div className='devo_round_div'><img src='/assets/img/aiprocessdevelopment/deployment.svg' alt='' />
-                    </div>                    <div className='text-box'>
-                      <h2>Deployment</h2>
-                      <p>
-                        Easily incorporate the AI solution into the current structure so that it can power your business workflows.
-                      </p>
-                      <span className='left-container-arrow'></span>
                     </div>
-                  </div>
-                </VisibilitySensor>
-                <VisibilitySensor onChange={onAnimationVisible}>
-                  <div className={`container_devo right-container ${isVisible ? 'visible' : ''}`}>
-                    <div className='devo_round_div'><img src='/assets/img/aiprocessdevelopment/track.svg' alt='' />
-                    </div>                    <div className='text-box'>
-                      <h2>Tracking and Tuning</h2>
+                    <div className='text-box'>
+                      <h2>Deployment and Integration</h2>
                       <p>
-                        Track the AI system's performance continuously and make required changes and adaptations
+                        <ul className='ai_process_li'>
+                          <li>Deploy models in production.</li>
+                          <li>Integrate with existing systems.</li>
+                        </ul>
                       </p>
                       <span className='right-container-arrow'></span>
                     </div>
@@ -103,10 +93,14 @@ function DevelopmentProcess() {
                 <VisibilitySensor onChange={onAnimationVisible}>
                   <div className={`container_devo left-container ${isVisible ? 'visible' : ''}`}>
                     <div className='devo_round_div'><img src='/assets/img/aiprocessdevelopment/maintenance.svg' alt='' />
-                    </div>                    <div className='text-box'>
-                      <h2>Maintenance and Support</h2>
+                    </div>
+                    <div className='text-box'>
+                      <h2>Monitoring and Maintenance</h2>
                       <p>
-                        Take advantage of our ongoing maintenance and support to guarantee that your AI solution stays cutting edge.
+                        <ul className='ai_process_li'>
+                          <li>Implement monitoring tools.</li>
+                          <li>Maintain and update models.</li>
+                        </ul>
                       </p>
                       <span className='left-container-arrow'></span>
                     </div>

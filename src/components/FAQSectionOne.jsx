@@ -61,7 +61,7 @@ const FAQSectionOne = () => {
                           aria-expanded="false"
                           aria-controls="flush-collapseOne"
                         >
-                          Can i have multiple activities in single feature?
+                          What is generative AI?
                         </button>
                       </h2>
                       <div
@@ -70,15 +70,7 @@ const FAQSectionOne = () => {
                         data-bs-parent="#accordionFlushExample"
                       >
                         <div className="accordion-body">
-                          As you may have read in our AI, ML, and deep learning
-                          post, ML is a subset of AI. Not all AI systems learn
-                          from experience but ML-enabled devices do. Very simply
-                          put, all ML systems are AI but not all AI machines are
-                          ML-capable. As you may have read in our AI, ML, and
-                          deep learning post, ML is a subset of AI. Not all AI
-                          systems learn from experience but ML-enabled devices
-                          do. Very simply put, all ML systems are AI but not all
-                          AI machines are ML-capable.
+                          Generative AI refers to technology that enables machines to generate content such as images, text, or music autonomously, often mimicking or creating new data based on patterns learned from existing data.
                         </div>
                       </div>
                     </div>
@@ -92,8 +84,7 @@ const FAQSectionOne = () => {
                           aria-expanded="false"
                           aria-controls="flush-collapseTwo"
                         >
-                          What is the difference between Data Analyst?{"{"}" "
-                          {"}"}
+                          What are the applications of generative AI?
                         </button>
                       </h2>
                       <div
@@ -102,15 +93,7 @@ const FAQSectionOne = () => {
                         data-bs-parent="#accordionFlushExample"
                       >
                         <div className="accordion-body">
-                          As you may have read in our AI, ML, and deep learning
-                          post, ML is a subset of AI. Not all AI systems learn
-                          from experience but ML-enabled devices do. Very simply
-                          put, all ML systems are AI but not all AI machines are
-                          ML-capable. As you may have read in our AI, ML, and
-                          deep learning post, ML is a subset of AI. Not all AI
-                          systems learn from experience but ML-enabled devices
-                          do. Very simply put, all ML systems are AI but not all
-                          AI machines are ML-capable.
+                          Generative AI has various applications across industries, including content creation, artistic design, product prototyping, virtual environments, and data augmentation for training machine learning models.
                         </div>
                       </div>
                     </div>
@@ -124,7 +107,7 @@ const FAQSectionOne = () => {
                           aria-expanded="false"
                           aria-controls="flush-collapseThree"
                         >
-                          What are 3 good things about artificial intelligence?
+                          How can generative AI benefit my business?
                         </button>
                       </h2>
                       <div
@@ -133,15 +116,30 @@ const FAQSectionOne = () => {
                         data-bs-parent="#accordionFlushExample"
                       >
                         <div className="accordion-body">
-                          As you may have read in our AI, ML, and deep learning
-                          post, ML is a subset of AI. Not all AI systems learn
-                          from experience but ML-enabled devices do. Very simply
-                          put, all ML systems are AI but not all AI machines are
-                          ML-capable. As you may have read in our AI, ML, and
-                          deep learning post, ML is a subset of AI. Not all AI
-                          systems learn from experience but ML-enabled devices
-                          do. Very simply put, all ML systems are AI but not all
-                          AI machines are ML-capable.
+                          Generative AI can streamline content creation processes, enhance creativity, generate realistic prototypes, personalize user experiences, and improve efficiency in various tasks, ultimately driving innovation and competitive advantage.
+                        </div>
+                      </div>
+                    </div>
+                    <div className="accordion-item">
+                      <h2 className="accordion-header">
+                        <button
+                          className="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseFour"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseFour"
+                        >
+                          What expertise do you offer in generative AI development?
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapseFour"
+                        className="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div className="accordion-body">
+                          We specialize in developing custom generative AI solutions tailored to your specific needs, leveraging advanced algorithms, cross-domain expertise, and ethical AI practices to deliver innovative and scalable solutions.
                         </div>
                       </div>
                     </div>

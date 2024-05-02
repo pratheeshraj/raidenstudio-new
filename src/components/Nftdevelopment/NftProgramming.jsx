@@ -443,7 +443,7 @@ const NftProgramming = () => {
                                 </div>
                             </div> : game ? <div className="right_Language_div">
                                 <div className="Card6_service">
-                                    <img src="/assets/img/Language/UNITY.svg" alt="" />
+                                <img src="/assets/img/Language/solidity.svg" alt="" />
                                     <div className="Card_name_sevice">Solidity</div>
                                 </div>
                                 <div className="Card6_service">

@@ -35,15 +35,15 @@ const MetaverseCasionoHero = () => {
                                             <div className="slider-content-inner ">
                                                 <div>
                                                     <h2 className="slider-title">
-                                                         VirtualVegas Ultimate
-                                                        <span className="theme-color" style={{color:"#57E400"}}> Metaverse Casino Destination!</span>
+                                                        VirtualVegas Ultimate
+                                                        <span className="theme-color" style={{ color: "#57E400" }}> Metaverse Casino Destination!</span>
                                                     </h2>
                                                     <p className="description Hero_sub_heading">
-                                                       comprehensive platform that combines the excitement of <br/>traditional casino gaming with the cutting-edge technology.
+                                                        comprehensive platform that combines the excitement of <br />traditional casino gaming with the cutting-edge technology.
                                                     </p>
                                                     <div className="inner-btn">
                                                         <div>
-                                                            <Link className="default-btn" to="/contact" style={{backgroundColor:"#4ECD00"}}>
+                                                            <Link className="default-btn" to="/contact-us" style={{ backgroundColor: "#4ECD00" }}>
                                                                 Explore Now
                                                             </Link>
                                                         </div>

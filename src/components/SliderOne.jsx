@@ -37,15 +37,15 @@ const SliderOne = () => {
                       <div className="slider-content-inner ">
                         <div>
                           <h2 className="slider-title">
-                            AI Development
+                            AI Development <br />
                             <span className="theme-color"> Company</span>
                           </h2>
-                          <p className="description">
-                            We're an international custom AI development company that helps to simplify your business workflows and boost operational productivity. Combining our creativity, AI expertise, and AI applications development approach, we deliver a complete AI spectrum that matters to users' and businesses' success.
+                          <p className="description Hero_sub_heading">
+                            We're an international custom AI development  company that helps to simplify your business workflows and boost operational productivity.
                           </p>
                           <div className="inner-btn">
                             <div>
-                              <Link className="default-btn" to="/contact">
+                              <Link className="default-btn" to="/contact-us">
                                 Explore Now
                               </Link>
                             </div>

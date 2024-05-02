@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const ProjectSectionOne = () => {
-  
+
   return (
     <>
       {/* Project Section one start */}
@@ -139,7 +139,7 @@ const ProjectSectionOne = () => {
           </div>
           <div className="inner-btn d-adjust">
             <div>
-              <Link className="default-btn" to="/contact">
+              <Link className="default-btn" to="/contact-us">
                 View All Projects
               </Link>
             </div>

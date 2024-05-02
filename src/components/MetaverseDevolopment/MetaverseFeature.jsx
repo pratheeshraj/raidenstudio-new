@@ -35,14 +35,6 @@ function NftFeatures() {
                             <div>SSRF Protection</div>
                         </div>
                         <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/http.svg' />
-                            <div>HTTP Parameter Protection</div>
-                        </div>
-                        <div className='feature_card'>
-                            <img src='/assets/img/featue-metaverse/ddos.svg' />
-                            <div>DDoS Protection</div>
-                        </div>
-                        <div className='feature_card'>
                             <img src='/assets/img/featue-metaverse/virtual events.svg' />
                             <div>Virtual Events</div>
                         </div>

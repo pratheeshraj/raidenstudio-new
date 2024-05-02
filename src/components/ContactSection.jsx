@@ -1,28 +1,75 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { toast, Toaster } from "react-hot-toast";
+import { createContact } from "../action/ContactAction";
+import { useDispatch } from "react-redux";
 const ContactSection = () => {
   const form = useRef();
+  const dispatch = useDispatch();
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [telegram, setTelegram] = useState("");
+  const [message, setMessage] = useState("");
+
+
   const sendEmail = (e) => {
     e.preventDefault();
-    // Please See Documentation for more information
+
+    const contactData = {
+      "name": name,
+      "email": email,
+      "phone": phone,
+      "telegram": telegram,
+      "message": message
+    };
+
+
+    if (!name || !email || !phone || !message) {
+      if (!name) {
+        toast.error("Please Enter name", {
+          position: "top-center",
+        });
+      }
+      if (!email) {
+        toast.error("Please Enter Email", {
+          position: "top-center",
+        });
+      }
+      if (!phone) {
+        toast.error("Please Enter Phone", {
+          position: "top-center",
+        });
+      }
+      if (!message) {
+        toast.error("Please Enter Message", {
+          position: "top-center",
+        });
+      }
+      return;
+    }
+
+    dispatch(createContact(contactData));
+
     emailjs
       .sendForm(
-        "service_ljx76ce", //YOUR_SERVICE_ID
-        "template_71bgc2q", //YOUR_TEMPLATE_ID
+        "service_0274fcb", //YOUR_SERVICE_ID
+        "template_q3081ko", //YOUR_TEMPLATE_ID
         form.current,
-        "cwf8kROl5o3__96Ti" //YOUR_PUBLIC_KEY
+        "21lNpD1cwOwuP13Qn" //YOUR_PUBLIC_KEY
       )
       .then(
         (result) => {
           if (result.text === "OK") {
-            toast.success("Massage Sent Successfully!");
-            form.current[0].value = "";
-            form.current[1].value = "";
-            form.current[2].value = "";
-            form.current[3].value = "";
-            form.current[4].value = "";
-            form.current[5].value = "";
+            toast.success("Message Sent Successfully!", {
+              position: "top-center", // Display toast only at the top center
+            });
+            form.current.reset();
+            setName("")
+            setEmail("")
+            setPhone("")
+            setMessage("")
+            setTelegram("")
           }
         },
         (error) => {
@@ -34,7 +81,7 @@ const ContactSection = () => {
   };
   return (
     <>
-      <Toaster position="bottom-center" reverseOrder={false} />
+      <Toaster position="top-center" reverseOrder={false} />
       {/* Contact Section start */}
       <section className="contact-section">
         <div className="auto-container">
@@ -53,8 +100,9 @@ const ContactSection = () => {
                 id="contact-form"
                 className="contact-form"
               >
-                <div className="d-block d-md-flex gap-0">
+                <div className="d-block d-md-flex gap-4">
                   <div
+                    style={{ padding: "0" }}
                     className="form-author"
                     data-aos="fade-up"
                     data-aos-delay="200"
@@ -67,6 +115,8 @@ const ContactSection = () => {
                       id="name"
                       name="user_name"
                       required="required"
+                      value={name}
+                      onChange={(e) => setName(e.target.value)}
                     />
                   </div>
                   <div
@@ -82,23 +132,28 @@ const ContactSection = () => {
                       id="email"
                       name="user_email"
                       required="required"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
                     />
                   </div>
                 </div>
-                <div className="d-block d-md-flex gap-0 mt-2">
+                <div className="d-block d-md-flex gap-4 mt-2">
                   <div
+                    style={{ padding: "0" }}
                     className="form-author"
                     data-aos="fade-up"
                     data-aos-delay="200"
                   >
                     <label>
-                      Subject <span className="required">*</span>
+                      Phone <span className="required">*</span>
                     </label>
                     <input
                       type="text"
                       id="subject"
-                      name="subject"
+                      name="user_phone"
                       required="required"
+                      value={phone}
+                      onChange={(e) => setPhone(e.target.value)}
                     />
                   </div>
                   <div
@@ -106,8 +161,15 @@ const ContactSection = () => {
                     data-aos="fade-up"
                     data-aos-delay="300"
                   >
-                    <label>Website</label>
-                    <input type="url" id="url" name="website" />
+                    <label>Telegram No</label>
+                    <input
+                      type="text"
+                      id="url"
+                      name="user_telegramno"
+                      value={telegram}
+                      onChange={(e) => setTelegram(e.target.value)}
+                    />
+
                   </div>
                 </div>
                 <div
@@ -123,6 +185,8 @@ const ContactSection = () => {
                     rows={8}
                     spellCheck="false"
                     defaultValue={""}
+                    value={message}
+                    onChange={(e) => setMessage(e.target.value)}
                   />
                 </div>
                 <div
@@ -141,68 +205,37 @@ const ContactSection = () => {
               </form>
               <p className="form-Messages mt-3" />
             </div>
-            <div className="col-lg-4">
-              <div className="appointment">
-                <div className="title">
-                  <h4>Need Appointment</h4>
-                  <p>
-                    Schedule a meeting with someone, as in Do I need to make
-                    another appointment with the team?
-                  </p>
-                </div>
-                <table className="table  table-dark">
-                  <thead>
-                    <tr>
-                      <th scope="col">Day</th>
-                      <th scope="col">Morning</th>
-                      <th scope="col">Night</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th scope="row">Sunday</th>
-                      <td>Closed</td>
-                      <td>5pm - 9pm</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">Monday - Friday</th>
-                      <td>Open</td>
-                      <td>5pm - 9pm</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">Saturday</th>
-                      <td>Closed</td>
-                      <td>Closed</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
+            {/* <div className="col-lg-4">
+              <img src="\assets\img\contact-right.png" />
+            </div> */}
           </div>
           <div className="row location-tag">
-            <div className="col-lg-3 col-md-6 col-12">
+            <div className="col-lg-3 col-md-6 col-12 contact_box_card">
               <div className="item " data-aos="fade-up" data-aos-delay="300">
                 <div className="icon">
                   <i className="fa-sharp fa-solid fa-location-dot" />
                 </div>
                 <div className="view">
                   <h3>Head Office</h3>
-                  <p>2590 Rockford Mountain Lane Four Oaks, NC.</p>
+                  <p>No: 5 Namachivaya Nagar, Opp KGISL Tech park, Saravanampatti, Coimbatore,
+                  </p>
+                  <p>TamilNadu - 641035</p>
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 col-12">
+            <div className="col-lg-3 col-md-6 col-12 contact_box_card">
               <div className="item " data-aos="fade-up" data-aos-delay="400">
                 <div className="icon">
-                <i className="fa-sharp fa-solid fa-location-dot" />
+                  <i className="fa-sharp fa-solid fa-location-dot" />
                 </div>
                 <div className="view">
                   <h3>Office</h3>
-                  <p>2590 Rockford Mountain Lane Four Oaks, NC.</p>
+                  <p>Thiru Nagar , Madurai</p>
+                  <p>TamilNadu</p>
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 col-12">
+            <div className="col-lg-3 col-md-6 col-12 contact_box_card">
               <div className="item " data-aos="fade-up" data-aos-delay="400">
                 <div className="icon">
                   <i className="fa-solid fa-headset" />
@@ -213,7 +246,7 @@ const ContactSection = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 col-12">
+            <div className="col-lg-3 col-md-6 col-12 contact_box_card">
               <div className="item " data-aos="fade-up" data-aos-delay="500">
                 <div className="icon">
                   <i className="fa-solid fa-envelope" />
@@ -226,31 +259,31 @@ const ContactSection = () => {
             </div>
           </div>
         </div>
-        <div className="contact-map">
+        {/* <div className="contact-map">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6304.829986131271!2d-122.4746968033092!3d37.80374752160443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808586e6302615a1%3A0x86bd130251757c00!2sStorey+Ave%2C+San+Francisco%2C+CA+94129!5e0!3m2!1sen!2sus!4v1435826432051"
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d978.8673875855843!2d76.99904226955294!3d11.078339999318088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTHCsDA0JzQyLjAiTiA3NsKwNTknNTguOSJF!5e0!3m2!1sen!2sin!4v1714374950104!5m2!1sen!2sin"
             height={570}
           />
-        </div>
+        </div> */}
         <div className="shape-image-file">
-          <div className="shape-img-1 poa">
+          {/* <div className="shape-img-1 poa">
             <img src="/assets/img/icon/21_icon.png" alt="" />
           </div>
           <div className="shape-img-2 poa">
             <img src="/assets/img/icon/64_icon.png" alt="" />
-          </div>
-          <div className="shape-img-4 poa">
+          </div> */}
+          {/* <div className="shape-img-4 poa">
             <img src="/assets/img/icon/08_icon.png" alt="" />
-          </div>
-          <div className="shape-img-5 poa">
+          </div> */}
+          {/* <div className="shape-img-5 poa">
             <img src="/assets/img/icon/78_icon.png" alt="" />
-          </div>
-          <div className="shape-img-6 poa">
+          </div> */}
+          {/* <div className="shape-img-6 poa">
             <img src="/assets/img/icon/43_icon.png" alt="" />
-          </div>
-          <div className="shape-img-7 poa">
+          </div> */}
+          {/* <div className="shape-img-7 poa">
             <img src="/assets/img/icon/68_icon.png" alt="" />
-          </div>
+          </div> */}
           <div className="shape-img-8 poa">
             <img src="/assets/img/icon/71_icon.png" alt="" />
           </div>

@@ -104,7 +104,7 @@ const AsTech = () => {
                                 </div>
                             </div> : mobile ? <div className="right_Language_div">
                                 <div className="Card3_service">
-                                    <img src="/assets/img/Language/REACT NATIVE.svg" alt="" />
+                                    <img src="/assets/img/Language/solidity.svg" alt="" />
                                     <div className="Card_name_sevice">Solidity</div>
                                 </div>
                                 <div className="Card3_service">
@@ -117,7 +117,7 @@ const AsTech = () => {
                                     <div className="Card_name_sevice">Ethereum</div>
                                 </div>
                                 <div className="Card5_service">
-                                    <img src="/assets/img/Language/solana-sol-logo.svg" alt="" />
+                                    <img src="/assets/img/Language/hyperledger-icon.svg" alt="" />
                                     <div className="Card_name_sevice">Hyperledger</div>
                                 </div>
                                 <div className="Card5_service">

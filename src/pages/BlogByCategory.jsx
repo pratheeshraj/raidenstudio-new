@@ -54,11 +54,11 @@ const BlogByCategory = () => {
       ) : (
         <Suspense>
           {/* Helmet */}
-          <HelmetReact title={"Blog Grid Sidebar"} />
+          <HelmetReact title={"Blog Details"} />
           {/* Header one */}
           <HeaderTwo />
           {/* Breadcrumb */}
-          <Breadcrumb data={"Blog Grid Sidebar"} />
+          <Breadcrumb data={"Blog Details"} />
           {/* Blog Grid Sidebar*/}
           <BlogCategorySection />
           {/* News Section One */}

@@ -19,7 +19,7 @@ const ServiceSectionThree = () => {
                   We provide a range of all-inclusive
                   <span className="theme-color"> services & solutions</span>
                 </h2>
-                <p style={{ textAlign: "center" }}>We're experts at providing innovative solutions that use cutting-edge technology to boost creativity and revolutionize industries. Our skilled professionals have extensive experience in a variety of domains, allowing us to provide comprehensive services in,</p>
+                <p style={{ textAlign: "center" }}>We're experts at providing innovative solutions that use cutting-edge technology to boost creativity and revolutionize industries.</p>
               </div>
             </div>
           </div>
@@ -103,12 +103,12 @@ const ServiceSectionThree = () => {
                         </div>
                         <div className="text-file">
                           <h2 className="title">
-                            <Link to="/nft">
+                            <Link to="/nft-development-company">
                               NFT Development
                             </Link>
                           </h2>
                           <p>
-                            Being a top NFT development company, we create platforms that let users trade and mint NFTs rights on your website. We can create a custom NFT marketplace, integrate wallets, and offer trading options like Opensea. A purpose-built platform will enable your users to trade assets seamlessly.                          </p>
+                            We create platforms that let users trade and mint NFTs rights on your website. We can create a custom NFT marketplace, integrate wallets, and offer trading options like Opensea. A purpose-built platform will enable your users to trade assets seamlessly.                          </p>
                           {/* <div className="link">
                             <Link to="/service-details">Read More</Link>
                           </div> */}
@@ -137,7 +137,7 @@ const ServiceSectionThree = () => {
                             </Link>
                           </h2>
                           <p>
-                            Our Generative AI development team will assist you in creating cutting-edge, custom Generative AI solutions such as chatbots, business robo-advisors, lifecycle project automation, and more. We innovate and automatically improve business operations by leveraging our experience working on AI projects.
+                            We will assist you in creating cutting-edge, custom Generative AI solutions such as chatbots, business robo-advisors, lifecycle project automation, and more. We innovate and automatically improve business operations by leveraging our experience working on AI projects.
                           </p>
                           {/* <div className="link">
                             <Link to="/service-details">Read More</Link>

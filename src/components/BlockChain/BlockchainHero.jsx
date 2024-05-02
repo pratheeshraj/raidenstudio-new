@@ -44,12 +44,12 @@ const BlockchainHero = () => {
                                                         {/* <h4 className="theme-color">The Most Professional</h4> */}
                                                         <span className="theme-color"> Blockchain Development Services</span><br />
                                                     </h2>
-                                                    <p style={{ width: "500px" }} className="description metaverse_hero_para">
-                                                        We helped many businesses leverage blockchain by offering cost-effective blockchain development solutions and encouraging everyone who benefits. Our blockchain developers have expertise in developing Web3, Games, NFTs, DApps, DeFi, Metaverse, DAOs, exchanges, custodial wallets, smart contracts, stablecoins, and more
+                                                    <p style={{ width: "500px" }} className="description metaverse_hero_para Hero_sub_heading">
+                                                        Expertise in developing Web3, Games, NFTs, DApps, DeFi, Metaverse, DAOs, exchanges, custodial wallets, smart contracts, stablecoins, and more
                                                     </p>
                                                     <div className="inner-btn" >
                                                         <div>
-                                                            <Link className="default-btn" to="/contact">
+                                                            <Link className="default-btn" to="/contact-us">
                                                                 Explore Now
                                                             </Link>
                                                         </div>

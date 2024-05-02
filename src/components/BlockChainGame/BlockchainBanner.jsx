@@ -18,14 +18,14 @@ const BlockchainBanner = () => {
                             <div className="col-lg-6">
                                 <div className="title">
                                     <h2>
-                                        Are you ready to adopt <span className="theme-color">AI innovation</span> for your business?
+                                        Is your business geared up to integrate <span className="theme-color"> Blockchain game development services?</span>
                                     </h2>
                                     <p>
-                                        VR can be your ideal artificial intelligence development firm, helping you determine how AI may transform your operations, increase efficiency, and elevate productivity.
+                                        we're committed to bringing innovation and cutting-edge technology to your gaming projects. Let's collaborate and unlock the endless possibilities of Blockchain gaming together!"
                                     </p>
                                     <div className="inner-btn d-adjust">
                                         <div>
-                                            <Link className="default-btn" to="/contact">
+                                            <Link className="default-btn" to="/contact-us">
                                                 Let’s Work To Do{" "}
                                             </Link>
                                         </div>

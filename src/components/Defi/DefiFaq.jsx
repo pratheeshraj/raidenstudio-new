@@ -17,9 +17,11 @@ const DefiFaq = () => {
                                     FAQ
                                 </h3>
                                 <h2>
-                                Answers At A <br/>Glance
+                                    Answers At A <br /><span className="theme-color"> Glance</span>
                                 </h2>
-                                <p style={{ marginBottom: "10px" }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem aut cumque facere ab tempore iusto sapiente. Ex quisquam modi corporis dicta, qui, eveniet dolor amet delectus molestias incidunt suscipit neque?</p>
+                                <p style={{ marginBottom: "10px" }}>
+                                    Gain rapid understanding of the transformative potential of DeFi development services for your business
+                                </p>
                             </div>
                             <div
                                 className="img-file "

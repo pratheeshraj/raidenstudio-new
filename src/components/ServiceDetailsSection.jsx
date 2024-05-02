@@ -27,7 +27,17 @@ const ServiceDetailsSection = () => {
               <div className="right-wrapper ps-2">
                 <h2 style={{ color: "black" }} className="title">Custom AI Software & App Development Company</h2>
                 <p style={{ color: "black" }}>
-                  With our experience in creating AI apps, we, as a reputable artificial intelligence development company provide businesses with cutting-edge AI development solutions. Our skilled team of artificial intelligence developers creates tailored solutions, such as machine learning algorithms, analytical models, and interactive chatbots, to meet the particular needs of various sectors. Our state-of-the-art products and services are made to empower your business and generate prominent results as it embarks on a digital transformation.                </p>
+                  With our experience in creating AI apps, we, as a reputable artificial intelligence development company provide businesses with cutting-edge AI development solutions.
+                </p>
+                <p style={{ fontWeight: "bold" }}>Unlocking Innovation with Our Generative AI Expertise</p>
+                <ul className="ai_service_li">
+                  <li>Advanced Algorithms</li>
+                  <li>Custom Solutions</li>
+                  <li>Cross-Domain Expertise</li>
+                  <li>Scalability and Efficiency</li>
+                  <li>Ethical AI Practices</li>
+                  <li>Continuous Innovation</li>
+                </ul>
               </div>
             </div>
           </div>

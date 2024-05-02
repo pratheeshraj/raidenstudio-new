@@ -90,6 +90,7 @@
 .flag-dropdown {
     background: transparent !important;
     border: none !important;
+    width: 50px !important;
 }
 
 .country-name {

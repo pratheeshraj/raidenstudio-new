@@ -7,84 +7,94 @@ import 'react-phone-input-2/lib/style.css'
 import ReactFlagsSelect from "react-flags-select";
 import { useDispatch } from "react-redux";
 import { createContact } from "../action/ContactAction";
+import { enqueryContact } from "../action/EnqueryAction";
 
 const ContactSection2 = () => {
+
+  const form = useRef();
+
 
   const dispatch = useDispatch();
   const [selected, setSelected] = useState('IN');
   const [name, setName] = useState("");
-  const [nameError, setNameError] = useState("");
   const [email, setEmail] = useState("");
-  const [emailError, setEmailError] = useState("");
   const [phone, setPhone] = useState("");
-  const [phoneError, setPhoneError] = useState("");
   const [country, setCountry] = useState("");
-  const [messageError, setMessageError] = useState("");
   const [message, setMessage] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault(); // Prevent default form submission
 
-    // Validation
-    let isValid = true;
-    if (name === "") {
-      setNameError("Name is required");
-      isValid = false;
-    } else {
-      setNameError("");
-    }
-    if (email === "") {
-      setEmailError("Email is required");
-      isValid = false;
-    } else {
-      setEmailError("");
-    }
-    if (phone === "") {
-      setPhoneError("Phone is required");
-      isValid = false;
-    } else {
-      setPhoneError("");
-    }
-
-    if (message === "") {
-      setMessageError("message is required");
-      isValid = false;
-    } else {
-      setMessageError("");
-    }
-
-    if (!isValid) {
-      return;
-    }
-
-    const ContactData = {
+    const enqueryData = {
       "name": name,
       "email": email,
       "phone": phone,
       "country": selected,
       "message": message
-    }
+    };
 
     try {
 
-      dispatch(createContact(ContactData))
+      if (!name || !email || !phone || !message) {
+        if (!name) {
+          toast.error("Please Enter name", {
+            position: "top-center",
+          });
+        }
+        if (!email) {
+          toast.error("Please Enter Email", {
+            position: "top-center",
+          });
+        }
+        if (!phone) {
+          toast.error("Please Enter Phone", {
+            position: "top-center",
+          });
+        }
+        if (!message) {
+          toast.error("Please Enter Message", {
+            position: "top-center",
+          });
+        }
+        return;
+      }
 
-      // Reset form fields after submission
-      setName("");
-      setEmail("");
-      setPhone("");
-      setCountry("");
-      setMessage("");
+      dispatch(enqueryContact(enqueryData));
+
+
+      emailjs
+        .sendForm(
+          "service_mg9q3wt", // Replace with your service ID
+          "template_o26rqua", // Replace with your template ID
+          form.current, // Access the actual DOM element
+          "21lNpD1cwOwuP13Qn" // Replace with your public key
+        )
+        .then(
+          (result) => {
+            if (result.text === "OK") {
+              toast.success("Thank You!", {
+                position: "top-center",
+              });
+              form.current.reset();
+              setName("")
+              setEmail("")
+              setPhone("")
+              setMessage("")
+            }
+          },
+          (error) => {
+            toast.error("Message Not Sent!");
+          }
+        );
 
     } catch (error) {
       console.error("Error submitting contact form:", error);
     }
-
   };
 
   return (
     <>
-      <Toaster position="bottom-center" reverseOrder={false} />
+      <Toaster position="top-center" reverseOrder={false} />
       {/* Contact Section start */}
       <section className="contact-section" style={{ background: "white" }}>
         <div className="auto-container">
@@ -93,39 +103,49 @@ const ContactSection2 = () => {
               <div className="right_div aos-init aos-animate" data-aos="fade-right" data-aos-delay="300">
                 <h2 className="right_div_contact_heading">Get a Free <span className="theme-color">Quote Today</span></h2>
                 <p>Please fill out the quick form and we will be in touch with lightening speed.</p>
-                <form className="right_div_input_div" onSubmit={handleSubmit}>
+                <form className="right_div_input_div" ref={form}
+                  onSubmit={handleSubmit}>
                   <div>
-                    <input type="text" placeholder="Name" value={name} onChange={(e) => setName(e.target.value)} />
-                    {nameError && <div className="error-message">{nameError}</div>}
+                    <input
+                      type="text"
+                      placeholder="Name"
+                      name="user_name"
+                      value={name}
+                      onChange={(e) => setName(e.target.value)} />
                   </div>
                   <div>
-                    <input type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
-                    {emailError && <div className="error-message">{emailError}</div>}</div>
-                  <div>
-                    <PhoneInput
+                    <input type="email"
+                      placeholder="Email"
+                      name="user_email"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)} />
+                  </div>
+                  <div style={{ marginTop: "8px" }}>
+                    <input
                       type="tel"
+                      placeholder="Phone"
                       className="phone_no_input"
-                      country={'in'}
+                      name="user_phone"
                       value={phone}
-                      onChange={(phoneValue) => setPhone(phoneValue)}
+                      onChange={(e) => setPhone(e.target.value)}
                     />
-                    {phoneError && <div className="error-message">{phoneError}</div>}
                   </div>
                   <ReactFlagsSelect
                     selected={selected}
                     onSelect={(countryCode) => setSelected(countryCode)}
                     searchPlaceholder="Search Country"
                     searchable
+                    name="user_country"
                     defaultCountry="IN"
                   />
                   <div className="text-contat-div">
                     <textarea
                       type="text"
+                      name="message"
                       placeholder="Message"
                       value={message}
                       onChange={(e) => setMessage(e.target.value)}
                     />
-                    {messageError && <div className="error-message">{messageError}</div>}
                   </div>
                   <button className="Contact2_button" type="submit">
                     <div class="svg-wrapper-1">

@@ -15,22 +15,22 @@ import { useSelector } from "react-redux";
 const MetaverseCasino = () => {
     const { allMetaData } = useSelector((state) => state.metaDataState);
     const [metadata, setMetaData] = useState([]);
-  
+
     useEffect(() => {
-      if (allMetaData) {
-        const data = allMetaData.filter((meta) => meta.page_name == "Virtual Vegas");
-        setMetaData(data);
-      }
+        if (allMetaData) {
+            const data = allMetaData.filter((meta) => meta.page_name == "Virtual Vegas");
+            setMetaData(data);
+        }
     }, [allMetaData]);
     return (
         <Fragment>
             <Suspense>
-            <HelmetReact
-          title={metadata[0]?.meta_title}
-          description={metadata[0]?.meta_dec}
-          keywords={metadata[0]?.meta_keyword}
-          ogimage={metadata[0]?.og_image}
-        />
+                <HelmetReact
+                    title={metadata[0]?.meta_title}
+                    description={metadata[0]?.meta_dec}
+                    keywords={metadata[0]?.meta_keyword}
+                    ogimage={metadata[0]?.og_image}
+                />
                 <HeaderTwo />
                 <MetaverseCasionoHero />
                 <MetaverseCasinoContent />
@@ -47,13 +47,13 @@ const MetaverseCasino = () => {
                                 <div className="col-lg-6">
                                     <div className="title">
                                         <h2>
-                                        Join the ranks of leading online casinos by partnering with <span className="theme-color" style={{color:"#57E400"}}> VirtualVegas today!</span>
+                                            Join the ranks of leading online casinos by partnering with <span className="theme-color" style={{ color: "#57E400" }}> VirtualVegas today!</span>
                                         </h2>
                                         <p>
-                                         Don't miss out on the future of gaming - join VirtualVegas and take your casino to new heights!                                        </p>
+                                            Don't miss out on the future of gaming - join VirtualVegas and take your casino to new heights!                                        </p>
                                         <div className="inner-btn d-adjust">
                                             <div>
-                                                <Link className="default-btn" to="/contact" style={{backgroundColor:"#4ecd00"}}>
+                                                <Link className="default-btn" to="/contact-us" style={{ backgroundColor: "#4ecd00" }}>
                                                     Let’s Work To Do{" "}
                                                 </Link>
                                             </div>

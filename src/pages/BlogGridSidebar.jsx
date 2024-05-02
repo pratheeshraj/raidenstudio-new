@@ -46,9 +46,9 @@ const BlogGridSidebar = () => {
           <Preloader />
         ) : (
           <Suspense>
-            <HelmetReact title={"Blog Grid Sidebar"} />
+            <HelmetReact title={"Blogs"} />
             <HeaderTwo />
-            <Breadcrumb data={"Blog"} img={"url('/assets/img/bg-image/Frame 72.jpg')"}/>
+            <Breadcrumb data={"Blogs"} img={"url('/assets/img/bg-image/Frame 72.jpg')"} />
             <BlogGridSidebarSection />
             <NewsSectionOne />
             <FooterSectionOne />

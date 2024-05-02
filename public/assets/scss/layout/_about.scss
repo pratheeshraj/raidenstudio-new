@@ -383,7 +383,7 @@
     }
     .right-wrapper {
       @media #{$md, $sm, $xs, $xss} {
-        margin-top: 70px;
+        margin-top: 30px;
         padding-left: 0;
       }
       .inner-list {

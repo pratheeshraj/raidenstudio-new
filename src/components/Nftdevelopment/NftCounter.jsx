@@ -56,13 +56,13 @@ const NftCounter = () => {
                                     <h2 className="counter">
                                         <ReactVisibilitySensor>
                                             {({ isVisible }) => (
-                                                <div> {isVisible ? <CountUp end={ 95} /> : 0}</div>
+                                                <div> {isVisible ? <CountUp end={100} /> : 0}</div>
                                             )}
                                         </ReactVisibilitySensor>
                                     </h2>
                                     <h3>%</h3>
                                 </div>
-                                <h4>Client Satisfaction Rate</h4>
+                                <h4>Satisfaction Rate</h4>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">

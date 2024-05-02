@@ -24,7 +24,7 @@ const ArCount = () => {
                                     </h2>
                                     <h3>+</h3>
                                 </div>
-                                <h4>Years of Development Experience</h4>
+                                <h4>Years Experience</h4>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
@@ -43,7 +43,7 @@ const ArCount = () => {
                                     </h2>
                                     <h3>+</h3>
                                 </div>
-                                <h4>Talented Squad</h4>
+                                <h4>Talented Team</h4>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
@@ -62,7 +62,7 @@ const ArCount = () => {
                                     </h2>
                                     <h3>%</h3>
                                 </div>
-                                <h4>VR solutions deployed successfully</h4>
+                                <h4>VR Success</h4>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
@@ -81,7 +81,7 @@ const ArCount = () => {
                                     </h2>
                                     <h3>+</h3>
                                 </div>
-                                <h4>Countries Served</h4>
+                                <h4>Countries</h4>
                             </div>
                         </div>
                     </div>

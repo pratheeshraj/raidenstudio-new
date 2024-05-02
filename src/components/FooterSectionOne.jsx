@@ -16,11 +16,7 @@ const FooterSectionOne = () => {
                 </div>
                 <div className="des" data-aos="fade-up" data-aos-delay="300">
                   <p>
-                    Artificial intelligence is intelligence demonstrated by
-                    machines, as opposed to intelligence of humans and other
-                    animals. Example tasks in which this is done include speech
-                    recognition, computer vision, translation between languages,
-                    as well as other mappings of inputs.
+                    Raiden Studios: Innovating the future of gaming, VR, AR, and blockchain. Your go-to consultancy for cutting-edge solutions tailored to your needs. Let's redefine possibilities together!
                   </p>
                 </div>
                 <div
@@ -103,7 +99,7 @@ const FooterSectionOne = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-12">
+            {/* <div className="col-lg-4 col-md-6 col-12">
               <div className="footer-wrapper two mt-4 mt-lg-0 ">
                 <h2 className="title" data-aos="fade-up" data-aos-delay="200">
                   Resourses
@@ -141,7 +137,7 @@ const FooterSectionOne = () => {
                   <li className="phone"> +91 98840 36062</li>
                 </ul>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="row">
             <div className="col-12">

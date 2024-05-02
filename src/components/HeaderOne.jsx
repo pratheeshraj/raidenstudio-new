@@ -298,7 +298,7 @@ const HeaderOne = () => {
             </div>
             <div className="col-xl-2 col-lg-3 d-none d-lg-block">
               <div className="d-adjust">
-                <Link className="default-btn" to="/contact">
+                <Link className="default-btn" to="/contact-us">
                   Try It Free Now
                 </Link>
               </div>

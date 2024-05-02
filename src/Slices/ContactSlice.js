@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 
 const ContactSlices = createSlice({
-    name: "jobpost",
+    name: "contact",
     initialState: {
         loading: false,
     },

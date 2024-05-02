@@ -63,13 +63,13 @@ const NftHero = () => {
                             NFT Development Company
                             <span className="theme-color"> Empowering Businesses</span>
                           </h2>
-                          <p className="description">
-                            Take advantage of our all-inclusive NFT development services to create innovative, unique and seamless
+                          <p className="description Hero_sub_heading">
+                            Create innovative, unique and seamless
                             solutions for non-fungible tokens, NFT games, NFT marketplaces, and so on.
                           </p>
                           <div className="inner-btn">
                             <div>
-                              <Link className="default-btn" to="/contact">
+                              <Link className="default-btn" to="/contact-us">
                                 Explore Now
                               </Link>
                             </div>

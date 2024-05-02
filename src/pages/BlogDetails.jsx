@@ -14,7 +14,7 @@ const BlogDetails = () => {
   let [active, setActive] = useState(true);
   const { id } = useParams();
   const dispatch = useDispatch();
-  const { loading ,BlogDetails} = useSelector((state) => state.blogState);
+  const { loading, BlogDetails } = useSelector((state) => state.blogState);
   useEffect(() => {
     dispatch(GetRecentBlogs);
     dispatch(GetBlogsCategory);
@@ -29,21 +29,21 @@ const BlogDetails = () => {
         <Suspense>
           {/* Helmet */}
           <HelmetReact
-          title={
-            BlogDetails?.meta_title
-          }
-          description={
-           BlogDetails?.meta_description
-          }
-          keywords={
-            BlogDetails?.meta_keywords
-          }
-          ogimage={BlogDetails?.imageurl}
-        />
+            title={
+              BlogDetails?.meta_title
+            }
+            description={
+              BlogDetails?.meta_description
+            }
+            keywords={
+              BlogDetails?.meta_keywords
+            }
+            ogimage={BlogDetails?.imageurl}
+          />
           {/* Header one */}
           <HeaderTwo />
           {/* Breadcrumb */}
-          <Breadcrumb data={"Blog Details"} />
+          <Breadcrumb data={"Blog Details"} img={"url('/assets/img/bg-image/Frame 72.jpg')"} />
           {/* Blog Details */}
           <BlogDetailsSection />
           {/* News Section One */}

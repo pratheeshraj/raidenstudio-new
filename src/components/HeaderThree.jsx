@@ -138,7 +138,7 @@ const HeaderThree = () => {
                                                 </ul>
                                             </li>
                                             <li>
-                                                <Link to="/contact">Contact</Link>
+                                                <Link to="/contact-us">Contact</Link>
                                             </li>
                                         </ul>
                                     </nav>
@@ -251,7 +251,7 @@ const HeaderThree = () => {
                                     </ul>
                                 </li>
                                 <li>
-                                    <Link to="/contact">Contact</Link>
+                                    <Link to="/contact-us">Contact</Link>
                                 </li>
                             </ul>
                         </nav>

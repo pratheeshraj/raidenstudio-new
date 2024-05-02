@@ -24,7 +24,7 @@ const BlockChainCount = () => {
                                     </h2>
                                     <h3>+</h3>
                                 </div>
-                                <h4>Years of Development Experience</h4>
+                                <h4>Years of Experience</h4>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
@@ -62,7 +62,7 @@ const BlockChainCount = () => {
                                     </h2>
                                     <h3>%</h3>
                                 </div>
-                                <h4>VR solutions deployed successfully</h4>
+                                <h4>Job Success</h4>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">

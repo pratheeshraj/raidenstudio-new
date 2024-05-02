@@ -48,7 +48,7 @@ const AsHero = () => {
                                                         Streamline operations, boost productivity, and delight customers with seamless AI integration. Experience innovation simplified.                                                    </p>
                                                     <div className="inner-btn" >
                                                         <div>
-                                                            <Link className="default-btn" to="/contact">
+                                                            <Link className="default-btn" to="/contact-us">
                                                                 Explore Now
                                                             </Link>
                                                         </div>

@@ -74,15 +74,15 @@ const BlockchainTech = () => {
                                 <div className="Card_name_sevice">Cardano</div>
                             </div>
                             <div className="Card_service ">
-                                <img src="/assets/img/Language/cardano-ada-logo.svg" alt="" />
+                                <img src="/assets/img/Language/tron-trx-logo.svg" alt="" />
                                 <div className="Card_name_sevice">Tron</div>
                             </div>
                             <div className="Card_service ">
-                                <img src="/assets/img/Language/cardano-ada-logo.svg" alt="" />
+                                <img src="/assets/img/Language/flow-flow-logo.svg" alt="" />
                                 <div className="Card_name_sevice">Flow</div>
                             </div>
                             <div className="Card_service ">
-                                <img src="/assets/img/Language/cardano-ada-logo.svg" alt="" />
+                                <img src="/assets/img/Language/hyperledger-icon.svg" alt="" />
                                 <div className="Card_name_sevice">Hyperledger</div>
                             </div>
                         </div>

@@ -76,14 +76,14 @@ const HeaderTwo = () => {
 
   const progressValues = [0.5, 0.5, 0.5, 0.5];
   const productName = [
-    "Raiden Verse",
-    "Raiden SimX",
-    "Raiden COGNI+",
-    "Raiden ARCVIZ",
+    "RaidenVerse",
+    "RaidenSimX",
+    "RaidenCogni+",
+    "RaidenArcviz",
   ];
   const ProductPara = [
     "Collaboration in a dynamic universe where the possibilities are endless.",
-    "Human guidance to enhance simulation training through immersive learning",
+    "Human guidance to enhance simulation training through immersive learning.",
     "Transforming lives with practical skills for real-world success, one lesson at a time.",
     "Transforming blueprints into immersive, photorealistic environments.",
   ];
@@ -97,7 +97,7 @@ const HeaderTwo = () => {
 
   const gameValues2 = [0.5, 0.5, 0.5];
   const gameNames2 = [
-    "Realm Wars: Clash of Empires",
+    "Clash of Empires",
     "Virtual Vegas",
     "Metaverse Royale",
   ];
@@ -109,9 +109,8 @@ const HeaderTwo = () => {
 
   const gamePara = [
     "Forge your empire, rule the realm with Realm Wars: Clash of Empires.",
-    "Forge your empire, rule the realm with Realm Wars: Clash of Empires.",
+    "Dive into Virtual Vegas: your metaverse casino adventure awaits!",
     "Gateway to immersive Battle Royale experiences in the Metaverse.",
-    "Forge your empire, rule the realm with Realm Wars: Clash of Empires.",
   ];
 
   // service
@@ -150,7 +149,7 @@ const HeaderTwo = () => {
 
   const generativeAIValues = [0.5, 0.5];
   const generativeAINames = [
-    "AI as a Service",
+    "AI As A Service",
     "Generative AI Development",
   ];
 
@@ -177,9 +176,9 @@ const HeaderTwo = () => {
   // /mobile-game-development
   const gameNames = [
     "Mobile Game Development",
-    "Unity Development",
-    "Unreal Development",
-    "mmorpg game development ",
+    "Unity Game Development",
+    "Unreal Game Development",
+    "MMORPG Game Development ",
     "P2E Game Development",
     "Web3 Game Development",
   ];
@@ -198,12 +197,22 @@ const HeaderTwo = () => {
   const companyprogressValues = [0.5, 0.5, 0.5];
   const CompanyNames = ["About us", "Career", "Contact us"];
   const companyurl = ["/about-us", "/carrer", "/contact-us"]
+  const companyPara = [
+    "Learn Our Story, Mission, Values.",
+    "Join Our Team, Grow Career.",
+    "Connect, Reach Out, Inquire."
+  ]
+
   const [activeMenu, setActiveMenu] = useState("Blockchain");
   const [activeMenu1, setActiveMenu1] = useState("virtual");
   const [activeMenu2, setActiveMenu2] = useState("Company");
 
   const resourseprogressValues = [0.5, 0.5];
   const resourseNames = ["Blog", "Case Studies",];
+  const resoursePara = [
+    "Explore Insights & Inspiration Read Our Blog",
+    "Learn from Success: Dive into Case Studies"
+  ]
   const resourseurl = ["/blog", "/case-studies"]
 
   const handleMenuHover2 = (menu2) => {
@@ -792,10 +801,7 @@ const HeaderTwo = () => {
                                                     {resourseNames[index]}
                                                   </div>
                                                   <div className="manubar_content_para">
-                                                    Lorem ipsum dolor sit amet
-                                                    consectetur adipisicing
-                                                    elit. Fugit, culpa voluptas
-                                                    et.
+                                                    {resoursePara[index]}
                                                   </div>
                                                   <div
                                                     className="progress-bar"
@@ -880,10 +886,7 @@ const HeaderTwo = () => {
                                                     {CompanyNames[index]}
                                                   </div>
                                                   <div className="manubar_content_para">
-                                                    Lorem ipsum dolor sit amet
-                                                    consectetur adipisicing
-                                                    elit. Fugit, culpa voluptas
-                                                    et.
+                                                    {companyPara[index]}
                                                   </div>
                                                   <div
                                                     className="progress-bar"
@@ -1385,20 +1388,20 @@ const HeaderTwo = () => {
                 <ul>
                   <li>
                     <i className="fa-sharp fa-solid fa-location-dot" />
-                    1739 Kincheloe Road Portland, OR 97205
+                    No: 5 Namachivaya Nagar, Opp KGISL Tech park, Saravanampatti, Coimbatore, TamilNadu - 641035
                   </li>
                   <li>
                     <i className="fa-solid fa-envelope" />
-                    info@demo.com
+                    info@raiden.studio
                   </li>
                   <li>
                     <i className="fa-solid fa-phone" />
-                    +88 632-528-(859)
+                    +91 98840 36062
                   </li>
-                  <li>
+                  {/* <li>
                     <i className="fa-regular fa-globe" />
                     themesoft69.com
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -1423,10 +1426,7 @@ const HeaderTwo = () => {
                   src="\assets\img\Language\raiden new black-min.png" alt="" />
               </div>
               <p>
-                Oracle Cloud Infrastructure (OCI) AI Services is a collection of
-                services with prebuilt machine learning models that make it
-                easier for developers to apply AI to applications and business
-                operations.
+                Raiden Studios: Innovating the future of gaming, VR, AR, and blockchain. Your go-to consultancy for cutting-edge solutions tailored to your needs. Let's redefine possibilities together!
               </p>
             </div>
             <div className="intro-text">
@@ -1475,27 +1475,25 @@ const HeaderTwo = () => {
               <div className="title-text">
                 <h3>About Raiden</h3>
                 <p>
-                  Most people focus on the results of AI. For those of us who
-                  like to look under the hood, there are four foundational
-                  elements to understand: categorization, classification,
-                  machine learning, and collaborative filtering.
+                  At Raiden Studios, we blend innovation with expertise to navigate the ever-evolving landscapes of gaming, virtual reality (VR), augmented reality (AR), and blockchain technology. As a premier consulting and solutions provider, we offer comprehensive services tailored to meet the unique needs of our clients in these dynamic industries.
                 </p>
               </div>
             </div>
             <div className="intro-text">
               <div className="title-text">
-                <h3>Contact Us</h3>
+                <h3>Head Office</h3>
                 <ul>
                   <li>
                     <i className="fa-sharp fa-solid fa-location-dot pe-1" />
-                    2007 Cherry Ridge Drive Victor
+                    No: 5 Namachivaya Nagar, Opp KGISL Tech park, Saravanampatti, Coimbatore,
+                  </li>
+                  <li>TamilNadu - 641035 </li>
+                  <li>
+                    <i className="fa-solid fa-envelope pe-1" /> info@raiden.studio
                   </li>
                   <li>
-                    <i className="fa-solid fa-envelope pe-1" /> support@demo.com
-                  </li>
-                  <li>
-                    <i className="fa-sharp fa-solid fa-phone-volume pe-1" /> +88
-                    (102)-253620
+                    <i className="fa-sharp fa-solid fa-phone-volume pe-1" />
+                    +91 98840 36062
                   </li>
                   <li />
                 </ul>
