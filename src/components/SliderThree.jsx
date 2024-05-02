@@ -83,11 +83,9 @@ function SliderThree() {
       <div className="slider" style={{ background: "black" }} ref={sliderRef} >
         <div className="list">
           {items.map((item, index) => (
-            <div
-              key={index}
-              className={`item ${index === itemActive ? "active" : ""}`}
-            >
-              <img src={item.imgSrc} alt={`Slide ${index}`} />
+                          <div key={index} className={`item ${index === itemActive ? 'active' : ''}`} style={{backgroundImage: `url('${item.imgSrc}')`}}>
+
+            
               <div className="auto-container content">
                 <h2 dangerouslySetInnerHTML={{ __html: item.title }}></h2>
                 <p dangerouslySetInnerHTML={{ __html: item.description }}></p>
