@@ -9,7 +9,7 @@ const WebService = () => {
                     className="container-fulid key_features"
                     style={{ background: "#F8F9FA" }}
                 >
-                    <h2 className="auto-container" style={{ color: "black" }}>Our Popular Services In <span className="theme-color"> Web 3.0 <br />Development </span></h2>
+                    <h2 className="auto-container" style={{ color: "black" }}>Our Popular Services In <span style={{ color: "#E052D1" }}> Web 3.0 <br />Development </span></h2>
                     <p style={{ color: "black", textAlign: "center", width: "70%", margin: "auto auto 80px auto" }}>Unlock the endless possibilities of Web 3.0 with our comprehensive range of services tailored to meet your specific needs.
                     </p>
                     <div className="auto-container row key_features_section_container" style={{ rowGap: "29px" }}>

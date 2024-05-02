@@ -67,7 +67,7 @@ function BlockChainProcess() {
         <section className="faq-section three" style={{ background: "#00151E" }}>
             <div className="auto-container">
                 <div className="row">
-                    <h2 style={{ textAlign: "center", color: "white" }}>Our Blockchain Application <span className='theme-color'> Development Process</span></h2>
+                    <h2 style={{ textAlign: "center", color: "white" }}>Our Blockchain Application <span style={{ color: "#53A6FF" }}> Development Process</span></h2>
                     <p style={{ textAlign: "center", color: "white", width: "80%", margin: "auto" }}>
                         With over 5 years of expertise developing blockchain-powered solutions, we have tailored our process to keep up with the constantly developing state of blockchain technology.
                     </p>

@@ -50,7 +50,7 @@ const BlockchainTech = () => {
             <section className="faq-section three" style={{ background: "white" }}>
                 <div className="auto-container">
                     <div className="row">
-                        <h2 style={{ color: "black", textAlign: "center" }}>Blockchain Development Platforms <span className="theme-color"> <br />We Majorly Work on</span></h2>
+                        <h2 style={{ color: "black", textAlign: "center" }}>Blockchain Development Platforms <span style={{ color: "#53A6FF" }}> <br />We Majorly Work on</span></h2>
                         <p style={{ color: "black", textAlign: "center" }}>As a leading blockchain app development company, we work with all popular blockchain and smart contract platforms along with developing custom blockchain solutions.</p>
                         <div className="right_Language_div">
                             <div className="Card_service">

@@ -5,18 +5,10 @@ import NewsSectionOne from "../components/NewsSectionOne";
 import FooterSectionOne from "../components/FooterSectionOne";
 import HelmetReact from "../elements/HelmetReact";
 import Preloader from "../elements/Preloader";
-import VrFaq from "../components/Vrdevelopment/VrFaq";
-import BlockchainHero from "../components/Web3/WebHero";
 import BlockchainAbout from "../components/Web3/BlockchainAbout";
 import BlockChainCount from "../components/Web3/BlockChainCount";
-import BlockchainService from "../components/Web3/WebService";
 import BlockchainBanner from "../components/Web3/BlockchainBanner";
-import BlockchainFeature from "../components/Web3/BlockchainFeature";
-import BlockchainIndustries from "../components/Web3/BlockchainIndustries";
 import BlockchainTech from "../components/Web3/WebchainTech";
-import BlockChainProcess from "../components/Web3/WebProcess";
-import BlockChainWhychoose from "../components/Web3/WebWhychoose";
-import BlockChainFaq from "../components/Web3/WebFaq";
 import WebService from "./../components/Web3/WebService";
 import WebHero from "../components/Web3/WebHero";
 import WebProcess from "../components/Web3/WebProcess";
@@ -78,7 +70,7 @@ function Web3() {
         {/* faq */}
         <WebFaq />
         {/* contact */}
-        <ContactSection2 />
+        <ContactSection2 color={"#E052D1"} buttoncolor={"#E052D1"} />
         {/* Footer Section */}
         {/* News Section Two */}
         <NewsSectionOne />

@@ -6,13 +6,13 @@ import PhoneInput from 'react-phone-input-2'
 import 'react-phone-input-2/lib/style.css'
 import ReactFlagsSelect from "react-flags-select";
 import { useDispatch } from "react-redux";
-import { createContact } from "../action/ContactAction";
 import { enqueryContact } from "../action/EnqueryAction";
 
-const ContactSection2 = () => {
+const ContactSection2 = ({ color, buttoncolor }) => {
 
   const form = useRef();
 
+  console.log(color);
 
   const dispatch = useDispatch();
   const [selected, setSelected] = useState('IN');
@@ -101,7 +101,7 @@ const ContactSection2 = () => {
           <div className="row">
             <div className="enqury_main_div">
               <div className="right_div aos-init aos-animate" data-aos="fade-right" data-aos-delay="300">
-                <h2 className="right_div_contact_heading">Get a Free <span className="theme-color">Quote Today</span></h2>
+                <h2 className="right_div_contact_heading">Get a Free <span style={{ color: `${color}` }}>Quote Today</span></h2>
                 <p>Please fill out the quick form and we will be in touch with lightening speed.</p>
                 <form className="right_div_input_div" ref={form}
                   onSubmit={handleSubmit}>
@@ -147,7 +147,7 @@ const ContactSection2 = () => {
                       onChange={(e) => setMessage(e.target.value)}
                     />
                   </div>
-                  <button className="Contact2_button" type="submit">
+                  <button style={{ background: `${buttoncolor}` }} className="Contact2_button" type="submit">
                     <div class="svg-wrapper-1">
                       <div class="svg-wrapper">
                         <svg
@@ -164,7 +164,7 @@ const ContactSection2 = () => {
                         </svg>
                       </div>
                     </div>
-                    <span>Submit</span>
+                    <span >Submit</span>
                   </button>
                 </form>
               </div>

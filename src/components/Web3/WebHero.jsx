@@ -42,14 +42,14 @@ const WebHero = () => {
                                                     <h2 className="slider-title">
                                                         Elevate Your Business with Web 3.0
                                                         {/* <h4 className="theme-color">The Most Professional</h4> */}
-                                                        <span className="theme-color"> Brilliance <br />by Raiden</span><br />
+                                                        <span style={{ color: "#FB57E9" }}> Brilliance <br />by Raiden</span><br />
                                                     </h2>
                                                     <p style={{ width: "500px" }} className="description metaverse_hero_para Hero_sub_heading">
                                                         From decentralized wonders to blockchain magic, let's sculpt your digital destiny together.
                                                     </p>
                                                     <div className="inner-btn" >
                                                         <div>
-                                                            <Link className="default-btn" to="/contact-us">
+                                                            <Link style={{ background: "#E052D1" }} className="default-btn" to="/contact-us">
                                                                 Explore Now
                                                             </Link>
                                                         </div>

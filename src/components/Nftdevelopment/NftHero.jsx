@@ -61,7 +61,7 @@ const NftHero = () => {
                         <div>
                           <h2 className="slider-title">
                             NFT Development Company
-                            <span className="theme-color"> Empowering Businesses</span>
+                            <span style={{ color: "#38FFFF" }}> Empowering Businesses</span>
                           </h2>
                           <p className="description Hero_sub_heading">
                             Create innovative, unique and seamless
@@ -69,7 +69,7 @@ const NftHero = () => {
                           </p>
                           <div className="inner-btn">
                             <div>
-                              <Link className="default-btn" to="/contact-us">
+                              <Link style={{ background: "#00E9E2" }} className="default-btn" to="/contact-us">
                                 Explore Now
                               </Link>
                             </div>

@@ -67,7 +67,7 @@ function NftProcess() {
         <section className="faq-section three" style={{ background: "#00151E" }}>
             <div className="auto-container">
                 <div className="row">
-                    <h2 style={{ textAlign: "center", color: "white" }}>Our NFT Development<span className='theme-color'> Process</span></h2>
+                    <h2 style={{ textAlign: "center", color: "white" }}>Our NFT Development<span style={{ color: "#38FFFF" }}> Process</span></h2>
                     <p style={{ textAlign: "center", color: "white" }}>Dive into the world of NFTs with our end-to-end development process
 
                         Detailed market research along with comprehensive analysis of the NFT project idea ensures your success by outlining its goal, target audience, and unique selling factors.

@@ -13,11 +13,11 @@ const BlockChainFaq = () => {
                                 data-aos="fade-right"
                                 data-aos-delay="300"
                             >
-                                <h3>
+                                <h3 style={{ color: "#53A6FF" }}>
                                     FAQ
                                 </h3>
                                 <h2>
-                                    Answers At A <br /><span className="theme-color"> Glance</span>
+                                    Answers At A <br /><span style={{ color: "#53A6FF" }}> Glance</span>
                                 </h2>
                                 <p style={{ marginBottom: "10px" }}>
                                     Gain clarity on the benefits, industries served, development timelines, ongoing support, and how to kickstart your journey into the world of tailored blockchain solutions.
@@ -52,7 +52,7 @@ const BlockChainFaq = () => {
                                         <div className="accordion-item">
                                             <h2 className="accordion-header">
                                                 <button
-                                                    className="accordion-button"
+                                                    className="accordion-button coustom-blockchain-color"
                                                     type="button"
                                                     data-bs-toggle="collapse"
                                                     data-bs-target="#flush-collapseOne"
@@ -75,7 +75,7 @@ const BlockChainFaq = () => {
                                         <div className="accordion-item">
                                             <h2 className="accordion-header">
                                                 <button
-                                                    className="accordion-button collapsed"
+                                                    className="accordion-button collapsed coustom-blockchain-color"
                                                     type="button"
                                                     data-bs-toggle="collapse"
                                                     data-bs-target="#flush-collapseTwo"
@@ -98,7 +98,7 @@ const BlockChainFaq = () => {
                                         <div className="accordion-item">
                                             <h2 className="accordion-header">
                                                 <button
-                                                    className="accordion-button collapsed"
+                                                    className="accordion-button collapsed coustom-blockchain-color"
                                                     type="button"
                                                     data-bs-toggle="collapse"
                                                     data-bs-target="#flush-collapseThree"
@@ -121,7 +121,7 @@ const BlockChainFaq = () => {
                                         <div className="accordion-item">
                                             <h2 className="accordion-header">
                                                 <button
-                                                    className="accordion-button collapsed"
+                                                    className="accordion-button collapsed coustom-blockchain-color"
                                                     type="button"
                                                     data-bs-toggle="collapse"
                                                     data-bs-target="#flush-collapseFour"

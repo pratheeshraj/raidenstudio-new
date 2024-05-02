@@ -37,7 +37,7 @@ const MetaverseCount = () => {
                                     <h2 className="counter">
                                         <ReactVisibilitySensor>
                                             {({ isVisible }) => (
-                                                <div> {isVisible ? <CountUp end={50} /> : 0}</div>
+                                                <div> {isVisible ? <CountUp end={40} /> : 0}</div>
                                             )}
                                         </ReactVisibilitySensor>
                                     </h2>
@@ -62,7 +62,7 @@ const MetaverseCount = () => {
                                     </h2>
                                     <h3>%</h3>
                                 </div>
-                                <h4>Return on investment (ROI)</h4>
+                                <h4>ROI</h4>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">

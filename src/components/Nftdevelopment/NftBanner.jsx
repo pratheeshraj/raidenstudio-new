@@ -20,14 +20,14 @@ const NftBanner = () => {
                             <div className="col-lg-6">
                                 <div className="title">
                                     <h2>
-                                        Is your business prepared to embrace  <span className="theme-color"> NFT development services?</span>
+                                        Is your business prepared to embrace  <span style={{ color: "#38FFFF" }}> NFT development services?</span>
                                     </h2>
                                     <p>
                                         Prepare your business for the future of digital assets with NFT development services tailored to your needs. Whether you're looking to tokenize artwork, collectibles, or digital real estate, our expert team is ready to guide you through the process
                                     </p>
                                     <div className="inner-btn d-adjust">
                                         <div>
-                                            <Link className="default-btn" to="/contact-us">
+                                            <Link style={{ background: "#00E9E2" }} className="default-btn" to="/contact-us">
                                                 Let’s Work To Do{" "}
                                             </Link>
                                         </div>
