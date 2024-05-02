@@ -2,36 +2,36 @@ import React, { useCallback, useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 
 function SliderThree() {
- 
+
   const items = [
     {
       imgSrc: "/assets/img/bg-image/ai-new-home.jpg",
       title: `Supercharge with <br><span style="color:#2ac8fd" >Artificial Intelligence</span>`,
       description:
         "Explore the forefront of innovation with our AI development <br> expertise.Transforming possibilities into tangible achievements.",
-        color:"#2ac8fd"
+      color: "#2ac8fd"
     },
     {
       imgSrc: "/assets/img/bg-image/Gaming-barb (1).jpg",
       title: `Forge Your Gaming <br> <span style="color:#13c4a1">Legacy</span>`,
       description:
         "Immerse Yourself in the Art of Gaming Creation Let's <br> Build Your Next Masterpiece Together!",
-        color:"#13c4a1"
-      
+      color: "#13c4a1"
+
     },
     {
       imgSrc: "/assets/img/bg-image/metaverse.jpg",
       title: `Redefining Experiences <br> <span style="color:#2ac8fd">with XR</span>`,
       description:
         "Discover augmented and virtual realities with our <br> expert XR development.",
-        color:"#2ac8fd"
+      color: "#2ac8fd"
     },
     {
       imgSrc: "/assets/img/bg-image/technonogy.jpg",
       title: `Leading Blockchain <br> <span style="color:#13c4a1">Solutions Await</span>`,
       description:
         "Revolutionize with Cutting-Edge Blockchain Solutions<br>Unleash the power of innovation for your business.",
-        color:"#13c4a1"
+      color: "#13c4a1"
     },
   ];
   const [itemActive, setItemActive] = useState(0);
@@ -79,7 +79,7 @@ function SliderThree() {
 
   return (
     <>
-      <div className="slider" ref={sliderRef} >
+      <div className="slider" style={{ background: "black" }} ref={sliderRef} >
         <div className="list">
           {items.map((item, index) => (
             <div
@@ -90,7 +90,7 @@ function SliderThree() {
               <div className="auto-container content">
                 <h2 dangerouslySetInnerHTML={{ __html: item.title }}></h2>
                 <p dangerouslySetInnerHTML={{ __html: item.description }}></p>
-                <Link className="default-btn" style={{backgroundColor:item.color}}>Explore</Link>
+                <Link className="default-btn" style={{ backgroundColor: item.color }}>Explore</Link>
               </div>
             </div>
           ))}
