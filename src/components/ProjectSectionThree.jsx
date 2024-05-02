@@ -121,7 +121,7 @@ const ProjectSectionThree = () => {
                   />
                   <div className="shape-overlay poa">
                     <div className="inner">
-                      <h2>RaidenARCVIZ</h2>
+                      <h2>RaidenArcviz</h2>
                       <p>
                         We utilize Virtual Reality (VR) technology to revolutionize the domains of architecture and real estate. Backed by a team of...
                         {/* committed innovators and experienced industry professionals, we spearhead this transformative journey. */}

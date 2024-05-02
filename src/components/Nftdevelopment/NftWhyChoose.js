@@ -10,7 +10,7 @@ function NftWhyChoose() {
                 <div className="auto-container">
                     <div className="row nft_whychoose_full_div">
                         <div className='nft_whychoose_left_div'>
-                            <h2 style={{ color: "black", textAlign: "center" }}>Why Choose Us For Your Reliable Custom <span className='theme-color'>NFT Development Partner?</span></h2>
+                            <h2 style={{ color: "black", textAlign: "center" }}>Why Choose Us For Your Reliable Custom <span style={{ color: "#00ECE5" }}>NFT Development Partner?</span></h2>
                             <p style={{ color: "black", textAlign: "center" }}>We provide unique NFT development solutions while keeping your budget in mind, since we always strive to provide solutions that are reasonable.</p>
                         </div>
                         <div className='nft_whychoose_Right_div'>

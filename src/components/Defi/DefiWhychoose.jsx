@@ -10,7 +10,7 @@ function DefiWhychoose() {
                         <div className="whychoose_left_div">
                             <h2 style={{ marginBottom: "25px", color: "black", textAlign: "center" }}>Why Choose Raiden as a <span className='theme-color'>DeFi Application Development Company ?</span></h2>
                             <p style={{ color: "black", textAlign: "center" }}>
-                                Raiden is the best choice for DeFi application development. We outperform the competitors in the sector because of our stellar reputation as a trustworthy and creative partner. Our unparalleled expertise in developing DeFi solutions, along with our multitude of experience, make us perfectly suited to cater to the specific needs of businesses operating in the ever-changing Decentralised Finance arena. Our outstanding group of knowledgeable developers is passionate about Blockchain technology and has a deep understanding of it, realizing its incredible potential to completely transform the financial sector.
+                                Raiden is the best choice for DeFi application development. Our outstanding group of knowledgeable developers is passionate about Blockchain technology and has a deep understanding of it, realizing its incredible potential to completely transform the financial sector.
                             </p>
                         </div>
                         <div className="whychoose_right_div">

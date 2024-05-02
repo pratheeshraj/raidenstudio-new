@@ -6,7 +6,7 @@ function BlockchainIndustries() {
         <section className="faq-section three" style={{ background: "#00151E" }}>
             <div className="auto-container">
                 <div className="row">
-                    <h2 style={{ textAlign: "center", color: "white" }}>Blockchain Development Solutions For A <span className='theme-color'> Wide Range Of Business Sectors.</span></h2>
+                    <h2 style={{ textAlign: "center", color: "white" }}>Blockchain Development Solutions For A <span style={{ color: "#53A6FF" }}> Wide Range Of Business Sectors.</span></h2>
                     {/* <p style={{ textAlign: "center", color: "white" }}>As a leading virtual reality app development company, we assist startups and established businesses from all sectors in fulfilling the potential of digital transformation via VR to boost revenue. </p> */}
                     <div className='feature_div'>
                         <div className='feature_card idustry'>

@@ -5,7 +5,7 @@ function WebModel() {
         <section className="faq-section three" style={{ background: "white" }}>
             <div className="auto-container">
                 <div className="row">
-                    <h2 style={{ textAlign: "center", color: "black" }}>Our  <span className="theme-color">Engagement Models</span>
+                    <h2 style={{ textAlign: "center", color: "black" }}>Our  <span style={{ color: "#E052D1" }}>Engagement Models</span>
                     </h2>
                     {/* <p style={{ textAlign: "center", color: "black", marginBottom: "80px" }}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam qui dolorum explicabo praesentium, possimus optio id necessitatibus fugiat pariatur ea in esse est, reiciendis veniam et aliquam facilis temporibus nihil.
                     </p> */}

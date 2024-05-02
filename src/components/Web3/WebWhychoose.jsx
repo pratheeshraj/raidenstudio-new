@@ -8,7 +8,7 @@ function WebWhychoose() {
                 <div className="auto-container">
                     <div className="row wwhychoose_maindiv">
                         <div className="whychoose_left_div">
-                            <h2 style={{ marginBottom: "25px", color: "black", textAlign: "center" }}>Why Choose<span className='theme-color'> Raiden ?</span></h2>
+                            <h2 style={{ marginBottom: "25px", color: "black", textAlign: "center" }}>Why Choose<span style={{ color: "#E052D1" }}> Raiden ?</span></h2>
                             {/* <p style={{ color: "black", textAlign: "center", marginBottom: "50px" }}>As one of the dedicated AI service providers, we use our significant domain expertise to continually expand the boundaries of what is achievable for your business. We have a fantastic group of AI specialists who thrive on challenges and are always looking for new AI possibilities to help our clients meet their goals. As the best artificial intelligence development company, we define ourselves by:</p> */}
                         </div>
                         <div className="whychoose_right_div">

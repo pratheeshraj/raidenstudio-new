@@ -67,7 +67,7 @@ function WebProcess() {
         <section className="faq-section three" style={{ background: "#F8F9FA" }}>
             <div className="auto-container">
                 <div className="row">
-                    <h2 style={{ textAlign: "center", color: "black" }}>Our <span className='theme-color'> Process</span></h2>
+                    <h2 style={{ textAlign: "center", color: "black" }}>Our <span style={{ color: "#E052D1" }}> Process</span></h2>
                     <p style={{ textAlign: "center", color: "black", width: "80%", margin: "auto" }}>
                         At Raiden, we follow a systematic approach to ensure the successful execution of your Web 3.0 projects
                     </p>

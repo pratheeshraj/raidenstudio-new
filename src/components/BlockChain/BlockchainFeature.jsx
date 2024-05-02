@@ -5,7 +5,7 @@ function BlockchainFeature() {
         <section className="faq-section three" style={{ background: "white" }}>
             <div className="auto-container">
                 <div className="row">
-                    <h2 style={{ textAlign: "center", color: "black" }}>Benefits of <span className="theme-color">Blockchain App<br /> Development</span>
+                    <h2 style={{ textAlign: "center", color: "black" }}>Benefits of <span style={{ color: "#53A6FF" }}>Blockchain App<br /> Development</span>
                     </h2>
                     {/* <p style={{ textAlign: "center", color: "black" }}>We are a reputable metaverse development company that provides feature-rich metaverse software to help you stay ahead of the competition. Check out what we've got to offer.
                     </p> */}

@@ -73,7 +73,7 @@ function Blockchain() {
         {/* faq */}
         <BlockChainFaq />
         {/* contact */}
-        <ContactSection2 />
+        <ContactSection2 color={"#53A6FF"} buttoncolor={"#4D97E5"} />
         {/* Footer Section */}
         {/* News Section Two */}
         <NewsSectionOne />

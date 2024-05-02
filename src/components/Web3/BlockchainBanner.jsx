@@ -18,14 +18,14 @@ const BlockchainBanner = () => {
                             <div className="col-lg-6">
                                 <div className="title">
                                     <h2>
-                                        Are you ready to adopt <span className="theme-color"> Web 3.0 development services</span> for your business?
+                                        Are you ready to adopt <span style={{ color: "#FB57E9" }}> Web 3.0 development services</span> for your business?
                                     </h2>
                                     <p>
                                         Embracing Web 3.0 allows you to stay ahead of the curve, tap into new revenue streams, and engage with your audience in innovative ways
                                     </p>
                                     <div className="inner-btn d-adjust">
                                         <div>
-                                            <Link className="default-btn" to="/contact-us">
+                                            <Link style={{ background: "#E052D1" }} className="default-btn" to="/contact-us">
                                                 Let’s Work To Do{" "}
                                             </Link>
                                         </div>

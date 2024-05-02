@@ -13,11 +13,11 @@ const WebFaq = () => {
                                 data-aos="fade-right"
                                 data-aos-delay="300"
                             >
-                                <h3>
+                                <h3 style={{ color: "#FB57E9" }}>
                                     FAQ
                                 </h3>
                                 <h2>
-                                    Answers At A <br /><span className="theme-color"> Glance</span>
+                                    Answers At A <br /><span style={{ color: "#FB57E9" }}> Glance</span>
                                 </h2>
                                 <p style={{ marginBottom: "10px" }}>
                                     Get rapid insights into the transformative potential of Web 3.0 development services for your business
@@ -53,7 +53,7 @@ const WebFaq = () => {
                                         <div className="accordion-item">
                                             <h2 className="accordion-header">
                                                 <button
-                                                    className="accordion-button"
+                                                    className="accordion-button web3-color-code"
                                                     type="button"
                                                     data-bs-toggle="collapse"
                                                     data-bs-target="#flush-collapseOne"
@@ -77,7 +77,7 @@ const WebFaq = () => {
                                         <div className="accordion-item">
                                             <h2 className="accordion-header">
                                                 <button
-                                                    className="accordion-button collapsed"
+                                                    className="accordion-button collapsed web3-color-code"
                                                     type="button"
                                                     data-bs-toggle="collapse"
                                                     data-bs-target="#flush-collapseTwo"
@@ -101,7 +101,7 @@ const WebFaq = () => {
                                         <div className="accordion-item">
                                             <h2 className="accordion-header">
                                                 <button
-                                                    className="accordion-button collapsed"
+                                                    className="accordion-button collapsed web3-color-code"
                                                     type="button"
                                                     data-bs-toggle="collapse"
                                                     data-bs-target="#flush-collapseThree"
@@ -125,7 +125,7 @@ const WebFaq = () => {
                                         <div className="accordion-item">
                                             <h2 className="accordion-header">
                                                 <button
-                                                    className="accordion-button collapsed"
+                                                    className="accordion-button collapsed web3-color-code"
                                                     type="button"
                                                     data-bs-toggle="collapse"
                                                     data-bs-target="#flush-collapseFour"

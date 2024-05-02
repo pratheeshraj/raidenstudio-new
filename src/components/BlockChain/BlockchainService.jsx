@@ -17,7 +17,7 @@ const BlockchainService = () => {
                             >
                                 <h2 style={{ textAlign: "center", }}>
                                     End-To-End
-                                    <span className="theme-color"> Blockchain Development <br />Services</span>
+                                    <span style={{ color: "#53A6FF" }}> Blockchain Development <br />Services</span>
                                 </h2>
                                 <p style={{ textAlign: "center" }}>
                                     Raiden, the top blockchain app development company offers cutting-edge blockchain solutions that can transform your business. Our professional team specializes in custom blockchain development, offering high-quality blockchain application development services to boost innovation and simplify operations for enterprises across different sectors                                </p>

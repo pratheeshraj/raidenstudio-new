@@ -13,11 +13,11 @@ const NftFaq = () => {
                                 data-aos="fade-right"
                                 data-aos-delay="300"
                             >
-                                <h3>
+                                <h3 style={{ color: "#38FFFF" }}>
                                     FAQ
                                 </h3>
                                 <h2>
-                                    Answers At A <br /><span className="theme-color"> Glance</span>
+                                    Answers At A <br /><span style={{ color: "#38FFFF" }}> Glance</span>
                                 </h2>
                                 <p style={{ marginBottom: "10px" }}>
                                     We've compiled concise yet informative answers to common questions about NFTs and how our development services can benefit your business.
@@ -52,7 +52,7 @@ const NftFaq = () => {
                                         <div className="accordion-item">
                                             <h2 className="accordion-header">
                                                 <button
-                                                    className="accordion-button"
+                                                    className="accordion-button nft-color-code"
                                                     type="button"
                                                     data-bs-toggle="collapse"
                                                     data-bs-target="#flush-collapseOne"
@@ -75,7 +75,7 @@ const NftFaq = () => {
                                         <div className="accordion-item">
                                             <h2 className="accordion-header">
                                                 <button
-                                                    className="accordion-button collapsed"
+                                                    className="accordion-button collapsed nft-color-code"
                                                     type="button"
                                                     data-bs-toggle="collapse"
                                                     data-bs-target="#flush-collapseTwo"
@@ -98,7 +98,7 @@ const NftFaq = () => {
                                         <div className="accordion-item">
                                             <h2 className="accordion-header">
                                                 <button
-                                                    className="accordion-button collapsed"
+                                                    className="accordion-button collapsed nft-color-code"
                                                     type="button"
                                                     data-bs-toggle="collapse"
                                                     data-bs-target="#flush-collapseThree"
@@ -121,7 +121,7 @@ const NftFaq = () => {
                                         <div className="accordion-item">
                                             <h2 className="accordion-header">
                                                 <button
-                                                    className="accordion-button collapsed"
+                                                    className="accordion-button collapsed nft-color-code"
                                                     type="button"
                                                     data-bs-toggle="collapse"
                                                     data-bs-target="#flush-collapseFour"

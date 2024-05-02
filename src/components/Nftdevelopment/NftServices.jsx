@@ -20,7 +20,7 @@ const NftServices = () => {
                             >
                                 <h2 style={{ textAlign: "center", }}>
                                     Custom NFT Development Solutions: Obtaining
-                                    <span className="theme-color"> Ultimate Growth</span>
+                                    <span style={{ color: "#00ECE5" }}> Ultimate Growth</span>
                                 </h2>
                                 <p style={{ textAlign: "center" }}>
                                     With our excellent custom NFT development, integration, and

@@ -42,14 +42,14 @@ const BlockchainHero = () => {
                                                     <h2 className="slider-title">
                                                         Obtain More Transparency Custom
                                                         {/* <h4 className="theme-color">The Most Professional</h4> */}
-                                                        <span className="theme-color"> Blockchain Development Services</span><br />
+                                                        <span style={{ color: "#53A6FF" }}> Blockchain Development Services</span><br />
                                                     </h2>
                                                     <p style={{ width: "500px" }} className="description metaverse_hero_para Hero_sub_heading">
                                                         Expertise in developing Web3, Games, NFTs, DApps, DeFi, Metaverse, DAOs, exchanges, custodial wallets, smart contracts, stablecoins, and more
                                                     </p>
                                                     <div className="inner-btn" >
                                                         <div>
-                                                            <Link className="default-btn" to="/contact-us">
+                                                            <Link style={{ background: "#4D97E5" }} className="default-btn" to="/contact-us">
                                                                 Explore Now
                                                             </Link>
                                                         </div>
