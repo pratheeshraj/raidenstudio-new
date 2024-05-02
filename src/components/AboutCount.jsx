@@ -29,19 +29,19 @@ const AboutCount = () => {
                                     </div>
                                     <div className="list">
                                         <ul>
-                                            <li style={{ color: "black" }}>
+                                            <li style={{ color: "black", fontSize: "16px" }}>
                                                 <i className="fa-regular fa-chevrons-right" />
                                                 <span style={{ fontWeight: "bold", marginLeft: "10px", color: "black" }}>Expertise :</span>  With years of experience in the gaming, VR, AR, and blockchain industries, we possess the knowledge and skills necessary to deliver exceptional results.
                                             </li>
-                                            <li style={{ color: "black" }}>
+                                            <li style={{ color: "black", fontSize: "16px" }}>
                                                 <i className="fa-regular fa-chevrons-right" />
                                                 <span style={{ fontWeight: "bold", marginLeft: "10px", color: "black" }}>Innovation :</span>  We stay at the forefront of technological innovation, constantly exploring new trends and techniques to provide our clients with innovative solutions that set them apart in the marketplace.
                                             </li>
-                                            <li style={{ color: "black" }}>
+                                            <li style={{ color: "black", fontSize: "16px" }}>
                                                 <i className="fa-regular fa-chevrons-right" />
                                                 <span style={{ fontWeight: "bold", marginLeft: "10px", color: "black" }}>Collaboration :</span>  We believe in the power of collaboration and work closely with our clients to understand their unique challenges and goals. By fostering open communication and collaboration, we ensure that our solutions are tailored to meet their specific needs.
                                             </li>
-                                            <li style={{ color: "black" }}>
+                                            <li style={{ color: "black", fontSize: "16px" }}>
                                                 <i className="fa-regular fa-chevrons-right" />
                                                 <span style={{ fontWeight: "bold", marginLeft: "10px", color: "black" }}>Results-Driven :</span>  Our ultimate goal is to deliver tangible results that drive business growth and success. Whether it's increased user engagement, enhanced efficiency, or improved ROI, we are committed to helping our clients achieve their objectives.
                                             </li>
