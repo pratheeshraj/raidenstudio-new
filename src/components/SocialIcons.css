@@ -259,7 +259,7 @@
     opacity: 0;
     visibility: hidden;
     background: #fff;
-    fill: #ea4c89;
+    fill: black;
     padding: 12px;
     border-radius: 50px;
     transition: opacity 0.3s, visibility 0.3s, top 0.3s, background 0.3s;
@@ -280,7 +280,7 @@
 }
 
 .tooltip-container:hover .tooltip6:hover {
-    background: #ea4c89;
+    background: black;
     fill: #fff;
 }
 
@@ -295,7 +295,7 @@
     opacity: 0;
     visibility: hidden;
     background: #fff;
-    fill: #000;
+    fill: rgb(3, 169, 244);
     padding: 12px;
     border-radius: 50px;
     transition: opacity 0.3s, visibility 0.3s, top 0.3s, background 0.3s;
@@ -316,7 +316,10 @@
 }
 
 .tooltip-container:hover .tooltip7:hover {
-    background: #000;
+    background: rgb(3, 169, 244);
+    background: linear-gradient(138deg,
+            rgba(3, 169, 244, 1) 15%,
+            #3fb4e9 65%);
     fill: #fff;
 }
 
