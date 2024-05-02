@@ -55,7 +55,7 @@ function SliderThree() {
 
   useEffect(() => {
     clearInterval(intervalRef.current);
-    intervalRef.current = setInterval(handleNext, 8000);
+    intervalRef.current = setInterval(handleNext, 6000);
     return () => clearInterval(intervalRef.current);
   }, [handleNext]);
 
