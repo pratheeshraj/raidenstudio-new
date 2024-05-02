@@ -12,12 +12,11 @@ function SliderThree() {
       color: "#2ac8fd"
     },
     {
-      imgSrc: "/assets/img/bg-image/Gaming-barb (1).jpg",
-      title: `Forge Your Gaming <br> <span style="color:#13c4a1">Legacy</span>`,
+      imgSrc: "/assets/img/bg-image/technonogy.jpg",
+      title: `Leading Blockchain <br> <span style="color:#13c4a1">Solutions Await</span>`,
       description:
-        "Immerse Yourself in the Art of Gaming Creation Let's <br> Build Your Next Masterpiece Together!",
+        "Revolutionize with Cutting-Edge Blockchain Solutions<br>Unleash the power of innovation for your business.",
       color: "#13c4a1"
-
     },
     {
       imgSrc: "/assets/img/bg-image/metaverse.jpg",
@@ -26,12 +25,14 @@ function SliderThree() {
         "Discover augmented and virtual realities with our <br> expert XR development.",
       color: "#2ac8fd"
     },
+
     {
-      imgSrc: "/assets/img/bg-image/technonogy.jpg",
-      title: `Leading Blockchain <br> <span style="color:#13c4a1">Solutions Await</span>`,
+      imgSrc: "/assets/img/bg-image/Gaming-barb (1).jpg",
+      title: `Forge Your Gaming <br> <span style="color:#13c4a1">Legacy</span>`,
       description:
-        "Revolutionize with Cutting-Edge Blockchain Solutions<br>Unleash the power of innovation for your business.",
+        "Immerse Yourself in the Art of Gaming Creation Let's <br> Build Your Next Masterpiece Together!",
       color: "#13c4a1"
+
     },
   ];
   const [itemActive, setItemActive] = useState(0);
@@ -53,11 +54,11 @@ function SliderThree() {
     setItemActive(index);
   };
 
-  useEffect(() => {
-    clearInterval(intervalRef.current);
-    intervalRef.current = setInterval(handleNext, 6000);
-    return () => clearInterval(intervalRef.current);
-  }, [handleNext]);
+  // useEffect(() => {
+  //   clearInterval(intervalRef.current);
+  //   intervalRef.current = setInterval(handleNext, 6000);
+  //   return () => clearInterval(intervalRef.current);
+  // }, [handleNext]);
 
   useEffect(() => {
     const slider = sliderRef.current;

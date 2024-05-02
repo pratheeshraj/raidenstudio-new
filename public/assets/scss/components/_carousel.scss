@@ -1,8 +1,11 @@
-
+@use "../utils" as *;
 /* css slider */
 .slider {
   height: 100vh;
   position: relative;
+  @media #{$sm, $xs, $xss} {
+    min-height: max-content;
+  }
 }
 .slider .list .item {
   position: absolute;
@@ -25,6 +28,9 @@
   left: 10%;
   z-index: 1;
   gap: 10px;
+  @media #{$sm, $xs, $xss} {
+    align-items: center;
+  }
 }
 .slider .list .item .content p:nth-child(1) {
   text-transform: uppercase;
@@ -32,13 +38,29 @@
 }
 .slider .list .item .content h2 {
   font-size: 40px;
-
+  @media #{$sm, $xs, $xss} {
+    text-align: center;
+    width: 100%;
+  }
 }
 .slider .list .item .content p {
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 35px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 35px;
+  @media #{$sm, $xs, $xss} {
+    text-align: center;
+    width: 100%;
   }
+  @media #{ $xs, $xss} {
+    font-size: 18px;
+
+  }
+}
+.slider .list .item .content a {
+  @media #{$sm, $xs, $xss} {
+    text-align: center;
+  }
+}
 .slider .list .item.active {
   opacity: 1;
   z-index: 10;
@@ -119,6 +141,13 @@
   overflow: auto;
   justify-content: end;
   align-items: flex-end;
+  @media #{$sm, $xs, $xss} {
+    right: 4%;
+    padding: 0 ;
+  }
+  @media (max-width: 450px) {
+    bottom: 20px;
+  }
 }
 .thumbnail::-webkit-scrollbar {
   width: 0;
@@ -129,6 +158,10 @@
   filter: brightness(0.5);
   transition: 0.5s;
   flex-shrink: 0;
+  @media (max-width: 450px) {
+    width: 60px;
+    height: 40px;
+  }
 }
 .thumbnail .item img {
   width: 100%;
@@ -142,15 +175,4 @@
 .thumbnail .item .content {
   position: absolute;
   inset: auto 10px 10px 10px;
-}
-@media screen and (max-width: 678px) {
-  .thumbnail {
-    justify-content: start;
-  }
-  .slider .list .item .content h2 {
-    font-size: 60px;
-  }
-  .arrows {
-    top: 10%;
-  }
 }
