@@ -7,7 +7,7 @@ import BlogSectionOne from "../components/BlogSectionOne";
 import ProjectDetailUseCase from "../components/ProjectDetailUseCase";
 import NewsSectionOne from "../components/NewsSectionOne";
 import FooterSectionOne from "../components/FooterSectionOne";
-import vidio from "../images/viedio.mp4";
+import vidio from "../images/simx.mp4";
 import RaidenSimXContent from "../components/RaidenSimXContent";
 import demo from "../images/Metaverse.mp4";
 import ContactSection2 from "../components/ContactSection2";
