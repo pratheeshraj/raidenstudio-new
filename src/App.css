@@ -6,6 +6,12 @@
 
 }
 
+@media screen and (max-width: 600px) {
+
+    .about_4_images {
+        display: none !important;
+    }
+}
 
 @media screen and (max-width: 767px) {
 

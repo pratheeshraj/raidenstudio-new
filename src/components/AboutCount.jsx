@@ -55,7 +55,7 @@ const AboutCount = () => {
                                     data-aos="fade-left"
                                     data-aos-delay="300"
                                 >
-                                    <div className="d-sm-flex d-block gap-4">
+                                    <div className="d-sm-flex d-block gap-4 about_4_images">
                                         <div>
                                             <div className="item">
                                                 <img src="/assets/img/metaverse-block/about.jpg" />

@@ -10,6 +10,7 @@ const AboutCompany = () => {
                     <div className="row">
                         <div className="col-lg-12">
                             <div
+                                style={{ margin: "0" }}
                                 className="right-wrapper "
                                 data-aos="fade-left"
                                 data-aos-delay="300"
