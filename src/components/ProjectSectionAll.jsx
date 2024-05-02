@@ -39,10 +39,12 @@ const ProjectSectionAll = () => {
   const getAllCategory = async () => {
     try {
       const { data } = await axios.get(
-        "http://localhost:4000/api/case-study/get_category"
-      );
+        "https://vraiden-backend.onrender.com/api/case-study/get_category"
+      ); 
       setCategory(data.allCategory);
-    } catch (e) {}
+    } catch (e) {
+      console.log(e);
+    }
   };
   useEffect(() => {
     getAllCategory();
