@@ -71,7 +71,7 @@ function NftDevlopment() {
         {/* faq */}
         <MetaverseFaq />
         {/* contact */}
-        <ContactSection2 />
+        <ContactSection2 color={"#00ECE5"} buttoncolor={"#00ECE5"} />
         {/* Footer Section */}
         {/* News Section Two */}
         <NewsSectionOne />

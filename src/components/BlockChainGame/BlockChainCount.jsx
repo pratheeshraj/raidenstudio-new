@@ -18,7 +18,7 @@ const BlockChainCount = () => {
                                     <h2 className="counter">
                                         <ReactVisibilitySensor>
                                             {({ isVisible }) => (
-                                                <div> {isVisible ? <CountUp end={4} /> : 0}</div>
+                                                <div style={{ color: "#38FFFF" }}> {isVisible ? <CountUp end={4} /> : 0}</div>
                                             )}
                                         </ReactVisibilitySensor>
                                     </h2>
@@ -37,7 +37,7 @@ const BlockChainCount = () => {
                                     <h2 className="counter">
                                         <ReactVisibilitySensor>
                                             {({ isVisible }) => (
-                                                <div> {isVisible ? <CountUp end={5} /> : 0}</div>
+                                                <div style={{ color: "#38FFFF" }}> {isVisible ? <CountUp end={5} /> : 0}</div>
                                             )}
                                         </ReactVisibilitySensor>
                                     </h2>
@@ -56,7 +56,7 @@ const BlockChainCount = () => {
                                     <h2 className="counter">
                                         <ReactVisibilitySensor>
                                             {({ isVisible }) => (
-                                                <div> {isVisible ? <CountUp end={5} /> : 0}</div>
+                                                <div style={{ color: "#38FFFF" }}> {isVisible ? <CountUp end={5} /> : 0}</div>
                                             )}
                                         </ReactVisibilitySensor>
                                     </h2>
@@ -75,7 +75,7 @@ const BlockChainCount = () => {
                                     <h2 className="counter">
                                         <ReactVisibilitySensor>
                                             {({ isVisible }) => (
-                                                <div> {isVisible ? <CountUp end={2} /> : 0}</div>
+                                                <div style={{ color: "#38FFFF" }}> {isVisible ? <CountUp end={2} /> : 0}</div>
                                             )}
                                         </ReactVisibilitySensor>
                                     </h2>
@@ -94,7 +94,7 @@ const BlockChainCount = () => {
                                     <h2 className="counter">
                                         <ReactVisibilitySensor>
                                             {({ isVisible }) => (
-                                                <div> {isVisible ? <CountUp end={6} /> : 0}</div>
+                                                <div style={{ color: "#38FFFF" }}> {isVisible ? <CountUp end={6} /> : 0}</div>
                                             )}
                                         </ReactVisibilitySensor>
                                     </h2>

@@ -82,7 +82,7 @@ const ServicesDetails = () => {
         {/* faq */}
         <FAQSectionOne />
         {/* contact */}
-        <ContactSection2 />
+        <ContactSection2 color={"#13C4A1"} buttoncolor={"#13C4A1"} />
         {/* Footer Section */}
         {/* News Section Two */}
         <NewsSectionOne />

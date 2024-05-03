@@ -15,6 +15,7 @@ import AiAswhychoose from "../components/AI-As-Sevice/AiAswhychoose";
 import BlockchainIndustries from "./../components/BlockChain/BlockchainIndustries";
 import AsIndustries from "../components/AI-As-Sevice/AsIndustries";
 import { useSelector } from "react-redux";
+import NewsSectionOne from './../components/NewsSectionOne';
 
 function AiasService() {
   let [active, setActive] = useState(true);
@@ -72,10 +73,10 @@ function AiasService() {
         {/* faq */}
         <AsFaq />
         {/* contact */}
-        <ContactSection2 />
+        <ContactSection2 color={"#5AA9C3"} buttoncolor={"#5AA9C3"} />
         {/* Footer Section */}
         {/* News Section Two */}
-        {/* <NewsSectionOne /> */}
+        <NewsSectionOne />
         <FooterSectionOne />
       </Suspense>
     </Fragment>

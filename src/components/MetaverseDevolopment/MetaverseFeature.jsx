@@ -5,7 +5,7 @@ function NftFeatures() {
         <section className="faq-section three" style={{ background: "white" }}>
             <div className="auto-container">
                 <div className="row">
-                    <h2 style={{ textAlign: "center", color: "black" }}>Key Features of Our <br /><span className="theme-color"> Metaverse App Development</span>
+                    <h2 style={{ textAlign: "center", color: "black" }}>Key Features of Our <br /><span style={{ color: "#00ECE5" }}> Metaverse App Development</span>
                     </h2>
                     <p style={{ textAlign: "center", color: "black" }}>We are a reputable metaverse development company that provides feature-rich metaverse software to help you stay ahead of the competition. Check out what we've got to offer.
                     </p>

@@ -42,13 +42,13 @@ const AsHero = () => {
                                                     <h2 className="slider-title">
                                                         Transform Your Business
                                                         {/* <h4 className="theme-color">The Most Professional</h4> */}
-                                                        <span className="theme-color"> with Raiden</span><br />
+                                                        <span style={{ color: "#5AA9C3" }}> with Raiden</span><br />
                                                     </h2>
                                                     <p style={{ width: "500px" }} className="description metaverse_hero_para Hero_sub_heading">
                                                         Streamline operations, boost productivity, and delight customers with seamless AI integration. Experience innovation simplified.                                                    </p>
                                                     <div className="inner-btn" >
                                                         <div>
-                                                            <Link className="default-btn" to="/contact-us">
+                                                            <Link style={{ background: "#5AA9C3" }} className="default-btn" to="/contact-us">
                                                                 Explore Now
                                                             </Link>
                                                         </div>

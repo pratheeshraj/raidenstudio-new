@@ -50,11 +50,11 @@ const NftProgramming = () => {
             <section className="faq-section three" style={{ background: "white" }}>
                 <div className="auto-container">
                     <div className="row">
-                        <h2 style={{ color: "black", textAlign: "center" }}>Newest Tech Stack For <span className="theme-color"> Metaverse Development</span></h2>
+                        <h2 style={{ color: "black", textAlign: "center" }}>Newest Tech Stack For <span style={{ color: "#00ECE5" }}> Metaverse Development</span></h2>
                         {/* <p style={{ color: "black", textAlign: "center" }}>Helping startups and enterprises with the right blend of experience and technology.</p> */}
                         <div className="left_Language_div">
-                            <div onClick={handleFrontEnd} style={{ color: frontend ? '#13C4A1' : 'black' }}>Blockchain Front-end</div>
-                            <div onClick={handleMobile} style={{ color: mobile ? '#13C4A1' : 'black' }}>Blockchain Back-end</div>
+                            <div onClick={handleFrontEnd} style={{ color: frontend ? '#00ECE5' : 'black' }}>Blockchain Front-end</div>
+                            <div onClick={handleMobile} style={{ color: mobile ? '#00ECE5' : 'black' }}>Blockchain Back-end</div>
                         </div>
                         {
                             frontend ? <div className="right_Language_div">

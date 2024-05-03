@@ -14,11 +14,11 @@ const AsFaq = () => {
                                 data-aos="fade-right"
                                 data-aos-delay="300"
                             >
-                                 <h3>
+                                <h3 style={{ color: "#5AA9C3" }}>
                                     faq
                                 </h3>
                                 <h2>
-                                    Clearing Your Doubts
+                                    Clearing Your <span style={{ color: "#5AA9C3" }}> Doubts</span>
                                 </h2>
                                 <p style={{ marginBottom: "10px" }}>Have questions about our Ai Development services? Check out our FAQ section below:
                                 </p>
@@ -37,7 +37,7 @@ const AsFaq = () => {
                         </div>
                         <div className="col-lg-6">
                             <div
-                                style={{ marginTop: "135px" }}
+                                style={{ marginTop: "148px" }}
                                 className="faq-inner "
                                 data-aos="fade-left"
                                 data-aos-delay="300"
@@ -53,7 +53,7 @@ const AsFaq = () => {
                                         <div className="accordion-item">
                                             <h2 className="accordion-header">
                                                 <button
-                                                    className="accordion-button"
+                                                    className="accordion-button ai_as_color_code"
                                                     type="button"
                                                     data-bs-toggle="collapse"
                                                     data-bs-target="#flush-collapseOne"
@@ -76,7 +76,7 @@ const AsFaq = () => {
                                         <div className="accordion-item">
                                             <h2 className="accordion-header">
                                                 <button
-                                                    className="accordion-button collapsed"
+                                                    className="accordion-button collapsed ai_as_color_code"
                                                     type="button"
                                                     data-bs-toggle="collapse"
                                                     data-bs-target="#flush-collapseTwo"
@@ -100,7 +100,7 @@ const AsFaq = () => {
                                         <div className="accordion-item">
                                             <h2 className="accordion-header">
                                                 <button
-                                                    className="accordion-button collapsed"
+                                                    className="accordion-button collapsed ai_as_color_code"
                                                     type="button"
                                                     data-bs-toggle="collapse"
                                                     data-bs-target="#flush-collapseThree"

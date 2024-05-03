@@ -8,7 +8,7 @@ function AiAswhychoose() {
                 <div className="auto-container">
                     <div className="row nft_whychoose_full_div">
                         <div className='nft_whychoose_left_div'>
-                            <h2 style={{ color: "black", textAlign: "center" }}>Why Choose <span className='theme-color'> Raiden ?</span></h2>
+                            <h2 style={{ color: "black", textAlign: "center" }}>Why Choose <span style={{ color: "#5AA9C3" }}> Raiden ?</span></h2>
                             {/* <p style={{ color: "black", textAlign: "center", marginBottom: "80px" }}>At Raiden, we have qualified and devoted NFT developers with extensive experience in the NFT development sector, assuring the quality you want. Hire Raiden's skilled developers to grow and enhance your NFT project capabilities to the point where you can successfully complete projects and provide solutions with challenging and intricate criteria. We provide unique NFT development solutions while keeping your budget in mind, since we always strive to provide solutions that are reasonable.</p> */}
                         </div>
                         <div className='nft_whychoose_Right_div'>

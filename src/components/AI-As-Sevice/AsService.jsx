@@ -9,7 +9,7 @@ const AsService = () => {
                     className="container-fulid key_features"
                     style={{ background: "#F8F9FA" }}
                 >
-                    <h2 className="auto-container" style={{ color: "black" }}>AIaaS/PaaS Offerings:<span className="theme-color"> Empowering <br />Your Business</span></h2>
+                    <h2 className="auto-container" style={{ color: "black" }}>AIaaS/PaaS Offerings:<span style={{ color: "#5AA9C3" }}> Empowering <br />Your Business</span></h2>
                     <p style={{ color: "black", textAlign: "center", width: "70%", margin: "auto auto auto auto" }}>
                         Discover the comprehensive capabilities of our AI-as-a-Service (AIaaS) and Platform-as-a-Service (PaaS) offerings, designed to equip your business with the tools needed to thrive in the AI landscape.
                     </p>

@@ -6,7 +6,7 @@ function MetaverseIndustries() {
         <section className="faq-section three" style={{ background: "#00151E" }}>
             <div className="auto-container">
                 <div className="row">
-                    <h2 style={{ textAlign: "center", color: "white" }}>Industries <span className='theme-color'>We Serve </span></h2>
+                    <h2 style={{ textAlign: "center", color: "white" }}>Industries <span style={{ color: "#38FFFF" }}>We Serve </span></h2>
                     {/* <p style={{ textAlign: "center", color: "white" }}>Our AI development team is up to date on the newest technology trends, and they continue to experiment with new AI PoCs (Proof of Concepts) to provide cutting-edge AI development solutions with novel ideas.</p> */}
                     <div className='feature_div'>
                         <div className='feature_card idustry'>

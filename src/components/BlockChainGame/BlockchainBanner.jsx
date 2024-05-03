@@ -18,14 +18,14 @@ const BlockchainBanner = () => {
                             <div className="col-lg-6">
                                 <div className="title">
                                     <h2>
-                                        Is your business geared up to integrate <span className="theme-color"> Blockchain game development services?</span>
+                                        Is your business geared up to integrate <span style={{ color: "#38FFFF" }}> Blockchain game development services?</span>
                                     </h2>
                                     <p>
                                         we're committed to bringing innovation and cutting-edge technology to your gaming projects. Let's collaborate and unlock the endless possibilities of Blockchain gaming together!"
                                     </p>
                                     <div className="inner-btn d-adjust">
                                         <div>
-                                            <Link className="default-btn" to="/contact-us">
+                                            <Link style={{ background: "#00ECE5" }} className="default-btn" to="/contact-us">
                                                 Let’s Work To Do{" "}
                                             </Link>
                                         </div>

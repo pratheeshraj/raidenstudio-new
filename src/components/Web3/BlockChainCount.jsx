@@ -18,13 +18,13 @@ const BlockChainCount = () => {
                                     <h2 className="counter">
                                         <ReactVisibilitySensor>
                                             {({ isVisible }) => (
-                                                <div style={{ color: "#FB57E9" }}> {isVisible ? <CountUp end={200} /> : 0}</div>
+                                                <div style={{ color: "#FB57E9" }}> {isVisible ? <CountUp end={50} /> : 0}</div>
                                             )}
                                         </ReactVisibilitySensor>
                                     </h2>
                                     <h3>+</h3>
                                 </div>
-                                <h4>DApps Delivered</h4>
+                                <h4>DAPPS Delivered</h4>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
@@ -76,13 +76,13 @@ const BlockChainCount = () => {
 
                                         <ReactVisibilitySensor>
                                             {({ isVisible }) => (
-                                                <div style={{ color: "#FB57E9" }}><span style={{ color: "white"}}>$</span>{isVisible ? <CountUp end={10} /> : 0}</div>
+                                                <div style={{ color: "#FB57E9" }}><span style={{ color: "white" }}>$</span>{isVisible ? <CountUp end={10} /> : 0}</div>
                                             )}
                                         </ReactVisibilitySensor>
                                     </h2>
                                     <h3>M +</h3>
                                 </div>
-                                <h4>NFT Projects Launched</h4>
+                                <h4>NFT Launched</h4>
                             </div>
                         </div>
                     </div>

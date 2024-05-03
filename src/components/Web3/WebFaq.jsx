@@ -37,7 +37,7 @@ const WebFaq = () => {
                         </div>
                         <div className="col-lg-6">
                             <div
-                                style={{ marginTop: "135px" }}
+                                style={{ marginTop: "190px" }}
                                 className="faq-inner "
                                 data-aos="fade-left"
                                 data-aos-delay="300"

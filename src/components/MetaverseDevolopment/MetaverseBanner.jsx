@@ -18,14 +18,14 @@ const MetaverseBanner = () => {
                             <div className="col-lg-6">
                                 <div className="title">
                                     <h2>
-                                        Are you ready to adopt <span className="theme-color"> Metaverse development services</span> for your business?
+                                        Are you ready to adopt <span style={{ color: "#38FFFF" }}> Metaverse development services</span> for your business?
                                     </h2>
                                     <p>
                                         Don't miss out on the chance to shape the future of digital presence and connectivity. Embrace the Metaverse and unlock endless possibilities for your business.
                                     </p>
                                     <div className="inner-btn d-adjust">
                                         <div>
-                                            <Link className="default-btn" to="/contact-us">
+                                            <Link style={{ background: "#00ECE5" }} className="default-btn" to="/contact-us">
                                                 Let’s Work To Do{" "}
                                             </Link>
                                         </div>

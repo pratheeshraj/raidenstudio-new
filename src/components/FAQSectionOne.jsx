@@ -12,7 +12,7 @@ const FAQSectionOne = () => {
                 data-aos="fade-right"
                 data-aos-delay="300"
               >
-                <h3>FAQ</h3>
+                <h3 style={{ color: "#13C4A1" }}>FAQ</h3>
                 <h2>
                   The goal of Artificial <br />
                   <span className="theme-color">intelligence</span>
@@ -39,6 +39,7 @@ const FAQSectionOne = () => {
             </div>
             <div className="col-lg-6">
               <div
+                style={{ marginTop: "240px" }}
                 className="faq-inner "
                 data-aos="fade-left"
                 data-aos-delay="300"

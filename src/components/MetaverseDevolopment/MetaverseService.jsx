@@ -21,7 +21,7 @@ const MetaverseService = () => {
                             >
                                 <h2 style={{ textAlign: "center", }}>
                                     Comprehensive Metaverse
-                                    <span className="theme-color"> Development Services</span>
+                                    <span style={{ color: "#00ECE5" }}> Development Services</span>
                                 </h2>
                                 <p style={{ textAlign: "center" }}>
                                     Execute our metaverse app development services to experience a world where imagination meets reality. We have the knowledge and adaptability to handle a variety of use cases that attract and engage users in unique experiences.

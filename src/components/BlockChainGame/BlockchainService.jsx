@@ -9,7 +9,7 @@ const BlockchainService = () => {
                 <div
                     className="container-fulid key_features"
                 >
-                    <h2 className="auto-container" style={{ color: "black" }}>	Blockchain Game Development Services<span className="theme-color"> <br />We Provide</span></h2>
+                    <h2 className="auto-container" style={{ color: "black" }}>	Blockchain Game Development Services<span style={{ color: "#00ECE5" }}> <br />We Provide</span></h2>
                     {/* <p style={{ color: "black", textAlign: "center", width: "70%", margin: "auto auto 80px auto" }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores vitae nulla quidem deleniti officiis eligendi repellat labore dolor fugiat enim neque voluptatem consequatur minus, distinctio accusantium a eum? Optio, voluptatem.</p> */}
                     <div className="auto-container row key_features_section_container" style={{ rowGap: "29px" }}>
                         <div style={{ background: "white", boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px", borderRadius: "8px", width: "340px", height: "320px" }} className="key_features_card">

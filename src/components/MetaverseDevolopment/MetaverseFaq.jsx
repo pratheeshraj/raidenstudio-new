@@ -13,11 +13,11 @@ const MetaverseFaq = () => {
                                 data-aos="fade-right"
                                 data-aos-delay="300"
                             >
-                                <h3>
+                                <h3 style={{ color: "#00ECE5" }}>
                                     FAQ
                                 </h3>
                                 <h2>
-                                    Answers At A <br /><span className="theme-color"> Glance</span>
+                                    Answers At A <br /><span style={{ color: "#00ECE5" }}> Glance</span>
                                 </h2>
                                 <p style={{ marginBottom: "10px" }}>
                                     Get rapid insights into the transformative potential of Metaverse development services for your business.
@@ -52,7 +52,7 @@ const MetaverseFaq = () => {
                                         <div className="accordion-item">
                                             <h2 className="accordion-header">
                                                 <button
-                                                    className="accordion-button"
+                                                    className="accordion-button faq_clash_of_empire"
                                                     type="button"
                                                     data-bs-toggle="collapse"
                                                     data-bs-target="#flush-collapseOne"
@@ -75,7 +75,7 @@ const MetaverseFaq = () => {
                                         <div className="accordion-item">
                                             <h2 className="accordion-header">
                                                 <button
-                                                    className="accordion-button collapsed"
+                                                    className="accordion-button collapsed faq_clash_of_empire"
                                                     type="button"
                                                     data-bs-toggle="collapse"
                                                     data-bs-target="#flush-collapseTwo"
@@ -98,7 +98,7 @@ const MetaverseFaq = () => {
                                         <div className="accordion-item">
                                             <h2 className="accordion-header">
                                                 <button
-                                                    className="accordion-button collapsed"
+                                                    className="accordion-button collapsed faq_clash_of_empire"
                                                     type="button"
                                                     data-bs-toggle="collapse"
                                                     data-bs-target="#flush-collapseThree"
@@ -121,7 +121,7 @@ const MetaverseFaq = () => {
                                         <div className="accordion-item">
                                             <h2 className="accordion-header">
                                                 <button
-                                                    className="accordion-button collapsed"
+                                                    className="accordion-button collapsed faq_clash_of_empire"
                                                     type="button"
                                                     data-bs-toggle="collapse"
                                                     data-bs-target="#flush-collapseFour"

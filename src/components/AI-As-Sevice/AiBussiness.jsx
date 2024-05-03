@@ -19,7 +19,7 @@ const AiBussiness = () => {
                             >
                                 <h2 style={{ textAlign: "center", width: "100%" }}>
                                     Unlocking the Power of AI for
-                                    <span className="theme-color"> <br /> Your Business</span>
+                                    <span style={{ color: "#5AA9C3" }}> <br /> Your Business</span>
                                 </h2>
                                 <p style={{ textAlign: "center" }}>Learn why leveraging our AI-as-a-Service offerings is essential for your business, enabling you to harness the transformative potential of AI without the complexities of infrastructure management.</p>
                             </div>
