@@ -62,6 +62,7 @@ import NavBottom from "./components/NavBottom";
 import { Helmet } from "react-helmet";
 import { useDispatch } from "react-redux";
 import { getMetaDataCreate } from "./action/MetaDataAction";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 
 
 
@@ -134,6 +135,7 @@ function App() {
         <Route exact path="/AI-as-a-Service(AIaaS)-Artificial-Intelligence" element={<AiasService />} />
         <Route exact path="/case-studies" element={<AllCaseStudy />} />
         <Route exact path="/case-study-detail/:id" element={<CaseStudyDetails />} />
+        <Route exact path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route exact path="*" element={<Error />} />
       </Routes>
       <RouteScrollToTop />
