@@ -40,14 +40,14 @@ const MetaverseHero = () => {
                                             <div className="slider-content-inner ">
                                                 <div>
                                                     <h2 className="slider-title">
-                                                        <span className="theme-color"> Metaverse</span><br /> Development Company
+                                                        <span style={{ color: "#38FFFF" }}> Metaverse</span><br /> Development Company
                                                     </h2>
                                                     <p style={{ width: "500px" }} className="description metaverse_hero_para Hero_sub_heading">
                                                         With our cutting-edge development services, you can explore the metaverse and enter a world without boundaries.
                                                     </p>
                                                     <div className="inner-btn" >
                                                         <div>
-                                                            <Link className="default-btn" to="/contact-us">
+                                                            <Link style={{ background: "#00ECE5" }} className="default-btn" to="/contact-us">
                                                                 Explore Now
                                                             </Link>
                                                         </div>

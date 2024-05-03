@@ -18,7 +18,7 @@ const DefiCount = () => {
                                     <h2 className="counter">
                                         <ReactVisibilitySensor>
                                             {({ isVisible }) => (
-                                                <div> {isVisible ? <CountUp end={30} /> : 0}</div>
+                                                <div style={{ color: "#38FFFF" }}> {isVisible ? <CountUp end={30} /> : 0}</div>
                                             )}
                                         </ReactVisibilitySensor>
                                     </h2>
@@ -37,7 +37,7 @@ const DefiCount = () => {
                                     <h2 className="counter">
                                         <ReactVisibilitySensor>
                                             {({ isVisible }) => (
-                                                <div> {isVisible ? <CountUp end={70} /> : 0}</div>
+                                                <div style={{ color: "#38FFFF" }}> {isVisible ? <CountUp end={70} /> : 0}</div>
                                             )}
                                         </ReactVisibilitySensor>
                                     </h2>
@@ -56,7 +56,7 @@ const DefiCount = () => {
                                     <h2 className="counter">
                                         <ReactVisibilitySensor>
                                             {({ isVisible }) => (
-                                                <div> {isVisible ? <CountUp end={25} /> : 0}</div>
+                                                <div style={{ color: "#38FFFF" }}> {isVisible ? <CountUp end={25} /> : 0}</div>
                                             )}
                                         </ReactVisibilitySensor>
                                     </h2>

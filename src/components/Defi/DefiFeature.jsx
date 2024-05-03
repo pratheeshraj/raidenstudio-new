@@ -5,7 +5,7 @@ function DefiFeature() {
         <section className="faq-section three" style={{ background: "#F8F9FA" }}>
             <div className="auto-container">
                 <div className="row">
-                    <h2 style={{ textAlign: "center", color: "black" }}>Core Benefits of our <span className="theme-color">DeFi Development Company</span>
+                    <h2 style={{ textAlign: "center", color: "black" }}>Core Benefits of our <span style={{ color: "#00ECE5" }}>DeFi Development Company</span>
                     </h2>
                     {/* <p style={{ textAlign: "center", color: "black" }}>We are a reputable metaverse development company that provides feature-rich metaverse software to help you stay ahead of the competition. Check out what we've got to offer.
                     </p> */}

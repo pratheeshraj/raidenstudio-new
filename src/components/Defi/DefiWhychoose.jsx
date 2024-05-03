@@ -8,7 +8,7 @@ function DefiWhychoose() {
                 <div className="auto-container">
                     <div className="row wwhychoose_maindiv">
                         <div className="whychoose_left_div">
-                            <h2 style={{ marginBottom: "25px", color: "black", textAlign: "center" }}>Why Choose Raiden as a <span className='theme-color'>DeFi Application Development Company ?</span></h2>
+                            <h2 style={{ marginBottom: "25px", color: "black", textAlign: "center" }}>Why Choose Raiden as a <span style={{ color: "#00ECE5" }}>DeFi Application Development Company ?</span></h2>
                             <p style={{ color: "black", textAlign: "center" }}>
                                 Raiden is the best choice for DeFi application development. Our outstanding group of knowledgeable developers is passionate about Blockchain technology and has a deep understanding of it, realizing its incredible potential to completely transform the financial sector.
                             </p>

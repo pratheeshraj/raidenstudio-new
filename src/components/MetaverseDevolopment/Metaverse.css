@@ -108,6 +108,114 @@
 
 
 
+
+/* block-chain card grident  */
+
+
+
+.card_metaverse1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 320px;
+    height: 430px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 32px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.card_metaverse1::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 5px;
+    height: 100%;
+    background: linear-gradient(146.38deg, #4D97E5 0%, #002E60 100%);
+    z-index: -1;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.card_metaverse1:hover::before {
+    width: 100%;
+}
+
+.card_metaverse1:hover {
+    box-shadow: none;
+}
+
+.card_metaverse1:hover .btn_metaverse {
+    color: #212121;
+    background: #e8e8e8;
+}
+
+.card_metaverse1:hover .content_metaverse .heading_metaverse,
+.card_metaverse1:hover .content_metaverse .para_metaverse {
+    color: white;
+}
+
+
+
+
+
+
+/* defi card grident  */
+
+
+
+.card_metaverse2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 320px;
+    height: 430px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 32px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.card_metaverse2::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 5px;
+    height: 100%;
+    background: linear-gradient(146.38deg, #00E5DE 0%, #00807C 100%);
+    z-index: -1;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.card_metaverse2:hover::before {
+    width: 100%;
+}
+
+.card_metaverse2:hover {
+    box-shadow: none;
+}
+
+.card_metaverse2:hover .btn_metaverse {
+    color: #212121;
+    background: #e8e8e8;
+}
+
+.card_metaverse2:hover .content_metaverse .heading_metaverse,
+.card_metaverse2:hover .content_metaverse .para_metaverse {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
 /* meta features */
 
 .feature_div_metaverse {

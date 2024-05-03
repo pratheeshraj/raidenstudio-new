@@ -18,14 +18,14 @@ const DefiBanner = () => {
                             <div className="col-lg-6">
                                 <div className="title">
                                     <h2>
-                                        Is your business prepared to embrace <span className="theme-color"> DeFi development services?</span>
+                                        Is your business prepared to embrace <span style={{ color: "#38FFFF" }}> DeFi development services?</span>
                                     </h2>
                                     <p>
                                         Our DeFi development services can help you stay ahead in the rapidly evolving financial landscape. Embrace innovation, drive financial inclusion, and elevate your business with DeFi development services
                                     </p>
                                     <div className="inner-btn d-adjust">
                                         <div>
-                                            <Link className="default-btn" to="/contact-us">
+                                            <Link style={{ background: "#00ECE5" }} className="default-btn" to="/contact-us">
                                                 Let’s Work To Do{" "}
                                             </Link>
                                         </div>

@@ -18,7 +18,7 @@ const MetaverseCount = () => {
                                     <h2 className="counter">
                                         <ReactVisibilitySensor>
                                             {({ isVisible }) => (
-                                                <div> {isVisible ? <CountUp end={100} /> : 0}</div>
+                                                <div style={{ color: "#38FFFF" }}> {isVisible ? <CountUp end={100} /> : 0}</div>
                                             )}
                                         </ReactVisibilitySensor>
                                     </h2>
@@ -37,7 +37,7 @@ const MetaverseCount = () => {
                                     <h2 className="counter">
                                         <ReactVisibilitySensor>
                                             {({ isVisible }) => (
-                                                <div> {isVisible ? <CountUp end={40} /> : 0}</div>
+                                                <div style={{ color: "#38FFFF" }}> {isVisible ? <CountUp end={40} /> : 0}</div>
                                             )}
                                         </ReactVisibilitySensor>
                                     </h2>
@@ -56,7 +56,7 @@ const MetaverseCount = () => {
                                     <h2 className="counter">
                                         <ReactVisibilitySensor>
                                             {({ isVisible }) => (
-                                                <div> {isVisible ? <CountUp end={400} /> : 0}</div>
+                                                <div style={{ color: "#38FFFF" }}> {isVisible ? <CountUp end={400} /> : 0}</div>
                                             )}
                                         </ReactVisibilitySensor>
                                     </h2>
@@ -75,7 +75,7 @@ const MetaverseCount = () => {
                                     <h2 className="counter">
                                         <ReactVisibilitySensor>
                                             {({ isVisible }) => (
-                                                <div> {isVisible ? <CountUp end={5} /> : 0}</div>
+                                                <div style={{ color: "#38FFFF" }}> {isVisible ? <CountUp end={5} /> : 0}</div>
                                             )}
                                         </ReactVisibilitySensor>
                                     </h2>

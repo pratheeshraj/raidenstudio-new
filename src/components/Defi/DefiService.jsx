@@ -17,7 +17,7 @@ const DefiService = () => {
                             >
                                 <h2 style={{ textAlign: "center", }}>
                                     Our Extensive Range of
-                                    <span className="theme-color"> DeFi Development Services</span>
+                                    <span style={{ color: "#00ECE5" }}> DeFi Development Services</span>
                                 </h2>
                                 <p style={{ textAlign: "center" }}>
                                     We are a rapidly growing Decentralised Finance development company that constantly aims to provide a wide range of comprehensive DeFi app development services in order to give an immersive decentralized experience.
@@ -28,7 +28,7 @@ const DefiService = () => {
                     <div className="row">
 
                         <div className="col-lg-4 col-md-6 col-12" style={{ marginBottom: "20px", display: "flex", justifyContent: "center" }}>
-                            <div class="card_metaverse" style={{ height: "100%" }}>
+                            <div class="card_metaverse2" style={{ height: "100%" }}>
                                 <div class="content_metaverse">
                                     <p class="heading_metaverse">DeFi Token Development
                                     </p><p class="para_metaverse">
@@ -37,7 +37,7 @@ const DefiService = () => {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-12" style={{ marginBottom: "20px", display: "flex", justifyContent: "center" }}>
-                            <div class="card_metaverse" style={{ height: "100%" }}>
+                            <div class="card_metaverse2" style={{ height: "100%" }}>
                                 <div class="content_metaverse">
                                     <p class="heading_metaverse">DeFi Staking Development
                                     </p><p class="para_metaverse">
@@ -47,7 +47,7 @@ const DefiService = () => {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-12" style={{ marginBottom: "20px", display: "flex", justifyContent: "center" }}>
-                            <div class="card_metaverse" style={{ height: "100%" }}>
+                            <div class="card_metaverse2" style={{ height: "100%" }}>
                                 <div class="content_metaverse">
                                     <p class="heading_metaverse">DeFi Lending and Borrowing Development
                                     </p><p class="para_metaverse">
@@ -57,7 +57,7 @@ const DefiService = () => {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-12" style={{ marginBottom: "20px", display: "flex", justifyContent: "center" }}>
-                            <div class="card_metaverse" style={{ height: "100%" }}>
+                            <div class="card_metaverse2" style={{ height: "100%" }}>
                                 <div class="content_metaverse">
                                     <p class="heading_metaverse">DeFi Yield Farming Development
                                     </p><p class="para_metaverse">
@@ -67,7 +67,7 @@ const DefiService = () => {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-12" style={{ marginBottom: "20px", display: "flex", justifyContent: "center" }}>
-                            <div class="card_metaverse" style={{ height: "100%" }}>
+                            <div class="card_metaverse2" style={{ height: "100%" }}>
                                 <div class="content_metaverse">
                                     <p class="heading_metaverse">DeFi Crowdfunding Development
                                     </p><p class="para_metaverse">
@@ -76,7 +76,7 @@ const DefiService = () => {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-12" style={{ marginBottom: "20px", display: "flex", justifyContent: "center" }}>
-                            <div class="card_metaverse" style={{ height: "100%" }}>
+                            <div class="card_metaverse2" style={{ height: "100%" }}>
                                 <div class="content_metaverse">
                                     <p class="heading_metaverse">DeFi Smart Contract Development
                                     </p><p class="para_metaverse">
@@ -86,7 +86,7 @@ const DefiService = () => {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-12" style={{ marginBottom: "20px", display: "flex", justifyContent: "center" }}>
-                            <div class="card_metaverse" style={{ height: "100%" }}>
+                            <div class="card_metaverse2" style={{ height: "100%" }}>
                                 <div class="content_metaverse">
                                     <p class="heading_metaverse">DeFi Wallet Development
                                     </p><p class="para_metaverse">
@@ -96,7 +96,7 @@ const DefiService = () => {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-12" style={{ marginBottom: "20px", display: "flex", justifyContent: "center" }}>
-                            <div class="card_metaverse" style={{ height: "100%" }}>
+                            <div class="card_metaverse2" style={{ height: "100%" }}>
                                 <div class="content_metaverse">
                                     <p class="heading_metaverse">DeFi Insurance Platform
 
@@ -107,7 +107,7 @@ const DefiService = () => {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-12" style={{ marginBottom: "20px", display: "flex", justifyContent: "center" }}>
-                            <div class="card_metaverse" style={{ height: "100%" }}>
+                            <div class="card_metaverse2" style={{ height: "100%" }}>
                                 <div class="content_metaverse">
                                     <p class="heading_metaverse">DeFi Lottery System Development
                                     </p><p class="para_metaverse">

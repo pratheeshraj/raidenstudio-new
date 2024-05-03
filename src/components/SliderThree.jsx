@@ -20,10 +20,10 @@ function SliderThree() {
     },
     {
       imgSrc: "/assets/img/bg-image/metaverse.jpg",
-      title: `Redefining Experiences <br> <span style="color:#2ac8fd">with XR</span>`,
+      title: `Redefining Experiences <br> <span style="color:#56e1f9">with XR</span>`,
       description:
         "Discover augmented and virtual realities with our <br> expert XR development.",
-      color: "#2ac8fd"
+      color: "#4dcbe1"
     },
 
     {
@@ -83,9 +83,9 @@ function SliderThree() {
       <div className="slider" style={{ background: "black" }} ref={sliderRef} >
         <div className="list">
           {items.map((item, index) => (
-                          <div key={index} className={`item ${index === itemActive ? 'active' : ''}`} style={{backgroundImage: `url('${item.imgSrc}')`}}>
+            <div key={index} className={`item ${index === itemActive ? 'active' : ''}`} style={{ backgroundImage: `url('${item.imgSrc}')` }}>
 
-            
+
               <div className="auto-container content">
                 <h2 dangerouslySetInnerHTML={{ __html: item.title }}></h2>
                 <p dangerouslySetInnerHTML={{ __html: item.description }}></p>

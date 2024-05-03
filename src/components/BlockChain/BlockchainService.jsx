@@ -26,7 +26,7 @@ const BlockchainService = () => {
                     </div>
                     <div className="row">
                         <div className="col-lg-4 col-md-6 col-12" style={{ marginBottom: "20px", display: "flex", justifyContent: "center" }}>
-                            <div class="card_metaverse" style={{ height: "100%" }}>
+                            <div class="card_metaverse1" style={{ height: "100%" }}>
                                 <div class="content_metaverse">
                                     <p class="heading_metaverse">Web3.0 Development
                                     </p><p class="para_metaverse">
@@ -36,7 +36,7 @@ const BlockchainService = () => {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-12" style={{ marginBottom: "20px", display: "flex", justifyContent: "center" }}>
-                            <div class="card_metaverse" style={{ height: "100%" }}>
+                            <div class="card_metaverse1" style={{ height: "100%" }}>
                                 <div class="content_metaverse">
                                     <p class="heading_metaverse">Public Blockchain
                                     </p><p class="para_metaverse">
@@ -46,7 +46,7 @@ const BlockchainService = () => {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-12" style={{ marginBottom: "20px", display: "flex", justifyContent: "center" }}>
-                            <div class="card_metaverse" style={{ height: "100%" }}>
+                            <div class="card_metaverse1" style={{ height: "100%" }}>
                                 <div class="content_metaverse">
                                     <p class="heading_metaverse">Private Blockchain
                                     </p><p class="para_metaverse">
@@ -56,7 +56,7 @@ const BlockchainService = () => {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-12" style={{ marginBottom: "20px", display: "flex", justifyContent: "center" }}>
-                            <div class="card_metaverse" style={{ height: "100%" }}>
+                            <div class="card_metaverse1" style={{ height: "100%" }}>
                                 <div class="content_metaverse">
                                     <p class="heading_metaverse">Cryptocurrency
                                     </p><p class="para_metaverse">
@@ -66,7 +66,7 @@ const BlockchainService = () => {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-12" style={{ marginBottom: "20px", display: "flex", justifyContent: "center" }}>
-                            <div class="card_metaverse" style={{ height: "100%" }}>
+                            <div class="card_metaverse1" style={{ height: "100%" }}>
                                 <div class="content_metaverse">
                                     <p class="heading_metaverse">DEX
                                     </p><p class="para_metaverse">
@@ -76,7 +76,7 @@ const BlockchainService = () => {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-12" style={{ marginBottom: "20px", display: "flex", justifyContent: "center" }}>
-                            <div class="card_metaverse" style={{ height: "100%" }}>
+                            <div class="card_metaverse1" style={{ height: "100%" }}>
                                 <div class="content_metaverse">
                                     <p class="heading_metaverse">Crypto Wallet
                                     </p><p class="para_metaverse">
@@ -86,7 +86,7 @@ const BlockchainService = () => {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-12" style={{ marginBottom: "20px", display: "flex", justifyContent: "center" }}>
-                            <div class="card_metaverse" style={{ height: "100%" }}>
+                            <div class="card_metaverse1" style={{ height: "100%" }}>
                                 <div class="content_metaverse">
                                     <p class="heading_metaverse">NFT Marketplace
                                     </p><p class="para_metaverse">
@@ -96,7 +96,7 @@ const BlockchainService = () => {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-12" style={{ marginBottom: "20px", display: "flex", justifyContent: "center" }}>
-                            <div class="card_metaverse" style={{ height: "100%" }}>
+                            <div class="card_metaverse1" style={{ height: "100%" }}>
                                 <div class="content_metaverse">
                                     <p class="heading_metaverse">Smart Contract
                                     </p><p class="para_metaverse">
@@ -106,7 +106,7 @@ const BlockchainService = () => {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-12" style={{ marginBottom: "20px", display: "flex", justifyContent: "center" }}>
-                            <div class="card_metaverse" style={{ height: "100%" }}>
+                            <div class="card_metaverse1" style={{ height: "100%" }}>
                                 <div class="content_metaverse">
                                     <p class="heading_metaverse">DAPP
                                     </p><p class="para_metaverse">

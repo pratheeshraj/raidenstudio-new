@@ -50,13 +50,14 @@ const DefiTech = () => {
             <section className="faq-section three" style={{ background: "white" }}>
                 <div className="auto-container">
                     <div className="row">
-                        <h2 style={{ color: "black", textAlign: "center" }}>Our Tech Stack For<span className="theme-color"> DeFi Development</span></h2>
+                        <h2 style={{ color: "black", textAlign: "center" }}>Our Tech Stack For<span style={{ color: "#00ECE5" }}
+                        > DeFi Development</span></h2>
                         <p style={{ color: "black", textAlign: "center" }}>Helping startups and enterprises with the right blend of experience and technology.</p>
                         <div className="left_Language_div">
-                            <div onClick={handleFrontEnd} style={{ color: frontend ? '#13C4A1' : 'black' }}>Languages</div>
-                            <div onClick={handleMobile} style={{ color: mobile ? '#13C4A1' : 'black' }}>Tools</div>
-                            <div onClick={handleBlockchain} style={{ color: blockchain ? '#13C4A1' : 'black' }}>Frameworks</div>
-                            <div onClick={handleGame} style={{ color: game ? '#13C4A1' : 'black' }}>Blockchain</div>
+                            <div onClick={handleFrontEnd} style={{ color: frontend ? '#00ECE5' : 'black' }}>Languages</div>
+                            <div onClick={handleMobile} style={{ color: mobile ? '#00ECE5' : 'black' }}>Tools</div>
+                            <div onClick={handleBlockchain} style={{ color: blockchain ? '#00ECE5' : 'black' }}>Frameworks</div>
+                            <div onClick={handleGame} style={{ color: game ? '#00ECE5' : 'black' }}>Blockchain</div>
 
                         </div>
                         {

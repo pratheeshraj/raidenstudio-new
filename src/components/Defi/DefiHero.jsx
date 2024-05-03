@@ -42,13 +42,13 @@ const DefiHero = () => {
                                                     <h2 className="slider-title">
                                                         Globally Recognized Decentralized Finance
                                                         {/* <h4 className="theme-color">The Most Professional</h4> */}
-                                                        <span className="theme-color"> Development Company</span><br />
+                                                        <span style={{ color: "#38FFFF" }}> Development Company</span><br />
                                                     </h2>
                                                     <p style={{ width: "500px" }} className="description metaverse_hero_para Hero_sub_heading">
                                                         Leverage a wide range of DeFi development services, which are perfect for all over startups, SMBs, and enterprises.                                                    </p>
                                                     <div className="inner-btn" >
                                                         <div>
-                                                            <Link className="default-btn" to="/contact-us">
+                                                            <Link style={{ background: "#00ECE5" }} className="default-btn" to="/contact-us">
                                                                 Explore Now
                                                             </Link>
                                                         </div>

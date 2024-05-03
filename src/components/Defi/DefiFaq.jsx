@@ -13,11 +13,13 @@ const DefiFaq = () => {
                                 data-aos="fade-right"
                                 data-aos-delay="300"
                             >
-                                <h3>
+                                <h3 style={{ color: "#38FFFF" }}
+                                >
                                     FAQ
                                 </h3>
                                 <h2>
-                                    Answers At A <br /><span className="theme-color"> Glance</span>
+                                    Answers At A <br /><span style={{ color: "#38FFFF" }}
+                                    > Glance</span>
                                 </h2>
                                 <p style={{ marginBottom: "10px" }}>
                                     Gain rapid understanding of the transformative potential of DeFi development services for your business
@@ -52,7 +54,7 @@ const DefiFaq = () => {
                                         <div className="accordion-item">
                                             <h2 className="accordion-header">
                                                 <button
-                                                    className="accordion-button"
+                                                    className="accordion-button faq_clash_of_empire"
                                                     type="button"
                                                     data-bs-toggle="collapse"
                                                     data-bs-target="#flush-collapseOne"
@@ -75,7 +77,7 @@ const DefiFaq = () => {
                                         <div className="accordion-item">
                                             <h2 className="accordion-header">
                                                 <button
-                                                    className="accordion-button collapsed"
+                                                    className="accordion-button collapsed faq_clash_of_empire"
                                                     type="button"
                                                     data-bs-toggle="collapse"
                                                     data-bs-target="#flush-collapseTwo"
@@ -98,7 +100,7 @@ const DefiFaq = () => {
                                         <div className="accordion-item">
                                             <h2 className="accordion-header">
                                                 <button
-                                                    className="accordion-button collapsed"
+                                                    className="accordion-button collapsed faq_clash_of_empire"
                                                     type="button"
                                                     data-bs-toggle="collapse"
                                                     data-bs-target="#flush-collapseThree"
@@ -121,7 +123,7 @@ const DefiFaq = () => {
                                         <div className="accordion-item">
                                             <h2 className="accordion-header">
                                                 <button
-                                                    className="accordion-button collapsed"
+                                                    className="accordion-button collapsed faq_clash_of_empire"
                                                     type="button"
                                                     data-bs-toggle="collapse"
                                                     data-bs-target="#flush-collapseFour"
