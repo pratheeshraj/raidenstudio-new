@@ -10,68 +10,68 @@ function NftIndustries() {
                     {/* <p style={{ textAlign: "center", color: "white" }}>Our AI development team is up to date on the newest technology trends, and they continue to experiment with new AI PoCs (Proof of Concepts) to provide cutting-edge AI development solutions with novel ideas.</p> */}
                     <div className='feature_div'>
                         <div className='feature_card idustry'>
-                            <img style={{ fill: "red" }} src='/assets/img/nftindustries/art.svg' />
+                            <img style={{ fill: "red" }} src='\assets\img\nft\art.svg' />
                             <div>Art</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/nftindustries/music.svg' />
+                            <img src='\assets\img\nft\Frame 7.svg' />
                             <div>Music</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/nftindustries/DIGITAL.SVG' />
+                            <img src='\assets\img\nft\digi.svg' />
                             <div>Digital Collectibles
                             </div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/nftindustries/fashion.svg' />
+                            <img src='\assets\img\nft\fash.svg' />
                             <div>Fashion
                             </div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/nftindustries/metaverse.svg' />
+                            <img src='\assets\img\nft\meta.svg' />
                             <div>Metaverse
                             </div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/nftindustries/automotive.svg' />
+                            <img src='\assets\img\nft\automotive 1.svg' />
                             <div>Automotive
                             </div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/nftindustries/oilandgas.svg' />
+                            <img src='\assets\img\nft\oil.svg' />
                             <div>Oil & Gas
                             </div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/nftindustries/manufacturing.svg' />
+                            <img src='\assets\img\nft\manu.svg' />
                             <div>Manufacturing</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/industries/healthcare@0.3x.png' />
+                            <img src='\assets\img\nft\healthcare.svg' />
                             <div>Healthcare</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/industries/finance@0.3x.png' />
+                            <img src='\assets\img\nft\finance.svg' />
                             <div>Finance</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/industries/logistics (1)@0.3x.png' />
+                            <img src='\assets\img\nft\logistics.svg' />
                             <div>Logistics</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/industries/sports@0.3x.png' />
+                            <img src='\assets\img\nft\game.svg' />
                             <div>Games & Sports</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/industries/destination@0.3x.png' />
+                            <img src='\assets\img\nft\travel.svg' />
                             <div>Travel</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/industries/property@0.3x.png' />
+                            <img src='\assets\img\nft\realestate.svg' />
                             <div>Real Estate</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/industries/mortarboard@0.3x.png' />
+                            <img src='\assets\img\nft\educat.svg' />
                             <div>Education</div>
                         </div>
                     </div>

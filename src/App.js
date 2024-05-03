@@ -63,6 +63,8 @@ import { Helmet } from "react-helmet";
 import { useDispatch } from "react-redux";
 import { getMetaDataCreate } from "./action/MetaDataAction";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsAndCondtions from "./pages/TermsAndCondtions";
+import RefundPolicy from "./pages/RefundPolicy";
 
 
 
@@ -136,6 +138,7 @@ function App() {
         <Route exact path="/case-studies" element={<AllCaseStudy />} />
         <Route exact path="/case-study-detail/:id" element={<CaseStudyDetails />} />
         <Route exact path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route exact path="/terms-and-condtions" element={<TermsAndCondtions />} />
         <Route exact path="*" element={<Error />} />
       </Routes>
       <RouteScrollToTop />

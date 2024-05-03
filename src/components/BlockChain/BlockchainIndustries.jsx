@@ -10,67 +10,67 @@ function BlockchainIndustries() {
                     {/* <p style={{ textAlign: "center", color: "white" }}>As a leading virtual reality app development company, we assist startups and established businesses from all sectors in fulfilling the potential of digital transformation via VR to boost revenue. </p> */}
                     <div className='feature_div'>
                         <div className='feature_card idustry'>
-                            <img style={{ marginLeft: "25px" }} src='/assets/img/custom-industry/transport.svg' />
+                            <img style={{ marginLeft: "25px" }} src='\assets\img\custom blockchain\transport 1.svg' />
                             <div>Transportation
                             </div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/custom-industry/cybersecuriity.svg' />
+                            <img src='\assets\img\custom blockchain\cybersecuriity.svg' />
                             <div>Cybersecurity
                             </div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/custom-industry/enterprise.svg' />
+                            <img src='\assets\img\custom blockchain\enterprise.svg' />
                             <div>Enterprise
                             </div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/custom-industry/supplychai.svg' />
+                            <img src='\assets\img\custom blockchain\supplychai.svg' />
                             <div>Supply Chain
                             </div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/custom-industry/iot.svg' />
+                            <img src='\assets\img\custom blockchain\iot.svg' />
                             <div>IoT </div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/industries/social-media@0.3x.png' />
+                            <img src='\assets\img\custom blockchain\social.svg' />
                             <div>Social Networking</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/custom-industry/telecommuni.svg' />
+                            <img src='\assets\img\custom blockchain\telecommuni.svg' />
                             <div>Telecom</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/custom-industry/fintech.svg' />
+                            <img src='\assets\img\custom blockchain\fintech.svg' />
                             <div>Fintech</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/industries/healthcare@0.3x.png' />
+                            <img src='\assets\img\custom blockchain\healthcare.svg' />
                             <div>Health & Fitness</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/custom-industry/stock.svg' />
+                            <img src='\assets\img\custom blockchain\stock.svg' />
                             <div>Stock Trading</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/custom-industry/insurance.svg' />
+                            <img src='\assets\img\custom blockchain\insurance.svg' />
                             <div>Insurance</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/industries/destination@0.3x.png' />
+                            <img src='\assets\img\custom blockchain\travel.svg' />
                             <div>Travel</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/industries/property@0.3x.png' />
+                            <img src='\assets\img\custom blockchain\realestate.svg' />
                             <div>Real Estate</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/nftindustries/music.svg' />
+                            <img src='\assets\img\custom blockchain\music 1.svg' />
                             <div>Music</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/industries/mortarboard@0.3x.png' />
+                            <img src='\assets\img\custom blockchain\educat.svg' />
                             <div>Education</div>
                         </div>
                     </div>

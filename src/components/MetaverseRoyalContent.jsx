@@ -1096,7 +1096,7 @@ const MetaverseRoyalContent = () => {
                 <div className="card8" >
                   <div className="bg">
                     <img
-                      src="/assets/img/whyus-game engine/optimized.svg"
+                      src="\assets\img\why-us-metaverse-royale\optimizedperfor.svg"
                       alt=""
                     />
                   </div>
@@ -1104,14 +1104,14 @@ const MetaverseRoyalContent = () => {
                 </div>
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whyus-game engine/cross.svg" alt="" />
+                    <img src="\assets\img\why-us-metaverse-royale\crossplatform.svg" alt="" />
                   </div>
                   <p> Cross-Platform Compatibility</p>
                 </div>
                 <div className="card8">
                   <div className="bg">
                     <img
-                      src="/assets/img/whyus-game engine/dynamic.svg"
+                      src="\assets\img\why-us-metaverse-royale\dynamicenvire.svg"
                       alt=""
                     />
                   </div>
@@ -1120,7 +1120,7 @@ const MetaverseRoyalContent = () => {
                 <div className="card8">
                   <div className="bg">
                     <img
-                      src="/assets/img/whyus-game engine/future.svg"
+                      src="\assets\img\why-us-metaverse-royale\futureproof.svg"
                       alt=""
                     />
                   </div>
@@ -1135,20 +1135,20 @@ const MetaverseRoyalContent = () => {
               >
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whyus-uiux/intuative.svg" alt="" />
+                    <img src="\assets\img\why-us-metaverse-royale\inituiative.svg" alt="" />
                   </div>
                   <p> Intuitive Design</p>
                 </div>
                 <div className="card8">
                   <div className="bg">
-                    <img src="/assets/img/whyus-uiux/immersive.svg" alt="" />
+                    <img src="\assets\img\why-us-metaverse-royale\immersive.svg" alt="" />
                   </div>
                   <p>Immersive Experience</p>
                 </div>
                 <div className="card8">
                   <div className="bg">
                     <img
-                      src="/assets/img/whyus-uiux/customizedinterface.svg"
+                      src="\assets\img\why-us-metaverse-royale\custmizable.svg"
                       alt=""
                     />
                   </div>
@@ -1157,7 +1157,7 @@ const MetaverseRoyalContent = () => {
                 <div className="card8">
                   <div className="bg">
                     <img
-                      src="/assets/img/whyus-uiux/accesseability.svg"
+                      src="\assets\img\why-us-metaverse-royale\accessibility.svg"
                       alt=""
                     />
                   </div>
@@ -1173,7 +1173,7 @@ const MetaverseRoyalContent = () => {
                 <div className="card8">
                   <div className="bg">
                     <img
-                      src="/assets/img/whyus-monitization/flexible.svg"
+                      src="\assets\img\why-us-metaverse-royale\flexible.svg"
                       alt=""
                     />
                   </div>
@@ -1182,7 +1182,7 @@ const MetaverseRoyalContent = () => {
                 <div className="card8">
                   <div className="bg">
                     <img
-                      src="/assets/img/whyus-monitization/revenueoptimiza.svg"
+                      src="\assets\img\why-us-metaverse-royale\optimizedperfor.svg"
                       alt=""
                     />
                   </div>
@@ -1191,7 +1191,7 @@ const MetaverseRoyalContent = () => {
                 <div className="card8">
                   <div className="bg">
                     <img
-                      src="/assets/img/whyus-monitization/blockchaineconomy.svg"
+                      src="\assets\img\why-us-metaverse-royale\blockchain.svg"
                       alt=""
                     />
                   </div>
@@ -1200,7 +1200,7 @@ const MetaverseRoyalContent = () => {
                 <div className="card8">
                   <div className="bg">
                     <img
-                      src="/assets/img/whyus-monitization/communityengage.svg"
+                      src="\assets\img\why-us-metaverse-royale\communi.svg"
                       alt=""
                     />
                   </div>
@@ -1216,7 +1216,7 @@ const MetaverseRoyalContent = () => {
                 <div className="card8">
                   <div className="bg">
                     <img
-                      src="/assets/img/modding-support/customgameplay.svg"
+                      src="\assets\img\why-us-metaverse-royale\customozat.svg"
                       alt=""
                     />
                   </div>
@@ -1225,7 +1225,7 @@ const MetaverseRoyalContent = () => {
                 <div className="card8">
                   <div className="bg">
                     <img
-                      src="/assets/img/modding-support/personalizedcontent.svg"
+                      src="\assets\img\why-us-metaverse-royale\personalizedconten.svg"
                       alt=""
                     />
                   </div>
@@ -1234,7 +1234,7 @@ const MetaverseRoyalContent = () => {
                 <div className="card8">
                   <div className="bg">
                     <img
-                      src="/assets/img/modding-support/communitycollab.svg"
+                      src="\assets\img\why-us-metaverse-royale\collabra.svg"
                       alt=""
                     />
                   </div>
@@ -1243,7 +1243,7 @@ const MetaverseRoyalContent = () => {
                 <div className="card8">
                   <div className="bg">
                     <img
-                      src="/assets/img/modding-support/custumer24-7.svg"
+                      src="\assets\img\why-us-metaverse-royale\custumer24-7.svg"
                       alt=""
                     />
                   </div>

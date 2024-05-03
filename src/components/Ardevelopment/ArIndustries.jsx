@@ -10,57 +10,57 @@ function ArIndustries() {
                     <p style={{ textAlign: "center", color: "white" }}>As a leading augmented reality app development company, we assist startups and established businesses from all sectors in fulfilling the potential of digital transformation via AR to boost revenue. </p>
                     <div className='feature_div'>
                         <div class="feature_card idustry">
-                            <img src="/assets/img/nftindustries/oilandgas.svg" />
+                            <img src="\assets\img\ar\ar industry\oil.svg" />
                             <div>Chemicals, Oil & Gas</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/industries/sports@0.3x.png' />
+                            <img src='\assets\img\ar\ar industry\game.svg' />
                             <div>Games</div>
                         </div>
                         <div class="feature_card idustry">
-                            <img src="/assets/img/meta-indust/electricity.svg" />
+                            <img src="\assets\img\ar\ar industry\power.svg" />
                             <div>Power & Mining</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='\assets\img\ar\ar industry\musium.svg' />
+                            <img src='\assets\img\ar\ar industry\museums.svg' />
                             <div>Museums & Experience Centers</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/meta-indust/aviation.svg' />
+                            <img src='\assets\img\ar\ar industry\aviation.svg' />
                             <div>Defence & Aviation</div>
                         </div>
                         <div class="feature_card idustry">
-                            <img src="/assets/img/nftindustries/automotive.svg" />
+                            <img src="\assets\img\ar\ar industry\automotive 3.svg" />
                             <div>Automotive</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/industries/mortarboard@0.3x.png' />
+                            <img src='\assets\img\ar\ar industry\educat.svg' />
                             <div>Education</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='\assets\img\ar\ar industry\marketinf.svg' />
+                            <img src='\assets\img\ar\ar industry\markett.svg' />
                             <div> Marketing </div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/industries/video@0.3x.png' />
+                            <img src='\assets\img\ar\ar industry\entertainme.svg' />
                             <div>Entertainment
                             </div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/nftindustries/manufacturing.svg' />
+                            <img src='\assets\img\ar\ar industry\manu.svg' />
                             <div>Manufacturing</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/industries/healthcare@0.3x.png' />
+                            <img src='\assets\img\ar\ar industry\healthcare.svg' />
                             <div>Healthcare</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/meta-indust/retail.svg' />
+                            <img src='\assets\img\ar\ar industry\retail.svg' />
                             <div>Retail
                             </div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/industries/property@0.3x.png' />
+                            <img src='\assets\img\ar\ar industry\realestate.svg' />
                             <div>Real Estate</div>
                         </div>
                         <div className='feature_card idustry'>

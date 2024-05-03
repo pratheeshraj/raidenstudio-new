@@ -10,68 +10,68 @@ function MetaverseIndustries() {
                     {/* <p style={{ textAlign: "center", color: "white" }}>Our AI development team is up to date on the newest technology trends, and they continue to experiment with new AI PoCs (Proof of Concepts) to provide cutting-edge AI development solutions with novel ideas.</p> */}
                     <div className='feature_div'>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/nftindustries/automotive.svg' />
+                            <img src='\assets\img\metaverse\automotive 2.svg' />
                             <div>Automotive
                             </div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/meta-indust/new auro.svg' />
+                            <img src='\assets\img\metaverse\aurospace.svg' />
                             <div>Aerospace</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/meta-indust/hospita.svg' />
+                            <img src='\assets\img\metaverse\hospita.svg' />
                             <div>Hospitality</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/meta-indust/consumergoods.svg' />
+                            <img src='\assets\img\metaverse\consumerfgoods.svg' />
                             <div>Consumer Goods</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/meta-indust/defence.svg' />
+                            <img src='\assets\img\metaverse\defence.svg' />
                             <div>Defence
                             </div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/industries/mortarboard@0.3x.png' />
+                            <img src='\assets\img\metaverse\educat.svg' />
                             <div>Education</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/industries/sports@0.3x.png' />
+                            <img src='\assets\img\metaverse\game.svg' />
                             <div>Gaming</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/industries/healthcare@0.3x.png' />
+                            <img src='\assets\img\metaverse\healthcare.svg' />
                             <div>Healthcare</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/meta-indust/aviation.svg' />
+                            <img src='\assets\img\metaverse\aviation.svg' />
                             <div>Aviation</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/nftindustries/manufacturing.svg' />
+                            <img src='\assets\img\metaverse\manu.svg' />
                             <div>Manufacturing</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/nftindustries/oilandgas.svg' />
+                            <img src='\assets\img\metaverse\oil.svg' />
                             <div>Oil & Gas
                             </div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/meta-indust/electricity.svg' />
+                            <img src='\assets\img\metaverse\power.svg' />
                             <div>Power
                             </div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/industries/property@0.3x.png' />
+                            <img src='\assets\img\metaverse\realestate.svg' />
                             <div>Real Estate</div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/meta-indust/retail.svg' />
+                            <img src='\assets\img\metaverse\retail.svg' />
                             <div>Retail
                             </div>
                         </div>
                         <div className='feature_card idustry'>
-                            <img src='/assets/img/meta-indust/tourism.svg' />
+                            <img src='\assets\img\metaverse\tourism.svg' />
                             <div>Tourism</div>
                         </div>
                     </div>
