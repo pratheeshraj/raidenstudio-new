@@ -2,7 +2,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
-const BlogSectionOne = () => {
+const BlogSectionOne = ({ color, buttoncolor }) => {
   const { allBlogs } = useSelector((state) => state.blogState);
   console.log(allBlogs);
   const formatDate = (dateString) => {
@@ -21,10 +21,10 @@ const BlogSectionOne = () => {
                 data-aos="fade-up"
                 data-aos-delay="300"
               >
-                <h3 style={{ color: "#13C4A1" }}>Our Latest Blog</h3>
+                <h3 style={{ color: `${color}` }}>Our Latest Blog</h3>
                 <h2>
                   Find the latest Blogs news <br />{" "}
-                  <span className="theme-color">from WIRED</span>
+                  <span style={{ color: `${color}` }}>from WIRED</span>
                 </h2>
               </div>
             </div>
@@ -79,7 +79,7 @@ const BlogSectionOne = () => {
           </div>
           <div className="inner-btn d-adjust">
             <div>
-              <Link className="default-btn" to="/blog">
+              <Link style={{ background: `${buttoncolor}` }} className="default-btn" to="/blog">
                 View More Blogs
               </Link>
             </div>

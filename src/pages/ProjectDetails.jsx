@@ -59,7 +59,7 @@ const ProjectDetails = () => {
         <ProductDemokit />
 
         <ProjectDetailUseCase />
-        <BlogSectionOne />
+        <BlogSectionOne color={"#1BA2D7"} buttoncolor={"#1BA2D7"} />
         {/* News Section One */}
 
         <ContactSection2 color={"#1BA2D7"} buttoncolor={"#1BA2D7"} />
