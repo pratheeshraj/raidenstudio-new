@@ -144,7 +144,7 @@
   z-index: 11;
   display: flex;
   gap: 10px;
-  height: 250px;
+  height: max-content;
   padding: 0 50px;
   box-sizing: border-box;
   overflow: auto;
@@ -155,7 +155,7 @@
     padding: 0;
   }
   @media (max-width: 450px) {
-    bottom: 20px;
+    bottom: 70px;
   }
 }
 .thumbnail::-webkit-scrollbar {
@@ -163,20 +163,25 @@
 }
 .thumbnail .item {
   width: 90px;
-  height: 60px;
-  filter: brightness(0.5);
+
+  filter: brightness(0.3);
   transition: 0.5s;
   flex-shrink: 0;
   @media (max-width: 450px) {
     width: 60px;
-    height: 40px;
+    height:max-content;
   }
 }
 .thumbnail .item img {
   width: 100%;
-  height: 100%;
+  height: 60px;
   object-fit: cover;
   border-radius: 10px;
+  @media (max-width: 450px) {
+    height: 40px;
+  
+  }
+  
 }
 .thumbnail .item.active {
   filter: brightness(1.5);
@@ -184,4 +189,12 @@
 .thumbnail .item .content {
   position: absolute;
   inset: auto 10px 10px 10px;
+}
+
+.underline{
+  width: 100%;
+  height: 4px;
+  border-radius: 1px;
+  background-color: white;
+ margin-top: 10px;
 }

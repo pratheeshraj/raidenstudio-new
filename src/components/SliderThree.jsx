@@ -103,6 +103,7 @@ function SliderThree() {
               onClick={() => selectItem(index)}
             >
               <img src={item.imgSrc} alt={`Thumbnail ${index}`} />
+              <div className="underline" style={{backgroundColor:item.color}}></div>
             </div>
           ))}
         </div>
