@@ -10,7 +10,7 @@ const P2eGameHeroSection = () => {
           <div className="left game_hero_content" data-aos="fade-right" data-aos-delay="300">
             <h2>
               Unlock the Power of<br />
-              <span style={{ color: "#fdb441" }}> Play-to-Earn Games </span>
+              <span style={{ color: "#FEA521" }}> Play-to-Earn Games </span>
             </h2>
             <p className="Hero_sub_heading">
               From concept to launch, we craft immersive experiences <br /> that
@@ -19,7 +19,7 @@ const P2eGameHeroSection = () => {
             </p>
             <button
               className="default-btn"
-              style={{ backgroundColor: "#fdb441" }}
+              style={{ backgroundColor: "#F09C1F" }}
             >
               Explore Now
             </button>

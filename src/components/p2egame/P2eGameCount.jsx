@@ -15,7 +15,7 @@ const P2eGameCount = () => {
                 <h2 className="counter">
                   <ReactVisibilitySensor>
                     {({ isVisible }) => (
-                      <div> {isVisible ? <CountUp end={25} /> : 0}</div>
+                      <div style={{ color: "#FEA521" }}> {isVisible ? <CountUp end={25} /> : 0}</div>
                     )}
                   </ReactVisibilitySensor>
                 </h2>
@@ -34,7 +34,7 @@ const P2eGameCount = () => {
                 <h2 className="counter">
                   <ReactVisibilitySensor>
                     {({ isVisible }) => (
-                      <div> {isVisible ? <CountUp end={50} /> : 0}</div>
+                      <div style={{ color: "#FEA521" }}> {isVisible ? <CountUp end={50} /> : 0}</div>
                     )}
                   </ReactVisibilitySensor>
                 </h2>
@@ -53,7 +53,7 @@ const P2eGameCount = () => {
                 <h2 className="counter">
                   <ReactVisibilitySensor>
                     {({ isVisible }) => (
-                      <div> {isVisible ? <CountUp end={100} /> : 0}</div>
+                      <div style={{ color: "#FEA521" }}> {isVisible ? <CountUp end={100} /> : 0}</div>
                     )}
                   </ReactVisibilitySensor>
                 </h2>
@@ -72,7 +72,7 @@ const P2eGameCount = () => {
                 <h2 className="counter">
                   <ReactVisibilitySensor>
                     {({ isVisible }) => (
-                      <div> {isVisible ? <CountUp end={20} /> : 0}</div>
+                      <div style={{ color: "#FEA521" }}> {isVisible ? <CountUp end={20} /> : 0}</div>
                     )}
                   </ReactVisibilitySensor>
                 </h2>

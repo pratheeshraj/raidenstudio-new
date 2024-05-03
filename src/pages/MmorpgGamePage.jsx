@@ -47,7 +47,7 @@ const MmorpgGamePage = () => {
         <MmorpgProcessSection />
         <MmorpgFaq />
         <NewsSectionOne />
-        <ContactSection2 />
+        <ContactSection2 color={"#EC8268"} buttoncolor={"#EC8268"} />
         <FooterSectionOne />
       </Suspense>
     </Fragment>

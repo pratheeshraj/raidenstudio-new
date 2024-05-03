@@ -14,7 +14,7 @@ const MmorpgFaq = () => {
               <h3 style={{ color: "black" }}>FAQ For MMORPG Development </h3>
               <h2 style={{ color: "black" }}>
                 Answers at a <br />
-                <span className="theme-color" style={{ color: "#fdb441" }}>
+                <span className="theme-color" style={{ color: "#EC8268" }}>
                   Glance
                 </span>
               </h2>
@@ -53,7 +53,7 @@ const MmorpgFaq = () => {
                   <div className="accordion-item">
                     <h2 className="accordion-header">
                       <button
-                        className="accordion-button"
+                        className="accordion-button mmporg_color_code"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseOne"
@@ -78,7 +78,7 @@ const MmorpgFaq = () => {
                   <div className="accordion-item">
                     <h2 className="accordion-header">
                       <button
-                        className="accordion-button collapsed"
+                        className="accordion-button collapsed mmporg_color_code"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseTwo"
@@ -103,7 +103,7 @@ const MmorpgFaq = () => {
                   <div className="accordion-item">
                     <h2 className="accordion-header">
                       <button
-                        className="accordion-button collapsed"
+                        className="accordion-button collapsed mmporg_color_code"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseThree"
@@ -127,7 +127,7 @@ const MmorpgFaq = () => {
                   <div className="accordion-item">
                     <h2 className="accordion-header">
                       <button
-                        className="accordion-button collapsed"
+                        className="accordion-button collapsed mmporg_color_code"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseFour"
@@ -150,32 +150,6 @@ const MmorpgFaq = () => {
                       </div>
                     </div>
                   </div>
-                  {/* <div className="accordion-item">
-                    <h2 className="accordion-header">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapsefive"
-                        aria-expanded="false"
-                        aria-controls="flush-collapsefive"
-                      >
-                        How do you handle player feedback and community
-                        management?
-                      </button>
-                    </h2>
-                    <div
-                      id="flush-collapsefive"
-                      className="accordion-collapse collapse"
-                      data-bs-parent="#accordionFlushExample"
-                    >
-                      <div className="accordion-body">
-                        We have dedicated community managers who monitor
-                        feedback channels and engage with players to foster a
-                        positive community experience.
-                      </div>
-                    </div>
-                  </div> */}
                 </div>
               </div>
             </div>

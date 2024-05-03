@@ -6,7 +6,7 @@ const MmorpgBenefitSection = () => {
       <div className="container-fluid mobileGamePageBenifit ">
         <div className="auto-container pagebenifit_container">
           <h2>
-            The Strategic Edge of <span>MMORPG Development</span>
+            The Strategic Edge of <span style={{ color: "#EC8268" }}>MMORPG Development</span>
           </h2>
           <p>
             Experience the transformative impact of MMORPG development as you

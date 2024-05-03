@@ -26,26 +26,26 @@ const Web3GamePage = () => {
   }, [allMetaData]);
   return (
     <Suspense>
-    <HelmetReact
-          title={metadata[0]?.meta_title}
-          description={metadata[0]?.meta_dec}
-          keywords={metadata[0]?.meta_keyword}
-          ogimage={metadata[0]?.og_image}
-        />
-    <HeaderTwo />
-    <Web3GameHeroSection/>
-    <Web3GameAbout/>
-    <Web3GameServicesSection/>
-    <Web3GameCount />
-    <Web3GameWhyChoose/>
-    <Web3GameBenefitSection/>
-    <Web3GameBannerSection/>
-    <Web3GameProcessSection/>
-    <NewsSectionOne />
-    <Web3GameFaq/>
-    <ContactSection2/>
-    <FooterSectionOne/>
-  </Suspense>
+      <HelmetReact
+        title={metadata[0]?.meta_title}
+        description={metadata[0]?.meta_dec}
+        keywords={metadata[0]?.meta_keyword}
+        ogimage={metadata[0]?.og_image}
+      />
+      <HeaderTwo />
+      <Web3GameHeroSection />
+      <Web3GameAbout />
+      <Web3GameServicesSection />
+      <Web3GameCount />
+      <Web3GameWhyChoose />
+      <Web3GameBenefitSection />
+      <Web3GameBannerSection />
+      <Web3GameProcessSection />
+      <NewsSectionOne />
+      <Web3GameFaq />
+      <ContactSection2 color={"#33E5E5"} buttoncolor={"#00ECE5"} />
+      <FooterSectionOne />
+    </Suspense>
   )
 }
 

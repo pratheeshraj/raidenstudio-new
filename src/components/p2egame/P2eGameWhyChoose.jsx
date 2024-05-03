@@ -7,13 +7,13 @@ const P2eGameWhyChoose = () => {
         <div className="auto-container mobile_gamewhy_choose">
           <div className="mobile_game_left">
             <h2>
-              Why Choose <span>Raiden</span> For
+              Why Choose <span style={{ color: "#F09C1F" }}>Raiden</span> For
             </h2>
             <h6>P2E Game Development Services</h6>
           </div>
           <div className="mobile_game_right">
             <div className="mobail_game_card">
-              <div className="left">
+              <div style={{ background: "#F09C1F" }} className="left">
                 <div className="icon_container">
                   <img
                     src="/assets/img/pe-whychoose/proventrack.svg"
@@ -30,7 +30,7 @@ const P2eGameWhyChoose = () => {
               </div>
             </div>
             <div className="mobail_game_card">
-              <div className="left">
+              <div style={{ background: "#F09C1F" }} className="left">
                 <div className="icon_container">
                   <img
                     src="/assets/img/pe-whychoose/holisticapproach.svg"
@@ -48,9 +48,9 @@ const P2eGameWhyChoose = () => {
               </div>
             </div>
 
-       
+
             <div className="mobail_game_card">
-              <div className="left">
+              <div style={{ background: "#F09C1F" }} className="left">
                 <div className="icon_container">
                   <img
                     src="/assets/img/pe-whychoose/transperantcommuni.svg"
@@ -67,7 +67,7 @@ const P2eGameWhyChoose = () => {
               </div>
             </div>
             <div className="mobail_game_card">
-              <div className="left">
+              <div style={{ background: "#F09C1F" }} className="left">
                 <div className="icon_container">
                   <img
                     src="/assets/img/pe-whychoose/client centric.svg"

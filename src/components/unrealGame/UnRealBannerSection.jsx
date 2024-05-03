@@ -25,7 +25,7 @@ const UnRealBannerSection = () => {
               <div className="title">
                 <h2>
                   Ready to Revolutionize{" "}
-                  <span className="theme-color" style={{ color: "#fdb441" }}>
+                  <span className="theme-color" style={{ color: "#BEAB59" }}>
                     Learning and Drive Success
                   </span>{" "}
                   in Your Industry?
@@ -40,7 +40,7 @@ const UnRealBannerSection = () => {
                     <Link
                       className="default-btn"
                       to="/contact-us"
-                      style={{ backgroundColor: "#fdb441" }}
+                      style={{ backgroundColor: "#BEAB59" }}
                     >
                       Let’s Work To Do{" "}
                     </Link>

@@ -10,7 +10,7 @@ const Web3GameHeroSection = () => {
           <div className="left game_hero_content" data-aos="fade-right" data-aos-delay="300">
             <h2>
               Cutting Edge
-              <span style={{ color: "#fdb441" }}> Web3 <br /> Gaming </span>
+              <span style={{ color: "#38FFFF" }}> Web3 <br /> Gaming </span>
             </h2>
             <p className="Hero_sub_heading">
               Harnessing the power of blockchain technology,<br /> we offer innovative
@@ -18,7 +18,7 @@ const Web3GameHeroSection = () => {
             </p>
             <button
               className="default-btn"
-              style={{ backgroundColor: "#fdb441" }}
+              style={{ backgroundColor: "#00ECE5" }}
             >
               Explore Now
             </button>

@@ -11,10 +11,10 @@ const UnRealFaq = () => {
               data-aos="fade-right"
               data-aos-delay="300"
             >
-              <h3 style={{ color: "black" }}>FAQ For Unreal Development </h3>
+              <h3 style={{ color: "#BEAB59" }}>FAQ For Unreal Development </h3>
               <h2 style={{ color: "black" }}>
                 Answers at a <br />
-                <span className="theme-color" style={{ color: "#fdb441" }}>
+                <span className="theme-color" style={{ color: "#BEAB59" }}>
                   Glance
                 </span>
               </h2>
@@ -52,7 +52,7 @@ const UnRealFaq = () => {
                   <div className="accordion-item">
                     <h2 className="accordion-header">
                       <button
-                        className="accordion-button"
+                        className="accordion-button unreal_color_code"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseOne"
@@ -78,7 +78,7 @@ const UnRealFaq = () => {
                   <div className="accordion-item">
                     <h2 className="accordion-header">
                       <button
-                        className="accordion-button collapsed"
+                        className="accordion-button collapsed unreal_color_code"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseTwo"
@@ -105,7 +105,7 @@ const UnRealFaq = () => {
                   <div className="accordion-item">
                     <h2 className="accordion-header">
                       <button
-                        className="accordion-button collapsed"
+                        className="accordion-button collapsed unreal_color_code"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseThree"
@@ -131,7 +131,7 @@ const UnRealFaq = () => {
                   <div className="accordion-item">
                     <h2 className="accordion-header">
                       <button
-                        className="accordion-button collapsed"
+                        className="accordion-button collapsed unreal_color_code"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseFour"

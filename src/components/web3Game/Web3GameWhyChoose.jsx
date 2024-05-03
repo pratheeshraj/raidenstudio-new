@@ -7,13 +7,13 @@ const Web3GameWhyChoose = () => {
         <div className="auto-container mobile_gamewhy_choose">
           <div className="mobile_game_left">
             <h2>
-              Why Choose <span>Raiden</span> For
+              Why Choose <span style={{ color: "#33E5E5" }}>Raiden</span> For
             </h2>
             <h6>Web3 Game Development Services</h6>
           </div>
           <div className="mobile_game_right">
             <div className="mobail_game_card">
-              <div className="left">
+              <div style={{ background: "#33E5E5" }} className="left">
                 <div className="icon_container">
                   <img
                     src="\assets\img\web3game\web3 why choose us\industry pio.svg"
@@ -30,7 +30,7 @@ const Web3GameWhyChoose = () => {
               </div>
             </div>
             <div className="mobail_game_card">
-              <div className="left">
+            <div style={{ background: "#33E5E5" }} className="left">
                 <div className="icon_container">
                   <img
                     src="\assets\img\web3game\web3 why choose us\proven track.svg"
@@ -41,14 +41,14 @@ const Web3GameWhyChoose = () => {
               <div className="right">
                 <h6>Proven Track Record</h6>
                 <p>
-                Our portfolio showcases successful Web3 game projects that have redefined gaming experiences.
+                  Our portfolio showcases successful Web3 game projects that have redefined gaming experiences.
                 </p>
               </div>
             </div>
 
-       
+
             <div className="mobail_game_card">
-              <div className="left">
+            <div style={{ background: "#33E5E5" }} className="left">
                 <div className="icon_container">
                   <img
                     src="\assets\img\web3game\web3 why choose us\security.svg"
@@ -59,12 +59,12 @@ const Web3GameWhyChoose = () => {
               <div className="right">
                 <h6>Security and Transparency</h6>
                 <p>
-                Our commitment to blockchain ensures security, transparency, and player ownership within game ecosystems.
+                  Our commitment to blockchain ensures security, transparency, and player ownership within game ecosystems.
                 </p>
               </div>
             </div>
             <div className="mobail_game_card">
-              <div className="left">
+            <div style={{ background: "#33E5E5" }} className="left">
                 <div className="icon_container">
                   <img
                     src="\assets\img\web3game\web3 why choose us\continuos support.svg"
@@ -75,7 +75,7 @@ const Web3GameWhyChoose = () => {
               <div className="right">
                 <h6>Continuous Support</h6>
                 <p>
-                From conceptualization to post-launch support, we provide comprehensive assistance at every stage of development.
+                  From conceptualization to post-launch support, we provide comprehensive assistance at every stage of development.
                 </p>
               </div>
             </div>

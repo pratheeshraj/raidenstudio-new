@@ -47,7 +47,7 @@ const UnrealGamePage = () => {
         <UnRealProcessSection />
         <UnRealFaq />
         <NewsSectionOne />
-        <ContactSection2 />
+        <ContactSection2 color={"#BEAB59"} buttoncolor={"#BEAB59"} />
         <FooterSectionOne />
       </Suspense>
     </Fragment>

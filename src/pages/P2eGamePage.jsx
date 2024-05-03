@@ -28,7 +28,7 @@ const P2eGamePage = () => {
   return (
     <Fragment>
       <Suspense>
-    <HelmetReact
+        <HelmetReact
           title={metadata[0]?.meta_title}
           description={metadata[0]?.meta_dec}
           keywords={metadata[0]?.meta_keyword}
@@ -45,7 +45,7 @@ const P2eGamePage = () => {
         <P2eGameProcessSection />
         <P2eGameFaq />
         <NewsSectionOne />
-        <ContactSection2 />
+        <ContactSection2 color={"#F09C1F"} buttoncolor={"#F09C1F"} />
         <FooterSectionOne />
       </Suspense>
     </Fragment>

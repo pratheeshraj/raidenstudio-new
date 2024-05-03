@@ -11,12 +11,12 @@ const Web3GameFaq = () => {
               data-aos="fade-right"
               data-aos-delay="300"
             >
-              <h3 style={{ color: "black" }}>
+              <h3 style={{ color: "#33E5E5" }}>
                 FAQ For Web3 Game Development {" "}
               </h3>
               <h2 style={{ color: "black" }}>
                 Answers at a <br />
-                <span className="theme-color" style={{ color: "#fdb441" }}>
+                <span className="theme-color" style={{ color: "#33E5E5" }}>
                   Glance
                 </span>
               </h2>
@@ -56,7 +56,7 @@ const Web3GameFaq = () => {
                   <div className="accordion-item">
                     <h2 className="accordion-header">
                       <button
-                        className="accordion-button"
+                        className="accordion-button web3game_color_code"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseOne"
@@ -78,7 +78,7 @@ const Web3GameFaq = () => {
                   <div className="accordion-item">
                     <h2 className="accordion-header">
                       <button
-                        className="accordion-button collapsed"
+                        className="accordion-button collapsed web3game_color_code"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseTwo"
@@ -102,7 +102,7 @@ const Web3GameFaq = () => {
                   <div className="accordion-item">
                     <h2 className="accordion-header">
                       <button
-                        className="accordion-button collapsed"
+                        className="accordion-button collapsed web3game_color_code"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseThree"
@@ -125,7 +125,7 @@ const Web3GameFaq = () => {
                   <div className="accordion-item">
                     <h2 className="accordion-header">
                       <button
-                        className="accordion-button collapsed"
+                        className="accordion-button collapsed web3game_color_code"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseFour"

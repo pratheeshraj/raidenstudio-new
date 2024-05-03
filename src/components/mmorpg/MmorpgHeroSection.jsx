@@ -10,7 +10,7 @@ const MmorpgHeroSection = () => {
           <div className="left game_hero_content" data-aos="fade-right" data-aos-delay="300">
             <h2>
               A vibrant MMORPG <br /> world of
-              <span style={{ color: "#fdb441" }}> adventure </span>
+              <span style={{ color: "#EC8268" }}> adventure </span>
             </h2>
             <p className="Hero_sub_heading">
               Crafted by experts, fueled by creativity, redefining <br /> virtual
@@ -18,7 +18,7 @@ const MmorpgHeroSection = () => {
             </p>
             <button
               className="default-btn"
-              style={{ backgroundColor: "#fdb441" }}
+              style={{ backgroundColor: "#EC8268" }}
             >
               Explore Now
             </button>

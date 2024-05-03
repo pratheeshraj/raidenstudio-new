@@ -6,7 +6,7 @@ const Web3GameBenefitSection = () => {
       <div className="container-fluid mobileGamePageBenifit ">
         <div className="auto-container pagebenifit_container">
           <h2>
-            Benefits in <span>Web3 Game Development</span>
+            Benefits in <span style={{ color: "#33E5E5" }}>Web3 Game Development</span>
           </h2>
           <p
             style={{

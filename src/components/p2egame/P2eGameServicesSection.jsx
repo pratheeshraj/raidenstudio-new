@@ -8,10 +8,10 @@ const P2eGameServicesSection = () => {
         style={{ backgroundColor: "#f8f9fa" }}
       >
         <h2 className="auto-container " style={{ color: "black" }}>
-          Empowering <span style={{ color: "#fdb441" }}>Play-to-Earn </span>{" "}
+          Empowering <span style={{ color: "#F09C1F" }}>Play-to-Earn </span>{" "}
           Experiences
         </h2>
-        <p style={{color:"black",textAlign:"center"}}>
+        <p style={{ color: "black", textAlign: "center" }}>
           we specialize in crafting virtual economies that empower players to
           earn rewards  while <br /> enjoying immersive gameplay experiences
         </p>

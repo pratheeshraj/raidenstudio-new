@@ -15,7 +15,7 @@ const MmorpgCount = () => {
                 <h2 className="counter">
                   <ReactVisibilitySensor>
                     {({ isVisible }) => (
-                      <div> {isVisible ? <CountUp end={10} /> : 0}</div>
+                      <div style={{ color: "#EC8268" }}> {isVisible ? <CountUp end={10} /> : 0}</div>
                     )}
                   </ReactVisibilitySensor>
                 </h2>
@@ -34,7 +34,7 @@ const MmorpgCount = () => {
                 <h2 className="counter">
                   <ReactVisibilitySensor>
                     {({ isVisible }) => (
-                      <div> {isVisible ? <CountUp end={30} /> : 0}</div>
+                      <div style={{ color: "#EC8268" }}> {isVisible ? <CountUp end={30} /> : 0}</div>
                     )}
                   </ReactVisibilitySensor>
                 </h2>
@@ -53,7 +53,7 @@ const MmorpgCount = () => {
                 <h2 className="counter">
                   <ReactVisibilitySensor>
                     {({ isVisible }) => (
-                      <div> {isVisible ? <CountUp end={99} /> : 0}</div>
+                      <div style={{ color: "#EC8268" }}> {isVisible ? <CountUp end={99} /> : 0}</div>
                     )}
                   </ReactVisibilitySensor>
                 </h2>
@@ -72,7 +72,7 @@ const MmorpgCount = () => {
                 <h2 className="counter">
                   <ReactVisibilitySensor>
                     {({ isVisible }) => (
-                      <div> {isVisible ? <CountUp end={5} /> : 0}</div>
+                      <div style={{ color: "#EC8268" }}> {isVisible ? <CountUp end={5} /> : 0}</div>
                     )}
                   </ReactVisibilitySensor>
                 </h2>

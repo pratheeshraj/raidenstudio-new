@@ -9,7 +9,7 @@ const MmorpgServicesSection = () => {
       >
         <h2 className="auto-container " style={{ color: "black" }}>
           Forge Legends:{" "}
-          <span style={{ color: "#fdb441" }}> MMORPG Creation </span> Services
+          <span style={{ color: "#EC8268" }}> MMORPG Creation </span> Services
         </h2>
         <p style={{ color: "black", textAlign: "center" }}>
           From character customization to seamless multiplayer experiences, we

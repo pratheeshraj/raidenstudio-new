@@ -25,7 +25,7 @@ const Web3GameBannerSection = () => {
               <div className="title">
                 <h2>
                   Ready to Revolutionize{" "}
-                  <span className="theme-color" style={{ color: "#fdb441" }}>
+                  <span className="theme-color" style={{ color: "#38FFFF" }}>
                     Learning and Drive Success
                   </span>{" "}
                   in Your Industry?
@@ -40,7 +40,7 @@ const Web3GameBannerSection = () => {
                     <Link
                       className="default-btn"
                       to="/contact-us"
-                      style={{ backgroundColor: "#fdb441" }}
+                      style={{ backgroundColor: "#38FFFF" }}
                     >
                       Let’s Work To Do{" "}
                     </Link>

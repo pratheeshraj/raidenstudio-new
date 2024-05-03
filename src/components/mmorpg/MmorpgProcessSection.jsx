@@ -15,7 +15,7 @@ const MmorpgProcessSection = () => {
         <div className="row">
           <h2 style={{ color: "black", textAlign: "center" }}>
             MMORPG Development Process for{" "}
-            <span className="theme-color" style={{ color: "#fdb441" }}>
+            <span className="theme-color" style={{ color: "#EC8268" }}>
               Your Unique Needs
             </span>
           </h2>

@@ -15,7 +15,7 @@ const UnRealProcessSection = () => {
         <div className="row">
           <h2 style={{ color: "black", textAlign: "center" }}>
             Unreal Development Process for{" "}
-            <span className="theme-color" style={{ color: "#fdb441" }}>
+            <span className="theme-color" style={{ color: "#BEAB59" }}>
               Your Unique Needs
             </span>
           </h2>
@@ -30,9 +30,8 @@ const UnRealProcessSection = () => {
             <div className={`timeline  ${isVisible ? "visible" : ""}`}>
               <VisibilitySensor onChange={onAnimationVisible}>
                 <div
-                  className={`container_devo left-container ${
-                    isVisible ? "visible" : ""
-                  }`}
+                  className={`container_devo left-container ${isVisible ? "visible" : ""
+                    }`}
                 >
                   <div className="devo_round_div">
                     <img
@@ -53,9 +52,8 @@ const UnRealProcessSection = () => {
               </VisibilitySensor>
               <VisibilitySensor onChange={onAnimationVisible}>
                 <div
-                  className={`container_devo right-container ${
-                    isVisible ? "visible" : ""
-                  }`}
+                  className={`container_devo right-container ${isVisible ? "visible" : ""
+                    }`}
                 >
                   <div className="devo_round_div">
                     <img
@@ -76,9 +74,8 @@ const UnRealProcessSection = () => {
               </VisibilitySensor>
               <VisibilitySensor onChange={onAnimationVisible}>
                 <div
-                  className={`container_devo left-container ${
-                    isVisible ? "visible" : ""
-                  }`}
+                  className={`container_devo left-container ${isVisible ? "visible" : ""
+                    }`}
                 >
                   <div className="devo_round_div">
                     <img
@@ -98,9 +95,8 @@ const UnRealProcessSection = () => {
               </VisibilitySensor>
               <VisibilitySensor onChange={onAnimationVisible}>
                 <div
-                  className={`container_devo right-container ${
-                    isVisible ? "visible" : ""
-                  }`}
+                  className={`container_devo right-container ${isVisible ? "visible" : ""
+                    }`}
                 >
                   <div className="devo_round_div">
                     <img
@@ -120,9 +116,8 @@ const UnRealProcessSection = () => {
               </VisibilitySensor>
               <VisibilitySensor onChange={onAnimationVisible}>
                 <div
-                  className={`container_devo left-container ${
-                    isVisible ? "visible" : ""
-                  }`}
+                  className={`container_devo left-container ${isVisible ? "visible" : ""
+                    }`}
                 >
                   <div className="devo_round_div">
                     <img

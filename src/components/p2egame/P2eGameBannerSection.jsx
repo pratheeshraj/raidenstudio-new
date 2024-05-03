@@ -26,7 +26,7 @@ const P2eGameBannerSection = () => {
               <div className="title">
                 <h2>
                   Ready to Revolutionize{" "}
-                  <span className="theme-color" style={{ color: "#fdb441" }}>
+                  <span className="theme-color" style={{ color: "#F09C1F" }}>
                     Learning and Drive Success
                   </span>{" "}
                   in Your Industry?
@@ -42,7 +42,7 @@ const P2eGameBannerSection = () => {
                     <Link
                       className="default-btn"
                       to="/contact-us"
-                      style={{ backgroundColor: "#fdb441" }}
+                      style={{ backgroundColor: "#F09C1F" }}
                     >
                       Let’s Work To Do{" "}
                     </Link>

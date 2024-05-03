@@ -11,10 +11,10 @@ const P2eGameFaq = () => {
               data-aos="fade-right"
               data-aos-delay="300"
             >
-              <h3 style={{ color: "black" }}>FAQ</h3>
+              <h3 style={{ color: "#F09C1F" }}>FAQ</h3>
               <h2 style={{ color: "black" }}>
                 Answers at a <br />
-                <span className="theme-color" style={{ color: "#fdb441" }}>
+                <span className="theme-color" style={{ color: "#F09C1F" }}>
                   Glance
                 </span>
               </h2>
@@ -53,7 +53,7 @@ const P2eGameFaq = () => {
                   <div className="accordion-item">
                     <h2 className="accordion-header">
                       <button
-                        className="accordion-button"
+                        className="accordion-button p2e_color_code"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseOne"
@@ -78,7 +78,7 @@ const P2eGameFaq = () => {
                   <div className="accordion-item">
                     <h2 className="accordion-header">
                       <button
-                        className="accordion-button collapsed"
+                        className="accordion-button collapsed p2e_color_code"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseTwo"
@@ -105,7 +105,7 @@ const P2eGameFaq = () => {
                   <div className="accordion-item">
                     <h2 className="accordion-header">
                       <button
-                        className="accordion-button collapsed"
+                        className="accordion-button collapsed p2e_color_code"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseThree"
@@ -130,7 +130,7 @@ const P2eGameFaq = () => {
                   <div className="accordion-item">
                     <h2 className="accordion-header">
                       <button
-                        className="accordion-button collapsed"
+                        className="accordion-button collapsed p2e_color_code"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseFour"
@@ -157,7 +157,7 @@ const P2eGameFaq = () => {
                   <div className="accordion-item">
                     <h2 className="accordion-header">
                       <button
-                        className="accordion-button collapsed"
+                        className="accordion-button collapsed p2e_color_code"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseFive"

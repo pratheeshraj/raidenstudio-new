@@ -7,13 +7,13 @@ const MmorpgWhyChoose = () => {
         <div className="auto-container mobile_gamewhy_choose">
           <div className="mobile_game_left">
             <h2>
-              Why Choose <span>Raiden</span> For
+              Why Choose <span style={{ color: "#EC8268" }}>Raiden</span> For
             </h2>
             <h6>Unity Development Services</h6>
           </div>
           <div className="mobile_game_right">
             <div className="mobail_game_card">
-              <div className="left">
+              <div style={{ background: "#EC8268" }} className="left">
                 <div className="icon_container">
                   <img
                     src="\assets\img\mmorpg\mmorpg why choose\proventrack.svg"
@@ -30,7 +30,7 @@ const MmorpgWhyChoose = () => {
               </div>
             </div>
             <div className="mobail_game_card">
-              <div className="left">
+            <div style={{ background: "#EC8268" }} className="left">
                 <div className="icon_container">
                   <img
                     src="\assets\img\mmorpg\mmorpg why choose\innovativesol.svg"
@@ -48,7 +48,7 @@ const MmorpgWhyChoose = () => {
             </div>
 
             <div className="mobail_game_card">
-              <div className="left">
+            <div style={{ background: "#EC8268" }} className="left">
                 <div className="icon_container">
                   <img
                     src="\assets\img\mmorpg\mmorpg why choose\collabrat.svg"
@@ -64,9 +64,9 @@ const MmorpgWhyChoose = () => {
                 </p>
               </div>
             </div>
-      
+
             <div className="mobail_game_card">
-              <div className="left">
+            <div style={{ background: "#EC8268" }} className="left">
                 <div className="icon_container">
                   <img
                     src="\assets\img\mmorpg\mmorpg why choose\dedicatedsupport.svg"

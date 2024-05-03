@@ -15,7 +15,7 @@ const Web3GameProcessSection = () => {
         <div className="row">
           <h2 style={{ color: "black", textAlign: "center" }}>
             Web3 Game Development Process for{" "}
-            <span className="theme-color" style={{ color: "#fdb441" }}>
+            <span className="theme-color" style={{ color: "#33E5E5" }}>
               Your Unique Needs
             </span>
           </h2>

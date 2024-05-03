@@ -25,7 +25,7 @@ const MmorpgBannerSection = () => {
               <div className="title">
                 <h2>
                   Ready to Revolutionize{" "}
-                  <span className="theme-color" style={{ color: "#fdb441" }}>
+                  <span className="theme-color" style={{ color: "#EC8268" }}>
                     Learning and Drive Success
                   </span>{" "}
                   in Your Industry?
@@ -42,7 +42,7 @@ const MmorpgBannerSection = () => {
                     <Link
                       className="default-btn"
                       to="/contact-us"
-                      style={{ backgroundColor: "#fdb441" }}
+                      style={{ backgroundColor: "#EC8268" }}
                     >
                       Let’s Work To Do{" "}
                     </Link>

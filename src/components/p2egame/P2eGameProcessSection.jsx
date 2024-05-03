@@ -15,7 +15,7 @@ const P2eGameProcessSection = () => {
         <div className="row">
           <h2 style={{ color: "black", textAlign: "center" }}>
             Bespoke Game Development :{" "}
-            <span className="theme-color" style={{ color: "#fdb441" }}>
+            <span className="theme-color" style={{ color: "#F09C1F" }}>
               Crafting Unique Experiences
             </span>
           </h2>

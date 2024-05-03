@@ -8,7 +8,7 @@ const Web3GameServicesSection = () => {
         style={{ backgroundColor: "#f8f9fa" }}
       >
         <h2 className="auto-container " style={{ color: "black" }}>
-          Our <span style={{ color: "#fdb441" }}> Web3 Game Development</span>{" "}
+          Our <span style={{ color: "#33E5E5" }}> Web3 Game Development</span>{" "}
           Services{" "}
         </h2>
         <p
