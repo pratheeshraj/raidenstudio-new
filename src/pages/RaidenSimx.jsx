@@ -114,7 +114,7 @@ const RaidenSimx = () => {
           {/* Project Details Section End */}
         </>
         <BlogSectionOne color={"#13C4A1"} />
-        <ContactSection2 />
+        <ContactSection2 color={"#13C4A1"} />
 
         {/* News Section One */}
         <NewsSectionOne />
