@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../images/raiden-logo.png"
+import PrivacyPolicy from './../pages/PrivacyPolicy';
 
 const FooterSectionOne = () => {
   return (
@@ -99,6 +100,48 @@ const FooterSectionOne = () => {
                 </ul>
               </div>
             </div>
+            <div className="footer_contact_div">
+              <h2 className="footer_contact_div_heading">Our Offices</h2>
+              <div className="col-lg-4 col-md-6 col-12 ">
+                <div className="footer-wrapper three mt-4 mt-lg-0 footer_one_div" >
+                  <h2 className="title" data-aos="fade-up" data-aos-delay="200">
+                    Head Office
+                  </h2>
+                  <ul data-aos="fade-up" data-aos-delay="300">
+                    <li>No: 5 Namachivaya Nagar, Opp KGISL Tech park, Saravanampatti, Coimbatore,</li>
+                    <li>TamilNadu - 641035</li>
+                    <li><a style={{ marginBottom: "" }} href="mailto:info@raiden.studio" id="footer-mail-india" data-gtmeventaction="IndiaContactMailClicked"><i class="fa fa-envelope footer_icon"></i>info@raiden.studio</a></li>
+                    <li className="phone"><i class="fa fa-phone footer_icon"></i>  +91 98840 36062</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 col-12 ">
+                <div className="footer-wrapper three mt-4 mt-lg-0 footer_one_div">
+                  <h2 className="title" data-aos="fade-up" data-aos-delay="200">
+                    Head Office
+                  </h2>
+                  <ul data-aos="fade-up" data-aos-delay="300">
+                    <li>No: 5 Namachivaya Nagar, Opp KGISL Tech park, Saravanampatti, Coimbatore,</li>
+                    <li>TamilNadu - 641035</li>
+                    <li><a style={{ marginBottom: "" }} href="mailto:info@raiden.studio" id="footer-mail-india" data-gtmeventaction="IndiaContactMailClicked"><i class="fa fa-envelope footer_icon"></i>info@raiden.studio</a></li>
+                    <li className="phone"><i class="fa fa-phone footer_icon"></i>  +91 98840 36062</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 col-12 ">
+                <div className="footer-wrapper three mt-4 mt-lg-0 footer_one_div">
+                  <h2 className="title" data-aos="fade-up" data-aos-delay="200">
+                    Head Office
+                  </h2>
+                  <ul data-aos="fade-up" data-aos-delay="300">
+                    <li>No: 5 Namachivaya Nagar, Opp KGISL Tech park, Saravanampatti, Coimbatore,</li>
+                    <li>TamilNadu - 641035</li>
+                    <li><a style={{ marginBottom: "" }} href="mailto:info@raiden.studio" id="footer-mail-india" data-gtmeventaction="IndiaContactMailClicked"><i class="fa fa-envelope footer_icon"></i>info@raiden.studio</a></li>
+                    <li className="phone"><i class="fa fa-phone footer_icon"></i>  +91 98840 36062</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
             {/* <div className="col-lg-4 col-md-6 col-12">
               <div className="footer-wrapper two mt-4 mt-lg-0 ">
                 <h2 className="title" data-aos="fade-up" data-aos-delay="200">
@@ -140,13 +183,13 @@ const FooterSectionOne = () => {
             </div> */}
           </div>
           <div className="row">
-            <div className="col-12">
+            <div style={{ padding: "0" }} className="col-12">
               <div
                 className="footer-bottom"
                 data-aos="fade-up"
                 data-aos-delay="300"
               >
-                <p>Copyright © 2024 RaidenStudio, All Rights Reserved.</p>
+                <p>Copyright © 2024 RaidenStudio, All Rights Reserved <Link>| Privacy Policy |</Link><Link> Term And Conditions |</Link></p>
               </div>
             </div>
           </div>
