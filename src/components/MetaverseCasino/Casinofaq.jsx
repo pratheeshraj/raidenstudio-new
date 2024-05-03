@@ -11,9 +11,9 @@ function Casinofaq() {
                             data-aos="fade-right"
                             data-aos-delay="300"
                         >
-                            <h3 style={{ color: "black" }}>FAQ</h3>
+                            <h3 style={{ color: "57E400" }}>FAQ</h3>
                             <h2 style={{ color: "black" }}>
-                                Answers At A<span className='theme-color' style={{ color: "#57E400" }}> Glance</span>
+                                Answers At A<span className='theme-color' style={{ color: "#57E400" }}><br /> Glance</span>
                             </h2>
                             <p style={{ marginBottom: "10px", color: "black" }}>
                                 Find quick solutions and insights to common queries and concerns about our casino with our comprehensive FAQ section.
@@ -36,7 +36,7 @@ function Casinofaq() {
                             className="faq-inner "
                             data-aos="fade-left"
                             data-aos-delay="300"
-                            style={{ marginTop: "145px" }}
+                            style={{ marginTop: "195px" }}
                         >
                             <div className="intro">
                                 <h3 style={{ color: "black" }}>Common Question &amp; Answer</h3>
