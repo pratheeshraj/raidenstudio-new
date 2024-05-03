@@ -257,7 +257,7 @@ const CareerDetailsSection = () => {
                 checked={isChecked}
               />
               <p>
-                I agree to the terms of <a href="#">Privacy Policy</a>
+                I agree to the terms of <Link to={"/privacy-policy"}>Privacy Policy</Link>
               </p>
             </div>
           </div>

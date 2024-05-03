@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { CreateCareer } from "../action/CareerAction";
 import toast from "react-hot-toast";
 import { RotatingLines } from "react-loader-spinner";
+import { Link } from "react-router-dom";
 
 const CareerSection = () => {
   const dispatch = useDispatch();
@@ -187,7 +188,7 @@ const CareerSection = () => {
                 checked={isChecked}
               />
               <p>
-                I agree to the terms of <a href="#">Privacy Policy</a>
+                I agree to the terms of <Link to={"/privacy-policy"}>Privacy Policy</Link>
               </p>
             </div>
           </div>

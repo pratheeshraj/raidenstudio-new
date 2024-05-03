@@ -189,7 +189,7 @@ const FooterSectionOne = () => {
                 data-aos="fade-up"
                 data-aos-delay="300"
               >
-                <p>Copyright © 2024 RaidenStudio, All Rights Reserved <Link>| Privacy Policy |</Link><Link> Term And Conditions |</Link></p>
+                <p>Copyright © 2024 RaidenStudio, All Rights Reserved <Link to={"/privacy-policy"}>| Privacy Policy |</Link><Link to={"/terms-and-condtions"}> Term And Conditions |</Link></p>
               </div>
             </div>
           </div>
