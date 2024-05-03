@@ -50,7 +50,7 @@ const HomeOne = () => {
         {/* Testimonial Section One */}
         <TestimonialSectionOne />
         {/* Blog Section One */}
-        <BlogSectionOne color={"13C4A1"} />
+        <BlogSectionOne color={"#13C4A1"} />
         {/* News Section One */}
         <NewsSectionOne />
         {/* Footer Section One */}
