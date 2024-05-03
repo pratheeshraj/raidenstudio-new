@@ -8,7 +8,7 @@ const UnityServicesSection = () => {
         style={{ backgroundColor: "#f8f9fa" }}
       >
         <h2 className="auto-container " style={{ color: "black" }}>
-          Suite of <span style={{ color: "#fdb441" }}>Unity Development</span>{" "}
+          Suite of <span style={{ color: "#EDAE43" }}>Unity Development</span>{" "}
           Services
         </h2>
         <p
@@ -31,7 +31,7 @@ const UnityServicesSection = () => {
               alt=""
             />
             <h6 style={{ color: "black" }}>Game Development</h6>
-            <p style={{color:"black"}}>
+            <p style={{ color: "black" }}>
               From concept to launch, we create captivating games tailored to
               your vision and audience.
             </p>

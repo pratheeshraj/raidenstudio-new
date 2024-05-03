@@ -18,7 +18,7 @@ const Vrsevice = () => {
                             >
                                 <h2 style={{ textAlign: "center", }}>
                                     Boost your 3D visions with our advanced
-                                    <span className="theme-color"> VR development services.</span>
+                                    <span style={{ color: "#25E9EA" }}> VR development services.</span>
                                 </h2>
                                 <p style={{ textAlign: "center" }}>
                                     With years of experience in cutting-edge technology as well as industry best practices, we find to provide high-quality, scalable virtual space that drives business growth and innovation using our VR app development services.                                </p>

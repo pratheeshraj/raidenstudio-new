@@ -14,6 +14,7 @@ import MobileGamePageBanner from "../components/mobilegamepage/MobileGamePageBan
 import MobileGamePageProcess from "../components/mobilegamepage/MobileGamePageProcess";
 import MobileGamePageFaq from "../components/mobilegamepage/MobileGamePageFaq";
 import { useSelector } from "react-redux";
+import MobileGameCount from "../components/MobileGameCount";
 
 const MobileGame = () => {
   const { allMetaData } = useSelector((state) => state.metaDataState);
@@ -40,14 +41,14 @@ const MobileGame = () => {
         <MobileGamePageHero />
         <MobileGamePageAbout />
         <MobailGamePageServices />
-        <NftCounter />
+        <MobileGameCount />
         <MobileGamewhyChoose />
         <MobileGamePageBenifit />
         <MobileGamePageBanner />
         <MobileGamePageProcess />
-        <NewsSectionOne />
         <MobileGamePageFaq />
-        <ContactSection2 />
+        <NewsSectionOne />
+        <ContactSection2 color={"#EDAE43"} buttoncolor={"#EDAE43"} />
         <FooterSectionOne />
       </Suspense>
     </Fragment>

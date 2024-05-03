@@ -29,7 +29,7 @@ const UnityGamePage = () => {
   return (
     <Fragment>
       <Suspense>
-      <HelmetReact
+        <HelmetReact
           title={metadata[0]?.meta_title}
           description={metadata[0]?.meta_dec}
           keywords={metadata[0]?.meta_keyword}
@@ -46,7 +46,7 @@ const UnityGamePage = () => {
         <UnityProcessSection />
         <UnityFaq />
         <NewsSectionOne />
-        <ContactSection2 />
+        <ContactSection2 color={"#EDAE43"} buttoncolor={"#EDAE43"} />
         <FooterSectionOne />
       </Suspense>
     </Fragment>

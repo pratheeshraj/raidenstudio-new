@@ -40,14 +40,14 @@ const VrHero = () => {
                                             <div className="slider-content-inner ">
                                                 <div>
                                                     <h2 className="slider-title">
-                                                        <span className="theme-color" style={{ color: "#51F2FF" }}> Virtual Reality (VR)</span><br /> Development Company
+                                                        <span style={{ color: "#24FEFF" }}> Virtual Reality (VR)</span><br /> Development Company
                                                     </h2>
                                                     <p style={{ width: "500px" }} className="description metaverse_hero_para Hero_sub_heading">
                                                         Explore boundless realms, unleash your creativity, and redefine what's possible in the digital age.
                                                     </p>
                                                     <div className="inner-btn" >
                                                         <div>
-                                                            <Link className="default-btn" to="/contact-us">
+                                                            <Link style={{ background: "#25E9EA" }} className="default-btn" to="/contact-us">
                                                                 Explore Now
                                                             </Link>
                                                         </div>

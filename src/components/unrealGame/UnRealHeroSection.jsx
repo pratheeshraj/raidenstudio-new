@@ -9,7 +9,7 @@ const UnRealHeroSection = () => {
         <div className="auto-container metaverseroyal_hero_container">
           <div className="left game_hero_content" data-aos="fade-right" data-aos-delay="300">
             <h2>
-              Unreal <span style={{ color: "#fdb441" }}> Potential, <br /> Experts Unleashed </span>
+              Unreal <span style={{ color: "#BEAB59" }}> Potential, <br /> Experts Unleashed </span>
             </h2>
             <p
               className="Hero_sub_heading"
@@ -19,7 +19,7 @@ const UnRealHeroSection = () => {
             </p>
             <button
               className="default-btn"
-              style={{ backgroundColor: "#fdb441" }}
+              style={{ backgroundColor: "#BEAB59" }}
             >
               Explore Now
             </button>

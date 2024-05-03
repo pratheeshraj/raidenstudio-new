@@ -5,7 +5,7 @@ function Vrfeatures() {
         <section className="faq-section three" style={{ background: "white" }}>
             <div className="auto-container">
                 <div className="row">
-                    <h2 style={{ textAlign: "center", color: "black" }}>The Top Features and Benefits of<br /><span className="theme-color"> Virtual Reality App Development Services!</span>
+                    <h2 style={{ textAlign: "center", color: "black" }}>The Top Features and Benefits of<br /><span style={{ color: "#25E9EA" }}> Virtual Reality App Development Services!</span>
                     </h2>
                     {/* <p style={{ textAlign: "center", color: "black" }}>We are a reputable metaverse development company that provides feature-rich metaverse software to help you stay ahead of the competition. Check out what we've got to offer.
                     </p> */}
@@ -16,7 +16,7 @@ function Vrfeatures() {
                         </div>
                         <div className='feature_card'>
                             <img src='/assets/img/vr-feature-and-benefit/customerexper.svg' />
-                            <div style={{ whiteSpace: "nowrap" }}>Real-Life Customer<br className='vr-br-tag'/> Experience</div>
+                            <div style={{ whiteSpace: "nowrap" }}>Real-Life Customer<br className='vr-br-tag' /> Experience</div>
                         </div>
                         <div className='feature_card'>
                             <img src='/assets/img/vr-feature-and-benefit/enhancedrequire.svg' />

@@ -9,7 +9,7 @@ function VrWhyChoose() {
                 <div className="auto-container">
                     <div className="row nft_whychoose_full_div">
                         <div className='nft_whychoose_left_div'>
-                            <h2 style={{ color: "black", textAlign: "center" }}>VR Software Development Company:<span className='theme-color'> Why Choose VRaiden?</span></h2>
+                            <h2 style={{ color: "black", textAlign: "center" }}>VR Software Development Company:<span style={{ color: "#25E9EA" }}> Why Choose VRaiden?</span></h2>
                             <p style={{ color: "black", textAlign: "center" }}>We are your go-to tech partner because we can take your business to the next level with our highly flexible, scalable, and customizable VR development services.</p>
                         </div>
                         <div className='nft_whychoose_Right_div'>

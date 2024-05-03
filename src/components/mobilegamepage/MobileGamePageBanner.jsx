@@ -25,7 +25,7 @@ const MobileGamePageBanner = () => {
               <div className="title">
                 <h2>
                   Ready to Revolutionize{" "}
-                  <span className="theme-color" style={{ color: "#fdb441" }}>
+                  <span className="theme-color" style={{ color: "#FFBC48" }}>
                     Learning and Drive Success
                   </span>{" "}
                   in Your Industry?
@@ -41,7 +41,7 @@ const MobileGamePageBanner = () => {
                     <Link
                       className="default-btn"
                       to="/contact-us"
-                      style={{ backgroundColor: "#fdb441" }}
+                      style={{ backgroundColor: "#FFBC48" }}
                     >
                       Let’s Work To Do{" "}
                     </Link>

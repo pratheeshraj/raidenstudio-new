@@ -6,7 +6,7 @@ const MobileGamePageBenifit = () => {
       <div className="container-fluid mobileGamePageBenifit ">
         <div className="auto-container pagebenifit_container">
           <h2>
-            The <span>Power of Play</span>
+            The <span style={{ color: "#EDAE43" }}>Power of Play</span>
           </h2>
           <p>
             Experience increased user engagement, revenue potential, and brand

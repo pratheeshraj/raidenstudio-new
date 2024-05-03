@@ -18,14 +18,14 @@ const VrBanner = () => {
                             <div className="col-lg-6">
                                 <div className="title">
                                     <h2>
-                                        Is your business ready to leverage <span className="theme-color"> VR Development services? </span>
+                                        Is your business ready to leverage <span style={{ color: "#24FEFF" }}> VR Development services? </span>
                                     </h2>
                                     <p>
                                         Invest in the Future: Unlock VR Development Solutions for Your Business Today!
                                     </p>
                                     <div className="inner-btn d-adjust">
                                         <div>
-                                            <Link className="default-btn" to="/contact-us">
+                                            <Link style={{ background: "#25E9EA" }} className="default-btn" to="/contact-us">
                                                 Let’s Work To Do{" "}
                                             </Link>
                                         </div>

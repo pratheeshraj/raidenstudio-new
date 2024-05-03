@@ -11,7 +11,7 @@ const UnityHeroSection = () => {
           <div className="left game_hero_content" data-aos="fade-right" data-aos-delay="300">
             <h2>
               Immersive
-              <span style={{ color: "rgb(216 11 168)" }}> Unity <br /> Experiences</span> Await
+              <span style={{ color: "#FFBC48" }}> Unity <br /> Experiences</span> Await
             </h2>
             <p className="Hero_sub_heading">
               Enter Unity, unlock possibilities. Let us craft memorable<br /> projects
@@ -19,7 +19,7 @@ const UnityHeroSection = () => {
             </p>
             <button
               className="default-btn"
-              style={{ backgroundColor: "rgb(216 11 168)" }}
+              style={{ background: "#EDAE43" }}
             >
               Explore Now
             </button>

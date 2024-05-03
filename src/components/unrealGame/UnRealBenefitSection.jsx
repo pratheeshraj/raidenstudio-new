@@ -6,7 +6,7 @@ const UnRealBenefitSection = () => {
       <div className="container-fluid mobileGamePageBenifit ">
         <div className="auto-container pagebenifit_container">
           <h2>
-            The Power of <span>Unreal</span> Game Development
+            The Power of <span style={{ color: "#BEAB59" }}>Unreal</span> Game Development
           </h2>
           <p
             style={{

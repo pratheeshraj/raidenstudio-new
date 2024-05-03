@@ -6,9 +6,9 @@ const UnityBenefitSection = () => {
       <div className="container-fluid mobileGamePageBenifit ">
         <div className="auto-container pagebenifit_container">
           <h2>
-            Benefits of Choosing <span>Unity for Your Project</span>
+            Benefits of Choosing <span style={{ color: "#EDAE43" }}>Unity for Your Project</span>
           </h2>
-          <p style={{color:"black",marginBottom:"40px",textAlign:"center"}}>
+          <p style={{ color: "black", marginBottom: "40px", textAlign: "center" }}>
             Enjoy cost-effectiveness, rapid prototyping, and a vibrant community
             that supports <br /> your project every step of the way
           </p>

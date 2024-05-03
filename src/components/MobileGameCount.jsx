@@ -2,7 +2,7 @@ import React from "react";
 import CountUp from "react-countup";
 import ReactVisibilitySensor from "react-visibility-sensor";
 
-const VrCount = () => {
+const MobileGameCount = () => {
     return (
         <>
             {/* counter-section three start */}
@@ -18,13 +18,13 @@ const VrCount = () => {
                                     <h2 className="counter">
                                         <ReactVisibilitySensor>
                                             {({ isVisible }) => (
-                                                <div style={{ color: "#24FEFF" }}> {isVisible ? <CountUp end={8} /> : 0}</div>
+                                                <div style={{ color: "#FFBC48" }}> {isVisible ? <CountUp end={50} /> : 0}</div>
                                             )}
                                         </ReactVisibilitySensor>
                                     </h2>
                                     <h3>+</h3>
                                 </div>
-                                <h4>Years of VR innovation</h4>
+                                <h4>Games Developed</h4>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
@@ -37,13 +37,13 @@ const VrCount = () => {
                                     <h2 className="counter">
                                         <ReactVisibilitySensor>
                                             {({ isVisible }) => (
-                                                <div style={{ color: "#24FEFF" }}> {isVisible ? <CountUp end={30} /> : 0}</div>
+                                                <div style={{ color: "#FFBC48" }}> {isVisible ? <CountUp end={30} /> : 0}</div>
                                             )}
                                         </ReactVisibilitySensor>
                                     </h2>
                                     <h3>+</h3>
                                 </div>
-                                <h4>VR Professionals</h4>
+                                <h4>Team Members</h4>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
@@ -56,32 +56,32 @@ const VrCount = () => {
                                     <h2 className="counter">
                                         <ReactVisibilitySensor>
                                             {({ isVisible }) => (
-                                                <div style={{ color: "#24FEFF" }}> {isVisible ? <CountUp end={20} /> : 0}</div>
+                                                <div style={{ color: "#FFBC48" }}> {isVisible ? <CountUp end={100} /> : 0}</div>
                                             )}
                                         </ReactVisibilitySensor>
                                     </h2>
                                     <h3>%</h3>
                                 </div>
-                                <h4>VR projects</h4>
+                                <h4>Satisfaction Rate</h4>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <div
                                 className="wrapper mt-lg-0 mt-4 "
                                 data-aos="fade-up"
-                                data-aos-delay="300"
+                                data-aos-delay="400"
                             >
                                 <div className="d-adjust gap-2 justify-content-center">
                                     <h2 className="counter">
                                         <ReactVisibilitySensor>
                                             {({ isVisible }) => (
-                                                <div style={{ color: "#24FEFF" }}> {isVisible ? <CountUp end={50} /> : 0}</div>
+                                                <div style={{ color: "#FFBC48" }}> {isVisible ? <CountUp end={10} /> : 0}</div>
                                             )}
                                         </ReactVisibilitySensor>
                                     </h2>
                                     <h3>+</h3>
                                 </div>
-                                <h4>Satisfied VR clients</h4>
+                                <h4>Year of Experience</h4>
                             </div>
                         </div>
                     </div>
@@ -92,4 +92,4 @@ const VrCount = () => {
     );
 };
 
-export default VrCount;
+export default MobileGameCount;

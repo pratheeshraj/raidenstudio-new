@@ -7,12 +7,12 @@ const MobileGamewhyChoose = () => {
         <div className="auto-container mobile_gamewhy_choose">
           <div className="mobile_game_left">
             <h2>
-              Why Choose <span>Raiden</span> For
+              Why Choose <span style={{ color: "#EDAE43" }}> Raiden</span> For
             </h2>
             <h6>Mobile Game Developments Services</h6>
           </div>
           <div className="mobile_game_right">
-      
+
             <div className="mobail_game_card">
               <div className="left">
                 <div className="icon_container">

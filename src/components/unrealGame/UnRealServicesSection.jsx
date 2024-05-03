@@ -8,10 +8,10 @@ const UnRealServicesSection = () => {
         style={{ backgroundColor: "#f8f9fa" }}
       >
         <h2 className="auto-container " style={{ color: "black" }}>
-          Our <span style={{ color: "#fdb441" }}>Unreal Development </span>{" "}
+          Our <span style={{ color: "#BEAB59" }}>Unreal Development </span>{" "}
           Offerings
         </h2>
-        <p style={{ textAlign: "center", marginBottom: "40px",color:"black" }}>
+        <p style={{ textAlign: "center", marginBottom: "40px", color: "black" }}>
           Step into a world where the impossible becomes possible. Explore our
           range of Unreal Engine services <br /> tailored to meet your every need.
         </p>
@@ -46,7 +46,7 @@ const UnRealServicesSection = () => {
             />
             <h6 style={{ color: "black" }}>
               {" "}
-               (VR) and (AR)
+              (VR) and (AR)
             </h6>
             <p style={{ color: "black" }}>
               Step into the future with our VR and AR solutions that blend
@@ -121,7 +121,7 @@ const UnRealServicesSection = () => {
             />
             <h6 style={{ color: "black" }}>
               {" "}
-              Custom Unreal Engine 
+              Custom Unreal Engine
             </h6>
             <p style={{ color: "black" }}>
               Tailored solutions for unique needs. We specialize in developing

@@ -25,7 +25,7 @@ const UnityBannerSection = () => {
               <div className="title">
                 <h2>
                   Ready to Revolutionize{" "}
-                  <span className="theme-color" style={{ color: "#fdb441" }}>
+                  <span className="theme-color" style={{ color: "#EDAE43" }}>
                     Learning and Drive Success
                   </span>{" "}
                   in Your Industry?
@@ -40,7 +40,7 @@ const UnityBannerSection = () => {
                     <Link
                       className="default-btn"
                       to="/contact-us"
-                      style={{ backgroundColor: "#fdb441" }}
+                      style={{ backgroundColor: "#EDAE43" }}
                     >
                       Let’s Work To Do{" "}
                     </Link>
@@ -52,21 +52,6 @@ const UnityBannerSection = () => {
               <img style={{ width: "60%" }} src="/assets/img/unity/banner.svg" />
             </div>
           </div>
-          {/* <div className="overlay-text">
-      <h1>AI</h1>
-    </div> */}
-          {/* <div className="shape-img">
-                    <img
-                        className="shape-1 poa"
-                        src="./assets/img/icon/50_icon.png"
-                        alt=""
-                    />
-                    <img
-                        className="shape-2 poa"
-                        src="./assets/img/icon/51_icon.png"
-                        alt=""
-                    />
-                </div> */}
         </div>
       </div>
     </section>

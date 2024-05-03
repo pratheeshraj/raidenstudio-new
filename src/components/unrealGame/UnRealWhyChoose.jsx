@@ -7,13 +7,13 @@ const UnRealWhyChoose = () => {
         <div className="auto-container mobile_gamewhy_choose">
           <div className="mobile_game_left">
             <h2>
-              Why Choose <span>Raiden</span> For
+              Why Choose <span style={{ color: "#BEAB59" }}>Raiden</span> For
             </h2>
             <h6>Unreal Development Services</h6>
           </div>
           <div className="mobile_game_right">
             <div className="mobail_game_card">
-              <div className="left">
+              <div style={{ background: "#BEAB59" }} className="left">
                 <div className="icon_container">
                   <img
                     src="/assets/img/unreal-whychoose/expertise.svg"
@@ -30,7 +30,7 @@ const UnRealWhyChoose = () => {
               </div>
             </div>
             <div className="mobail_game_card">
-              <div className="left">
+              <div style={{ background: "#BEAB59" }} className="left">
                 <div className="icon_container">
                   <img
                     src="/assets/img/unreal-whychoose/innovation.svg"
@@ -48,9 +48,9 @@ const UnRealWhyChoose = () => {
               </div>
             </div>
 
-        
+
             <div className="mobail_game_card">
-              <div className="left">
+              <div style={{ background: "#BEAB59" }} className="left">
                 <div className="icon_container">
                   <img
                     src="/assets/img/unreal-whychoose/quality assu.svg"
@@ -67,7 +67,7 @@ const UnRealWhyChoose = () => {
               </div>
             </div>
             <div className="mobail_game_card">
-              <div className="left">
+              <div style={{ background: "#BEAB59" }} className="left">
                 <div className="icon_container">
                   <img
                     src="/assets/img/unreal-whychoose/client satisfy.svg"
