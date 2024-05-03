@@ -96,21 +96,21 @@ const BlogSectionOne = () => {
             src="/assets/img/icon/58_icon.png"
             alt=""
           />
-          <img
+          {/* <img
             className="shape-3 poa"
             src="/assets/img/icon/59_icon.png"
             alt=""
-          />
-          <img
+          /> */}
+          {/* <img
             className="shape-4 poa"
             src="/assets/img/icon/09_icon.png"
             alt=""
-          />
-          <img
+          /> */}
+          {/* <img
             className="shape-5 poa"
             src="/assets/img/icon/43_icon.png"
             alt=""
-          />
+          /> */}
           <img
             className="shape-6 poa"
             src="/assets/img/icon/78_icon.png"
