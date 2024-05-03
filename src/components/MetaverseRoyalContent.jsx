@@ -1354,8 +1354,8 @@ const MetaverseRoyalContent = () => {
                 data-aos="fade-right"
                 data-aos-delay="300"
               >
-                <h3>FAQ</h3>
-                <h2>Answers At <span style={{ color: "#00ECE5" }}>A Glance</span></h2>
+                <h3 style={{ color: "#00ECE5" }}>FAQ</h3>
+                <h2>Answers At <span style={{ color: "#00ECE5" }}>A <br />Glance</span></h2>
                 <p style={{ marginBottom: "20px" }}>
                   Find quick solutions and insights to common queries and concerns about our casino with our comprehensive FAQ section.
                 </p>
@@ -1372,7 +1372,7 @@ const MetaverseRoyalContent = () => {
                 />
               </div>
             </div>
-            <div className="col-lg-6" style={{ marginTop: "147px" }}>
+            <div className="col-lg-6" style={{ marginTop: "192px" }}>
               <div
                 className="faq-inner "
                 data-aos="fade-left"
@@ -1502,12 +1502,12 @@ const MetaverseRoyalContent = () => {
           </div>
         </div>
         <div className="shape-image">
-          <div className="shape-img-2 poa">
+          {/* <div className="shape-img-2 poa">
             <img src="/assets/img/icon/64_icon.png" alt="" />
           </div>
           <div className="shape-img-5 poa">
             <img src="/assets/img/icon/26_icon.png" alt="" />
-          </div>
+          </div> */}
           <div className="shape-img-8 poa">
             <img src="/assets/img/icon/71_icon.png" alt="" />
           </div>

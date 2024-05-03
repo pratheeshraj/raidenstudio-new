@@ -81,6 +81,14 @@ const HeaderTwo = () => {
     "RaidenCogni+",
     "RaidenArcviz",
   ];
+
+  const productcolor = [
+    "#1BA2D7",
+    "#13C4A1",
+    "#5AA9C3",
+    "#59C1FF",
+  ];
+
   const ProductPara = [
     "Collaboration in a dynamic universe where the possibilities are endless.",
     "Human guidance to enhance simulation training through immersive learning.",
@@ -100,6 +108,11 @@ const HeaderTwo = () => {
     "Clash of Empires",
     "Virtual Vegas",
     "Metaverse Royale",
+  ];
+  const gameColor = [
+    "#35FBFC",
+    "#87FF01",
+    "#38FFFF",
   ];
   const gamelink = [
     `/clash-of-empires`,
@@ -132,9 +145,17 @@ const HeaderTwo = () => {
     "DeFi",
     "Metaverse",
     "Blockchain Game",
-    "Layer 1 & Layer 2",
-    "Smart Contract",
   ];
+
+  const blockchaincolor = [
+    "#53A6FF",
+    "#00ECE5",
+    "#E052D1",
+    "#00ECE5",
+    "#00ECE5",
+    "#00ECE5",
+  ];
+
 
   const blockChainPara = [
     "Tailored solutions for unique digital ledger needs.",
@@ -152,6 +173,10 @@ const HeaderTwo = () => {
     "AI As A Service",
     "Generative AI Development",
   ];
+  const generativeAIcolor = [
+    "#5AA9C3",
+    "#13C4A1",
+  ];
 
   const generativeAIpara = [
     "Access AI capabilities effortlessly for diverse applications.",
@@ -164,6 +189,7 @@ const HeaderTwo = () => {
   const xrlink = ["/augmented-reality-ar-development-company", "/virtual-reality-vr-development-company",];
   const xrValues = [0.5, 0.5];
   const xrNames = ["AR Services", "VR Services",];
+  const xrcolor = ["#59C1FF", "#25E9EA",];
   const xrpara = [
     "Augmented reality enhancements for immersive real-world experiences.",
     "Virtual reality solutions delivering immersive digital environments."
@@ -182,6 +208,16 @@ const HeaderTwo = () => {
     "P2E Game Development",
     "Web3 Game Development",
   ];
+
+  const gameservicecolor = [
+    "#EDAE43",
+    "#EDAE43",
+    "#BEAB59",
+    "#EC8268 ",
+    "#F09C1F",
+    "#33E5E5",
+  ];
+
   const gameNamesLink = ["/mobile-game-development", "/unity-development", "/unreal-development", "/mmorpg-game-development", "/p2e-game-develpment", "/web3-game-develpment"];
   const gameservicePara = [
     "Crafting engaging games optimized for mobile platforms.",
@@ -386,7 +422,7 @@ const HeaderTwo = () => {
                                                       left: 0,
                                                       height: "4px",
                                                       backgroundColor:
-                                                        "#13C4A1", // Change color as needed
+                                                        `${productcolor[index]}`, // Change color as needed
                                                       transition:
                                                         "width 0.3s ease-in-out",
                                                     }}
@@ -441,7 +477,7 @@ const HeaderTwo = () => {
                                                     top: "15px", // Adjust the value to position the progress bar above the link name
                                                     left: 0,
                                                     height: "4px",
-                                                    backgroundColor: "#13C4A1", // Change color as needed
+                                                    backgroundColor: `${gameColor[index]}`, // Change color as needed
                                                     transition:
                                                       "width 0.3s ease-in-out",
                                                   }}
@@ -560,7 +596,7 @@ const HeaderTwo = () => {
                                                       left: 0,
                                                       height: "4px",
                                                       backgroundColor:
-                                                        "#13C4A1", // Change color as needed
+                                                        `${blockchaincolor[index]}`, // Change color as needed
                                                       transition:
                                                         "width 0.3s ease-in-out",
                                                     }}
@@ -621,7 +657,7 @@ const HeaderTwo = () => {
                                                       left: 0,
                                                       height: "4px",
                                                       backgroundColor:
-                                                        "#13C4A1", // Change color as needed
+                                                        `${generativeAIcolor[index]}`, // Change color as needed
                                                       transition:
                                                         "width 0.3s ease-in-out",
                                                     }}
@@ -677,7 +713,7 @@ const HeaderTwo = () => {
                                                     top: "15px", // Adjust the value to position the progress bar above the link name
                                                     left: 0,
                                                     height: "4px",
-                                                    backgroundColor: "#13C4A1", // Change color as needed
+                                                    backgroundColor: `${xrcolor[index]}`, // Change color as needed
                                                     transition:
                                                       "width 0.3s ease-in-out",
                                                   }}
@@ -731,7 +767,7 @@ const HeaderTwo = () => {
                                                     top: "15px", // Adjust the value to position the progress bar above the link name
                                                     left: 0,
                                                     height: "4px",
-                                                    backgroundColor: "#13C4A1", // Change color as needed
+                                                    backgroundColor: `${gameservicecolor[index]}`, // Change color as needed
                                                     transition:
                                                       "width 0.3s ease-in-out",
                                                   }}
