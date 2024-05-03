@@ -30,7 +30,7 @@ const RaidenArcvizComponent = ({ vidio }) => {
                                 >
                                     <div className="title">
                                         <h2 className="arcviz_who_heading">
-                                            <span>Who</span> we Are
+                                            <span style={{ color: "#59C1FF" }}>Who</span> we Are
                                         </h2>
                                     </div>
                                     <div className="inner-des">
@@ -47,7 +47,7 @@ const RaidenArcvizComponent = ({ vidio }) => {
                                     >
                                         <div className="project_left">
                                             <h2 className="arcviz_who_heading">What
-                                                <span> We Offer</span>
+                                                <span style={{ color: "#59C1FF" }}> We Offer</span>
                                             </h2>
                                         </div>
                                         <div className="inner-des2">
@@ -122,7 +122,7 @@ const RaidenArcvizComponent = ({ vidio }) => {
                                 data-aos-delay="300"
                             >
                                 <h2 style={{ textAlign: "center", width: "100%" }}>
-                                    Unlocking Possibilities: Explore Our  <span className="theme-color"> <br />Innovative Solutions </span>
+                                    Unlocking Possibilities: Explore Our  <span style={{ color: "#59C1FF" }}> <br />Innovative Solutions </span>
                                 </h2>
                             </div>
                         </div>
@@ -231,7 +231,7 @@ const RaidenArcvizComponent = ({ vidio }) => {
             <section className="project-section three Raidenarcviz_card_main_div" style={{ padding: "80px 0", background: "#F8F9FA" }}>
                 <div className="auto-container">
                     <div className="row">
-                        <h2 className="raidenarcviz_card_h2" style={{ color: "black" }}>Experience the <span className="theme-color">Advantages</span></h2>
+                        <h2 className="raidenarcviz_card_h2" style={{ color: "black" }}>Experience the <span style={{ color: "#59C1FF" }}>Advantages</span></h2>
                         <p className='raidenarcviz_card_p' style={{ color: "black" }}>Discover the advantages of immersive visualization, real-time collaboration, and tailored support, and propel your architecture and real estate endeavors to new heights.</p>
                         <div className="arcviz_benifit_div">
                             <div className="arcviz_benifit">
@@ -295,7 +295,7 @@ const RaidenArcvizComponent = ({ vidio }) => {
                             >
                                 <h2 style={{ textAlign: "center" }}>
                                     Use Cases of VR in Real Estate
-                                    <span className="theme-color"> Real Estate</span>
+                                    <span style={{ color: "#59C1FF" }}> Real Estate</span>
                                 </h2>
                                 <p>At VR, we're experts at providing innovative solutions that use cutting-edge technology to boost creativity and revolutionize industries. Our skilled professionals have extensive experience in a variety of domains, allowing us to provide comprehensive services in:</p>
                             </div>
@@ -479,7 +479,7 @@ const RaidenArcvizComponent = ({ vidio }) => {
             </section>
 
             {/* Raiden arcviz - Faq */}
-            <section className="faq-section one">
+            {/* <section className="faq-section one">
                 <div className="auto-container">
                     <div className="row">
                         <div className="col-lg-6">
@@ -488,7 +488,7 @@ const RaidenArcvizComponent = ({ vidio }) => {
                                 data-aos="fade-right"
                                 data-aos-delay="300"
                             >
-                                <h2>
+                                <h2 style={{ color: "#59C1FF" }}>
                                     FAQ
                                 </h2>
                                 <p style={{ marginBottom: "10px" }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem aut cumque facere ab tempore iusto sapiente. Ex quisquam modi corporis dicta, qui, eveniet dolor amet delectus molestias incidunt suscipit neque?</p>
@@ -594,7 +594,7 @@ const RaidenArcvizComponent = ({ vidio }) => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
         </>
     );

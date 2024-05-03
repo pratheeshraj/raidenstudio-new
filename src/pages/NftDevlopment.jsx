@@ -79,7 +79,7 @@ function NftDevlopment() {
         <ContactSection2 color={"#00ECE5"} buttoncolor={"#00E9E2 "} />
         {/* Footer Section */}
         {/* News Section Two */}
-        <NewsSectionOne />
+        <NewsSectionOne color={"#00ECE5"} buttoncolor={"#00E9E2 "} />
         <FooterSectionOne />
       </Suspense>
     </Fragment>

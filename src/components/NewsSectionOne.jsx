@@ -5,8 +5,8 @@ import NewsletterPopup from "./NewsletterPopup";
 import { useSelector } from "react-redux";
 import { RotatingLines } from "react-loader-spinner";
 
-const NewsSectionOne = () => {
-  const { loading,error, success } = useSelector((state) => state.newsLetterState);
+const NewsSectionOne = ({ buttoncolor, color }) => {
+  const { loading, error, success } = useSelector((state) => state.newsLetterState);
 
   const [openPopup, setOpenPopup] = useState(false);
   const [email, setEmail] = useState("");
@@ -54,7 +54,7 @@ const NewsSectionOne = () => {
                 data-aos="fade-right"
                 data-aos-delay="300"
               >
-                <h5>Newsletter</h5>
+                <h5 style={{ color: `${color}` }}>Newsletter</h5>
                 <h2>
                   Subscribe to newsletter <br /> &amp; get company news.
                 </h2>
@@ -76,23 +76,23 @@ const NewsSectionOne = () => {
                     />
 
                     <button
-                      style={{ color: "white" }}
+                      style={{ color: "white", background: `${buttoncolor}` }}
                       className="submit"
                       type="submit"
                       disabled={loading}
                     >
                       {loading ? (
                         <RotatingLines
-                        visible={true}
-                        height="25"
-                        width="25"
-                        strokeColor="white"
-                        color="white"  // Change this to any color you want
-                        strokeWidth="5"
-                        animationDuration="0.75"
-                        ariaLabel="rotating-lines-loading"
-                        wrapperStyle={{}}
-                        wrapperClass=""
+                          visible={true}
+                          height="25"
+                          width="25"
+                          strokeColor="white"
+                          color="white"  // Change this to any color you want
+                          strokeWidth="5"
+                          animationDuration="0.75"
+                          ariaLabel="rotating-lines-loading"
+                          wrapperStyle={{}}
+                          wrapperClass=""
                         />
                       ) : (
                         "Submit"
@@ -105,16 +105,16 @@ const NewsSectionOne = () => {
           </div>
         </div>
         <div className="shape-image">
-          <img
+          {/* <img
             className="shape-1 poa"
             src="/assets/img/icon/60_icon.png"
             alt=""
-          />
-          <img
+          /> */}
+          {/* <img
             className="shape-2 poa"
             src="/assets/img/icon/61_icon.png"
             alt=""
-          />
+          /> */}
         </div>
       </section>
       {/* News Letter One end */}

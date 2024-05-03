@@ -55,7 +55,7 @@ const ProjectDetailUseCase = () => {
       <section>
         <div className="container-fluid UseCase" style={{ overflow: "hidden" }}>
           <div className="auto-container UseCase_content">
-            <h2>Services</h2>
+            <h2 style={{ color: "#1BA2D7" }}>Services</h2>
             <div className="row UseCase_content_row">
               <div className="col-lg-6  order-2 order-lg-1">
                 <div
@@ -64,7 +64,7 @@ const ProjectDetailUseCase = () => {
                   data-aos-delay="300"
                 >
                   <h2 className="title">
-                    <span> Metaverse Game</span>
+                    <span style={{ color: "#1BA2D7" }}> Metaverse Game</span>
                   </h2>
                   <p>
                     Game development expertise across multiple platforms
@@ -74,7 +74,7 @@ const ProjectDetailUseCase = () => {
                     networking features and social interaction mechanics within
                     virtual game environments.
                   </p>
-                  <h6>Business Use Cases</h6>
+                  <h6 style={{ color: "#1BA2D7" }}>Business Use Cases</h6>
                   <div className="small_card_container">
                     <div className="cards">
                       <div
@@ -156,7 +156,7 @@ const ProjectDetailUseCase = () => {
                   data-aos-delay="300"
                 >
                   <h2 className="title">
-                    <span> Metaverse Application</span>
+                    <span style={{ color: "#1BA2D7" }}> Metaverse Application</span>
                   </h2>
                   <p>
                     Cross-platform application development for VR/AR devices,
@@ -166,7 +166,7 @@ const ProjectDetailUseCase = () => {
                     of cloud-based infrastructure for data storage, processing,
                     and real-time collaboration.
                   </p>
-                  <h6>Business Use Cases</h6>
+                  <h6 style={{ color: "#1BA2D7" }}>Business Use Cases</h6>
                   <div className="small_card_container">
                     <div className="cards">
                       <div
@@ -226,7 +226,7 @@ const ProjectDetailUseCase = () => {
                   data-aos-delay="300"
                 >
                   <h2 className="title">
-                    <span> Digital Twin & Simulation</span>
+                    <span style={{ color: "#1BA2D7" }}> Digital Twin & Simulation</span>
                   </h2>
                   <p>
                     Development of digital twin models for physical assets,
@@ -236,7 +236,7 @@ const ProjectDetailUseCase = () => {
                     Real-time simulation capabilities for testing scenarios,
                     optimizing operations, and simulating complex systems.
                   </p>
-                  <h6>Business Use Cases</h6>
+                  <h6 style={{ color: "#1BA2D7" }}>Business Use Cases</h6>
                   <div className="small_card_container">
                     <div className="cards">
                       <div
@@ -302,14 +302,14 @@ const ProjectDetailUseCase = () => {
           </div>
         </div>
       </section>
-      <NewsSectionOne />
+      <NewsSectionOne color={"#1BA2D7"} buttoncolor={"#1BA2D7"} />
       <section
         className="service-details-section"
         style={{ backgroundColor: "white" }}
       >
         <h2>
-          Engineered for the Metaverse <br /> <span>Advanced Multiplayer</span>,
-          <span> Streaming</span>, and <br />
+          Engineered for the Metaverse <br /> <span style={{ color: "#1BA2D7" }}>Advanced Multiplayer</span>,
+          <span style={{ color: "#1BA2D7" }}> Streaming</span>, and <br />
           Game Engine Mastery
         </h2>
 
@@ -320,8 +320,8 @@ const ProjectDetailUseCase = () => {
                 onClick={handleMultiplayer}
                 className="title"
                 style={{
-                  color: multiplayer ? "#50c4a1" : "",
-                  borderBottom: multiplayer ? "3px solid #50c4a1" : "",
+                  color: multiplayer ? "#1BA2D7" : "",
+                  borderBottom: multiplayer ? "3px solid #1BA2D7" : "",
                 }}
               >
                 Multiplayer Integration
@@ -329,8 +329,8 @@ const ProjectDetailUseCase = () => {
               <p
                 className="title"
                 style={{
-                  color: streaming ? "#50c4a1" : "",
-                  borderBottom: streaming ? "3px solid #50c4a1" : "",
+                  color: streaming ? "#1BA2D7" : "",
+                  borderBottom: streaming ? "3px solid #1BA2D7" : "",
                 }}
                 onClick={handeStream}
               >
@@ -339,8 +339,8 @@ const ProjectDetailUseCase = () => {
               <p
                 className="title"
                 style={{
-                  color: game ? "#50c4a1" : "",
-                  borderBottom: game ? "3px solid #50c4a1" : "",
+                  color: game ? "#1BA2D7" : "",
+                  borderBottom: game ? "3px solid #1BA2D7" : "",
                 }}
                 onClick={handleGame}
               >

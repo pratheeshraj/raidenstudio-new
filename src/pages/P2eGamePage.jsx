@@ -44,7 +44,7 @@ const P2eGamePage = () => {
         <P2eGameBannerSection />
         <P2eGameProcessSection />
         <P2eGameFaq />
-        <NewsSectionOne />
+        <NewsSectionOne color={"#F09C1F"} buttoncolor={"#F09C1F"} />
         <ContactSection2 color={"#F09C1F"} buttoncolor={"#F09C1F"} />
         <FooterSectionOne />
       </Suspense>

@@ -142,7 +142,7 @@ const RaidenCogniContent = () => {
               >
                 <h2 style={{ color: "black", textAlign: "center" }}>
                   Key
-                  <span className="theme-color"> Features</span>
+                  <span style={{ color: "#5AA9C3" }}> Features</span>
                 </h2>
               </div>
             </div>
@@ -509,10 +509,9 @@ const RaidenCogniContent = () => {
       </section> */}
       <section className="cogni_lesson" style={{ background: "white" }}>
         <div className="auto-container cogni_lesson_container">
-          <h2>
-            LESSONS FOR <span>DEVELOPING</span> PRACTICAL{" "}
-            <span>
-              {" "}
+          <h2 >
+            LESSONS FOR <span style={{ color: "#5AA9C3" }}>DEVELOPING</span> PRACTICAL{" "}
+            <span style={{ color: "#5AA9C3" }}>
               <br /> LIFE SKILLS
             </span>
           </h2>

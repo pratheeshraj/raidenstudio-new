@@ -73,7 +73,7 @@ function Web3() {
         <ContactSection2 color={"#E052D1"} buttoncolor={"#E052D1"} />
         {/* Footer Section */}
         {/* News Section Two */}
-        <NewsSectionOne />
+        <NewsSectionOne color={"#E052D1"} buttoncolor={"#E052D1"} />
         <FooterSectionOne />
       </Suspense>
     </Fragment>

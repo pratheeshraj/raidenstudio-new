@@ -41,7 +41,7 @@ const Web3GamePage = () => {
       <Web3GameBenefitSection />
       <Web3GameBannerSection />
       <Web3GameProcessSection />
-      <NewsSectionOne />
+      <NewsSectionOne color={"#33E5E5"} buttoncolor={"#00ECE5"} />
       <Web3GameFaq />
       <ContactSection2 color={"#33E5E5"} buttoncolor={"#00ECE5"} />
       <FooterSectionOne />

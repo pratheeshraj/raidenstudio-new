@@ -54,7 +54,7 @@ const RaidenCogni = () => {
                     >
                       <div className="title">
                         <h2>
-                          <span>What we</span> Offer?
+                          <span style={{ color: "#5AA9C3" }}>What we</span> Offer?
                         </h2>
                       </div>
                       <div className="inner-des">
@@ -71,7 +71,7 @@ const RaidenCogni = () => {
                       >
                         <div className="project_left">
                           <h2 style={{ marginBottom: "10px" }}>
-                            <span>Why</span> COGNI+?
+                            <span style={{ color: "#5AA9C3" }}>Why</span> COGNI+?
                           </h2>
                         </div>
                         <div className="inner-des2">
@@ -93,10 +93,10 @@ const RaidenCogni = () => {
           {/* Project Details Section End */}
         </>
         <BlogSectionOne />
-        <ContactSection2 />
+        <ContactSection2 color={"#5AA9C3"} buttoncolor={"#5AA9C3"} />
 
         {/* News Section One */}
-        <NewsSectionOne />
+        <NewsSectionOne color={"#5AA9C3"} buttoncolor={"#5AA9C3"} />
         {/* Footer Section */}
         <FooterSectionOne />
       </Suspense>

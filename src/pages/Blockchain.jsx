@@ -76,7 +76,7 @@ function Blockchain() {
         <ContactSection2 color={"#53A6FF"} buttoncolor={"#4D97E5"} />
         {/* Footer Section */}
         {/* News Section Two */}
-        <NewsSectionOne />
+        <NewsSectionOne color={"#53A6FF"} buttoncolor={"#4D97E5"}/>
         <FooterSectionOne />
       </Suspense>
     </Fragment>

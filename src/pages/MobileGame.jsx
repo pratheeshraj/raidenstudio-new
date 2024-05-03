@@ -47,7 +47,7 @@ const MobileGame = () => {
         <MobileGamePageBanner />
         <MobileGamePageProcess />
         <MobileGamePageFaq />
-        <NewsSectionOne />
+        <NewsSectionOne color={"#EDAE43"} buttoncolor={"#EDAE43"} />
         <ContactSection2 color={"#EDAE43"} buttoncolor={"#EDAE43"} />
         <FooterSectionOne />
       </Suspense>

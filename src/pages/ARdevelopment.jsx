@@ -94,7 +94,7 @@ function ARdevelopment() {
         <ContactSection2 color={"#59C1FF"} buttoncolor={"#4AA4DAv"} />
         {/* Footer Section */}
         {/* News Section Two */}
-        <NewsSectionOne />
+        <NewsSectionOne color={"#59C1FF"} buttoncolor={"#4AA4DAv"} />
         <FooterSectionOne />
       </Suspense>
     </Fragment>

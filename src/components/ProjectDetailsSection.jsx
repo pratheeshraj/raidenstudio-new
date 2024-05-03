@@ -23,12 +23,12 @@ const ProjectDetailsSection = ({ vidio }) => {
                 >
                   <div className="title">
                     <h2>
-                      <span>What</span> we do
+                      <span style={{ color: "#1BA2D7" }}>What</span> we do
                     </h2>
                   </div>
                   <div className="inner-des">
                     <p>
-                      At <span>Raidenverse</span> we revolutionize the digital
+                      At <span style={{ color: "#1BA2D7" }}>Raidenverse</span> we revolutionize the digital
                       landscape through our AI-powered Metaverse platform. Our
                       mission is to redefine virtual experiences, enabling
                       individuals and businesses to seamlessly navigate through
@@ -45,12 +45,12 @@ const ProjectDetailsSection = ({ vidio }) => {
                   >
                     <div className="project_left">
                       <h2>
-                        <span>Who</span> we are
+                        <span style={{ color: "#1BA2D7" }}>Who</span> we are
                       </h2>
                     </div>
                     <div className="inner-des2">
                       <p>
-                        <span> Raidenverse</span> is a team of visionaries,
+                        <span style={{ color: "#1BA2D7" }}> Raidenverse</span> is a team of visionaries,
                         technologists, and innovators dedicated to shaping the
                         future of virtual reality. With a collective passion for
                         cutting-edge technology and boundless creativity, we are

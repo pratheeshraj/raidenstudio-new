@@ -20,16 +20,16 @@ const GameProductDetails = () => {
   return (
     <Fragment>
       <Suspense>
-      <HelmetReact
+        <HelmetReact
           title={metadata[0]?.meta_title}
           description={metadata[0]?.meta_dec}
           keywords={metadata[0]?.meta_keyword}
           ogimage={metadata[0]?.og_image}
         />
         <HeaderTwo />
-        <GameProductDetailsHero/>
-        <ContactSection2/>
-        <NewsSectionOne />
+        <GameProductDetailsHero />
+        <ContactSection2 color={"rgb(0, 236, 229)"} buttoncolor={"#00ECE5 "} />
+        <NewsSectionOne color={"rgb(0, 236, 229)"} buttoncolor={"#00ECE5 "} />
         <FooterSectionOne />
       </Suspense>
     </Fragment>

@@ -73,7 +73,7 @@ function VRdevelopment() {
         <ContactSection2 color={"#25E9EA"} buttoncolor={"#25E9EA"} />
         {/* Footer Section */}
         {/* News Section Two */}
-        <NewsSectionOne />
+        <NewsSectionOne color={"#25E9EA"} buttoncolor={"#25E9EA"} />
         <FooterSectionOne />
       </Suspense>
     </Fragment>

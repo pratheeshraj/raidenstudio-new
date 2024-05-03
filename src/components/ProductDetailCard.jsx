@@ -19,7 +19,7 @@ const ProductDetailCard = () => {
               >
                 <h2 style={{ textAlign: "center", width: "100%" }}>
                   How we help industry
-                  <span className="theme-color"> leaders</span>
+                  <span style={{ color: "#1BA2D7" }}> leaders</span>
                 </h2>
               </div>
             </div>

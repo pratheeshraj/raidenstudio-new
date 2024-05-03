@@ -39,8 +39,8 @@ const RaidenArcviz = () => {
         <RaidenArcvizComponent vidio={vidio} />
         {/* <BlogSectionOne /> */}
         {/* News Section One */}
-        <ContactSection2 />
-        <NewsSectionOne />
+        <NewsSectionOne color={"#59C1FF"} buttoncolor={"#59C1FF"} />
+        <ContactSection2 color={"#59C1FF"} buttoncolor={"#59C1FF"} />
         {/* Footer Section */}
         <FooterSectionOne />
       </Suspense>

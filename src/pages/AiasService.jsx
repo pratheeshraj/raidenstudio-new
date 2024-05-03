@@ -76,7 +76,7 @@ function AiasService() {
         <ContactSection2 color={"#5AA9C3"} buttoncolor={"#5AA9C3"} />
         {/* Footer Section */}
         {/* News Section Two */}
-        <NewsSectionOne />
+        <NewsSectionOne color={"#5AA9C3"} buttoncolor={"#5AA9C3"} />
         <FooterSectionOne />
       </Suspense>
     </Fragment>
