@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../images/raiden-logo.png"
 import PrivacyPolicy from './../pages/PrivacyPolicy';
+import RaidenArcviz from './../pages/RaidenArcviz';
 
 const FooterSectionOne = () => {
   return (
@@ -17,7 +18,7 @@ const FooterSectionOne = () => {
                 </div>
                 <div className="des" data-aos="fade-up" data-aos-delay="300">
                   <p>
-                    Raiden Studios: Innovating the future of gaming, VR, AR, and blockchain. Your go-to consultancy for cutting-edge solutions tailored to your needs. Let's redefine possibilities together!
+                    Raiden Studios: Creating the VR, AR, and blockchain of the future. Your go-to advisor for innovative, specially designed solutions. Together, let's redefine possibilities !
                   </p>
                 </div>
                 <div
@@ -47,16 +48,16 @@ const FooterSectionOne = () => {
                 </h2>
                 <ul data-aos="fade-up" data-aos-delay="300">
                   <li>
-                    <Link to="/raiden-verse">Raiden Verse</Link>
+                    <Link to="/raiden-verse">RaidenVerse</Link>
                   </li>
                   <li>
-                    <Link to="/raiden-simx">Raiden SimX</Link>
+                    <Link to="/raiden-simx">RaidenSimX</Link>
                   </li>
                   <li>
-                    <Link to="/raiden-cogni">Raiden COGNI+</Link>
+                    <Link to="/raiden-cogni">RaidenCogni+</Link>
                   </li>
                   <li>
-                    <Link to="/raiden-arcviz">Raiden ARCVIZ</Link>
+                    <Link to="/raiden-arcviz">RaidenArcviz</Link>
                   </li>
                 </ul>
               </div>
@@ -97,6 +98,9 @@ const FooterSectionOne = () => {
                   <li>
                     <Link to="/contact-us">Contact us</Link>
                   </li>
+                  <li>
+                    <Link to="/blog">Blog</Link>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -104,8 +108,8 @@ const FooterSectionOne = () => {
               <h2 className="footer_contact_div_heading">Our Offices</h2>
               <div className="col-lg-4 col-md-6 col-12 ">
                 <div className="footer-wrapper three mt-4 mt-lg-0 footer_one_div" >
-                  <h2 className="title" data-aos="fade-up" data-aos-delay="200">
-                    Head Office
+                  <h2 className="title india_fla_div" data-aos="fade-up" data-aos-delay="200">
+                    <img className="india_flag" src="\assets\img\Flag\india.webp" alt="" /> INDIA
                   </h2>
                   <ul data-aos="fade-up" data-aos-delay="300">
                     <li>No: 5 Namachivaya Nagar, Opp KGISL Tech park, Saravanampatti, Coimbatore,</li>
@@ -117,27 +121,27 @@ const FooterSectionOne = () => {
               </div>
               <div className="col-lg-4 col-md-6 col-12 ">
                 <div className="footer-wrapper three mt-4 mt-lg-0 footer_one_div">
-                  <h2 className="title" data-aos="fade-up" data-aos-delay="200">
-                    Head Office
+                  <h2 className="title india_fla_div" data-aos="fade-up" data-aos-delay="200">
+                    <img className="india_flag" src="\assets\img\Flag\india.webp" alt="" /> INDIA
                   </h2>
                   <ul data-aos="fade-up" data-aos-delay="300">
-                    <li>No: 5 Namachivaya Nagar, Opp KGISL Tech park, Saravanampatti, Coimbatore,</li>
-                    <li>TamilNadu - 641035</li>
-                    <li><a style={{ marginBottom: "" }} href="mailto:info@raiden.studio" id="footer-mail-india" data-gtmeventaction="IndiaContactMailClicked"><i class="fa fa-envelope footer_icon"></i>info@raiden.studio</a></li>
-                    <li className="phone"><i class="fa fa-phone footer_icon"></i>  +91 98840 36062</li>
+                    <li>C37, Brindavan Street, Thiru Nagar, Madurai,</li>
+                    <li>TamilNadu - 625006</li>
+                    {/* <li><a style={{ marginBottom: "" }} href="mailto:info@raiden.studio" id="footer-mail-india" data-gtmeventaction="IndiaContactMailClicked"><i class="fa fa-envelope footer_icon"></i>info@raiden.studio</a></li>
+                    <li className="phone"><i class="fa fa-phone footer_icon"></i>  +91 98840 36062</li> */}
                   </ul>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 col-12 ">
                 <div className="footer-wrapper three mt-4 mt-lg-0 footer_one_div">
-                  <h2 className="title" data-aos="fade-up" data-aos-delay="200">
-                    Head Office
+                  <h2 className="title india_fla_div" data-aos="fade-up" data-aos-delay="200">
+                    <img className="india_flag" src="\assets\img\Flag\eroupe.jpg" alt="" /> EUROPE
                   </h2>
                   <ul data-aos="fade-up" data-aos-delay="300">
                     <li>No: 5 Namachivaya Nagar, Opp KGISL Tech park, Saravanampatti, Coimbatore,</li>
                     <li>TamilNadu - 641035</li>
-                    <li><a style={{ marginBottom: "" }} href="mailto:info@raiden.studio" id="footer-mail-india" data-gtmeventaction="IndiaContactMailClicked"><i class="fa fa-envelope footer_icon"></i>info@raiden.studio</a></li>
-                    <li className="phone"><i class="fa fa-phone footer_icon"></i>  +91 98840 36062</li>
+                    {/* <li><a style={{ marginBottom: "" }} href="mailto:info@raiden.studio" id="footer-mail-india" data-gtmeventaction="IndiaContactMailClicked"><i class="fa fa-envelope footer_icon"></i>info@raiden.studio</a></li>
+                    <li className="phone"><i class="fa fa-phone footer_icon"></i>  +91 98840 36062</li> */}
                   </ul>
                 </div>
               </div>
