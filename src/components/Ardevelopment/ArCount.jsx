@@ -18,7 +18,7 @@ const ArCount = () => {
                                     <h2 className="counter">
                                         <ReactVisibilitySensor>
                                             {({ isVisible }) => (
-                                                <div> {isVisible ? <CountUp end={5} /> : 0}</div>
+                                                <div style={{ color: "#59C1FF" }}> {isVisible ? <CountUp end={5} /> : 0}</div>
                                             )}
                                         </ReactVisibilitySensor>
                                     </h2>
@@ -37,7 +37,7 @@ const ArCount = () => {
                                     <h2 className="counter">
                                         <ReactVisibilitySensor>
                                             {({ isVisible }) => (
-                                                <div> {isVisible ? <CountUp end={50} /> : 0}</div>
+                                                <div style={{ color: "#59C1FF" }}> {isVisible ? <CountUp end={50} /> : 0}</div>
                                             )}
                                         </ReactVisibilitySensor>
                                     </h2>
@@ -56,7 +56,7 @@ const ArCount = () => {
                                     <h2 className="counter">
                                         <ReactVisibilitySensor>
                                             {({ isVisible }) => (
-                                                <div> {isVisible ? <CountUp end={100} /> : 0}</div>
+                                                <div style={{ color: "#59C1FF" }}> {isVisible ? <CountUp end={100} /> : 0}</div>
                                             )}
                                         </ReactVisibilitySensor>
                                     </h2>
@@ -75,7 +75,7 @@ const ArCount = () => {
                                     <h2 className="counter">
                                         <ReactVisibilitySensor>
                                             {({ isVisible }) => (
-                                                <div> {isVisible ? <CountUp end={20} /> : 0}</div>
+                                                <div style={{ color: "#59C1FF" }}> {isVisible ? <CountUp end={20} /> : 0}</div>
                                             )}
                                         </ReactVisibilitySensor>
                                     </h2>

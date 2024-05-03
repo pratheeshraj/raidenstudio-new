@@ -41,14 +41,14 @@ const ArHero = () => {
                                                 <div>
                                                     <h2 className="slider-title">
                                                         Experience Reality in <br />a
-                                                        <span className="theme-color"> New Dimension</span><br />
+                                                        <span style={{ color: "#59C1FF" }}> New Dimension</span><br />
                                                     </h2>
                                                     <p style={{ width: "500px" }} className="description metaverse_hero_para Hero_sub_heading">
                                                         Explore new dimensions of creativity, engagement, and innovation, as we guide you on a journey where reality is elevated to new heights.
                                                     </p>
                                                     <div className="inner-btn" >
                                                         <div>
-                                                            <Link className="default-btn" to="/contact-us">
+                                                            <Link style={{ background: "#4AA4DA" }} className="default-btn" to="/contact-us">
                                                                 Explore Now
                                                             </Link>
                                                         </div>

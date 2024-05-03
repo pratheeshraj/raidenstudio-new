@@ -210,6 +210,54 @@
 
 
 
+/* AR card grident  */
+
+
+
+.card_metaverse3 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 320px;
+    height: 430px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 32px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.card_metaverse3::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 5px;
+    height: 100%;
+    background: linear-gradient(146.38deg, #4AA4DA 0%, #003454 100%);
+    z-index: -1;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.card_metaverse3:hover::before {
+    width: 100%;
+}
+
+.card_metaverse3:hover {
+    box-shadow: none;
+}
+
+.card_metaverse3:hover .btn_metaverse {
+    color: #212121;
+    background: #e8e8e8;
+}
+
+.card_metaverse3:hover .content_metaverse .heading_metaverse,
+.card_metaverse3:hover .content_metaverse .para_metaverse {
+    color: white;
+}
+
+
 
 
 

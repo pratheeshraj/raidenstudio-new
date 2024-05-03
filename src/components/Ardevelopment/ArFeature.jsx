@@ -5,7 +5,7 @@ function ArFeature() {
         <section className="faq-section three" style={{ background: "white" }}>
             <div className="auto-container">
                 <div className="row">
-                    <h2 style={{ textAlign: "center", color: "black" }}>Advantages of Augmented Reality for Business<br /><span className="theme-color">APP Development Solutions</span>
+                    <h2 style={{ textAlign: "center", color: "black" }}>Advantages of Augmented Reality for Business<br /><span style={{ color: "#59C1FF" }}>APP Development Solutions</span>
                     </h2>
                     {/* <p style={{ textAlign: "center", color: "black" }}>We are a reputable metaverse development company that provides feature-rich metaverse software to help you stay ahead of the competition. Check out what we've got to offer.
                     </p> */}

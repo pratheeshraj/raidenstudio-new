@@ -91,7 +91,7 @@ function ARdevelopment() {
         {/* faq */}
         <ArFaq />
         {/* contact */}
-        <ContactSection2 />
+        <ContactSection2 color={"#59C1FF"} buttoncolor={"#4AA4DAv"} />
         {/* Footer Section */}
         {/* News Section Two */}
         <NewsSectionOne />

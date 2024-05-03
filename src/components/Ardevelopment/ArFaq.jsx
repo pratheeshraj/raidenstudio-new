@@ -13,11 +13,11 @@ const ArFaq = () => {
                                 data-aos="fade-right"
                                 data-aos-delay="300"
                             >
-                                <h3>
+                                <h3 style={{ color: "#59C1FF" }}>
                                     FAQ
                                 </h3>
                                 <h2>
-                                    Answers At A <span className="theme-color"> Glance</span>
+                                    Answers At A <span style={{ color: "#59C1FF" }}> Glance</span>
                                 </h2>
                                 <p style={{ marginBottom: "10px" }}>
                                     Dive into the world of AR with confidence as we unravel the complexities and unlock the technical potential of augmented reality for your projects.
@@ -35,8 +35,9 @@ const ArFaq = () => {
                                 />
                             </div>
                         </div>
-                        <div className="col-lg-6" style={{ marginTop: "-30px" }}>
+                        <div className="col-lg-6" >
                             <div
+                                style={{ marginTop: "150px" }}
                                 className="faq-inner "
                                 data-aos="fade-left"
                                 data-aos-delay="300"
@@ -52,7 +53,7 @@ const ArFaq = () => {
                                         <div className="accordion-item">
                                             <h2 className="accordion-header">
                                                 <button
-                                                    className="accordion-button"
+                                                    className="accordion-button ar_color_code"
                                                     type="button"
                                                     data-bs-toggle="collapse"
                                                     data-bs-target="#flush-collapseOne"
@@ -75,7 +76,7 @@ const ArFaq = () => {
                                         <div className="accordion-item">
                                             <h2 className="accordion-header">
                                                 <button
-                                                    className="accordion-button collapsed"
+                                                    className="accordion-button collapsed ar_color_code"
                                                     type="button"
                                                     data-bs-toggle="collapse"
                                                     data-bs-target="#flush-collapseTwo"
@@ -98,7 +99,7 @@ const ArFaq = () => {
                                         <div className="accordion-item">
                                             <h2 className="accordion-header">
                                                 <button
-                                                    className="accordion-button collapsed"
+                                                    className="accordion-button collapsed ar_color_code"
                                                     type="button"
                                                     data-bs-toggle="collapse"
                                                     data-bs-target="#flush-collapseThree"
@@ -121,7 +122,7 @@ const ArFaq = () => {
                                         <div className="accordion-item">
                                             <h2 className="accordion-header">
                                                 <button
-                                                    className="accordion-button collapsed"
+                                                    className="accordion-button collapsed ar_color_code"
                                                     type="button"
                                                     data-bs-toggle="collapse"
                                                     data-bs-target="#flush-collapseFour"

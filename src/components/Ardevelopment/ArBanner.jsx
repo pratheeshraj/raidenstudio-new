@@ -18,14 +18,14 @@ const ArBanner = () => {
                             <div className="col-lg-6">
                                 <div className="title">
                                     <h2>
-                                        Ready to elevate your business with <span className="theme-color">  AR development services?</span>
+                                        Ready to elevate your business with <span style={{ color: "#59C1FF" }}>  AR development services?</span>
                                     </h2>
                                     <p>
                                         Let's embark on an immersive journey together and unlock the full potential of augmented reality for your brand.
                                     </p>
                                     <div className="inner-btn d-adjust">
                                         <div>
-                                            <Link className="default-btn" to="/contact-us">
+                                            <Link style={{ background: "#4AA4DA" }} className="default-btn" to="/contact-us">
                                                 Let’s Work To Do{" "}
                                             </Link>
                                         </div>

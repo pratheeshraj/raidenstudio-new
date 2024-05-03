@@ -6,7 +6,7 @@ function ArIndustries() {
         <section className="faq-section three" style={{ background: "#00151E" }}>
             <div className="auto-container">
                 <div className="row">
-                    <h2 style={{ textAlign: "center", color: "white" }}>Industries We <span className='theme-color'> Serve</span></h2>
+                    <h2 style={{ textAlign: "center", color: "white" }}>Industries We <span style={{ color: "#59C1FF" }}> Serve</span></h2>
                     <p style={{ textAlign: "center", color: "white" }}>As a leading augmented reality app development company, we assist startups and established businesses from all sectors in fulfilling the potential of digital transformation via AR to boost revenue. </p>
                     <div className='feature_div'>
                         <div class="feature_card idustry">

@@ -50,12 +50,12 @@ const ArTech = () => {
             <section className="faq-section three" style={{ background: "white" }}>
                 <div className="auto-container">
                     <div className="row">
-                        <h2 style={{ color: "black", textAlign: "center" }}>AR Technologies<span className="theme-color"> We Use</span></h2>
+                        <h2 style={{ color: "black", textAlign: "center" }}>AR Technologies<span style={{ color: "#59C1FF" }}> We Use</span></h2>
                         <p style={{ color: "black", textAlign: "center" }}>Raiden uses cutting-edge technology and tools to revolutionize the field. We have added more well-known languages and frameworks to our technology stack to facilitate the development of AR apps. Our goal is to provide our clients with secure and scalable products.</p>
                         <div className="left_Language_div">
-                            <div onClick={handleFrontEnd} style={{ color: frontend ? '#13C4A1' : 'black' }}>Frameworks</div>
-                            <div onClick={handleMobile} style={{ color: mobile ? '#13C4A1' : 'black' }}>Platforms</div>
-                            <div onClick={handleBlockchain} style={{ color: blockchain ? '#13C4A1' : 'black' }}>Glasses</div>
+                            <div onClick={handleFrontEnd} style={{ color: frontend ? '#59C1FF' : 'black' }}>Frameworks</div>
+                            <div onClick={handleMobile} style={{ color: mobile ? '#59C1FF' : 'black' }}>Platforms</div>
+                            <div onClick={handleBlockchain} style={{ color: blockchain ? '#59C1FF' : 'black' }}>Glasses</div>
                         </div>
                         {
                             frontend ? <div className="right_Language_div">

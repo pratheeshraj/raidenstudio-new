@@ -17,7 +17,7 @@ const ArService = () => {
                             >
                                 <h2 style={{ textAlign: "center", }}>
                                     Develop immersive AR applications with our AR
-                                    <span className="theme-color"> app development services.</span>
+                                    <span style={{ color: "#59C1FF" }}> app development services.</span>
                                 </h2>
                                 <p style={{ textAlign: "center" }}>
                                     Our AR developers build apps for the Android and iOS platforms and are ready to move your business to the next level with a solid reputation. Raiden services consists of:
@@ -27,7 +27,7 @@ const ArService = () => {
                     </div>
                     <div className="row">
                         <div className="col-lg-4 col-md-6 col-12" style={{ marginBottom: "20px" }}>
-                            <div class="card_metaverse" style={{ height: "100%" }}>
+                            <div class="card_metaverse3" style={{ height: "100%" }}>
                                 <div class="content_metaverse">
                                     <p class="heading_metaverse">Custom AR App Development
                                     </p><p class="para_metaverse">
@@ -38,7 +38,7 @@ const ArService = () => {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-12" style={{ marginBottom: "20px" }}>
-                            <div class="card_metaverse" style={{ height: "100%" }}>
+                            <div class="card_metaverse3" style={{ height: "100%" }}>
                                 <div class="content_metaverse">
                                     <p class="heading_metaverse">AR Game Development
                                     </p><p class="para_metaverse">
@@ -48,7 +48,7 @@ const ArService = () => {
                             </div>
                         </div>
                         {/* <div className="col-lg-4 col-md-6 col-12" style={{ marginBottom: "20px" }}>
-                            <div class="card_metaverse" style={{ height: "100%" }}>
+                            <div class="card_metaverse3" style={{ height: "100%" }}>
                                 <div class="content_metaverse">
                                     <p class="heading_metaverse">Location-Based AR Development
                                     </p><p class="para_metaverse">
@@ -57,7 +57,7 @@ const ArService = () => {
                             </div>
                         </div> */}
                         {/* <div className="col-lg-4 col-md-6 col-12" style={{ marginBottom: "20px" }}>
-                            <div class="card_metaverse" style={{ height: "100%" }}>
+                            <div class="card_metaverse3" style={{ height: "100%" }}>
                                 <div class="content_metaverse">
                                     <p class="heading_metaverse">Object-Tracking AR Development
                                     </p><p class="para_metaverse">
@@ -66,7 +66,7 @@ const ArService = () => {
                             </div>
                         </div> */}
                         <div className="col-lg-4 col-md-6 col-12" style={{ marginBottom: "20px" }}>
-                            <div class="card_metaverse" style={{ height: "100%" }}>
+                            <div class="card_metaverse3" style={{ height: "100%" }}>
                                 <div class="content_metaverse">
                                     <p class="heading_metaverse">Web AR Development
                                     </p><p class="para_metaverse">
@@ -76,7 +76,7 @@ const ArService = () => {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-12" style={{ marginBottom: "20px" }}>
-                            <div class="card_metaverse" style={{ height: "100%" }}>
+                            <div class="card_metaverse3" style={{ height: "100%" }}>
                                 <div class="content_metaverse">
                                     <p class="heading_metaverse">Compatibility with Multiple Devices
                                     </p><p class="para_metaverse">
@@ -86,7 +86,7 @@ const ArService = () => {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-12" style={{ marginBottom: "20px" }}>
-                            <div class="card_metaverse" style={{ height: "100%" }}>
+                            <div class="card_metaverse3" style={{ height: "100%" }}>
                                 <div class="content_metaverse">
                                     <p class="heading_metaverse">3D Design and Development
                                     </p><p class="para_metaverse">
@@ -96,7 +96,7 @@ const ArService = () => {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-12" style={{ marginBottom: "20px" }}>
-                            <div class="card_metaverse" style={{ height: "100%" }}>
+                            <div class="card_metaverse3" style={{ height: "100%" }}>
                                 <div class="content_metaverse">
                                     <p class="heading_metaverse">AR App Maintenance & Support
                                     </p><p class="para_metaverse">
