@@ -513,6 +513,11 @@
 
 @media screen and (max-width: 600px) {
 
+
+    .footer_contact_div {
+        padding: 20px 10px;
+    }
+
     .footer_contact_div_heading {
         font-size: 22px !important;
     }
@@ -520,4 +525,9 @@
     .india_fla_div {
         font-size: 18px !important;
     }
+
+    .footer-section.one {
+        padding: 40px 0 100px 0 !important;
+    }
+
 }
