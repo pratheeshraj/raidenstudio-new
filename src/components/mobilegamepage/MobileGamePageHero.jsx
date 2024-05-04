@@ -21,7 +21,7 @@ const MobileGamePageHero = () => {
               className="default-btn"
               style={{ backgroundColor: "#EDAE43" }}
             >
-              Explore Now
+              Contact Now
             </button>
           </div>
           <div className="right game_hero_images" data-aos="fade-left" data-aos-delay="300">

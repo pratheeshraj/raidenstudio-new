@@ -20,7 +20,7 @@ const Web3GameHeroSection = () => {
               className="default-btn"
               style={{ backgroundColor: "#00ECE5" }}
             >
-              Explore Now
+              Contact Now
             </button>
           </div>
         </div>

@@ -21,7 +21,7 @@ const UnityHeroSection = () => {
               className="default-btn"
               style={{ background: "#EDAE43" }}
             >
-              Explore Now
+              Contact Now
             </button>
           </div>
           {/* <div className="right" data-aos="fade-left" data-aos-delay="300">

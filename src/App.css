@@ -531,3 +531,17 @@
     }
 
 }
+
+
+.contact_right_image {
+    height: 450px;
+    object-fit: cover;
+}
+
+
+@media screen and (max-width: 992px) {
+    .contact_right_image {
+        display: none !important;
+    }
+
+}

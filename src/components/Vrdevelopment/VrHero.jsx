@@ -48,7 +48,7 @@ const VrHero = () => {
                                                     <div className="inner-btn" >
                                                         <div>
                                                             <Link style={{ background: "#25E9EA" }} className="default-btn" to="/contact-us">
-                                                                Explore Now
+                                                                Contact Now
                                                             </Link>
                                                         </div>
                                                     </div>

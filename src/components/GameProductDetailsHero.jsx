@@ -1,15 +1,11 @@
 import React, { Fragment, useEffect, useRef, useState } from "react";
 import hero from "../images/game_detail_hero.png";
-import section2img from "../images/gameproduct-detailimg/section2.png";
 import { Link } from "react-router-dom";
 import VanillaTilt from "vanilla-tilt";
-import icon1 from "../images/gameproduct-detailimg/icon1.png";
 import TiltCard from "./TiltCard";
 import GameFeaturesCards from "./GameFeaturesCards";
-import section4 from "../images/gameproduct-detailimg/section4.png";
 import AnimationCardScroll from "./AnimationCardScroll";
 import ScrollAnimation from "react-animate-on-scroll";
-import technical_img from "../images/clashof/2151004297.jpg";
 import section2 from "../images/clashof/clash.png";
 const GameProductDetailsHero = () => {
   const heroImageRef = useRef(null);
@@ -338,6 +334,13 @@ const GameProductDetailsHero = () => {
                 Clash of Empires - a groundbreaking B2B
                 solution tailored specifically for startup entrepreneurs.
               </p>
+              <div className="inner-btn">
+                <div>
+                  <Link style={{ background: "#00ECE5" }} className="default-btn" to="/contact-us">
+                    Contact Now
+                  </Link>
+                </div>
+              </div>
             </ScrollAnimation>
             <div className="right">
               <img src={hero} alt="" className="hero" ref={heroImageRef} />

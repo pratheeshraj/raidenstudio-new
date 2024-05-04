@@ -20,7 +20,7 @@ const MmorpgHeroSection = () => {
               className="default-btn"
               style={{ backgroundColor: "#EC8268" }}
             >
-              Explore Now
+              Contact Now
             </button>
           </div>
           {/* <div className="right" data-aos="fade-left" data-aos-delay="300">

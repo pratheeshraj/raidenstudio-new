@@ -44,7 +44,7 @@ const MetaverseCasionoHero = () => {
                                                     <div className="inner-btn">
                                                         <div>
                                                             <Link className="default-btn" to="/contact-us" style={{ backgroundColor: "#4ECD00" }}>
-                                                                Explore Now
+                                                                Contact Now
                                                             </Link>
                                                         </div>
                                                     </div>
