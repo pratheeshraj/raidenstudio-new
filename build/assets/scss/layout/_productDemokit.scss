@@ -1,0 +1,107 @@
+@use "../utils" as *;
+
+.product_demo_kit {
+  h2 {
+    text-align: center;
+    color: var(--theme-1);
+  }
+  padding: 100px 0;
+  position: relative;
+  height: auto;
+  z-index: 9;
+  background-color: var(--common-body-2);
+  @media #{$sm, $xs, $xss} {
+    padding: 40px 0 !important;
+  }
+  .product_demo {
+    margin-top: 40px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    gap: 10px;
+    row-gap: 50px;
+    @media #{ $lg} {
+      padding: 0 35px;
+      gap: 30px;
+    }
+    @media #{ $md} {
+      padding: 0 115px;
+      justify-content: center;
+      gap: 30px;
+    }
+    @media #{ $sm} {
+      padding: 0px;
+      justify-content: center;
+      gap: 30px;
+    }
+    @media #{ $xs, $xss} {
+      padding: 0px;
+      justify-content: center;
+      gap: 30px;
+    }
+    .product_detail_f_Card_co {
+      .flip-card {
+        background-color: transparent;
+        width: 240px;
+        height: 245px;
+        perspective: 1000px;
+        @media #{ $md, $sm, $xs, $xss} {
+          width: 225px;
+          height: 260px;
+        }
+        @media #{$lg , $xs,} {
+          width: 200px;
+          height: 220px;
+        }
+        .flip-card-inner {
+          position: relative;
+          width: 100%;
+          height: 100%;
+          text-align: center;
+          transition: transform 0.8s;
+          transform-style: preserve-3d;
+          .flip-card-front,
+          .flip-card-back {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            // border: 0.5px solid var(--theme-1);
+            box-shadow: 0 0 3px #1BA2D7;
+            border-radius: 1rem;
+            padding: 8px;
+            border: none;
+          }
+          .flip-card-front {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding: 0 30px;
+            img {
+              width: 60px;
+            }
+            background-color: #000c14;
+            color: coral;
+            p {
+              font-size: 20px;
+              text-align: center;
+            }
+          }
+
+          .flip-card-back {
+            background: linear-gradient(138.93deg, #1BA2D7 5.11%, #8D3DFA 107.87%);
+            color: white;
+            transform: rotateY(180deg);
+          }
+        }
+        &:hover .flip-card-inner {
+          transform: rotateY(180deg);
+        }
+      }
+    }
+  }
+}

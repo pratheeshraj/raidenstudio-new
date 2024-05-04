@@ -1,0 +1,643 @@
+@use "../utils" as *;
+
+.gameproduct_hero {
+  background-image: url(../../../../src/images/gameproducthero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+
+.gameproduct_hero_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .left {
+    @media #{$md ,$sm, $xs,$xss} {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    p {
+      text-align: start;
+      @media #{$sm, $xs, $xss} {
+      text-align: center !important;
+      }
+    }
+    h2 {
+      text-align: start;
+      @media #{$sm, $xs, $xss} {
+        text-align: center !important;
+        }
+    }
+  }
+  .right {
+    display: flex;
+    align-items: center;
+    img {
+      @media #{$md ,$sm, $xs,$xss} {
+        display: none;
+      }
+    }
+  }
+}
+
+.game_product_section2 {
+  background-color: white;
+  padding: 80px 0;
+
+  @media #{$sm, $xs, $xss} {
+    padding: 40px 0 !important;
+  }
+
+
+  h2 {
+    color: var(--theme-1);
+    text-align: center;
+  }
+}
+
+.game_product_content {
+  .detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.gameproduct_about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  @media #{$md ,$sm, $xs,$xss} {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+
+    width: 50%;
+    @media #{$md ,$sm, $xs,$xss} {
+      width: 100%;
+    }
+    h2 {
+      text-align: start;
+      @media #{$sm, $xs,$xss} {
+        font-size: 26px;
+        text-align: center;
+      }
+      @media #{$md} {
+        text-align: center;
+      }
+    }
+    p {
+      color: black;
+      @media #{$md, $sm, $xs, $xss} {
+        text-align: center;
+      }
+      @media #{ $xs,$xss} {
+        font-size: 14px;
+      }
+    }
+
+    @media #{$md ,$sm, $xs,$xss} {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      @media #{$md, $sm, $xs, $xss} {
+        align-items: center;
+      }
+
+      li {
+        font-size: 20px;
+        @media #{ $xs,$xss} {
+          font-size: 14px;
+        }
+        i {
+          color: var(--theme-1);
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+  .left {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    width: 50%;
+    @media #{$md ,$sm, $xs,$xss} {
+      width: 100%;
+    }
+    img {
+      display: flex;
+      align-items: center;
+      @media #{ $xs,$xss} {
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 100%;
+      }
+    }
+  }
+}
+
+.section-3 {
+  padding: 100px 0;
+  background-color: var(--common-black-2);
+  @media #{$sm, $xs, $xss} {
+    padding: 40px 0 !important;
+  }
+
+  .game-details-Services {
+    h2 {
+      color: var(--theme-1);
+      text-align: center;
+      text-align: center;
+      @media #{$sm, $xs,$xss} {
+        font-size: 26px;
+      }
+    }
+  }
+}
+
+.all_card {
+  margin: 60px 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 10px;
+  row-gap: 50px;
+  @media #{$md,$sm, $xs,$xss} {
+    justify-content: center;
+    gap: 30px;
+  }
+  .animation_card {
+    width: 320px;
+    height: 400px;
+    box-shadow:  #2bfef8 0px 4px 12px !important;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
+    h6 {
+      text-align: center;
+      color: #2BFEF8 !important;
+    }
+    p {
+      text-align: center;
+      @media #{ $xs,$xss} {
+        font-size: 14px;
+      }
+    }
+    &:hover {
+      scale: 1.02;
+    }
+
+    img {
+      width: 80px;
+      height: 80px;
+    }
+
+    h6 {
+      color: var(--theme-1);
+      font-size: 16px;
+    }
+
+    p {
+      color: white;
+    }
+  }
+}
+
+.section_4 {
+  background-color: white;
+  padding: 100px 0;
+  @media #{$sm, $xs, $xss} {
+    padding: 40px 0 !important;
+  }
+  .game_features {
+    h2 {
+      color: var(--theme-1);
+      text-align: center;
+      @media #{$sm, $xs,$xss} {
+        font-size: 26px;
+      }
+    }
+
+    p {
+      color: black;
+    }
+
+    h6 {
+      color: black;
+    }
+  }
+}
+
+.Gamefeature_all_card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: space-between;
+  column-gap: 10px;
+  margin-top: 60px;
+  @media #{$md,$sm, $xs,$xss} {
+    justify-content: center;
+    gap: 30px;
+  }
+  .gamefeature_card {
+    width: 320px;
+    height: 360px;
+    position: relative;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.05),
+      inset -5px -5px 5px rgba(255, 255, 255, 0.5),
+      5px 5px 5px rgba(0, 0, 0, 0.05), -5px -5px 5px rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+
+    &:hover .box_card1 .bg_number {
+      color: rgba(0, 0, 0, 0.06);
+    }
+
+    &:hover .box_card1 {
+      transform: translateY(-50px);
+      background: linear-gradient(to right, #0dcccc, #008b8b);
+    }
+
+    &:hover .box_card1 p,
+    h6 {
+      color: white;
+    }
+
+    &:hover .box_card1 h6 {
+      color: white;
+    }
+
+    .box_card1 {
+      top: 20px;
+      bottom: 20px;
+      left: 20px;
+      right: 20px;
+      position: absolute;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      align-items: center;
+      justify-content: center;
+      transition: 0.5s;
+
+      .bg_number {
+        position: absolute;
+        top: -10px;
+        right: 30px;
+        font-size: 8em;
+        color: rgba(0, 0, 0, 0.03);
+        transition: 0.5s;
+
+        &.feature_card {
+          color: var(--theme-1);
+        }
+      }
+
+      p {
+        transition: 0.5s;
+        color: black;
+        text-align: center;
+        @media #{ $xs,$xss} {
+          font-size: 14px;
+        }
+      }
+
+      h6 {
+        color: black;
+        transition: 0.5s;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.section-6 {
+  background-color: var(--common-black-2);
+
+  padding: 100px 0;
+}
+
+.development_process {
+  border: 2px solid rgba(255, 255, 255, 0.09);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  padding: 50px 0;
+  border-radius: 10px;
+  position: relative;
+
+  @media #{$lg,$md, $sm, $xs, $xss} {
+    border: none;
+    box-shadow: none;
+  }
+
+  @keyframes zoomInOut {
+    0%,
+    100% {
+      transform: scale(0.5);
+    }
+
+    50% {
+      transform: scale(1.2);
+    }
+  }
+
+  h2 {
+    color: var(--theme-1);
+    text-align: center;
+
+    @media #{$sm, $xs, $xss} {
+      font-size: 24px;
+    }
+  }
+
+  ul {
+    li {
+      position: relative;
+      width: 6px;
+      margin: 0 auto;
+      padding-top: 50px;
+      background-color: rgba(255, 255, 255, 0.09);
+      border: 2px solid rgba(255, 255, 255, 0.1);
+      box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(20px);
+      border-radius: 10px;
+
+      @media #{$sm, $xs, $xss} {
+        margin-left: 70px;
+      }
+
+      @media #{$md} {
+        margin-left: 100px;
+      }
+
+      @media (max-width: 500px) {
+        margin-left: 32px;
+      }
+
+      @media (max-width: 400px) {
+        margin-left: 20px;
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%);
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: inherit;
+        z-index: 1;
+        @media #{ $xss} {
+          width: 30px;
+          height: 30px;
+          bottom: -16px;
+        }
+      }
+
+      .proccess_box {
+        position: relative;
+        bottom: 0;
+        width: 450px;
+        height: auto;
+        padding: 20px;
+        background-color: var(--common-black-2);
+        box-shadow: 0px 0px 0px 6px var(--theme-1);
+        backdrop-filter: blur(5px);
+        border-radius: 10px;
+        color: #9f3434;
+        margin: 10px;
+        display: flex;
+
+        flex-direction: column;
+        justify-content: center;
+
+        @media #{$sm,$lg } {
+          width: 350px;
+        }
+
+        @media #{$xs, $xss} {
+          width: 280px;
+        }
+
+        @media #{$xss} {
+          width: 250px;
+          padding: 15px;
+        }
+        @media (max-width: 320px) {
+          width: 200px;
+        }
+        &::before {
+          content: "";
+          position: absolute;
+          bottom: 7px;
+          width: 0;
+          height: 0;
+          border-style: solid;
+        }
+
+        .number {
+          position: absolute;
+          top: 0;
+          background-color: var(--common-black-2);
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          padding: 10px;
+          display: flex;
+
+          box-shadow: 0px 0px 0px 6px var(--theme-1);
+        }
+
+        h6 {
+          font-size: 20px;
+
+          @media #{$xs, $xss} {
+            font-size: 16px;
+          }
+          @media #{ $xss} {
+            font-size: 14px;
+          }
+        }
+
+        p {
+          margin: 0;
+
+          @media #{$xs, $xss} {
+            font-size: 14px;
+            line-height: 15px;
+          }
+          @media #{ $xss} {
+            font-size: 12px;
+          }
+        }
+      }
+
+      &:nth-child(odd) {
+        .proccess_box {
+          left: 55px;
+
+          @media #{ $xss} {
+            left: 20px;
+          }
+          .number {
+            top: -30px;
+            left: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+
+          &::before {
+            left: -24px;
+            border-width: 8px 16px 8px 0px;
+            border-color: transparent var(--theme-1) transparent;
+          }
+        }
+      }
+
+      &:nth-child(even) {
+        .proccess_box {
+          left: -524px;
+          @media #{$lg} {
+            left: -420px;
+          }
+
+          @media #{$md, $sm, $xs, $xss} {
+            left: 55px;
+          }
+          @media #{ $xss} {
+            left: 20px;
+          }
+
+          .number {
+            top: -30px;
+            right: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            @media #{$md, $sm, $xs, $xss} {
+              left: 20px;
+            }
+          }
+
+          &::before {
+            right: -24px;
+            border-width: 8px 0px 8px 16px;
+            border-color: transparent transparent transparent var(--theme-1);
+
+            @media #{$md, $sm, $xs, $xss} {
+              left: -24px;
+              border-width: 8px 16px 8px 0px;
+
+              border-color: transparent var(--theme-1) transparent transparent;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.game_product_section5 {
+  background-color: black;
+  padding: 80px 0;
+}
+.game_product_section5 {
+  h2 {
+    margin-bottom: 10px;
+    color: var(--theme-1);
+  }
+}
+
+.section_5 {
+  display: flex;
+  @media (max-width: 768px) {
+    display: none;
+  }
+  .left {
+    .first {
+      width: 320px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 4px;
+      h6 {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        font-size: 18px;
+        width: 99%;
+        height: 97%;
+        text-align: start;
+        padding-left: 20px;
+        margin: 0;
+        background-color: black;
+        margin: 0;
+        font-weight: 600px;
+        font-family: "'Nunito Sans'", sans-serif;
+        border-radius: 4px;
+      }
+    }
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 5px;
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+    .right_img {
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.mobile_section5 {
+  gap: 20px;
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  .card_section5 {
+    img {
+      width: 100%;
+    }
+  }
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+
+.section_5_ul li {
+  margin-bottom: 30px;
+}

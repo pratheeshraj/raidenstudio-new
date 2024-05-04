@@ -1,0 +1,28 @@
+@use "../utils" as *;
+
+.privacy_policy_content {
+  padding: 20px 0;
+  color: black;
+h3{
+  color: black;
+  @media #{ $xs, $xss} {
+    font-size: 20px;
+   }
+}
+  p {
+    color: black;
+  }
+  h6 {
+    color: black;
+    @media #{ $xs, $xss} {
+     font-size: 20px;
+    }
+  }
+  h5 {
+    color: black;
+     font-size: 20px;
+     @media #{ $xs, $xss} {
+      font-size: 22px;
+     }
+  }
+}

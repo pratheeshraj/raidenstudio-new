@@ -1,0 +1,71 @@
+@use "../utils" as *;
+
+.career_details_section {
+  background-image: url(../../../../src/images/join.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  .career_details {
+    display: flex;
+    height: 100% !important;
+    justify-content: end;
+    flex-direction: column;
+
+    h1 {
+      color: white;
+      @media #{ $sm} {
+        font-size: 30px;
+      }
+      @media #{ $xs, $xss} {
+        font-size: 26px;
+      }
+    }
+    p {
+      margin-bottom: 100px;
+    }
+  }
+}
+
+.career_content_section {
+  padding: 100px 0;
+  .career_content {
+    h3 {
+      color: black;
+      text-align: center;
+      @media #{ $xs, $xss} {
+        font-size: 24px;
+      }
+    }
+    p {
+      color: black;
+      font-size: 18px;
+    }
+    .button {
+      margin-top: 20px;
+      text-align: center;
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  color: black;
+  h6 {
+    color: var(--theme-1);
+    font-size: 20px;
+    font-family: "Nunito Sans", sans-serif;
+    margin-top: 20px;
+  }
+  ul {
+    li {
+      font-size: 16px;
+    }
+  }
+}
