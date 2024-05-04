@@ -502,3 +502,22 @@
     object-fit: cover;
     /* border-radius: 50%; */
 }
+
+@media screen and (max-width: 1000px) {
+
+    .footer_contact_div {
+        padding: 60px 10px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .footer_contact_div_heading {
+        font-size: 22px !important;
+    }
+
+    .india_fla_div {
+        font-size: 18px !important;
+    }
+}
