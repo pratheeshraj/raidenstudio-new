@@ -15,7 +15,7 @@ const AboutSectionOne = () => {
                     className=" img-fluid "
                     data-aos="fade-right"
                     data-aos-delay="200"
-                    src="/assets/img/about/_e17fb051-856f-4968-a2c0-150430fd0b61 2.png"
+                    src="\assets\img\contact-img\homeabout.jpg"
                     alt=""
                   />
                   <div className="shape-7 poa">

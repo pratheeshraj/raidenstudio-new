@@ -73,10 +73,10 @@ function Blockchain() {
         {/* faq */}
         <BlockChainFaq />
         {/* contact */}
-        <ContactSection2 color={"#53A6FF"} buttoncolor={"#4D97E5"} />
+        <ContactSection2 color={"#53A6FF"} buttoncolor={"#4D97E5"} img={"url('/assets/img/contact-img/blockchain service.jpg')"} />
         {/* Footer Section */}
         {/* News Section Two */}
-        <NewsSectionOne color={"#53A6FF"} buttoncolor={"#4D97E5"}/>
+        <NewsSectionOne color={"#53A6FF"} buttoncolor={"#4D97E5"} />
         <FooterSectionOne />
       </Suspense>
     </Fragment>

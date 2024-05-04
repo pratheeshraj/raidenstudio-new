@@ -47,7 +47,7 @@ const UnrealGamePage = () => {
         <UnRealProcessSection />
         <UnRealFaq />
         <NewsSectionOne color={"#BEAB59"} buttoncolor={"#BEAB59"} />
-        <ContactSection2 color={"#BEAB59"} buttoncolor={"#BEAB59"} />
+        <ContactSection2 color={"#BEAB59"} buttoncolor={"#BEAB59"} img={"url('/assets/img/contact-img/game service.jpg')"} />
         <FooterSectionOne />
       </Suspense>
     </Fragment>

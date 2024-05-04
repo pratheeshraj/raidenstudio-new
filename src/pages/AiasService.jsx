@@ -73,7 +73,7 @@ function AiasService() {
         {/* faq */}
         <AsFaq />
         {/* contact */}
-        <ContactSection2 color={"#5AA9C3"} buttoncolor={"#5AA9C3"} />
+        <ContactSection2 color={"#5AA9C3"} buttoncolor={"#5AA9C3"} img={"url('/assets/img/contact-img/ai service.jpg')"} />
         {/* Footer Section */}
         {/* News Section Two */}
         <NewsSectionOne color={"#5AA9C3"} buttoncolor={"#5AA9C3"} />

@@ -27,7 +27,7 @@ function SliderThree() {
     },
 
     {
-      imgSrc: "/assets/img/bg-image/Gaming-barb (1).jpg",
+      imgSrc: "/assets/img/contact-img/Gaming.jpg",
       title: `Forge Your Gaming <br> <span style="color:#13c4a1">Legacy</span>`,
       description:
         "Immerse Yourself in the Art of Gaming Creation Let's <br> Build Your Next Masterpiece Together!",
@@ -103,7 +103,7 @@ function SliderThree() {
               onClick={() => selectItem(index)}
             >
               <img src={item.imgSrc} alt={`Thumbnail ${index}`} />
-              <div className="underline" style={{backgroundColor:item.color}}></div>
+              <div className="underline" style={{ backgroundColor: item.color }}></div>
             </div>
           ))}
         </div>

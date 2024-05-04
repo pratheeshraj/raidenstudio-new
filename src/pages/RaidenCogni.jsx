@@ -93,7 +93,7 @@ const RaidenCogni = () => {
           {/* Project Details Section End */}
         </>
         <BlogSectionOne color={"#5AA9C3"} buttoncolor={"#5AA9C3"} />
-        <ContactSection2 color={"#5AA9C3"} buttoncolor={"#5AA9C3"} />
+        <ContactSection2 color={"#5AA9C3"} buttoncolor={"#5AA9C3"} img={"url('/assets/img/contact-img/product XR page.jpg')"} />
 
         {/* News Section One */}
         <NewsSectionOne color={"#5AA9C3"} buttoncolor={"#5AA9C3"} />

@@ -28,7 +28,7 @@ const GameProductDetails = () => {
         />
         <HeaderTwo />
         <GameProductDetailsHero />
-        <ContactSection2 color={"rgb(0, 236, 229)"} buttoncolor={"#00ECE5 "} />
+        <ContactSection2 color={"rgb(0, 236, 229)"} buttoncolor={"#00ECE5 "} img={"url('/assets/img/contact-img/game page.jpg')"} />
         <NewsSectionOne color={"rgb(0, 236, 229)"} buttoncolor={"#00ECE5 "} />
         <FooterSectionOne />
       </Suspense>

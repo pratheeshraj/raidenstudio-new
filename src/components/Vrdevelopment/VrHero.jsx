@@ -30,7 +30,7 @@ const VrHero = () => {
                                     className="slide-bg"
                                     style={{
                                         backgroundImage:
-                                            "url('assets/img/bg-image/teenager-using-virtual-reality-glasses-play-video-games-metaverse_168310-706-transformed.png')",
+                                            "url('assets/img/bg-image/vr-home.jpg')",
                                         height: "100%"
                                     }}
                                 />

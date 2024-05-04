@@ -62,7 +62,7 @@ const ProjectDetails = () => {
         <BlogSectionOne color={"#1BA2D7"} buttoncolor={"#1BA2D7"} />
         {/* News Section One */}
 
-        <ContactSection2 color={"#1BA2D7"} buttoncolor={"#1BA2D7"} />
+        <ContactSection2 color={"#1BA2D7"} buttoncolor={"#1BA2D7"} img={"url('/assets/img/contact-img/product XR page.jpg')"} />
 
         {/* Footer Section */}
         <FooterSectionOne />

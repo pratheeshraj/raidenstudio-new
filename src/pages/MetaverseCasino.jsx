@@ -66,7 +66,7 @@ const MetaverseCasino = () => {
                 </section>
                 <Casinofaq />
                 <BlogSectionOne color={"rgb(87, 228, 0)"} buttoncolor={"#4ecd00"} />
-                <ContactSection2 color={"rgb(87, 228, 0)"} buttoncolor={"#4ecd00 "} />
+                <ContactSection2 color={"rgb(87, 228, 0)"} buttoncolor={"#4ecd00 "} img={"url('/assets/img/contact-img/game virtual.jpg')"} />
                 <NewsSectionOne color={"rgb(87, 228, 0)"} buttoncolor={"#4ecd00 "} />
                 <FooterSectionOne />
             </Suspense>

@@ -40,7 +40,7 @@ const RaidenArcviz = () => {
         {/* <BlogSectionOne /> */}
         {/* News Section One */}
         <NewsSectionOne color={"#59C1FF"} buttoncolor={"#59C1FF"} />
-        <ContactSection2 color={"#59C1FF"} buttoncolor={"#59C1FF"} />
+        <ContactSection2 color={"#59C1FF"} buttoncolor={"#59C1FF"} img={"url('/assets/img/contact-img/product XR page.jpg')"}  />
         {/* Footer Section */}
         <FooterSectionOne />
       </Suspense>

@@ -70,7 +70,7 @@ function Web3() {
         {/* faq */}
         <WebFaq />
         {/* contact */}
-        <ContactSection2 color={"#E052D1"} buttoncolor={"#E052D1"} />
+        <ContactSection2 color={"#E052D1"} buttoncolor={"#E052D1"} img={"url('/assets/img/contact-img/blockchain service.jpg')"}  />
         {/* Footer Section */}
         {/* News Section Two */}
         <NewsSectionOne color={"#E052D1"} buttoncolor={"#E052D1"} />

@@ -45,7 +45,7 @@ const P2eGamePage = () => {
         <P2eGameProcessSection />
         <P2eGameFaq />
         <NewsSectionOne color={"#F09C1F"} buttoncolor={"#F09C1F"} />
-        <ContactSection2 color={"#F09C1F"} buttoncolor={"#F09C1F"} />
+        <ContactSection2 color={"#F09C1F"} buttoncolor={"#F09C1F"} img={"url('/assets/img/contact-img/game service.jpg')"} />
         <FooterSectionOne />
       </Suspense>
     </Fragment>

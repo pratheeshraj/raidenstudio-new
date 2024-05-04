@@ -76,7 +76,7 @@ function NftDevlopment() {
         {/* faq */}
         <NftFaq />
         {/* contact */}
-        <ContactSection2 color={"#00ECE5"} buttoncolor={"#00E9E2 "} />
+        <ContactSection2 color={"#00ECE5"} buttoncolor={"#00E9E2 "} img={"url('/assets/img/contact-img/blockchain service.jpg')"} />
         {/* Footer Section */}
         {/* News Section Two */}
         <NewsSectionOne color={"#00ECE5"} buttoncolor={"#00E9E2 "} />

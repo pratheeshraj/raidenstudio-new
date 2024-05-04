@@ -46,7 +46,7 @@ const UnityGamePage = () => {
         <UnityProcessSection />
         <UnityFaq />
         <NewsSectionOne color={"#EDAE43"} buttoncolor={"#EDAE43"} />
-        <ContactSection2 color={"#EDAE43"} buttoncolor={"#EDAE43"} />
+        <ContactSection2 color={"#EDAE43"} buttoncolor={"#EDAE43"} img={"url('/assets/img/contact-img/game service.jpg')"} />
         <FooterSectionOne />
       </Suspense>
     </Fragment>

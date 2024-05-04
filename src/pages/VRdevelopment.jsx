@@ -70,7 +70,7 @@ function VRdevelopment() {
         {/* faq */}
         <VrFaq />
         {/* contact */}
-        <ContactSection2 color={"#25E9EA"} buttoncolor={"#25E9EA"} />
+        <ContactSection2 color={"#25E9EA"} buttoncolor={"#25E9EA"} img={"url('/assets/img/contact-img/service xr.jpg')"} />
         {/* Footer Section */}
         {/* News Section Two */}
         <NewsSectionOne color={"#25E9EA"} buttoncolor={"#25E9EA"} />

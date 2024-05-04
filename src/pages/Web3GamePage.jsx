@@ -43,7 +43,7 @@ const Web3GamePage = () => {
       <Web3GameProcessSection />
       <NewsSectionOne color={"#33E5E5"} buttoncolor={"#00ECE5"} />
       <Web3GameFaq />
-      <ContactSection2 color={"#33E5E5"} buttoncolor={"#00ECE5"} />
+      <ContactSection2 color={"#33E5E5"} buttoncolor={"#00ECE5"} img={"url('/assets/img/contact-img/game service.jpg')"} />
       <FooterSectionOne />
     </Suspense>
   )

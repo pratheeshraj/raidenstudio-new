@@ -8,7 +8,7 @@ import ReactFlagsSelect from "react-flags-select";
 import { useDispatch } from "react-redux";
 import { enqueryContact } from "../action/EnqueryAction";
 
-const ContactSection2 = ({ color, buttoncolor }) => {
+const ContactSection2 = ({ color, buttoncolor, img }) => {
 
   const form = useRef();
 
@@ -166,18 +166,16 @@ const ContactSection2 = ({ color, buttoncolor }) => {
                     </div>
                     <span >Submit</span>
                   </button>
+
                 </form>
               </div>
-              <div className="left_div aos-init aos-animate" data-aos="fade-left" data-aos-delay="300">
-                <div className="left_background_div">
-                  <div className="left_background_div_content">
-                  </div>
-                </div>
+              <div style={{ backgroundImage: `${img}` }} className="left_div aos-init aos-animate" data-aos="fade-left" data-aos-delay="300">
               </div>
+
             </div>
           </div>
         </div>
-      </section>
+      </section >
       {/* Contact Section end */}
     </>
   );
