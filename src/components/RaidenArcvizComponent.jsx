@@ -1,69 +1,82 @@
 import React from "react";
 import demo from "../images/Metaverse.mp4";
-import "./RaidenArcvizComponent.css"
-import { Swiper } from 'swiper/react';
-import { SwiperSlide } from 'swiper/react';
-import { Link } from 'react-router-dom';
+import "./RaidenArcvizComponent.css";
+import { Swiper } from "swiper/react";
+import { SwiperSlide } from "swiper/react";
+import { Link } from "react-router-dom";
 import image1 from "../images/raidenverse/RAIDENVERSEPURCHASE.jpg";
 import image2 from "../images/raidenverse/raideneducational.jpg";
 import image3 from "../images/raidenverse/raidenverseclient.jpg";
 import image4 from "../images/raidenverse/raidenversemedical.jpg";
 
 const RaidenArcvizComponent = ({ vidio }) => {
-    return (
-        <>
-            {/* Raiden arcviz - hero */}
-            <section className=" project-details">
-                <div className=" auto-containercontainer-fulid">
-                    <div className="col-12 project_hero_section">
-                        <video autoPlay muted loop>
-                            <source src={vidio ? vidio : demo} type="video/mp4" />
-                        </video>
-                    </div>
-                    <div className="container-fulid project_hero_content">
-                        <div className="container pb-4 product_what_we_do">
-                            <div className="row">
-                                <div
-                                    className="col-lg-6"
-                                    data-aos="fade-up"
-                                    data-aos-delay="300"
-                                >
-                                    <div className="title">
-                                        <h2 className="arcviz_who_heading">
-                                            <span style={{ color: "#59C1FF" }}>Who</span> we Are
-                                        </h2>
-                                    </div>
-                                    <div className="inner-des">
-                                        <p >
-                                            At Raiden ARCVIZ, we are pioneers in leveraging Virtual Reality (VR) technology to revolutionize the fields of architecture and real estate. With a team of passionate innovators and industry experts, we are dedicated to pushing the boundaries of traditional design and visualization methods to create immersive and transformative experiences.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div className="col-lg-6">
-                                    <div
-                                        className="widget-project"
-                                        data-aos="fade-up"
-                                        data-aos-delay="300"
-                                    >
-                                        <div className="project_left">
-                                            <h2 className="arcviz_who_heading">What
-                                                <span style={{ color: "#59C1FF" }}> We Offer</span>
-                                            </h2>
-                                        </div>
-                                        <div className="inner-des2">
-                                            <p>
-                                                Trusted partner in harnessing the power of Virtual Reality (VR) technology to elevate your architecture and real estate projects. We offer a comprehensive suite of services and solutions tailored to meet the unique needs of our clients. Our techniques and adopting the latest hardware and software innovations to deliver unparalleled quality and performance.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+  return (
+    <>
+      {/* Raiden arcviz - hero */}
+      <section className=" project-details">
+        <div className=" auto-containercontainer-fulid">
+          <div className="col-12 project_hero_section">
+            <video autoPlay muted loop>
+              <source src={vidio ? vidio : demo} type="video/mp4" />
+            </video>
+          </div>
+          <div className="container-fulid project_hero_content">
+            <div className="container pb-4 product_what_we_do">
+              <div className="row">
+                <div
+                  className="col-lg-6"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                >
+                  <div className="title">
+                    <h2 className="arcviz_who_heading">
+                      <span style={{ color: "#59C1FF" }}>Who</span> we Are
+                    </h2>
+                  </div>
+                  <div className="inner-des">
+                    <p>
+                      At Raiden ARCVIZ, we are pioneers in leveraging Virtual
+                      Reality (VR) technology to revolutionize the fields of
+                      architecture and real estate. With a team of passionate
+                      innovators and industry experts, we are dedicated to
+                      pushing the boundaries of traditional design and
+                      visualization methods to create immersive and
+                      transformative experiences.
+                    </p>
+                  </div>
                 </div>
-            </section>
-            {/* Raiden arcviz - experience */}
-            {/* <section>
+                <div className="col-lg-6">
+                  <div
+                    className="widget-project"
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                  >
+                    <div className="project_left">
+                      <h2 className="arcviz_who_heading">
+                        What
+                        <span style={{ color: "#59C1FF" }}> We Offer</span>
+                      </h2>
+                    </div>
+                    <div className="inner-des2">
+                      <p>
+                        Trusted partner in harnessing the power of Virtual
+                        Reality (VR) technology to elevate your architecture and
+                        real estate projects. We offer a comprehensive suite of
+                        services and solutions tailored to meet the unique needs
+                        of our clients. Our techniques and adopting the latest
+                        hardware and software innovations to deliver
+                        unparalleled quality and performance.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Raiden arcviz - experience */}
+      {/* <section>
                 <section className="project-section three Raidenarcviz_main_div" style={{ padding: "80px 0" }}>
                     <div className="auto-container">
                         <div className="row Raidenarcviz">
@@ -73,8 +86,8 @@ const RaidenArcvizComponent = ({ vidio }) => {
                     </div>
                 </section>
             </section> */}
-            {/* Raiden arcviz - cards */}
-            {/* <section className="project-section three Raidenarcviz_card_main_div" style={{ padding: "80px 0" }}>
+      {/* Raiden arcviz - cards */}
+      {/* <section className="project-section three Raidenarcviz_card_main_div" style={{ padding: "80px 0" }}>
                 <div className="auto-container">
                     <div className="row Raidenarcviz_card">
                         <h2 className="raidenarcviz_card_h2"><span className="theme-color">Solutions</span></h2>
@@ -112,374 +125,498 @@ const RaidenArcvizComponent = ({ vidio }) => {
                     </div>
                 </div>
             </section> */}
-            <section className="project-section three" style={{ background: "white" }}>
-                <div className="auto-container">
-                    <div className="row">
-                        <div className="">
-                            <div
-                                className="section-title-shape-one left black "
-                                data-aos="fade-right"
-                                data-aos-delay="300"
-                            >
-                                <h2 style={{ textAlign: "center", width: "100%" }}>
-                                    Unlocking Possibilities: Explore Our  <span style={{ color: "#59C1FF" }}> <br />Innovative Solutions </span>
-                                </h2>
-                            </div>
-                        </div>
+      <section
+        className="project-section three"
+        style={{ background: "white" }}
+      >
+        <div className="auto-container">
+          <div className="row">
+            <div className="">
+              <div
+                className="section-title-shape-one left black "
+                data-aos="fade-right"
+                data-aos-delay="300"
+              >
+                <h2 style={{ textAlign: "center", width: "100%" }}>
+                  Unlocking Possibilities: Explore Our{" "}
+                  <span style={{ color: "#59C1FF" }}>
+                    {" "}
+                    <br />
+                    Innovative Solutions{" "}
+                  </span>
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-6">
+              <div
+                className="project-wrapper "
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                <div className="img-file por raiden_arcviz_div">
+                  <img
+                    className="img-fluid"
+                    style={{ height: "362px", objectFit: "cover" }}
+                    src="/assets/img/Arcviz/Frame 28.jpg"
+                    alt=""
+                  />
+                  <div className="shape-overlay poa">
+                    <div className="inner Industry2">
+                      <h2>Immersive Architectural Visualization</h2>
+
+                      <div className="link d-inline-block">
+                        <p>
+                          Step into your designs with our immersive
+                          architectural visualization solutions. Utilizing
+                          cutting-edge VR technology, we transform 2D
+                          architectural plans into immersive virtual
+                          environments, allowing you to explore and experience
+                          your designs in stunning detail.
+                        </p>
+                      </div>
                     </div>
-                    <div className="row">
-                        <div className="col-lg-6">
-                            <div
-                                className="project-wrapper "
-                                data-aos="fade-up"
-                                data-aos-delay="300"
-                            >
-                                <div className="img-file por raiden_arcviz_div">
-                                    <img className="img-fluid" style={{ height: "362px" ,objectFit:"cover"}}
-                                        src="/assets/img/Arcviz/Frame 28.jpg"
-                                        alt="" />
-                                    <div className="shape-overlay poa">
-                                        <div className="inner Industry2">
-                                            <h2>Immersive Architectural Visualization</h2>
-
-                                            <div className="link d-inline-block">
-                                                <p>
-                                                    Step into your designs with our immersive architectural visualization solutions. Utilizing cutting-edge VR technology, we transform 2D architectural plans into immersive virtual environments, allowing you to explore and experience your designs in stunning detail.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div
-                                className="project-wrapper "
-                                data-aos="fade-up"
-                                data-aos-delay="300"
-                            >
-                                <div className="img-file por raiden_arcviz_div">
-                                    <img className="img-fluid" style={{ height: "362px" ,objectFit:"cover"}}
-                                        src="/assets/img/Arcviz/Frame 29.jpg"
-                                        alt="" />
-                                    <div className="shape-overlay poa">
-                                        <div className="inner Industry2">
-                                            <h2>Interactive Design Customization</h2>
-
-                                            <div className="link d-inline-block">
-                                                <p>
-                                                    Customize your designs with ease using our interactive design customization tools. From material selections to lighting configurations, our intuitive interface empowers you to experiment with different options and visualize the impact of your choices in real-time.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div
-                                className="project-wrapper "
-                                data-aos="fade-up"
-                                data-aos-delay="300"
-                            >
-                                <div className="img-file por raiden_arcviz_div">
-                                    <img className="img-fluid"
-                                        src="/assets/img/Arcviz/Frame 30.jpg"
-                                        style={{ height: "362px",objectFit:"cover" }} alt="" />
-                                    <div className="shape-overlay poa">
-                                        <div className="inner Industry2">
-                                            <h2>Pre-Construction Visualization </h2>
-
-                                            <div className="link d-inline-block">
-                                                <p>
-                                                    Avoid costly design errors and misinterpretations with our pre-construction visualization services. Our team creates realistic 3D models and VR simulations of your projects, allowing you to identify and address potential issues before construction begins, saving time and reducing risks.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div
-                                className="project-wrapper "
-                                data-aos="fade-up"
-                                data-aos-delay="300"
-                            >
-                                <div className="img-file por raiden_arcviz_div">
-                                    <img className="img-fluid"
-                                        src="/assets/img/Arcviz/Frame 31.jpg"
-                                        style={{ height: "362px",objectFit:"cover" }} alt="" />
-                                    <div className="shape-overlay poa ">
-                                        <div className="inner Industry2">
-                                            <h2>Engaging Marketing <br /> Solutions</h2>
-
-                                            <div className="link d-inline-block">
-                                                <p>
-                                                    Showcase your properties in a compelling and immersive way with our engaging marketing solutions. From VR walkthroughs to interactive presentations, we help you captivate potential buyers and investors, driving engagement and accelerating sales.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                  </div>
                 </div>
-            </section>
-            {/* Raiden arcviz - benifit */}
-            <section className="project-section three Raidenarcviz_card_main_div" style={{ padding: "80px 0", background: "#F8F9FA" }}>
-                <div className="auto-container">
-                    <div className="row">
-                        <h2 className="raidenarcviz_card_h2" style={{ color: "black" }}>Experience the <span style={{ color: "#59C1FF" }}>Advantages</span></h2>
-                        <p className='raidenarcviz_card_p' style={{ color: "black" }}>Discover the advantages of immersive visualization, real-time collaboration, and tailored support, and propel your architecture and real estate endeavors to new heights.</p>
-                        <div className="arcviz_benifit_div">
-                            <div className="arcviz_benifit">
-                                <img src="/assets/img/arckwiz-benefits/enhanced.svg" alt="" />
-                                <div style={{ color: "black" }}>Enhanced Visualization</div>
-                                <p style={{ color: "black" }}>Gain a clearer understanding of architectural designs with immersive, photorealistic visualizations.</p>
-                            </div>
-                            <div className="arcviz_benifit">
-                                <img src="/assets/img/arckwiz-benefits/improved.svg" alt="" />
-                                <div style={{ color: "black" }}>Improved Decision-Making</div>
-                                <p style={{ color: "black" }}>Make informed decisions with real-time insights and customizable design options.</p>
-                            </div>
-                            <div className="arcviz_benifit">
-                                <img src="/assets/img/arckwiz-benefits/cost.svg" alt="" />
-                                <div style={{ color: "black" }}>Cost and Time Savings</div>
-                                <p style={{ color: "black" }}>Reduce costs and save time by eliminating the need for physical staging and in-person property viewings.</p>
-                            </div>
-                            <div className="arcviz_benifit">
-                                <img src="/assets/img/arckwiz-benefits/wider.svg" alt="" />
-                                <div style={{ color: "black" }}>Wider Reach</div>
-                                <p style={{ color: "black" }}>Reach a wider audience of potential buyers and clients by offering immersive virtual experiences.</p>
-                            </div>
-                            <div className="arcviz_benifit">
-                                <img src="/assets/img/arckwiz-benefits/streamlined.svg" alt="" />
-                                <div style={{ color: "black" }}>Streamlined Transactions</div>
-                                <p style={{ color: "black" }}>Simplify real estate transactions with virtual commerce, making buying and selling properties more convenient.</p>
-                            </div>
-                            <div className="arcviz_benifit">
-                                <img src="/assets/img/arckwiz-benefits/communication.svg" alt="" />
-                                <div style={{ color: "black" }}>Enhanced Communication</div>
-                                <p style={{ color: "black" }}>Foster clearer communication among project stakeholders with immersive virtual tours and digital twin technology.</p>
-                            </div>
-                            <div className="arcviz_benifit">
-                                <img src="/assets/img/arckwiz-benefits/increasedtenan.svg" alt="" />
-                                <div style={{ color: "black" }}>Increased Tenant Satisfaction</div>
-                                <p style={{ color: "black" }}>Provide tenants with virtual instructions and tours, improving their understanding and satisfaction with their rental property.</p>
-                            </div>
-                            <div className="arcviz_benifit">
-                                <img src="/assets/img/arckwiz-benefits/accelarated.svg" alt="" />
-                                <div style={{ color: "black" }}>Accelerated Design Process</div>
-                                <p style={{ color: "black" }}>Speed up the design process with real-time analytics and collaborative architectural visualization tools.</p>
-                            </div>
-                            <div className="arcviz_benifit">
-                                <img src="/assets/img/arckwiz-benefits/competitive.svg" alt="" />
-                                <div style={{ color: "black" }}>Competitive Advantage</div>
-                                <p style={{ color: "black" }}>Stay ahead of the competition by offering cutting-edge immersive experiences that set your projects apart.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            {/* Raiden arcviz - use Case */}
-            <section className="service-section three" style={{ background: "white" }}>
-                <div className="auto-container">
-                    <div className="row">
-                        <div className="col-12">
-                            <div
-                                className="section-title-shape-one middle black "
-                                data-aos="fade-up"
-                                data-aos-delay="300"
-                            >
-                                <h2 style={{ textAlign: "center" }}>
-                                    Use Cases of VR in Real Estate
-                                    <span style={{ color: "#59C1FF" }}> Real Estate</span>
-                                </h2>
-                                <p>At VR, we're experts at providing innovative solutions that use cutting-edge technology to boost creativity and revolutionize industries. Our skilled professionals have extensive experience in a variety of domains, allowing us to provide comprehensive services in:</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="swiper swiper-container service-one">
-                            <div className="swiper-wrapper">
-                                <Swiper
-                                    loop={false}
-                                    spaceBetween={20}
-                                    slidesPerView={3}
-                                    speed={1000}
-                                    pagination={{ clickable: true }}
-                                    autoplay={{ delay: 6000 }}
-                                    className="mySwiper"
-                                    navigation={{
-                                        nextEl: '.swiper-button-next',
-                                        prevEl: '.swiper-button-prev',
-                                    }} breakpoints={{
-                                        0: {
-                                            slidesPerView: 1,
-                                            pagination: false,
-                                            spaceBetween: 20,
-                                            slidesPerGroup: 1,
-                                        },
-                                        500: {
-                                            slidesPerView: 1,
-                                            pagination: false,
-                                            spaceBetween: 20,
-                                            slidesPerGroup: 1,
-                                        },
-                                        768: {
-                                            slidesPerView: 2,
-                                        },
-                                        992: {
-                                            slidesPerView: 3,
-                                        },
-                                        1200: {
-                                            slidesPerView: 3,
-                                        },
-                                        1400: {
-                                            slidesPerView: 3,
-                                        },
-                                    }}
-                                >
-                                    <SwiperSlide>
-                                        <div className="swiper-slide">
-                                            <div className="inner-wrapper ">
-                                                <div className="img-file">
-                                                    <img
-                                                        className="img-fluid"
-                                                        src="/assets/img/Arcviz/Frame 23.jpg"
-                                                        alt=""
-                                                    />
-                                                </div>
-                                                <div className="text-file">
-                                                    <h2 className="title">
-                                                        <Link to="#">
-                                                            Virtual Property Presentations
-                                                        </Link>
-                                                    </h2>
-                                                    <p>
-                                                        Real estate agents and developers can use VR to create immersive property presentations for potential buyers. Prospective clients can explore properties virtually, walking through rooms, inspecting details, and getting a feel for the space without needing to physically visit the property.                                                     </p>
-                                                    <div className="shape-overlay">
-                                                        <img src="/assets/img/shape/15_shape.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <div className="swiper-slide">
-                                            <div className="inner-wrapper ">
-                                                <div className="img-file">
-                                                    <img
-                                                        className="img-fluid"
-                                                        src="/assets/img/Arcviz/Frame 24.jpg"
-                                                        alt=""
-                                                    />
-                                                </div>
-                                                <div className="text-file">
-                                                    <h2 className="title">
-                                                        <Link to="#">
-                                                            Staging and Virtual Visualization
-                                                        </Link>
-                                                    </h2>
-                                                    <p>
-                                                        VR allows real estate professionals to virtually stage properties, presenting them in different styles and configurations to suit various preferences. Virtual staging eliminates the need for physical furniture and decor, enabling agents to showcase the potential of empty spaces with minimal cost and effort.                                                     </p>
-                                                    <div className="shape-overlay">
-                                                        <img src="/assets/img/shape/15_shape.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <div className="swiper-slide">
-                                            <div className="inner-wrapper ">
-                                                <div className="img-file">
-                                                    <img
-                                                        className="img-fluid"
-                                                        src="/assets/img/Arcviz/Frame 25.jpg"
-                                                        alt=""
-                                                    />
-                                                </div>
-                                                <div className="text-file">
-                                                    <h2 className="title">
-                                                        <Link to="#">
-                                                            V-Commerce
-                                                        </Link>
-                                                    </h2>
-                                                    <p>
-                                                        V-Commerce, or virtual commerce, revolutionizes the way real estate transactions are conducted. With VR technology, buyers can explore properties, review contracts, and even complete transactions entirely within a virtual environment.                                                     </p>
-                                                    <div className="shape-overlay">
-                                                        <img src="/assets/img/shape/15_shape.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <div className="swiper-slide">
-                                            <div className="inner-wrapper ">
-                                                <div className="img-file">
-                                                    <img
-                                                        className="img-fluid"
-                                                        src="/assets/img/Arcviz/Frame 26.jpg"
-                                                        alt=""
-                                                    />
-                                                </div>
-                                                <div className="text-file">
-                                                    <h2 className="title">
-                                                        <Link to="#">
-                                                            Virtual Instructions for Tenants
-                                                        </Link>
-                                                    </h2>
-                                                    <p>
-                                                        Landlords and property managers can use VR to provide virtual instructions and tours for tenants. Instead of traditional paper guides or in-person orientations, tenants can navigate through virtual replicas of their rental units and common areas.                                                     </p>
-                                                    <div className="shape-overlay">
-                                                        <img src="/assets/img/shape/15_shape.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <div className="swiper-slide">
-                                            <div className="inner-wrapper ">
-                                                <div className="img-file">
-                                                    <img
-                                                        className="img-fluid"
-                                                        src="/assets/img/Arcviz/Frame 27.jpg"
-                                                        alt=""
-                                                    />
-                                                </div>
-                                                <div className="text-file">
-                                                    <h2 className="title">
-                                                        <Link to="#">
-                                                            Architectural Visualization
-                                                        </Link>
-                                                    </h2>
-                                                    <p>
-                                                        VR is indispensable for architectural visualization, allowing architects, designers, and developers to showcase their projects in an immersive and interactive manner. Clients can explore architectural designs before construction begins, providing valuable feedback and insights.
-                                                    </p>                                                    <div className="shape-overlay">
-                                                        <img src="/assets/img/shape/15_shape.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </SwiperSlide>
-                                </Swiper>
-                            </div>
-                            <div className="swiper-button-next">
-                            </div>
-                            <div className="swiper-button-prev">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div
+                className="project-wrapper "
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                <div className="img-file por raiden_arcviz_div">
+                  <img
+                    className="img-fluid"
+                    style={{ height: "362px", objectFit: "cover" }}
+                    src="/assets/img/Arcviz/Frame 29.jpg"
+                    alt=""
+                  />
+                  <div className="shape-overlay poa">
+                    <div className="inner Industry2">
+                      <h2>Interactive Design Customization</h2>
 
-            {/* Raiden arcviz - Faq */}
-            {/* <section className="faq-section one">
+                      <div className="link d-inline-block">
+                        <p>
+                          Customize your designs with ease using our interactive
+                          design customization tools. From material selections
+                          to lighting configurations, our intuitive interface
+                          empowers you to experiment with different options and
+                          visualize the impact of your choices in real-time.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div
+                className="project-wrapper "
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                <div className="img-file por raiden_arcviz_div">
+                  <img
+                    className="img-fluid"
+                    src="/assets/img/Arcviz/Frame 30.jpg"
+                    style={{ height: "362px", objectFit: "cover" }}
+                    alt=""
+                  />
+                  <div className="shape-overlay poa">
+                    <div className="inner Industry2">
+                      <h2>Pre-Construction Visualization </h2>
+
+                      <div className="link d-inline-block">
+                        <p>
+                          Avoid costly design errors and misinterpretations with
+                          our pre-construction visualization services. Our team
+                          creates realistic 3D models and VR simulations of your
+                          projects, allowing you to identify and address
+                          potential issues before construction begins, saving
+                          time and reducing risks.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div
+                className="project-wrapper "
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                <div className="img-file por raiden_arcviz_div">
+                  <img
+                    className="img-fluid"
+                    src="/assets/img/Arcviz/Frame 31.jpg"
+                    style={{ height: "362px", objectFit: "cover" }}
+                    alt=""
+                  />
+                  <div className="shape-overlay poa ">
+                    <div className="inner Industry2">
+                      <h2>
+                        Engaging Marketing <br /> Solutions
+                      </h2>
+
+                      <div className="link d-inline-block">
+                        <p>
+                          Showcase your properties in a compelling and immersive
+                          way with our engaging marketing solutions. From VR
+                          walkthroughs to interactive presentations, we help you
+                          captivate potential buyers and investors, driving
+                          engagement and accelerating sales.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Raiden arcviz - benifit */}
+      <section
+        className="project-section three Raidenarcviz_card_main_div"
+        style={{ padding: "80px 0", background: "#F8F9FA" }}
+      >
+        <div className="auto-container">
+          <div className="row">
+            <h2 className="raidenarcviz_card_h2" style={{ color: "black" }}>
+              Experience the{" "}
+              <span style={{ color: "#59C1FF" }}>Advantages</span>
+            </h2>
+            <p className="raidenarcviz_card_p" style={{ color: "black" }}>
+              Discover the advantages of immersive visualization, real-time
+              collaboration, and tailored support, and propel your architecture
+              and real estate endeavors to new heights.
+            </p>
+            <div className="arcviz_benifit_div">
+              <div className="arcviz_benifit">
+                <img src="/assets/img/arckwiz-benefits/enhanced.svg" alt="" />
+                <div style={{ color: "black" }}>Enhanced Visualization</div>
+                <p style={{ color: "black" }}>
+                  Gain a clearer understanding of architectural designs with
+                  immersive, photorealistic visualizations.
+                </p>
+              </div>
+              <div className="arcviz_benifit">
+                <img src="/assets/img/arckwiz-benefits/improved.svg" alt="" />
+                <div style={{ color: "black" }}>Improved Decision-Making</div>
+                <p style={{ color: "black" }}>
+                  Make informed decisions with real-time insights and
+                  customizable design options.
+                </p>
+              </div>
+              <div className="arcviz_benifit">
+                <img src="/assets/img/arckwiz-benefits/cost.svg" alt="" />
+                <div style={{ color: "black" }}>Cost and Time Savings</div>
+                <p style={{ color: "black" }}>
+                  Reduce costs and save time by eliminating the need for
+                  physical staging and in-person property viewings.
+                </p>
+              </div>
+              <div className="arcviz_benifit">
+                <img src="/assets/img/arckwiz-benefits/wider.svg" alt="" />
+                <div style={{ color: "black" }}>Wider Reach</div>
+                <p style={{ color: "black" }}>
+                  Reach a wider audience of potential buyers and clients by
+                  offering immersive virtual experiences.
+                </p>
+              </div>
+              <div className="arcviz_benifit">
+                <img
+                  src="/assets/img/arckwiz-benefits/streamlined.svg"
+                  alt=""
+                />
+                <div style={{ color: "black" }}>Streamlined Transactions</div>
+                <p style={{ color: "black" }}>
+                  Simplify real estate transactions with virtual commerce,
+                  making buying and selling properties more convenient.
+                </p>
+              </div>
+              <div className="arcviz_benifit">
+                <img
+                  src="/assets/img/arckwiz-benefits/communication.svg"
+                  alt=""
+                />
+                <div style={{ color: "black" }}>Enhanced Communication</div>
+                <p style={{ color: "black" }}>
+                  Foster clearer communication among project stakeholders with
+                  immersive virtual tours and digital twin technology.
+                </p>
+              </div>
+              <div className="arcviz_benifit">
+                <img
+                  src="/assets/img/arckwiz-benefits/increasedtenan.svg"
+                  alt=""
+                />
+                <div style={{ color: "black" }}>
+                  Increased Tenant Satisfaction
+                </div>
+                <p style={{ color: "black" }}>
+                  Provide tenants with virtual instructions and tours, improving
+                  their understanding and satisfaction with their rental
+                  property.
+                </p>
+              </div>
+              <div className="arcviz_benifit">
+                <img
+                  src="/assets/img/arckwiz-benefits/accelarated.svg"
+                  alt=""
+                />
+                <div style={{ color: "black" }}>Accelerated Design Process</div>
+                <p style={{ color: "black" }}>
+                  Speed up the design process with real-time analytics and
+                  collaborative architectural visualization tools.
+                </p>
+              </div>
+              <div className="arcviz_benifit">
+                <img
+                  src="/assets/img/arckwiz-benefits/competitive.svg"
+                  alt=""
+                />
+                <div style={{ color: "black" }}>Competitive Advantage</div>
+                <p style={{ color: "black" }}>
+                  Stay ahead of the competition by offering cutting-edge
+                  immersive experiences that set your projects apart.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Raiden arcviz - use Case */}
+      <section
+        className="service-section three"
+        style={{ background: "white" }}
+      >
+        <div className="auto-container">
+          <div className="row">
+            <div className="col-12">
+              <div
+                className="section-title-shape-one middle black "
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                <h2 style={{ textAlign: "center" }}>
+                  Use Cases of VR in Real Estate
+                  <span style={{ color: "#59C1FF" }}> Real Estate</span>
+                </h2>
+                <p>
+                  At VR, we're experts at providing innovative solutions that
+                  use cutting-edge technology to boost creativity and
+                  revolutionize industries. Our skilled professionals have
+                  extensive experience in a variety of domains, allowing us to
+                  provide comprehensive services in:
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="swiper swiper-container service-one">
+              <div className="swiper-wrapper">
+                <Swiper
+                  loop={false}
+                  spaceBetween={20}
+                  slidesPerView={3}
+                  speed={1000}
+                  pagination={{ clickable: true }}
+                  autoplay={{ delay: 6000 }}
+                  className="mySwiper"
+                  navigation={{
+                    nextEl: "swiper-button-next",
+                    prevEl: "swiper-button-prev",
+                  }}
+                  breakpoints={{
+                    0: {
+                      slidesPerView: 1,
+                      pagination: false,
+                      spaceBetween: 20,
+                      slidesPerGroup: 1,
+                    },
+                    500: {
+                      slidesPerView: 1,
+                      pagination: false,
+                      spaceBetween: 20,
+                      slidesPerGroup: 1,
+                    },
+                    768: {
+                      slidesPerView: 2,
+                    },
+                    992: {
+                      slidesPerView: 3,
+                    },
+                    1200: {
+                      slidesPerView: 3,
+                    },
+                    1400: {
+                      slidesPerView: 3,
+                    },
+                  }}
+                >
+                  <SwiperSlide>
+                    <div className="swiper-slide">
+                      <div className="inner-wrapper ">
+                        <div className="img-file">
+                          <img
+                            className="img-fluid"
+                            src="/assets/img/Arcviz/Frame 23.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div className="text-file">
+                          <h2 className="title">
+                            <Link to="#">Virtual Property Presentations</Link>
+                          </h2>
+                          <p>
+                            Real estate agents and developers can use VR to
+                            create immersive property presentations for
+                            potential buyers. Prospective clients can explore
+                            properties virtually, walking through rooms,
+                            inspecting details, and getting a feel for the space
+                            without needing to physically visit the property.{" "}
+                          </p>
+                          <div className="shape-overlay">
+                            <img src="/assets/img/shape/15_shape.svg" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="swiper-slide">
+                      <div className="inner-wrapper ">
+                        <div className="img-file">
+                          <img
+                            className="img-fluid"
+                            src="/assets/img/Arcviz/Frame 24.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div className="text-file">
+                          <h2 className="title">
+                            <Link to="#">
+                              Staging and Virtual Visualization
+                            </Link>
+                          </h2>
+                          <p>
+                            VR allows real estate professionals to virtually
+                            stage properties, presenting them in different
+                            styles and configurations to suit various
+                            preferences. Virtual staging eliminates the need for
+                            physical furniture and decor, enabling agents to
+                            showcase the potential of empty spaces with minimal
+                            cost and effort.{" "}
+                          </p>
+                          <div className="shape-overlay">
+                            <img src="/assets/img/shape/15_shape.svg" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="swiper-slide">
+                      <div className="inner-wrapper ">
+                        <div className="img-file">
+                          <img
+                            className="img-fluid"
+                            src="/assets/img/Arcviz/Frame 25.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div className="text-file">
+                          <h2 className="title">
+                            <Link to="#">V-Commerce</Link>
+                          </h2>
+                          <p>
+                            V-Commerce, or virtual commerce, revolutionizes the
+                            way real estate transactions are conducted. With VR
+                            technology, buyers can explore properties, review
+                            contracts, and even complete transactions entirely
+                            within a virtual environment.{" "}
+                          </p>
+                          <div className="shape-overlay">
+                            <img src="/assets/img/shape/15_shape.svg" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="swiper-slide">
+                      <div className="inner-wrapper ">
+                        <div className="img-file">
+                          <img
+                            className="img-fluid"
+                            src="/assets/img/Arcviz/Frame 26.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div className="text-file">
+                          <h2 className="title">
+                            <Link to="#">Virtual Instructions for Tenants</Link>
+                          </h2>
+                          <p>
+                            Landlords and property managers can use VR to
+                            provide virtual instructions and tours for tenants.
+                            Instead of traditional paper guides or in-person
+                            orientations, tenants can navigate through virtual
+                            replicas of their rental units and common areas.{" "}
+                          </p>
+                          <div className="shape-overlay">
+                            <img src="/assets/img/shape/15_shape.svg" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="swiper-slide">
+                      <div className="inner-wrapper ">
+                        <div className="img-file">
+                          <img
+                            className="img-fluid"
+                            src="/assets/img/Arcviz/Frame 27.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div className="text-file">
+                          <h2 className="title">
+                            <Link to="#">Architectural Visualization</Link>
+                          </h2>
+                          <p>
+                            VR is indispensable for architectural visualization,
+                            allowing architects, designers, and developers to
+                            showcase their projects in an immersive and
+                            interactive manner. Clients can explore
+                            architectural designs before construction begins,
+                            providing valuable feedback and insights.
+                          </p>{" "}
+                          <div className="shape-overlay">
+                            <img src="/assets/img/shape/15_shape.svg" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                </Swiper>
+              </div>
+              <div className="swiper-button-prev"></div>
+              <div className="swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Raiden arcviz - Faq */}
+      {/* <section className="faq-section one">
                 <div className="auto-container">
                     <div className="row">
                         <div className="col-lg-6">
@@ -595,9 +732,8 @@ const RaidenArcvizComponent = ({ vidio }) => {
                     </div>
                 </div>
             </section> */}
-
-        </>
-    );
+    </>
+  );
 };
 
 export default RaidenArcvizComponent;
