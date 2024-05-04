@@ -55,12 +55,12 @@ const CaseStudies = () => {
                       src={data?.imageurl}
                       alt=""
                     />
-                    <div className="shape-overlay" style={{ margin: "55px 35px" }}>
+                    <div className="shape-overlay" style={{ margin: "65px 35px" }}>
                       <h3>
-                        {`${data?.mainheading.substring(0, 25)}...`}
+                        {`${data?.mainheading.substring(0, 20)}...`}
                       </h3>
                       <p>
-                        <GameDescription htmlString={`${data?.challenge_content.substring(0, 80)}...`} />
+                        <GameDescription htmlString={`${data?.challenge_content.substring(0, 55)}...`} />
                       </p>
                       <div className="d-flex justify-content-center">
                         <Link className="default-btn" Link to={`/case-study-detail/${data.url}`}>

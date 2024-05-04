@@ -122,18 +122,7 @@ const RaidenSimXContent = () => {
             </div>
           </div>
         </div>
-        <div className="shape-img">
-          <img
-            className="shape-1 poa"
-            src="/assets/img/shape/14_shape.png"
-            alt=""
-          />
-          <img
-            className="shape-2 poa"
-            src="/assets/img/icon/84_icon.png"
-            alt=""
-          />
-        </div>
+    
       </section>
       <section>
         <div
