@@ -21,7 +21,7 @@ const FooterSectionOne = () => {
                     Raiden Studios: Creating the VR, AR, and blockchain of the future. Your go-to advisor for innovative, specially designed solutions. Together, let's redefine possibilities !
                   </p>
                 </div>
-                <div
+                {/* <div
                   className="social one"
                   data-aos="fade-up"
                   data-aos-delay="400"
@@ -38,7 +38,7 @@ const FooterSectionOne = () => {
                   <Link to="#">
                     <i className="fa-brands fa-instagram" />
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="col-lg-2 col-md-6 col-12">

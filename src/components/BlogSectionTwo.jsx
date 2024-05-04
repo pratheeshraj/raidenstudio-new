@@ -20,7 +20,7 @@ const BlogSectionTwo = () => {
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
-                <h3 style={{ color: "#13C4A1" }}>Blog</h3>
+                <h3 style={{ color: "#13C4A1", textAlign: "center" }}>Blog</h3>
                 <h2 style={{ color: "black", textAlign: "center" }}>
                   Latest thinking &amp; our <br />{" "}
                   <span className="theme-color">company news</span>
