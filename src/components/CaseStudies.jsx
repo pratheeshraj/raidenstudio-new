@@ -48,16 +48,16 @@ const CaseStudies = () => {
                     className="project-wrapper "
                     data-aos="fade-up"
                     data-aos-delay="200"
-                    style={{height:"200px"}}
+                    style={{ height: "200px" }}
                   >
-                    <img className="img-fluid" src={data?.imageurl} alt=""  style={{objectFit:"cover" ,height:"100%"}}/>
+                    <img className="img-fluid" src={data?.imageurl} alt="" style={{ objectFit: "cover", height: "100%" }} />
                     <div className="shape-overlay">
-                      <h3>{`${data?.mainheading.substring(0, 20)}...`}</h3>
+                      <h3>{`${data?.mainheading.substring(0, 15)}...`}</h3>
                       <p>
                         <GameDescription
                           htmlString={`${data?.challenge_content.substring(
                             0,
-                            55
+                            75
                           )}...`}
                         />
                       </p>
