@@ -7,11 +7,7 @@ const Preloader = () => {
             <div className="preloader">
                 <div>
                     <div className="semipolar-spinner">
-                        <div className="ring" />
-                        <div className="ring" />
-                        <div className="ring" />
-                        <div className="ring" />
-                        <div className="ring" />
+                    <img src="\assets\img\RAIDEN LOGO.svg" alt="" />
                     </div>
                     <div className="loader">
                         <span className="l">L</span>

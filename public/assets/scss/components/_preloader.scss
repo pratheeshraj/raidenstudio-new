@@ -23,12 +23,26 @@
 }
 
 .semipolar-spinner {
-  height: 65px;
-  width: 65px;
+  height: 75px;
+  width: 75px;
   position: relative;
   margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img{
+    width: 100%;
+    height: 100%;
+    animation: rotate-image 2s linear infinite;
+    transform-origin: 50% 38%; 
+  }
 }
 
+@keyframes rotate-image {
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .semipolar-spinner .ring {
   border-radius: 50%;
   position: absolute;
