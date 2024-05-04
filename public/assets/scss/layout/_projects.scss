@@ -117,7 +117,8 @@
         left: 10px;
         top: 40%;
         z-index: -1;
-        -webkit-animation: slide-top 10s linear 0.3s infinite alternate-reverse both;
+        -webkit-animation: slide-top 10s linear 0.3s infinite alternate-reverse
+          both;
         animation: slide-top 10s linear 0.3s infinite alternate-reverse both;
 
         img {
@@ -363,7 +364,8 @@
         z-index: -1;
         width: 20px;
         animation: animationFramesOne 30s linear infinite reverse backwards;
-        -webkit-animation: animationFramesOne 30s linear infinite reverse backwards;
+        -webkit-animation: animationFramesOne 30s linear infinite reverse
+          backwards;
       }
 
       .shape-4 {
@@ -456,9 +458,11 @@
         top: 0;
         content: "";
         background: rgb(19, 196, 161);
-        background: linear-gradient(180deg,
-            rgba(19, 196, 161, 0.192) 6%,
-            rgb(0 0 0) 100%);
+        background: linear-gradient(
+          180deg,
+          rgba(19, 196, 161, 0.192) 6%,
+          rgb(0 0 0) 100%
+        );
         opacity: 0.4;
         border-radius: 8px;
         z-index: 0;
@@ -673,7 +677,8 @@
         top: 13%;
         right: 14%;
         z-index: -1;
-        -webkit-animation: scale-down-center 15s linear infinite alternate-reverse both;
+        -webkit-animation: scale-down-center 15s linear infinite
+          alternate-reverse both;
         animation: scale-down-center 15s linear infinite alternate-reverse both;
 
         img {
@@ -685,7 +690,8 @@
         bottom: 21%;
         right: 20px;
         z-index: -1;
-        -webkit-animation: slide-top 10s linear 0.3s infinite alternate-reverse both;
+        -webkit-animation: slide-top 10s linear 0.3s infinite alternate-reverse
+          both;
         animation: slide-top 10s linear 0.3s infinite alternate-reverse both;
 
         img {
@@ -912,7 +918,8 @@
       top: 13%;
       right: 14%;
       z-index: -1;
-      -webkit-animation: scale-down-center 15s linear infinite alternate-reverse both;
+      -webkit-animation: scale-down-center 15s linear infinite alternate-reverse
+        both;
       animation: scale-down-center 15s linear infinite alternate-reverse both;
 
       img {
@@ -924,7 +931,8 @@
       bottom: 21%;
       right: 20px;
       z-index: -1;
-      -webkit-animation: slide-top 10s linear 0.3s infinite alternate-reverse both;
+      -webkit-animation: slide-top 10s linear 0.3s infinite alternate-reverse
+        both;
       animation: slide-top 10s linear 0.3s infinite alternate-reverse both;
 
       @media #{$lg, $md, $sm, $xs, $xss} {
@@ -994,7 +1002,7 @@
   overflow: hidden;
 }
 
-.project_hero_section>video {
+.project_hero_section > video {
   position: fixed;
   top: 0;
   left: 0;
@@ -1238,5 +1246,11 @@
         color: black;
       }
     }
+  }
+}
+
+.raiden_arcviz_div {
+  @media #{$xs,$xss} {
+    height:100% !important;
   }
 }

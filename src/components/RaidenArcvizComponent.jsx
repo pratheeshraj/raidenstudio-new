@@ -134,8 +134,8 @@ const RaidenArcvizComponent = ({ vidio }) => {
                                 data-aos="fade-up"
                                 data-aos-delay="300"
                             >
-                                <div className="img-file por">
-                                    <img className="img-fluid" style={{ height: "362px" }}
+                                <div className="img-file por raiden_arcviz_div">
+                                    <img className="img-fluid" style={{ height: "362px" ,objectFit:"cover"}}
                                         src="/assets/img/Arcviz/Frame 28.jpg"
                                         alt="" />
                                     <div className="shape-overlay poa">
@@ -158,8 +158,8 @@ const RaidenArcvizComponent = ({ vidio }) => {
                                 data-aos="fade-up"
                                 data-aos-delay="300"
                             >
-                                <div className="img-file por">
-                                    <img className="img-fluid" style={{ height: "362px" }}
+                                <div className="img-file por raiden_arcviz_div">
+                                    <img className="img-fluid" style={{ height: "362px" ,objectFit:"cover"}}
                                         src="/assets/img/Arcviz/Frame 29.jpg"
                                         alt="" />
                                     <div className="shape-overlay poa">
@@ -182,10 +182,10 @@ const RaidenArcvizComponent = ({ vidio }) => {
                                 data-aos="fade-up"
                                 data-aos-delay="300"
                             >
-                                <div className="img-file por">
+                                <div className="img-file por raiden_arcviz_div">
                                     <img className="img-fluid"
                                         src="/assets/img/Arcviz/Frame 30.jpg"
-                                        style={{ height: "362px" }} alt="" />
+                                        style={{ height: "362px",objectFit:"cover" }} alt="" />
                                     <div className="shape-overlay poa">
                                         <div className="inner Industry2">
                                             <h2>Pre-Construction Visualization </h2>
@@ -206,11 +206,11 @@ const RaidenArcvizComponent = ({ vidio }) => {
                                 data-aos="fade-up"
                                 data-aos-delay="300"
                             >
-                                <div className="img-file por">
+                                <div className="img-file por raiden_arcviz_div">
                                     <img className="img-fluid"
                                         src="/assets/img/Arcviz/Frame 31.jpg"
-                                        style={{ height: "362px" }} alt="" />
-                                    <div className="shape-overlay poa">
+                                        style={{ height: "362px",objectFit:"cover" }} alt="" />
+                                    <div className="shape-overlay poa ">
                                         <div className="inner Industry2">
                                             <h2>Engaging Marketing <br /> Solutions</h2>
 
