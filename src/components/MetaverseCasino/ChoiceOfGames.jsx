@@ -1,11 +1,9 @@
 import React, { useRef, useState } from 'react'
 import Slider from 'react-slick';
-import bg_image1 from "../../images/2151007782.jpg"
-import bg_image2 from "../../images/2150926681.jpg"
-import bg_image3 from "../../images/2151007764.jpg"
-import bg_image4 from "../../images/2151007741.jpg"
-
-import { Link } from 'react-router-dom';
+import bg_image1 from "../../images/VEGA_CLASSIC.jpg"
+import bg_image2 from "../../images/vegaslots.jpg"
+import bg_image3 from "../../images/vega-table.jpg"
+import bg_image4 from "../../images/vegaspeciality.jpg"
 
 function ChoiceOfGames() {
 
@@ -79,7 +77,7 @@ function ChoiceOfGames() {
     return (
         <section>
             <div className="cogni_benefits_section choicegame_main_div">
-                <h2 className="auto-container">Choice of <span style={{color:"#57E400"}}>Games</span></h2>
+                <h2 className="auto-container">Choice of <span style={{ color: "#57E400" }}>Games</span></h2>
                 <p className='choicegame_main_p'>Discover a diverse array of thrilling games awaiting you at VirtualVegas. From classic casino favorites to innovative virtual reality experiences, our platform offers something for every type of player. </p>
                 <div className="coice-link-div">
                     <h6 className={classic ? "Choice_active" : "Choice_active_div"} onClick={ClassicHandle}>CLASSIC</h6>

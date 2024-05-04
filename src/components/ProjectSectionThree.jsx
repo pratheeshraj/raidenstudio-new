@@ -89,7 +89,7 @@ const ProjectSectionThree = () => {
                 <div className="img-file por">
                   <img
                     className="img-fluid"
-                    src="/assets/img/product/CASINOGAMES.jpg"
+                    src="/assets/img/product/cogni.jpg"
                     alt=""
                   />
                   <div className="shape-overlay poa">

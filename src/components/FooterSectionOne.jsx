@@ -109,10 +109,10 @@ const FooterSectionOne = () => {
               <div className="col-lg-4 col-md-6 col-12 ">
                 <div className="footer-wrapper three mt-4 mt-lg-0 footer_one_div" >
                   <h2 className="title india_fla_div" data-aos="fade-up" data-aos-delay="200">
-                    <img className="india_flag" src="\assets\img\Flag\india.webp" alt="" /> INDIA
+                    <img className="india_flag" src="\assets\img\Flag\india.webp" alt="" /> COIMBATORE
                   </h2>
                   <ul data-aos="fade-up" data-aos-delay="300">
-                    <li>No: 5 Namachivaya Nagar, Opp KGISL Tech park, Saravanampatti, Coimbatore,</li>
+                    <li>No: 5 Namachivaya Nagar,  <br />  Opp KGISL Tech park,<br /> Saravanampatti, Coimbatore,</li>
                     <li>TamilNadu - 641035</li>
                     <li><a style={{ marginBottom: "" }} href="mailto:info@raiden.studio" id="footer-mail-india" data-gtmeventaction="IndiaContactMailClicked"><i class="fa fa-envelope footer_icon"></i>info@raiden.studio</a></li>
                     <li className="phone"><i class="fa fa-phone footer_icon"></i>  +91 98840 36062</li>
@@ -122,10 +122,10 @@ const FooterSectionOne = () => {
               <div className="col-lg-4 col-md-6 col-12 ">
                 <div className="footer-wrapper three mt-4 mt-lg-0 footer_one_div">
                   <h2 className="title india_fla_div" data-aos="fade-up" data-aos-delay="200">
-                    <img className="india_flag" src="\assets\img\Flag\india.webp" alt="" /> INDIA
+                    <img className="india_flag" src="\assets\img\Flag\india.webp" alt="" /> MADURAI
                   </h2>
                   <ul data-aos="fade-up" data-aos-delay="300">
-                    <li>C37, Brindavan Street, Thiru Nagar, Madurai,</li>
+                    <li>C37, Brindavan Street, <br /> Thiru Nagar, Madurai,</li>
                     <li>TamilNadu - 625006</li>
                     {/* <li><a style={{ marginBottom: "" }} href="mailto:info@raiden.studio" id="footer-mail-india" data-gtmeventaction="IndiaContactMailClicked"><i class="fa fa-envelope footer_icon"></i>info@raiden.studio</a></li>
                     <li className="phone"><i class="fa fa-phone footer_icon"></i>  +91 98840 36062</li> */}
@@ -135,11 +135,11 @@ const FooterSectionOne = () => {
               <div className="col-lg-4 col-md-6 col-12 ">
                 <div className="footer-wrapper three mt-4 mt-lg-0 footer_one_div">
                   <h2 className="title india_fla_div" data-aos="fade-up" data-aos-delay="200">
-                    <img className="india_flag" src="\assets\img\Flag\eroupe.jpg" alt="" /> EUROPE
+                    <img className="india_flag" src="\assets\img\Flag\india.webp" alt="" /> CHENNAI
                   </h2>
                   <ul data-aos="fade-up" data-aos-delay="300">
-                    <li>No: 5 Namachivaya Nagar, Opp KGISL Tech park, Saravanampatti, Coimbatore,</li>
-                    <li>TamilNadu - 641035</li>
+                    <li>No 990, TNHB Main Road & Colony,<br /> West Velachery, </li>
+                    <li>Chennai - 600042</li>
                     {/* <li><a style={{ marginBottom: "" }} href="mailto:info@raiden.studio" id="footer-mail-india" data-gtmeventaction="IndiaContactMailClicked"><i class="fa fa-envelope footer_icon"></i>info@raiden.studio</a></li>
                     <li className="phone"><i class="fa fa-phone footer_icon"></i>  +91 98840 36062</li> */}
                   </ul>
