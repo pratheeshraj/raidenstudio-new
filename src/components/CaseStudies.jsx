@@ -2,13 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 
-
-
 const GameDescription = ({ htmlString }) => {
-  return (
-    <div dangerouslySetInnerHTML={{ __html: htmlString }} />
-  );
-}
+  return <div dangerouslySetInnerHTML={{ __html: htmlString }} />;
+};
 
 const CaseStudies = () => {
   const { allcaseStudy, loading } = useSelector(
@@ -18,7 +14,10 @@ const CaseStudies = () => {
   return (
     <>
       {/* Project Section two start */}
-      <section className="project-section two" style={{ background: "#F8F9FA" }}>
+      <section
+        className="project-section two"
+        style={{ background: "#F8F9FA" }}
+      >
         <div className="auto-container">
           <div className="row">
             <div className="col-12">
@@ -43,27 +42,31 @@ const CaseStudies = () => {
           <div className="row">
             {allcaseStudy?.slice(0, 6).map((data, index) => {
               return (
+
                 <div className="col-xl-4 col-md-6">
                   <div
                     className="project-wrapper "
                     data-aos="fade-up"
                     data-aos-delay="200"
+                    style={{height:"200px"}}
                   >
-                    <img
-                      className="img-fluid"
-                      style={{ height: "250px", objectFit: "cover" }}
-                      src={data?.imageurl}
-                      alt=""
-                    />
-                    <div className="shape-overlay" style={{ margin: "65px 35px" }}>
-                      <h3>
-                        {`${data?.mainheading.substring(0, 20)}...`}
-                      </h3>
+                    <img className="img-fluid" src={data?.imageurl} alt=""  style={{objectFit:"cover" ,height:"100%"}}/>
+                    <div className="shape-overlay">
+                      <h3>{`${data?.mainheading.substring(0, 20)}...`}</h3>
                       <p>
-                        <GameDescription htmlString={`${data?.challenge_content.substring(0, 55)}...`} />
+                        <GameDescription
+                          htmlString={`${data?.challenge_content.substring(
+                            0,
+                            55
+                          )}...`}
+                        />
                       </p>
                       <div className="d-flex justify-content-center">
-                        <Link className="default-btn" Link to={`/case-study-detail/${data.url}`}>
+                        <Link
+                          className="default-btn"
+                          Link
+                          to={`/case-study-detail/${data.url}`}
+                        >
                           Learn More
                         </Link>
                       </div>
@@ -87,9 +90,11 @@ const CaseStudies = () => {
             src="/assets/img/shape/09_shape.png"
             alt=""
           />
-          <img class="shape-7 poa"
+          <img
+            class="shape-7 poa"
             src="/assets/img/shape/05_shape.png"
-            alt="" />
+            alt=""
+          />
         </div>
       </section>
       {/* Project Section two end */}
