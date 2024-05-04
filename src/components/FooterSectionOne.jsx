@@ -148,7 +148,7 @@ const FooterSectionOne = () => {
                   <ul className="footer_mail_phone" data-aos="fade-up" data-aos-delay="300">
                     <li><a style={{ marginBottom: "" }} href="mailto:info@raiden.studio" id="footer-mail-india" data-gtmeventaction="IndiaContactMailClicked"><i class="fa fa-envelope footer_icon"></i>info@raiden.studio</a></li>
                     <li className="phone"><i class="fa fa-phone footer_icon"></i>  +91 98840 36062</li>
-                    <li className="phone"><i class="fa fa-phone footer_icon"></i>  +91 98840 36062</li>
+                    <li className="phone"><i style={{ fontSize: "20px" }} class="fa-brands fa-telegram footer_icon" ></i> +91 98840 36062</li>
                   </ul>
                 </div>
               </div>
