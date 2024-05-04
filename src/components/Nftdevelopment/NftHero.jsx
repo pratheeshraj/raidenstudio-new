@@ -70,7 +70,7 @@ const NftHero = () => {
                           <div className="inner-btn">
                             <div>
                               <Link style={{ background: "#00E9E2" }} className="default-btn" to="/contact-us">
-                                Explore Now
+                                Contact Now
                               </Link>
                             </div>
                           </div>
@@ -80,7 +80,7 @@ const NftHero = () => {
                     <div className="col-xl-5">
                       <div className="slider-content-inner-right">
                         <div className="img-wrapper" style={{ overflow: "none" }}>
-                          <img src="assets/img/bg-image/cat-frame-img-transformed-removebg.png" alt="" ref={heroImageRef} />
+                          <img style={{ height: "380px" }} src="assets/img/bg-image/cat-frame-img-transformed-removebg.png" alt="" ref={heroImageRef} />
                         </div>
                       </div>
                     </div>

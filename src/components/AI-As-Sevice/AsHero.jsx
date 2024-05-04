@@ -49,7 +49,7 @@ const AsHero = () => {
                                                     <div className="inner-btn" >
                                                         <div>
                                                             <Link style={{ background: "#5AA9C3" }} className="default-btn" to="/contact-us">
-                                                                Explore Now
+                                                                Contact Now
                                                             </Link>
                                                         </div>
                                                     </div>

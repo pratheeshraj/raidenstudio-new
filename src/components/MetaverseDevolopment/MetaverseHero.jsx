@@ -48,7 +48,7 @@ const MetaverseHero = () => {
                                                     <div className="inner-btn" >
                                                         <div>
                                                             <Link style={{ background: "#00ECE5" }} className="default-btn" to="/contact-us">
-                                                                Explore Now
+                                                                Contact Now
                                                             </Link>
                                                         </div>
                                                     </div>

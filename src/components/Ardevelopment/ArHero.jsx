@@ -49,7 +49,7 @@ const ArHero = () => {
                                                     <div className="inner-btn" >
                                                         <div>
                                                             <Link style={{ background: "#4AA4DA" }} className="default-btn" to="/contact-us">
-                                                                Explore Now
+                                                                Contact Now
                                                             </Link>
                                                         </div>
                                                     </div>

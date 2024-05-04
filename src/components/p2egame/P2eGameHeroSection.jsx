@@ -21,7 +21,7 @@ const P2eGameHeroSection = () => {
               className="default-btn"
               style={{ backgroundColor: "#F09C1F" }}
             >
-              Explore Now
+              Contact Now
             </button>
           </div>
         </div>

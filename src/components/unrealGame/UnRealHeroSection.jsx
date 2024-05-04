@@ -21,7 +21,7 @@ const UnRealHeroSection = () => {
               className="default-btn"
               style={{ backgroundColor: "#BEAB59" }}
             >
-              Explore Now
+              Contact Now
             </button>
           </div>
           {/* <div className="right" data-aos="fade-left" data-aos-delay="300">

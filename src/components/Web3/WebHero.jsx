@@ -50,7 +50,7 @@ const WebHero = () => {
                                                     <div className="inner-btn" >
                                                         <div>
                                                             <Link style={{ background: "#E052D1" }} className="default-btn" to="/contact-us">
-                                                                Explore Now
+                                                                Contact Now
                                                             </Link>
                                                         </div>
                                                     </div>

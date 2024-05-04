@@ -122,7 +122,7 @@ const RaidenSimXContent = () => {
             </div>
           </div>
         </div>
-    
+
       </section>
       <section>
         <div
@@ -205,7 +205,7 @@ const RaidenSimXContent = () => {
                 <div>Education</div>
               </div>
               <div className="feature_card idustry" style={{ width: "186px" }}>
-                <img src='/assets/img/nftindustries/manufacturing.svg' />
+                <img src='/assets/img/industries/manu.svg' />
                 <div>Manufacturing</div>
               </div>
               <div className="feature_card idustry" style={{ width: "186px" }}>
