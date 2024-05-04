@@ -115,7 +115,7 @@
     opacity: 0;
     visibility: hidden;
     background: #fff;
-    fill: #0462df;
+    fill: #0274b3;
     padding: 12px;
     border-radius: 50px;
     transition: opacity 0.3s, visibility 0.3s, top 0.3s, background 0.3s;
@@ -136,7 +136,7 @@
 }
 
 .tooltip-container:hover .tooltip2:hover {
-    background: #0462df;
+    background: #0274b3;
     fill: #fff;
 }
 

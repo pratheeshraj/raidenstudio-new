@@ -212,7 +212,6 @@ const RaidenCogniContent = () => {
                 <div className="wrapper-inner one">
                   <div className="img-file">
                     <img
-                      style={{ scale: "0.9" }}
                       src="\assets\img\raidenCogni\cogni keyfea (1)\realistic.svg"
                       alt=""
                     />
@@ -241,7 +240,6 @@ const RaidenCogniContent = () => {
                 <div className="wrapper-inner one">
                   <div className="img-file">
                     <img
-                      style={{ scale: "1.1" }}
                       src="\assets\img\raidenCogni\cogni keyfea (1)\data.svg"
                       alt=""
                     />
@@ -529,6 +527,7 @@ const RaidenCogniContent = () => {
                 <img
                   src={"/assets/img/raidenCogni/cogni lesson for (1)/joint.svg"}
                   alt=""
+                  style={{ scale: "0.9" }}
                 />
               </div>
               <h6>Joint Attention</h6>
@@ -544,6 +543,7 @@ const RaidenCogniContent = () => {
                 <img
                   src="\assets\img\raidenCogni\cogni lesson for (1)\imitation.svg"
                   alt=""
+                  style={{ scale: "0.9" }}
                 />
               </div>
               <h6>Imitation</h6>
@@ -559,6 +559,8 @@ const RaidenCogniContent = () => {
                 <img
                   src="\assets\img\raidenCogni\cogni lesson for (1)\gesture.svg"
                   alt=""
+                  style={{ scale: "0.9" }}
+
                 />
               </div>
               <h6>Gestures</h6>
@@ -574,6 +576,8 @@ const RaidenCogniContent = () => {
                 <img
                   src="\assets\img\raidenCogni\cogni lesson for (1)\street.svg"
                   alt=""
+                  style={{ scale: "0.9" }}
+
                 />
               </div>
               <h6>Street Crossing</h6>
@@ -589,6 +593,8 @@ const RaidenCogniContent = () => {
                 <img
                   src="\assets\img\raidenCogni\cogni lesson for (1)\noun-hallway-3310023.svg"
                   alt=""
+                  style={{ scale: "0.9" }}
+
                 />
               </div>
               <h6>School Hallway</h6>
@@ -604,6 +610,8 @@ const RaidenCogniContent = () => {
                 <img
                   src="\assets\img\raidenCogni\cogni lesson for (1)\hallwaysmall.svg"
                   alt=""
+                  style={{ scale: "0.9" }}
+
                 />
               </div>
               <h6>Hallway Small Talk</h6>
@@ -619,6 +627,8 @@ const RaidenCogniContent = () => {
                 <img
                   src="\assets\img\raidenCogni\cogni lesson for (1)\cafeteria.svg"
                   alt=""
+                  style={{ scale: "0.9" }}
+
                 />
               </div>
               <h6>Cafeteria Social Skills</h6>
@@ -633,6 +643,8 @@ const RaidenCogniContent = () => {
                 <img
                   src="\assets\img\raidenCogni\cogni lesson for (1)\mindful.svg"
                   alt=""
+                  style={{ scale: "0.9" }}
+
                 />
               </div>
               <h6>Mindful Thinking</h6>
@@ -648,6 +660,8 @@ const RaidenCogniContent = () => {
                 <img
                   src="\assets\img\raidenCogni\cogni lesson for (1)\classrroom.svg"
                   alt=""
+                  style={{ scale: "0.9" }}
+
                 />
               </div>
               <h6>Classroom Social</h6>

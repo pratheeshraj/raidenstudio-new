@@ -461,7 +461,6 @@
     display: flex;
     justify-content: space-between;
     padding: 80px 40px;
-    align-items: center;
     border: 1px solid #424242;
     position: relative;
     flex-wrap: wrap;
@@ -485,4 +484,21 @@
 
 .footer_one_div {
     padding: 0 20px;
+}
+
+.footer_link {
+    color: #13C4A1;
+
+}
+
+.india_fla_div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.india_flag {
+    width: 25px;
+    object-fit: cover;
+    /* border-radius: 50%; */
 }

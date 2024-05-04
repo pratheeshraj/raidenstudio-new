@@ -104,10 +104,10 @@ const MetaverseRoyalContent = () => {
           <div className="auto-container metaverseroyal_hero_container">
             <div className="left" data-aos="fade-right" data-aos-delay="300">
               <h2>
-                MetaVerse <span style={{color:"#2BFEF8"}}>Royale</span>
+                MetaVerse <span style={{ color: "#2BFEF8" }}>Royale</span>
               </h2>
               <p className="Hero_sub_heading">
-                Revolutionizes gaming with a customizable,<br/>
+                Revolutionizes gaming with a customizable,<br />
                 immersive Battle Royale experience in the Metaverse.
               </p>
             </div>
@@ -123,7 +123,7 @@ const MetaverseRoyalContent = () => {
       >
         <h2>
           Advanced Cutting Edge <br />{" "}
-          <span style={{ color: "#00ECE5" }}>Technology </span>,
+          <span style={{ color: "#00ECE5" }}>Technology</span>,
           <span style={{ color: "#00ECE5" }}> Streaming</span>, and <br />
           <span style={{ color: "#00ECE5" }}>
             {" "}
@@ -1048,11 +1048,11 @@ const MetaverseRoyalContent = () => {
         </div>
       </section>
       <section>
-        <div className="container-fluid Royal_section8" style={{background:"white"}}>
-          <h2 style={{color:"black", marginBottom:"10px"}} className="auto-container">
+        <div className="container-fluid Royal_section8" style={{ background: "white" }}>
+          <h2 style={{ color: "black", marginBottom: "10px" }} className="auto-container">
             Why <span style={{ color: "#00ECE5" }} >us</span>
           </h2>
-          <p style={{color:"black"}} className="auto-container">
+          <p style={{ color: "black" }} className="auto-container">
             Celebrate Your Journey with Us: Discover Why MetaVerse Royale is
             Your Ultimate Destination for Unforgettable Gaming Experiences!
           </p>
@@ -1062,25 +1062,25 @@ const MetaverseRoyalContent = () => {
               data-aos="fade-right"
               data-aos-delay="300"
             >
-              <p style={{color: advanced ? "white" : "black"}}
+              <p style={{ color: advanced ? "white" : "black" }}
                 className={advanced ? "section8_card_border" : ""}
                 onClick={handleAdvanced}
               >
                 Game Engine Expertise
               </p>
-              <p style={{color: enhancements ? "white" : "black"}}
+              <p style={{ color: enhancements ? "white" : "black" }}
                 className={enhancements ? "section8_card_border" : ""}
                 onClick={handleEnhancements}
               >
                 UI & UX
               </p>
-              <p style={{color: measures ? "white" : "black"}}
+              <p style={{ color: measures ? "white" : "black" }}
                 className={measures ? "section8_card_border" : ""}
                 onClick={handleMeasures}
               >
                 Monetization
               </p>
-              <p style={{color: business ? "white" : "black"}}
+              <p style={{ color: business ? "white" : "black" }}
                 className={business ? "section8_card_border" : ""}
                 onClick={handleBusiness}
               >
@@ -1354,10 +1354,10 @@ const MetaverseRoyalContent = () => {
                 data-aos="fade-right"
                 data-aos-delay="300"
               >
-                <h3>FAQ</h3>
-                  <h2>Answers At <span style={{ color: "#00ECE5" }}>A Glance</span></h2>
+                <h3 style={{ color: "#00ECE5" }}>FAQ</h3>
+                <h2>Answers At <span style={{ color: "#00ECE5" }}>A <br />Glance</span></h2>
                 <p style={{ marginBottom: "20px" }}>
-                Find quick solutions and insights to common queries and concerns about our casino with our comprehensive FAQ section.
+                  Find quick solutions and insights to common queries and concerns about our casino with our comprehensive FAQ section.
                 </p>
               </div>
               <div
@@ -1372,7 +1372,7 @@ const MetaverseRoyalContent = () => {
                 />
               </div>
             </div>
-            <div className="col-lg-6" style={{marginTop:"147px"}}>
+            <div className="col-lg-6" style={{ marginTop: "192px" }}>
               <div
                 className="faq-inner "
                 data-aos="fade-left"
@@ -1502,12 +1502,12 @@ const MetaverseRoyalContent = () => {
           </div>
         </div>
         <div className="shape-image">
-          <div className="shape-img-2 poa">
+          {/* <div className="shape-img-2 poa">
             <img src="/assets/img/icon/64_icon.png" alt="" />
           </div>
           <div className="shape-img-5 poa">
             <img src="/assets/img/icon/26_icon.png" alt="" />
-          </div>
+          </div> */}
           <div className="shape-img-8 poa">
             <img src="/assets/img/icon/71_icon.png" alt="" />
           </div>

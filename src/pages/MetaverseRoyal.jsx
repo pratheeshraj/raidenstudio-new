@@ -19,15 +19,15 @@ const MetaverseRoyal = () => {
   return (
     <Fragment>
       <Suspense>
-      <HelmetReact
+        <HelmetReact
           title={metadata[0]?.meta_title}
           description={metadata[0]?.meta_dec}
           keywords={metadata[0]?.meta_keyword}
           ogimage={metadata[0]?.og_image}
         />
         <HeaderTwo />
-        <MetaverseRoyalContent/>
-        <NewsSectionOne />
+        <MetaverseRoyalContent />
+        <NewsSectionOne color={"#00ECE5"} buttoncolor={"#00ECE5"} />
         <FooterSectionOne />
       </Suspense>
     </Fragment>

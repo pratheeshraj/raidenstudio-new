@@ -53,15 +53,15 @@
               font-size: 15px;
               position: relative;
               transition: all 0.3s linear;
-              padding-left: 15px;
+              // padding-left: 15px;
               &::after {
-                font-family: "Font Awesome 5 Pro";
-                content: "\f324";
-                position: absolute;
-                left: 0;
-                top: -3px;
-                transition: all 0.3s linear;
-                font-size: 12px;
+                // font-family: "Font Awesome 5 Pro";
+                // content: "\f324";
+                // position: absolute;
+                // left: 0;
+                // top: -3px;
+                // transition: all 0.3s linear;
+                // font-size: 12px;
               }
               &:hover {
                 color: var(--theme-1);
