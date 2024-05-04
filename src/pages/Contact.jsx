@@ -35,7 +35,7 @@ const Contact = () => {
         {/* Header one */}
         <HeaderTwo />
         {/* Breadcrumb */}
-        <Breadcrumb data={"Contact"} img={"url('/assets/img/bg-image/Frame 69.jpg')"} />
+        <Breadcrumb data={"Contact"} img={"url('/assets/img/bg-image/Frame 69.jpg')"} paragraph={"Let’s talk & work together"} />
         {/* Contact Section */}
         <ContactSection />
         {/* News Section One */}

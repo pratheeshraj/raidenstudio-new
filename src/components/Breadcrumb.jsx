@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Breadcrumb = ({ data,img }) => {
+const Breadcrumb = ({ data, img, paragraph }) => {
   return (
     <>
       {/* Breadcrumb Section Start */}
@@ -15,9 +15,10 @@ const Breadcrumb = ({ data,img }) => {
           <div className="row">
             <div className="col-12">
               <div className="breadcrumb-inner">
-                <h2 style={{textAlign:"center"}} data-aos="fade-up" data-aos-delay="300">
+                <h2 style={{ textAlign: "center" }} data-aos="fade-up" data-aos-delay="300">
                   {data}
                 </h2>
+                <p style={{ textAlign: "center", marginTop: "10px" }}>{paragraph}</p>
                 <div
                   className="link-shape"
                   data-aos="fade-up"

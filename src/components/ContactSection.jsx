@@ -161,7 +161,7 @@ const ContactSection = () => {
                     data-aos="fade-up"
                     data-aos-delay="300"
                   >
-                    <label>Telegram No</label>
+                    <label>Telegram</label>
                     <input
                       type="text"
                       id="url"
