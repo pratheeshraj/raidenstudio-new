@@ -124,11 +124,6 @@ const RaidenCogniContent = () => {
             src="/assets/img/shape/14_shape.png"
             alt=""
           />
-          <img
-            className="shape-2 poa"
-            src="/assets/img/icon/84_icon.png"
-            alt=""
-          />
         </div>
       </section>
       <section className="service-section two">

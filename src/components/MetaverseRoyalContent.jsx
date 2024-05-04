@@ -1255,88 +1255,112 @@ const MetaverseRoyalContent = () => {
             )}
           </div>
           <div className="auto-container section8_responsive">
-            <p className="heading">Advanced Immersion</p>
+            <p className="heading">Game Engine Expertise</p>
             <div className="section8_card_container1">
               <div className="card8">
                 <div className="bg">
-                  <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                  <img src="\assets\img\why-us-metaverse-royale\optimizedperfor.svg" alt="" />
                 </div>
-                <p> High-Performance Game Engine Optimization</p>
+                <p> Optimized Performance</p>
               </div>
               <div className="card8">
                 <div className="bg">
-                  <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                  <img src="\assets\img\why-us-metaverse-royale\crossplatform.svg" alt="" />
                 </div>
-                <p> Realistic Physics and Environmental Effects</p>
+                <p> Cross-Platform Compatibility</p>
               </div>
               <div className="card8">
                 <div className="bg">
-                  <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                  <img src="\assets\img\why-us-metaverse-royale\dynamicenvire.svg" alt="" />
                 </div>
-                <p> Scalable Backend Infrastructure</p>
+                <p> Dynamic Environments</p>
+              </div>
+              <div className="card8">
+                <div className="bg">
+                  <img src="\assets\img\why-us-metaverse-royale\futureproof.svg" alt="" />
+                </div>
+                <p> Future-Proof Technology</p>
               </div>
             </div>
-            <p className="heading">UI & UX Enhancements</p>
+            <p className="heading">UI & UX</p>
             <div className="section8_card_container1">
               <div className="card8">
                 <div className="bg">
-                  <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                  <img src="\assets\img\why-us-metaverse-royale\inituiative.svg" alt="" />
                 </div>
-                <p> Intuitive User Interface Design</p>
+                <p>Intuitive Design</p>
               </div>
               <div className="card8">
                 <div className="bg">
-                  <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                  <img src="\assets\img\why-us-metaverse-royale\immersive.svg" alt="" />
                 </div>
-                <p> Personalized Player Experiences</p>
+                <p>Immersive Experience</p>
               </div>
               <div className="card8">
                 <div className="bg">
-                  <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                  <img src="\assets\img\why-us-metaverse-royale\customozat.svg" alt="" />
                 </div>
-                <p> Immersive User Experience</p>
+                <p>Customizable Interfaces</p>
+              </div>
+              <div className="card8">
+                <div className="bg">
+                  <img src="\assets\img\why-us-metaverse-royale\accessibility.svg" alt="" />
+                </div>
+                <p>Accessibility Features</p>
               </div>
             </div>
-            <p className="heading">Security Measures</p>
+            <p className="heading">Monetization</p>
             <div className="section8_card_container1">
               <div className="card8">
                 <div className="bg">
-                  <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                  <img src="\assets\img\why-us-metaverse-royale\flexible.svg" alt="" />
                 </div>
-                <p> Blockchain-Powered Asset Security</p>
+                <p> Flexible Revenue Models</p>
               </div>
               <div className="card8">
                 <div className="bg">
-                  <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                  <img src="\assets\img\why-us-metaverse-royale\revenueopti.svg" alt="" />
                 </div>
-                <p> End-to-End Encryption</p>
+                <p> Revenue Optimization Tools</p>
               </div>
               <div className="card8">
                 <div className="bg">
-                  <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                  <img src="\assets\img\why-us-metaverse-royale\blockchain.svg" alt="" />
                 </div>
-                <p> Multi-Factor Authentication (MFA)</p>
+                <p> Blockchain-Based Economies</p>
+              </div>
+              <div className="card8">
+                <div className="bg">
+                  <img src="\assets\img\why-us-metaverse-royale\communi.svg" alt="" />
+                </div>
+                <p>Community Engagement</p>
               </div>
             </div>
-            <p className="heading">Business Aspects</p>
+            <p className="heading">supports</p>
             <div className="section8_card_container1">
               <div className="card8">
                 <div className="bg">
-                  <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                  <img src="\assets\img\why-us-metaverse-royale\custmizable.svg" alt="" />
                 </div>
-                <p> Monetization Strategies</p>
+                <p>Customizable Gameplay Mechanics</p>
               </div>
               <div className="card8">
                 <div className="bg">
-                  <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                  <img src="\assets\img\why-us-metaverse-royale\personalizedconten.svg" alt="" />
                 </div>
-                <p> Licensing and White Label Solutions</p>
+                <p>Personalized Content Creation</p>
               </div>
               <div className="card8">
                 <div className="bg">
-                  <img src="/assets/img/whychooseusnft/client.svg" alt="" />
+                  <img src="\assets\img\why-us-metaverse-royale\communi.svg" alt="" />
                 </div>
-                <p> Data Analytics and Insights</p>
+                <p>Community Collaboration</p>
+              </div>
+              <div className="card8">
+                <div className="bg">
+                  <img src="\assets\img\why-us-metaverse-royale\custumer24-7.svg" alt="" />
+                </div>
+                <p>24/7 supports</p>
               </div>
             </div>
           </div>
@@ -1372,7 +1396,7 @@ const MetaverseRoyalContent = () => {
                 />
               </div>
             </div>
-            <div className="col-lg-6" style={{ marginTop: "192px" }}>
+            <div className="col-lg-6 metaverse-faq" style={{ marginTop: "192px" }}>
               <div
                 className="faq-inner "
                 data-aos="fade-left"
