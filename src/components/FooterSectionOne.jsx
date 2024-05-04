@@ -114,8 +114,6 @@ const FooterSectionOne = () => {
                   <ul data-aos="fade-up" data-aos-delay="300">
                     <li>No: 5 Namachivaya Nagar,  <br />  Opp KGISL Tech park,<br /> Saravanampatti, Coimbatore,</li>
                     <li>TamilNadu - 641035</li>
-                    <li><a style={{ marginBottom: "" }} href="mailto:info@raiden.studio" id="footer-mail-india" data-gtmeventaction="IndiaContactMailClicked"><i class="fa fa-envelope footer_icon"></i>info@raiden.studio</a></li>
-                    <li className="phone"><i class="fa fa-phone footer_icon"></i>  +91 98840 36062</li>
                   </ul>
                 </div>
               </div>
@@ -145,46 +143,16 @@ const FooterSectionOne = () => {
                   </ul>
                 </div>
               </div>
-            </div>
-            {/* <div className="col-lg-4 col-md-6 col-12">
-              <div className="footer-wrapper two mt-4 mt-lg-0 ">
-                <h2 className="title" data-aos="fade-up" data-aos-delay="200">
-                  Resourses
-                </h2>
-                <ul data-aos="fade-up" data-aos-delay="300">
-                  <li>
-                    <Link to="/blog">Blog</Link>
-                  </li>
-                  <li>
-                    <Link to="/case-studies">Case Studies</Link>
-                  </li>
-                </ul>
+              <div className="col-lg-12 col-md-12 col-12 ">
+                <div className="footer-wrapper three mt-4 mt-lg-0 footer_one_div">
+                  <ul className="footer_mail_phone" data-aos="fade-up" data-aos-delay="300">
+                    <li><a style={{ marginBottom: "" }} href="mailto:info@raiden.studio" id="footer-mail-india" data-gtmeventaction="IndiaContactMailClicked"><i class="fa fa-envelope footer_icon"></i>info@raiden.studio</a></li>
+                    <li className="phone"><i class="fa fa-phone footer_icon"></i>  +91 98840 36062</li>
+                    <li className="phone"><i class="fa fa-phone footer_icon"></i>  +91 98840 36062</li>
+                  </ul>
+                </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-12">
-              <div className="footer-wrapper three mt-4 mt-lg-0">
-                <h2 className="title" data-aos="fade-up" data-aos-delay="200">
-                  Head Office
-                </h2>
-                <ul data-aos="fade-up" data-aos-delay="300">
-                  <li>Saravanampatti , Coimbatore</li>
-                  <li>info@raiden.studio</li>
-                  <li className="phone"> +91 98840 36062</li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-12">
-              <div className="footer-wrapper three mt-4 mt-lg-0">
-                <h2 className="title" data-aos="fade-up" data-aos-delay="200">
-                  Office
-                </h2>
-                <ul data-aos="fade-up" data-aos-delay="300">
-                  <li>Thiru Nagar , Madurai</li>
-                  <li>info@raiden.studio</li>
-                  <li className="phone"> +91 98840 36062</li>
-                </ul>
-              </div>
-            </div> */}
           </div>
           <div className="row">
             <div style={{ padding: "0" }} className="col-12">
