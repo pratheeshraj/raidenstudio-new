@@ -230,8 +230,8 @@ const ContactSection = () => {
                 </div>
                 <div className="view">
                   <h3>Office</h3>
-                  <p>Thiru Nagar , Madurai</p>
-                  <p>TamilNadu</p>
+                  <p>C37, Brindavan Street, Thiru Nagar, Madurai,</p>
+                  <p>TamilNadu - 625006</p>
                 </div>
               </div>
             </div>
