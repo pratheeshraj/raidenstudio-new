@@ -36,8 +36,8 @@
 }
 
 .NavBottom_content img {
-    width: 40px;
-    margin-left: 10px;
+    width: 35px;
+    margin: 17.35px 24px;
 }
 
 @media screen and (max-width: 500px) {
