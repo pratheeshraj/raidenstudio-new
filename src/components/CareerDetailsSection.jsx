@@ -8,10 +8,10 @@ import { RotatingLines } from "react-loader-spinner";
 
 const CareerDetailsSection = () => {
   const [name, setName] = useState("");
-  
+
   const params = useParams();
   const dispatch = useDispatch();
-  const {loading} =useSelector((state)=>state.careerState)
+  const { loading } = useSelector((state) => state.careerState)
   const [errorName, setErrorName] = useState(false);
   const [email, setEmail] = useState("");
   const [emailError, EmailErrorName] = useState(false);
@@ -118,7 +118,7 @@ const CareerDetailsSection = () => {
         <div className="container-fluid career_content_section">
           <div className="container career_content">
             <h3>We are on a continuous lookout for young & aspiring minds</h3>
-            <p>
+            <p style={{ textAlign: "center" }}>
               raiden Believes that talent has no correlation with experience,
               hence we look forward in providing opportunities to the budding
               Techies. all we look at is excellence rather than experience.
@@ -141,26 +141,26 @@ const CareerDetailsSection = () => {
             <div className="button">
               {" "}
               <button
-                    className="default-btn career_btn"
-                    value={"submit"}
-                    type="submit"
-                  >
+                className="default-btn career_btn"
+                value={"submit"}
+                type="submit"
+              >
                 {
-                  loading?
-                  <RotatingLines
-                  visible={true}
-                  height="30"
-                  width="30"
-                  color="grey"
-                  strokeWidth="5"
-                  strokeColor="white"
-                  animationDuration="0.75"
-                  ariaLabel="rotating-lines-loading"
-                  wrapperStyle={{}}
-                  wrapperClass=""
-                  />:" APPLY NOW"
+                  loading ?
+                    <RotatingLines
+                      visible={true}
+                      height="30"
+                      width="30"
+                      color="grey"
+                      strokeWidth="5"
+                      strokeColor="white"
+                      animationDuration="0.75"
+                      ariaLabel="rotating-lines-loading"
+                      wrapperStyle={{}}
+                      wrapperClass=""
+                    /> : " APPLY NOW"
                 }
-                  </button>
+              </button>
             </div>
           </div>
         </div>
